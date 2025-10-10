@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
+import Link from 'next/link'
 
 export default async function TestAuthPage() {
   const supabase = await createClient()
@@ -72,13 +73,13 @@ export default async function TestAuthPage() {
               <div className="text-center py-8">
                 <p className="text-gray-600 dark:text-gray-400">
                   No user logged in. Visit{' '}
-                  <a href="/login" className="text-blue-600 hover:underline">
+                  <Link href="/login" className="text-blue-600 hover:underline">
                     /login
-                  </a>{' '}
+                  </Link>{' '}
                   or{' '}
-                  <a href="/signup" className="text-blue-600 hover:underline">
+                  <Link href="/signup" className="text-blue-600 hover:underline">
                     /signup
-                  </a>
+                  </Link>
                 </p>
               </div>
             )}
@@ -156,30 +157,30 @@ export default async function TestAuthPage() {
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="flex gap-2">
-              <a
+              <Link
                 href="/"
                 className="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded hover:bg-gray-300 dark:hover:bg-gray-600"
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/login"
                 className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
               >
                 Login
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/signup"
                 className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
               >
                 Signup
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/decks"
                 className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
               >
                 Decks (Protected)
-              </a>
+              </Link>
             </div>
           </CardContent>
         </Card>
