@@ -1,8 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -11,14 +11,22 @@ import { Brain } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 import { translations } from '@/types'
 
-export default function LoginPage() {
+function LoginForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
+  const searchParams = useSearchParams()
   const supabase = createClient()
   const t = translations.auth
+
+  useEffect(() => {
+    const errorParam = searchParams.get('error')
+    if (errorParam === 'confirmation_failed') {
+      setError('Confirmarea emailului a eșuat. Te rugăm să încerci din nou sau să contactezi suportul.')
+    }
+  }, [searchParams])
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -128,5 +136,20 @@ export default function LoginPage() {
         </CardContent>
       </Card>
     </div>
+  )
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 flex items-center justify-center">
+        <div className="text-center">
+          <Brain className="w-12 h-12 text-blue-600 animate-pulse mx-auto mb-4" />
+          <p className="text-gray-600 dark:text-gray-400">Se încarcă...</p>
+        </div>
+      </div>
+    }>
+      <LoginForm />
+    </Suspense>
   )
 }
