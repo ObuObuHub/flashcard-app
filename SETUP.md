@@ -60,7 +60,35 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 3. Salvează fișierul
 
-## ✅ Pasul 5: Testează Conexiunea
+## ✅ Pasul 5: Configurează URL-urile Supabase (OBLIGATORIU) ⚠️
+
+**IMPORTANT**: Fără acest pas, autentificarea NU VA FUNCȚIONA!
+
+1. În Supabase Dashboard → **Authentication** → **URL Configuration**
+
+2. Setează **Site URL**:
+   ```
+   http://localhost:3000
+   ```
+   ⚠️ Obligatoriu pentru CORS!
+
+3. Adaugă **Redirect URLs** (click "Add URL"):
+   ```
+   http://localhost:3000/**
+   ```
+
+4. Click **Save** și așteaptă 30 secunde
+
+5. **Verifică configurarea**:
+   - Du-te la `http://localhost:3000/test-connection`
+   - Click "Run All Tests"
+   - Toate testele ar trebui să fie ✓ PASS
+
+### De ce e necesar?
+
+Fără această configurare, browser-ul va bloca cererile către Supabase (CORS error) și vei vedea eroarea **"Load failed"** la login.
+
+## ✅ Pasul 6: Testează Conexiunea
 
 1. Deschide terminalul în folderul proiectului
 2. Rulează:
@@ -72,7 +100,12 @@ npm run dev
 
 4. Ar trebui să vezi landing page-ul aplicației în română! 🇷🇴
 
-## 🎨 Pasul 6 (Opțional): Configurează Autentificare Email
+5. **Testează autentificarea**:
+   - Mergi la `/signup`
+   - Creează un cont de test
+   - Verifică că poți face login
+
+## 🎨 Pasul 7 (Opțional): Personalizează Email Templates
 
 Pentru ca utilizatorii să primească emailuri de confirmare:
 
@@ -83,11 +116,7 @@ Pentru ca utilizatorii să primească emailuri de confirmare:
    - Change Email
    - Reset Password
 
-3. În **Authentication** → **URL Configuration**
-   - Site URL: `http://localhost:3000` (pentru dev)
-   - Redirect URLs: `http://localhost:3000/**`
-
-## 🚀 Pasul 7: Deploy pe Vercel
+## 🚀 Pasul 8: Deploy pe Vercel
 
 ### Opțiunea 1: Vercel Dashboard
 1. Push codul pe GitHub
@@ -120,6 +149,9 @@ După deployment, verifică:
 
 ## 🐛 Troubleshooting
 
+### 🚨 Error: "Load failed" la Login
+**Soluție**: Vezi Pasul 5 - trebuie să configurezi URL-urile în Supabase!
+
 ### Error: "Invalid API Key"
 - Verifică că ai copiat cheia `anon` nu `service_role`
 - Asigură-te că nu ai spații extra în `.env.local`
@@ -145,6 +177,9 @@ rm -rf .next node_modules
 npm install
 npm run build
 ```
+
+### 📘 Mai multe probleme?
+Vezi **[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)** pentru ghid complet de rezolvare probleme!
 
 ## 📚 Resurse Utile
 

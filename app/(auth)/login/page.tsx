@@ -46,8 +46,28 @@ function LoginForm() {
         router.refresh()
       }
     } catch (err: unknown) {
+      console.error('Login error:', err)
+
       if (err instanceof Error) {
-        setError(err.message)
+        // Check for network-level errors (CORS, connection failures)
+        if (
+          err.message.includes('Failed to fetch') ||
+          err.message.includes('Load failed') ||
+          err.message.includes('NetworkError')
+        ) {
+          setError(
+            `Eroare de conexiune: Nu pot contacta serverul de autentificare.
+
+Cauze posibile:
+• Configurare CORS lipsă în Supabase
+• Probleme de rețea
+• Serverul Supabase este inaccesibil
+
+Soluție: Accesează /test-connection pentru diagnostic detaliat.`
+          )
+        } else {
+          setError(err.message)
+        }
       } else {
         setError('A apărut o eroare. Te rugăm să încerci din nou.')
       }
@@ -100,7 +120,15 @@ function LoginForm() {
 
             {error && (
               <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 px-4 py-3 rounded">
-                {error}
+                <div className="whitespace-pre-wrap">{error}</div>
+                {error.includes('test-connection') && (
+                  <Link
+                    href="/test-connection"
+                    className="inline-block mt-3 text-sm font-semibold underline hover:text-red-700 dark:hover:text-red-300"
+                  >
+                    → Deschide instrumentul de diagnostic
+                  </Link>
+                )}
               </div>
             )}
 
