@@ -28,7 +28,7 @@ export async function recordReview(cardId: string, rating: SRSRating) {
   if (!stats) throw new Error('Cartea nu a fost găsită')
 
   // Verify ownership
-  const flashcard = stats.flashcards as any
+  const flashcard = stats.flashcards as { deck_id: string; decks: { user_id: string } } | undefined
   if (flashcard?.decks?.user_id !== user.id) {
     throw new Error('Nu ai permisiunea să revizuiești această carte')
   }
@@ -37,7 +37,7 @@ export async function recordReview(cardId: string, rating: SRSRating) {
   const srsResult = calculateNextReview(rating, stats)
 
   // Use RPC function for atomic transaction (stats update + review insert)
-  const { data: result, error: rpcError } = await supabase.rpc('record_flashcard_review', {
+  const { error: rpcError } = await supabase.rpc('record_flashcard_review', {
     p_card_id: cardId,
     p_user_id: user.id,
     p_rating: rating,

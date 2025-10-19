@@ -30,6 +30,7 @@ function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; d
       await deleteFlashcard(flashcard.id)
       router.refresh()
     } catch (error) {
+      console.error('Delete flashcard error:', error)
       alert('Eroare la ștergerea cărții')
       setDeleting(false)
     }

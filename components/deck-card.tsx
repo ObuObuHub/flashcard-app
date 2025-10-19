@@ -34,6 +34,7 @@ export function DeckCard({ deck }: DeckCardProps) {
       await deleteDeck(deck.id)
       router.refresh()
     } catch (error) {
+      console.error('Delete deck error:', error)
       alert('Eroare la ștergerea setului')
       setDeleting(false)
     }

@@ -116,7 +116,8 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
     .eq('id', cardId)
     .single()
 
-  if (!card || (card.decks as any)?.user_id !== user.id) {
+  const deck = card?.decks as { user_id: string } | undefined
+  if (!card || deck?.user_id !== user.id) {
     throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o modifici')
   }
 
@@ -155,7 +156,8 @@ export async function deleteFlashcard(cardId: string) {
     .eq('id', cardId)
     .single()
 
-  if (!card || (card.decks as any)?.user_id !== user.id) {
+  const deck = card?.decks as { user_id: string } | undefined
+  if (!card || deck?.user_id !== user.id) {
     throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o ștergi')
   }
 

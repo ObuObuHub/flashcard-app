@@ -18,7 +18,7 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
 
   // If RPC exists and succeeds, use it (much faster!)
   if (!rpcError && rpcData) {
-    return rpcData.map((deck: any) => ({
+    return rpcData.map((deck: Record<string, unknown>) => ({
       id: deck.id,
       user_id: deck.user_id,
       name: deck.name,
@@ -62,15 +62,15 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
     const total_cards = cards.length
 
     const now = new Date()
-    const cards_due = cards.filter((card: any) => {
-      const stats = card.card_stats?.[0]
+    const cards_due = cards.filter((card: Record<string, unknown>) => {
+      const stats = (card.card_stats as Record<string, unknown>[] | undefined)?.[0] as Record<string, unknown> | undefined
       if (!stats) return true // New cards are due
-      return new Date(stats.next_review) <= now
+      return new Date(stats.next_review as string) <= now
     }).length
 
-    const mastered_cards = cards.filter((card: any) => {
-      const stats = card.card_stats?.[0]
-      return stats && stats.repetitions >= 5 // 5+ successful reviews = mastered
+    const mastered_cards = cards.filter((card: Record<string, unknown>) => {
+      const stats = (card.card_stats as Record<string, unknown>[] | undefined)?.[0] as Record<string, unknown> | undefined
+      return stats && (stats.repetitions as number) >= 5 // 5+ successful reviews = mastered
     }).length
 
     return {
