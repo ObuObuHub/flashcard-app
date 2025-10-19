@@ -96,6 +96,8 @@ export async function getDeck(deckId: string): Promise<Deck | null> {
   const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
+  console.log('[getDeck] Looking for deck:', deckId, 'with user:', user.id)
+
   const { data: deck, error } = await supabase
     .from('decks')
     .select('*')
@@ -103,7 +105,12 @@ export async function getDeck(deckId: string): Promise<Deck | null> {
     .eq('user_id', user.id)
     .single()
 
-  if (error) return null
+  if (error) {
+    console.error('[getDeck] Error:', error)
+    return null
+  }
+
+  console.log('[getDeck] Found deck:', deck?.name)
   return deck
 }
 
