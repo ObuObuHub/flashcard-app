@@ -174,6 +174,218 @@ Reticulocitele apar ca Er ce contin precipitate (pp) albastru inchis de granule 
 Picatura groasa nu se fixeaza ci se **hemolizeaza**, urmarindu-se indepartarea hematiilor si deci evidentiera mai buna a parazitilor. Se acopera lama cu un strat de apa distilata, pana cand picatura ia un aspect cenusiu. Colorarea se face cu colorant Giemsa: dupa hemoliza, lama se acopera cu colorant Giemsa, se lasa 20-30 min si apoi se spala cu apa de robinet. Uscare si examinare la microscop.`,
         mnemonic: '3 picături → triunghi 1cm → hemolizează (nu fixează!) → Giemsa 20-30min',
       },
+      {
+        front: 'Valori normale - Eritrocite, Leucocite, Trombocite',
+        back: `**ERITROCITE:**
+- VN Femei: ♀ = 3,9 - 4,9 mil/mm³ (3,5-5 mil/mm³)
+- VN Bărbați: ♂ = 4,3 - 5,5 mil/mm³ (4,5-5,5 mil/mm³)
+
+**LEUCOCITE:**
+- VN Adulți: 5000 - 9000 /mm³
+- VN Sugari: 8000 - 12.000 /mm³
+- VN Copii (m-m): 12.000 - 20000 /mm³
+
+**TROMBOCITE:**
+- VN: 150 000 - 350 000 /mm³
+
+**RECOLTAREA SÂNGELUI:**
+- 2-3 ml sg venos pe anticoagulant (Na₂ EDTA, K₂ EDTA, K₃ EDTA)
+- Sânge capilar recoltat din pulpa degetului (pt eritrocite cu pipeta Potain cu bilă roșie)
+
+**MATERIAL BIOLOGIC utilizat:**
+- Sg integral venos sau capilar`,
+        mnemonic: 'Er: ♀3.9-4.9 ♂4.3-5.5 mil; Leuco: adult 5-9k, sugar 8-12k; Trombo: 150-350k',
+      },
+      {
+        front: 'Numărătoarea eritrocitelor, leucocitelor, trombocitelor - Metode',
+        back: `Numărarea celulelor sanguine constă în numărătoarea directă la microscop a celulelor aflate într-un volum cunoscut de lichid diluat într-o proporție cunoscută.
+
+Diluarea se face pentru a putea numără elementele figurate care sunt foarte numeroase și pentru ca sângele să nu coaguleze.
+
+**PRINCIPII:**
+
+**ERITROCITE:**
+Se realizează o diluție a sg de cercetat într-o pipetă cu un lichid de diluție ce lizează leucocitele și lasă intacte eritrocitele.
+
+**LEUCOCITE:**
+Se realizează o diluție a sg de analizat într-o pipetă cu un lichid de diluție ce lizează eritrocitele, lăsând intacte leucocitele și păstrând doar elementele nucleate.
+
+**TROMBOCITE:**
+Se realizează o diluție a sg cu sol eritrocitolitică ce împiedică aglutinarea și conferă integritatea plachetar.
+
+**REACTIVI:**
+
+**Eritrocite:** soluția HAYEM
+**Leucocite:** soluția TÜRCK
+**Trombocit:** soluție POPA-ENACHE NICOARA
+
+Se folosește camera de numărare BÜRKER-TÜRCK`,
+        mnemonic: 'HAYEM=Er, TÜRCK=Leuco, POPA-ENACHE=Trombo; Camera BÜRKER-TÜRCK',
+      },
+      {
+        front: 'Numărătoarea Er, Lc și Tr - Metode automate (Metoda de impedanță electrică)',
+        back: `Pot fi numărate automat prin metoda de impedanță electrică și metode optice.
+
+**1) METODA DE IMPEDANȚĂ ELECTRICĂ:**
+
+Principiu: o suspensie de celule sanguine afl
+
+ate într-un volum cunoscut de electrolit trece printr-un orificiu ale căror dimensiuni sunt constante, unde se aplică o diferență electrică.
+
+Un electrod se află în afara sistemului de diluție ce conține agenți de dispergere (precum E și L). La trecerea prin orificiu cu ajutorul pompei (pompa Venturi), celula este numărată și măsurată electronic al nr/volum.
+
+Pompa dirige celula prin conducte între electrod și celula senzorială (conform cu aparatura analitice unde modificări bruste produc erori în numărarea leucocitelor).
+
+Trombocitele și eritrocitele sunt numărați în sângele diluat ce conține și leucocite și trombocite, pentru măsurare direct (sunt luate în considerare ca Er particulele mai mari de 36 fL).
+
+Numărătoarea de nr modifică semnificativ nr de celulelor pentru că mult mai mic decât Er atâto timp cât nr lor le mult mai mic. Eroarea numărării cu această metodă este progresiv pe măsură cu ↑ nr și după trombocitelor sunt atât de mici încât de obicei nu produc erori în numărarea leucocitelor.
+
+**Eritrocitele** - sunt numărații în sângele diluat ce conține și leucocite și trombocite, prim măsurare directă (sunt luate în considerare ca Er particulelor mai mari de 36 fL).
+
+**Leucocitele** - se folosește o cameră de numărare (una pt E și T și una pt Lc), în care ± 2 cuvete de numărare.
+
+Diluțiile - se exprimați ca Sg concentrată sau nr de celule sanguine / volum (în doze ± 2 cuvete de numărare - una pt E si T, una pt Lc).
+
+**2) METODA OPTICE:**
+
+Principiu: celulele pot fi numărate optic prin intermediul unui sistem în care o celulă fotoelectrică detectează lumina reflectată, difractată sau împrăștiată de celule ce trec una câte una printr-o zonă iluminată (cameră de curgere) din sistem.
+
+Detectorul generează pulsuri electronice de mărituri proporționale cu mărimea particulelor, pulsuri ce sunt numărați.`,
+        mnemonic: 'Impedanță electrică: ↑ volum = ↑ rezistență; Optică: detectează lumină reflectată',
+      },
+      {
+        front: 'Determinarea reticulocitelor - Definiție și tehnica',
+        back: `Se numără pe frotiul de sânge periferic clonele supravital prin examinare cu obiectivul de imersie al unui ×100.
+
+În urma colorarii cu albastru briliant crezil, reticulocitele apar la microscop ca eritrocite ce conțin incluzii de culoare **ALBASTRU-VIOLACEE**.
+
+**TEHNICA:**
+Se numără reticulocitele întotlurile la 1000 de Er.
+
+**VN:** 3-20‰ (0,3-2%)
+
+Nr de reticulocite din sg periferic indică gradul de eficiento a activității măduvei osoase.
+
+În anemii este necesar un indice mai exact al activității eritropoetice. Pt aceasta trebuie tinut cont de Ht pacientului.
+
+**Nr corectat de reticulociti = (Ht pacient / Ht normal) × nr de reticulociti găsit**
+
+Reticulocitele sunt Er imaturi, ce dimensiuni mai mari decât Er maturele, circulă 1-3 zile în sânge și prezintă o rețea reticulo-filamentoasă alcatuită din gigantă celulare restante și ribonucleotide.
+
+Cât nr de reticulocite este un test specific de aprioare a lat medulare util pt stabilirea mecanismului de producere și urmărirea răspunsului la tratament, în diverse tipuri de anemii.`,
+        mnemonic: 'VN: 3-20‰ (0.3-2%); Albastru-violet incluzii; Corecție = (Ht pacient/Ht normal) × nr reticul',
+      },
+      {
+        front: 'Indici eritrocitari - VEM (Volum eritrocitar mediu)',
+        back: `**VEM (fL) = Ht (L/L) / nr Er (×10¹²/L)**
+
+sau
+
+**VEM (fL) = Ht (%) / (mn Er × 10⁶/L) × 10**
+
+Se folosește pt clasificarea Er în:
+
+**NORMOCITE:** VEM = 80-100 fL → NORMOCITOZA
+**MICROCITE:** VEM < 80 fL → MICROCITOZA
+**MACROCITE:** VEM > 100 fL → MACROCITOZA
+
+De dinci se studiază cu diametrul Er de pe froturile de sânge examinate la MO, exceptând:
+
+**SFEROCITELE** - volum ↓, suprafață ↓
+**CODOCITELE** - volum ↓, suprafață ↑`,
+        mnemonic: 'VEM: Normo 80-100fL, Micro <80fL, Macro >100fL',
+      },
+      {
+        front: 'Indici eritrocitari - CHEM (Concentrația medie de hemoglobină eritrocitară)',
+        back: `**CHEM (g/dL) = Hb (g/dL) / Ht (L/L)**
+
+sau
+
+**CHEM (%) = Hb (g/dL) / Ht (%) × 100**
+
+Se folosește pt clasificarea populației generale de Er ca:
+
+**Populație NORMOCROMĂ:** CHEM = 32-36 g/dL
+**Populație HIPOCROMĂ:** CHEM < 32 g/dL
+
+**Termenul de HIPERCROMIE** nu definește o situație reală.
+
+Singura celulă ce este hiperincr cu CHEM >36 g/dL este **SFEROCITUL**. Această valoare ↑ se datorează pierdere de elasticității a membranei și nu încarcării cu Hb (VEM normal, suprafața redusă).
+
+**Orice valoare a CHEM >36 g/dL se repetă analiza** verificând sursa de eroare:
+- Hemoliză
+- Aglutinine la rece
+- EDTA în exces`,
+        mnemonic: 'CHEM: Normo 32-36, Hipo <32; >36 = SFEROCIT sau EROARE (hemoliză/aglut/EDTA)',
+      },
+      {
+        front: 'Indici eritrocitari - HEM (Hemoglobina eritrocitară medie)',
+        back: `**HEM (pg) = Hb (g/dL) / nr Er (×10¹²/L) × 10**
+
+**VN: HEM = 26-34 pg**
+
+HEM trebuie calculat împreună cu VEM și CHEM:
+- Celulele mai mici conțin de obicei mai puțină Hb
+- Cel mari conțin mai multă Hb
+- VEM si HEM proporționale
+
+**Anemii normocrome:** ↓VEM, ↓HEM, CHEM = normal
+**Anemii hipocrome:** ↓VEM, ↓↓HEM, ↓CHEM
+**Anemii macrocitare:** ↑VEM, ↑HEM, CHEM = normal
+**Anemii microcitare:** ↓VEM, ↓HEM, ↓CHEM
+
+**Un microcit cu HEM <26 pg** nu este neapărat si hipocrom
+**Un macrocit cu HEM >34 pg** nu este neapărat hipercrom`,
+        mnemonic: 'HEM: 26-34pg; Proporțional cu VEM; <26=micro, >34=macro (nu neapărat hipo/hiper)',
+      },
+      {
+        front: 'Determinarea VSH (Viteza de sedimentare a hematiilor) - Metode și valori normale',
+        back: `**VN:**
+- ♂ = 0-10 mm/1 oră sau 0-20 mm/2 ore
+- ♀ = 0-15 mm/1 oră sau 0-30 mm/2 ore
+
+**Există 2 metode:**
+- **WINTROBE**
+- **WESTER GREN**
+
+**Principiu:** În sangele recoltat pe anticoagulant și lăsat în repaus, eritrocitele sedimentează după un timp variabil.
+
+**Materiale necesare:**
+- Sg venos recoltat pe EDTA (K₂/K₃) (folosineau excelente de Hb producse vizece de sedimentare mai mare)
+- Seringa și ac de puncție venoasă
+- Stativ și pipetă Westergreen
+- Citrat trisodic 3,8%
+
+**Tehnica:**
+- Se recoltează sg
+- Se omogenizează (prin rasturnarea tubului >8 ori)
+- Se plasează tubul în stativ vertical expunerea directa la lumina și vibroata la 18-25°C
+- După 60' se citește distanța dintre nivelul superior al meniscului plasmei și cel mai înalt al colonei de eritrocite
+
+Rezultatul se exprimă în mm/oră.
+
+**↑ VSH:**
+- Anemie
+- Boli inflamatorii: EAR
+- Boli infecțioase: TBC, septicemii
+- Hemopții (leucemii, mielom, limfom Hodkim, macroglobulinemia WALDENSTRÖM)
+- Hiperfibrinogenemii
+- Gammapatii
+- Nefropați
+- Necroze
+
+**↓ VSH:**
+- Hepatită virală
+- Stări alergice
+- Policitemii
+- ICC (insuf cardiacă cong)
+
+**Variații fiziologice:**
+- ↑ cu temp ambianta
+- VSH ↑ la femei, în timpul menstruației, în sarcina mai ales în ultimele luni
+- VSH ↑ la copii, la bătrâni`,
+        mnemonic: 'VSH: ♂0-10/20, ♀0-15/30 mm; ↑=inflamație/infecție/anemie; ↓=hepatită/alergie',
+      },
     ],
   },
 ]
