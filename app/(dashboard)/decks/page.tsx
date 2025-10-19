@@ -2,8 +2,11 @@ import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Brain, Plus } from 'lucide-react'
+import { Brain } from 'lucide-react'
 import Link from 'next/link'
+import { getDecks } from '@/lib/actions/decks'
+import { CreateDeckDialog } from '@/components/create-deck-dialog'
+import { DeckCard } from '@/components/deck-card'
 
 export default async function DecksPage() {
   const supabase = await createClient()
@@ -15,6 +18,8 @@ export default async function DecksPage() {
   if (!user) {
     redirect('/login')
   }
+
+  const decks = await getDecks()
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -47,36 +52,39 @@ export default async function DecksPage() {
               Organizează-ți cunoștințele în seturi de flashcard-uri
             </p>
           </div>
-          <Button size="lg">
-            <Plus className="w-5 h-5 mr-2" />
-            Set nou
-          </Button>
+          <CreateDeckDialog />
         </div>
 
-        {/* Empty State */}
-        <Card className="border-2 border-dashed">
-          <CardHeader className="text-center pb-4">
-            <div className="flex justify-center mb-4">
-              <Brain className="w-16 h-16 text-gray-400" />
-            </div>
-            <CardTitle>Încă nu ai seturi de cărți</CardTitle>
-            <CardDescription>
-              Creează primul tău set pentru a începe învățarea
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="text-center">
-            <Button size="lg">
-              <Plus className="w-5 h-5 mr-2" />
-              Creează primul set
-            </Button>
-            <p className="text-sm text-gray-500 mt-4">
-              Sau{' '}
-              <Link href="/" className="text-blue-600 hover:underline">
-                înapoi la pagina principală
-              </Link>
-            </p>
-          </CardContent>
-        </Card>
+        {decks.length === 0 ? (
+          /* Empty State */
+          <Card className="border-2 border-dashed">
+            <CardHeader className="text-center pb-4">
+              <div className="flex justify-center mb-4">
+                <Brain className="w-16 h-16 text-gray-400" />
+              </div>
+              <CardTitle>Încă nu ai seturi de cărți</CardTitle>
+              <CardDescription>
+                Creează primul tău set pentru a începe învățarea
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="text-center">
+              <CreateDeckDialog />
+              <p className="text-sm text-gray-500 mt-4">
+                Sau{' '}
+                <Link href="/" className="text-blue-600 hover:underline">
+                  înapoi la pagina principală
+                </Link>
+              </p>
+            </CardContent>
+          </Card>
+        ) : (
+          /* Decks Grid */
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {decks.map((deck) => (
+              <DeckCard key={deck.id} deck={deck} />
+            ))}
+          </div>
+        )}
       </main>
     </div>
   )
