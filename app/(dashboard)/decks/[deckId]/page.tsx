@@ -13,16 +13,7 @@ interface DeckDetailPageProps {
 }
 
 export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
-  const supabase = await createClient()
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-
-  if (!user) {
-    redirect('/login')
-  }
-
+  // Auth disabled for development
   const { deckId } = await params
   const deck = await getDeck(deckId)
 
@@ -47,16 +38,6 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
           <div className="flex items-center gap-2">
             <Brain className="w-8 h-8 text-blue-600" />
             <h1 className="text-2xl font-bold">Flashcard</h1>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-600 dark:text-gray-400">
-              {user.email}
-            </span>
-            <form action="/auth/signout" method="post">
-              <Button type="submit" variant="outline" size="sm">
-                Deconectare
-              </Button>
-            </form>
           </div>
         </div>
       </header>

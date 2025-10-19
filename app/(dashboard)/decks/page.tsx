@@ -9,16 +9,7 @@ import { CreateDeckDialog } from '@/components/create-deck-dialog'
 import { DeckCard } from '@/components/deck-card'
 
 export default async function DecksPage() {
-  const supabase = await createClient()
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-
-  if (!user) {
-    redirect('/login')
-  }
-
+  // Auth disabled for development
   const decks = await getDecks()
 
   return (
@@ -29,16 +20,6 @@ export default async function DecksPage() {
           <div className="flex items-center gap-2">
             <Brain className="w-8 h-8 text-blue-600" />
             <h1 className="text-2xl font-bold">Flashcard</h1>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-sm text-gray-600 dark:text-gray-400">
-              {user.email}
-            </span>
-            <form action="/auth/signout" method="post">
-              <Button type="submit" variant="outline" size="sm">
-                Deconectare
-              </Button>
-            </form>
           </div>
         </div>
       </header>
