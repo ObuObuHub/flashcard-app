@@ -8,8 +8,9 @@ import { validateDeckName, validateDeckDescription } from '@/lib/validation'
 export async function getDecks(): Promise<DeckWithProgress[]> {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Try optimized RPC function first
   const { data: rpcData, error: rpcError } = await supabase.rpc('get_decks_with_progress', {
@@ -91,8 +92,9 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
 export async function getDeck(deckId: string): Promise<Deck | null> {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const { data: deck, error } = await supabase
     .from('decks')
@@ -108,8 +110,9 @@ export async function getDeck(deckId: string): Promise<Deck | null> {
 export async function createDeck(formData: FormData) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const name = formData.get('name') as string
   const description = formData.get('description') as string | null
@@ -137,8 +140,9 @@ export async function createDeck(formData: FormData) {
 export async function updateDeck(deckId: string, formData: FormData) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const name = formData.get('name') as string
   const description = formData.get('description') as string | null
@@ -180,8 +184,9 @@ export async function updateDeck(deckId: string, formData: FormData) {
 export async function deleteDeck(deckId: string) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Verify ownership before delete
   const { data: existingDeck } = await supabase

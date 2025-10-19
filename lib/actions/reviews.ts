@@ -8,8 +8,9 @@ import type { SRSRating } from '@/types'
 export async function recordReview(cardId: string, rating: SRSRating) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Get current card stats and verify ownership
   const { data: stats } = await supabase

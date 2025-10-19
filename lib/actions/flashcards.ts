@@ -12,8 +12,9 @@ import {
 export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const { data: flashcards, error } = await supabase
     .from('flashcards')
@@ -35,8 +36,9 @@ export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[
 export async function getFlashcard(cardId: string): Promise<Flashcard | null> {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const { data: flashcard, error } = await supabase
     .from('flashcards')
@@ -51,8 +53,9 @@ export async function getFlashcard(cardId: string): Promise<Flashcard | null> {
 export async function createFlashcard(deckId: string, formData: FormData) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Verify deck ownership
   const { data: deck } = await supabase
@@ -94,8 +97,9 @@ export async function createFlashcard(deckId: string, formData: FormData) {
 export async function updateFlashcard(cardId: string, formData: FormData) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   const front = formData.get('front') as string
   const back = formData.get('back') as string
@@ -143,8 +147,9 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
 export async function deleteFlashcard(cardId: string) {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Get card and verify ownership through deck
   const { data: card } = await supabase
@@ -177,8 +182,9 @@ export async function deleteFlashcard(cardId: string) {
 export async function getDueFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
 
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) throw new Error('Unauthorized')
+  // Mock user for development (auth disabled)
+  const userId = 'dev-user-123'
+  const user = { id: userId }
 
   // Get all cards with their stats
   const { data: flashcards, error } = await supabase
