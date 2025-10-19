@@ -19,14 +19,9 @@ export default function Home() {
           tehnicilor mnemonice și algoritmilor bazați pe știință.
         </p>
         <div className="flex gap-4 justify-center">
-          <Link href="/signup">
+          <Link href="/decks">
             <Button size="lg" className="text-lg px-8">
               Începe acum
-            </Button>
-          </Link>
-          <Link href="/login">
-            <Button size="lg" variant="outline" className="text-lg px-8">
-              Autentificare
             </Button>
           </Link>
         </div>
@@ -126,9 +121,9 @@ export default function Home() {
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
           Alătură-te miilor de utilizatori care învață mai eficient
         </p>
-        <Link href="/signup">
+        <Link href="/decks">
           <Button size="lg" className="text-lg px-8">
-            Creează cont gratuit
+            Începe acum
           </Button>
         </Link>
       </section>
