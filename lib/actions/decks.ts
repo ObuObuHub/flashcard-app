@@ -9,7 +9,7 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Try optimized RPC function first
@@ -93,7 +93,7 @@ export async function getDeck(deckId: string): Promise<Deck | null> {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const { data: deck, error } = await supabase
@@ -111,7 +111,7 @@ export async function createDeck(formData: FormData) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const name = formData.get('name') as string
@@ -141,7 +141,7 @@ export async function updateDeck(deckId: string, formData: FormData) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const name = formData.get('name') as string
@@ -185,7 +185,7 @@ export async function deleteDeck(deckId: string) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Verify ownership before delete

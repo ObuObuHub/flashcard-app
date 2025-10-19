@@ -2,36 +2,38 @@
 -- This allows testing flashcard functionality without authentication
 
 -- Insert dev user into auth.users (if it doesn't exist)
-DO $$
-BEGIN
-  -- Check if user exists in auth.users, if not create it
-  IF NOT EXISTS (SELECT 1 FROM auth.users WHERE id = 'dev-user-123') THEN
-    -- Create user in auth.users table
-    INSERT INTO auth.users (
-      id,
-      email,
-      encrypted_password,
-      email_confirmed_at,
-      created_at,
-      updated_at,
-      raw_app_meta_data,
-      raw_user_meta_data,
-      is_super_admin,
-      role
-    ) VALUES (
-      'dev-user-123'::uuid,
-      'dev@flashcard.app',
-      crypt('dev-password-123', gen_salt('bf')), -- Encrypted password
-      NOW(),
-      NOW(),
-      NOW(),
-      '{"provider": "email", "providers": ["email"]}'::jsonb,
-      '{}'::jsonb,
-      FALSE,
-      'authenticated'
-    );
-  END IF;
-END $$;
+INSERT INTO auth.users (
+  id,
+  instance_id,
+  email,
+  encrypted_password,
+  email_confirmed_at,
+  created_at,
+  updated_at,
+  raw_app_meta_data,
+  raw_user_meta_data,
+  is_super_admin,
+  role,
+  aud,
+  confirmation_token,
+  recovery_token
+) VALUES (
+  '00000000-0000-0000-0000-000000000001'::uuid,
+  '00000000-0000-0000-0000-000000000000'::uuid,
+  'dev@flashcard.app',
+  '$2a$10$mockhashedpassword000000000000000000000000000000000', -- Mock password hash
+  NOW(),
+  NOW(),
+  NOW(),
+  '{"provider": "email", "providers": ["email"]}'::jsonb,
+  '{}'::jsonb,
+  FALSE,
+  'authenticated',
+  'authenticated',
+  '',
+  ''
+)
+ON CONFLICT (id) DO NOTHING;
 
 -- Note: This is a development-only user
 -- Remove this migration before going to production!

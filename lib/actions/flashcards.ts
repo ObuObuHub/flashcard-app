@@ -13,7 +13,7 @@ export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const { data: flashcards, error } = await supabase
@@ -37,7 +37,7 @@ export async function getFlashcard(cardId: string): Promise<Flashcard | null> {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const { data: flashcard, error } = await supabase
@@ -54,7 +54,7 @@ export async function createFlashcard(deckId: string, formData: FormData) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Verify deck ownership
@@ -98,7 +98,7 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   const front = formData.get('front') as string
@@ -148,7 +148,7 @@ export async function deleteFlashcard(cardId: string) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Get card and verify ownership through deck
@@ -183,7 +183,7 @@ export async function getDueFlashcards(deckId: string): Promise<FlashcardWithSta
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Get all cards with their stats

@@ -9,7 +9,7 @@ export async function recordReview(cardId: string, rating: SRSRating) {
   const supabase = await createClient()
 
   // Mock user for development (auth disabled)
-  const userId = 'dev-user-123'
+  const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
   // Get current card stats and verify ownership
