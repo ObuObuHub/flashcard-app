@@ -3,6 +3,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { revalidatePath } from 'next/cache'
 import type { Deck, DeckWithProgress } from '@/types'
+import { validateDeckName, validateDeckDescription } from '@/lib/validation'
 
 export async function getDecks(): Promise<DeckWithProgress[]> {
   const supabase = await createClient()
@@ -10,7 +11,34 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) throw new Error('Unauthorized')
 
-  // Get all decks with card counts
+  // Try optimized RPC function first
+  const { data: rpcData, error: rpcError } = await supabase.rpc('get_decks_with_progress', {
+    p_user_id: user.id,
+  })
+
+  // If RPC exists and succeeds, use it (much faster!)
+  if (!rpcError && rpcData) {
+    return rpcData.map((deck: any) => ({
+      id: deck.id,
+      user_id: deck.user_id,
+      name: deck.name,
+      description: deck.description,
+      created_at: deck.created_at,
+      total_cards: Number(deck.total_cards),
+      cards_due: Number(deck.cards_due),
+      mastered_cards: Number(deck.mastered_cards),
+    }))
+  }
+
+  // Fallback to old N+1 approach if RPC doesn't exist
+  if (rpcError && rpcError.code !== '42883') {
+    // Real error, not just missing function
+    throw rpcError
+  }
+
+  console.warn('Optimized RPC not found, using fallback query. Consider running migration 003.')
+
+  // Get all decks with card counts (N+1 approach - slower)
   const { data: decks, error } = await supabase
     .from('decks')
     .select(`
@@ -86,16 +114,16 @@ export async function createDeck(formData: FormData) {
   const name = formData.get('name') as string
   const description = formData.get('description') as string | null
 
-  if (!name || name.trim() === '') {
-    throw new Error('Numele setului este obligatoriu')
-  }
+  // Validate inputs
+  const validatedName = validateDeckName(name)
+  const validatedDescription = validateDeckDescription(description)
 
   const { data: deck, error } = await supabase
     .from('decks')
     .insert({
       user_id: user.id,
-      name: name.trim(),
-      description: description?.trim() || null,
+      name: validatedName,
+      description: validatedDescription,
     })
     .select()
     .single()
@@ -115,15 +143,27 @@ export async function updateDeck(deckId: string, formData: FormData) {
   const name = formData.get('name') as string
   const description = formData.get('description') as string | null
 
-  if (!name || name.trim() === '') {
-    throw new Error('Numele setului este obligatoriu')
+  // Validate inputs
+  const validatedName = validateDeckName(name)
+  const validatedDescription = validateDeckDescription(description)
+
+  // Verify ownership before update
+  const { data: existingDeck } = await supabase
+    .from('decks')
+    .select('id')
+    .eq('id', deckId)
+    .eq('user_id', user.id)
+    .single()
+
+  if (!existingDeck) {
+    throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l modifica')
   }
 
   const { data: deck, error } = await supabase
     .from('decks')
     .update({
-      name: name.trim(),
-      description: description?.trim() || null,
+      name: validatedName,
+      description: validatedDescription,
     })
     .eq('id', deckId)
     .eq('user_id', user.id)
@@ -142,6 +182,18 @@ export async function deleteDeck(deckId: string) {
 
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) throw new Error('Unauthorized')
+
+  // Verify ownership before delete
+  const { data: existingDeck } = await supabase
+    .from('decks')
+    .select('id')
+    .eq('id', deckId)
+    .eq('user_id', user.id)
+    .single()
+
+  if (!existingDeck) {
+    throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l șterge')
+  }
 
   const { error } = await supabase
     .from('decks')

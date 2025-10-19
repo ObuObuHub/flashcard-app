@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -24,6 +24,7 @@ export default function StudyPage({ params }: StudyPageProps) {
   const [showAnswer, setShowAnswer] = useState(false)
   const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
+  const isSubmittingRef = useRef(false) // Prevent race conditions
   const router = useRouter()
   const t = translations.study
 
@@ -52,9 +53,13 @@ export default function StudyPage({ params }: StudyPageProps) {
   const currentCard = flashcards[currentIndex]
 
   const handleRating = async (rating: SRSRating) => {
-    if (!currentCard || submitting) return
+    // Check ref immediately to prevent race condition
+    if (!currentCard || isSubmittingRef.current) return
 
+    // Set both ref and state
+    isSubmittingRef.current = true
     setSubmitting(true)
+
     try {
       await recordReview(currentCard.id, rating)
 
@@ -68,8 +73,11 @@ export default function StudyPage({ params }: StudyPageProps) {
       }
     } catch (error) {
       console.error('Error recording review:', error)
-      alert('Eroare la salvarea revizuirii')
+      // Better error handling - show user-friendly message
+      const errorMessage = error instanceof Error ? error.message : 'Eroare la salvarea revizuirii'
+      alert(errorMessage + '\n\nÎncearcă din nou.')
     } finally {
+      isSubmittingRef.current = false
       setSubmitting(false)
     }
   }

@@ -3,6 +3,11 @@
 import { createClient } from '@/lib/supabase/server'
 import { revalidatePath } from 'next/cache'
 import type { Flashcard, FlashcardWithStats } from '@/types'
+import {
+  validateFlashcardFront,
+  validateFlashcardBack,
+  validateFlashcardMnemonic,
+} from '@/lib/validation'
 
 export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
@@ -57,27 +62,24 @@ export async function createFlashcard(deckId: string, formData: FormData) {
     .eq('user_id', user.id)
     .single()
 
-  if (!deck) throw new Error('Deck not found or unauthorized')
+  if (!deck) throw new Error('Setul nu a fost găsit sau nu ai permisiunea să adaugi cărți')
 
   const front = formData.get('front') as string
   const back = formData.get('back') as string
   const mnemonic = formData.get('mnemonic') as string | null
 
-  if (!front || front.trim() === '') {
-    throw new Error('Întrebarea (față) este obligatorie')
-  }
-
-  if (!back || back.trim() === '') {
-    throw new Error('Răspunsul (spate) este obligatoriu')
-  }
+  // Validate inputs
+  const validatedFront = validateFlashcardFront(front)
+  const validatedBack = validateFlashcardBack(back)
+  const validatedMnemonic = validateFlashcardMnemonic(mnemonic)
 
   const { data: flashcard, error } = await supabase
     .from('flashcards')
     .insert({
       deck_id: deckId,
-      front: front.trim(),
-      back: back.trim(),
-      mnemonic: mnemonic?.trim() || null,
+      front: validatedFront,
+      back: validatedBack,
+      mnemonic: validatedMnemonic,
     })
     .select()
     .single()
@@ -99,27 +101,31 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
   const back = formData.get('back') as string
   const mnemonic = formData.get('mnemonic') as string | null
 
-  if (!front || front.trim() === '') {
-    throw new Error('Întrebarea (față) este obligatorie')
-  }
+  // Validate inputs
+  const validatedFront = validateFlashcardFront(front)
+  const validatedBack = validateFlashcardBack(back)
+  const validatedMnemonic = validateFlashcardMnemonic(mnemonic)
 
-  if (!back || back.trim() === '') {
-    throw new Error('Răspunsul (spate) este obligatoriu')
-  }
-
-  // Get card to find its deck_id for revalidation
+  // Get card and verify ownership through deck
   const { data: card } = await supabase
     .from('flashcards')
-    .select('deck_id')
+    .select(`
+      deck_id,
+      decks!inner(user_id)
+    `)
     .eq('id', cardId)
     .single()
+
+  if (!card || (card.decks as any)?.user_id !== user.id) {
+    throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o modifici')
+  }
 
   const { data: flashcard, error } = await supabase
     .from('flashcards')
     .update({
-      front: front.trim(),
-      back: back.trim(),
-      mnemonic: mnemonic?.trim() || null,
+      front: validatedFront,
+      back: validatedBack,
+      mnemonic: validatedMnemonic,
     })
     .eq('id', cardId)
     .select()
@@ -127,10 +133,8 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
 
   if (error) throw error
 
-  if (card) {
-    revalidatePath(`/decks/${card.deck_id}`)
-    revalidatePath('/decks')
-  }
+  revalidatePath(`/decks/${card.deck_id}`)
+  revalidatePath('/decks')
 
   return flashcard
 }
@@ -141,12 +145,19 @@ export async function deleteFlashcard(cardId: string) {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) throw new Error('Unauthorized')
 
-  // Get card to find its deck_id for revalidation
+  // Get card and verify ownership through deck
   const { data: card } = await supabase
     .from('flashcards')
-    .select('deck_id')
+    .select(`
+      deck_id,
+      decks!inner(user_id)
+    `)
     .eq('id', cardId)
     .single()
+
+  if (!card || (card.decks as any)?.user_id !== user.id) {
+    throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o ștergi')
+  }
 
   const { error } = await supabase
     .from('flashcards')
@@ -155,10 +166,8 @@ export async function deleteFlashcard(cardId: string) {
 
   if (error) throw error
 
-  if (card) {
-    revalidatePath(`/decks/${card.deck_id}`)
-    revalidatePath('/decks')
-  }
+  revalidatePath(`/decks/${card.deck_id}`)
+  revalidatePath('/decks')
 
   return { success: true }
 }
