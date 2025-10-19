@@ -191,16 +191,30 @@ export async function getDueFlashcards(deckId: string): Promise<FlashcardWithSta
     .from('flashcards')
     .select(`
       *,
-      card_stats!inner(*)
+      card_stats(*)
     `)
     .eq('deck_id', deckId)
-    .lte('card_stats.next_review', new Date().toISOString())
-    .order('card_stats.next_review', { ascending: true })
+    .order('created_at', { ascending: true })
 
   if (error) throw error
 
-  return (flashcards || []).map((card) => ({
-    ...card,
-    stats: card.card_stats?.[0] || undefined,
-  }))
+  const now = new Date()
+
+  // Filter and sort due cards in JavaScript
+  const dueCards = (flashcards || [])
+    .map((card) => ({
+      ...card,
+      stats: card.card_stats?.[0] || undefined,
+    }))
+    .filter((card) => {
+      if (!card.stats) return true // New cards are due
+      return new Date(card.stats.next_review) <= now
+    })
+    .sort((a, b) => {
+      const aTime = a.stats?.next_review ? new Date(a.stats.next_review).getTime() : 0
+      const bTime = b.stats?.next_review ? new Date(b.stats.next_review).getTime() : 0
+      return aTime - bTime
+    })
+
+  return dueCards
 }
