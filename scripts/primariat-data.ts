@@ -4581,4 +4581,4039 @@ Galbeu titan + Mg în mediu alcalin → complex roșu-portocaliu
       },
     ],
   },
+  {
+    name: 'Biochimie - Teorie',
+    description: 'Concepte teoretice de biochimie (proteine, glucide, lipide, enzime) - pentru examenul de primariat',
+    flashcards: [
+      {
+        front: 'Structura primară a proteinelor - Definiție și semnificație',
+        back: `**STRUCTURA PRIMARĂ:**
+
+**Definiție:**
+- Nivelul de organizare reprezentat de **secvența aminoacidică specifică**
+- Codificată de ADN
+- Determină forma tridimensională a proteinei
+
+**Caracteristici:**
+- Aranjamentul unic al lanțului polipeptidic
+- Rezultanta tuturor interacțiunilor necovalente (legături H₂, legături polare, interacțiuni hidrofobe)
+- Nivelul energetic minim
+
+**Convenție de scriere:**
+- De la stânga la dreapta
+- Începe cu reziduul AA cu grupare α-amino liberă (N-terminal)
+- Se termină cu reziduul cu grupare α-carboxil liberă (C-terminal)
+
+**Exemple:**
+- Prima proteină descif
+
+rată: **insulină**, apoi ribonuclează`,
+        mnemonic: '1° = secvență AA; codificat ADN; N→C terminal; determină formă 3D',
+      },
+      {
+        front: 'Structura secundară - α-helix și β-helix',
+        back: `**STRUCTURA SECUNDARĂ:**
+
+**Definiție:** Relații spațiale între reziduurile AA învecinate, dictate de structura primară
+
+**Caracteristic:** Formarea legăturilor de hidrogen între –CO și –NH ale conexiunilor peptidice
+
+**α-HELIX (helix α):**
+- Structură în formă de **băștonaș**
+- Lanțul polipeptidic se răsucește
+- Sens răsucire: **stânga → dreapta**
+- Pasul elicei: **3-6 resturi AA**
+- **100% în keratină** (păr, unghii)
+- 70% în mioglobină și hemoglobină
+
+**β-HELIX (foaie plisată):**
+- Lanțuri peptidice una lângă alta
+- Punți de H între lanțuri **paralele sau antiparalele**
+- Aspect de **foi plisate**
+- β-turn = lanț polipeptidic îndoit formând 2 segmente antiparalele
+- **100% în proteina de mătase**`,
+        mnemonic: 'α-helix=băștonaș,3-6AA,keratină; β-helix=foaie plisată,mătase',
+      },
+      {
+        front: 'Structura terțiară și cuaternară a proteinelor',
+        back: `**STRUCTURA TERȚIARĂ:**
+
+**Definiție:** Raporturile dintre segmentele α-helix și β-helix, modul de împachetare
+
+**Factori determinanți:**
+1. Interacțiuni necovalente (punți H, legături ionice, interacțiuni hidrofobe)
+2. Punți disulfidice între reziduurile Cys
+3. Flexibilitatea lanțului
+
+**Exemple:** Mioglobina (150 AA + grupare HEM), proteine globulare
+
+**Observație:** La proteinele solubile, **grupările polare la exterior**, radicali nepolari **la interior**
+
+---
+
+**STRUCTURA CUATERNARĂ:**
+
+**Caracteristici:**
+- Proteine alcătuite din **mai multe lanțuri polipeptidice** (proteine oligomere)
+- Lanțuri individuale = **protomeri sau subunități**
+- Protomerii separați sunt **INACTIVI**
+- Funcția se manifestă doar la nivel cuaternar
+
+**Legături:** Necovalente, slabe; suprafețe complementare
+
+**Exemple:** Miozină, creatinin kinază, Hb, LDH, aldolază, piruvat kinază
+
+**Rol:** Permite reglare alosterică`,
+        mnemonic: '3°=împachetare α+β; 4°=mai multe lanțuri=protomeri; inactivi separați',
+      },
+      {
+        front: 'Biosinteza proteică - Activarea aminoacizilor',
+        back: `**ACTIVAREA AMINOACIZILOR:**
+
+**Etape:**
+
+**1. Formarea aminoacil-AMP:**
+\`\`\`
+AA + ATP → aminoacil-AMP + PPi
+\`\`\`
+
+**2. Transfer pe ARNt:**
+\`\`\`
+aminoacil-AMP + ARNt →(ligază specifică)→ aminoacil-ARNt + AMP
+\`\`\`
+
+**Reacție globală:**
+\`\`\`
+AA + ARNt + ATP → aminoacil-ARNt + AMP + 2Pi
+\`\`\`
+
+**Consum energetic:** 2 legături macroergice (din ATP)
+
+**Enzime:** Ligaze-aminoacil ARNt-sintetaze
+- Specificitate foarte mare pentru AA și ARNt
+- Capacitate hidrolitică → recunoaște "impostorii"
+
+**Rol:** Asigură fidelitatea traducerii și adaptarea corectă a AA pe matricea ARNm`,
+        mnemonic: 'Activare AA: AA+ATP→aminoacil-AMP+ARNt→aminoacil-ARNt; cost=2ATP',
+      },
+      {
+        front: 'Biosinteza proteică - Inițierea, elongarea și terminarea',
+        back: `**INIȚIEREA:**
+1. Legarea subunității 30S la ARNm (cu FI3)
+2. Legare complex ARNm-30S cu N-formil-metionil-ARNt + GTP (FI1, FI2)
+3. Subunitatea 50S se leagă → ribozom funcțional (hidroliza GTP)
+
+**ELONGAREA:**
+- Adăugare succesivă de AA
+- ARNt aminoacilat intră în situsul A
+- Transfer AA din situsul P la situsul A (peptidil-transferază)
+- **Translocarea:** ribozom avanseză 3 nucleotide (5'→3')
+- Consum: **GTP**
+
+**TERMINAREA:**
+- Ribozomul întâlnește **codon nonsens**
+- Factori de eliberare intervin:
+  - Desfac hidrolitic legătura polipeptid-ARNt
+  - Eliberează ARNt din situsul P
+  - Disociază ribozomul în subunități
+  - Degradează ARNm
+- Dependent de hidroliza GTP
+
+**CONSUM TOTAL:** 4 legături macroergice/legătură peptidică (2 ATP activare + 2 GTP elongare)`,
+        mnemonic: 'Inițiere=30S+50S; Elongare=+AA,translocare 3nt; Terminare=codon nonsens; 4ATP/legătură',
+      },
+      {
+        front: 'Aminoacizi esențiali și semiesențiali',
+        back: `**AMINOACIZI ESENȚIALI (9):**
+
+Organismul uman **NU poate sintetiza** scheletul de carbon:
+
+1. **Valină**
+2. **Leucină**
+3. **Izoleucină**
+4. **Lizină**
+5. **Metionină**
+6. **Treonină**
+7. **Fenilalanină**
+8. **Triptofan**
+9. **Histidină**
+
+**SEMIESENȚIALI:**
+- **Arginină** (în perioada de creștere)
+- Cantitatea necesară > cantitatea sintetizată de organism
+
+**Important:**
+- AA în exces **NU pot fi depozitați**
+- Pot fi transformați în glucoză (glicogen) sau lipide
+- Degradați la acetil-CoA, fumarat, α-cetoglutarat`,
+        mnemonic: 'Esențiali=9: Val,Leu,Ile,Liz,Met,Tre,Fen,Trip,His; Semiesențial=Arg(copii)',
+      },
+      {
+        front: 'Dezaminarea oxidativă - Transaminarea și dehidrogenarea',
+        back: `**DEZAMINAREA OXIDATIVĂ:**
+
+**Scop:** Îndepărtarea grupărilor NH₂ din poziția α → NH₃
+
+**PROCES:**
+
+**A) TRANSAMINAREA:**
+- Schimb de grupări amino cu grupări carboxil între α-AA și α-cetoacizi
+- Reversibilă
+- Coenzimă: **piridoxalfosfat**
+- Localizare: ficat, rinichi, inimă, plămâni, creier
+
+**Reacții importante:**
+
+\`\`\`
+Aspartat + α-cetoglutarat ⇄(ASAT/GOT)⇄ Oxalacetat + Glutamat
+
+Alanină + α-cetoglutarat ⇄(ALAT/GPT)⇄ Piruvat + Glutamat
+\`\`\`
+
+**B) DEHIDROGENAREA:**
+
+\`\`\`
+Acid glutamic →(glutamat dehidrogenază)→ Acid imidoglutaric
+                NAD/NADP → NADH/NADPH
+
+Acid imidoglutaric + H₂O → α-cetoglutarat + NH₃
+\`\`\`
+
+**Rezultat:** Cea mai mare cantitate de NH₃`,
+        mnemonic: 'Dezaminare=transaminare+dehidrogenare; ASAT,ALAT→glutamat; glutamat→NH₃',
+      },
+      {
+        front: 'Ciclul ureei (Krebs ureogenetic) - Etape și enzime',
+        back: `**CICLUL UREEI:**
+
+**Scop:** Transformarea NH₃ toxic în uree solubilă și netoxică
+
+**ETAPE:**
+
+**1. Sinteza carbamilfosfat (mitocondrie):**
+\`\`\`
+CO₂ + NH₃ + 2ATP →(carbamilfosfat sintetază,Mg²⁺)→ Carbamilfosfat + 2ADP + Pi
+\`\`\`
+
+**2. Formare citrulină:**
+\`\`\`
+Carbamilfosfat + Ornitină →(OCT)→ Citrulină + Pi
+\`\`\`
+
+**3. Condensare cu acid aspartic (citosol):**
+\`\`\`
+Citrulină + Aspartat + ATP →(argininsuccinat sintetază)→ Argininsuccinat + AMP + PPi
+\`\`\`
+
+**4. Clivare:**
+\`\`\`
+Argininsuccinat →(argininsuccinat liază)→ Arginină + Fumarat
+\`\`\`
+
+**5. Hidroliză:**
+\`\`\`
+Arginină →(arginază,Mn²⁺,Co²⁺)→ Uree + Ornitină
+\`\`\`
+
+**Valori normale:**
+- Uree plasmatică: 20-40 mg/100ml
+- Uree urinară: 15-30 g/24h
+
+**Legătură:** Fumarat → ciclu Krebs (acizi tricarboxilici)`,
+        mnemonic: 'Ciclu uree: Ornitină→Citrulină→Argininsuccinat→Arginină→Uree+Ornitină; 2ATP consumate',
+      },
+      {
+        front: 'Transport și eliminare amoniac - Glutamină',
+        back: `**TRANSPORTUL NH₃:**
+
+**În ȚESUTURI (reacție ireversibilă):**
+\`\`\`
+Acid glutamic + NH₃ + ATP →(glutamin sintetază)→ Glutamină + ADP + Pi
+\`\`\`
+
+**În RINICHI (reacție ireversibilă):**
+\`\`\`
+Glutamină + H₂O →(glutaminază)→ Acid glutamic + NH₃
+\`\`\`
+
+**Caracteristici:**
+- Concentrația glutaminei = **3,5×** mai mare ca alți AA
+- Rol: **transport NH₃** și utilizare în biosinteze (nucleotide)
+
+**ELIMINARE:**
+
+**1. La nivel renal:**
+\`\`\`
+NH₃ + H⁺ → NH₄⁺ (amoniu) → eliminat în urină
+\`\`\`
+
+**2. La nivel hepatic:**
+- Cantitate **8-9× mai mare** ca renală
+- Transformat în **uree** (solubilă, netoxică)
+
+**Indepartare NH₃:**
+- Reutilizare = sinteză aminoacizi (glutamină)
+- Eliminare = sinteză uree`,
+        mnemonic: 'Glutamină=transport NH₃; Țesut:glu+NH₃→gln; Rinichi:gln→glu+NH₃; Ficat:uree',
+      },
+      {
+        front: 'Catabolismul aminoacizilor - Degradarea la intermediari',
+        back: `**UTILIZAREA SCHELETELOR DE CARBON:**
+
+AA degradați la **intermediari ai ciclului Krebs:**
+
+**1. → Acid PIRUVIC:**
+- Alanină, Treonină, Glicină, Serină, Cisteină
+
+**2. → α-CETOGLUTARAT:**
+- Arginină, Prolină, Histidină, Glutamină, Acid glutamic
+
+**3. → OXALACETAT:**
+- Asparagină, Acid aspartic
+
+**4. → SUCCINIL-CoA:**
+- Izoleucină, Valină, Metionină
+
+**5. → ACETIL-CoA / ACETOACETIC:**
+- Leucină, Lizină
+
+**6. → ACETIL-CoA + ALANINĂ:**
+- Triptofan
+
+**7. → FUMARAT + ACETOACETIC:**
+- Fenilalanină, Tirozină
+
+**Rol:** Furnizare energie (~10% din totalul energetic)
+
+**Fluxul:**
+\`\`\`
+Piruvat → Acetil-CoA → Ciclu Krebs (citrat, α-cetoglutarat, succinil-CoA, fumarat, malat, oxalacetat)
+\`\`\``,
+        mnemonic: 'AA→Krebs: Pir(Ala,Tre,Gli,Ser,Cys); α-ceto(Arg,Pro,His,Gln,Glu); Oxa(Asn,Asp); Succ(Ile,Val,Met)',
+      },
+      {
+        front: 'Boli metabolice - Fenilcetonurie și Alcaptonurie',
+        back: `**FENILCETONURIE:**
+
+**Defect genetic:** Imposibilitatea transformării **fenilalanină → tirozină**
+
+**Cauze:**
+1. **Forma clasică:** Defect **fenilalaninehidroxilază**
+   - Tratament: dietă săracă în fenilalanină
+2. **Forma atipică:** Defect **tetrahidrobiopterină**
+   - Tratament: administrare tetrahidrobiopterină (dieta nu funcționează)
+
+**Manifestări:** Leziuni cerebrale, demielinizări ireversibile
+
+---
+
+**ALCAPTONURIE:**
+
+**Defect:** Enzimă **homogentizat oxidază** (catabolism fenilalanină + tirozină)
+
+**Acumulare:** Acid homogentizic
+
+**Manifestări:**
+- Urină se **înch ide la culoare** la contact cu aerul
+- Pigmentare țesuturi (conjunctivă) în forme severe
+- Artrită
+- Semnalat în copilărie
+
+**Gravitate:** Mai puțin gravă decât fenilcetonuria`,
+        mnemonic: 'Fenilcetonurie=Fen→Tir blocat; Alcaptonurie=homogentizat oxidază defect→urină închisă',
+      },
+      {
+        front: 'Boli metabolice - Urina cu miros de arțar și Aciduria metilmalonică',
+        back: `**URINA CU MIROS DE ARȚAR:**
+
+**Defect:** Complex multienzimatic **α-cetoacid-dehidrogenază**
+
+**AA afectați:** Valină, Leucină, Izoleucină (AA alifatici cu catenă ramificată)
+
+**Acumulare:** AA + α-cetoacizi corespunzători → miros specific urină
+
+**Manifestări:**
+- Toxicitate cerebrală
+- Deces neonatal dacă nu e descoperit
+
+**Tratament:**
+- Dietă săracă în cei 3 AA
+- Administrare **tiamină**
+
+---
+
+**ACIDURIA METILMALONICĂ:**
+
+**Defect:** Conversie **metilmalonil-CoA → succinil-CoA**
+- Enzimă: metilmalonil-CoA mutază
+- Coenzimă: 5'-dezoxiadenosilcobalamina (din **vitamina B₁₂**)
+
+**Acumulare:** Acid metilmalonic + cetone
+
+**Manifestări:**
+- Comă și șoc (primele săptămâni)
+- Hipotonie, hepatomegalie, osteoporoză
+
+**Tratament:**
+- Doze mari **vitamina B₁₂**
+- Dacă nu cedează: dietă restrictivă (metionină, izoleucină, valină)`,
+        mnemonic: 'Arțar=Val,Leu,Ile blocat→miros; Metilmalonică=B₁₂ defect→comă neonatală',
+      },
+      {
+        front: 'Glicoliza - Definiție, localizare și etape cheie',
+        back: `**GLICOLIZA (Calea Embden-Meyerhof-Parnas):**
+
+**Definiție:**
+- Degradarea **parțială** a glucozei până la **piruvat** sau **lactat**
+- Proces anaerob (nu necesită O₂)
+- Furnizează energie rapidă
+
+**Localizare:** Citosol
+
+**Funcții:**
+- Furnizează energie metabolică (2 ATP net)
+- Produce acetil-CoA (→ lipide) și glicerol (→ trigliceride)
+- Furnizează intermediari pentru biosinteze
+
+**Etape cheie:**
+
+1. **Glucoză + ATP → Glucozo-6-fosfat** (hexokinază/glucokinază)
+2. **Fructozo-6-fosfat + ATP → Fructozo-1,6-bifosfat** (fosfofructokinază - **enzimă cheie**)
+3. Scindare în 2 trioze: gliceraldehid-3-P + dihidroxiaceton-P
+4. **2× (1,3-bifosfoglicerat → 3-fosfoglicerat)** → 2 ATP
+5. **2× (Fosfoenolpiruvat → Piruvat)** → 2 ATP (piruvatkinază)
+
+**Bilanț:**
+- Glucoză → 2 Piruvat + 2 ATP (net) + 2 NADH`,
+        mnemonic: 'Glicoliză=glc→piruvat citosoL; 2 ATP net; PFK=limită; F-1,6-BP cheie',
+      },
+      {
+        front: 'Fosfofructokinaza (PFK) - Reglare alosterică',
+        back: `**FOSFOFRUCTOKINAZA (PFK):**
+
+**Rol:** Enzima care catalizează **etapa limitantă** a glicolizei
+- Fructozo-6-P + ATP → Fructozo-1,6-bifosfat
+
+**Reglare alosterică:**
+
+**ACTIVATORI (+):**
+- **AMP, ADP** (deficit energetic → stimulează glicoliza)
+- **Fructozo-1,6-bifosfat** (stimulare prin produs final)
+- **Fructozo-2,6-bifosfat** (activator puternic)
+
+**INHIBITORI (−):**
+- **ATP** (concentrații mari = energie suficientă)
+- **Citrat** (semnalul că ciclul Krebs e saturat)
+- **Fosfoenolpiruvat**
+- **1,3-bifosfoglicerat**
+
+**Semnificație:**
+- PFK coordonează glicoliza cu starea energetică celulară
+- ATP crescut → glicoliză frânată
+- AMP crescut → glicoliză accelerată`,
+        mnemonic: 'PFK=gât glicoliză; (+)AMP,F-2,6-BP; (−)ATP,citrat',
+      },
+      {
+        front: 'Piruvatkinaza - Reglare și forme izoenzimatice',
+        back: `**PIRUVATKINAZA (PK):**
+
+**Reacție:** Fosfoenolpiruvat → Piruvat + ATP (etapă finală glicoliză)
+
+**Forme izoenzimatice:**
+- **L (ficat)** - reglată hormonal
+- **M (mușchi)** - mai puțin reglată
+
+**Activare:**
+- **Fructozo-1,6-bifosfat** (feed-forward)
+- **Insulină** → defosforilare → activare
+- Dietă bogată în carbohidrați → creștere cantitate enzimă
+
+**Inhibare:**
+- **ATP, alanină, acizi grași, acetil-CoA**
+- **Glucagon, catecolamine** → fosforilare → inactivare
+
+**Mecanism reglare hormonală:**
+- Insulină → fosfatază → **defosforilare** → ACTIVĂ
+- Glucagon → proteinkinază (PKA) → **fosforilare** → INACTIVĂ
+
+**Semnificație:** Control hormonal al glicolizei hepatice`,
+        mnemonic: 'PK: L(ficat) vs M(mușchi); insulină→ON; glucagon→OFF; F-1,6-BP→ON',
+      },
+      {
+        front: 'Metabolizarea piruvatului - Aerobioza vs Anaerobioza',
+        back: `**METABOLIZAREA PIRUVATULUI:**
+
+**AEROBIOZA (în prezența O₂):**
+- **Piruvat → Acetil-CoA** (piruvat dehidrogenază)
+- Acetil-CoA intră în **ciclul Krebs**
+- Oxidare totală → 2 CO₂
+- NADH reoxidat în lanțul respirator
+- Yield: **~30-32 ATP/glucoză**
+
+**ANAEROBIOZA (fără O₂):**
+
+**Anaerobioza relativă** (mușchi, ficat, rinichi):
+- **Piruvat + NADH → Lactat + NAD⁺** (lactat dehidrogenază - LDH)
+- Lactatul → sânge → ficat → reoxidat la piruvat → gluconeogeneză
+
+**Anaerobioza permanentă** (eritrocite, retină, tumori):
+- Nu au mitocondrii funcționale
+- Singura sursă ATP = glicoliza
+- Yield: doar **2 ATP/glucoză**
+
+**Conversia la alanină:**
+- Piruvat + glutamat → Alanină + α-cetoglutarat (ALAT)
+- Transport piruvat mușchi → ficat`,
+        mnemonic: 'Aerob=piruvat→Ac-CoA→Krebs; Anaerob=piruvat→lactat(LDH)+NAD⁺',
+      },
+      {
+        front: 'Gluconeogeneza - Definiție, localizare și substrat',
+        back: `**GLUCONEOGENEZA:**
+
+**Definiție:**
+- Sinteza **de novo** a glucozei din compuși **neglucidici**
+- Glicoliza inversată (cu 3 reacții unidirecționale proprii)
+
+**Localizare:**
+- **Ficat: 80%**
+- **Cortex renal: 20%**
+
+**Când apare:**
+- Înfruntare (>7-8 ore post-prandial)
+- Efort prelungit
+- Regim alimentar sărac în carbohidrați
+- După epuizarea glicogenului hepatic
+
+**Substrat (materie primă):**
+1. **Lactat** (din mușchi anaerobi, eritrocite) - ciclul Cori
+2. **Aminoacizi glucoformatori** (toți exceptând leucină și lizină)
+   - Alanină (cel mai important)
+   - Serina, glicina
+3. **Glicerol** (din lipoliza trigliceridelor) - 10% din gluconeogeneza totală
+
+**Cost energetic:** Mare consumator de energie (6 ATP/glucoză)`,
+        mnemonic: 'Gluconeogeneza=lactat+AA+glicerol→glu; Ficat 80%; după 7-8h înfruntare',
+      },
+      {
+        front: 'Gluconeogeneza - Cele 3 reacții unidirecționale (bypass-uri)',
+        back: `**REACȚII UNIDIRECȚIONALE ÎN GLUCONEOGENEZA:**
+
+Glicoliza are 3 reacții ireversibile care trebuie **ocolite** în gluconeogeneză:
+
+**1. Piruvat → Fosfoenolpiruvat (bypass piruvat kinază):**
+- **Piruvat + CO₂ + ATP → Oxalacetat** (piruvat carboxilază, în mitocondrie)
+- **Oxalacetat + GTP → Fosfoenolpiruvat + CO₂** (PEP carboxikinază)
+- OAA exportat ca malat/aspartat (nu traversează membrana)
+
+**2. Fructozo-1,6-bifosfat → Fructozo-6-fosfat (bypass PFK):**
+- **Fructozo-1,6-bifosfatază** + H₂O → Fructozo-6-P + Pi
+- Inhibată de fructozo-2,6-bifosfat
+
+**3. Glucozo-6-fosfat → Glucoză (bypass hexokinază):**
+- **Glucozo-6-fosfatază** + H₂O → Glucoză + Pi
+- Prezentă doar în **ficat și rinichi** (de aceea doar acestea fac gluconeogeneză!)
+
+**Condiții necesare:**
+- Cantitate mare de piruvat
+- Raport ATP/ADP crescut`,
+        mnemonic: '3 bypass: Pir→PEP(carbox+kinază); F-1,6-BP→F-6-P(fosfatază); G-6-P→Glu(fosfatază)',
+      },
+      {
+        front: 'Gluconeogeneza din aminoacizi - Principalii AA glucoformatori',
+        back: `**GLUCONEOGENEZA DIN AMINOACIZI:**
+
+**Aminoacizi glucoformatori:** Toți AA **EXCEPTÂND** leucină și lizină
+
+**Căi de intrare în gluconeogeneză:**
+
+**1. Via α-cetoglutarat → Oxalacetat:**
+- Glutamat, glutamină, histidină, arginină, prolină
+
+**2. Via oxalacetat direct:**
+- **Aspartat** (transaminare directă)
+
+**3. Via succinil-CoA → Oxalacetat:**
+- Metionină, izoleucină → Propionil-CoA → Succinil-CoA
+
+**4. Via fumarat → Oxalacetat:**
+- Tirozină, fenilalanină
+
+**5. Via piruvat → Oxalacetat:**
+- **Alanină** (cel mai important!)
+- Serina, glicina
+
+**Ciclul alanină (gluco-alanină):**
+- Mușchi: Piruvat + Glutamat → **Alanină** (ALAT)
+- Sânge: transport alanină
+- Ficat: Alanină → Piruvat + Glutamat → Glucoză + Uree
+
+**Avantaj dublu:** Transport piruvat + transport NH₃ pentru ureogeneză`,
+        mnemonic: 'Glucoformatori=toți AA minus Leu+Liz; Alanină=cel mai important; ciclu glu-ala',
+      },
+      {
+        front: 'Ciclul Cori - Definiție și semnificație',
+        back: `**CICLUL CORI (Ciclul lactat):**
+
+**Schema:**
+
+**MUȘCHI (anaerobioza):**
+- Glicogen/Glucoză → Glucozo-6-P → Piruvat
+- Piruvat + NADH → **LACTAT** (LDH)
+- Lactat → sânge
+
+**SÂNGE:**
+- Transport lactat mușchi → ficat
+
+**FICAT (aerobioza):**
+- Lactat + NAD⁺ → **Piruvat** (LDH)
+- Piruvat → Glucoză (gluconeogeneza - cost 6 ATP)
+- Glucoză → sânge
+
+**SÂNGE:**
+- Transport glucoză ficat → mușchi
+
+**Semnificație:**
+- Prevenirea acidozei lactice (lactat = acid)
+- Recuperarea lactatului și reutil
+izare
+- Menținerea glicemiei în efort
+- Cost energetic: **ficat consumă 4 ATP** pentru recirculare
+
+**Când:** Efort intens, recuperare post-efort`,
+        mnemonic: 'Cori=Mușchi(glu→lactat)→Sânge→Ficat(lactat→glu)→Sânge→Mușchi',
+      },
+      {
+        front: 'Reglarea gluconeogenezei - Mecanism hormonal și alosteric',
+        back: `**REGLAREA GLUCONEOGENEZEI:**
+
+**REGLARE NON-HORMONALĂ:**
+
+1. **Concentrația substratului:**
+   - ↑ Piruvat, lactat, alanină → ↑ gluconeogeneză
+
+2. **Reglare alosterică:**
+   - **Acetil-CoA** activează **piruvat carboxilază** (prima enzimă)
+   - Semnal: lipoliză activă → protejează glicemia
+
+**REGLARE HORMONALĂ:**
+
+**HORMONI STIMULATORI:**
+- **Glucagon** (jejun, scădere glicemie)
+- **Epinefrină/Norepinefrină** (stres, efort)
+- **Glucocorticoizi** (cortizol) - catabolism proteic → AA
+
+**Mecanism:**
+- ↓ Fructozo-2,6-bifosfat
+- Activează fructozo-1,6-bifosfatază
+- Inhibă PFK (glicoliza)
+
+**HORMONI SUPRESORI:**
+- **Insulină** (stare fed, glicemie normală)
+- Stimulează glicoliza, inhibă gluconeogeneza
+
+**Reciprocitate:** Glicoliza ↔ Gluconeogeneza (nu pot fi active simultan!)`,
+        mnemonic: 'Stimulatori=Glucagon+Epi+Cortizol; Inhibitor=Insulină; Ac-CoA→ON pir-carbox',
+      },
+      {
+        front: 'Ciclul Krebs (TCA) - Reacția globală și funcții',
+        back: `**CICLUL KREBS (Ciclul acizilor tricarboxilici / TCA):**
+
+**Localizare:** Matrixul mitocondrial
+
+**Reacția globală:**
+\`\`\`
+Acetil-CoA + 3NAD⁺ + FAD + GDP + 2H₂O + Pi
+    ↓
+2CO₂ + 3NADH + 3H⁺ + FADH₂ + GTP + CoASH
+\`\`\`
+
+**Yield energetic:** 12 ATP/Acetil-CoA (via fosforilare oxidativă)
+
+**Etape cheie:**
+1. **Acetil-CoA + Oxalacetat → Citrat** (citrat sintază)
+2. Citrat → Izocitrat
+3. **Izocitrat → α-cetoglutarat + CO₂** (NADH)
+4. **α-cetoglutarat → Succinil-CoA + CO₂** (NADH)
+5. Succinil-CoA → Succinat (GTP)
+6. **Succinat → Fumarat** (FADH₂)
+7. Fumarat → Malat
+8. **Malat → Oxalacetat** (NADH) - regenerare
+
+**Funcții:**
+- Oxidare finală glucide, lipide, proteine
+- Furnizare echivalenți reducători (NADH, FADH₂)
+- Furnizare intermediari pentru biosinteze`,
+        mnemonic: 'Krebs=Ac-CoA→2CO₂+3NADH+FADH₂+GTP; 12ATP/ciclu; doar aerob',
+      },
+      {
+        front: 'Reglarea ciclului Krebs - Enzime cheie și reglare alosterică',
+        back: `**REGLAREA CICLULUI KREBS:**
+
+**ENZIME CHEIE (reglate alosteric):**
+
+**1. Citrat sintază** (punctul de intrare):
+- **INHIBITORI:** ATP, NADH, citrat, acizi grași cu lanț lung, succinil-CoA
+- Semnificație: Feedback negativ când energia e suficientă
+
+**2. Izocitrat dehidrogenază:**
+- **ACTIVATORI:** ADP, Ca²⁺
+- **INHIBITORI:** ATP, NADH
+- Control prin starea energetică
+
+**3. α-cetoglutarat dehidrogenază:**
+- **ACTIVATORI:** Ca²⁺
+- **INHIBITORI:** Succinil-CoA, NADH, ATP
+
+**PRINCIPII REGLARE:**
+
+- **↑ ATP/NADH** → ciclul ÎNCETINEȘTE (energie suficientă)
+- **↑ ADP/NAD⁺** → ciclul ACCELEREAZĂ (deficit energetic)
+- **Ca²⁺** → activare (contracție musculară, transmitere nervoasă)
+
+**Cerință absolută:** AEROBIOZA (necesită reoxidare continuă NADH în lanțul respirator)
+
+**Orientare metabolică:** Citrat excesiv → export citosol → neolipogeneză`,
+        mnemonic: 'Krebs frânat de ATP+NADH; stimulat de ADP+NAD⁺+Ca²⁺; doar aerob',
+      },
+      {
+        front: 'Integrarea metabolică - Intrare glucide/lipide/proteine în ciclul Krebs',
+        back: `**INTRAREA ÎN CICLUL KREBS:**
+
+**GLUCIDE:**
+- Glucoză → Piruvat (glicoliză)
+- **Piruvat → Acetil-CoA** (piruvat dehidrogenază, în mitocondrie)
+- Decarboxilare oxidativă ireversibilă
+
+**LIPIDE:**
+- Trigliceride → Acizi grași + Glicerol
+- **Acizi grași → Acetil-CoA** (β-oxidare, în mitocondrie)
+- Glicerol → Dihidroxiaceton-P → glicoliză
+
+**PROTEINE/AMINOACIZI:**
+
+**Aminoacizi cetoformatori:**
+- **→ Acetil-CoA** (leucină, lizină, fenilalanină, tirozină, triptofan)
+
+**Aminoacizi glucoformatori:**
+- → **α-cetoglutarat** (glutamat, glutamină, histidină, arginină, prolină)
+- → **Succinil-CoA** (metionină, izoleucină, valină)
+- → **Fumarat** (fenilalanină, tirozină)
+- → **Oxalacetat** (aspartat, asparagină)
+
+**Convergență:** Toate cele 3 clase de macronutrienți → Acetil-CoA → Krebs
+
+**Bilanț total glucoză:**
+- Glucoză → 2 Lactat: **2-3 ATP** (anaerob)
+- Glucoză → CO₂: **30-32 ATP** (aerob complet)`,
+        mnemonic: 'TOATE→Krebs: Glc→pir→Ac-CoA; Lipide→Ac-CoA; AA→Ac-CoA sau intermediari Krebs',
+      },
+      {
+        front: 'Lipide - Clasificare și funcții biologice',
+        back: `**LIPIDE:**
+
+**Definiție:**
+- Constituenți organici **greu solubili în apă**
+- **Solubili în solvenți nepolari** (eter, benzen, cloroform)
+- Regiunea hidrocarbonată hidrofobă
+
+**FUNCȚII:**
+1. **Energetice:** Principala formă de depozitare energie (trigliceride = 40% din energie)
+2. **Structurale:** Membrane celulare (fosfolipide, sfingolipide, colesterol)
+3. **Izolatori:** Termici, electrici, mecanici
+4. **Hormoni și vitamine:** Steroizi, vitamine liposolubile (A,D,E,K)
+5. **Comunicare intercelulară:** Prostaglandine, leucotriene
+
+**CLASIFICARE:**
+
+**Saponifiabile** (conțin acizi grași legați esteric):
+- Trigliceride (acilgliceroli)
+- Fosfolipide (fosfogliceride)
+- Sfingolipide
+- Ceruri
+
+**Nesaponifiabile** (nu conțin acizi grași):
+- Terpene
+- Carotenoizi
+- Steroizi (colesterol, hormoni, acizi biliari)`,
+        mnemonic: 'Lipide: Saponif(trigliceride,fosfolip) vs Nesaponif(steroizi,terpene); 40% energie',
+      },
+      {
+        front: 'Acizi grași - Tipuri și proprietăți',
+        back: `**ACIZI GRAȘI:**
+
+**Caracteristici generale:**
+- Acizi monocarboxilici, alifatici, catenă normală
+- **Număr PAR de atomi C** (4-26)
+- Cei mai răspândiți: C16-C18
+
+**SATURAȚI:**
+- **Acid palmitic** (C16:0) - cel mai răspândit
+- **Acid stearic** (C18:0)
+- **Acid lignoceric** (C24:0)
+
+**NESATURAȚI:**
+- Acid **palmitoleic** (C16:1, ω-7)
+- Acid **oleic** (C18:1, ω-9) - cel mai răspândit nesaturat
+- Acid **linoleic** (C18:2, ω-6) - **ESENȚIAL**
+- Acid **linolenic** (C18:3, ω-3) - **ESENȚIAL**
+- Acid **arahidonic** (C20:4, ω-6) - precursor eicosanoizi
+
+**Izomerie:** Formele naturale sunt **cis** (nu trans!)
+
+**Solubilitate:** ↓ cu ↑ lungime catenă
+
+**Reactivitate:**
+- Legături duble: adaugă H₂, halogeni; peroxidare (rancezire)
+- Grupare COOH: formează săpunuri, esteri, amide`,
+        mnemonic: 'AG saturați(C16,C18); nesaturați=cis; Linoleic+Linolenic=esențiali; ω-6,ω-3',
+      },
+      {
+        front: 'β-oxidarea acizilor grași - Localizare și etape',
+        back: `**β-OXIDAREA:**
+
+**Definiție:** Degradare oxidativă a acizilor grași prin **scindare repetată a fragmentelor C₂** (acetil-CoA)
+
+**Localizare:** **Matrixul mitocondrial**
+
+**ETAPE:**
+
+**1. Activarea (în citosol):**
+- AG + CoASH + ATP → Acil-CoA + AMP + PPi
+- Cost: **2 ATP** (AMP → ADP → ATP)
+
+**2. Transport în mitocondrie (naveta carnitinei):**
+- Acil-CoA + Carnitină → Acil-carnitină (trece membrana)
+- **Carnitil-acil-transferaza I** (CAT I) - externă
+- **Translocază**
+- **Carnitil-acil-transferaza II** (CAT II) - internă
+
+**3. Ciclul β-oxidării (4 reacții/ciclu):**
+- **Dehidrogenare** (FAD → FADH₂) - acil-CoA dehidrogenază
+- **Hidratare** (+H₂O)
+- **Dehidrogenare** (NAD⁺ → NADH) - β-oxidare la cetonă
+- **Tioliza** (scindare CoASH) → Acetil-CoA + Acil-CoA (C-2)
+
+**Bilanț acid palmitic (C16):**
+- 7 cicluri β-oxidare → 8 Acetil-CoA
+- Yield: **129 ATP net** (131 - 2 activare)`,
+        mnemonic: 'β-ox=mitocondrie; naveta carnitină; 4 etape: dehid(FAD)→hidrat→dehid(NAD)→tioliza',
+      },
+      {
+        front: 'Cetogeneza - Definiție, localizare și corpi cetonici',
+        back: `**CETOGENEZA:**
+
+**Definiție:** Sinteza **corpilor cetonici** din acetil-CoA (din β-oxidare) în ficat
+
+**Localizare:** **Mitocondrii hepatice** (sinteza) → Export către alte țesuturi (utilizare)
+
+**CORPI CETONICI:**
+1. **Acid acetoacetic** (acetoacetat) - primar
+2. **Acid β-hidroxibutiric** (D-izomerul) - din acetoacetat + NADH
+3. **Acetonă** (volatilă, eliminată pulmonar) - decarboxilare spontană
+
+**Mecanism sinteza:**
+- 2 Acetil-CoA → Acetoacetil-CoA (tiolază)
+- Acetoacetil-CoA + Acetil-CoA → **HMG-CoA** (HMG-CoA sintază)
+- HMG-CoA → **Acetoacetat** + Acetil-CoA (HMG-CoA liază)
+
+**Utilizare:**
+- Țesuturi extrahepatice activează acetoacetat → Acetoacetil-CoA (schimb cu succinil-CoA)
+- **Ficatul NU poate utiliza** (lipsește enzima de activare!)
+- Miocard, mușchi, rinichi, **creier** (în înfruntare/diabet)
+
+**Când apare:**
+- Înfruntare, diabet, sarcină
+- ↓ Glucoză → ↓ Oxalacetat → ↑ Cetogeneză`,
+        mnemonic: 'Cetogeneza=ficat→Ac-ac+β-OH-but; ficatul NU utilizează; creier în jejun',
+      },
+      {
+        front: 'Cetoacidoza diabetică - Mecanisme și consecințe',
+        back: `**CETOACIDOZA DIABETICĂ:**
+
+**Valori normale:** Cetonemie = **1 mg/dL**
+
+**Mecanism:**
+
+**1. Dezechilibru metabolic:**
+- ↓ Insulină + ↑ Glucagon → lipoliză masivă
+- ↑↑ Acizi grași liberi → ficat
+- ↑↑ β-oxidare → ↑↑ Acetil-CoA
+
+**2. Activarea cetogenezei:**
+- ↓ Glucoză → ↓ Oxalacetat (deturnat spre gluconeogeneză)
+- Acetil-CoA nu poate intra în Krebs (lipsa oxalacetat)
+- → Cetogeneză masivă
+
+**3. Control metabolic:**
+- **Malonil-CoA** inhibă CAT I → blochează β-oxidarea (absent în diabet!)
+- Raport Acetil-CoA/Oxalacetat dictează cetogeneza vs Krebs
+
+**CONSECINȚE:**
+
+**Cetonemie:** Poate ajunge la **70 mg/dL** (de 70× normal!)
+
+**Acidoză metabolică:**
+- Corpi cetonici = acizi → consumă rezerva alcalină
+- pH scăzut
+
+**Cetonurie + poliurie:**
+- Eliminare renală ca săruri
+- Substanțe osmotic active → pierdere H₂O`,
+        mnemonic: 'Diabet→↓insulină→lipoliză→β-ox→cetogeneza; cetonurie+acidoza; 1→70mg/dL',
+      },
+      {
+        front: 'Biosinteza acizilor grași - Localizare și materie primă',
+        back: `**BIOSINTEZA ACIZILOR GRAȘI (Neolipogeneză):**
+
+**Definiție:** Conversie **surplus glucide → acizi grași → trigliceride** (depozitare țesut adipos)
+
+**Localizare:** **Citosol** (ficat = principal, țesut adipos)
+
+**Materie primă:** **Acetil-CoA** (din glucoză via glicoliză + piruvat dehidrogenază)
+
+**Necesar:**
+- **ATP** (energie)
+- **NADPH** (echivalenți reducători) - din calea pentozo-fosfat + malat
+
+**ETAPE CHEIE:**
+
+**1. Transfer Acetil-CoA mitocondrie → citosol:**
+- Acetil-CoA + Oxalacetat → **Citrat** (citrat sintază, în mitocondrie)
+- Citrat → citosol (translocaza)
+- **Citrat → Acetil-CoA + Oxalacetat** (citrat liază, în citosol)
+
+**2. Formarea Malonil-CoA (ETAPĂ LIMITANTĂ):**
+- **Acetil-CoA + CO₂ + ATP → Malonil-CoA** (acetil-CoA carboxilază)
+
+**3. Sinteza acidului palmitic:**
+- **Acid gras sintază** (proteină multienzimatică)
+- 7 cicluri de elongare (adaugă C₂ din malonil-CoA)
+- **8 Acetil-CoA + 7 Malonil-CoA → Acid palmitic (C16)**
+
+**Produsul final:** Acid palmitic → elongare/desaturare → alți AG`,
+        mnemonic: 'Neolipogeneza=citosoL; Ac-CoA(mito)→citrat→citosoL; Ac-CoA-carbox=limită',
+      },
+      {
+        front: 'Acetil-CoA carboxilaza - Reglare alosterică și hormonală',
+        back: `**ACETIL-CoA CARBOXILAZA:**
+
+**Reacție:** Acetil-CoA + CO₂ + ATP → Malonil-CoA (ETAPA LIMITANTĂ neolipogeneză)
+
+**REGLARE ALOSTERICĂ:**
+
+**ACTIVATORI (+):**
+- **Citrat** (semnalul: ciclul Krebs saturat + energie abundentă)
+- Indiciu că trebuie convertit excesul în depozit lipidic
+
+**INHIBITORI (−):**
+- **Palmitil-CoA** (semnalul: exces acizi grași)
+- **Acil-CoA cu lanț lung** (feedback negativ)
+
+**REGLARE HORMONALĂ:**
+
+**ACTIVARE (defosforilare):**
+- **Insulină** → fosfatază → enzima ACTIVĂ
+- Stare fed, glicemie crescută
+
+**INHIBARE (fosforilare):**
+- **Glucagon, epinefrină, norepinefrină** → PKA → enzima INACTIVĂ
+- Stare jejun, necesitate energie
+
+**REGLARE CANTITATIVĂ:**
+- Dietă bogată glucide + ↑ insulină → ↑ cantitate enzimă
+- Raport Insulină/Glucagon ridicat → favorabil neolipogeneză
+
+**Rol strategic malonil-CoA:** Inhibă CAT I → blochează β-oxidarea (reciprocitate)`,
+        mnemonic: 'Ac-CoA-carbox: (+)citrat,insulină; (−)palmitil-CoA,glucagon; malonil→blocare β-ox',
+      },
+      {
+        front: 'Acid gras sintază - Mecanism și specificitate',
+        back: `**ACID GRAS SINTAZĂ:**
+
+**Structură:** Proteină multienzimatică uriașă (2 lanțuri polipeptidice identice)
+
+**Grupări tiolice active:**
+- **Cys-SH** (cisteină) - site central
+- **Pant-SH** (fosfopanteteină) - "braț mobil"
+
+**CICLUL DE ELONGARE (7× pentru palmitat):**
+
+**1. Încărcare:**
+- Acetil → Cys-SH (transacilază)
+- Malonil → Pant-SH (transacilază)
+
+**2. Condensare:**
+- Acetil + Malonil → **β-cetoacil-C₄** (−CO₂)
+- Transfer acetil pe malonil
+
+**3. Reducere #1:**
+- β-cetoacil → **β-hidroxiacil** (NADPH)
+
+**4. Dehidratare:**
+- β-hidroxiacil → **α,β-nesaturat** (−H₂O)
+
+**5. Reducere #2:**
+- α,β-nesaturat → **Acil saturat** (NADPH)
+
+**Reluare:** Acil transferat Pant→Cys; nou malonil încărcat → ciclu repetat
+
+**Specificitate:** Doar **acidul palmitic (C16)** este eliberat hidrolitic!
+- Intermediarii C₄-C₁₄ rămân legați de sintază
+
+**Bilanț:** 8 Acetil-CoA + 14 NADPH → Palmitat`,
+        mnemonic: 'AG-sintază: 7 cicluri; 2 reduceri NADPH/ciclu; doar C16 eliberat; Cys+Pant',
+      },
+      {
+        front: 'Elongarea și desaturarea acizilor grași',
+        back: `**ELONGAREA ACIZILOR GRAȘI:**
+
+**Localizare:** **Reticulul endoplasmatic** (ER)
+
+**Mecanism:**
+- Adaugă unitați **C₂** din **malonil-CoA** (similar cu AG sintază)
+- Palmitat (C16) + Malonil-CoA → **Stearat (C18)**
+- Similară cu neolipogeneză (necesită NADPH)
+
+**DESATURAREA (introducere legături duble):**
+
+**La mamifere - LIMITARE:**
+- Pot desatura doar până la **Δ9** (între C9-C10)
+- **Acil-CoA desaturază** + Citocrom b₅ reductază
+- Necesită: O₂, NADH, FAD
+
+**Exemple:**
+- Stearat (C18:0) → **Oleat (C18:1, ω-9)** ✅
+- Palmitat (C16:0) → **Palmitoleat (C16:1, ω-7)** ✅
+- Oleat → Linoleat ❌ (nu poate!)
+
+**ACIZI GRAȘI ESENȚIALI:**
+- **Linoleic (C18:2, ω-6)** - ESENȚIAL
+- **Linolenic (C18:3, ω-3)** - ESENȚIAL
+- Nu pot fi sintetizați de mamifere → **aport exogen obligatoriu**
+
+**Rol AG esențiali:**
+- Precursori prostaglandine
+- Componente membrane (fosfolipide)
+- Esteri colesterol`,
+        mnemonic: 'Elongare=ER+malonil; Desaturare=doar Δ9; Linoleic+Linolenic=ESENȚIALI',
+      },
+      {
+        front: 'Eicosanoizi - Clasificare și biosinteza',
+        back: `**EICOSANOIZI:**
+
+**Definiție:** Substanțe lipidice derivate din **acizi grași C₂₀ nesaturați** (mai ales arahidonic)
+- Hormoni **paracrini** (acțiune locală)
+
+**CLASIFICARE:**
+1. **Prostaglandine (PG):** PGE₂, PGF₂α
+2. **Endoperoxizi:** PGG₂, PGH₂
+3. **Prostaciclină (PGI₂):** vasodilatator
+4. **Tromboxani (TX):** TXA₂ (proagregant), TXB₂
+5. **Leucotriene (LT):** LTA₄, LTB₄, LTC₄, LTD₄, LTE₄
+
+**BIOSINTEZA:**
+
+**Etapa I - Eliberare substrat:**
+- Fosfolipidă membrană + **Fosfolipaza A₂** → **Acid arahidonic** (C20:4, ω-6)
+- Stimuli: mecanici, electrici, umorali
+
+**Etapa II - Două căi:**
+
+**A) Calea CICLOOXIGENAZEI (COX):**
+- Acid arahidonic → PGG₂ → PGH₂ (endoperoxid comun)
+- PGH₂ → PG clasice (PG sintază) | TX (TX sintază) | PGI₂ (PC sintază)
+
+**B) Calea LIPOOXIGENAZEI (LOX):**
+- Acid arahidonic → 5-HPETE → 5-HETE → **LT**
+
+**Nu se depozitează** - sinteza on-demand!`,
+        mnemonic: 'Eicosanoizi=C20; Arahidon→COX(PG,TX,PGI₂) sau LOX(LT); paracrini',
+      },
+      {
+        front: 'Inhibitori ai sintezei eicosanoizilor - Mecanisme',
+        back: `**INHIBITORI SINTEZA EICOSANOIZI:**
+
+**NIVEL I - Fosfolipaza A₂:**
+
+**CORTICOSTEROIZI (glucocorticoizi):**
+- Inhibă **fosfolipaza A₂**
+- Blochează eliberarea acidului arahidonic
+- → NU se formează nici PG, nici LT
+- Efect **antiinflamator puternic**
+
+**NIVEL II - Ciclooxigenaza (COX):**
+
+**AINS (Antiinflamatoare Nesteroidiene):**
+- **Aspirina (acid acetilsalicilic):**
+  - Acilare **ireversibilă** a COX
+  - Blochează sinteza PG și TX
+  - **Plachetele** foarte sensibile (nu pot resintetiza COX → efect antiagregant prelungit)
+  - **Endoteliul vascular** poate reface COX treptat
+
+- **Alte AINS** (ibuprofen, diclofenac, celecoxib):
+  - Inhibare COX (reversibilă sau selectivă COX-2)
+  - → ↓ PG (inflamație, durere, febră)
+  - → NU afectează LT (calea LOX)
+
+**NIVEL III - Lipoxigenaza:**
+- Inhibitori LOX (zileuton) → ↓ LT
+- Utili în astm (LT = bronhoconstrictori puternici)
+
+**Durată acțiune:**
+- Corticosteroizi: ore-zile
+- Aspirina plachete: **7-10 zile** (durata viață plachetă)
+- AINS altele: ore`,
+        mnemonic: 'Corticoizi→blocare PL-A₂; Aspirină→COX ireversibil; AINS→COX reversibil',
+      },
+      {
+        front: 'Acțiuni biologice ale prostaglandinelor și tromboxanilor',
+        back: `**ACȚIUNI BIOLOGICE EICOSANOIZI:**
+
+**PROSTAGLANDINE (PG):**
+
+**PGE₂:**
+- **Vasodilatație**, ↓ TA
+- **Protecție gastrică:** ↓ secreție HCl, ↑ mucus
+- **Bronhodilatație**
+- **Relaxare musculatură netedă** (intestin, uter)
+- **Pirexie** (febră)
+- **Hiperalgezic** (sensibilizează la durere)
+
+**PGF₂α:**
+- **Vasoconstricție**
+- **Contracție musculatură netedă** (uter - luzotrofic)
+- **Bronhoconstricție**
+- **Luteolitic** (regresie corp galben)
+
+**PGI₂ (Prostaciclină):**
+- **Vasodilatator puternic**
+- **Antiagregant plachetar**
+- Produs de **endoteliul vascular**
+
+**TROMBOXANI (TX):**
+
+**TXA₂:**
+- **Vasoconstricție puternică**
+- **Proagregant plachetar** (activare agregare)
+- Produs de **plachete**
+- Foarte **instabil** → TXB₂ (inactiv)
+
+**Balanță hemostază:** PGI₂ (endoteliu) vs TXA₂ (plachete)
+
+**LEUCOTRIENE (LT):**
+- **Bronhoconstricție severă** (LTC₄, LTD₄, LTE₄ = "substanța cu reacție lentă")
+- **Chemotactism** (LTB₄) - atrage leucocite
+- **Rol în astm, anafilaxie**`,
+        mnemonic: 'PGE₂=dilat+protecție; PGF₂α=constrict+contract; PGI₂ vs TXA₂; LT=bronhoconstr',
+      },
+      {
+        front: 'Structura enzimelor - Holoenzimă, apoenzimă, cofactor',
+        back: `**STRUCTURA ENZIMELOR:**
+
+**ENZIME PURE (proteine simple):**
+- **Hidrolaze:** ribonuclează, chimotipsină, **lizozim**
+- Lizozim: în lacrimi, mucus nazal; scindează hidrolitic peretele bacterian (NAM-NAG)
+
+**ENZIME HETEROPROTEICE (holoenzime):**
+
+**Terminologie:**
+- **Holoenzimă** = enzimă completă (apoenzimă + cofactor)
+- **Apoenzimă** = componenta proteică (fără cofactor = INACTIVĂ)
+- **Cofactor** = componenta neproteică (org
+anică sau anorganică)
+
+**Tipuri cofactori:**
+
+1. **Coenzimă:** Leagă prin legături slabe (H, ionice, hidrofobe)
+   - NAD⁺, NADP⁺, FAD, FMN, CoA, vitamine
+   - Se disociază ușor
+
+2. **Grupare prostetică:** Leagă prin legături **covalente puternice**
+   - Hem (în citocrom, peroxidază)
+   - Nu se disociază
+
+3. **Ioni metalici (metaloenzime):**
+   - Fe²⁺/Fe³⁺ (citocrom, catalază)
+   - Cu²⁺, Zn²⁺ (superoxid dismutază)
+   - Mg²⁺, Mn²⁺, Ca²⁺
+
+**Funcții ioni metalici:**
+- Stabilizare structură
+- Legare substrat
+- Inducere schimbări conformaționale
+- Participare directă la cataliză`,
+        mnemonic: 'Holoenzimă=Apoenzimă+Cofactor; Coenz(weak) vs ProstGrup(covalent); Metaloenz',
+      },
+      {
+        front: 'Complexe multienzimatice și izoenzime',
+        back: `**COMPLEXE MULTIENZIMATICE:**
+
+**Definiție:** Enzime fixate prin legături slabe pe o **proteină centrală** în ordinea intrării în acțiune
+
+**Caracteristici:**
+- "Braț mobil" (fosfopanteteină) care duce substratul la fiecare enzimă
+- Asigură viteză mare de reacție (substrat poziționat exact în centru activ)
+- Eficiență crescută (fără difuziune între enzime)
+
+**Exemple:**
+- **Acid gras sintază** (7 activități enzimatice)
+- **Piruvat dehidrogenază** (3 enzime: E₁, E₂, E₃)
+
+**IZOENZIME:**
+
+**Definiție:** Forme moleculare ale aceleiași enzime cu **structură cuaternară diferită**
+
+**Caracteristici:**
+- Catalizează **aceeași reacție**
+- Viteze diferite în funcție de raportul subunităților
+- Distribuție tisulară specifică
+
+**Exemplu: LDH (Lactat dehidrogenază):**
+- 2 subunități de bază: **H (heart)** și **M (muscle)**
+- 5 izoenzime: H₄ (LDH₁), H₃M (LDH₂), H₂M₂ (LDH₃), HM₃ (LDH₄), M₄ (LDH₅)
+- LDH₁, LDH₂ → **inimă**
+- LDH₅ → **ficat, mușchi**
+
+**Exemplu: CK (Creatinkinază):**
+- Subunități: **M (muscle)**, **B (brain)**
+- 3 izoenzime: MM (CK-MM), MB (**CK-MB**), BB (CK-BB)
+- **CK-MB** = specific IMA (infarct miocardic acut)`,
+        mnemonic: 'Complexe=AG-sintază,Pir-dehid; Izoenz=structură diferită,reacție identică; LDH(H+M), CK(M+B)',
+      },
+      {
+        front: 'Ecuația Michaelis-Menten - Km și Vmax',
+        back: `**ECUAȚIA MICHAELIS-MENTEN:**
+
+**Reacția enzimatică:**
+\`\`\`
+      K₁        K₃
+E + S ⇄ ES → E + P
+      K₂
+\`\`\`
+
+**Ecuația:**
+\`\`\`
+V₀ = (Vmax × [S]) / (Km + [S])
+\`\`\`
+
+**Parametri:**
+
+**Vmax (viteza maximă):**
+- Atinsă când **toată enzima** este sub formă ES
+- [S] >> Km → V₀ ≈ Vmax
+- Independent de [S] la saturație
+
+**Km (constanta Michaelis-Menten):**
+- **Km = (K₂ + K₃) / K₁**
+- **Afinitate enzimă-substrat:**
+  - Km MIC → afinitate MARE (enzimă eficientă)
+  - Km MARE → afinitate MICĂ
+- **Definiție practică:** [S] la care V₀ = **Vmax/2**
+
+**Premise ecuație:**
+1. [S] >> [E] (substrat în exces)
+2. Stare staționară (formare ES = disociere ES)
+3. Măsurare viteză inițială (acumulare P neglijabilă)
+
+**Cazuri limită:**
+- [S] << Km → V₀ ≈ (Vmax/Km) × [S] (ordine I față de [S])
+- [S] >> Km → V₀ ≈ Vmax (ordine 0 față de [S])`,
+        mnemonic: 'V₀=Vmax[S]/(Km+[S]); Km mic=afinitate mare; Km=[S] când V=Vmax/2',
+      },
+      {
+        front: 'Influența temperaturii și pH-ului asupra enzimelor',
+        back: `**INFLUENȚA TEMPERATURII:**
+
+**Temperatură optimă:** 40-50°C (enzime umane)
+
+**Coeficient termic (Q₁₀):**
+- Valori: 1-2
+- Reprezintă raportul vitezelor la T și T+10°C
+- Valid doar sub temperatura optimă
+
+**Efecte temperatură:**
+- **Sub optimă:** ↑ T → ↑ viteză (↑ energie cinetică)
+- **Peste optimă:** ↑ T → ↓ viteză BRUSC (denaturare apoenzimă)
+- Denaturare: rupere legături H → pierdere structură 3D → inactivare centru activ
+
+**Excepții:**
+- Enzime microorganisme termale: Topt = 80-100°C
+- Enzime alte organisme: Topt = 50-60°C
+
+**INFLUENȚA pH-ului:**
+
+**pH optim:** De obicei = pH mediu natural enzimei
+- Majoritatea țesuturi: pH ≈ 7
+- Pepsina (stomac): pH opt = 1.5-2
+- Amilaza salivară: pH opt = 6.6-6.8
+
+**Efecte pH:**
+- **Modifică ionizarea:** grupări din situsul activ și substrat
+- **pH foarte scăzut/ridicat:** denaturare enzimă
+- **Specificitate:** fiecare enzimă are curba proprie pH
+
+**Exemplu:** Amilaza salivară inactivată în stomac (pH 1-2 << pH opt 6.6-6.8)`,
+        mnemonic: 'Topt=40-50°C; peste→denaturare; pH opt≈pH mediu; modif ionizare',
+      },
+      {
+        front: 'Inhibiție enzimatică reversibilă - Competitivă, necompetitivă, noncompetitivă',
+        back: `**INHIBIȚIE ENZIMATICĂ REVERSIBILĂ:**
+
+**1. INHIBIȚIE COMPETITIVĂ:**
+
+**Mecanism:**
+- Inhibitor (I) concurează cu S pentru **situsul catalitic** (activ)
+- Structură I similar cu S (analog structural)
+
+**Efecte:**
+- ↑ Km aparent (↓ afinitate aparentă)
+- Vmax **NESCHIMBAT** (poate fi atins la [S] foarte mare)
+
+**Exemplu:** Succinat dehidrogenază
+- S = Succinat
+- I = Malonat (structură similară)
+
+**Depășire:** ↑↑ [S] poate înlocui inhibitorul
+
+**2. INHIBIȚIE NECOMPETITIVĂ:**
+
+**Mecanism:**
+- I se leagă doar de **complexul ES** (nu de E liberă)
+- Situsul alosteric (≠ situsul catalitic)
+
+**Efecte:**
+- Km **NESCHIMBAT**
+- ↓ Vmax (nu poate fi atins chiar la [S] mare)
+
+**3. INHIBIȚIE NONCOMPETITIVĂ:**
+
+**Mecanism:**
+- I se leagă atât de **E** cât și de **ES**
+- Situsul alosteric
+
+**Efecte:**
+- Km **NESCHIMBAT** (dacă afinitate egală E și ES)
+- ↓ Vmax
+
+**Ki (constanta inhibiție):** Măsoară afinitatea I pentru enzimă (similar Km pentru substrat)`,
+        mnemonic: 'Competitiv=I vs S(↑Km); Necompetitiv=I+ES(↓Vmax); Noncompetitiv=I+E/ES(↓Vmax)',
+      },
+      {
+        front: 'Inhibiție enzimatică ireversibilă - Tipuri și mecanism',
+        back: `**INHIBIȚIE ENZIMATICĂ IREVERSIBILĂ:**
+
+**Definiție:** Inactivarea **permanentă** a enzimei prin legare covalentă
+
+**TIPURI INHIBITORI:**
+
+**1. Omologi substrat cu grupare reactivă:**
+- Structură similară substratului
+- Conțin grupare chimică **foarte reactivă**
+- Reacționează **covalent** cu resturi AA din situsul activ
+- → Blocare definitivă
+
+**Exemplu:** DFP (diizopropilfluorofosfat)
+- Inhibă **acetilcolinesteraza** (legare covalent la Ser în situs activ)
+- Folosit ca gaz nervos, insecticid organofosforat
+
+**2. Produse de reacție analog-substrat:**
+- Structură similară substratului
+- Se combină cu situsul activ, blocându-l ireversibil
+
+**3. Analogi ai stărilor de tranziție:**
+- Structură similară **intermediarilor** reacției
+- Afinitate **EXTREM de mare** pentru enzimă
+- Legare atât de puternică încât practic ireversibilă
+
+**Exemplu: Aspirina (AINS):**
+- **Acetilare ireversibilă** a COX (ciclooxigenază)
+- Ser530 acetilat → COX inactivată permanent
+- Plachetele nu pot resintetiza → efect antiagregant 7-10 zile
+
+**Importanță clinică:**
+- Medicamente (aspirină, penicilină)
+- Toxice (organofosforici, metale grele)
+- Instrumente cercetare (identificare resturi AA esențiale)`,
+        mnemonic: 'Inhibiție irevers=legare covalentă; DFP→AChE; Aspirină→COX acetilare',
+      },
+      {
+        front: 'Enzime diagnostice - Infarct miocardic',
+        back: `**ENZIME DIAGNOSTICE - INFARCT MIOCARDIC ACUT (IMA):**
+
+**Problema:** Enzime nelgate de organ-specific (LDH, AST, CK în inimă + ficat + mușchi)
+
+**SOLUȚIE: Izoenzime specifice**
+
+**1. CK-MB (Creatinkinază-MB):**
+- **CEL MAI SPECIFIC pentru IMA**
+- Subunități: M (muscle) + B (brain)
+- Izoenzime: CK-MM (mușchi), **CK-MB** (miocard), CK-BB (creier)
+- CK-MB > 6% din CK totală → **diagnostic IMA**
+
+**Cinetică:**
+- ↑ la 4-6h post-IMA
+- Peak la 12-24h
+- Normalizare 48-72h
+
+**2. LDH (Lactat dehidrogenază):**
+- Subunități: H (heart) + M (muscle)
+- 5 izoenzime: LDH₁-LDH₅
+- **LDH₁ (H₄), LDH₂ (H₃M)** → **inimă**
+- LDH₅ (M₄) → ficat, mușchi
+
+**Diagnostic IMA:**
+- **LDH₁ > LDH₂** ("flip pattern")
+- ↑ la 12-24h post-IMA
+- Peak 48-72h
+- Persistă 7-10 zile
+
+**3. AST/GOT (Aspartat aminotransferază):**
+- Prezent: inimă, ficat, mușchi
+- **Raport GOT/GPT:**
+  - < 1.3 → afecțiune hepatică
+  - > 1.3 → IMA sau afecțiune musculară
+
+**Markeri moderni (troponine):** Mai specifici și sensibili decât enzimele clasice`,
+        mnemonic: 'IMA: CK-MB(cel mai spec); LDH₁>LDH₂(flip); GOT/GPT>1.3',
+      },
+      {
+        front: 'Enzime diagnostice - Afecțiuni hepatice',
+        back: `**ENZIME DIAGNOSTICE - AFECȚIUNI HEPATICE:**
+
+**1. ALT/GPT (Alanin aminotransferază):**
+- **CEL MAI SPECIFIC pentru ficat**
+- Localizare: predominant **citosol hepatocite**
+- ↑↑ în: hepatită acută, hepatită cronică activă, ciroz
+
+**Diagnostic diferențial:**
+- **Raport AST/ALT (GOT/GPT):**
+  - < 1 → hepatită acută, hepatită cronică
+  - > 2 → hepatită alcoolică, ciroz alcoolică
+  - < 1.3 → **afecțiune hepatică** (vs > 1.3 = IMA)
+
+**2. AST/GOT (Aspartat aminotransferază):**
+- Prezent: ficat, inimă, mușchi, rinichi
+- Mai puțin specific decât ALT pentru ficat
+- Izoforme: mitocondrial (AST-m) și citoplasmatic (AST-c)
+
+**3. γ-GT (Gama-glutamil transferază):**
+- **Marker colestază** (stază biliară)
+- Foarte sensibil la alcool
+- ↑↑ în: alcoolism cronic, colestază, inductori enzimatici
+
+**4. Glutamat dehidrogenază:**
+- Foarte **specifică ficat** (mitocondrie hepatică)
+- ↑ în necroză hepatică severă
+- **Dezavantaj:** dificultăți tehnice → nu se folosește rutinâ
+
+**5. Fosfatază alcalină:**
+- ↑ în colestază (+ os, intestin, placentă)
+- Necesită izoenzimatică pentru specificitate
+
+**Alte enzime foarte specifice (rar folosite):**
+- **Sorbitol dehidrogenază (SDH)** - ficat
+- **Ornitin-carbamil-transferază (OCT)** - ficat`,
+        mnemonic: 'Ficat: ALT(cel mai spec); GOT/GPT<1.3; γ-GT(colestază,alcool); SDH,OCT(spec dar rar)',
+      },
+      {
+        front: 'Centre active enzimatice - Situsul catalitic vs Situsul de legare',
+        back: `**CENTRE ACTIVE ENZIMATICE:**
+
+**SITUSUL CATALITIC (centru activ):**
+
+**Componente:**
+- **Situsul de legare** (binding site) - recunoaște și leagă substratul
+- **Situsul catalitic propriu-zis** - efectuează transformarea chimică
+
+**Caracteristici:**
+- Reprezintă **10-20%** din volumul enzimei
+- Structură 3D specifică (creastură/crevasse)
+- Stabilizat de structura secundară/terțiară
+- Conține resturi AA esențiale pentru cataliză
+
+**Specificitate:**
+- **Geometrică** (formă complementară substratului)
+- **Chimică** (grupări funcționale complementare)
+
+**Model "cheie-broască"** (Fischer): Rigiditate
+**Model "fit indus"** (Koshland): Flexibilitate - enzima își ajustează forma la legarea S
+
+**SITUSUL ALOSTERIC:**
+
+**Definiție:** Site de reglare **separat** de situsul catalitic
+
+**Funcție:**
+- Legare **efector alosteric** (activator sau inhibitor)
+- Schimbare conformațională → modificare activitate catalitică
+
+**Exemple:**
+- Fosfofructokinază: situs catalitic (F-6-P) + situs alosteric (ATP−, AMP+, F-2,6-BP+)
+- Aspartat transcarb
+amilază: inhibat de CTP (produs final)
+
+**Importanță:** Reglare fină metabolism (feedback)`,
+        mnemonic: 'Situs catalitic=legare+cataliză; 10-20% volum; Situs alosteric=reglare',
+      },
+      {
+        front: 'Factori care influențează activitatea enzimatică',
+        back: `**FACTORI CE INFLUENȚEAZĂ ACTIVITATEA ENZIMATICĂ:**
+
+**1. CONCENTRAȚIE ENZIMĂ ([E]):**
+- La [S] constantă: V₀ = k × [E]
+- Relație **liniară** (la [S] saturante)
+- **Aplicație clinică:** măsurarea enzimelor serice (dozare activitate)
+
+**2. CONCENTRAȚIE SUBSTRAT ([S]):**
+- Relație **hiperbolică** (Michaelis-Menten)
+- [S] mică → ordine I (V ∝ [S])
+- [S] mare → ordine 0 (V = Vmax)
+
+**3. TEMPERATURĂ:**
+- **Optimă:** 40-50°C (enzime umane)
+- Sub optimă: ↑ T → ↑ V (Q₁₀ = 1-2)
+- Peste optimă: denaturare → ↓ V brusc
+
+**4. pH:**
+- **Optim:** specific fiecărei enzime (de obicei = pH mediu natural)
+- Efecte: ionizare grupări catalitice, stabilitate enzimă
+
+**5. COFACTORI:**
+- **Coenzime:** NAD⁺, FAD, CoA (transferori grupări)
+- **Ioni metalici:** Mg²⁺, Ca²⁺, Zn²⁺, Fe²⁺
+- Absența cofactorului → apoenzimă inactivă
+
+**6. INHIBITORI:**
+- Reversibili (competitiv, necompetitiv, noncompetitiv)
+- Ireversibili (inactivare permanentă)
+
+**7. ACTIVATORI/MODULATORI ALOSTERICI:**
+- Efect pozitiv (activatori): AMP, F-2,6-BP
+- Efect negativ (inhibitori): ATP, NADH, citrat
+
+**8. MODIFICĂRI COVALENTE:**
+- Fosforilare/defosforilare (glicogen fosforilază, piruvatkinază)
+- Activare prin scindare proteolitică (zimogeni)`,
+        mnemonic: 'Influențe: [E],[S],T,pH,cofactori,inhibitori,modulatori,modif covalente',
+      },
+      {
+        front: 'Clasificarea enzimelor - Cele 6 clase principale',
+        back: `**CLASIFICAREA ENZIMELOR (EC - Enzyme Commission):**
+
+**1. OXIDOREDUCTAZE (EC 1):**
+- **Reacții:** Transfer electroni (oxidare-reducere)
+- **Coenzime:** NAD⁺, NADP⁺, FAD, FMN
+- **Exemple:**
+  - Dehidrogenaze (LDH, MDH)
+  - Oxidaze (citocrom oxidază)
+  - Peroxidaze, catalază
+
+**2. TRANSFERAZE (EC 2):**
+- **Reacții:** Transfer grupări funcționale (non-electroni)
+- **Tipuri:**
+  - Aminotransferaze/Transaminaze (AST/GOT, ALT/GPT)
+  - Kinaze (hexokinază, CK)
+  - Aciltransferaze
+- **Exemplu:** ATP + Glucoză → ADP + Glc-6-P (hexokinază)
+
+**3. HIDROLAZE (EC 3):**
+- **Reacții:** Scindare legături prin **hidroliza** (+H₂O)
+- **Tipuri:**
+  - Esteraze (lipaze, fosfataze, colinesterază)
+  - Peptidaze/Proteaze (pepsină, tripsină)
+  - Glicozidaze (amilază, lizozim)
+- Multe funcționează în digestie
+
+**4. LIAZE (EC 4):**
+- **Reacții:** Scindare/formare legături C-C, C-O, C-N (fără hidroliză)
+- Adaugă/elimină grupări mici (H₂O, CO₂, NH₃)
+- **Exemple:**
+  - Decarboxilaze (piruvat decarboxilază)
+  - Aldolaze (fructozo-1,6-bifosfat aldolază)
+  - Citrat liază
+
+**5. IZOMERAZE (EC 5):**
+- **Reacții:** Izomerizare (rearanjare intramoleculară)
+- **Exemple:**
+  - Triozofosfat izomerază (glicoliză)
+  - Glucozo-6-fosfat izomerază
+
+**6. LIGAZE (EC 6) / SINTETAZE:**
+- **Reacții:** Formare legături cu consum **ATP**
+- **Exemple:**
+  - Aminoacil-ARNt sintetaza
+  - Acetil-CoA carboxilază
+  - Piruvat carboxilază`,
+        mnemonic: '6 clase: Oxidored(e⁻); Transfer(grupări); Hidrola(+H₂O); Lia(−CO₂); Izomera; Liga(+ATP)',
+      },
+    ],
+  },
+  {
+    name: 'Hematologie - Teorie',
+    description: 'Concepte teoretice de hematologie (eritron, hemostază, anemii, leucemii, sindroame) - pentru examenul de primariat',
+    flashcards: [
+      {
+        front: 'Eritropoeza - Definiție, reglare și factori de influență',
+        back: `**ERITROPOEZA:**
+
+**Definiție:** Procesul de **proliferare și diferențiere** a precursorilor eritrocitari și trecerea în circulație a eritrocitelor mature
+
+**Scopuri:**
+- Menține constant numărul de eritrocite circulante
+- Ajustează rata de producție la necesități
+
+**ERITRON = Totalitatea masei eritrocitare:**
+1. **Elemente imature** (MO) - eritropoeza
+2. **Eritrocite circulante** (120 zile)
+3. **Retragere din circulație** - hemoliză, recuperare Fe
+
+**REGLARE PRINCIPALĂ - Eritropoetina (EPO):**
+
+**Sinteză:** 90% **rinichi** (+ 10% ficat)
+
+**Stimul principal:** ↓ PO₂ în țesuturi → ↑ EPO
+
+**Efecte EPO:**
+- Stimulează **CFUE** (Colony Forming Unit-Erythroid)
+- Accelerează diferențierea precursorilor
+- Scurtează timpul de maturare și tranzit medular
+- Stimulează **diabaza** (trecerea reticulocitelor în sânge)
+- ↑ Masa eritrocitară
+
+**Factori nutriționali:**
+- **Fe** (cel mai important)
+- **Vitamina B₁₂** și **acid folic** (sinteza ADN)
+- **Proteine** (sinteza globină)`,
+        mnemonic: 'Eritropoeza=reglat EPO(rinichi); stimul=↓PO₂; cofactori=Fe,B₁₂,folat',
+      },
+      {
+        front: 'Stadiile eritropoezei - De la celula stem la eritrocit',
+        back: `**STADIILE ERITROPOEZEI:**
+
+\`\`\`
+Celula STEM → Proeritroblast → Eritroblast bazofil
+    ↓
+Eritroblast policromatofil → Eritroblast oxifil
+    ↓
+Reticulocit → ERITROCIT matur
+\`\`\`
+
+**PROERITROBLAST:**
+- Celulă mare: **18-25 μm**
+- Nucleu voluminos (8/10), excentric
+- Cromatină violet-purpurie, aspect "perlat"
+- 1-2 nucleoli
+- Citoplasma îngustă, **intens bazofila** (ARN ribozomal)
+
+**ERITROBLAST BAZOFIL (Normoblast bazofil):**
+- 12-18 μm
+- Raport nucleocitoplamatic: **3/4**
+- Nucleu fără nucleoli, cromatină violet-neagră
+- **Cea mai albastră celulă** pe frotiu (maxim ARN)
+
+**ERITROBLAST POLICROMATOFIL:**
+- 10-12 μm
+- Raport N/C: **1/2**
+- Nucleu excentric, cromatină condensată ("spite de roată")
+- Citoplasma **bazofil-roz** (ARN + Hb)
+
+**ERITROBLAST OXIFIL:**
+- 8-10 μm
+- Raport N/C: **1/4**
+- Aspect = eritrocit cu nucleu
+- Expulzie nucleu → **Reticulocit**
+
+**RETICULOCIT:**
+- 1-2 zile în circulație → eritrocit matur
+- Conține ARN ribozomal (reticul)`,
+        mnemonic: 'Proeri(18-25μm,nucleoli)→Bazofil(albastru MAX)→Policrom(roz-albastru)→Oxifil(nucleu)→Reticulocit',
+      },
+      {
+        front: 'Reticulocite - Definiție, valori normale și semnificație clinică',
+        back: `**RETICULOCITE:**
+
+**Definiție:** Eritrocite **imature** care circulă 1-3 zile înainte de a deveni eritrocite mature
+
+**Identificare:** Colorație supravitală cu **albastru briliant de cresyl**
+- Arată rețea reticulofilamentară (ARN ribozomal)
+
+**Valori normale:** **0.5-2%** din eritrocitele totale
+
+**Aspect MGG:** Celule rotunde, **policromatofile**, diametru mai mare decât eritrocitele mature
+
+**SEMNIFICAȚIE CLINICĂ:**
+
+**↑ Reticulocite (reticulocitoză):**
+= Marker **hiperactivitate medulară eficientă**
+
+**Cauze:**
+1. **Anemii hemolitice** (MO hiperplazică compensatoare)
+2. **Hemoragii acute** (răspuns regenerativ)
+3. **Tratament eficace anemii carențiale:**
+   - Anemie feriprivă + Fe → reticulocitoză în 5-10 zile
+   - Anemie megaloblastică + B₁₂ → **criză reticulocitară** spectaculoasă (0.1% → 20-30%!)
+
+**↓ Reticulocite:**
+- Hipoplazia/aplazie medulară
+- Anemie prin infiltrare medulară
+- Anemie megaloblastică netrată
+
+**Particularitate anemii hemolitice:**
+- Reticulocitele **stagnează mai puțin în MO**
+- **Persistă mai mult în sânge periferic**
+- Descarcare masivă reticulocite în anemie instalată brusc`,
+        mnemonic: 'Reticulocite=0.5-2%; ↑=hemoliza,hemoragie,tratament eficace; criză B₁₂=20-30%',
+      },
+      {
+        front: 'Sideroblasti și siderocite - Definiție și metodă de evidențiere',
+        back: `**SIDEROBLASTI:**
+
+**Definiție:** Eritroblasti medulari care conțin **granule de Fe neheminic** (siderozomi)
+
+**Metodă evidențiere:** Colorație **PERLS** (albastru de Berlin)
+- Granule fine de culoare **verde închis**
+- 1-4 granule/celulă
+
+**Cantitate:**
+- Normală: 20-40% din eritroblastii medulari
+- **↑ În:** supraîncărcare Fe, anemie sideroblastică, anemie hemolitică
+- **↓ În:** deficit Fe (anemie feriprivă)
+
+**SIDEROBLASTI PATOLOGICI:**
+
+**Sideroblasti "în inel" (ring sideroblasts):**
+- Granule Fe dispuse **circular** în jurul nucleului
+- ≥5 granule formând inel
+- Patognomonic pentru **sindroame mielodisplazice** (SMD)
+- Mitocondriile conțin Fe în exces → granule perinucleare
+
+**SIDEROCITE:**
+
+**Definiție:** **Eritrocite mature** circulante cu granule de **Fe nelegat de Hb**
+
+**Evidențiere:** Colorație Perls pe frotiu sânge periferic
+
+**Aspect MGG:** **Corpii Pappenheimer** (granule bazofil-violacee)
+
+**↑ În:**
+- Post-splenectomie (splina normală le elimină!)
+- Anemie sideroblastică
+- Intoxicație Pb
+- Talasemii`,
+        mnemonic: 'Sideroblasti=eritrobl+Fe; Perls=albastru Berlin; inel=SMD; Siderocite=eritrocit+Fe',
+      },
+      {
+        front: 'Distrucția eritrocitelor - Mecanisme și catabolismul hemoglobinei',
+        back: `**DISTRUCȚIA ERITROCITELOR:**
+
+**Date generale:**
+- **2.5 milioane eritrocite/secundă** eliminate
+- **Durata viață:** ~120 zile
+- Eritrocite îmbătrânite → **sferocite** → fagocitare
+
+**Locuri distrucție:**
+- **Ficat** (rol principal!)
+- Splină (secundar)
+- MO
+- Zone cu stază/circulație încetinită (sinusuri hepatice, splenice, medulare)
+
+**Recunoaștere eritrocite "marcate":**
+- Defecte nucleare (corpi Howell-Jolly)
+- Hb denaturată (corpi Heinz)
+- Granulații Fe
+- Defecte de formă
+- Îmbrăcate cu **IgG₁, IgG₃, C3b** → recunoscute de macrofage
+
+**CATABOLISM Hb:**
+
+**1. Fe:**
+- Eliberat din hem (hemoxigenază)
+- Transport prin **transferină**
+- Reutilizat pentru eritropoeza medulară
+
+**2. Globină:**
+- Hidrolizată la **AA**
+- Reutilizați pentru sinteza proteică
+
+**3. Protoporfirina → BILIRUBINĂ:**
+
+**Circuit normal:**
+- Bilirubină **neconjugată** (BN) → ficat
+- **Conjugare** cu acid glucuronic → bilirubină directă (BD)
+- Excreție biliară → intestin
+- Reducere bacteriană → **stercobilinogen** → fecale (colorație brună)
+- **20% reabsorbție** → circuit entero-hepatic
+- Fracțiune mică → urină (**urobilinogen**)
+
+**CO endogen:**
+- Fractiune protoporfirina → **CO**
+- Excretat pulmonar
+- Productie CO ∝ distrucție eritrocite`,
+        mnemonic: 'Distrucție=120zile; Ficat>Splină; Hb→Fe(reutil)+Globină(AA)+Hem→Bilirubină→Ubg',
+      },
+      {
+        front: 'Eritropoeza ineficientă - Definiție și semnificație',
+        back: `**ERITROPOEZA INEFICIENTĂ:**
+
+**Definiție:** Distrucție **intramedulară** a precursorilor eritroizi înainte de eliberarea în circulație
+
+**Mecanism normal:**
+- **1-2%** din eritroblasti parcurg anormal proliferarea/maturarea
+- Sunt recunoscuți și **fagocitați de macrofagele medulare**
+- Pierdere potențială eritrocite = eritropoeză ineficientă (normală)
+
+**ERITROPOEZA INEFICIENTĂ PATOLOGICĂ:**
+
+**Cauze principale:**
+1. **Anemie megaloblastică** (deficit B₁₂/folat)
+   - Asincronism nucleocitoplasmatic
+   - Eritroblasti giganți cu nucleu imatur
+   - Distrucție masivă intramedulară
+
+2. **Talasemii** (lanțuri globină în exces)
+   - Lanțuri globină nepereche → precipitare
+   - Distrucție precursori în MO
+
+3. **Anemie sideroblastică**
+   - Alterare sinteza hem
+   - Acumulare Fe în mitocondrii
+
+**CONSECINȚE:**
+
+**1. Hiperbilirubinemie "precoce":**
+- Bilirubină ↑ fără scădere corespunzătoare Hct
+- Pigment biliar **timpuriu**
+
+**2. ↑ Stercobilinogen fecal:**
+- Distrucție hem intramedulară → bilirubină
+- Detectabil prin ↑ stercobilinogen fecal
+
+**3. Reticulocite inadecvat de scăzute:**
+- Anemie severă dar răspuns reticulocitar slab
+- MO hiperplazică dar producție efectivă scăzută
+
+**Diagnostic:**
+- MO: **hiperplaziecitară eritroide** + anemie periferică
+- Disociere producție (↑ MO) vs output (↓ sânge)`,
+        mnemonic: 'Eripoeza inefic=distruc intramedulară; cauze=megaloblastic,talasemie; Bili↑ fără Hct↓',
+      },
+      {
+        front: 'Funcții medulare în eritropoeză - Multiplicare, expulzie nucleu, diabază',
+        back: `**FUNCȚII MEDULARE ÎN ERITROPOEZĂ:**
+
+**1. MULTIPLICARE ȘI MATURARE PRECURSORI:**
+
+**Sincronism nucleocitoplamatic (NORMAL):**
+- Citoplasma tânără ↔ Nucleu tânăr
+- Citoplasma matură ↔ Nucleu matur/nefuncțional
+- Maturare simultană nucleu + citoplasmă
+
+**Asincronism (PATOLOGIC):**
+- Apare în **anemii megaloblastice** (deficit B₁₂/folat)
+- Citoplasma matură + Nucleu imatur
+- Sau în anemii grave
+
+**Modificări în timpul maturării:**
+- ↓ Dimensiuni nucleu și celulă
+- ↑ Cromatină nucleară condensată
+- ↑ Raport volumul citoplasmatic/volumul nucleului
+- ↑ Cantitate Hb (aspect **roz**)
+- ↓ ARN ribozomal (aspect **albastru**)
+- → Aspect **policromatofil**
+
+**2. EXPULZIA NUCLEULUI:**
+
+**Mecanism:**
+- Eritroblastul oxifil expulzează nucleul
+- Mișcări ample cu deformări **petaloide**
+- Nucleu expulzat printr-o excrescență
+- **Macrofagele fagocitează** nucleii liberi
+
+**3. DIABAZA:**
+
+**Definiție:** Trecerea **activă** a reticulocitelor din MO în sânge
+
+**Mecanism:** Mișcări active prin pereții sinusurilor medulare
+
+**Durată:** Reticulocitele circulă **1-2 zile** → eritrocit matur
+
+**Reglare:** Stimulată de **EPO**
+
+**Particularitate patologică:**
+- În anemii severe → diabază **precoce**
+- Reticulocite mai mari, mai imature în sânge`,
+        mnemonic: 'Funcții MO: 1)Multiplicare(sincron N-C); 2)Expulzie nucleu(petaloid); 3)Diabază(reticul→sânge)',
+      },
+      {
+        front: 'Diagnosticul de laborator al eritropoezei - Colorații speciale',
+        back: `**DIAGNOSTIC LABORATOR ERITROPOEZĂ:**
+
+**1. FROTIU MO COLORAT MGG:**
+
+**Evaluare eritropoeză normoblastică:**
+- Element major: **cromatină nucleară condensată moderată** în eritroblastii policromatofili
+- Raport mielo-eritroid (M:E): normal 3:1 - 5:1
+- **Hiperplazie eritroide:** M:E < 2:1 (anemii hemolitice, hemoragii)
+- **Hipoplazie eritroide:** M:E > 5:1 (aplazii, infiltrare)
+
+**2. COLORAȚIE PERLS (Albastru de Berlin):**
+
+**Evidențiază:** Fe **neheminic** (siderozomi)
+
+**Sideroblasti medulari:**
+- Normali: 20-40% eritroblasti
+- Granule fine **verde închis** (1-4/celulă)
+- ↑ În: hemolize, supraîncărcare Fe
+- ↓ În: anemie feriprivă
+- **Sideroblasti "în inel":** ≥5 granule perinucleare → **SMD**
+
+**3. COLORAȚIE SUPRAVITALĂ - Albastru briliant de cresyl:**
+
+**Evidențiază:** **Reticulocite** (ARN ribozomal)
+
+**Aspect:**
+- Celule rotunde, policromatofile
+- Diametru > eritrocit matur
+- Precipitate bazof ile granulare/filamentare în interior
+
+**Valori normale:** 0.5-2%
+
+**↑ Reticulocite:**
+- Anemii hemolitice
+- Post-hemoragie
+- Tratament eficace anemii carențiale
+
+**4. FROTIU SÂNGE PERIFERIC MGG:**
+
+**Evaluare morfologie eritrocitară:**
+- Dimensiuni, formă, colorație
+- Incluziuni (corpi Howell-Jolly, Heinz, Pappenheimer)
+- Policromatofilie (reticulocite)`,
+        mnemonic: 'Colorații: MGG(morfologie); Perls(Fe); Cresyl(reticulocite); M:E normal=3-5:1',
+      },
+      {
+        front: 'Compartimentarea fierului în organism - Distribuție și forme',
+        back: `**COMPARTIMENTAREA Fe ÎN ORGANISM:**
+
+**Cantitate totală:** 4-5 g (50-55 mg/kg bărbați; 35-40 mg/kg femei)
+
+**COMPARTIMENTE:**
+
+**1. Fe în Hb (67% = ~2 g):**
+- Cel mai mare compartiment
+- Eritropoeza necesită **20-25 mg Fe/zi**
+- Prima substanță care scade în deficit Fe
+
+**2. Fe circulant - Transport (3% = ~0.1 g):**
+- Legat de **transferină** (siderofilină)
+
+**3. Fe depozit (27% = ~1 g):**
+- **Feritină** (solubilă, prima mobilizată)
+- **Hemosiderină** (insolubilă, rezervă)
+
+**4. Fe tisular (3-4%):**
+- **Mioglobină** musculară
+- **Enzime** (citocrom, catalază, peroxidază)
+
+**FORME ORGANICE Fe:**
+
+**A. Fe HEMINIC** (legat de nucleu porfirinic):
+- Hb, mioglobină, enzime cu hem
+- Implicate în **procese oxidative și respiratorii**
+
+**B. Fe NEHEMINIC** (legat de proteine, fără hem):
+- Feritină, hemosiderină, transferină
+- Asigură **transport și depozitare**
+
+**Eficiență:** Organismul conservă eficient Fe - doar **5% (1 mg/zi)** absorbit din alimente`,
+        mnemonic: 'Fe: 67%Hb, 27%depozit, 3%transport, 3%tisular; Heminic vs Neheminic',
+      },
+      {
+        front: 'Absorbția fierului - Localizare, factori stimulatori și inhibitori',
+        back: `**ABSORBȚIA Fe:**
+
+**Localizare:** **Porțiunea proximală** a intestinului subțire (duoden, jejun proximal)
+
+**Cantitate absorbită:** **1 mg/24h** (compensează pierderile)
+
+**FACTORI STIMULATORI (↑ absorbție):**
+- **Vitamina C** (reduce Fe³⁺ → Fe²⁺)
+- Zaharuri (fructoză, sorbitol)
+- Cisteină, piruvat, succinat
+- Alcool etilic
+- Aminoacizi
+- **Deficit Fe** (rezerve scăzute)
+- **Necesități sporite:** copii, sarcină, sângerări, hemoliză
+
+**FACTORI INHIBITORI (↓ absorbție):**
+- **Antacide** (↑ pH gastric)
+- Complexe insolubile: **fitați, fosfați, oxalați, citrati**
+- **Exces Fe** (gastroferină blochează absorbția)
+- **Inflamații și infecții** (↓ utilizare)
+- **Gastrectomie, aclorhidrie** (lipsă HCl)
+- Anomalii mucoasă intestinală
+
+**ROL HCl gastric:** Împiedică precipitarea Fe în Fe(OH)₂ insolubil
+
+**Reglare:** Nivelul **rezervelor Fe** din organism:
+- Rezerve MARI → ↓ absorbție (barieră citoplasm enterocite)
+- Rezerve MICI → ↑ absorbție (citoplasm sărac în Fe)`,
+        mnemonic: 'Absorb=duoden 1mg/zi; (+)Vit C,deficit; (−)antacide,fitați,exces,inflamație',
+      },
+      {
+        front: 'Mecanismul absorbției fierului - Etape și reglare',
+        back: `**MECANISMUL ABSORBȚIEI Fe:**
+
+**ETAPE:**
+
+**1. Captare luminală:**
+- Fe intraluminal preluat ca **Fe²⁺** (feros)
+- Proces de **endocitoză** (consumator energie)
+
+**2. Transfer la lamina propria:**
+- Fe²⁺ → pol vascular
+- **Ceruloplasmina** (Cu-dependent) oxidează: Fe²⁺ → **Fe³⁺** (feric)
+- **Transferină** preia Fe³⁺ și îl transportă la MO
+
+**3. Fe neabsorbit:**
+- Captat de **apoferitină**
+- Transformat în **feritină**
+- Eliminat cu descuamarea enterocitelor
+
+**TEORII REGLARE:**
+
+**1. Teoria blocului mucoasei (GRANICK):**
+- **Apoferitina** din enterocite = regulator cheie
+- Apoferitină nesaturată → ↑ absorbție
+- Apoferitină saturată → ↓ absorbție
+
+**2. Teoria Fe mesager (CROSBY):**
+- Regenerare mucoasă încorporează Fe exogen
+- Reflectă **starea depozitelor** organism
+- Depozite mari → absorbție ↓
+- Depozite mici → captare rapidă
+
+**3. Teorii noi - Transferină celulară:**
+- **Transferină specifică** enterocitelor = regulator
+- Saturare transferină → blochează absorbție
+- Fe în exces → captat de apoferitină → eliminat prin descuamare
+
+**Excepție:** Ingestie accidentală mare (copii) → mecanisme depășite → Fe trece masiv în sânge`,
+        mnemonic: 'Absorb: Fe²⁺ luminală→oxidare(ceruloplasmină)→Fe³⁺-transferină→MO; reglare=apoferitină+transferină',
+      },
+      {
+        front: 'Ciclul fierului și transportul - Transferina și parametri',
+        back: `**CICLUL Fe:**
+
+**Circuit complet:**
+1. Fe absorbit → fixat de **transferină**
+2. Transport la MO → sinteza Hb (8 g Hb/24h = 30 mg Fe)
+3. Eritrocite circulă **120 zile**
+4. **Macrofage** captează eritrocite îmbătrânite
+5. Eliberare Fe din Hb → depozit (feritină/hemosiderină)
+6. Majoritatea Fe → **redat transferinei** → MO (reciclare!)
+
+**TRANSFERINA (Siderofilină):**
+
+**Caracteristici:**
+- **β₁-globulină** sintetizată în ficat (+ macrofage, țesut limfoid)
+- Durată viață: **10 zile**
+- Concentrație plasmatică: **250 mg/dL**
+
+**PARAMETRI:**
+
+**Sideremie (Fe seric):**
+- Normal: **100 μg/dL** (30% saturație transferină)
+
+**CTLF (Capacitate Totală Legare Fe):**
+- Normal: **300 μg/dL** (100%)
+
+**CL (Capacitate Latentă):**
+- CL = CTLF - Fe seric = **200 μg/dL** (70%)
+
+**CS (Coeficient Saturație):**
+- CS = Fe seric / CTLF
+- Normal: **0.2-0.65** (20-65%)
+
+**Variații patologice:**
+- Fe seric ↑: hemolize, hemocromatoză
+- Fe seric ↓: anemie feriprivă, inflamații, post-hemoragie
+- CTLF ↑: anemie feriprivă, sarcină`,
+        mnemonic: 'Ciclu Fe=recirculare 95%; Transferină 250mg/dL; Fe=100μg/dL; CTLF=300μg/dL; CS=20-65%',
+      },
+      {
+        front: 'Ferokinetica - Utilizare Fe⁵⁹ radioactiv și tipuri de anemii',
+        back: `**FEROKINETICA:**
+
+**Definiție:** Studiul mișcării Fe în compartimentele fiziologice cu **Fe⁵⁹** radioactiv
+
+**UTILIZĂRI PRACTICE:**
+
+1. **Clearance Fe** plasmatic
+2. **Turnover Fe plasmatic** (TFP)
+3. **Turnover eritrocitar** (TE)
+4. **Procentul de incorporare** Fe în eritrocite
+5. **Timp tranzit medular**
+
+**CLASIFICARE ANEMII:**
+
+**1. ANEMIE APLASTICĂ:**
+- TFP: normal/ușor ↓
+- TE: **mult ↓**
+- Utilizare Fe: **mult ↓**
+- Fe⁵⁹ → **ficat** (reținut, nu utilizat)
+
+**2. ANEMII HEMOLITICE:**
+- Eritropoeza **accentuată**
+- TFP: **mult ↑**
+- TE: **mult ↑**
+- Utilizare: **normală**
+- Fe⁵⁹ → locuri distrucție (splină, ficat)
+
+**3. ANEMII CU ERITROPOEZĂ INEFICIENTĂ** (sideroblastice, megaloblastice):
+- TFP: **↑** (mult Fe intră în MO)
+- TE: **↓** (puține eritrocite eliberate)
+- Utilizare Fe: **mult ↓**
+- Disociere producție MO vs output sânge
+
+**Interpretare:**
+- TFP ↑ + TE ↓ = eritropoeză ineficientă (distrucție intramedulară)
+- TFP ↑ + TE ↑ = hemoliză (distrucție periferică)
+- TFP ↓ + TE ↓ = aplazie (producție scăzută)`,
+        mnemonic: 'Ferokinetica=Fe⁵⁹; Aplazie(TFP↓,TE↓); Hemoliza(TFP↑,TE↑); Inefic(TFP↑,TE↓)',
+      },
+      {
+        front: 'Sideremia - Variații patologice și interpretare',
+        back: `**SIDEREMIA (Fe SERIC):**
+
+**Valori normale:**
+- Bărbați: **80-180 μg/dL**
+- Femei: **60-160 μg/dL**
+
+**SCĂDERE SIDEREMIE:**
+
+**1. Anemie feriprivă:**
+- **Depozite epuizate** → sideremie ↓
+- CTLF ↑ (compensator)
+- CS < 0.1 (foarte scăzut)
+
+**2. Eritropoeză regenerativă:**
+- Post-hemoragii acute
+- Post-tratament B₁₂ (anemie Biermer)
+- Utilizare crescută MO
+
+**3. Inflamații acute/cronice, neoplasme:**
+- **Paradox:** Sideremie ↓ dar **rezerve crescute**!
+- Fe "blocat" în sistemul reticulo-endotelial
+- Scade sinteza hepatică transferină
+
+**CREȘTERE SIDEREMIE:**
+
+**1. Anemii hemolitice:**
+- Distrucție crescută eritrocite → eliberare Fe
+- Depozite pline
+
+**2. Hemocromatoză:**
+- Supraîncărcare Fe
+- CS > 0.8 (saturat)
+- Depozite masive (ficat, cord, pancreas)
+
+**3. Anemii sideroblastice:**
+- Utilizare defectuoasă Fe
+- Acumulare în MO
+
+**DIAGNOSTIC DIFERENȚIAL:**
+- Sideremie ↓ + CTLF ↑ = **anemie feriprivă**
+- Sideremie ↓ + CTLF ↓ = **anemie inflamatorie**
+- Sideremie ↑ + CTLF ↓ = **hemocromatoză**`,
+        mnemonic: 'Sideremie↓: feriprivă(CTLF↑) vs inflam(CTLF↓); Sideremie↑: hemoliza,hemocromatoză',
+      },
+      {
+        front: 'Proba hipersideremiei provocate - Metodă și interpretare',
+        back: `**PROBA HIPERSIDEREMIEI PROVOCATE:**
+
+**Metodă:**
+- Administrare **orală** Fe bivalent (Fe²⁺)
+- Dozare seriată Fe seric
+
+**RĂSPUNS NORMAL:**
+- Fe seric ↑ la **250-300 μg/dL** în **2-4 ore**
+- Scădere progresivă
+- Revenire la normal în **6-8 ore**
+
+**INTERPRETARE:**
+
+**1. Creștere MULT în anemie feriprivă:**
+- Absorbție **crescută** (compensatoare)
+- Depozite goale → maximizare absorbție
+- Curbă înaltă, prelungită
+
+**2. Creștere UȘOARĂ în anemii hipocrome non-feriprive:**
+- Absorbție **scăzută** (rezerve pline sau blocare inflamatorie)
+- Curbă aplatizată
+
+**3. FĂRĂ creștere în infecții/neoplasme:**
+- Fe absorbită trece **rapid în țesuturi**
+- Nu permite creștere serică
+- Blocare în sistemul reticulo-endotelial
+
+**APLICAȚII CLINICE:**
+
+**Diferențiere:**
+- **Anemie feriprivă adevărată** (↑↑ Fe după încărcare)
+- **Anemie inflamatorie** (fără ↑ Fe după încărcare)
+
+**Evaluare:**
+- Capacitate absorbție intestinală
+- Rapiditate transfer Fe → țesuturi
+
+**Limitări:**
+- Rar folosită (invazivă, necesită multiple dozări)
+- Înlocuită de: feritină serică, receptori transferină solubili`,
+        mnemonic: 'Hipersideremie provocată: Fe oral→max 2-4h; ↑↑ feriprivă; ↑ ușor hipocrom; fără↑ inflam',
+      },
+      {
+        front: 'Capacitatea de legare a fierului - CTLF, CL și variații patologice',
+        back: `**CAPACITATEA DE LEGARE A Fe:**
+
+**PARAMETRI:**
+
+**CT (Capacitate Totală):**
+- Bărbați: **300-400 μg/dL**
+- Femei: **250-350 μg/dL**
+
+**CL (Capacitate Latentă):**
+- Bărbați: **200-300 μg/dL**
+- Femei: **150-250 μg/dL**
+
+**Formulă:**
+\`\`\`
+CT = Fe seric + CL
+CS% = (Fe seric / CT) × 100
+\`\`\`
+
+**CREȘTERE CT (CTLF ↑):**
+
+**Cauze:**
+- **Producție crescută transferină** (compensare deficit Fe)
+- Eliberare crescută feritină
+
+**Exemple:**
+- **Anemie feriprivă** (↑↑ compensator)
+- **Sarcină** (necesități crescute)
+
+**SCĂDERE CT (CTLF ↓):**
+
+**Cauze:**
+- **Producție scăzută transferină**
+- Eliberare scăzută feritină
+
+**Exemple:**
+- **Hepatită acută/cronică activă** (↓ sinteza hepatică)
+- **Ciroză** (insuficiență hepatică)
+- **Hemocromatoză** (saturație cronică)
+- **Boli infecțioase cronice** (↓ sinteza)
+- **Neoplasme** (consum, cachexie)
+
+**INTERPRETARE COMBINATĂ:**
+
+**Scădere CTLF + Creștere saturație Fe:**
+- Fe se deplasează în **sistem reticulo-endotelial**
+- Blocare Fe în depozite
+- Tipic: **infecții, neoplasme**`,
+        mnemonic: 'CTLF: ↑ feriprivă,sarcină; ↓ hepatopatie,hemocromatoză,inflamație; CT=Fe+CL',
+      },
+      {
+        front: 'Hemoliza - Definiție, tipuri și criterii',
+        back: `**HEMOLIZA:**
+
+**Definiție:** Proces de **îndepărtare a eritrocitelor** din circulație
+
+**HEMOLIZA FIZIOLOGICĂ:**
+- Eritrocite la **120 zile** → senescență
+- Atribute fizice defavorabile: ↑ rigiditate
+- **Ag de senescență** + **IgG** → complexe imune
+- Recunoaștere de macrofage splenice → fagocitoză
+
+**HEMOLIZA PATOLOGICĂ:**
+- Acționează **fără discernământ** asupra tuturor eritrocitelor
+- **Criteriu major:** Scădere **durata viață** eritrocite (< 120 zile)
+- Distrucție prematură cantitate mai mare decât normal
+
+**TIPURI:**
+
+**1. Hemoliza EXTRAVASCULARĂ (predominantă):**
+- **Sistem monocito-macrofagic:** Ficat, splină, MO
+- Mecanism: **Fagocitoză**
+- 90-95% din hemoliza fiziologică
+
+**2. Hemoliza INTRAVASCULARĂ:**
+- Liză în **circulația generală**
+- Hb deversată în plasmă
+- Prelucrare: ficat + rinichi
+- 5-10% din hemoliza fiziologică
+- ↑↑ În hemoliza patologică
+
+**ANEMIE HEMOLITICĂ:**
+- **Hemoliza necompensată**
+- MO pierde capacitatea de a acoperi pierderile
+- Producție < Distrucție`,
+        mnemonic: 'Hemoliza: Fiziol(120z); Patol(↓viață); Extrav(fagocitoză) vs Intrav(liză+Hb plasmă)',
+      },
+      {
+        front: 'Hemoliza extravasculară - Mecanism și catabolism Hb',
+        back: `**HEMOLIZA EXTRAVASCULARĂ:**
+
+**Mecanism:**
+1. **Alterare membrană** eritrocitară
+2. **Precipitare Hb** intracelulară
+3. **Fagocitoză** de macrofage (ficat, splină, MO)
+4. Agregate Hb → citoplasma macrofagului
+
+**CATABOLISM Hb (în macrofage):**
+
+**Sub acțiunea HEMOXIGENAZEI:**
+
+**1. GLOBINĂ:**
+- Hidrolizată → **AA**
+- Reutilizați pentru sinteze noi
+
+**2. Fe:**
+- Eliberat din hem
+- Transport prin **transferină** → MO
+- **Reutil
+
+izat** pentru eritropoeză
+
+**3. INEL PROTOPORFIRINIC:**
+- Descompus → **CO** (excretat pulmonar) + **Bilirubină indirectă (BI)**
+
+**CIRCUIT BILIRUBINĂ:**
+- BI (neconjugată) → ficat
+- **Conjugare** cu acid glucuronic → **BD** (bilirubină directă)
+- Excreție biliară → intestin
+- Reducere bacteriană → **Urobilinogen (Ubg)**
+- Ubg → **Urobilină** (urină) + **Stercobilinogen** → Stercobilină (fecale)
+
+**CIRCUIT ENTERO-HEPATIC:**
+- **20% Ubg reabsorbit** portal → ficat → bilă
+- Fracțiune mică → sânge → urină
+
+**Recuperare:** AA + Fe sunt recuperate pentru sinteze noi`,
+        mnemonic: 'Hemoliza extrav: Fagocitoză→Hb→Globină(AA)+Fe(reutil)+Hem→BI→BD→Ubg',
+      },
+      {
+        front: 'Diagnostic laborator hemoliza extravasculară',
+        back: `**DIAGNOSTIC LABORATOR HEMOLIZA EXTRAVASCULARĂ:**
+
+**1. TESTE BIOCHIMICE (hipercatabolism protoporfirina):**
+
+**Bilirubină indirectă (BI):**
+- **↑↑ Mult**
+- Neconjugată, liposolubilă
+
+**Urobilinogen urinar:**
+- **↑↑ Mult**
+- 20% circuit entero-hepatic
+
+**Limitare:** Nu se corelează perfect cu intensitatea hemolizei (capacitate mare ficat)
+
+**2. SEMNALE MORFOLOGICE (hiperproducție compensatorie):**
+
+**Sânge periferic:**
+- **Reticulocitoză** (0.5-2% → 5-20%)
+- Marker hiperactivitate medulară
+
+**Frotiu MO:**
+- **Hiperplazie eritroide**
+- Raport G/E (granulo-eritroblastic): **Scăzut/Inversat**
+  - Normal: 3:1 - 4:1
+  - Hemoliza: 1:1 sau < 1:1
+- **Macronormoblasti** (eritroblasti dimensiuni mari)
+
+**Atenție diferențial:**
+- Macronormoblasti ≠ **Megaloblasti**
+- Megaloblasti: deficit B₁₂/folat (anemii hemolitice cronice secundare)
+
+**CAPACITATE EXCREȚIE HEPATICĂ:**
+- Ficat normal poate excreta **12.5 g Hb/24h**
+- Depășire capacitate → ↑↑ BI + icter hemolitic`,
+        mnemonic: 'Diag extrav: BI↑↑, Ubg↑↑, Reticulocitoză, Hiperplazie eritroide, G/E↓',
+      },
+      {
+        front: 'Hemoliza intravasculară - Mecanism și proteine transportoare',
+        back: `**HEMOLIZA INTRAVASCULARĂ:**
+
+**Mecanism:**
+- Liză eritrocite **în circulație**
+- Eliberare **Hb în plasmă**
+- Disociere imediată → **dimeri α sau β**
+
+**ELIMINARE DIMERI - 2 MECANISME:**
+
+**1. MECANISM DEPENDENT DE PROTEINE TRANSPORTOARE:**
+
+**A. Haptoglobină (α₂-globulină):**
+- Leagă specific **globină**
+- Complexe Haptoglobină-Globină → captate rapid de macrofage (**10 min**)
+- **Scade până la consum total** când există Hb plasmatică
+- După consum → dimeri liberi → **plasmă roz**
+
+**B. Hemopexină (β-globulină):**
+- Leagă specific **hemul**
+- Transport hem → ficat → BI
+- Scade în hemoliza cronică
+
+**C. Serum albumină:**
+- Preia **exces hem** după saturare hemopexină
+- Complexe **metHem-Albumină** (culoare **brună**)
+- Apare doar în **hemolize foarte severe**
+- Persistă până la sinteza noi hemopexină (albumina nu transferă metHem prin membrană)
+
+**2. MECANISM INDEPENDENT (renal):**
+- Dimeri liberi → **filtru glomerular**
+- Reabsorbție tubuli proximali
+- Degradare → **Fe depozitat** ca **hemosiderină**
+- Celule epiteliale cu hemosiderină → descuamare → urină`,
+        mnemonic: 'Hemoliza intrav: Hb→dimeri; Haptoglobină(10min)→Hemopexină→Albumină(sever); sau renal',
+      },
+      {
+        front: 'Markeri laborator hemoliza intravasculară - Hemosiderinurie și hemoglobinurie',
+        back: `**MARKERI HEMOLIZA INTRAVASCULARĂ:**
+
+**CRONOLOGIE POST-PUSEU HEMOLITIC:**
+- **Hemoglobina** plasmă/urină: câteva **ore**
+- **Haptoglobina** scăzută: câteva **zile**
+- **Hemosiderina** urină: mai multe **săptămâni**
+
+**1. HEMOSIDERINURIE:**
+
+**Mecanism:**
+- Depășite toate 3 mecanisme preluare Hb plasmatică
+- Celule epiteliale tuburi renale cu depozite hemosiderină
+- **Descuamare** → urină
+
+**Evidențiere:** Colorație **PERLS** sediment urinar
+
+**Semnificație:**
+- **INDICATOR CEL MAI IMPORTANT** hemoliza intravasculară
+- Persistă **săptămâni** (marker tardiv dar specific)
+
+**2. HEMOGLOBINURIE:**
+
+**Mecanism:**
+- Depășită **capacitate reabsorbție tubulară** Hb (> 120 mg/dL)
+- Hb liberă → urină
+
+**Aspect clinic:**
+- Urină colorație **rubinie** (roșu-închis)
+- Semnul hemolizei intravasculare **intense**
+
+**3. PLASMĂ ROZ/BRUNĂ:**
+- Roz: dimeri Hb liberi (haptoglobină consumată)
+- Brună: metHem-albumină (hemopexină consumată)
+
+**CONSECINȚĂ CRONICĂ:**
+- Pierdere progresivă Fe urinar → **anemie microcitară hipocromă** (deficit Fe)`,
+        mnemonic: 'Intrav: Hemosiderinurie(săpt,Perls,SPECIFIC); Hemoglobinurie(ore,rubinie,SEVER); plasmă roz/brună',
+      },
+      {
+        front: 'Markeri comuni ai hemolizei - Diferențiere extravascular vs intravascular',
+        back: `**MARKERI COMUNI AMBELOR TIPURI:**
+
+**1. Hiperbilirubinemie (↑ BI):**
+- Crește în **AMBELE** tipuri hemoliza
+- Mai mare în hemoliza **extravasculară**
+
+**2. Urobilinogen crescut:**
+- Fecal (stercobilinogen)
+- Urinar
+- Crește în **AMBELE** tipuri
+
+**3. Reticulocitoză:**
+- Răspuns medular compensator
+- 0.5-2% → 5-20%+
+- Prezentă în **AMBELE**
+
+**4. Hiperplazie eritroide MO:**
+- Raport G/E inversat
+- Prezentă în **AMBELE**
+
+**MARKERI SPECIFICI:**
+
+**DOAR Hemoliza INTRAVASCULARĂ:**
+- **Hemosiderinurie** (cel mai important!)
+- **Hemoglobinurie** (intensă)
+- **Hemoglobinemia** (Hb plasmă)
+- **↓ Haptoglobina** (consum rapid)
+- **↓ Hemopexina** (după haptoglobină)
+- **MetHem-albumină** (sever)
+- Plasmă **roz/brună**
+
+**DOAR Hemoliza EXTRAVASCULARĂ:**
+- Nu are markeri exclusivi
+- Diagnosticat prin **absența** markerilor intravasculari
+
+**DIAGNOSTIC DIFERENȚIAL:**
+\`\`\`
+Hemosiderinurie (+) = Intravasculară
+Hemosiderinurie (−) = Extravasculară
+\`\`\``,
+        mnemonic: 'Comuni: BI↑,Ubg↑,Retic↑; SPECIFIC intrav: Hemosiderinurie, Haptoglob↓',
+      },
+      {
+        front: 'Capacitatea hepatică de prelucrare și anemie secundară hemolizei',
+        back: `**CAPACITATEA HEPATICĂ:**
+
+**Prelucrare bilirubină:**
+- Ficat normal: poate excreta **12.5 g Hb/24h**
+- Corespunde distrucției **~6% din masa eritrocitară/zi**
+
+**Când apare icterul hemolitic:**
+- Hemoliza > **12.5 g Hb/24h**
+- BI > **2 mg/dL** (normal < 1 mg/dL)
+- Icter vizibil > **3 mg/dL**
+
+**Limitări diagnostic:**
+- Valorile BI și Ubg **NU se corelează perfect** cu intensitatea hemolizei
+- Dependență de:
+  - Capacitate funcțională hepatică
+  - Intensitate circuit entero-hepatic
+  - Funcție renală
+
+**ANEMIE SECUNDARĂ HEMOLIZEI INTRAVASCULARE:**
+
+**Mecanism:**
+- Pierdere **progresivă Fe** prin urină (hemosiderinurie cronică)
+- Fe nu mai este recuperat (spre deosebire de hemoliza extravasculară!)
+- Epuizare depozite Fe
+
+**Rezultat:**
+- **Anemie microcitară hipocromă** (tip feriprivă)
+- Paradox: Hemoliza (de obicei → reticulocitoză) + Deficit Fe (→ hipocromie)
+
+**Diagnostic:**
+- Istoric hemoliza intravasculară cronică
+- Hemosiderinurie persistentă
+- Sideremie ↓, CTLF ↑
+- Microcito
+
+ză + hipocromie
+- Răspuns la tratament cu Fe`,
+        mnemonic: 'Ficat=12.5g Hb/zi; Intrav cronică→pierdere Fe urinar→anemie microcitară hipocromă',
+      },
+      {
+        front: 'Anomalii de MĂRIME eritrocitară - Clasificare și semnificație',
+        back: `**PARAMETRII NORMALI:**
+- Diametru: **7,5 μm**
+- **VEM** (Volumul Eritrocitar Mediu): **80-100 fl**
+
+**MICROCITE:**
+- Diametru: **< 6 μm**
+- VEM: **< 80 fl**
+- Zonă clară centrală ↑ (Hb ↓)
+
+**Fiziologic:**
+- Până la **20%** din eritrocite la individ sănătos
+
+**Patologic:**
+- **Anemii hipocrome** (feriprivă)
+- **Talasemii** homozigote
+- Unele **anemii hemolitice**
+
+**MACROCITE:**
+- Diametru: **> 9 μm**
+- VEM: **100-120 fl**
+- Intens colorate, **fără zonă clară**
+
+**Fiziologic:**
+- Până la **20%** din eritrocite
+- Nou-născut (primele 2 săptămâni)
+
+**Patologic:**
+- Stări cu **reticulocitoză** (anemii hemolitice)
+- Anemii **aplastice**, toxice
+- **Hemocromatoză**
+- Insuficiență hepatică, nefropatii cronice
+- Neoplasme gastrice/pancreatice
+- Post-tratament citostatic/antiviral/iradiere
+
+**MEGALOCITE:**
+- Diametru: **> 12-15 μm**
+- VEM: **> 120-140 fl**
+- **ÎNTOTDEAUNA PATOLOGICE**
+- Colorate intens, omogen
+
+**Etiologie:**
+- Anemii prin **deficit factor maturație** (B12, acid folic)
+- Anemia **Biermer**
+
+**ANIZOCITOZĂ:**
+- Eritrocite cu **diametre diferite** pe frotiu
+- Marker de **diseritropoeză**`,
+        mnemonic: 'Mărime: Micro(<6μm,<80fl,Hb↓); Macro(>9μm,100-120fl,reticulocitoză); MEGA(>12μm,>120fl,PATOL)',
+      },
+      {
+        front: 'Anomalii de FORMĂ eritrocitară - Poikilocite specifice (Partea 1)',
+        back: `**SFEROCIT:**
+- **Microcit** (< 6 μm), VEM normal
+- **Fără zonă palidă centrală** → aspect hipercrom
+- **Etiologie:**
+  - **Sferocitoza ereditară** (defect membranară)
+  - Anemii hemolitice **imune**
+  - Hipo/afosfatemie
+
+**ELIPTOCIT (Ovalocit):**
+- Disc biconcav **oval**
+- **Normal:** diferențe 1-2 μm diametru
+
+**Patologic:**
+- Până la **10%**: Talasemie, deficit Fe/folați
+- Până la **50%**: Diseritropoeze
+- Până la **90%**: **Eliptocitoză ereditară**, talasemii, mielofibroză
+
+**CODOCIT ("Eritrocit în țintă"):**
+- Aspect "**semn de tras la țintă**", "saibă"
+- **Etiologie:**
+  - Boli **hepatice obstructive**
+  - **Deficit de fier**
+  - **Talasemie**
+  - **Post-splenectomie**
+
+**DREPANOCIT ("Secera", "Luna nouă"):**
+- Formă de **seceră** sau **semilună**
+- **Etiologie:**
+  - **Drepanocitoza** (HbS polimerizată)
+  - Alte hemoglobinopatii rare`,
+        mnemonic: 'Formă: SFER(hipercrom,fără zonă palidă); ELIP(oval,90%=ereditar); CODO(țintă=hepatic/Fe↓/talas); DREPA(seceră=HbS)',
+      },
+      {
+        front: 'Anomalii de FORMĂ eritrocitară - Poikilocite specifice (Partea 2)',
+        back: `**ECHINOCIT ("Crenat", "Burr cells"):**
+- Contur **crenelat**
+- Spiculi **scurți, regulați, uniformi** (10-30)
+- **Etiologie:**
+  - pH ↑, albumine serice ↓
+  - **Uremie**
+  - Deficit **piruvat-kinază**
+
+**ACANTOCIT ("Spur cells", "Frunze de acant"):**
+- Contur **neregulat**
+- Spiculi **lungi, neuniformi** (2-10)
+- **Etiologie:**
+  - **Abetalipoproteinemie** (retină pigmentată atipic, steatoreea, ataxie)
+  - **Alcoolism**, **ciroză**
+  - Sindrom **hemolitic-uremic**
+  - **Post-splenectomie**
+  - Malnutriție severă, cancere extinse
+  - **PTT** (purpură trombotică trombocitopenică)
+
+**STOMATOCIT:**
+- **Fantă centrală palidă** (aspect "gură")
+- **Etiologie:**
+  - pH ↓, albumine serice ↑
+  - **Stomatocitoză ereditară**
+  - **Alcoolism**, **ciroză**
+  - Boli hepatice obstructive
+
+**POIKILOCIT (generică):**
+- Forme diverse: **lacrimă, rachetă, pară, clopot, virgulă**
+- Apar prin **întinderea frotiului** (fragilitate ↑)
+- **Etiologie:**
+  - **Mielofibromatoză**, anemii mieloftizice
+  - Anemii hemolitice grave
+  - Neoplasme, uremie, leucemie acută, talasemii`,
+        mnemonic: 'ECHI(crenat,10-30spiculi,pH↑); ACAN(neregulat,2-10spiculi,alcool/ciroză); STOMA(fantă,alcool); POIKILO(lacrimă=mielofibroză)',
+      },
+      {
+        front: 'SCHIZOCITE și ANIZOCROMIE - Definiție și semnificație',
+        back: `**SCHIZOCITE:**
+
+**Definiție:**
+- **Fragmente** de eritrocite (2-4 μm)
+- Formă **variată**
+
+**Origine:**
+- Fragmente de eritrocite patologice (poikilocite, megalocite, în țintă)
+- Consecință **fagocitare parțială**
+
+**Etiologie:**
+- **Hemolize traumatice:**
+  - Anemia hemolitică **angiopatică** (CID, PTT, vasculite, GN)
+  - **Proteze valvulare**
+  - **Arsuri** severe
+  - **Hemoglobinuria de marș**
+- Anemia **feriprivă**
+- Anemia **megaloblastică**
+- **Chimioterapie**
+
+**ANIZOCROMIE:**
+
+**Definiție:**
+- Prezența simultană pe frotiu de:
+  - Eritrocite **normocrome**
+  - Eritrocite **hipocrome** (încărcare slabă Hb)
+
+**Semnificație:**
+- **Diseritropoeză**
+- Populații mixte eritrocitare
+- Transfuzie recentă
+- Recuperare din anemie feriprivă
+
+**ANULOCITE:**
+- Zona clară centrală **extinsă** până aproape de periferie
+- Aspect asemănător **inel**
+- **Etiologie:**
+  - **Neoplasme**
+  - Anemia **feriprivă** severă
+  - **Leucemii acute**`,
+        mnemonic: 'SCHIZO(fragmente 2-4μm)=hemoliza traumatică/proteze/arsuri; ANIZO=normocrome+hipocrome; ANULO(inel)=neoplasme/Fe↓',
+      },
+      {
+        front: 'INCLUZIUNI ERITROCITARE - Corpusculi Howell-Jolly și Granulaț bazofile',
+        back: `**CORPUSCULI HOWELL-JOLLY:**
+
+**Morfologie:**
+- Granule **rotunde, dense**
+- Culoare: **albastru-închis** sau violet
+- **Unice** sau 2-3 per eritrocit
+
+**Natură:**
+- **Cromatină nucleară condensată** rămasă după diviziune
+- Resturi nucleare
+
+**Etiologie PATOLOGICĂ:**
+- **Anemii megaloblastice** (caracteristice!)
+- **Diseritropoeze**
+- Anemii **hemolitice**
+- **POST-SPLENECTOMIE** (absența lor = splină accesorie!)
+- Atrofie/aplazie splenică
+- **Talasemie**
+- **Leucemii**
+
+**Semnificație:**
+- Marker **hiposplenie/asplenie**
+- Marker diseritropoeză
+- Splina normală îi îndepărtează eficient
+
+**GRANULAȚII BAZOFILE:**
+
+**Morfologie:**
+- Granule **mici, albastru-violet**
+- Dispuse pe **toată suprafața** eritrocitului
+
+**Compoziție:**
+- **Agregate ribozomale**
+- Mitocondrii
+- **Fier neheminic**
+- Ribonucleoproteine
+
+**Etiologie PATOLOGICĂ:**
+- **Intoxicație cu Pb** (plumb!) - CARACTERISTIC
+- Alte **metale grele**
+- **Anemii severe**
+- **Talasemii**
+
+**Metodă evidențiere:**
+- Colorație **May-Grünwald-Giemsa** (MGG)`,
+        mnemonic: 'HOWELL-JOLLY(cromatină,1-3,violet)=megaloblastice/POST-SPLENECTOMIE; GRANUL-BAZO(ribozomi,Fe)=Pb/talasemii',
+      },
+      {
+        front: 'INCLUZIUNI ERITROCITARE - Inele Cabot și Corpi Heinz',
+        back: `**INELE CABOT:**
+
+**Morfologie:**
+- Formațiuni **filiforme**
+- Linie cu **circuit închis**
+- Forme: **8**, **semilună**, **rachetă**
+- Culoare: **roșie-purpurie**
+
+**Natură:**
+- **Resturi** ale **fusului de diviziune**
+
+**Etiologie PATOLOGICĂ:**
+- **Intoxicații cu Pb** (plumb)
+- **Diseritropoeze grave**
+- **Regenerări intense** (eritropoeză accelerată)
+
+**CORPI HEINZ:**
+
+**Morfologie:**
+- **Agregate** de Hb **denaturată oxidativ**
+- Particule **unice** sau în număr mic
+- Dimensiuni **mari**
+- Localizare: **marginea internă** eritrocitului
+
+**Natură:**
+- **Hb precipitată** (oxidare)
+- Inclusiuni de Hb instabilă
+
+**Colorații speciale:**
+- **NU** vizibili cu MGG standard!
+- Colorații **supravitale:**
+  - **Albastru brilliant crezyl**
+  - Albastru de Nil
+  - Violet de metil
+
+**Etiologie PATOLOGICĂ:**
+- **Talasemii**
+- **Hemoglobinopatii** cu Hb instabilă
+- **Deficit G6PD** (glucozo-6-fosfat dehidrogenază)
+- **Siclemie**
+- **Post-splenectomie** (splina normală îi îndepărtează!)
+
+**Semnificație:**
+- Marker **stres oxidativ**
+- Marker **hiposplenie**`,
+        mnemonic: 'CABOT(filiforme,8/semilună,roșie)=Pb/diseritropoeză; HEINZ(Hb oxidată,margine)=G6PD/talasemii/POST-SPLENECTOMIE',
+      },
+      {
+        front: 'Metoda de studiu MORFOLOGIE ERITROCITARĂ și valori normale',
+        back: `**METODĂ DE STUDIU:**
+
+**Colorație standard:**
+- **May-Grünwald-Giemsa** (MGG)
+- Frotiu **sânge periferic**
+- Strat **subțire**
+
+**Colorații speciale:**
+- **Albastru brilliant crezyl** → reticulocite, corpi Heinz
+- **Albastru de Nil** → corpi Heinz
+- **Violet de metil** → corpi Heinz
+
+**MORFOLOGIE NORMALĂ:**
+- **Disc biconcav**
+- Margini rotunjite
+- Zonă centrală palidă = **1/3 din diametru**
+- Adaptare perfectă la funcția respiratorie (suprafață max/volum min)
+
+**CONSTANTE NORMALE:**
+
+**Număr eritrocite:**
+- Bărbat: **5,4 ± 0,8 milioane/μL**
+- Femeie: **4,8 ± 0,6 milioane/μL**
+
+**Hematocrit:**
+- Bărbat: **45% ± 5%**
+- Femeie: **42% ± 4%**
+
+**Hemoglobină:**
+- Bărbat: **12-17 g/dL**
+- Femeie: **12-16 g/dL**
+
+**Indici eritrocitari:**
+- **VEM** (Volumul Eritrocitar Mediu): **85-95 μm³** (sau 80-100 fl)
+- **HEM** (Hemoglobina Eritrocitară Medie): **30 μg**
+- **CHEM** (Concentrația Hb Eritrocitară Medie): **34%**
+
+**IMPORTANȚĂ CLINICĂ:**
+- Hb + Hematocrit = cei mai importanți în depistarea **anemiilor** și **poliglobuliilor**`,
+        mnemonic: 'MGG=colorație standard; VEM=85-95fl; Hb♂=12-17,♀=12-16g/dL; Zonă palidă=1/3 diametru',
+      },
+      {
+        front: 'HEMOSTAZA - Definiție, sisteme și faze',
+        back: `**HEMOSTAZA:**
+
+**Definiție:**
+- Mecanism de **apărare** după lezarea vasului sangvin
+- Oprește **hemoragia** și repară leziunea endotelială
+
+**SISTEME ENZIMATICE (echilibru antagonist):**
+1. **Sistem coagulant**
+2. **Sistem fibrinolitic**
+
+**HEMOSTAZA PRIMARĂ (vasculo-plachetară):**
+- **Durata:** Secunde de la agresiune
+- **Mecanism:** Formarea **trombului plachetar**
+- **Efect:** Protectiv imediat
+- **Vase:** Capilare, arteriole, venule (vase mici)
+- **Sinonim:** Etapă vasculo-plachetară
+
+**Tablou clinic defect hemostază primară:**
+- Leziuni **cutaneo-mucoase**
+- **Purpură**, **petesii**, **echimoze**
+- Cauze: Afectare cantitativă/calitativă **trombocite**, rar vasculară
+
+**HEMOSTAZA SECUNDARĂ (plasmatică):**
+- **Durata:** Ore-zile după agresiune
+- **Mecanism:** **Coagularea** → consolidează trombul friabil
+- **Efect:** Definitiv, vindecarea leziunii
+- **Sinonim:** Hemostaza definitivă
+
+**Tablou clinic defect hemostază secundară:**
+- Hemoragii **profunde**
+- **Hematoame**, **sufuziuni**, **hemartroze**
+- Cauze: Deficite **cascade coagulării** (proteine plasmatice)
+
+**COMPONENTE SISTEM HEMOSTATIC:**
+- Proteine plasmatice
+- **Trombocite**
+- Celule **endoteliale**
+
+**Rezultat final:** Rețea tridimensională de polimeri de **fibrină**`,
+        mnemonic: 'PRIM(sec,trombus plach,piele/purpură/trombocite) vs SECUND(ore-zile,coagulare,profund/hematoame/proteine)',
+      },
+      {
+        front: 'HEMOSTAZA PRIMARĂ - Mecanisme vascular și plachetar',
+        back: `**MECANISMUL VASCULAR:**
+
+**Vasoconstricție reflexă:**
+- Controlată de SN **simpatic** + amine **vasoactive**
+- Oprire **provizoirie** hemoragie
+
+**2 Componente:**
+1. **Endoteliu vascular**
+2. **Structuri subendoteliale**
+
+**Arteriole/Venule:**
+- Contracție fibre **musculare netede**
+- **↓ Calibru vascular** → 3 efecte:
+  - Facilitează contact **trombocite-subendoteliu**
+  - Permite acumulare **factori coagulare activați**
+  - Reduce **inactivare hepatică**
+
+**Capilare (fără fibre musculare):**
+- Aderentă celule endoteliale
+- Contracție straturi subendoteliale **miofibrilare**
+
+**Perete vascular eliberează:**
+- **Tromboplastina tisulară** → activează calea **extrinsecă**
+- **ADP** → mediază agregare plachetară
+- **Bradikinină**
+
+**Celule endoteliale sintetizează:**
+- **Factorul von Willebrand** (vWF)
+- Activatori **plasminogenului**
+- **Prostaciclină** (PGI2)
+- **Trombomodulin**
+
+**MECANISMUL PLACHETAR:**
+
+**Trombocitul normal:**
+- Disc, **3-4 μm** diametru
+- Volum mediu: **8 μm³**
+- Număr normal: **150.000-400.000/μL**
+
+**Componente structurale:**
+1. **Membrana celulară** (glicoproteine - receptori)
+2. Sistem **microtubular**
+3. Sistem **tubular dens**
+4. **Granule** variate
+5. Sistem **canalicular** deschis`,
+        mnemonic: 'VASCULAR(vasoconstricție,↓calibru,vWF/PGI2); PLACHETAR(150-400k/μL,disc 3-4μm,granule)',
+      },
+      {
+        front: 'TROMBOCITUL - Structură și funcții în hemostaza primară',
+        back: `**COMPONENTE STRUCTURALE:**
+
+**1. Membrana celulară - Glicoproteine (receptori):**
+- **GP Ib:** Se leagă de **vWF** (factor von Willebrand) → mediază **aderarea** la subendoteliu lezat
+- **GP IIb-IIIa:** Leagă **fibrinogenul** → mediază interacțiunea **trombocit-trombocit**
+- **Factor Va** membranar: Leagă **factor Xa**
+- **Receptori trombinici și ADP-azici:** Stimulare de ADP → legătură cu calea **acid arahidonic** → eliberare **TXA2** (tromboxan A2) → agregare plachetară
+
+**2. Microtubuli și microfilamente:**
+- Tubulină + actină → **citoschelet** + **pseudopode**
+
+**3. Sistem tubular dens:**
+- Rezervor **Ca2+**
+- Sediu **ciclooxigenază** trombocitară
+- Sinteză **prostaglandine**
+
+**4. Granule:**
+- **Granule electron-dense:** ADP, Ca2+, **serotonină** → potențează agregarea
+- **Alfa-granule:** Factor 4 plachetar, β-tromboglobulină, **PDGF** (factor creștere), fibrinogen, F V, **vWF**, glicoproteine adeziune (trombospondină, fibronectină)
+
+**5. Canaliculi:**
+- Rețea invaginații → ↑ suprafață internă
+- Expulzie conținut granule
+
+**FUNCȚII ÎN HEMOSTAZA PRIMARĂ:**
+
+**1. ADEZIUNEA PLACHETARĂ:**
+- Normal: Trombocitele **NU** aderă la endoteliu (produce **PGI2** - inhibitor)
+- După **lezare vas** → aderare la fibre **colagen** subendotelial
+- Receptor specific colagen: **GP Ia și IIa**
+- **vWF** stabilizează interacțiunea: **GP Ib** ↔ vWF ↔ **colagen**
+- După eliberare granule: **fibrinogen** se atașează la **GP IIb-IIIa**
+
+**2. AGREGAREA PLACHETARĂ:**
+- Stimulată de aderarea la subendoteliu
+- Reglată prin: nucleotide ciclice, influx **Ca2+**, hidroliză fosfolipide, fosforilare proteine
+
+**Calea acid arahidonic:**
+- Epinefrină/colagen/trombină → **fosfolipază A și C** → **acid arahidonic** → **TXA2** (tromboxan)
+- **TXA2** activează fosfolipază C
+- Enzimă: **Ciclooxigenază**
+- Endoteliu produce **PGI2** (prostaciclină) → inhibă fosfolipază C (↑ AMPc)
+
+**Faze agregare:**
+- Inițial **reversibilă**
+- Progresiv **ireversibilă** (modificări structurale/funcționale)
+- Trombocite nedistruse → puncte ancorare **fibrină** → **retracție cheag**`,
+        mnemonic: 'GP Ib=vWF→aderare; GP IIb-IIIa=fibrinogen→agregare; TXA2(trombocit)vsПGI2(endoteliu); Granule=ADP/PDGF/vWF',
+      },
+      {
+        front: 'HEMOSTAZA SECUNDARĂ - Factori coagulare și cascade',
+        back: `**MECANISMUL PLASMATIC:**
+
+**Definiție:**
+- Hemostaza **permanentă**
+- Formarea gelului de **fibrină insolubilă**
+
+**FACTORI COAGULĂRII:**
+
+**Natură:**
+- **Glicoproteine**, enzime tip **serin-proteaze**
+- Inițial **inactivi** (zimogeni)
+- Se activează prin **proteoliză limitată**
+
+**Sinteză:**
+- **Ficat** (toți, EXCEPȚIE: vWF)
+- **vWF** → sintetizat de **celule endoteliale**
+- Megacariocite: Fibrinogen, F V, F XIII
+- Macrofage: F V, VII, IX, X
+
+**Dependenți de Vitamina K:**
+- F **II, VII, IX, X**
+- În absența vit K: sintetizați dar **INACTIVI**
+
+**Consum:**
+- **Complet consumați:** I, V, VIII
+- **Parțial consumați:** III, XI, XII
+- **NU se consumă** (găsiți în ser): VII, IX, X
+
+**GRUPARE (3 tipuri):**
+1. Factori **fază contact:** XI, XII
+2. Factori **dependenți vit K:** II, VII, IX, X
+3. Factori **trombinosensibili:** I, V, VIII, XIII
+
+**TIMPI DE ÎNJUMĂTĂȚIRE:**
+- F **VII** (proconvertină): **2-6 ore** (cel mai scurt!)
+- F V (proaccelerină): 12-24h
+- F VIII (antihemofilic A): 10-12h
+- F II (protrombină): 48-120h
+- F XIII (stabilizator fibrină): **72-200h** (cel mai lung!)
+
+**CASCADE COAGULARE:**
+
+**3 Căi:**
+1. **Cale INTRINSECĂ** (sanguină): XII → XIIa → XI → IX → X
+2. **Cale EXTRINSECĂ** (tisulară): Factor tisular (III) + VII → X
+3. **Cale COMUNĂ:** X → Xa + Va → Protrombină (II) → **Trombină** (IIa) → Fibrinogen → **Fibrină**
+
+**Faze coagulare:**
+1. Generare **protrombinază** (Xa + Va + Ca2+ + FL) - cale **intrinsecă**
+2. Generare **protrombinază** - cale **extrinsecă**
+3. Transformare **fibrinogen** → **fibrină**`,
+        mnemonic: 'Vit K=II,VII,IX,X; Consum complet=I,V,VIII; T½ scurt=VII(2-6h); INTRIN(XII→XI→IX→X); EXTRIN(III+VII→X); COMUN(X→IIa→fibrină)',
+      },
+      {
+        front: 'CĂILE COAGULĂRII - Mecanisme intrinsec, extrinsec și comun',
+        back: `**CALE INTRINSECĂ (sanguină, contact):**
+
+**Faza contact:**
+- Start: Activare **F XII** după contact cu **subendoteliu** lezat
+- **F XII + KMM + prekalicreină** → complex pe fibre **colagen**
+- F XII → **F XIIa** (lent)
+- F XIIa convertește:
+  - **Prekalicreină** → **Kalicreină**
+  - **F XI** → **F XIa**
+- **Kalicreină** accelerează XII → XIIa
+- Kalicreină din kininogen → **Bradikinină** → activează F XII
+- **Deficit XII/KMM/prekalicreină:** Hemostază normală, **FĂRĂ sângerări clinice**
+
+**Cascadă intrinsecă:**
+- F XIa + Ca2+ → activează **F IX** → **F IXa**
+- **Complex:** F IXa + **F VIII** + Ca2+ + **FL** (fosfolipide plachetare) → activează **F X** → F Xa
+- **Fără F VIII:** F IXa activează X foarte **lent** (doar cofactor)
+
+**CALE EXTRINSECĂ (tisulară):**
+
+**Start:**
+- **Factor tisular** (III) eliberat din celule lezate (endoteliale, fibroblaste)
+- Componentă proteică: **Tromboplastină**
+- Componentă fosfolipidică: **Cefalină**
+
+**Mecanism:**
+- **F III** leagă **F VII** → ↑ activitate proteazică **×45**
+- F VII activat de: trombină, kalicreină, F XIa, plasmină (+ fosfolipide + Ca2+)
+- **F III + F VIIa + Ca2+** → activează **F X** → F Xa
+
+**Interferență:**
+- **F IXa** (intrin) poate fi activat de **complexul III-VII** (extrin)
+- **In vivo:** Ambele căi obligatorii (deficit pe una → sindrom hemoragic)
+
+**Trombină extrinsecă:**
+- Cantitate **redusă**
+- **NU** transformă fibrinogen în fibrină
+- **Rol:** Transformă trombus **lax** (agregare reversibilă) → trombus **ferm** (agregare ireversibilă)
+- Declanșează **release secundar** → factori plachetari → cale intrinsecă
+
+**CALE COMUNĂ:**
+
+**Complex PROTROMBINAZIC:**
+- **F Xa + F Va + Ca2+ + FL** (pe trombocite activate)
+- Catalizează: **Protrombină** (II) → **Trombină** (IIa)
+- **Localizare:** Strict la leziunea vasculară
+
+**F Va:**
+- Provine din F V prin proteoliză (cantități mici trombină)
+- Se leagă pe trombocite activate
+- Expune situsuri legare pentru **Xa** (prin Ca2+)
+- **Rol:** Cofactor, protejează Xa de inhibitori și protein C activată
+- Proteoliza F V → complex protrombinazic **mult mai activ**
+
+**Transformare fibrinogen → fibrină:**
+- **Trombină** (serin-protează, 2 lanțuri A+B, asemănător tripsinei)
+- **Specificitate:** Legătura **Arg-Gly**
+
+**3 Etape formare fibrină:**
+1. Trombină eliberează **fibrinopeptida A** (din lanț α) → polimerizare **longitudinală**
+   Apoi **fibrinopeptida B** (din lanț β) → polimerizare **transversală**
+   Rezultat: **Monomer fibrină**
+2. **Polimerizare:** Rețea tridimensională **instabilă** (legături H slabe)
+3. **Stabilizare:** **F XIIIa** transformă fibrină **solubilă** → fibrină **INSOLUBILĂ**
+
+**Rol F XIII:**
+- Colonizare fibrină cu **fibroblasti** → proliferare → vindecarea plăgii`,
+        mnemonic: 'INTRIN(XII→XIa→IXa+VIII→Xa); EXTRIN(III+VIIa→Xa,trombus lax→ferm); COMUN(Xa+Va→IIa→fibrină A+B→XIIIa→INSOLUBIL)',
+      },
+      {
+        front: 'CONTROL COAGULĂRII - Acceleratori și inhibitori fiziologici',
+        back: `**NECESITATE AUTOCONTROL:**
+- Factorii coagulare sunt **ubicuitar** prezenți
+- Formarea cheagului = proces **limitat spațiu și timp**
+- Fără reglare → **tromboză generalizată**
+
+**ACCELERATORI FIZIOLOGICI:**
+
+1. **Trombina:**
+   - Accelerează **agregarea trombocitelor**
+   - Activează **F V și F VIII**
+   - **Autocatalizează** transformarea protrombină → trombină
+
+2. **Fosfolipide trombocitare:**
+   - ↑ Concentrația locală **reactanți**
+
+3. **Inhibitori heparinei și antiplasminelor** din trombocit
+
+**INHIBITORI FIZIOLOGICI:**
+
+**Mecanisme anihilare factori activați:**
+- **Legare** de inhibitori
+- **Diluare** prin torent circulator
+- **Clearence** reticulo-endotelial (complexe factor activat-inhibitor)
+
+**1. ANTITROMBINĂ III (AT III) - Cofactorul heparinic I:**
+- Cel mai **puternic** inhibitor
+- Formează complexe cu **TOATE serin-proteazele** coagulării (EXCEPȚIE: F VII)
+- Rata complexare accelerată de **heparină** și molecule **heparin-like** endoteliale
+- **Baza acțiunii anticoagulante a heparinei**
+
+**Deficit AT III:**
+- **Congenital** sau dobândit
+- Dobândit: Post-terapeutic (heparină, asparaginază), boli (insuf hepatică, sindrom nefrotic, **CID**, tromboză venoasă, septicemie)
+
+**2. HEPARIN-COFACTOR II (HC II):**
+- Inhibă numai **trombina** (în prezența heparinei)
+- Deficit → ↑ risc trombogen
+- Boli: Hepatice, diabet zaharat, septicemie, CID
+
+**3. PROTEINA C (vitamino K-dependentă):**
+- **Proenzimă** → activată de **trombină** → serin-protează
+- Activare accelerată prin legare de **trombomodulin** (celule endoteliale)
+- **Funcție inhibitorie** necesită: Proteina S + fosfolipide plachetare + Ca2+
+- **Acțiune:** Proteoliza selectivă **F Va și F VIIIa**
+- **Inactivată** de heparină
+
+**4. PROTEINA S:**
+- **60%** legată de proteina C, **40%** liberă
+- **Accelerează și întărește** acțiunea proteinei C
+
+**ECHILIBRU:**
+- ↓ AT III/Proteină C/Proteină S → Stări **pretrombotice/hipercoagulare**
+- ↑ AT III/Proteină C/Proteină S → Sindrom **hemoragic**`,
+        mnemonic: 'ACCEL(trombină→V,VIII,autocataliz); INHIB: AT III(toate,EXCEPȚIE VII,heparină); Prot C+S(↓Va,VIIIa,vit K); ↓inhib=pretrombot; ↑inhib=hemoragic',
+      },
+      {
+        front: 'SISTEMUL FIBRINOLITIC - Plasmina și reglare',
+        back: `**DEFINIȚIE:**
+- Acționează asupra depozitelor **fibrină** pe vase
+- **Protejează** împotriva trombozelor
+
+**COMPONENTE:**
+1. **Plasmina** - enzimă proteolitică
+2. **Plasminogen** - proenzimă inactivă
+3. **Activatori** plasminogenului
+4. **Inhibitori** naturali fibrinolizei
+
+**PLASMINOGEN:**
+- **Glicoproteină** monocatenară
+- Concentrație serică: **10-12 mg%**
+
+**PLASMINA:**
+- **Endopeptidază** hidrolizează legătura **Arg-Liz**
+- Normal: Degradează numai **fibrină**
+- Patologic (pierdere specificitate): Degradează F V, F VIII, **fibrinogen**
+
+**FIBRINOLIZĂ:**
+- Desfacere enzimatică fibrină → **fragmente incapabile** să formeze rețea
+
+**3 ETAPE CONSECUTIVE:**
+1. **Activarea plasminogenului**
+2. **Degradarea fibrinei**
+3. **Inactivarea plasminei**
+
+**I. ACTIVAREA PLASMINOGENULUI:**
+
+**Activatori tisulari:**
+- **t-PA** (activator tisular plasminogen)
+- Conținut crescut: **Plămân, uter, prostată** → hemoragii masive post-intervenții (fibrinoliză)
+- Prezent în cantitate mare în **celule endoteliale** (eliberat)
+
+**Activatori plasmatici (intrinseci):**
+- **F XIIa** → activează F XI + prekalicreină → **F XIa + Kalicreină** → activare directă plasminogen
+- **Urokinază:** Activează numai plasminogen **liber circulant** (NU cel legat de fibrină)
+- **Streptokinază:** Proteină din culturi **streptococi β hemolitici**
+
+**Mecanism normal:**
+- Aproape exclusiv prin **t-PA** (stază venoasă → eliberare endotelială)
+- **t-PA + Plasminogen** se fixează pe cheag fibrină
+- Modificări → formare **plasmină activă**
+- După degradare fibrină: plasmină se desprinde → **inactivată** de inhibitori plasmatici
+
+**II. DEGRADAREA FIBRINEI:**
+
+**Proteoliza plasminică:**
+- Fibrină/Fibrinogen → scindare polipeptide lanț α și β → **Fragment X**
+- Fragment X → **Fragment Y**
+- Fragment Y → produși finali **D și E** (masă moleculară mică)
+
+**III. INACTIVAREA PLASMINEI:**
+
+**Inhibitori plasmatici:**
+- Prezenți în **sânge și urină**
+- ↓ Activitatea sistem fibrinolitic in vivo
+
+**1. Alfa-2-antiplasmină (α2-PI):**
+- Acțiune **RAPIDĂ**
+- Inhibă **plasmina**
+- Rol în: Formare fibrină stabilă, absorbție plasminogen pe rețea fibrină
+- Inactivează **instantaneu** plasmina desprinsă de fibrină (circulantă)
+
+**2. Alfa-2-macroglobulină (α2-M):**
+- Acțiune **LENTĂ** (după consumul total α2-PI)
+- **Nespecifică:** Inhibă plasmină + trombină + kalicreină
+
+**Limitare fibrinoliză:**
+- α2-antiplasmină → plasmină circulantă (instantaneu)
+- După saturare α2-PI → intervine **α2-macroglobulină** (lent)
+- Cuplare plasmin-antiplasmină **inhibată** de: Acid **aminocaproic**, Acid **tranexamic**`,
+        mnemonic: 'Plasmina=Arg-Liz; ACTIV: t-PA(tisular,endoteliu), XIIa/urokinază/streptokinază; DEGRAD: X→Y→D+E; INHIB: α2-PI(rapid),α2-M(lent)',
+      },
+      {
+        front: 'EXPLORAREA HEMOSTAZEI - Teste principale și semnificație',
+        back: `**1. COAGULABILITATE GLOBALĂ:**
+- **Timpul coagulare:** 6-10 min
+- **Timpul Howell:** 60-120 sec (coagulabilitate intrinsecă)
+- **Toleranța heparină** in vitro
+
+**2. HEMOSTAZA VASCULARĂ:**
+
+**Metode directe:**
+- **Timpul sângerare:** 2-4 min (metoda **Duke**)
+- **Rezistența capilară:** Compresiune cu garou
+
+**Metode indirecte - Explorare trombocit:**
+- **Funcții dinamice:**
+  - **Retracția cheagului**
+  - Teste **agregare trombocitară** (ADP, epinefrină, colagen, **ristocetină**)
+  - Teste **adezivitate plachetară** (sticlă rehidrofugată)
+- **Funcții tromboplastice:**
+  - Determinare **factor 4 plachetar**
+  - Determinare **factor 3 plachetar**
+  - Testul generare tromboplastine
+- **Morfologie:** Frotiu sânge periferic
+
+**3. EXPLORAREA FAZEI I (cale intrinsecă):**
+- **PTT** (Timpul cefalină)
+- **PTTK** (Timpul cefalină **activată**)
+- Timp protrombină serică (F 3 plachetar, F V, VIII, IX, X, XI, XII)
+- Dozare factori **antihemofilici** (VIII, IX)
+- Determinare F XI, XII
+- Testul generare tromboplastine
+
+**4. EXPLORAREA FAZEI a 2-a (cale extrinsecă - complex protrombinic):**
+- **Timpul protrombină (Quick)** - F II, V, VII, X
+- Determinare **F II** (protrombină)
+- Determinare **F V** (proaccelerină)
+- Determinare **F VII** (proconvertină)
+- Determinare **F X** (Stuart-Prower)
+- **Trombotest Owen** (măsoară simultan F II, VII, IX, X - scad în tratament cu **antagoniști vit K**)
+
+**5. EXPLORAREA FAZEI a 3-a (fibrinoformare):**
+- Determinare **fibrinogen**
+- **Timpul trombină**
+- Determinare **F XIII** (stabilizator fibrină)
+
+**6. EVIDENȚIERE Ac ANTIPLACHETARI:**
+- Test inhibiție retracție cheag
+- Test Karpatkin
+
+**7. ANTICOAGULANȚI CIRCULANȚI:**
+- **PTTK** (Timpul tromboplastină parțial activată)
+- Nivel seric **anti-F VIII**
+- Nivel **anti-F IX**
+
+**8. INHIBIȚIE FIZIOLOGICĂ:**
+- Nivel **AT III**
+- **Proteina C**
+- **Proteina S**
+- **Anticoagulant lupic**
+
+**9. HIPERCOAGULABILITATE:**
+- Test **monomeri fibrină**
+- **TARS** (Test activare reziduală ser)
+
+**EXPLORAREA FIBRINOLIZEI:**
+
+**Metode directe:**
+- Timp liză cheag **euglobinic**
+- Metoda **plăcilor fibrină**
+- Determinare **plasminogen**
+
+**Metode indirecte:**
+- Decelarea **FDP** (Produse degradare fibrină)
+- Determinare **fibrinogen**
+- Nivel **F VIII și F V**`,
+        mnemonic: 'Quick=extrin(II,V,VII,X); PTTK=intrin(VIII,IX,XI,XII); Trombină=faza3; AT III/Prot C,S=inhib; FDP/plasminogen=fibrinoliză',
+      },
+      {
+        front: 'ANEMII HIPOCROME - Definiție, patogenie și clasificare',
+        back: `**DEFINIȚIE:**
+- **CHEM** < 30 g/dL → **hipocromie**
+- **VEM** < 90 fL → **microcitoz**ă
+
+**PATOGENIE - Deficit cantitativ sinteza Hb:**
+
+**Protoporfirina + Fe²⁺ = HEM + Globina → Hemoglobină**
+
+**3 Categorii principale:**
+
+**1. Blocaj sinteza PROTOPORFIRINEI:**
+- **Anemii sideroblastice** (ereditare, dobândite, secundare)
+- Sideroblasti **inelari** (granule Fe perinucleare, NU citoplasmatice)
+- Fe ↑, CTLF ↓, depozite Fe masive în macrofage
+
+**2. Anomalii metabolism Fe²⁺:**
+
+**A. Deficit CANTITATIV total Fe:**
+- **Anemia FERIPRIVĂ** (carenţă absolută)
+
+**B. Repartițiecare ANORMALĂ Fe (deficit relativ):**
+
+**Compartiment Fe CIRCULANT:**
+- **Atransferinemia** (congenitală/dobândită) - transport Fe ↓
+- **Deficit Cu** (copii malnutriţi, nutriţie artificială) - ceruloplasma ↓
+
+**Compartiment UTILIZARE Fe (MO):**
+- **Anemia Sahidi-Diamond** - blocare receptori transferină pe eritroblasti (congenitală/imună - IgG)
+
+**Compartiment DEPOZITE Fe:**
+- **Anemii din boli cronice** (colagen, infecţioase, neoplazii)
+- **Hemosideroză pulmonară**
+- Blocarea Fe în macrofage (ficat, splină, MO)
+- Anemie hipocromă/parţial hipocromă
+- Fe ↓, dar **NICIODATĂ < 16%** (vs feriprivă)
+
+**3. Tulburări sinteza GLOBINEI:**
+- **Talasemii** (defect lanţuri α sau β)
+- **Hemoglobinopatii** (HbC, HbE)
+- β-talasemie: Excess lanţ α → precipitare → corpi **Heinz** → eliminare splenică → deficit Hb ↑↑`,
+        mnemonic: 'HIPOCROM: CHEM<30,VEM<90; PATOG: Protoporfirina(sideroblast); Fe(feriprivă/boli cronice); Globină(talasemii)',
+      },
+      {
+        front: 'ANEMII HIPOCROME - Diagnostic diferențial prin metabolismul Fe',
+        back: `**SIDEREMIE:**
+- Normal ♂: **100 μg/dL**
+- Normal ♀: **70 μg/dL**
+
+**COEFICIENT SATURARE TRANSFERINĂ:**
+- Normal: **30%**
+- **Feriprivă:** **< 16%** (diagnostic!)
+- Boli cronice: < 20%
+- Sideroblastice: > 30%
+- **Talasemie:** **90-100%**
+
+**HEMOSIDERINĂ MEDULARĂ (Albastru Prussia 0-6+):**
+- Normal: **1+ până la 3+**
+- **Feriprivă:** **ABSENTĂ** (0+)
+- Boli cronice: **4+-5+** (++++/+++++)
+- Talasemie minora/hemoglobinopatii: 2+-4+ (++/++++)
+- **Talasemie majora/sideroblastice:** **5+-6+** (+++++/++++++++)
+
+**FERITINĂ CIRCULANTĂ:**
+- Normal ♂: **70 μg/L**
+- Normal ♀: **35 μg/L**
+- **Deficit Fe:** **< 10 μg/L**
+- **Hemocromatoză:** **> 1000 μg/L**
+
+**SIDEROBLASTI MEDULARI (granule feritină):**
+- Normal: **30-50%** eritroblasti (< 5 granule/celulă)
+- **> 5 granule** = PATOLOGIC
+- Dispunere **perinucleară** = PATOLOGIC
+
+**Valori sideroblasti:**
+- **Feriprivă:** **< 10%**
+- Boli cronice: 12-15% (hemosiderină macrofage ↑↑↑)
+- **Talasemii:** **> 50%**
+- **Sideroblastice:** **> 50%**, din care **> 15% INELARI** (Fe perinuclear + mitocondrii)
+
+**PROTOPORF IRINĂ LIBERĂ ERITROCITARĂ:**
+- **↑ Crescut:** Feriprivă, boli cronice, **intoxicație Pb**
+- Normal: Talasemie
+- **↓ Scăzut:** Sideroblastică ereditară`,
+        mnemonic: 'FERIPRIVĂ(sat<16%,hemosid 0,siderob<10%); TALASEMIE(sat 90-100%,siderob>50%); SIDEROBLAST(>15% inelari,hemosid 6+)',
+      },
+      {
+        front: 'ANEMII HEMOLITICE - Definiție și clasificare intracorpusculare',
+        back: `**HEMOLIZA:**
+- **Fiziologică:** 120 zile, eritrocite îmbătrânite
+- **Patologică:** Distrucţie prematură **TOATE** eritrocitele, durata viaţă **↓**
+
+**ANEMIE HEMOLITICĂ:**
+- Hemoliza **necompensată** (MO depăşită)
+- Durata viață eritrocite **< 17 zile**
+
+**TIPURI HEMOLIZA:**
+- **Extravasculară:** 90% (splină - mecanism necunoscut)
+- **Intravasculară:** 5-10% (liză în circulaţie, Hb în plasmă → ficat + rinichi)
+
+**CLASIFICARE ANEMII HEMOLITICE:**
+
+**A. INTRACORPUSCULARE (defecte structurale eritrocit):**
+
+**1. DEFECTE MEMBRANĂ:**
+- **Sferocitoza ereditară**
+- **Eliptocitoza ereditară**
+- Stomatocitoză ereditară
+- Acantocitoză ereditară
+- Deficit **LCAT** (lecitin-colesterol-acil-transferază)
+- **HPN** (Hemoglobinuria paroxistică nocturnă) - NU ereditară!
+
+**2. ENZIMOPATII ERITROCITARE:**
+
+**Glicoliză anaerobă:**
+- **Deficit piruvat-kinază**
+- Hexokinază, GP-izomerază, fosfo-fructo-kinază, aldolază
+
+**Şunt pentoze:**
+- **Deficit G6PD** (glucozo-6-fosfat dehidrogenază)
+
+**Metabolism glutationion:**
+- Reductază, peroxidază, sintetază
+
+**Alte enzime:**
+- Adenilat-kinază, adenozin-trifosfatază
+
+**3. DEFECTE GLOBINEI:**
+
+**Anomalii structurale:**
+- **HbS, HbC, HbD, HbM** (hemoglobinopatii)
+
+**Talasemii:**
+- Deficit cantitativ lanţuri globină
+
+**Stări dublu heterozigote:**
+- Combinații defecte`,
+        mnemonic: 'INTRACORP: Membrană(sferocit,eliptocit,HPN); Enzime(piruvatkinază,G6PD); Globină(HbS,talasemii); <17 zile=anemie',
+      },
+      {
+        front: 'ANEMII HEMOLITICE - Clasificare extracorpusculare și diagnostic',
+        back: `**B. EXTRACORPUSCULARE (mediu viață agresor, eritrocit normal):**
+
+**1. AH prin ANTICORPI:**
+- **Alloanticorpi:** Reacţii post-transfuzionale, boala hemolitică **nou-născut**
+- **Autoanticorpi:**
+  - **Ac la cald** (idiopatice/secundare)
+  - **Ac la rece** (idiopatice/secundare)
+
+**2. AH prin AGENȚI INFECȚIOȘI:**
+- **Malarie**, toxoplasmoză, leismanioză
+
+**3. AH prin MEDICAMENTE:**
+- **Complexe imune:** Fenacetină, tiazide, **sulfonamide**, izoniazidă
+- **Mecanism haptenic:** Penicilinază, **cefalosporine**
+
+**4. AH prin AGENȚI CHIMICI:**
+- **Pb, Cu, Zn, As, H₂O**
+
+**5. AH prin AGENȚI FIZICI:**
+- **Arsuri**, radiaţii
+
+**6. AH prin FACTORI TRAUMATICI:**
+- **Proteze valvulare**
+- **CID** (Coagulare Intravasculară Diseminată)
+- **SHU** (Sindrom Hemolitic-Uremic)
+- **PTT** (Purpură Trombotică Trombocitopenică)
+
+**7. HIPERSPLENISM**
+
+**DIAGNOSTIC ANEMII HEMOLITICE:**
+
+**Frotiu sânge periferic:**
+- **Normocrome** (majoritatea)
+- Hipocromie în 2 situaţii: **Hemoglobinopatii** (talasemie, HbE), **Carenţă Fe** asociată
+- **Eritrocite "în țintă"**
+- **Sferocitoza/microsferocitoza** (ereditară, AH imune, hipersplenism)
+- **Schizocite > 1%** (AH angiopatică: CID, proteze, PTT, SHU, HTA malignă, LED, SIDA)
+- **Hiperreticulocitoză**
+
+**MO:**
+- **Hiperplazie eritroida** (corelată cu intensitatea hemolizei)
+
+**MARKERI HEMOLIZA:**
+- **BI ↑** (bilirubină indirectă)
+- **UBG urinar ↑↑** (urobilinogen)
+- **Reticulocitoză**
+- Hiperplazie eritroida MO
+- **LDH ↑** (eliberat din eritrocite distruse)
+
+**INSPECȚIE PLASMĂ:**
+- Hemoliza: Plasmă + urină = **galben închis**
+- Hemoliza intravasculară: Plasmă = **roz**, urină = **roșie-rubinie** (hemoglobinurie)
+
+**Diagnostic diferențial:**
+- **BI izolată** (fără anemie) = Hemoragie seroase/hematoame, ictere familiale (Gilbert, Crigler-Najjar)
+- **Anemie + reticulocitoză, FĂRĂ BI** = Hemoragie internă (+ hiperplachetoza)
+- **Anemie + BI + reticulocitopenie** = Eritropoeză **ineficientă**`,
+        mnemonic: 'EXTRACORP: Ac(cald/rece,postransfuz); Infecţii(malarie); Medicamente(sulfonamide,cefalosporine); Traumatic(proteze,CID,PTT); Markeri=BI↑,LDH↑,reticulocit↑',
+      },
+      {
+        front: 'ANEMII HEMOLITICE - Teste specifice diagnostic',
+        back: `**HEMOSIDERINURIE:**
+- **Indicator:** Hemoliza intravasculară **CRONICĂ**
+- Apare când e depăşită capacitatea tubilor renali de preluare Hb
+- **Reactia Perls:** Ferocianură K (granule sulfură ferică)
+- Localizare: Cilindri, celule epiteliale, câmp microscopic
+
+**HAPTOGLOBINA LIBERĂ PLASMATICĂ:**
+- **↓ Scăzută** (preia Hb din plasmă)
+
+**TESTE PRIMARE SUSȚINERE DIAGNOSTIC:**
+
+**1. Electroforeza Hb:**
+- Identifică **tipuri patologice** Hb (HbS, HbC, HbE, etc.)
+
+**2. Testul Coombs:**
+- **Direct:** Detectează Ac pe eritrocite (AH autoimună)
+- **Indirect:** Detectează Ac liberi în ser
+
+**3. Test aglutinare la rece:**
+- **Crioglobuline**, hemolizine la rece
+
+**4. Test autohemoliză:**
+- **Sferocitoza ereditară**
+
+**5. Rezistența osmotică eritrocite:**
+- **↓ Scăzută** = sferocitoza ereditară
+- **↑ Crescută** = talasemii, deficit G6PD
+
+**TESTE SPECIFICE:**
+
+**1. Determinare ENZIME eritrocitare:**
+- **G6PD** (glucozo-6-fosfat dehidrogenază)
+- **Piruvat-kinază**
+- Alte enzime glicoliză/metabolism glutationion
+
+**2. Structură lanțuri GLOBINĂ:**
+- **Genetică moleculară**
+- Secvenţiere ADN
+- Identificare mutaţii specifice (talasemii, HbS)
+
+**3. Testul HAM:**
+- **HPN** (Hemoglobinuria paroxistică nocturnă)
+- Liză eritrocite în ser acidifiat
+- Complement-dependentă`,
+        mnemonic: 'TESTE: Electroforeză Hb(tipuri patol); Coombs(Ac); Rezist osmotică(sferocit↓,talas↑); HAM(HPN); Enzime(G6PD,piruvatkinază)',
+      },
+      {
+        front: 'ANEMII MEGALOBLASTICE - Definiție, fiziopatologie și transformare',
+        back: `**DEFINIȚIE:**
+- Tulburare **diviziune celulară**
+- **Sinteză ↓ ADN** (deficit B12/acid folic)
+- Hematologic: **Transformare megaloblastică**
+- **Hematopoeza ineficientă**
+
+**FIZIOPATOLOGIE - Cerc vicios:**
+
+**Deficit B12/acid folic** → **Sinteză deficitară ADN** → **Megaloblastoză + Hematopoez** → **Anemie** → ↑ Eritropoetină → **Hiperplazie eritroblastică** (± eritropoeză extramedulară) → **Consum ↑↑ B12/acid folic** → **Deficit ↑↑** → ⟲ Reluare ciclu
+
+**DEFICIT ADN determină:**
+- **Alungire interval intermitotic**
+- **ASINCRONISM nucleo-citoplasmatic:**
+  - **Nucleu tânăr** (imatur)
+  - **Citoplasma matură**
+
+**TRANSFORMARE MEGALOBLASTICĂ:**
+
+**Seria GRANULOCITARĂ + MEGACARIOCITARĂ:**
+- **Mitoze atipice**
+- **Înmugurire nucleu**
+- **Hipersegmentare nucleu**
+- **Poliploidie**
+
+**Seria ERITROCITARĂ:**
+- **Cariorexis** (fragmentare nucleu)
+- **Resturi nucleare** (corpusculi Howell-Jolly)
+
+**DIAGNOSTIC MORFOLOGIC:**
+- Celule **talie mare**
+- ↓ **Raport nucleocitoplasmatic**
+- **Nucleu tânăr** + **citoplasma matură** = ASINCRONISM
+- "**Măduvă albastră**" (predomină megaloblasti cu citoplasma bazofilă)`,
+        mnemonic: 'MEGALOBLAST: Deficit B12/folic→↓ADN→ASINCRONISM(nucleu tânăr+citopl matură); Hipersegmentare; Cariorexis; Hematopoez↓',
+      },
+      {
+        front: 'ANEMII MEGALOBLASTICE - Clasificare deficit B12 și acid folic',
+        back: `**I. DEFICIT VITAMINA B12:**
+
+**1. DEFICIT CANTITATIV ABSOLUT:**
+
+**Aport insuficient:**
+- Malnutriție severă
+- **Regimuri vegetariene absolute**
+
+**Consum în intestin:**
+- **Proliferare bacteriană:** Diverticuli, anastomoze
+- **Paraziti:** **Botriocefal** (Diphyllobothrium latum)
+
+**Absorbție insuficientă:**
+
+**A. Lipsa Factorului Intrinsec (FI):**
+- Defect genetic
+- **Mecanism autoimun:**
+  - **Boala Addison-Biermer** (anemia pernicioasă) - **CLASICĂ**
+  - Anemia pernicioasă **juvenilă**
+- Eliminare substrat secretor: **Afecțiuni gastrice** (gastrectomie)
+
+**B. Deficit fixare complex FI-B12 pe receptori ileali:**
+- Defect genetic: **Sindrom Immerslund**
+- pH ↓: **Insuficiență pancreatică**, sindrom **Zollinger-Ellison**
+
+**C. Afectare transport celular:**
+- Leziuni intracelulare: **Alcoolism**, iradiere
+- Leziuni histologice: Enterocolită, **boala Crohn**, TBC
+- **Ablație intestinală:** Rezecție **ileon**
+
+**2. DEFICIT CANTITATIV RELATIV:**
+- **Consum ↑:** Sarcină, hipertiroidie, mielom, boli proliferative
+- **Eliminări ↑:** Leziuni hepatocelulare
+
+**3. DEFICIT UTILIZARE:**
+- Absență **transcobalamina II**
+- Transcobalamina II anormală
+- Deficit enzimatic: **Metil-malonil-CoA-mutază**
+
+**II. DEFICIT ACID FOLIC:**
+
+**1. DEFICIT CANTITATIV ABSOLUT:**
+- **Malnutriție**, maldigestie
+- **Rezecție jejun proximal**
+- **Alcool**
+- **Anticonvulsivante**
+- Boli inflamatorii intestinale
+
+**2. DEFICIT CANTITATIV RELATIV:**
+- **Sarcină**, **lactație** prelungită
+- Alcoolism, hepatite
+- **Eritropoeză hiperactiva:** Anemii hemolitice, hemoragii, boli mieloproliferative
+
+**3. DEFICIT UTILIZARE (lipsa folat activ):**
+- Deficite enzimatice congenitale
+- Alcool, **ciroză hepatică**
+- **Medicamente antifolice:**
+  - **Methotrexat**
+  - Antimalarice
+  - Tuberculostatice
+  - **Anticonvulsivante**`,
+        mnemonic: 'B12: FI(Biermer,gastrectomie); Ileon(Immerslund,Crohn,rezecție); Botriocefal; FOLIC: Malnutriție; Sarcină/eritropoeză↑; Methotrexat/anticonvuls',
+      },
+      {
+        front: 'ANEMII MEGALOBLASTICE - Diagnostic hematologic și biochimic',
+        back: `**FROTIU SÂNGE PERIFERIC:**
+
+**Eritrocite:**
+- Anemie **grad variabil**
+- **MACROCITOZA:** Diametru **> 12 μm**
+- Ușor ovale, **bine încărcate Hb** (zonă centrală palidă **ABSENTĂ**)
+- **Anizocitoză + Poichilocitoz**ă (forme neregulate)
+- Rari **megaloblasti**
+- **Reticulocite ↓** (scăzute!)
+
+**Leucocite:**
+- **Leucopenie:** **3.000-5.000/mm³**
+- Granulocite **mari**
+- **HIPERSEGMENTARE nuclei** (caracteristic!)
+- Uneori: Meta și mielocite
+
+**Trombocite:**
+- **↓ Scăzute moderat**
+- **Anizocitoză trombocitară**
+- Uneori: **Trombocite gigante**
+
+**TABLOU MEDULAR:**
+
+**Aspect general:**
+- Măduvă **hiperplazică**
+- ↑ Raport **G/E**
+- **Transformare megaloblastică**
+- **Mitoze ↑↑** și **atipice**
+- "**MĂDUVĂ ALBASTRĂ**" (megaloblasti cu citoplasma bazofilă predomină)
+
+**Seria granulocitară:**
+- **Metamielocite gigante**
+- **Nesegmentate**, talie mare
+- Citoplasma **bazofilă**
+- Tendință **hipersegmentare** (6-8 sau mai mulți lobi)
+
+**Seria megacariocitară:**
+- Elemente **mari**
+- Granulație **deficitară**
+- **Hipersegmentare nucleu** (megacariocite "**explodate**")
+
+**BIOCHIMIE:**
+
+**Hemoliza (eritropoeză ineficientă):**
+- **BI ↑** (bilirubină indirectă)
+- **LDH ↑↑** (foarte crescut!)
+- **Haptoglobină ↓**
+
+**Metabolismul Fe:**
+- **Sideremie ↑**
+- **CTLF ↓**
+
+**Indici eritrocitari:**
+- **VSH ↑** (crescut)
+- **VEM > 110 fL** (μ³)
+- **HEM > 35 pg**
+- Hb și Ht ↓ **mai puțin** decât numărul eritrocite
+
+**VITAMINE:**
+- **B12 < 100-150 pg/mL**
+- **Acid folic < 3 ng/mL**
+
+**TESTE METABOLICE:**
+
+**Deficit B12:**
+- **Acid metilmalonic urinar:** **↑↑↑ Foarte crescut** (Biermer)
+- **Homocisteină serică:** **↑↑↑ Foarte crescut**
+- **Acid metilmalonic seric:** ↑ Crescut
+- **Testul Schilling:** Absorbție intestinală B12
+
+**Deficit acid folic:**
+- **Acid forminino-glutamic urinar** ↑ după încărcare cu **histidină**`,
+        mnemonic: 'MEGALOBLAST: Macro>12μm,hipersegmentare,reticulocit↓; LDH↑↑,BI↑; VEM>110fL; B12<150pg/mL; Metilmalonic↑↑↑(Biermer)',
+      },
+      {
+        front: 'LMC - Definiție și criterii diagnostic FAZA CRONICĂ',
+        back: `**LEUCEMIA MIELOIDA CRONICĂ (LMC):**
+
+**Definiție:**
+- Boală **clonală** stem pluripotentă
+- ↑ **Necontrolată** granulocite neutrofile
+- **Cromozom Philadelphia** (Ph): **95-100%** cazuri
+- Genă fuziune **BCR/ABL** → proteină **p210**
+- Medie **3,5 ani** → fază **blastică**
+
+**CRITERIIAZĂ CRONICĂ:**
+
+**1. Leucocitoză** caracteristică **2 vârfuri:**
+- Mare: **Nesegmentate + Segmentate**
+- Mic: **Metamielocite + Mielocite**
+
+**2. BAZOFILIE absolută:**
+- **5-10%** procentual
+- ↑ Valoare absolută
+
+**3. Monocite:** **< 3%**
+
+**4. Trombocite:** **≥ 400.000/mm³**
+
+**5. Modificări displazice:** **Minime/absente**
+- Morfologie normală (eritrocite, granulocite, trombocite)
+
+**TABLOU SANGUIN:**
+- Leucocite: **50.000-500.000/mm³** (medie 100.000)
+- **FAL ↓** (fosfatază alcalină leucocitară)
+- Acid uric ↑, LDH ↑, histamină ↑
+- **Vitamina B12 ↑↑** (transcobalamina I, III ↑)
+
+**MO:**
+- **Hipercelulară** (aspirație ușoară)
+- Raport **G/E = 10-15/1**
+- **Cromozom Ph** în 95%`,
+        mnemonic: 'LMC: Ph+(95%),BCR/ABL; 2vârfuri(seg+metam); Bazo 5-10%; FAL↓; Trombocite≥400k; B12↑↑',
+      },
+      {
+        front: 'LMC - FAZA ACCELERATĂ și FAZĂ BLASTICĂ criterii',
+        back: `**FAZA ACCELERATĂ:**
+
+**Criterii (≥1 prezent):**
+- **Blasti:** **> 5% și < 20%** (sânge/MO)
+- **Bazofilie > 10%**
+- **Anemie** și/sau **trombocitopenie**
+- **Trombocitoză** neinfluențată tratament
+- Timp dublare leucocite **< 5 zile**
+- **Displazia** ≥1 serii celulare
+- **Fibroză MO**
+- **Anomalii cariotip** asociate Ph
+- **Splenomegalie** progresivă (neinfluențată tratament)
+- **Febră** neinfecțioasă
+
+**FAZĂ BLASTICĂ:**
+
+**CRITERII MAJORE:**
+- **Mieloidă:** MO **≥ 30%** mieloblasti + promielocite
+- **Limfoidă:** MO **≥ 20%** limfoblasti
+
+**CRITERII MINORE (3/11 = fază blastică):**
+
+**MO:**
+1. **Fibroză reticulinică** pătată/difuză
+2. **Displazia** ≥1 linii
+3. **Bazofilie + eozinofilie > 20%**
+4. Noi **anomalii citogenetice** (Ph dublu)
+
+**Sânge periferic:**
+5. **20-30%** mieloblasti (mieloidă) / **10-20%** limfoblasti (limfoidă)
+6. **Trombocite < 100.000/mm³**
+7. **Hb < 10 g/dL**
+8. **Leucocite > 50.000/mm³** (rezistente)
+
+**Clinic:**
+9. **Tumori blastice** extramedulare
+10. **Febră > 38°C** (7 zile, neprecizată)
+11. **Scădere greutate > 10%**
+12. Splenomegalie **↑ 25%**`,
+        mnemonic: 'ACCEL: Blasti 5-20%,bazo>10%,diplaz,fibroză; BLAST: ≥30%(mieloid)/≥20%(limfoid) SAU 3 criterii minore',
+      },
+      {
+        front: 'METAPLAZIE MIELOIDA + MIELOFIBROZĂ - Definiție și diagnostic',
+        back: `**MMM - METAPLAZIE MIELOIDA cu MIELOFIBROZĂ:**
+
+**Definiție - 3 tulburări coexistente:**
+1. **Proliferare clonală** stem hematopoetice MO
+2. **Reactivare stroma** medulară (fibroblasti, osteoblasti) → **mielofibroză** + **osteomielosclerozăză**
+3. **Hematopoeza extramedulară** (splină, ficat, organe)
+
+**TABLOU CLINIC:**
+- **Splenomegalie MASIVĂ** (dominant)
+- Mielofibroză → insuficiență medulară → **pancitopenie**
+
+**DIAGNOSTIC POZITIV (4 criterii):**
+1. **Splenomegalie tumorală**
+2. **Anemie** cu **poichilocitoza**
+3. **Eritrocite în PICĂTURĂ** (dacriocite) - **CARACTERISTIC**
+4. **Tablou leucoeritroblastic:** Granulocite imature + eritroblasti
+5. **Fragmente megacariocite**
+6. **MIELOFIBROZĂ** (biopsie)
+
+**SÂNGE PERIFERIC:**
+
+**Eritrocite:**
+- Anemie (2/3 pacienți)
+- **Poichilocitoza** cu frecvente **DACRIOCITE** (în picătură)
+- Câțiva eritroblasti
+
+**Leucocite:**
+- **10.000-50.000/mm³**
+- Granulocite **imature**
+- **Eozinofile** și **bazofile ↑**
+
+**Trombocite:**
+- Inițial: **Trombocitoză** moderată
+- Apoi: **Trombocitopenie** (forme severe)
+- Forme **bizare, gigante**, fragmente megacariocite
+
+**MO:**
+- Faze avansate: **PUNCȚIE ALBĂ** (nu se obțin grunji)
+- Frotiu: **Hipocelularitate**, agregate trombocitare
+
+**BIOPSIE MO - MIELOFIBROZĂ (MF) 3 grade:**
+1. ↑ Difuză fibre **reticulină**
+2. **Fibroză** fină + grosolană (jurul megacariocite, vase)
+3. Fibroză grosolană **întinsă**
+
+**OSTEOMIELOSCLEROZĂZĂ (OMS) 3 grade:**
+1. Focare mici **os primitiv**
+2. Os trabecular + os rețea (proporții egale)
+3. Înlocuire aproape **completă** cu os primitiv
+
+**ALTE TESTE:**
+- FAL: Variabilă
+- **Acid uric ↑**, urați
+- Radiologie: **Osteoscleroză**, osteoporoză
+- Citogenetică: Anomalii cromozomiale`,
+        mnemonic: 'MMM: 3 tulburări(proliferare+fibroză+metaplazie); DACRIOCITE(picătură); Leucoeritroblastic; Splenomegalie MASIVĂ; Puncție ALBĂ',
+      },
+      {
+        front: 'POLICITEMIA VERA - Definiție și criterii diagnostic',
+        back: `**POLICITEMIA VERA (PV):**
+
+**Definiție:**
+- Transformare neoplazică **stem pluripotentă**
+- **PANCITOZA** (↑ eritrocite + granulocite + trombocite)
+- **Caracteristic:** ↑ Număr eritrocite + masă eritrocitară
+- Saturație **O₂ NORMALĂ**
+- **Eritropoetină ↓**
+
+**CLINIC:**
+- **Prurit** (caracteristic)
+- **Colorație roșie-violacee** tegumente + mucoase (**90%**)
+- **Splenomegalie (90%)**
+- Complicații: **Tromboze** + hemoragii
+
+**DIAGNOSTIC POZITIV (minim 4/7 criterii):**
+
+1. **Masă eritrocitară ↑:**
+   - ♀: **≥ 32 mL/kg**
+   - ♂: **≥ 36 mL/kg**
+
+2. **Saturație arterială O₂: ≥ 92%** (NORMALĂ)
+
+3. **Splenomegalie**
+
+4. **Trombocitoză: > 400.000/mm³**
+
+5. **Leucocitoză: > 12.000/mm³**
+
+6. **Hipercelularitate medulară** + hiperplazie megacariocitară
+
+7. **Rezerve Fe medulare:** ↓ sau **ABSENTE**
+
+**Criterii suplimentare:**
+- **Eritropoetină serică ↓**
+- Colonii eritroide **fără eritropoetină**
+- **B12 serică:** **> 900 pg/mL** (↑↑)
+- **Capacitate legare B12:** **> 2.200 pg/mL** (↑↑)
+- **FAL > 100** (↑)
+
+**SÂNGE PERIFERIC:**
+
+**Eritrocite:**
+- **Hb: 18-24 g/dL**
+- **Ht: 60-92%**
+- Eritrocite: **7-12 mil/mm³**
+- Reticulocite: **> 1,5%**
+- Ușoară anizocitoză, poichilocitoza, policromatofilie
+
+**Leucocite:**
+- **12.000-25.000/mm³**
+- Posibil metamielocite, mielocite
+- **Bazofile ↑** (2/3 cazuri)
+- **FAL ↑↑** (70% cazuri)
+
+**Trombocite:**
+- **> 400.000/mm³** → **1.000.000/mm³**
+- **Agregare ↓** (ADP, epinefrină, colagen)
+- TS: Normal
+
+**ALTE:**
+- **VSH: 1-2 mm/h** (↓ din cauza Ht ↑)
+- **Volum sanguin: 8-9 L** (hipervolemie)
+- **Vâscozitate ↑↑:** 5-8 ori
+- **Acid uric ↑↑**
+- **Histamina ↑** (60%)
+
+**MO:**
+- **Hipercelulară** cu **panmieloză**
+- **Hiperplazie megacariocitară** (↑ număr, dimensiune, lobi)
+- **Hemosiderină ↓** sau **ABSENTĂ**
+- Anomalii cromozomiale: Trisomia 8/9, deleție 20q`,
+        mnemonic: 'PV: Masa erit♂≥36,♀≥32mL/kg; O₂=92%(normal); Splenomegalie; Trombocite>400k; Fe medular ABSENT; B12>900; Hb 18-24,Ht 60-92%',
+      },
+      {
+        front: 'TROMBOCITEMIA ESENȚIALĂ - Diagnostic și criterii diferențiale',
+        back: `**TROMBOCITEMIA ESENȚIALĂ (TE):**
+
+**Definiție:**
+- Boală **clonală** stem pluripotentă
+- **Hiperplazie megacariocitară** MO
+- **Trombocite ↑↑:** Minim **600.000/mm³** → **1.000.000/mm³**
+
+**DIAGNOSTIC = EXCLUDERE (3 categorii eliminate):**
+1. Trombocitoză **ereditară**
+2. **Boli mieloproliferative cronice** (LMC, PV, MMM)
+3. **SMD** (sindroame mielodisplazice)
+
+**CRITERII DIAGNOSTIC TE:**
+
+**1. Trombocite > 600.000/mm³**
+- La **2 examene separate**
+- Interval **1 lună**
+
+**2. Excludere trombocitoză SECUNDARĂ:**
+- **ABSENȚĂ:** Infecții, inflamații, boli maligne
+
+**3. Masă eritrocitară NORMALĂ:**
+- ♀: **< 32 mL/kg**
+- ♂: **< 36 mL/kg**
+- **DD cu PV** (masă ↑)
+- Atenție: Eritrocitoză mascată de deficit Fe (hemoragie)
+
+**4. Fibroză medulară:** **Nesemnificativă**
+- **DD cu MMM:** Splină tumorală, dacriocite, leucoeritroblastic, hematopoez extramed
+
+**5. Cromozom Ph:** **ABSENT**
+- **Genă BCR/ABL:** **ABSENTĂ**
+- **DD cu LMC**
+
+**6. Splenomegalie:** **Moderată**
+- **DD cu MMM/LMC:** Splină **tumorală**
+
+**7. Hipercelularitate medulară + hiperplazie megacariocitară:**
+- Comun cu **PV**
+
+**8. Fe medular și/sau feritină serică:** **NORMALE**
+- **Fe prezent** → TE
+- **Fe absent** → PV
+
+**9. Hematopoeza clonală:**
+- Demonstrată la ♀ prin analiză cromozomi X
+
+**10. Colonii endogene:**
+- Eritroide și/sau megacariocitare
+
+**11. Agregare trombocitară:** **DEFICITARĂ**
+- La epinefrină și ADP
+
+**SÂNGE PERIFERIC:**
+- **Trombocite: 600.000-1.000.000/mm³** (10-15× normal)
+- **Grupuri mari**, plaje întinse trombocite
+- **Anizocitoză trombocitară** marcată (micro-, macro-, megalotrombocite)
+- **Fragmente megacariocite**
+- Leucocite: Moderat ↑ (10.000/mm³)
+- Neutrofilie ușoară, bazofilie, eozinofilie
+- Rare granulocite imature, eritroblasti
+- **FAL: NORMALĂ**
+- Eritrocite: ↓ Posthemoragic
+
+**MO:**
+- ↑ **Celularitate medulară**
+- **Hiperplazie megacariocitară:** Megacariocite **grupate**, masă ↑, volum nuclear mare, lobi ↑
+- Ușoară deviere **megaloblastică** eritropoeză
+- **Rezerve Fe:** PREZENTE
+- **Sideroblasti inelari:** ABSENȚI
+- **Feritină serică:** NORMALĂ
+- Ușoară **fibroză reticulară**
+- **Anomalii cromozomiale:** ABSENTE
+
+**DD cu anemia sideroblastică:**
+- Sideroblastică poate avea trombocitoză
+- **Prezența sideroblasti inelari** SAU **anomalie 5q** → EXCLUDE TE`,
+        mnemonic: 'TE: Trombocite>600k(2 examene); EXCLUDE: infecții/PV(Fe absent)/MMM(dacriocite)/LMC(Ph+)/SMD(siderob inelari); Fe NORMAL; Agregare↓',
+      },
+    ],
+  },
 ]
