@@ -20,17 +20,21 @@ export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[
     .from('flashcards')
     .select(`
       *,
-      card_stats(*)
+      card_stats(*),
+      card_tags(tags(*))
     `)
     .eq('deck_id', deckId)
     .order('created_at', { ascending: false })
 
   if (error) throw error
 
-  return (flashcards || []).map((card) => ({
+  return (flashcards || []).map((card: Record<string, unknown>) => ({
     ...card,
-    stats: card.card_stats?.[0] || undefined,
-  }))
+    stats: (card.card_stats as Record<string, unknown>[] | undefined)?.[0] || undefined,
+    tags: ((card.card_tags as Record<string, unknown>[] | undefined) || [])
+      .map((ct: Record<string, unknown>) => ct.tags)
+      .filter(Boolean),
+  })) as FlashcardWithStats[]
 }
 
 export async function getFlashcard(cardId: string): Promise<Flashcard | null> {
@@ -70,6 +74,7 @@ export async function createFlashcard(deckId: string, formData: FormData) {
   const front = formData.get('front') as string
   const back = formData.get('back') as string
   const mnemonic = formData.get('mnemonic') as string | null
+  const tagIds = formData.get('tagIds') as string | null
 
   // Validate inputs
   const validatedFront = validateFlashcardFront(front)
@@ -89,6 +94,16 @@ export async function createFlashcard(deckId: string, formData: FormData) {
 
   if (error) throw error
 
+  // Add tags if provided
+  if (tagIds && flashcard) {
+    const tagIdArray = JSON.parse(tagIds) as string[]
+    if (tagIdArray.length > 0) {
+      await supabase
+        .from('card_tags')
+        .insert(tagIdArray.map((tagId) => ({ card_id: flashcard.id, tag_id: tagId })))
+    }
+  }
+
   revalidatePath(`/decks/${deckId}`)
   revalidatePath('/decks')
   return flashcard
@@ -104,6 +119,7 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
   const front = formData.get('front') as string
   const back = formData.get('back') as string
   const mnemonic = formData.get('mnemonic') as string | null
+  const tagIds = formData.get('tagIds') as string | null
 
   // Validate inputs
   const validatedFront = validateFlashcardFront(front)
@@ -137,6 +153,19 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
     .single()
 
   if (error) throw error
+
+  // Update tags if provided
+  if (tagIds) {
+    const tagIdArray = JSON.parse(tagIds) as string[]
+    // Remove all existing tags
+    await supabase.from('card_tags').delete().eq('card_id', cardId)
+    // Add new tags
+    if (tagIdArray.length > 0) {
+      await supabase
+        .from('card_tags')
+        .insert(tagIdArray.map((tagId) => ({ card_id: cardId, tag_id: tagId })))
+    }
+  }
 
   revalidatePath(`/decks/${card.deck_id}`)
   revalidatePath('/decks')

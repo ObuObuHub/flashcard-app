@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { ChevronDown, ChevronUp, Pencil, Trash2 } from 'lucide-react'
+import { ChevronDown, ChevronUp, Pencil, Trash2, Tags } from 'lucide-react'
 import type { FlashcardWithStats } from '@/types'
 import { deleteFlashcard } from '@/lib/actions/flashcards'
 import { FlashcardForm } from './flashcard-form'
@@ -70,6 +70,20 @@ function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; d
               <div className="text-base">
                 {expanded ? flashcard.front : truncate(flashcard.front, 150)}
               </div>
+              {/* Tags */}
+              {flashcard.tags && flashcard.tags.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 mt-2">
+                  {flashcard.tags.map((tag) => (
+                    <span
+                      key={tag.id}
+                      className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
+                    >
+                      <Tags className="w-3 h-3" />
+                      {tag.name}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
             <div className="flex gap-1 flex-shrink-0">
               {getStatusBadge()}

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import {
@@ -13,14 +13,15 @@ import {
 } from '@/components/ui/dialog'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
-import { Plus } from 'lucide-react'
+import { Plus, Tags as TagsIcon } from 'lucide-react'
 import { createFlashcard, updateFlashcard } from '@/lib/actions/flashcards'
+import { getTags } from '@/lib/actions/topics'
 import { translations } from '@/types'
-import type { Flashcard } from '@/types'
+import type { FlashcardWithStats, Tag } from '@/types'
 
 interface FlashcardFormProps {
   deckId: string
-  flashcard?: Flashcard
+  flashcard?: FlashcardWithStats
   trigger?: React.ReactNode
 }
 
@@ -30,8 +31,24 @@ export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps
   const [error, setError] = useState('')
   const [frontLength, setFrontLength] = useState(flashcard?.front.length || 0)
   const [backLength, setBackLength] = useState(flashcard?.back.length || 0)
+  const [availableTags, setAvailableTags] = useState<Tag[]>([])
+  const [selectedTags, setSelectedTags] = useState<string[]>(
+    flashcard?.tags?.map((t) => t.id) || []
+  )
   const router = useRouter()
   const t = translations.cards
+
+  // Load available tags
+  useEffect(() => {
+    getTags().then(setAvailableTags).catch(console.error)
+  }, [])
+
+  // Update selected tags when flashcard changes
+  useEffect(() => {
+    if (flashcard?.tags) {
+      setSelectedTags(flashcard.tags.map((t) => t.id))
+    }
+  }, [flashcard])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -40,6 +57,8 @@ export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps
 
     try {
       const formData = new FormData(e.currentTarget)
+      // Add selected tags to form data
+      formData.append('tagIds', JSON.stringify(selectedTags))
 
       if (flashcard) {
         await updateFlashcard(flashcard.id, formData)
@@ -55,6 +74,7 @@ export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps
         e.currentTarget.reset()
         setFrontLength(0)
         setBackLength(0)
+        setSelectedTags([])
       }
     } catch (err: unknown) {
       if (err instanceof Error) {
@@ -65,6 +85,12 @@ export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps
     } finally {
       setLoading(false)
     }
+  }
+
+  const toggleTag = (tagId: string) => {
+    setSelectedTags((prev) =>
+      prev.includes(tagId) ? prev.filter((id) => id !== tagId) : [...prev, tagId]
+    )
   }
 
   return (
@@ -143,6 +169,36 @@ export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps
               📝 Opțional: adaugă o tehnică de memorizare sau un acronim
             </p>
           </div>
+
+          {/* Topic Selector */}
+          {availableTags.length > 0 && (
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <TagsIcon className="w-4 h-4 text-gray-500" />
+                <Label>Subiecte (opțional)</Label>
+              </div>
+              <div className="flex flex-wrap gap-2 p-3 border rounded-md bg-gray-50 dark:bg-gray-900 max-h-48 overflow-y-auto">
+                {availableTags.map((tag) => (
+                  <button
+                    key={tag.id}
+                    type="button"
+                    onClick={() => toggleTag(tag.id)}
+                    disabled={loading}
+                    className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
+                      selectedTags.includes(tag.id)
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700'
+                    }`}
+                  >
+                    {tag.name}
+                  </button>
+                ))}
+              </div>
+              <p className="text-xs text-gray-500">
+                🏷️ Selectează unul sau mai multe subiecte pentru a organiza această carte
+              </p>
+            </div>
+          )}
 
           {error && (
             <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 px-4 py-3 rounded text-sm">

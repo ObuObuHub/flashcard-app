@@ -8,6 +8,7 @@ export const VALIDATION_LIMITS = {
   FLASHCARD_FRONT_MAX: 50000, // 50k chars for exam questions
   FLASHCARD_BACK_MAX: 100000, // 100k chars for detailed answers
   FLASHCARD_MNEMONIC_MAX: 5000,
+  TAG_NAME_MAX: 100,
 } as const
 
 export class ValidationError extends Error {
@@ -91,4 +92,20 @@ export function validateFlashcardMnemonic(mnemonic: string | null): string | nul
   }
 
   return trimmed || null
+}
+
+export function validateTagName(name: string): string {
+  const trimmed = name.trim()
+
+  if (!trimmed) {
+    throw new ValidationError('Numele subiectului este obligatoriu')
+  }
+
+  if (trimmed.length > VALIDATION_LIMITS.TAG_NAME_MAX) {
+    throw new ValidationError(
+      `Numele subiectului este prea lung (max ${VALIDATION_LIMITS.TAG_NAME_MAX} caractere)`
+    )
+  }
+
+  return trimmed
 }

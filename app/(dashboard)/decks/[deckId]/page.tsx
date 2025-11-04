@@ -1,12 +1,12 @@
-import { createClient } from '@/lib/supabase/server'
-import { redirect, notFound } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import { Button } from '@/components/ui/button'
-import { Brain, ArrowLeft, Play } from 'lucide-react'
+import { Brain, ArrowLeft, Play, Tags } from 'lucide-react'
 import Link from 'next/link'
 import { getDeck } from '@/lib/actions/decks'
 import { getFlashcards } from '@/lib/actions/flashcards'
+import { getTags } from '@/lib/actions/topics'
 import { FlashcardForm } from '@/components/flashcard-form'
-import { FlashcardList } from '@/components/flashcard-list'
+import { FlashcardFilterView } from '@/components/flashcard-filter-view'
 
 interface DeckDetailPageProps {
   params: Promise<{ deckId: string }>
@@ -22,6 +22,7 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
   }
 
   const flashcards = await getFlashcards(deckId)
+  const availableTags = await getTags()
 
   // Count cards due for review
   const now = new Date()
@@ -78,10 +79,20 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
               </Link>
             </Button>
           )}
+          <Button variant="outline" asChild>
+            <Link href="/topics">
+              <Tags className="w-4 h-4 mr-2" />
+              Gestionează subiecte
+            </Link>
+          </Button>
         </div>
 
-        {/* Flashcards List */}
-        <FlashcardList flashcards={flashcards} deckId={deckId} />
+        {/* Flashcards List with Filter */}
+        <FlashcardFilterView
+          flashcards={flashcards}
+          deckId={deckId}
+          availableTags={availableTags}
+        />
       </main>
     </div>
   )
