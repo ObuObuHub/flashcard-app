@@ -12,10 +12,6 @@ import {
 export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
 
-  // Mock user for development (auth disabled)
-  const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
-
   const { data: flashcards, error } = await supabase
     .from('flashcards')
     .select(`
@@ -40,10 +36,6 @@ export async function getFlashcards(deckId: string): Promise<FlashcardWithStats[
 export async function getFlashcard(cardId: string): Promise<Flashcard | null> {
   const supabase = await createClient()
 
-  // Mock user for development (auth disabled)
-  const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
-
   const { data: flashcard, error } = await supabase
     .from('flashcards')
     .select('*')
@@ -59,14 +51,13 @@ export async function createFlashcard(deckId: string, formData: FormData) {
 
   // Mock user for development (auth disabled)
   const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
 
   // Verify deck ownership
   const { data: deck } = await supabase
     .from('decks')
     .select('id')
     .eq('id', deckId)
-    .eq('user_id', user.id)
+    .eq('user_id', userId)
     .single()
 
   if (!deck) throw new Error('Setul nu a fost găsit sau nu ai permisiunea să adaugi cărți')
@@ -114,7 +105,6 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
 
   // Mock user for development (auth disabled)
   const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
 
   const front = formData.get('front') as string
   const back = formData.get('back') as string
@@ -137,7 +127,7 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
     .single()
 
   const deck = card?.decks as { user_id: string } | undefined
-  if (!card || deck?.user_id !== user.id) {
+  if (!card || deck?.user_id !== userId) {
     throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o modifici')
   }
 
@@ -178,7 +168,6 @@ export async function deleteFlashcard(cardId: string) {
 
   // Mock user for development (auth disabled)
   const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
 
   // Get card and verify ownership through deck
   const { data: card } = await supabase
@@ -191,7 +180,7 @@ export async function deleteFlashcard(cardId: string) {
     .single()
 
   const deck = card?.decks as { user_id: string } | undefined
-  if (!card || deck?.user_id !== user.id) {
+  if (!card || deck?.user_id !== userId) {
     throw new Error('Cartea nu a fost găsită sau nu ai permisiunea să o ștergi')
   }
 
@@ -210,10 +199,6 @@ export async function deleteFlashcard(cardId: string) {
 
 export async function getDueFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
-
-  // Mock user for development (auth disabled)
-  const userId = '00000000-0000-0000-0000-000000000001'
-  const user = { id: userId }
 
   // Get all cards with their stats
   const { data: flashcards, error } = await supabase
