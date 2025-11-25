@@ -1,0 +1,388 @@
+[
+  {
+    "name": "Bacteriologie",
+    "description": "Structura bacteriană, relații gazdă-microorganism, patogenitate, antibiotice, bacterii specifice",
+    "flashcards": [
+      {
+        "front": "Care sunt componentele protoplastului bacterian?",
+        "back": "PROTOPLASTUL = corpul bacterian fără perete\n\na) Citoplasma: 80% apă, ribozomi (70S), incluziuni\nb) Nucleoplasma (nucleoidul): ADN circular dublu catenar\nc) Ribozomi: 30S + 50S = 70S (eucariote: 80S)\nd) Incluziuni: rezerve de nutrienți\ne) Membrana citoplasmatică: fără steroli, cu mezosomi",
+        "mnemonic": "CNRIM: Citoplasmă-Nucleoplasmă-Ribozomi-Incluziuni-Membrană"
+      },
+      {
+        "front": "Ce sunt plasmidele bacteriene și ce rol au?",
+        "back": "PLASMIDE = molecule mici de ADN circular, dublu catenar, cu replicare autonomă\n\nPrezente mai ales la bacterii Gram negative\n\nConferă avantaje selective:\n- Rezistență la antibiotice\n- Factori de patogenitate\n- Bacteriocine\n- Pili sexuali (conjugoni)",
+        "mnemonic": "Plasmide = Protecție (AB) + Patogenitate + Pili"
+      },
+      {
+        "front": "Care este structura și compoziția peptidoglicanului?",
+        "back": "PEPTIDOGLICAN = structura de bază a peretelui bacterian\n\nCOMPOZIȚIE:\n- Parte glicanică: ac. N-acetil-muramic + ac. N-acetil-glucozamină\n- Parte peptidică: unități tetrapeptidice + punți peptidice\n\nSINTEZĂ: enzime PLP (proteine de legare a penicilinelor)\n- Transglicozilaze\n- Transpeptidaze (ținta penicilinei - analog Dala-Dala)",
+        "mnemonic": "PG = Glican (2 zaharuri) + Peptide (4+punți), Penicilina inhibă PLP"
+      },
+      {
+        "front": "Care sunt diferențele dintre peretele bacteriilor Gram pozitive și Gram negative?",
+        "back": "GRAM POZITIVE:\n- Perete gros (15-30nm), omogen, 3D\n- 50-90% peptidoglican\n- Acizi teichoici (50% din perete)\n- Fără membrană externă\n- Reține colorant violet\n\nGRAM NEGATIVE:\n- Perete subțire (8-12nm), neomogen, 2D\n- Puțin peptidoglican\n- Membrană externă cu LPS\n- Spațiu periplasmic\n- Se decolorează (roz cu fucsină)",
+        "mnemonic": "G+ = Gros, Glicopeptidic; G- = subțire, Membrană externă + LPS"
+      },
+      {
+        "front": "Care este structura lipopolizaharidului (LPS) la bacteriile Gram negative?",
+        "back": "LPS (endotoxină) - 3 părți:\n\n1. LIPIDUL A (proximal):\n- Activitate toxică termostabilă\n- Responsabil de efectele endotoxinei\n\n2. MIEZUL (core):\n- Comun tuturor BGN\n- Conține KDO\n- Activator complement cale alternativă\n\n3. ANTIGENUL O (distal):\n- Unități zaharidice repetitive\n- Specificitate de specie/tip\n- Permite serotiparea",
+        "mnemonic": "LPS: Lipid A (toxic) - Miez (comun) - O (specific)"
+      },
+      {
+        "front": "Ce este colorația Gram și cum funcționează?",
+        "back": "COLORAȚIA GRAM diferențiază bacteriile după structura peretelui:\n\n1. Colorare cu cristal violet\n2. Mordanțare cu soluție iodo-iodurată\n3. Decolorare cu alcool\n4. Recolorare cu fucsină bazică\n\nG+ (violet): perete fără lipide, alcoolul deshidratează și închide porii\nG- (roz): perete cu lipide, alcoolul solubilizează și permite ieșirea colorantului",
+        "mnemonic": "Gram: Cristal-Iod-Alcool-Fucsină, + violet, - roz"
+      },
+      {
+        "front": "Care sunt tipurile de flageli și distribuția lor?",
+        "back": "FLAGELI = organite de locomoție (6-20μm), din flagelină\n\nDISTRIBUȚIE (caracter taxonomic):\n- MONOTRICHE: 1 flagel la un capăt\n- LOFOTRICHE: mai mulți la un capăt\n- AMFITRICHE: 1 la fiecare capăt\n- PERITRICHE: pe toată suprafața\n- ATRICHE: fără flageli\n\nSTRUCTURĂ:\n- Filament helicoidal\n- Croșet (articulație)\n- Corpuscul bazal (motor)",
+        "mnemonic": "MLAPA: Mono-Lofo-Amfi-Peri-Atrich (1-mulți un capăt-2 capete-tot-0)"
+      },
+      {
+        "front": "Ce sunt endosporii bacterieni și care este structura lor?",
+        "back": "ENDOSPORI = forme de rezistență la Bacillus și Clostridium\n\nSTRUCTURĂ:\n- Protoplast deshidratat cu dipicolinat de calciu (termorezistență)\n- Perete sporal (peptidoglican)\n- Cortex gros (peptidoglican sensibil la autolizine)\n- 2 tunici proteice (cisteină, legături -S-S-)\n\nCARACTERISTICI:\n- Poziție: centrală, subterminală, terminală\n- Formă: sferică sau ovală\n- Rezistență extremă la căldură, uscăciune, radiații",
+        "mnemonic": "Spori: Bacillus+Clostridium, Dipicolinat Ca = termorezistență"
+      },
+      {
+        "front": "Ce este glicocalixul bacterian și care sunt funcțiile sale?",
+        "back": "GLICOCALIX = înveliș polizaharidic distal peretelui\n\n2 TIPURI:\n1. Dens (capsula): nu se separă prin centrifugare\n2. Lax (substanță capsulară): se separă\n\nFUNCȚII:\n- Protecție față de fagocite, complement, lizozim\n- Factor de virulență (pneumococ, B. anthracis)\n- Antigen pentru serotipare\n- Aderență la suprafețe\n- Utilizat în vaccinuri (antipneumococic)",
+        "mnemonic": "Capsulă = Protecție + Virulență + Antigen pentru vaccin"
+      },
+      {
+        "front": "Care sunt tipurile de relații simbiotice microorganism-gazdă?",
+        "back": "SIMBIOZA = asociere între specii diferite\n\n1. FOREZIE: transport întâmplător\n2. COMENSALISM: adăpost + hrană, gazdă indiferentă\n3. MUTUALISM: beneficiu reciproc\n4. PARAZITISM: beneficiu unilateral în detrimentul gazdei\n5. OPORTUNISM: comensal/saprofit devine parazit în anumite condiții",
+        "mnemonic": "FCMPO: Forezie-Comensalism-Mutualism-Parazitism-Oportunism"
+      },
+      {
+        "front": "Care sunt zonele corpului uman în funcție de colonizarea bacteriană?",
+        "back": "STERILE:\n- Mediul intern, țesuturi, cavități seroase\n\nCONTAMINATE dar NECOLONIZATE:\n- Sinusuri paranazale, ureche medie\n- Căi biliare, urinare (proximale)\n- Căi genitale interne\n\nPERIODIC CONTAMINATE:\n- Stomac, duoden, jejun\n\nNORMAL COLONIZATE:\n- Tegument, conjunctivă\n- Nări, oro/nazofaringe\n- Vagin, uretră distală\n- Ileon terminal, colon",
+        "mnemonic": "Steril=interior, Colonizat=exterior (piele, gură, colon)"
+      },
+      {
+        "front": "Care sunt atributele majore ale unei bacterii patogene?",
+        "back": "PATOGENITATE = capacitatea de a produce boală\n\n1. INFECȚIOZITATE:\n- Penetrare\n- Supraviețuire\n- Multiplicare\n- Invadare țesuturi\n\n2. TRANSMISIBILITATE:\n- Trecere de la o gazdă la alta\n- Supraviețuire între gazde\n\n3. VIRULENȚĂ:\n- Capacitatea de a produce leziuni\n- Directe: toxine\n- Indirecte: reacții de sensibilizare",
+        "mnemonic": "Patogen = Infectează + Transmite + Virulență (leziuni)"
+      },
+      {
+        "front": "Ce sunt toxinele bacteriene și cum se clasifică?",
+        "back": "EXOTOXINE:\n- Secretate de bacterie\n- Proteine termolabile\n- Foarte toxice (doze mici)\n- Antigenice (produc antitoxine)\n- Pot fi transformate în anatoxine (vaccinuri)\n\nENDOTOXINE:\n- Eliberate la liza bacteriei\n- LPS (lipopolizaharid)\n- Termostabile\n- Toxicitate moderată\n- Slab antigenice",
+        "mnemonic": "EXO = Secretate, Proteine, Antigenice; ENDO = Liză, LPS, Termostabile"
+      },
+      {
+        "front": "Care sunt mecanismele de acțiune ale antibioticelor?",
+        "back": "1. INHIBĂ SINTEZA PERETELUI:\n- β-lactamine (penicilina, cefalosporine)\n- Glicopeptide (vancomicina)\n\n2. ALTEREAZĂ MEMBRANA:\n- Polimixine, daptomicină\n\n3. INHIBĂ SINTEZA PROTEICĂ:\n- 30S: aminoglicozide, tetracicline\n- 50S: macrolide, cloramfenicol, lincosamide\n\n4. INHIBĂ SINTEZA ADN/ARN:\n- Chinolone (ADN girază)\n- Rifampicină (ARN polimerază)\n\n5. ANTIMETABOLIȚI:\n- Sulfamide, trimetoprim",
+        "mnemonic": "PMPAD: Perete-Membrană-Proteine-Acizi nucleici-antimetaboliți (Dihidrofolat)"
+      },
+      {
+        "front": "Care sunt mecanismele de rezistență la antibiotice?",
+        "back": "1. INACTIVARE ENZIMATICĂ:\n- β-lactamaze (penicilinaze)\n- Acetiltransferaze (aminoglicozide)\n\n2. MODIFICAREA ȚINTEI:\n- Alterarea PLP (MRSA)\n- Modificarea ribozomilor\n\n3. IMPERMEABILITATE:\n- Scăderea permeabilității membranei\n- Pierderea porinelor\n\n4. EFLUX ACTIV:\n- Pompe de eflux\n\n5. BYPASS METABOLIC:\n- Căi alternative",
+        "mnemonic": "IMIEB: Inactivare-Modificare țintă-Impermeabilitate-Eflux-Bypass"
+      },
+      {
+        "front": "Care sunt caracteristicile Staphylococcus aureus?",
+        "back": "MORFOLOGIE: coci Gram+, în grămezi (staphyle)\n\nCARACTERISTICI:\n- Coagulazo-pozitiv\n- Catalază pozitiv\n- Fermentează manitolul\n- Colonii aurii (carotenoizi)\n\nFACTORI DE VIRULENȚĂ:\n- Proteina A (legare Fc IgG)\n- Coagulaza, hemolizine\n- Toxine: TSST-1, enterotoxine, PVL\n\nINFECȚII: furuncule, abcese, septicemii, endocardite, osteomielite, toxiinfecții alimentare",
+        "mnemonic": "S. aureus = Auriu, Coagulazo+, Catalază+, Toxine multiple"
+      },
+      {
+        "front": "Care sunt diferențele dintre streptococi în funcție de hemoliză?",
+        "back": "α-HEMOLITICI (verzi):\n- Hemoliză parțială (zona verde)\n- S. pneumoniae, S. viridans\n- Flora orală normală\n\nβ-HEMOLITICI (complet):\n- Hemoliză completă (zona clară)\n- S. pyogenes (grup A)\n- S. agalactiae (grup B)\n- Cei mai patogeni\n\nγ-HEMOLITICI (non-hemolitici):\n- Fără hemoliză\n- Enterococi",
+        "mnemonic": "α=parțial/verde, β=complet/clar/patogen, γ=absent"
+      },
+      {
+        "front": "Care sunt caracteristicile Streptococcus pyogenes (grup A)?",
+        "back": "MORFOLOGIE: coci Gram+ în lanțuri\n\nCARACTERISTICI:\n- β-hemolitic\n- Bacitracină sensibil\n- PYR test pozitiv\n\nFACTORI DE VIRULENȚĂ:\n- Proteina M (antifagocitară)\n- Streptolizine O și S\n- Enzime: streptokinază, hialuronidază\n- Exotoxine pirogene\n\nINFECȚII: faringită, scarlatină, impetigo, erizipel, fasceită necrozantă\nCOMPLICATII: RAA, GNA",
+        "mnemonic": "S. pyogenes = β-hemolitic, Proteina M, RAA+GNA posibile"
+      },
+      {
+        "front": "Care sunt caracteristicile Streptococcus pneumoniae (pneumococ)?",
+        "back": "MORFOLOGIE: diplococi Gram+ lanceolați, cu capsulă\n\nCARACTERISTICI:\n- α-hemolitic\n- Sensibil la optochină\n- Solubil în bilă\n- >90 serotipuri capsulare\n\nFACTORI DE VIRULENȚĂ:\n- Capsula polizaharidică (principal)\n- Pneumolizină\n- Autolizină\n\nINFECȚII: pneumonie lobară, meningită, otită, sinuzită\nVACCIN: conjugat (copii), polizaharidic (adulți)",
+        "mnemonic": "Pneumococ = Diplococ lanceolat, Capsulă, α-hemolitic, Optochină sensibil"
+      },
+      {
+        "front": "Care sunt caracteristicile enterobacteriilor (Enterobacteriaceae)?",
+        "back": "CARACTERISTICI COMUNE:\n- Bacili Gram negativi\n- Anaerobi facultativi\n- Oxidază negativi\n- Fermentează glucoza\n- Reduc nitrații la nitriți\n\nGENURI IMPORTANTE:\n- E. coli, Klebsiella, Enterobacter\n- Salmonella, Shigella\n- Proteus, Serratia, Citrobacter\n\nANTIGENE:\n- O (somatic, LPS)\n- H (flagelar)\n- K (capsular)",
+        "mnemonic": "Enterobacterii = BGN, Oxidază-, Glucoză+, Nitrați→Nitriți"
+      },
+      {
+        "front": "Care sunt caracteristicile E. coli și tipurile patogene?",
+        "back": "E. COLI = cel mai comun bacil Gram negativ din flora intestinală\n\nTIPURI PATOGENE (diaree):\n- EPEC: enteropatic (copii)\n- ETEC: enterotoxigen (diaree călătorului)\n- EIEC: enteroinvaziv (dizenterie)\n- EHEC: enterohemoragic O157:H7 (SHU)\n- EAEC: enteroagregativ\n\nALTE INFECȚII:\n- ITU (cea mai frecventă cauză)\n- Meningită neonatală (K1)\n- Septicemii",
+        "mnemonic": "E. coli patogen: EPETEC = Entero-Patogen-Toxigen-Invaziv-Hemoragic"
+      },
+      {
+        "front": "Care sunt caracteristicile Salmonella?",
+        "back": "MORFOLOGIE: bacili Gram negativi mobili\n\nSPECII:\n- S. typhi, S. paratyphi (febră tifoidă)\n- S. enteritidis, S. typhimurium (gastroenterită)\n\nTRANSMITERE: fecal-oral (alimente, apă)\n\nINFECȚII:\n1. Gastroenterită (autolimitată)\n2. Febră tifoidă (sistemică)\n3. Bacteriemie, infecții focale\n\nDIAGNOSTIC: coprocultură, hemocultură\nTRATAMENT: hidratare (gastroenterită), AB pentru forme sistemice",
+        "mnemonic": "Salmonella: Typhi=sistemic, Non-typhi=gastroenterită, Fecal-oral"
+      },
+      {
+        "front": "Care sunt caracteristicile Pseudomonas aeruginosa?",
+        "back": "MORFOLOGIE: bacil Gram negativ, mobil (1 flagel polar)\n\nCARACTERISTICI:\n- Aerob strict\n- Oxidază pozitiv\n- Nu fermentează glucoza\n- Pigmenți: piocianină (verde-albastru), fluoresceină\n- Miros caracteristic (fructe)\n\nREZISTENȚĂ NATURALĂ: la multe antibiotice\n\nINFECȚII:\n- Infecții nosocomiale\n- Pneumonie (mucoviscidoză)\n- Infecții arsuri, plăgi\n- Otită externă (urechea înotătorului)",
+        "mnemonic": "Pseudomonas = Verde-albastru, Oxidază+, Aerob strict, Nosocomial"
+      },
+      {
+        "front": "Care sunt caracteristicile Mycobacterium tuberculosis?",
+        "back": "MORFOLOGIE: bacil acid-alcool rezistent (BAAR)\n\nCARACTERISTICI:\n- Creștere foarte lentă (2-6 săpt)\n- Perete bogat în acizi micolici\n- Aerob strict\n- Colorație Ziehl-Neelsen (roșu)\n\nTRANSMITERE: aerogenă (picături Flügge)\n\nPATOGENIE:\n- Parazit intracelular facultativ (macrofage)\n- Granuloame cu necroză cazeoasă\n\nDIAGNOSTIC: frotiu BAAR, cultură, PCR, IDR tuberculină\nTRATAMENT: HRZE (Izoniazidă, Rifampicină, Pirazinamidă, Etambutol)",
+        "mnemonic": "TB: BAAR, Ziehl-Neelsen, Aerogen, Granulom cazeoz, HRZE"
+      },
+      {
+        "front": "Care sunt caracteristicile Clostridium?",
+        "back": "CARACTERISTICI COMUNE:\n- Bacili Gram pozitivi\n- Anaerobi strict\n- Formează spori\n\nSPECII IMPORTANTE:\n1. C. tetani: tetanos (neurotoxină tetanospasmină)\n2. C. botulinum: botulism (toxină botulină - paralizie flască)\n3. C. perfringens: gangrenă gazoasă, toxiinfecție alimentară\n4. C. difficile: colită pseudomembranoasă (post-antibiotice)\n\nTRATAMENT:\n- Antitoxine (tetanos, botulism)\n- Metronidazol/Vancomicină (C. difficile)",
+        "mnemonic": "Clostridium: 4 C-uri - Tetani, Botulinum, Perfringens, Difficile"
+      },
+      {
+        "front": "Care sunt caracteristicile Neisseria?",
+        "back": "MORFOLOGIE: diplococi Gram negativi (boabe de cafea)\n\nSPECII PATOGENE:\n\n1. N. meningitidis (meningococ):\n- Meningită, septicemie\n- Capsulă (13 serogrupuri: A,B,C,Y,W135)\n- Transmitere aerogenă\n- Vaccin disponibil\n\n2. N. gonorrhoeae (gonococ):\n- Gonoreea (BTS)\n- Fără capsulă\n- Transmitere sexuală\n- Rezistență crescută la antibiotice\n\nAMBELE: oxidază+, sensibile la condiții externe",
+        "mnemonic": "Neisseria = Diplococi \"cafea\" G-, Oxidază+; Meningo=capsula, Gono=BTS"
+      },
+      {
+        "front": "Care sunt caracteristicile Helicobacter pylori?",
+        "back": "MORFOLOGIE: bacil Gram negativ spiralat\n\nCARACTERISTICI:\n- Microaerofil\n- Urează pozitiv (puternică)\n- Oxidază și catalază pozitive\n- Flageli polari\n\nPATOGENIE:\n- Colonizează mucoasa gastrică\n- Gastrita cronică, ulcer peptic\n- Carcinom gastric (risc crescut)\n- Limfom MALT\n\nDIAGNOSTIC: test respirator cu uree, biopsie, Ag în scaun\nTRATAMENT: triplă terapie (IPP + 2 antibiotice)",
+        "mnemonic": "H. pylori = Spiral, Urează+++, Stomac (gastrită, ulcer, cancer)"
+      },
+      {
+        "front": "Ce este antibiograma și cum se interpretează?",
+        "back": "ANTIBIOGRAMA = testarea sensibilității la antibiotice\n\nMETODA DISC-DIFUZIMETRICĂ:\n- Discuri cu antibiotice pe mediu solid\n- Se măsoară zona de inhibiție\n- Interpretare: S (sensibil), I (intermediar), R (rezistent)\n\nMETODA DILUȚIILOR:\n- Determină CMI (concentrația minimă inhibitorie)\n- CMI mică = bacterie sensibilă\n\nINDICATII:\n- Ghidează tratamentul\n- Monitorizează rezistența\n- Epidemiologie",
+        "mnemonic": "Antibiogramă: Disc=zonă, Diluție=CMI, S/I/R"
+      },
+      {
+        "front": "Care sunt principiile recoltării și transportului probelor pentru bacteriologie?",
+        "back": "REGULI GENERALE:\n1. Recoltare ÎNAINTE de antibioterapie\n2. Din focarul infecției\n3. Cantitate suficientă\n4. Recipiente sterile\n5. Transport rapid (<2h) sau medii de transport\n\nPROBE SPECIFICE:\n- Hemocultură: 2-3 seturi, febră\n- Urocultură: jet mijlociu, matinal\n- Coprocultură: scaun proaspăt\n- LCR: urgență, temperatură ambiantă\n- Secreții: tampoane sterile",
+        "mnemonic": "Recoltare: ÎNAINTE de AB, REPEDE la laborator, STERIL"
+      },
+      {
+        "front": "Care sunt mediile de cultură utilizate în bacteriologie?",
+        "back": "MEDII NESELECTIVE:\n- Agar sânge: majoritate bacterii, hemoliză\n- Agar ciocolat: Neisseria, Haemophilus\n- Bulion nutritiv: îmbogățire\n\nMEDII SELECTIVE:\n- MacConkey: Gram negative (lactoză+/-)\n- Chapman: stafilococi\n- Löwenstein-Jensen: micobacterii\n\nMEDII DE ÎMBOGĂȚIRE:\n- Selenită: Salmonella\n- Tetrationat: Shigella\n\nMEDII DIFERENȚIALE:\n- TSI: fermentare zaharuri\n- Citrat Simmons: utilizare citrat",
+        "mnemonic": "Sânge=tot, Ciocolat=pretențioși, MacConkey=BGN, Chapman=Staf"
+      },
+      {
+        "front": "Care sunt caracteristicile Bordetella pertussis?",
+        "back": "MORFOLOGIE: cocobacili Gram negativi mici, imobili\n\nCARACTERISTICI:\n- Aerob strict\n- Pretențios nutritiv\n- Oxidază și catalază pozitive\n- Gazduită NUMAI de om\n\nFACTORI DE VIRULENȚĂ:\n- Hemaglutinina filamentoasă (aderență)\n- Toxina pertussis (tip A-B)\n- Adenilat ciclază\n- Citotoxina traheală\n\nBOALĂ: Tusea convulsivă (3 stadii: cataral, convulsiv, convalescență)",
+        "mnemonic": "Bordetella = TUSE convulsivă, Toxina pertussis, doar la OM"
+      },
+      {
+        "front": "Care sunt stadiile clinice ale tusei convulsive?",
+        "back": "INCUBAȚIE: ~2 săptămâni\n\n1. STADIUL CATARAL (2 săpt):\n- Catar respirator, tuse necaracteristică\n- Foarte contagios!\n\n2. STADIUL CONVULSIV (2-4 săpt):\n- Tuse spasmodică, epuizantă\n- Cianoză, vărsături, convulsii\n- Leucocitoză 16.000-30.000 cu limfocitoză\n\n3. STADIUL DE CONVALESCENȚĂ:\n- Scăderea progresivă a simptomelor\n\nCOMPLICATII: suprainfecții, encefalită (rară dar fatală)",
+        "mnemonic": "3C: Cataral-Convulsiv-Convalescență, fiecare ~2 săpt"
+      },
+      {
+        "front": "Cum se face diagnosticul și profilaxia tusei convulsive?",
+        "back": "DIAGNOSTIC:\n- Prelevat: tampon nasofaringian (pernasal)\n- IF directă (rapid, sensibilitate 50%)\n- Cultură pe mediu cu cărbune și cefalexină\n- Incubare până la 7-12 zile\n\nTRATAMENT:\n- Eritromicina (de elecție)\n- Cotrimoxazol (alternativ)\n- Amoxicilina și cefalosporine = EȘEC!\n\nPROFILAXIE:\n- Trivaccin DTP (3-9 luni + rapeluri)\n- Vaccin acelular (evită encefalita postvaccinală)",
+        "mnemonic": "Eritromicină pentru Pertussis, Vaccin DTP"
+      },
+      {
+        "front": "Care sunt caracteristicile genului Brucella?",
+        "back": "MORFOLOGIE: cocobacili Gram negativi, imobili, nesporulați\n\nCARACTERISTICI:\n- Aerob strict (B. abortus = carboxifilă)\n- Catalază +, oxidază +\n- Bacterii fastidioase\n- Patogeni primari ai animalelor\n\nSPECII (4 cu interes medical):\n- B. melitensis (capre) - cel mai sever!\n- B. abortus (vite)\n- B. suis (porci)\n- B. canis (câini)\n\nBOALĂ: Bruceloză (febra ondulantă/de Malta)",
+        "mnemonic": "Brucella MACS: Melitensis-Abortus-Canis-Suis (animale→om)"
+      },
+      {
+        "front": "Care este patogenia și diagnosticul brucelozei?",
+        "back": "PATOGENIE:\n- Porți de intrare: digestivă, cutanată, respiratorie\n- Bacterii facultativ intracelulare\n- Granulome → abcedare\n- 3 stadii: acut (bacteriemie), subacut, cronic\n\nDIAGNOSTIC:\n- Hemoculturi (stadiu acut) - incubare 4 săpt!\n- Reacția Wright (aglutinare directă)\n- IgM = infecție acută\n- IgG = după 3 săpt, persistă\n- Anticorpi blocanți în faza cronică\n\nTRATAMENT: doxiciclină + streptomicină/rifampicină (4-6 săpt)",
+        "mnemonic": "Brucella: Wright pentru serologie, Doxiciclină pentru tratament"
+      },
+      {
+        "front": "Care sunt caracteristicile Corynebacterium diphtheriae?",
+        "back": "MORFOLOGIE: bacili Gram+ nesporulați, cu extremități măciucate\n- Dispuși în palisade sau litere chinezești\n- Granulații metacromatice (volutină)\n\nCARACTERISTICI:\n- Cultivă pe medii îmbogățite\n- 4 biotipuri: gravis, mitis, intermedius, belfanti\n- Habitat strict uman\n\nFACTOR DE VIRULENȚĂ:\n- Toxina difterică (tip A-B)\n- Codificată de fagul β (conversie lizogenă)\n- Inhibă sinteza proteică (blochează EF-2)\n\nBOALĂ: Difteria (angina difterică cu false membrane)",
+        "mnemonic": "Difterie: Fag β = Toxină, Granule metacromatice, False membrane"
+      },
+      {
+        "front": "Care este patogenia și diagnosticul difteriei?",
+        "back": "PATOGENIE:\n- Incubație 2-5 zile\n- Toxina → necroză epitelială → falsă membrană\n- Faza sistemică: toxemie, miocardită, paralizii\n- Extindere: crup difteric (laringian)\n\nDIAGNOSTIC (URGENȚĂ!):\n- Frotiu: bacili corineformi cu granule metacromatice\n- Cultură pe mediu Löffler (colonii ca pic de spermacet)\n- Mediu Tinsdale: colonii negre cu halou brun\n- Testare toxigenă obligatorie (test Elek, PCR)\n\nTRATAMENT: Antitoxină + Penicilină/Eritromicină\nPROFILAXIE: Trivaccin DTP (anatoxină difterică)",
+        "mnemonic": "Difterie: Löffler, Tinsdale, Test Elek pentru toxină"
+      },
+      {
+        "front": "Care sunt caracteristicile Listeria monocytogenes?",
+        "back": "MORFOLOGIE: bacili Gram pozitivi mici, nesporulați\n\nCARACTERISTICI:\n- Mobilă la 25°C (tumbling), imobilă la 37°C\n- Creștere la 4°C (psihrotrofă)\n- β-hemolitică\n- Facultativ intracelulară\n\nTRANSMITERE:\n- Alimentară (lactate, carne)\n- Transplacentară\n- În canalul de naștere\n\nINFECȚII:\n- Meningită neonatală (unul din cei 3 agenți)\n- Septicemie la gravide\n- Meningită la imunocompromiși\n\nTRATAMENT: Ampicilină + Gentamicină",
+        "mnemonic": "Listeria: Mobila la 25°C, Meningită neonatală, Mobilă în frigider (4°C)"
+      },
+      {
+        "front": "Care sunt caracteristicile și clasificarea Shigella?",
+        "back": "MORFOLOGIE: bacili Gram negativi imobili\n\nCARACTERISTICI:\n- Lactoză negativă (excepție S. sonnei = tardiv +)\n- H2S negativă\n- Urează negativă\n- Nu utilizează citratul\n\n4 SPECII (subgrupe):\n1. S. dysenteriae (13 serotipuri) - cel mai grav, toxina Shiga\n2. S. flexneri (6 serotipuri) - frecvent în zona temperată\n3. S. boydii (18 serotipuri)\n4. S. sonnei (1 serotip) - frecvent în zona noastră\n\nBOALĂ: Dizenteria bacilară",
+        "mnemonic": "Shigella DFBS: Dysenteriae-Flexneri-Boydii-Sonnei (Imobilă, Lactoză-)"
+      },
+      {
+        "front": "Care este patogenia și diagnosticul dizenteriei bacilare?",
+        "back": "PATOGENIE:\n- Doză infectantă foarte mică (10-200 bacili)\n- Mecanism enteroinvaziv\n- Invadează mucoasa colonului\n- Toxina Shiga (S. dysenteriae tip 1)\n\nCLINIC:\n- Incubație 1-3 zile\n- Febră, dureri colicative, tenesme\n- Scaune mucosangvinolente\n- Posibil SHU (sindrom hemolitic uremic)\n\nDIAGNOSTIC:\n- Coprocultură pe MacConkey, Hektoen\n- Colonii L- (verzi pe Hektoen)\n- Identificare biochimică + serologică\n\nTRATAMENT: Cotrimoxazol, Fluorochinolone, Azitromicină",
+        "mnemonic": "Shigella: Invazie + Toxina Shiga, Scaune mucosangvinolente"
+      },
+      {
+        "front": "Care sunt diferențele dintre febrele enterice și gastroenteritele cu Salmonella?",
+        "back": "FEBRA TIFOIDĂ (S. Typhi, Paratyphi):\n- Incubație 14 zile\n- Infecție SISTEMICĂ\n- Febră în platou, bradicardie relativă\n- Pete lenticulare pe abdomen\n- Hemoculturi pozitive în săpt 1\n- Coprocultură din săpt 2\n- Purtătorie cronică posibilă (5%)\n\nGASTROENTERITE (S. Typhimurium, Enteritidis):\n- Incubație 10-48h\n- Infecție LOCALIZATĂ\n- Febră, diaree apoasă, vărsături\n- Durată 2-4 zile, autolimitată\n- Coprocultură pozitivă\n- AB nerecomandate (prelungesc portajul)",
+        "mnemonic": "Typhi=Tifoidă sistemică (14 zile), Non-typhi=Gastro locală (48h)"
+      },
+      {
+        "front": "Care este diagnosticul serologic în febra tifoidă (reacția Widal)?",
+        "back": "REACȚIA WIDAL = aglutinare pentru Ac anti-O și anti-H\n\nAc ANTI-O:\n- Apar din ziua 8\n- Titru diagnostic: >1/200\n- Dispar după 2-3 luni\n- Marker de infecție RECENTĂ\n- Reacții încrucișate posibile\n\nAc ANTI-H:\n- Apar în ziua 10-12\n- Titru mai mare: >1/800\n- Persistă ani de zile\n- Specificitate mai mare\n\nAc ANTI-Vi:\n- Apar tardiv, titruri mici\n- Fără valoare diagnostică\n- Indică purtătoria cronică",
+        "mnemonic": "Widal: O=Recent (săpt 1), H=Ani (mai specific), Vi=purtător"
+      },
+      {
+        "front": "Care sunt caracteristicile Haemophilus influenzae?",
+        "back": "MORFOLOGIE: cocobacili Gram negativi pleomorfi\n\nCARACTERISTICI:\n- Pretențios nutritiv\n- Necesită factori X (hemină) și V (NAD)\n- Cultivă pe agar ciocolat\n- 6 serotipuri capsulare (a-f), plus noncapsulate\n\nSEROTIPUL B (Hib):\n- Cel mai patogen\n- Meningită la copii (6 luni - 2 ani)\n- Epiglotită, pneumonie\n- VACCIN disponibil!\n\nNONTIPABILE:\n- Otită, sinuzită, bronșită\n- BPOC suprainfectat\n\nTRATAMENT: Cefalosporine G3, Ampicilină (dacă nu produce β-lactamază)",
+        "mnemonic": "Haemophilus: X+V pe ciocolat, tip B=Meningită, VACCIN Hib"
+      },
+      {
+        "front": "Care sunt caracteristicile Legionella pneumophila?",
+        "back": "MORFOLOGIE: bacili Gram negativi subțiri\n\nCARACTERISTICI:\n- Nu se colorează bine cu Gram\n- Colorație specială: argintică (Dieterle)\n- Necesită cisteină și fier pentru creștere\n- Mediu BCYE (Buffered Charcoal Yeast Extract)\n- Habitat: apă (sisteme de climatizare, dușuri)\n\nPATOGENIE:\n- Bacterie facultativ intracelulară\n- Infectează macrofagele alveolare\n\nBOALĂ: Boala legionarilor (pneumonie atipică severă)\n- Pontiac fever (formă ușoară, febrilă)\n\nDIAGNOSTIC: Ag urinar, cultură BCYE\nTRATAMENT: Azitromicină, Fluorochinolone",
+        "mnemonic": "Legionella: Apă (climatizare), BCYE mediu, Ag urinar diagnostic"
+      },
+      {
+        "front": "Care sunt caracteristicile Chlamydia?",
+        "back": "CARACTERISTICI GENERALE:\n- Bacterii intracelulare obligate\n- Au perete (fără peptidoglican detectabil)\n- Ciclu de dezvoltare bifazic\n- Nu se cultivă pe medii artificiale\n\nCICLU DE VIAȚĂ:\n- Corp elementar (CE): infecțios, extracelular\n- Corp reticulat (CR): replicativ, intracelular\n\nSPECII:\n1. C. trachomatis: trahom, conjunctivite, BTS (serotipuri D-K), LGV (L1-L3)\n2. C. pneumoniae: pneumonie atipică\n3. C. psittaci: psitacoză (de la păsări)\n\nDIAGNOSTIC: IF, PCR, serologie\nTRATAMENT: Doxiciclină, Azitromicină",
+        "mnemonic": "Chlamydia: Corp Elementar=Extracelular, Corp Reticulat=Replicare"
+      },
+      {
+        "front": "Care sunt caracteristicile Treponema pallidum?",
+        "back": "MORFOLOGIE: spirochetă cu fibre axiale\n- Spirale regulate, fine\n- Nu se colorează cu Gram\n- Vizibilă în fond întunecat sau IF\n\nCARACTERISTICI:\n- Nu se cultivă in vitro\n- Foarte fragilă în mediul extern\n- Transmitere: sexuală, transplacentară\n\nBOALĂ: Sifilisul (3 stadii)\n1. Primar: șancru dur\n2. Secundar: erupții, condilome\n3. Terțiar: gome, neurosifilis, sifilis cardiovascular\n\nDIAGNOSTIC:\n- Microscopic: fond întunecat\n- Serologie: netreponemice (VDRL, RPR) + treponemice (TPHA, FTA-Abs)",
+        "mnemonic": "Treponema: Șancru-Secundar-Terțiar, VDRL screening, TPHA confirmare"
+      },
+      {
+        "front": "Care sunt caracteristicile Borrelia burgdorferi?",
+        "back": "MORFOLOGIE: spirochetă mare, cu spirale neregulate\n\nTRANSMITERE: mușcătura de căpușă (Ixodes)\n\nBOALĂ: Boala Lyme (3 stadii)\n\n1. STADIU PRECOCE LOCALIZAT:\n- Erythema migrans (leziune în țintă)\n- Sindrom gripal\n\n2. STADIU PRECOCE DISEMINAT:\n- Manifestări neurologice, cardiace, articulare\n\n3. STADIU TARDIV:\n- Artrită cronică\n- Encefalopatie\n\nDIAGNOSTIC: Serologie ELISA + Western Blot\nTRATAMENT: Doxiciclină (precoce), Ceftriaxonă (tardiv)",
+        "mnemonic": "Borrelia Lyme: Căpușă, Erythema migrans (țintă), 3 stadii"
+      },
+      {
+        "front": "Care sunt caracteristicile Leptospira?",
+        "back": "MORFOLOGIE: spirochetă fină cu extremități în cârlig\n\nCARACTERISTICI:\n- Aerob strict\n- Se cultivă pe medii speciale (Fletcher)\n- Habitat: animale (rozătoare, câini)\n\nTRANSMITERE:\n- Contact cu urină de animale infectate\n- Apă contaminată\n- Boală profesională (fermieri, canalizatori)\n\nBOALĂ: Leptospiroza\n- Forma anicterică (frecventă, ușoară)\n- Forma icterică = boala Weil (severă): icter, IRA, hemoragii\n\nDIAGNOSTIC: Hemocultură (săpt 1), Urocultură (săpt 2), Serologie\nTRATAMENT: Penicilină, Doxiciclină",
+        "mnemonic": "Leptospira: Rozătoare, apă contaminată, Weil=Icter+IRA"
+      },
+      {
+        "front": "Care sunt caracteristicile Campylobacter jejuni?",
+        "back": "MORFOLOGIE: bacili Gram negativi curbi (virgulă, S, pescăruș)\n\nCARACTERISTICI:\n- Microaerofil (5% O2, 10% CO2)\n- Termotolerant (42°C optim)\n- Oxidază și catalază pozitive\n- Mobil (flageli polari)\n\nTRANSMITERE: carne de pui insuficient preparată, lapte\n\nBOALĂ: Enterita acută\n- A 4-a cauză de diaree bacteriană\n- Diaree apoasă sau sangvinolentă\n- Dureri abdominale intense\n\nCOMPLICATII: Sindrom Guillain-Barré (neuropatie)\n\nDIAGNOSTIC: Coprocultură la 42°C, microaerofilie\nTRATAMENT: Eritromicină, Fluorochinolone",
+        "mnemonic": "Campylobacter: Curbat, 42°C, Guillain-Barré posibil"
+      },
+      {
+        "front": "Care sunt caracteristicile Vibrio cholerae?",
+        "back": "MORFOLOGIE: bacili Gram negativi curbi (virgulă)\n\nCARACTERISTICI:\n- Mobil (flagel polar unic)\n- Oxidază pozitivă\n- Halofil (crește în NaCl 1%)\n- Serogrupuri patogene: O1, O139\n\nPATOGENIE:\n- Toxina holerică (tip A-B)\n- Activează adenilat ciclaza\n- Hipersecreție intestinală\n\nBOALĂ: Holera\n- Diaree masivă (\"apă de orez\")\n- Deshidratare severă, șoc\n- Fără febră, fără leucocite în scaun\n\nTRATAMENT: Rehidratare intensivă + Doxiciclină\nPROFILAXIE: Vaccin oral disponibil",
+        "mnemonic": "Vibrio: Virgulă, Toxină A-B, Apă de orez, Rehidratare salvează"
+      },
+      {
+        "front": "Care sunt caracteristicile Yersinia?",
+        "back": "3 SPECII PATOGENE:\n\n1. Y. pestis (ciuma):\n- Transmitere: purice de pe rozătoare\n- Forme: bubonică, pulmonară, septicemica\n- Factor de virulență: fracția F1 (antifagocitară)\n\n2. Y. enterocolitica:\n- Al 4-lea agent de diaree bacteriană\n- Transmitere: carne de porc, apă\n- Pseudoapendicită (adenită mezenterică)\n- Mobilă la 25°C, imobilă la 37°C\n\n3. Y. pseudotuberculosis:\n- Adenită mezenterică\n- Similar Y. enterocolitica\n\nCARACTERISTICI: BGN, psihrotrofe (cresc la 4°C)",
+        "mnemonic": "Yersinia: Pestis=Ciumă, Enterocolitica=Pseudoapendicită, ambele psihrotrofe"
+      },
+      {
+        "front": "Care sunt caracteristicile Rickettsia?",
+        "back": "CARACTERISTICI:\n- Bacterii intracelulare obligate\n- Transmise prin artropode (căpușe, păduchi, purici)\n- Nu se cultivă pe medii artificiale\n- Tropism pentru endoteliul vascular\n\nBOLI IMPORTANTE:\n1. R. prowazekii: Tifos exantematic (păduchi)\n2. R. typhi: Tifos endemic (purici)\n3. R. rickettsii: Febra pătată a Munților Stâncoși\n4. R. conorii: Febra butonoasă mediteraneană\n\nCLINIC: Febră, cefalee, erupție, vasculită\n\nDIAGNOSTIC: Serologie (Weil-Felix, IF)\nTRATAMENT: Doxiciclină",
+        "mnemonic": "Rickettsia: Artropode vector, Vasculită, Doxiciclină tratament"
+      },
+      {
+        "front": "Care sunt principalele enzime și teste biochimice în identificarea bacteriilor?",
+        "back": "ENZIME/TESTE CHEIE:\n\n1. CATALAZA: descompune H2O2\n- Stafilococ +, Streptococ -\n\n2. COAGULAZA: coagulează plasma\n- S. aureus +, alți stafilococi -\n\n3. OXIDAZA: citocrom oxidaza\n- Pseudomonas, Neisseria +\n- Enterobacterii -\n\n4. UREAZĂ: descompune ureea\n- Proteus ++, H. pylori ++\n\n5. INDOL: din triptofan\n- E. coli +, Klebsiella -\n\n6. H2S: din aminoacizi sulfurați\n- Salmonella +, Shigella -\n\n7. LACTOZĂ: fermentare\n- E. coli +, Salmonella/Shigella -",
+        "mnemonic": "Catalaza=Staf, Coagulaza=Aureus, Oxidaza=BGN non-entero"
+      },
+      {
+        "front": "Care sunt vaccinurile bacteriene importante și componența lor?",
+        "back": "VACCINURI DIN ANATOXINE:\n- Antidifteric (anatoxina difterică)\n- Antitetanic (anatoxina tetanică)\n\nVACCINURI POLIZAHARIDICE/CONJUGATE:\n- Antipneumococic (23 sau 13 serotipuri)\n- Antimeningococic (A, C, Y, W135)\n- Anti-Hib (H. influenzae tip b)\n\nVACCINURI CELULARE/ACELULARE:\n- Antipertussis (în DTP)\n\nVACCINURI VIVI ATENUATE:\n- BCG (M. bovis atenuat) - antituberculos\n- Antitifoidic oral (Ty21a)\n\nVACCINURI INACTIVATE:\n- Antiholeric oral\n- Antitifoidic injectabil",
+        "mnemonic": "DTP=anatoxine+pertussis, Conjugate=copii, Polizaharidice=adulți"
+      },
+      {
+        "front": "Ce este un antigen și care sunt proprietățile sale?",
+        "back": "ANTIGEN = substanță care induce răspuns imun și reacționează specific cu produșii acestuia\n\nPROPRIETĂȚI:\n1. IMUNOGENITATE: capacitatea de a induce răspuns imun\n2. SPECIFICITATE: capacitatea de a reacționa cu anticorpii/limfocitele T\n\nFACTORI care influențează imunogenitatea:\n- Străin de organism (non-self)\n- Greutate moleculară mare (>10.000 Da)\n- Complexitate chimică\n- Degradabilitate\n- Doză și cale de administrare",
+        "mnemonic": "Antigen = Induce + Reacționează, Străin + Mare + Complex"
+      },
+      {
+        "front": "Care este diferența dintre epitop, paratop și haptenă?",
+        "back": "EPITOP (determinant antigenic):\n- Porțiunea antigenului recunoscută de sistemul imun\n- Un antigen are mai mulți epitopi\n- Secvențial sau conformațional\n\nPARATOP:\n- Situsul de legare de pe anticorp\n- Complementar epitopului\n- Format din regiunile variabile VH + VL\n\nHAPTENĂ:\n- Moleculă mică, nu e imunogenă singură\n- Devine imunogenă când se leagă de un carrier\n- Exemplu: penicilina (poate cauza alergie)",
+        "mnemonic": "Epitop=pe Antigen, Paratop=pe Anticorp, Haptenă=mică+carrier"
+      },
+      {
+        "front": "Ce este complexul major de histocompatibilitate (MHC)?",
+        "back": "MHC = molecule de suprafață care prezintă antigene limfocitelor T\n\nCLASA I (HLA-A, B, C):\n- Pe toate celulele nucleate\n- Prezintă antigene endogene\n- Recunoscute de limfocite T CD8+ (citotoxice)\n- Importante în transplant și infecții virale\n\nCLASA II (HLA-DR, DP, DQ):\n- Pe celule prezentatoare de antigen (APC)\n- Prezintă antigene exogene\n- Recunoscute de limfocite T CD4+ (helper)\n- Importante în răspunsul imun humoral",
+        "mnemonic": "MHC I = CD8 (kill), MHC II = CD4 (help), I=toate celulele, II=doar APC"
+      },
+      {
+        "front": "Care sunt barierele naturale de apărare antimicrobiană?",
+        "back": "BARIERE FIZICE:\n- Pielea intactă (cheratină, descuamare)\n- Mucoasele (mucus, cili, peristaltism)\n- Reflexe (tuse, strănut)\n\nBARIERE CHIMICE:\n- pH acid (stomac, vagin, piele)\n- Acizi grași (sebum)\n- Lizozim (lacrimi, salivă)\n- Lactoferină (leagă fierul)\n- Defensine (peptide antimicrobiene)\n\nBARIERE BIOLOGICE:\n- Flora normală (competiție)\n- Bacteriocine",
+        "mnemonic": "Apărare: Fizic (piele, mucoase) + Chimic (pH, lizozim) + Biologic (floră)"
+      },
+      {
+        "front": "Care sunt cele două căi de activare a complementului?",
+        "back": "CALEA CLASICĂ:\n- Activată de complexe Ag-Ac (IgM, IgG)\n- C1q → C1r → C1s → C4 → C2 → C3\n- Necesită anticorpi\n\nCALEA ALTERNATIVĂ:\n- Activată direct de suprafețe microbiene (LPS)\n- C3 → Factor B → Factor D\n- Nu necesită anticorpi\n- Mai rapidă\n\nCALEA LECTINELOR:\n- MBL leagă manoza de pe bacterii\n\nEFECTELE COMPLEMENTULUI:\n- Liză (MAC = C5b-9)\n- Opsonizare (C3b)\n- Inflamație (C3a, C5a = anafilatoxine)\n- Chemotaxis (C5a)",
+        "mnemonic": "Clasică=Complexe, Alternativă=Alarmă directă, Efecte: LOCI (Liză-Opsonizare-Chemotaxis-Inflamație)"
+      },
+      {
+        "front": "Care sunt etapele fagocitozei?",
+        "back": "1. CHEMOTAXIS:\n- Atragerea fagocitelor spre focar\n- Chemokine, C5a, produse bacteriene\n\n2. ADERENȚĂ:\n- Recunoașterea microorganismului\n- Receptori pentru opsonine (FcR, CR)\n\n3. INGESTIE:\n- Formarea pseudopodelor\n- Includerea în fagozom\n\n4. UCIDERE:\n- Fuziunea cu lizozomul → fagolizozom\n- Mecanisme dependente de O2 (ROI)\n- Mecanisme independente de O2 (lizozim, defensine)\n\n5. DIGESTIE:\n- Enzime lizozomale\n- Prezentare de antigen",
+        "mnemonic": "CAIUD: Chemotaxis-Aderență-Ingestie-Ucidere-Digestie"
+      },
+      {
+        "front": "Care sunt cele 4 tipuri de reacții de hipersensibilitate (clasificarea Coombs și Gell)?",
+        "back": "TIP I - ANAFILACTIC:\n- IgE, mastocite, histamină\n- Minute după expunere\n- Anafilaxie, astm, rinită alergică\n\nTIP II - CITOTOXIC:\n- IgG/IgM + complement\n- Ore\n- Anemie hemolitică, reacții transfuzionale\n\nTIP III - COMPLEXE IMUNE:\n- Depunere complexe Ag-Ac\n- Ore-zile\n- Boala serului, GNA post-streptococică\n\nTIP IV - ÎNTÂRZIAT:\n- Limfocite T\n- 24-72 ore\n- IDR tuberculină, dermatită de contact, rejet grefă",
+        "mnemonic": "ACID: Anafilactic-Citotoxic-Imun complex-Delay (întârziat)"
+      },
+      {
+        "front": "Care sunt mediatorii eliberați în reacția de hipersensibilitate tip I?",
+        "back": "PREFORMAȚI (din granule):\n- Histamină: vasodilatație, bronhospasm, secreții\n- Triptază, chimază\n- Heparină\n\nNOU SINTETIZAȚI:\n- Leucotriene (SRS-A): bronhoconstricție puternică\n- Prostaglandine: vasodilatație\n- PAF: agregare plachetară\n- Citokine (IL-4, IL-5, TNF)\n\nEFECTE:\n- Vasodilatație, edem\n- Bronhospasm\n- Hipotensiune\n- Șoc anafilactic",
+        "mnemonic": "Tip I: Histamină + Leucotriene = Bronhospasm + Vasodilatație + Șoc"
+      },
+      {
+        "front": "Cum se diferențiază S. aureus de stafilococii coagulazo-negativi?",
+        "back": "S. AUREUS (coagulazo-pozitiv):\n- Test coagulază: POZITIV\n- Fermentează manitolul anaerob\n- Termonuclează pozitivă\n- DNază pozitivă\n- Colonii aurii\n- Hemoliza: de obicei β\n\nSTAFILOCOCI COAGULAZO-NEGATIVI:\n- S. epidermidis: infecții pe cateter/proteză\n- S. saprophyticus: ITU la tinere\n- S. haemolyticus, S. lugdunensis\n\nALTE TESTE:\n- Aglutinare latex (proteina A + clumping factor)\n- Testul DNazei",
+        "mnemonic": "Aureus = Auriu + Coagulază + Manitol + DNază pozitive"
+      },
+      {
+        "front": "Ce este MRSA și cum se detectează?",
+        "back": "MRSA = S. aureus rezistent la meticilină\n\nMECANISM:\n- Gena mecA → PBP2a modificată\n- Afinitate scăzută pentru β-lactamine\n- Rezistent la TOATE β-lactaminele!\n\nDETECȚIE:\n- Disc cu oxacilină sau cefoxitin\n- CMI pentru oxacilină >2 μg/mL\n- PCR pentru gena mecA (gold standard)\n- Test rapid latex pentru PBP2a\n\nTRATAMENT MRSA:\n- Vancomicină (de elecție)\n- Linezolid\n- Daptomicină\n- Ceftarolină\n- Cotrimoxazol (infecții ușoare)",
+        "mnemonic": "MRSA: Meticilină Rezistent = mecA = toate β-lactamine INEFICIENTE, Vancomicină salvează"
+      },
+      {
+        "front": "Care sunt toxinele importante ale S. aureus?",
+        "back": "HEMOLIZINE:\n- α-toxina: formează pori, lizează celule\n- β-toxina: sfingomielinază\n- δ-toxina: detergent, diaree\n- γ-toxina + Leucocidina PVL: ucide leucocite\n\nTOXINE SPECIFICE:\n- TSST-1: șocul toxic stafilococic\n- Enterotoxine (A-E): toxiinfecții alimentare\n- Exfoliatine (A,B): sindromul pielii opărite\n\nENZIME:\n- Coagulaza: coagulează plasma\n- Stafilokinaza: fibrinolitică\n- Hialuronidaza: diseminare\n- Lipaze: infecții cutanate",
+        "mnemonic": "Toxine S.a.: TSST=șoc, Entero=alimentar, Exfoliatine=piele oprită"
+      },
+      {
+        "front": "Care sunt etapele efectuării unui frotiu bacteriologic?",
+        "back": "1. ETALAREA:\n- Pe lamă curată, degresată\n- Suspensii: direct, mișcări circulare\n- Colonii: în picătură de apă distilată\n- Strat subțire, uniform\n\n2. USCAREA:\n- La aer sau pe platină încălzitoare (70°C)\n- Evită distorsiuni celulare\n\n3. FIXAREA:\n- Trecere prin flacară (2-3x, 5-10 sec)\n- Dosul mâinii suportă atingerea\n- Previne spălarea bacteriilor\n- Permeabilizează peretele pentru colorant",
+        "mnemonic": "Frotiu: EUF = Etalare-Uscare-Fixare (la flacără)"
+      },
+      {
+        "front": "Care sunt etapele și principiul colorației Gram?",
+        "back": "ETAPE:\n1. COLORARE: cristal violet (1 min)\n2. MORDANȚARE: soluție Lugol (iod) - 2 min\n3. DIFERENȚIERE: alcool-acetonă (5-15 sec)\n4. RECOLORARE: fucsină diluată (30 sec)\n\nPRINCIPIU:\n- G+: perete gros, fără lipide → alcoolul deshidratează, închide porii → rețin colorantul = VIOLET\n- G-: perete subțire, cu lipide → alcoolul dizolvă lipidele → eliberează colorantul → recolorate = ROZ\n\nCONTROL CALITATE:\n- Leucocitele trebuie să fie roze (G-)\n- Frotiu martor: E. coli + B. megaterium",
+        "mnemonic": "Gram: Cristal-Iod-Alcool-Fucsină; G+=Violet (gros), G-=Roz (lipide)"
+      },
+      {
+        "front": "Care sunt etapele și principiul colorației Ziehl-Neelsen?",
+        "back": "ETAPE:\n1. COLORARE: fucsină fenicată + încălzire (3-5 min la emisie vapori)\n2. DIFERENȚIERE: alcool-acid clorhidric 3% (până devine alburiu)\n3. RECOLORARE: albastru de metilen (30 sec)\n\nPRINCIPIU:\n- Micobacteriile au perete bogat în acizi micolici\n- Greu permeabil → necesită căldură pentru colorare\n- Odată colorat, rezistă la decolorare acido-alcoolică\n- Bacili ACIDO-ALCOOL REZISTENȚI (BAAR)\n\nREZULTAT:\n- BAAR: ROȘII pe fond albastru\n- Bacterii non-AAR și leucocite: ALBASTRE",
+        "mnemonic": "Ziehl: Fucsină+Căldură → Acido-alcool → Albastru; BAAR=ROȘU"
+      },
+      {
+        "front": "Care este principiul și interpretarea antibiogramei difuzimetrice?",
+        "back": "PRINCIPIU:\n- Discuri cu antibiotice pe mediu Mueller-Hinton\n- Antibioticul difuzează circular\n- Concentrație descrescătoare de la disc\n- Bacteriile sensibile nu cresc în zona de inhibiție\n\nPROCEDURĂ:\n- Inocul standardizat (0.5 McFarland = 10⁸ UFC/mL)\n- Însămânțare în pânză\n- Incubare 18-24h la 35°C\n\nINTERPRETARE:\n- Diametru ≥ D (critic superior): SENSIBIL\n- Diametru ≤ d (critic inferior): REZISTENT\n- Între d și D: INTERMEDIAR\n\nCONTROL: tulpini ATCC de referință",
+        "mnemonic": "Antibiogramă: Disc → Difuzie → Diametru; S/I/R după diametre critice"
+      },
+      {
+        "front": "Ce este CMI și cum se determină?",
+        "back": "CMI = Concentrația Minimă Inhibitorie\n= cea mai mică concentrație de antibiotic care inhibă creșterea vizibilă\n\nMETODA DILUȚIILOR:\n- Diluții duble succesive în bulion\n- Inocul standardizat (10⁵ UFC/mL)\n- Incubare 18-24h\n- Se citește primul tub fără tulburare\n\nTESTUL E (epsilon):\n- Bandelete cu gradient de concentrație\n- Citire la intersecția zonei de inhibiție\n\nINTERPRETARE:\n- CMI < c (critic min): SENSIBIL\n- CMI > C (critic max): REZISTENT\n- Între c și C: INTERMEDIAR",
+        "mnemonic": "CMI: Concentrația Minimă care Inhibă; Diluții sau Test E"
+      },
+      {
+        "front": "Care sunt probele pentru diagnosticul tuberculozei și cum se recoltează?",
+        "back": "PROBE PULMONARE:\n- Spută: 3 probe matinale consecutive\n- Clătire gură înainte, recipient steril\n- Spălătură gastrică (copii)\n- Aspirat bronșic, BAL\n\nPROBE EXTRAPULMONARE:\n- LCR (meningită)\n- Urină (TB renală) - 3 probe consecutive\n- Lichid pleural, ascită\n- Biopsie ganglionară\n\nTRANSPORT:\n- Rapid (<1h) sau refrigerat\n- LCR: temperatură ambiantă!\n\nPRELUCRARE:\n- Decontaminare cu NaOH 4% (15-30 min)\n- Concentrare prin centrifugare",
+        "mnemonic": "TB: 3 spute matinale, Decontaminare NaOH, Transport rapid"
+      },
+      {
+        "front": "Cum se interpretează examenul microscopic și cultura în tuberculoză?",
+        "back": "EXAMEN MICROSCOPIC (Ziehl-Neelsen):\n- Examinare 100 câmpuri (20 min)\n- Rezultat: BAAR prezenți/absenți\n- Gradare: +/++/+++ după număr/câmp\n- NU precizează specia!\n- Sensibilitate: 50-80%\n\nCULTURĂ (Löwenstein-Jensen):\n- Mediu cu ou, coagulat\n- Incubare la 37°C, până la 8 săptămâni\n- Colonii conopidiforme, rugoase, crem-bej\n- M. tuberculosis: creștere eugenică\n\nINTERPRETARE:\n- Microscopic + / Cultură + = TB confirmată\n- Microscopic - / Cultură + = TB paucibacilară\n- Microscopic - / Cultură - = Nu exclude TB (leziuni închise)",
+        "mnemonic": "TB: BAAR roșii pe Ziehl, Cultură L-J 2-8 săpt, Colonii conopidiforme"
+      },
+      {
+        "front": "Ce este IDR la tuberculină și cum se interpretează?",
+        "back": "IDR (Intradermoreacția) = test de sensibilizare la M. tuberculosis\n\nTEHNICĂ:\n- Injectare intradermică 0,1 mL PPD (2 UT)\n- Citire la 48-72 ore\n- Se măsoară diametrul indurației (nu eritemul)\n\nINTERPRETARE:\n- <5 mm: NEGATIV\n- 5-9 mm: pozitiv slab (vaccinare BCG, micobacterii atipice)\n- ≥10 mm: POZITIV (infecție TB)\n- ≥15 mm: puternic pozitiv\n\nSEMNIFICATIE:\n- POZITIV = contact cu M. tuberculosis (primoinfecție)\n- NU înseamnă boală activă!\n- Fals negativ: anergie (SIDA, sarcină, malnutriție)",
+        "mnemonic": "IDR: PPD intradermic, citire 48-72h, ≥10mm = infecție TB (nu boală!)"
+      },
+      {
+        "front": "Care este structura imunoglobulinelor (anticorpilor)?",
+        "back": "STRUCTURĂ:\n- 4 lanțuri: 2 grele (H) + 2 ușoare (L)\n- Legate prin punți disulfurice\n- Forma Y\n\nREGIUNI:\n- Fab (2x): legare antigen\n  - Porțiune variabilă (VH + VL) = paratop\n  - Porțiune constantă (CH1 + CL)\n- Fc: efecte biologice\n  - Legare complement\n  - Legare receptori celulari\n  - Trecere transplacentară (IgG)\n\nCLASE (după lanțul greu):\n- IgG (γ), IgM (μ), IgA (α), IgD (δ), IgE (ε)",
+        "mnemonic": "Ig: 2H+2L în Y, Fab=leagă Ag, Fc=funcții, GAMED=cele 5 clase"
+      },
+      {
+        "front": "Care sunt caracteristicile celor 5 clase de imunoglobuline?",
+        "back": "IgG (75%):\n- Principalul Ac seric, 4 subclase\n- Trece placenta, opsonizare, activează C\n\nIgM (10%):\n- Pentamer, primul Ac în răspuns primar\n- Cel mai eficient la activarea C\n- NU trece placenta\n\nIgA (15%):\n- Dimer în secreții (IgA secretor)\n- Protecție mucoase\n\nIgD (<1%):\n- Receptor pe limfocite B naive\n- Rol în activare\n\nIgE (0,002%):\n- Legare mastocite/bazofile\n- Reacții alergice, parazitoze",
+        "mnemonic": "G=General (placentă), M=Mare (primul), A=Anticorp secretor, D=pe B, E=alErgii"
+      },
+      {
+        "front": "Care sunt diferențele dintre răspunsul imun primar și secundar?",
+        "back": "RĂSPUNS PRIMAR:\n- La primul contact cu antigenul\n- Latență: 5-10 zile\n- IgM predominant\n- Titru scăzut\n- Afinitate scăzută\n- Durată scurtă\n\nRĂSPUNS SECUNDAR (amnestic):\n- La recontactul cu antigenul\n- Latență: 1-3 zile\n- IgG predominant (switch de clasă)\n- Titru înalt\n- Afinitate mare (maturare)\n- Durată lungă\n- Mediat de celule B de memorie",
+        "mnemonic": "Primar: Primul=lent+IgM+slab; Secundar: Rapid+IgG+puternic+memorie"
+      }
+    ]
+  }
+]

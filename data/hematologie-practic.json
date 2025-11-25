@@ -1,0 +1,253 @@
+[
+  {
+    "name": "Hematologie Practic",
+    "description": "Tehnici de laborator: recoltare, colorații, numărătoare celulară, indici eritrocitari, teste speciale, hemostază",
+    "flashcards": [
+      {
+        "front": "Care sunt metodele de recoltare a sângelui și anticoagulantele folosite?",
+        "back": "RECOLTARE:\n- Sânge venos: puncție venoasă (ser/plasmă)\n- Sânge capilar: puncție pulpa deget/lob ureche\n\nANTICOAGULANTE:\n- EDTA (K₂/K₃): hemogramă, frotiu\n- Citrat de sodiu 3,8%: coagulare (raport 1:9)\n- Heparină: biochimie\n- Oxalat de potasiu: glicemie",
+        "mnemonic": "ECHO: EDTA-Citrat-Heparină-Oxalat"
+      },
+      {
+        "front": "Cum se prepară un frotiu de sânge corect?",
+        "back": "TEHNICA:\n1. Picătură mică pe lamă (2-3mm de margine)\n2. Lamă întinzătoare la 45° → glisare rapidă\n3. Uscare la aer (nu sufla!)\n4. Fixare în metanol 3-5 min\n\nFROTIU CORECT:\n- Zonă subțire la capăt (monostrat celular)\n- Margini regulate\n- Fără găuri sau striații",
+        "mnemonic": "45° unghi + glisare rapidă = frotiu perfect"
+      },
+      {
+        "front": "Care este principiul și tehnica colorației May-Grünwald-Giemsa (MGG)?",
+        "back": "PRINCIPIU: colorație panoptică (Romanowsky)\n- May-Grünwald: eozină + albastru de metilen în metanol\n- Giemsa: azur II + eozină în glicerină\n\nTEHNICĂ:\n1. Fixare metanol 3 min\n2. May-Grünwald nediluat 3 min\n3. May-Grünwald diluat (1:1) 1 min\n4. Giemsa diluat (1:10) 15-20 min\n5. Spălare cu apă, uscare\n\nREZULTAT: nuclei violet, citoplasmă roz-albăstruie",
+        "mnemonic": "MGG = May-Grünwald (metanol) + Giemsa (glicerină)"
+      },
+      {
+        "front": "Ce este picătura groasă și când se folosește?",
+        "back": "DEFINIȚIE: preparat cu strat gros de sânge nelizat\n\nTEHNICĂ:\n1. Picătură mare pe lamă\n2. Întindere circulară (diametru 1cm)\n3. Uscare lentă (12-24h)\n4. Hemolizare în apă distilată\n5. Colorare Giemsa 30-45 min\n\nINDICAȚII:\n- Plasmodium (malarie)\n- Borrelia, Trypanosoma\n- Microfilarii\n\nAVANTAJ: concentrație x20-30 față de frotiu",
+        "mnemonic": "Picătura GROASĂ = Găsim paraziți RARI"
+      },
+      {
+        "front": "Care sunt metodele de numărare a eritrocitelor și valorile normale?",
+        "back": "METODE:\n1. Manuală: cameră Bürker-Türk, diluție 1:200 (Hayem)\n2. Automată: impedanță electrică, citometrie flux\n\nFORMULĂ MANUALĂ:\nEr = N × 10.000/mm³ (N = nr. eritrocite în 5 pătrate mari)\n\nVALORI NORMALE:\n- Bărbați: 4,5-5,5 × 10⁶/mm³\n- Femei: 4,0-5,0 × 10⁶/mm³\n- Nou-născuți: 5,0-6,0 × 10⁶/mm³",
+        "mnemonic": "Er: Bărbați 5, Femei 4,5 (milioane/mm³)"
+      },
+      {
+        "front": "Care sunt metodele de numărare a leucocitelor și valorile normale?",
+        "back": "METODE:\n1. Manuală: cameră Bürker-Türk, diluție 1:20 (Türk - acid acetic 3%)\n2. Automată: impedanță, citometrie flux\n\nFORMULĂ MANUALĂ:\nLe = N × 50/mm³ (N = nr. leucocite în 4 pătrate mari colț)\n\nVALORI NORMALE:\n- Adulți: 4.000-10.000/mm³\n- Nou-născuți: 10.000-25.000/mm³\n- Copii: 6.000-15.000/mm³",
+        "mnemonic": "Le: 4-10 mii/mm³ (adulți), Türk lizează Er"
+      },
+      {
+        "front": "Care sunt metodele de numărare a trombocitelor și valorile normale?",
+        "back": "METODE:\n1. Directă: cameră numărare, diluție oxalat amoniu 1%\n2. Indirectă: pe frotiu (raport Tr/1000 Er)\n3. Automată: impedanță, optică\n\nFORMULĂ INDIRECTĂ:\nTr = (Nr. Tr pe frotiu × Nr. Er) / 1000\n\nVALORI NORMALE:\n- Adulți: 150.000-400.000/mm³\n- Trombocitopenie: < 150.000/mm³\n- Trombocitoză: > 400.000/mm³",
+        "mnemonic": "Tr: 150-400 mii/mm³ (regula 150-400)"
+      },
+      {
+        "front": "Cum se determină reticulocitele și care este semnificația clinică?",
+        "back": "METODĂ:\n- Colorație supravitală: albastru cresyl briliant / albastru de metilen nou\n- Numărare pe 1000 eritrocite\n\nVALORI NORMALE: 0,5-1,5% (5-15‰)\nAbsolut: 25.000-75.000/mm³\n\nINTERPRETARE:\n↑ Reticulocitoză:\n- Anemii hemolitice\n- Hemoragii acute\n- Răspuns la tratament (Fe, B12, folat)\n\n↓ Reticulocitopenie:\n- Anemii aplastice\n- Infiltrare medulară",
+        "mnemonic": "Reticulocite = Regenerare medulară (0,5-1,5%)"
+      },
+      {
+        "front": "Care este formula și interpretarea VEM (Volumul Eritrocitar Mediu)?",
+        "back": "FORMULA:\nVEM = Ht (%) × 10 / Er (mil/mm³)\n\nUNITATEA: fL (femtolitri)\n\nVALORI NORMALE: 80-100 fL\n\nINTERPRETARE:\n< 80 fL = MICROCITOZĂ:\n- Anemie feriprivă\n- Talasemii\n- Boli cronice\n\n> 100 fL = MACROCITOZĂ:\n- Deficit B12/folat\n- Sindroame mielodisplazice\n- Hepatopatii, alcoolism",
+        "mnemonic": "VEM = Volume/Er, 80-100 fL (Micro<80, Macro>100)"
+      },
+      {
+        "front": "Care este formula și interpretarea HEM (Hemoglobina Eritrocitară Medie)?",
+        "back": "FORMULA:\nHEM = Hb (g/dL) × 10 / Er (mil/mm³)\n\nUNITATEA: pg (picograme)\n\nVALORI NORMALE: 27-32 pg\n\nINTERPRETARE:\n< 27 pg = HIPOCROMIE:\n- Anemie feriprivă\n- Talasemii\n\n> 32 pg = HIPERCROMIE:\n- Sferocitoză (fals)\n- Macrocitară (Hb normală în volum mare)",
+        "mnemonic": "HEM = Hb/Er, 27-32 pg (Hipo<27)"
+      },
+      {
+        "front": "Care este formula și interpretarea CHEM (Concentrația Hemoglobinei Eritrocitare Medii)?",
+        "back": "FORMULA:\nCHEM = Hb (g/dL) × 100 / Ht (%)\n\nUNITATEA: g/dL sau %\n\nVALORI NORMALE: 32-36 g/dL\n\nINTERPRETARE:\n< 32 g/dL = HIPOCROMIE REALĂ:\n- Anemie feriprivă severă\n\n> 36 g/dL = FALS CRESCUT:\n- Sferocitoză ereditară\n- Hemoliză in vitro",
+        "mnemonic": "CHEM = Concentrația Hb (32-36 g/dL)"
+      },
+      {
+        "front": "Care sunt metodele de determinare a VSH și valorile normale?",
+        "back": "METODE:\n1. WESTERGREN (referință):\n   - Tub 200mm, citrat sodiu 3,8% (1:4)\n   - Citire la 1h și 2h\n\n2. WINTROBE:\n   - Tub 100mm, sânge EDTA\n   - Mai puțin sensibil\n\nVALORI NORMALE (1h):\n- Bărbați: 1-10 mm/h\n- Femei: 2-15 mm/h\n- Gravide: până la 40 mm/h\n- Vârstnici: până la 20 mm/h",
+        "mnemonic": "VSH Westergren: B=10, F=15 mm/h"
+      },
+      {
+        "front": "Care sunt factorii care influențează VSH?",
+        "back": "↑ VSH (sedimentare accelerată):\n- Inflamații acute/cronice\n- Infecții\n- Neoplazii\n- Anemii (↓ Er)\n- Disglobulinemii\n- Sarcină\n- Fibrinogen ↑\n\n↓ VSH (sedimentare încetinită):\n- Poliglobulii\n- Sferocitoză\n- Drepanocite\n- Hipofibrinogenemie\n- Crioglobuline\n\nFACTORI TEHNICI: temperatura, înclinare tub, timp",
+        "mnemonic": "VSH ↑ = Inflamație, ↓ = Poliglobulie"
+      },
+      {
+        "front": "Ce este testul FAL (Fosfatazei Alcaline Leucocitare) și interpretarea?",
+        "back": "PRINCIPIU: evidențierea FAL în granulocite (colorație citochimică)\n\nTEHNICĂ: reacție cu substrat + sare diazoniu → precipitat colorat\n\nSCORARE: 0-4+ pe 100 neutrofile\nScor total: 0-400 (normal: 20-100)\n\nINTERPRETARE:\n↑ FAL (>100):\n- Reacții leucemoide\n- Policitemia vera\n- Mielofibroză\n\n↓ FAL (<20):\n- LMC (diagnostic diferențial!)\n- HPN",
+        "mnemonic": "FAL ↓ în LMC, ↑ în PV (diferențiere!)"
+      },
+      {
+        "front": "Care sunt testele citochimice pentru diferențierea leucemiilor acute?",
+        "back": "MIELOPEROXIDAZA (MPO):\n- Pozitivă: LAM (linie mieloidă)\n- Negativă: LAL (linie limfoidă)\n\nSUDAN BLACK B:\n- Pozitiv: LAM\n- Negativ: LAL\n\nESTERAZE:\n- Nespecifice (α-naftil acetat): monocite\n- Specifice (cloracetat): granulocite\n\nPAS (Acid Periodic-Schiff):\n- Blocuri grosolane: LAL\n- Difuz fin: LAM",
+        "mnemonic": "MPO/Sudan = Mieloid, PAS blocuri = Limfoid"
+      },
+      {
+        "front": "Care sunt valorile normale ale mielogramei?",
+        "back": "CELULARITATE: normală/hiper/hipocelulară\n\nSERIA GRANULOCITARĂ (50-70%):\n- Mieloblast: 0,5-2%\n- Promielocit: 2-4%\n- Mielocit: 10-15%\n- Metamielocit: 10-15%\n- Nesegmentat: 15-20%\n- Segmentat: 10-15%\n\nSERIA ERITROBLASTICĂ (20-30%):\n- Proeritroblast: 0,5-1%\n- Eritroblast bazofil: 1-3%\n- Eritroblast policromatofil: 10-15%\n- Eritroblast oxifil: 5-10%\n\nRAPORT G/E: 3-4:1",
+        "mnemonic": "G/E = 3-4:1, Granulocite 60%, Eritroblaști 25%"
+      },
+      {
+        "front": "Cum se determină rezistența osmotică eritrocitară (ROE)?",
+        "back": "PRINCIPIU: hemoliza eritrocitelor în soluții hipotone de NaCl\n\nTEHNICĂ:\n- Soluții NaCl 0,1-0,9%\n- Incubare 30 min la temperatura camerei\n- Citire supernantant (Hb eliberată)\n\nVALORI NORMALE:\n- Hemoliză inițială: 0,45-0,50% NaCl\n- Hemoliză completă: 0,30-0,35% NaCl\n\nINTERPRETARE:\n↑ ROE (fragilitate scăzută): talasemii, anemie feriprivă\n↓ ROE (fragilitate crescută): sferocitoză ereditară",
+        "mnemonic": "ROE: Sferocitoză = Fragilitate ↑, Talasemie = Fragilitate ↓"
+      },
+      {
+        "front": "Ce este testul Ham și când este pozitiv?",
+        "back": "DEFINIȚIE: test de hemoliză în ser acidifiat\n\nPRINCIPIU: eritrocitele HPN sunt sensibile la liză mediată de complement activat în pH acid\n\nTEHNICĂ:\n1. Ser pacient + ser normal acidifiat (pH 6,5-7,0)\n2. Incubare 37°C, 1h\n3. Citire hemoliză\n\nREZULTAT POZITIV:\n- Hemoglobinuria Paroxistică Nocturnă (HPN)\n- Anumite anemii diseritropoietice congenitale\n\nCONFIRMARE: citometrie flux (CD55, CD59)",
+        "mnemonic": "Ham = HPN (Hemoliză în Acid pH)"
+      },
+      {
+        "front": "Ce este testul Brewer și ce evidențiază?",
+        "back": "DEFINIȚIE: test de autohemoliză stimulată\n\nPRINCIPIU: evidențiază deficitul de G6PD prin formarea corpi Heinz după expunere la oxidanți\n\nTEHNICĂ:\n1. Sânge + acetil-fenilhidrazină\n2. Incubare 37°C, 2h\n3. Frotiu cu colorație supravitală (cristal violet)\n4. Numărare corpi Heinz\n\nREZULTAT:\n- Normal: <30% eritrocite cu corpi Heinz\n- Deficit G6PD: >30% eritrocite cu corpi Heinz",
+        "mnemonic": "Brewer = Bodies (Heinz) în deficit G6PD"
+      },
+      {
+        "front": "Ce este testul de sickling și pentru ce se folosește?",
+        "back": "DEFINIȚIE: test pentru evidențierea HbS (drepanocite)\n\nPRINCIPIU: în hipoxie, HbS polimerizează → eritrocite în seceră\n\nTEHNICĂ:\n1. Sânge + metabisulfit de sodiu 2% (agent reducător)\n2. Sigilare lamă\n3. Citire la 30 min și 24h\n4. Observare microscopică\n\nREZULTAT POZITIV:\n- Drepanocite (eritrocite în seceră)\n- Drepanocitoză (homozigoți SS)\n- Trait drepanocitozic (heterozigoți AS)\n\nCONFIRMARE: electroforeză Hb",
+        "mnemonic": "Sickling cu Sulfit = Secere (HbS)"
+      },
+      {
+        "front": "Care este tehnica Beth-Vincent pentru determinarea grupei sanguine ABO?",
+        "back": "PRINCIPIU: identificare Ag eritrocitare cu seruri-test (Ac cunoscuți)\n\nTEHNICĂ:\n1. 3 picături ser-test: anti-A, anti-B, anti-AB\n2. Adaugă suspensie eritrocitară 5%\n3. Agitare, citire aglutinare\n\nINTERPRETARE:\n- Anti-A + Anti-AB aglutinează → Grupa A\n- Anti-B + Anti-AB aglutinează → Grupa B\n- Anti-A + Anti-B + Anti-AB aglutinează → Grupa AB\n- Nimic nu aglutinează → Grupa O",
+        "mnemonic": "Beth-Vincent = Anticorpi cunoscuți testează Antigene"
+      },
+      {
+        "front": "Care este tehnica Simonin pentru determinarea grupei sanguine ABO?",
+        "back": "PRINCIPIU: identificare Ac serici cu eritrocite-test (Ag cunoscuți)\n\nTEHNICĂ:\n1. 3 picături ser pacient\n2. Adaugă eritrocite-test: A, B, O\n3. Agitare, citire aglutinare\n\nINTERPRETARE:\n- Er-A aglutinează → Ac anti-A → Grupa B\n- Er-B aglutinează → Ac anti-B → Grupa A\n- Er-A + Er-B aglutinează → Ac anti-A + anti-B → Grupa O\n- Nimic nu aglutinează → Fără Ac → Grupa AB\n\nOBLIGATORIU: concordanță Beth-Vincent + Simonin",
+        "mnemonic": "Simonin = Ser pacient (Anticorpi) + Eritrocite-test"
+      },
+      {
+        "front": "Cum se determină factorul Rh (D)?",
+        "back": "TEHNICA pe lamă:\n1. Ser anti-D + suspensie eritrocitară\n2. Incubare 37°C sau adăugare albumină 20%\n3. Citire aglutinare\n\nREZULTAT:\n- Aglutinare → Rh pozitiv (D+)\n- Fără aglutinare → Rh negativ (D-)\n\nATENȚIE - D slab (Du):\n- Necesită test Coombs indirect\n- Antigene D în număr redus\n- Se consideră Rh+ pentru transfuzie\n\nALTE ANTIGENE Rh: C, c, E, e",
+        "mnemonic": "Rh = D antigen (85% populație Rh+)"
+      },
+      {
+        "front": "Care este principiul și tehnica testului Coombs direct?",
+        "back": "PRINCIPIU: detectează Ac sau complement fixate IN VIVO pe eritrocite\n\nTEHNICĂ:\n1. Spălare eritrocite pacient (3x ser fiziologic)\n2. Adaugă ser Coombs (anti-IgG + anti-C3)\n3. Centrifugare, citire aglutinare\n\nPOZITIV ÎN:\n- Anemia hemolitică autoimună (AHAI)\n- Boala hemolitică a nou-născutului\n- Reacții transfuzionale hemolitice\n- Anemii hemolitice medicamentoase\n\nGRADARE: 1+ până la 4+",
+        "mnemonic": "Coombs Direct = Detectează Ac DEJA pe eritrocite"
+      },
+      {
+        "front": "Care este principiul și tehnica testului Coombs indirect?",
+        "back": "PRINCIPIU: detectează Ac liberi în ser care pot reacționa cu eritrocite\n\nTEHNICĂ:\n1. Ser pacient + eritrocite-test (panel)\n2. Incubare 37°C, 30-60 min\n3. Spălare eritrocite\n4. Adaugă ser Coombs\n5. Citire aglutinare\n\nAPLICAȚII:\n- Screening Ac iregulari (pretransfuzional)\n- Identificare specificitate Ac\n- Determinare D slab (Du)\n- Probe de compatibilitate\n- Titrare Ac la gravide Rh-",
+        "mnemonic": "Coombs Indirect = Identifică Ac în Ser (liberi)"
+      },
+      {
+        "front": "Care sunt probele de compatibilitate transfuzională?",
+        "back": "PROBA MAJORĂ (obligatorie):\n- Ser primitor + Eritrocite donator\n- Verifică Ac primitor vs Ag donator\n\nPROBA MINORĂ:\n- Ser donator + Eritrocite primitor\n- Verifică Ac donator vs Ag primitor\n\nTEHNICI:\n1. Temperatura camerei (IgM)\n2. 37°C + albumină (IgG)\n3. Test Coombs indirect\n\nINTERPRETARE:\n- Compatibil: fără aglutinare/hemoliză\n- Incompatibil: aglutinare/hemoliză → NU transfuza!",
+        "mnemonic": "Major = Ser primitor (anticorpi) + Er donator"
+      },
+      {
+        "front": "Ce sunt aglutininele la rece și cum se detectează?",
+        "back": "DEFINIȚIE: Ac (IgM) care aglutinează eritrocitele la temperaturi < 37°C\n\nTEHNICĂ:\n1. Ser pacient + eritrocite O\n2. Incubare la 4°C, 1h\n3. Citire aglutinare\n4. Reîncălzire la 37°C → dispare aglutinarea\n\nTITRU: diluții seriale, normal <1:64\n\nPATOLOGIC ÎN:\n- Boala aglutininelor la rece (titru >1:1000)\n- Infecții (Mycoplasma, mononucleoză)\n- Limfoame\n\nSEMNIFICAȚIE: pot interfera cu grupare/compatibilitate",
+        "mnemonic": "Aglutinine Reci = IgM la 4°C, dispar la 37°C"
+      },
+      {
+        "front": "Cum se detectează anticorpii antinucleari (FAN/ANA)?",
+        "back": "METODĂ: Imunofluorescență indirectă (IFI)\n\nTEHNICĂ:\n1. Ser pacient + celule HEp-2 (substrat)\n2. Incubare, spălare\n3. Adaugă anti-IgG conjugat FITC\n4. Citire microscopie fluorescență\n\nPATTERN-URI:\n- Omogen: anti-dsDNA, anti-histone (LES)\n- Periferic: anti-dsDNA (LES activ)\n- Pătat: anti-ENA (Sm, RNP, SSA, SSB)\n- Nucleolar: anti-sclerodermie\n- Centromer: CREST\n\nTITRU: pozitiv ≥1:80",
+        "mnemonic": "FAN pe HEp-2: Omogen=LES, Periferic=dsDNA activ"
+      },
+      {
+        "front": "Ce sunt celulele LE și cum se evidențiază?",
+        "back": "DEFINIȚIE: neutrofile care au fagocitat material nuclear alterat (corpi LE)\n\nFORMARE: Ac anti-nucleu + complement → opsonizare nucleu → fagocitoză\n\nTEHNICĂ (test LE):\n1. Sânge heparinizat + traumatizare mecanică\n2. Incubare 37°C, 2h\n3. Recuperare leucocite (coat buffy)\n4. Frotiu, colorație MGG\n\nASPECT:\n- Corp LE: masă omogenă, violet\n- Celula LE: neutrofil cu corp LE fagocitat\n- Rozetă LE: neutrofile în jurul corpului LE\n\nPOZITIV ÎN: LES (sensibilitate mică, înlocuit de FAN)",
+        "mnemonic": "Celule LE = Lupus Eritematos (neutrofil + nucleu fagocitat)"
+      },
+      {
+        "front": "Ce este factorul reumatoid (FR) și cum se determină?",
+        "back": "DEFINIȚIE: autoanticorpi (IgM) anti-fragment Fc al IgG\n\nMETODE:\n1. LATEX (Waaler-Rose modificat):\n   - Particule latex + IgG uman\n   - Aglutinare cu ser pacient\n   - Sensibil dar nespecific\n\n2. WAALER-ROSE clasic:\n   - Eritrocite oaie + IgG iepure\n   - Aglutinare\n   - Mai specific\n\nVALORI: pozitiv >20 UI/mL (nefelometrie)\n\nPOZITIV ÎN:\n- Poliartrită reumatoidă (70-80%)\n- Sindrom Sjögren\n- Hepatite cronice\n- Vârstnici (fals pozitiv)",
+        "mnemonic": "FR = IgM anti-IgG (Fc), pozitiv în PR"
+      },
+      {
+        "front": "Ce este timpul de sângerare (TS) și metodele de determinare?",
+        "back": "DEFINIȚIE: interval de la incizie până la oprirea sângerării\nEVALUEAZĂ: hemostaza primară (vase, trombocite, factor von Willebrand)\n\nMETODE:\n1. DUKE (lob ureche): N = 2-4 min\n2. IVY (antebraț + manșetă 40mmHg): N = 2-9 min\n3. TEMPLATE (incizie standardizată): mai reproductibil\n\nPRELUNGIT ÎN:\n- Trombocitopenii (<100.000/mm³)\n- Trombocitopatii\n- Boala von Willebrand\n- Aspirină, AINS\n- Afibrinogenemie severă",
+        "mnemonic": "TS = Trombocite + Vase (Duke 2-4 min)"
+      },
+      {
+        "front": "Ce este timpul de coagulare (TC) și cum se determină?",
+        "back": "DEFINIȚIE: interval de la recoltare până la coagularea sângelui\nEVALUEAZĂ: calea intrinsecă (global)\n\nMETODE:\n1. LEE-WHITE (3 tuburi):\n   - 1mL sânge/tub, 37°C\n   - Înclinare la 30 sec\n   - N = 5-10 min\n\n2. CAPILARĂ:\n   - Sânge capilar în tub\n   - Rupere secvențială\n   - N = 3-5 min\n\nPRELUNGIT ÎN:\n- Deficite factori coagulare\n- Tratament heparină\n- CID\n- Hemofilie severă",
+        "mnemonic": "TC Lee-White = 5-10 min, Calea Intrinsecă"
+      },
+      {
+        "front": "Ce este timpul de trombină (TT) și interpretarea?",
+        "back": "DEFINIȚIE: timpul de transformare fibrinogen → fibrină\nEVALUEAZĂ: etapa finală a coagulării (fibrinoformare)\n\nPRINCIPIU: plasmă + trombină exogenă → coagul\n\nVALORI NORMALE: 14-21 secunde\n(sau <3 sec față de martor)\n\nPRELUNGIT ÎN:\n- Hipofibrinogenemie (<100 mg/dL)\n- Disfibrinogenemie\n- Produși de degradare fibrină (PDF)\n- Tratament heparină\n- Inhibitori de trombină\n- CID\n- Paraproteine",
+        "mnemonic": "TT = Trombină → Fibrină (14-21 sec)"
+      },
+      {
+        "front": "Ce este timpul de protrombină (TQ/PT) și indicele Quick?",
+        "back": "DEFINIȚIE: timpul de coagulare a plasmei cu tromboplastină tisulară + Ca²⁺\nEVALUEAZĂ: calea extrinsecă (II, V, VII, X) + fibrinogen\n\nVALORI NORMALE: 11-15 secunde (sau 70-100% din martor)\n\nINDICE QUICK (IP):\nIP = (TQ martor / TQ pacient) × 100\nNormal: 70-100%\n\nINR (International Normalized Ratio):\nINR = (TQ pacient / TQ martor)^ISI\nNormal: 0,9-1,2\nAnticoagulare orală: 2,0-3,0\n\nPRELUNGIT: deficit VII, X, V, II, fibrinogen, AVK",
+        "mnemonic": "TQ = Extrinsecă (VII), INR 2-3 pentru AVK"
+      },
+      {
+        "front": "Ce este timpul de tromboplastină parțial activată (APTT)?",
+        "back": "DEFINIȚIE: timpul de coagulare a plasmei cu fosfolipide + activator contact + Ca²⁺\nEVALUEAZĂ: calea intrinsecă (VIII, IX, XI, XII) + comună\n\nVALORI NORMALE: 25-40 secunde\n(sau <10 sec față de martor)\n\nPRELUNGIT ÎN:\n- Hemofilie A (deficit VIII)\n- Hemofilie B (deficit IX)\n- Deficit XI, XII\n- Tratament heparină (monitorizare)\n- Anticoagulant lupic\n- CID\n\nHEPARINĂ: țintă APTT = 1,5-2,5 × martor",
+        "mnemonic": "APTT = Intrinsecă (VIII, IX), monitorizare Heparină"
+      },
+      {
+        "front": "Cum se determină fibrinogenul plasmatic?",
+        "back": "METODE:\n1. CLAUSS (referință):\n   - Plasmă diluată + trombină concentrată\n   - Timp coagulare invers proporțional cu [fibrinogen]\n   - N: 200-400 mg/dL\n\n2. PT-derivat:\n   - Calculat din curba TQ\n   - Mai puțin precis\n\n3. GRAVIMETRIC (von Clauss modificat):\n   - Cântărire cheag uscat\n\nINTERPRETARE:\n↓ Fibrinogen (<100 mg/dL):\n- CID, fibrinoliză\n- Boală hepatică severă\n- Afibrinogenemie congenitală\n\n↑ Fibrinogen (>400 mg/dL):\n- Inflamație acută (reactant fază acută)",
+        "mnemonic": "Fibrinogen Clauss: 200-400 mg/dL"
+      },
+      {
+        "front": "Ce sunt produții de degradare a fibrinei (PDF/FDP) și D-dimerii?",
+        "back": "PDF (produse degradare fibrin/fibrinogen):\n- Rezultă din acțiunea plasminei\n- Fragmente X, Y, D, E\n- Detectare: latex aglutinare\n- N: <10 μg/mL\n\nD-DIMERI:\n- Specifici pentru fibrină cross-linkată\n- Marker fibrinoliză secundară\n- Detectare: ELISA, latex, imunoturbidimetrie\n- N: <500 ng/mL (sau <0,5 μg/mL)\n\n↑ ÎN:\n- CID\n- TVP, TEP (excludere)\n- Postoperator\n- Sarcină\n- Neoplazii\n\nVN D-dimeri: exclud TVP/TEP (sensibilitate mare)",
+        "mnemonic": "D-dimeri: Diagnotic TVP/TEP excludere (<500)"
+      },
+      {
+        "front": "Ce este testul de liză a cheagului euglobulinelor (TLCE)?",
+        "back": "DEFINIȚIE: evaluează activitatea fibrinolitică globală\n\nPRINCIPIU: euglobulinele (fibrinogen, plasminogen, activatori) precipită la pH acid, apoi se redizolvă și se coagulează → se măsoară timpul de liză\n\nTEHNICĂ:\n1. Plasmă + acid acetic → precipitat euglobuline\n2. Redizolvare în tampon borat\n3. Adaugă trombină → coagul\n4. Măsurare timp liză la 37°C\n\nVALORI NORMALE: >90-120 minute\n\nSCURTAT ÎN:\n- Fibrinoliză primară\n- CID (fibrinoliză secundară)\n- Tratament fibrinolitic\n- Ciroză hepatică",
+        "mnemonic": "TLCE <90 min = Fibrinoliză activă"
+      },
+      {
+        "front": "Ce este timpul de retracție a cheagului (TRC)?",
+        "back": "DEFINIȚIE: evaluează funcția trombocitară (retracție)\n\nPRINCIPIU: trombocitele contractă rețeaua de fibrină după coagulare\n\nTEHNICĂ:\n1. Sânge în tub gradat\n2. Coagulare la 37°C\n3. Măsurare volum ser expulzat\n\nVALORI NORMALE:\n- Începe la 1h, complet la 24h\n- Ser expulzat: 40-50% din volum\n\nANORMAL ÎN:\n- Trombocitopenii severe\n- Trombastenia Glanzmann (deficit GPIIb/IIIa)\n- Poliglobulii (volum eritrocitar mare)\n- Hipofibrinogenemie",
+        "mnemonic": "TRC = Trombocite Retract Cheagul (1h-24h)"
+      },
+      {
+        "front": "Cum se interpretează rezultatele combinate ale testelor de coagulare?",
+        "back": "TQ ↑, APTT N:\n→ Deficit factor VII\n→ Debut tratament AVK\n\nTQ N, APTT ↑:\n→ Hemofilie A/B (VIII/IX)\n→ Deficit XI, XII\n→ Tratament heparină\n→ Anticoagulant lupic\n\nTQ ↑, APTT ↑:\n→ Deficit căii comune (II, V, X, fibrinogen)\n→ Supradozaj AVK\n→ Boală hepatică\n→ CID\n→ Deficit vitamină K\n\nTQ N, APTT N, TS ↑:\n→ Trombocitopatie\n→ Boala von Willebrand",
+        "mnemonic": "VII=TQ, VIII/IX=APTT, Comun=ambele, vWD=TS"
+      },
+      {
+        "front": "Care sunt testele pentru evaluarea hemosiderinei în țesuturi?",
+        "back": "COLORAȚIE: Reacția PERLS (albastru de Prusia)\n\nPRINCIPIU: Fe³⁺ din hemosiderină + ferocianură potasiu → precipitat albastru\n\nAPLICAȚII:\n1. Frotiu medular:\n   - Evaluare depozite fier\n   - Sideroblaști (eritroblaști cu Fe)\n   - Sideroblaști inelari (mielodisplazie)\n\n2. Urină (sediment):\n   - Hemosiderinurie\n   - HPN, hemoliză intravasculară cronică\n\nINTERPRETARE MEDULARĂ:\n- Absent: deficit fier\n- Crescut: anemii de boală cronică, supraîncărcare Fe",
+        "mnemonic": "Perls = Prussian Blue pentru Fier (Fe³⁺)"
+      },
+      {
+        "front": "Care sunt etapele examinării morfologice a frotiului de sânge periferic?",
+        "back": "1. OBIECTIV MIC (10x):\n   - Calitatea frotiului\n   - Densitate celulară\n   - Distribuție\n\n2. OBIECTIV MEDIU (40x):\n   - Evaluare globală\n   - Anomalii flagrante\n\n3. OBIECTIV IMERSIE (100x):\n   - Morfologie detaliată\n   - Formula leucocitară (100-200 celule)\n   - Anomalii eritrocitare\n   - Estimare trombocite\n\nZONA OPTIMĂ: margine subțire (monostrat)\nANOMALII: formă, mărime, colorație, incluzii, celule anormale",
+        "mnemonic": "10x-40x-100x: Global→Detaliu, Zona subțire"
+      },
+      {
+        "front": "Care sunt principalele anomalii morfologice eritrocitare?",
+        "back": "MĂRIME:\n- Anizocitoză (variație)\n- Microcitoză (<7μm): feriprivă, talasemie\n- Macrocitoză (>8μm): B12, folat, MDS\n\nFORMĂ (Poikilocitoză):\n- Sferocite: sferocitoză, AHAI\n- Drepanocite (seceri): HbS\n- Target cells (în țintă): talasemie, hepatopatie\n- Schizocite (fragmentate): MAT, CID\n- Acantocite (spiculați): hepatopatie\n- Dacriocite (lacrimă): mielofibroză\n- Eliptocite: eliptocitoză ereditară\n\nCOLORAȚIE:\n- Hipocromie: deficit Fe\n- Policromatofilie: reticulocitoză",
+        "mnemonic": "Poikilocite = Forme Particulare (seceri=HbS, țintă=talasemie)"
+      },
+      {
+        "front": "Ce sunt incluziile eritrocitare și semnificația lor?",
+        "back": "CORPI HOWELL-JOLLY:\n- Resturi nucleare\n- Post-splenectomie, hiposplenie\n\nINELE CABOT:\n- Resturi fus mitotic\n- Anemii severe\n\nGRANULAȚII BAZOFILE:\n- Ribozomi agregați\n- Intoxicație Pb, talasemie\n\nCORPI HEINZ:\n- Hb denaturată\n- Deficit G6PD, hemoglobine instabile\n- Necesită colorație supravitală\n\nCORPI PAPPENHEIMER:\n- Granule fier (siderocite)\n- Anemii sideroblastice, post-splenectomie\n\nPARAZIȚI:\n- Plasmodium (malarie)\n- Babesia",
+        "mnemonic": "Howell-Jolly = No Spleen, Heinz = G6PD"
+      },
+      {
+        "front": "Care este formula leucocitară normală la adult?",
+        "back": "FORMULA LEUCOCITARĂ (%):\n\nNeutrofile segmentate: 55-70%\n(Absolut: 2500-7000/mm³)\n\nNeutrofile nesegmentate: 0-5%\n\nEozinofile: 1-4%\n(Absolut: 100-400/mm³)\n\nBazofile: 0-1%\n(Absolut: <100/mm³)\n\nLimfocite: 20-40%\n(Absolut: 1500-4000/mm³)\n\nMonocite: 2-8%\n(Absolut: 200-800/mm³)\n\nNUMĂRARE: 100-200 leucocite pe frotiu\nZONĂ: margine subțire (evită marginile extreme)",
+        "mnemonic": "Neutro 60%, Limfo 30%, Mono 5%, Eozino 3%, Bazo 0,5%"
+      },
+      {
+        "front": "Ce anomalii morfologice leucocitare putem observa pe frotiu?",
+        "back": "NEUTROFILE:\n- Hipersegmentare (>5 lobi): B12/folat\n- Granulații toxice: infecții severe\n- Corpi Döhle: infecții, sarcină\n- Vacuolizare: sepsis\n- Anomalie Pelger-Huët: hiposegmentare (2 lobi)\n\nLIMFOCITE:\n- Limfocite atipice: mononucleoză\n- Limfocite reactive: infecții virale\n- Celule păroase: leucemie cu celule păroase\n\nALTE:\n- Blaști: leucemii acute\n- Celule Sézary: limfom cutanat\n- Plasmocite: mielom, infecții",
+        "mnemonic": "Hipersegmentare = B12/folat, Toxice = Infecție severă"
+      },
+      {
+        "front": "Cum se estimează trombocitele pe frotiu și când este utilă?",
+        "back": "METODĂ:\n1. Obiectiv 100x (imersie)\n2. Zona subțire monostrat\n3. Numără trombocite în 10 câmpuri\n4. Media × 15.000-20.000 = Tr/mm³\n\nREGULĂ PRACTICĂ:\n- 7-20 Tr/câmp = Normal\n- <7 Tr/câmp = Trombocitopenie\n- >20 Tr/câmp = Trombocitoză\n\nUTILITATE:\n- Verificare numărătoare automată\n- Pseudotrombocitopenie (aglutinate EDTA)\n- Trombocite gigante (numărare automată le omite)\n\nSATELITISM: trombocite aderente la neutrofile (artefact EDTA)",
+        "mnemonic": "7-20 Tr/câmp = Normal, <7 = Penie, >20 = Citoză"
+      },
+      {
+        "front": "Ce este consumul de protrombină și cum se măsoară?",
+        "back": "DEFINIȚIE: evaluează conversia protrombinei în trombină în timpul coagulării\n\nPRINCIPIU: după coagulare, protrombina reziduală în ser este scăzută dacă coagularea a fost eficientă\n\nTEHNICĂ:\n1. Recoltare sânge în tub uscat\n2. Coagulare completă (1h)\n3. Separare ser\n4. Determinare TQ pe ser (protrombină reziduală)\n\nVALORI NORMALE:\n- TQ ser >30 secunde (protrombină consumată)\n- TQ ser = TQ plasmă → consum absent\n\nCONSUM SCĂZUT ÎN:\n- Trombocitopenii severe\n- Trombocitopatii\n- Deficit factori coagulare",
+        "mnemonic": "Consum Protrombină: Ser >30s = Consum bun"
+      },
+      {
+        "front": "Care este algoritmul de diagnostic pentru sindromul hemoragipar?",
+        "back": "1. ISTORIC + EXAMEN CLINIC:\n- Tip sângerare: cutaneo-mucoasă vs profundă\n- Debut: congenital vs dobândit\n\n2. SCREENING INIȚIAL:\n- Hemogramă + trombocite\n- TS (hemostaza primară)\n- TQ, APTT (coagulare)\n- TT, fibrinogen\n\n3. INTERPRETARE:\n- TS ↑, rest N → trombocitopatie/vWD\n- APTT ↑, TQ N → factor VIII, IX, XI, XII\n- TQ ↑, APTT N → factor VII\n- Ambele ↑ → cale comună, deficit K, hepatopatie\n\n4. TESTE SPECIFICE:\n- Dozare factori individuali\n- Test vWF (Ag, activitate)\n- Teste genetice",
+        "mnemonic": "Screening: TS-TQ-APTT-TT-Fbg, apoi dozări specifice"
+      }
+    ]
+  }
+]

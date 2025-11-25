@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Virusologie",
+    "description": "Virusuri generalități, hepatite virale, HIV, virusuri gripale",
+    "flashcards": [
+      {
+        "front": "Ce este un VIRION?",
+        "back": "Particula virală matură, infecțioasă, care reprezintă faza extracelulară a ciclului infecțios. Conține una sau mai multe molecule de ADN sau ARN.",
+        "mnemonic": "VIRION = Virus ION (particula activă, ca un ion în chimie)"
+      },
+      {
+        "front": "Care sunt caracteristicile generale ale virusurilor?",
+        "back": "1. Parazite intracelulare stricte\n2. Conțin un singur tip de acid nucleic (ADN SAU ARN)\n3. Înveliș proteic (capsidă) ± anvelopă\n4. Nu au enzime producătoare de energie\n5. Nu se divid, sunt replicate de celula gazdă",
+        "mnemonic": "PAEAN: Parazite, Acid nucleic unic, Energie 0, Anvelopă±, Nu se divid"
+      },
+      {
+        "front": "Care sunt funcțiile capsidei virale?",
+        "back": "1. Protejează genomul de factorii de mediu\n2. Conferă forma caracteristică virionului\n3. Fixează virionul pe receptori celulari\n4. Conține determinanți antigenici (imunogeni)\n5. Permite identificarea virusului prin reacții Ag-Ac",
+        "mnemonic": "PFFCI: Protecție, Formă, Fixare, Conținut antigenic, Identificare"
+      },
+      {
+        "front": "Ce tipuri de simetrie ale nucleocapsidei există?",
+        "back": "1. Simetrie icosaedrică (Picornaviridae) - nude sau cu anvelopă\n2. Simetrie helicală (Orthomyxo, Rhabdo, Paramyxo) - au anvelopă\n3. Simetrie binară (bacteriofagi)\n4. Organizare complexă (Poxvirus)",
+        "mnemonic": "IHBC: Icosaedru, Helix, Binar, Complex"
+      },
+      {
+        "front": "Care sunt etapele replicării virale?",
+        "back": "1. Adsorbția/Ataşarea (receptor-specifică)\n2. Penetrarea în celulă\n3. Decapsidarea\n4. Biosinteza proteinelor precoce\n5. Replicarea genomului viral\n6. Biosinteza proteinelor tardive\n7. Morfogeneza\n8. Eliberarea din celulă",
+        "mnemonic": "APDBRBME: Ataşare, Penetrare, Decapsidare, Biosinteză precoce, Replicare, Biosinteză tardivă, Morfogeneză, Eliberare"
+      },
+      {
+        "front": "Câte clase conține clasificarea Baltimore și care este principiul?",
+        "back": "7 clase, bazate pe tipul de genom și calea de sinteză a ARNm:\n- Clasa I: ADN dc (adeno, herpes, pox)\n- Clasa II: ADN mc+ (parvo)\n- Clasa III: ARN dc (reo)\n- Clasa IV: ARN mc+ (picorna, flavi)\n- Clasa V: ARN mc- (ortho, para, rhabdo)\n- Clasa VI: ARN mc+ cu RT (retro)\n- Clasa VII: ADN parțial dc cu RT (hepadna)",
+        "mnemonic": "Baltimore = 7 căi spre ARNm"
+      },
+      {
+        "front": "Care sunt cei 5 virusuri hepatitice principale?",
+        "back": "VHA, VHB, VHC, VHD, VHE\n\nTransmitere fecal-orală: VHA, VHE\nTransmitere parenterală: VHB, VHC, VHD",
+        "mnemonic": "ABCDE: A și E = Enterale (fecal-oral), BCD = Blood (parenteral)"
+      },
+      {
+        "front": "Care sunt caracteristicile VHA (Hepatita A)?",
+        "back": "- Familia Picornaviridae, gen Hepatovirus\n- Virus nud, simetrie icosaedrică\n- Genom ARN mc polaritate +\n- Transmitere fecal-orală\n- Incubație 2-4 săptămâni\n- NU se cronicizează NICIODATĂ\n- Imunitate pe viață după infecție",
+        "mnemonic": "A = Alimentar, Autolimitat, Anticorpi pe viață"
+      },
+      {
+        "front": "Cum se face diagnosticul infecției acute cu VHA?",
+        "back": "IgM anti-HVA prin ELISA = infecție acută/recentă\n(apar precoce, se negativează după 2-4 luni)\n\nIgG anti-HVA = trecerea prin boală (persistă toată viața, protectori)",
+        "mnemonic": "M = Momentan (acut), G = Garantat pe viață"
+      },
+      {
+        "front": "Care este structura antigenică a VHB?",
+        "back": "- AgHBs (suprafață/anvelopă) - marker de infecție\n- AgHBc (core/miez) - în țesut hepatic\n- AgHBe (enzimatic) - marker de replicare activă\n- AgHBx - rol în carcinogeneză\n\nGenom: 4 regiuni (S, C, P, X)",
+        "mnemonic": "SCeX: Surface, Core, enzimatic(e), X-carcinogen"
+      },
+      {
+        "front": "Care este evoluția markerilor serologici în infecția acută cu VHB?",
+        "back": "Ordine apariție:\n1. AgHBs + AgHBe (primii)\n2. Ac anti-HBc IgM (infecție acută)\n3. Seroconversie: AgHBe → Ac anti-HBe\n4. Anti-HBc IgG (înlocuiesc IgM)\n5. Ac anti-HBs (ultimii, SINGURII PROTECTORI)",
+        "mnemonic": "Se E Core Gs: Surface, e, Core, apoi anti-s la final"
+      },
+      {
+        "front": "Ce indică prezența AgHBs în ser?",
+        "back": "Infecție cu VHB (acută sau cronică)\n\n- AgHBs > 6 luni = purtător cronic\n- Risc carcinom hepatocelular 200-300x mai mare\n- Transformare malignă după 20-30 ani de portaj",
+        "mnemonic": "S = Semnul infecției, 6 luni = Stare cronică"
+      },
+      {
+        "front": "Ce este VHD și de ce depinde?",
+        "back": "Virus ARN defectiv care NECESITĂ AgHBs pentru replicare și infecție.\n\nForme:\n1. Coinfecție (VHB+VHD simultan) - rar cronicizează\n2. Suprainfecție (VHD pe fond AgHBs+) - forme severe, cronicizare frecventă\n\nDiagnostic doar la pacienți AgHBs+",
+        "mnemonic": "D = Dependent de B, Delta defectiv"
+      },
+      {
+        "front": "Care sunt caracteristicile VHC?",
+        "back": "- Familia Flaviviridae, gen Hepacivirus\n- ARN mc+ învelit\n- 6 genotipuri antigenice\n- Transmitere parenterală\n- 50% cronicizare!\n- 20% → ciroză → CHP după 20-30 ani\n- NU EXISTĂ VACCIN",
+        "mnemonic": "C = Cronică (50%), Ciroză, Cancer, fără Curativ vaccin"
+      },
+      {
+        "front": "Cum se face diagnosticul VHC?",
+        "back": "Direct: ARN VHC prin RT-PCR\n\nIndirect: Ac anti-VHC prin ELISA, confirmare RIBA\n\nAlgoritm: 2 teste ELISA pozitive → RIBA confirmare\n\nTratament: IFN + Ribavirin",
+        "mnemonic": "C = PCR + ELISA x2 + RIBA"
+      },
+      {
+        "front": "Care sunt metodele de diagnostic în infecția HIV?",
+        "back": "TRIAJ:\n- ELISA (cel mai utilizat)\n- Immunodot, Latex aglutinare\n\nCONFIRMARE:\n- Western Blot (WB)\n- IF\n- PCR (ADN proviral, ARN viral)\n\nAlgoritm: ELISA repetat reactiv → WB/IF confirmare",
+        "mnemonic": "HIV: ELISA-Elisa-WB (2E + WB)"
+      },
+      {
+        "front": "Ce criterii se folosesc pentru interpretarea Western Blot în HIV?",
+        "back": "POZITIV: 2 categorii de Ac (env) ± gag ± pol\n\nINDETERMINAT: o singură categorie → retestare sau IF/PCR\n\nMarkeri prognostic: viremia, CD4, Ag p24/Ac anti-p24",
+        "mnemonic": "WB: 2 benzi = pozitiv, 1 bandă = ? (indeterminat)"
+      },
+      {
+        "front": "Care sunt cele 2 glicoproteine de anvelopă ale virusului gripal și funcțiile lor?",
+        "back": "HEMAGLUTININA (H):\n- Ligand pentru receptori cu acid sialic\n- Ataşare la celulă\n- Aglutinează hematiile\n\nNEURAMINIDAZA (N):\n- Lichefiază mucusul\n- Eliberează virionii după morfogeneză\n- Previne autoagregarea virionilor",
+        "mnemonic": "H = Hemagglutinare (intră), N = Neuraminidază (iese)"
+      },
+      {
+        "front": "Care sunt cele 2 tipuri de variație antigenică la virusul gripal?",
+        "back": "1. VARIAȚIE MINORĂ (drift):\n- Mutații punctiforme în genele H și N\n- Determină EPIDEMII\n\n2. VARIAȚIE MAJORĂ (shift):\n- Doar la virusul gripal A\n- Reasortări genomice (coinfecție uman + animal)\n- H și N complet noi\n- Determină PANDEMII",
+        "mnemonic": "Drift = mic = Epidemii, Shift = schimbare mare = Pandemii"
+      },
+      {
+        "front": "Care sunt subtipurile de virus gripal A care au circulat la om?",
+        "back": "H1N1, H2N2, H3N2\n\nExistă: 15 tipuri H și 9 tipuri N\n\nVirusul gripal A infectează: om, mamifere, păsări\nVirusul gripal B și C: DOAR omul",
+        "mnemonic": "A = Animals + om, BC = doar om (Being human, C-uman)"
+      },
+      {
+        "front": "Cum se face diagnosticul direct în gripa?",
+        "back": "Produs patologic: exsudat faringian/nazal, aspirat NF (la copii)\nRecoltat în primele 3 zile!\n\nMetode:\n1. Cultivare pe ouă embrionate sau culturi celulare\n2. IF (identifică tip A/B)\n3. ELISA directigen\n4. RT-PCR (rapid, util în epidemii)",
+        "mnemonic": "Gripă = 3 zile recoltare, OE/CC/IF/ELISA/PCR"
+      },
+      {
+        "front": "Care este tratamentul și profilaxia gripei?",
+        "back": "TRATAMENT:\n- Simptomatic: analgezice, antitusive, antipiretice\n- La copii: Acetaminofen (NU salicilați - risc sindrom Reye!)\n- Antiviral: Amantadină, Rimantadină\n\nPROFILAXIE:\n- Vaccin în perioada preepidemic\n- Grupe risc: >65 ani, gravide, copii, boli cronice",
+        "mnemonic": "Gripă: Nu Aspirină la copii! (Reye), Vaccin pentru Vârstnici"
+      }
+    ]
+  }
+]

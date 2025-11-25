@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Biochimie",
+    "description": "Proteine, glucide, lipide, enzime - structură, metabolism, reglare",
+    "flashcards": [
+      {
+        "front": "Care sunt nivelurile de organizare ale proteinelor?",
+        "back": "4 NIVELE:\n\n1. STRUCTURA PRIMARĂ:\n- Secvența aminoacizilor\n- Codificată de ADN\n- Prima: insulina, ribonucleaza\n\n2. STRUCTURA SECUNDARĂ:\n- Relații spațiale între AA vecini\n- α-helix: keratină 100%, Hb/mioglobină 70%\n- β-helix (foaie plisată): mătase 100%\n- Legături de H între -CO și -NH\n\n3. STRUCTURA TERȚIARĂ:\n- Împachetarea 3D a lanțului\n- Punți disulfidice, interacțiuni necovalente\n- Prima: mioglobina\n\n4. STRUCTURA CUATERNARĂ:\n- Asocierea protomerilor/subunităților\n- Ex: Hb (α2β2), LDH, CK",
+        "mnemonic": "PSTC: Primară=Secvență, Secundară=Spirală, Terțiară=Tridimensional, Cuaternară=Complex"
+      },
+      {
+        "front": "Care sunt etapele biosintezei proteice?",
+        "back": "5 ETAPE:\n\n1. ACTIVAREA AA:\n- AA + ATP → aminoacil-AMP\n- Aminoacil-AMP + ARNt → aminoacil-ARNt\n- Consum: 2 legături macroergice/AA\n- Enzime: aminoacil-ARNt sintetaze\n\n2. INIȚIEREA:\n- 30S + ARNm (cu FI3)\n- + N-formil-metionil-ARNt + GTP (FI1, FI2)\n- + 50S → complex de inițiere\n\n3. ELONGAREA:\n- Adăugare succesivă AA\n- Situsul A și P\n- Peptidil-transferaza\n- Translocare (GTP)\n\n4. TERMINAREA:\n- Codon nonsens (stop)\n- Factori de eliberare\n- Disocierea ribozomului\n\n5. PRELUCRĂRI POST-TRADUCERE",
+        "mnemonic": "AIET: Activare-Inițiere-Elongare-Terminare; 4 ATP/legătură peptidică (2 ATP + 2 GTP)"
+      },
+      {
+        "front": "Ce este dezaminarea oxidativă și cum se realizează?",
+        "back": "DEZAMINAREA = îndepărtarea NH2 din poziția α\n\nETAPE:\n\n1. TRANSAMINAREA:\n- α-AA + α-cetoacid ↔ nou cetoacid + glutamat\n- Coenzima: piridoxalfosfat (B6)\n- GPT (ALAT): alanină + α-cetoglutarat ↔ piruvat + glutamat\n- GOT (ASAT): aspartat + α-cetoglutarat ↔ oxalacetat + glutamat\n\n2. DEHIDROGENAREA:\n- Glutamat → acid imidoglutaric → α-cetoglutarat + NH3\n- Enzima: glutamat dehidrogenaza\n- Coenzima: NAD+/NADP+\n\nTRANSPORTUL NH3:\n- În țesuturi: glutamat + NH3 → glutamină (glutaminsintetaza)\n- În rinichi: glutamină → glutamat + NH3 (glutaminaza)\n- NH3 + H+ → NH4+ (eliminat urinar)",
+        "mnemonic": "Transaminare=schimb NH2, Dehidrogenare=eliberare NH3; GPT=ficat, GOT=inimă"
+      },
+      {
+        "front": "Care sunt etapele ciclului ureei?",
+        "back": "LOCALIZARE: Ficat (mitocondrie + citosol)\n\nETAPE:\n\n1. CO2 + NH3 + 2ATP → CARBAMILFOSFAT + 2ADP + Pi\n   (carbamilfosfat sintetaza mitocondrială)\n\n2. Carbamilfosfat + ORNITINĂ → CITRULINĂ + Pi\n   (ornitin-carbamil-transferaza = OCT)\n\n3. Citrulină + Ac. aspartic + ATP → Ac. ARGININSUCCINIC + AMP + Pi\n   (argininsuccinat sintetaza)\n\n4. Ac. argininsuccinic → ARGININĂ + Ac. fumaric\n   (argininsuccinat liaza)\n\n5. Arginină → UREE + ORNITINĂ\n   (arginaza, Mn2+, Co2+)\n\nVALORI:\n- Uree plasmatică: 20-40 mg/dL\n- Uree urinară: 15-30 g/24h",
+        "mnemonic": "CICLU: Ornitină→Citrulină→Argininsuccinat→Arginină→Uree; 3 ATP/moleculă uree"
+      },
+      {
+        "front": "Care sunt aminoacizii esențiali și cum se clasifică după degradare?",
+        "back": "AA ESENȚIALI (9):\nValină, Leucină, Izoleucină, Lizină, Metionină, Treonină, Fenilalanină, Triptofan, Histidină\n+ Arginina (semiesențial - copii)\n\nCLASIFICARE DUPĂ DEGRADARE:\n\n1. GLUCOFORMATORI → Piruvat/intermediari Krebs → glucoză:\n- Ala, Gly, Ser, Cys, Thr → piruvat\n- Arg, Pro, His, Gln, Glu → α-cetoglutarat\n- Asn, Asp → oxalacetat\n- Ile, Val, Met → succinil-CoA\n\n2. CETOFORMATORI → Acetil-CoA/Acetoacetat:\n- Leu, Lys → acetoacetat\n- Trp → acetil-CoA + alanină\n- Phe, Tyr → fumarat + acetoacetat\n\nNOTĂ: Leucina și Lizina sunt DOAR cetoformatoare",
+        "mnemonic": "Esențiali: VaLI-LiMe-TrFeT-His; Leu+Lys=doar cetogeni"
+      },
+      {
+        "front": "Care sunt bolile metabolice ale aminoacizilor?",
+        "back": "1. FENILCETONURIA:\n- Deficit fenilalaninhidroxilază (clasică) sau tetrahidrobiopterină (atipică)\n- Nu poate transforma Phe → Tyr\n- Leziuni cerebrale, demielinizări\n- Tratament: dietă săracă în Phe\n\n2. ALCAPTONURIA:\n- Deficit homogentizat oxidază\n- Acumulare acid homogentizic\n- Urină închisă la culoare (contact cu aerul)\n- Artrită, pigmentare conjunctivă\n\n3. BOALA URINEI CU MIROS DE ARȚAR:\n- Deficit α-cetoacid dehidrogenază\n- Afectează Val, Leu, Ile (ramificați)\n- Toxicitate cerebrală\n- Tratament: dietă + tiamină\n\n4. ACIDURIA METILMALONICĂ:\n- Deficit metilmalonil-CoA mutază\n- Coenzima: vitamina B12\n- Comă, șoc neonatal",
+        "mnemonic": "Fenilcetonurie=Phe, Alcaptonurie=homogentizat, Arțar=ramificați, Metilmalonic=B12"
+      },
+      {
+        "front": "Care sunt etapele glicolizei și enzimele cheie?",
+        "back": "GLICOLIZA = Glucoză → 2 Piruvat (calea Embden-Meyerhof-Parnas)\n\nETAPE PRINCIPALE:\n\n1. Glucoză + ATP → GLUCOZO-6-P (hexokinaza/glucokinaza)\n\n2. Glucozo-6-P ↔ FRUCTOZO-6-P (izomeraza)\n\n3. Fructozo-6-P + ATP → FRUCTOZO-1,6-biP (6-fosfofructokinaza-1) ★\n\n4. Fructozo-1,6-biP → Gliceraldehid-3-P + Dihidroxiaceton-P (aldolaza)\n\n5. Gliceraldehid-3-P + NAD+ → 1,3-bifosfoglicerat (dehidrogenaza)\n\n6. → 3-fosfoglicerat → 2-fosfoglicerat → Fosfoenolpiruvat\n\n7. Fosfoenolpiruvat → PIRUVAT + ATP (piruvatkinaza) ★\n\nBILANȚ NET:\n- 2 ATP (din glucoză)\n- 3 ATP (din glicogen)\n\n★ = enzime ireversibile, reglatoare",
+        "mnemonic": "Enzime cheie: Hexokinaza-Fosfofructokinaza-Piruvatkinaza (ireversibile)"
+      },
+      {
+        "front": "Cum este reglată fosfofructokinaza-1?",
+        "back": "FOSFOFRUCTOKINAZA-1 = enzimă alosterică, cheie în glicoliză\n\nACTIVATORI (+):\n- AMP, ADP (energie scăzută)\n- Fructozo-1,6-bifosfat (produs final)\n- Fructozo-2,6-bifosfat (cel mai puternic)\n- Pi\n\nINHIBITORI (-):\n- ATP (concentrații mari = energie suficientă)\n- Citrat (semnalizează saturarea ciclului Krebs)\n- Fosfoenolpiruvat\n- 1,3-bifosfoglicerat\n- H+ (pH<7 - acidoza lactică)\n\nREGLARE HORMONALĂ:\n- INSULINA → stimulează glicoliza\n- GLUCAGON/Adrenalina → inhibă glicoliza\n\nNOTĂ: Acumularea citratului în citosol = semnal că nevoile energetice sunt satisfăcute",
+        "mnemonic": "FF1K: AMP/ADP=activează(energie↓), ATP/Citrat=inhibă(energie↑)"
+      },
+      {
+        "front": "Care este soarta piruvatului în aerobioză și anaerobioză?",
+        "back": "ÎN AEROBIOZĂ:\nPiruvat → Acetil-CoA (decarboxilare oxidativă)\n- Loc: matrixul mitocondrial\n- Enzima: piruvat dehidrogenaza\n- Acetil-CoA → Ciclul Krebs → oxidare completă la CO2\n- NADH → lanțul respirator\n- În ficat: acetil-CoA → sinteză lipide\n\nÎN ANAEROBIOZĂ:\nPiruvat + NADH + H+ → LACTAT + NAD+\n- Enzima: LDH (lactat dehidrogenaza)\n- Țesuturi: retină, embrionare, neoplazice, hematii, fibre musculare albe\n\nCICLUL CORI:\nMușchi: Glucoză → Piruvat → Lactat\n          ↓ (sânge)\nFicat: Lactat → Piruvat → Glucoză (gluconeogeneză)\n          ↓ (sânge) \nMușchi: Glucoză\n\nConversie în ALANINĂ (transaminare) → leagă metabolismul glucidic de cel proteic",
+        "mnemonic": "Aerob: Piruvat→Acetil→Krebs; Anaerob: Piruvat→Lactat (LDH)"
+      },
+      {
+        "front": "Care sunt sursele și etapele gluconeogenezei?",
+        "back": "GLUCONEOGENEZA = sinteză de novo a glucozei din compuși neglucidici\n\nLOCALIZARE: Ficat (80%), rinichi (20%)\n\nSURSE:\n- LACTAT (ciclul Cori)\n- AA GLUCOFORMATORI (alanina cel mai important)\n- GLICEROL (10% din gluconeogeneză)\n- NU acetil-CoA!\n\nENZIME SPECIFICE (≠glicoliză):\n\n1. Piruvat → Fosfoenolpiruvat:\n- Piruvat + CO2 → Oxalacetat (piruvat carboxilază, mitocondrie)\n- Oxalacetat → Fosfoenolpiruvat (PEPCK, GTP)\n\n2. Fructozo-1,6-biP → Fructozo-6-P:\n- Fructozo-1,6-bifosfataza\n\n3. Glucozo-6-P → Glucoză:\n- Glucozo-6-fosfataza (doar în ficat și rinichi!)\n\nREGLARE:\n- Stimulată de: glucagon, adrenalină, cortizol\n- Inhibată de: insulină",
+        "mnemonic": "Gluconeogeneză: 3 enzime specifice (Carboxilază-PEPCK, Bifosfatază, G6Pază)"
+      },
+      {
+        "front": "Care sunt reacțiile și bilanțul energetic al ciclului Krebs?",
+        "back": "CICLUL KREBS (acizilor tricarboxilici)\nLoc: Matrixul mitocondrial\n\nREACȚII:\n1. Acetil-CoA + Oxalacetat → CITRAT (citrat sintaza)\n2. Citrat → IZOCITRAT (aconitaza)\n3. Izocitrat → α-CETOGLUTARAT + CO2 + NADH\n4. α-Cetoglutarat → SUCCINIL-CoA + CO2 + NADH\n5. Succinil-CoA → SUCCINAT + GTP\n6. Succinat → FUMARAT + FADH2\n7. Fumarat → L-MALAT\n8. L-Malat → OXALACETAT + NADH\n\nBILANȚ/ACETIL-CoA:\n- 3 NADH → 7,5 ATP\n- 1 FADH2 → 1,5 ATP\n- 1 GTP → 1 ATP\n- TOTAL: 10 ATP/acetil-CoA\n\nBILANȚ/GLUCOZĂ:\n- 2 acetil-CoA × 10 = 20 ATP\n- + glicoliză + PDH = ~30-32 ATP total",
+        "mnemonic": "Krebs: Citrat-Izocitrat-αCG-SuccinilCoA-Succinat-Fumarat-Malat-Oxalacetat"
+      },
+      {
+        "front": "Care sunt etapele β-oxidării acizilor grași?",
+        "back": "β-OXIDAREA = oxidarea AG la acetil-CoA\nLoc: Matrixul mitocondrial\n\nETAPE PRELIMINARE:\n1. ACTIVAREA: AG + CoA + ATP → Acil-CoA + AMP + PPi (citosol)\n2. TRANSPORTUL: Carnitină + 2 acil-transferaze + translocază\n\nCICLUL β-OXIDĂRII:\n1. DEHIDROGENARE: Acil-CoA → Enoil-CoA (FADH2)\n2. HIDRATARE: Enoil-CoA → β-Hidroxiacil-CoA\n3. DEHIDROGENARE: β-Hidroxiacil-CoA → β-Cetoacil-CoA (NADH)\n4. TIOLIZĂ: β-Cetoacil-CoA → Acil-CoA(-2C) + Acetil-CoA\n\nBILANȚ PALMITAT (C16):\n- 7 cicluri β-oxidare\n- 8 acetil-CoA × 10 ATP = 80 ATP\n- 7 FADH2 × 1,5 = 10,5 ATP\n- 7 NADH × 2,5 = 17,5 ATP\n- -2 ATP (activare)\n- TOTAL: 106 ATP net",
+        "mnemonic": "β-oxidare: Dehidrogenare-Hidratare-Dehidrogenare-Tioliză (DHDT)"
+      },
+      {
+        "front": "Ce sunt corpii cetonici și când se formează?",
+        "back": "CORPI CETONICI:\n1. Acid acetoacetic (CH3-CO-CH2-COOH)\n2. Acid β-hidroxibutiric (CH3-CHOH-CH2-COOH)\n3. Acetonă (CH3-CO-CH3) - în cantități mici\n\nCETOGENEZA (în ficat):\n1. 2 Acetil-CoA → Acetoacetil-CoA (tiolază)\n2. + Acetil-CoA → HMG-CoA (sintaza)\n3. HMG-CoA → Acetoacetat + Acetil-CoA (liaza)\n\nUTILIZARE (țesuturi extrahepatice):\n- Acetoacetat + Succinil-CoA → Acetoacetil-CoA → 2 Acetil-CoA\n- Țesuturi: miocard, mușchi, rinichi, CREIER (în foame)\n- Ficatul NU poate utiliza (lipsă enzima de activare)\n\nCONDIȚII FAVORIZANTE:\n- Foame, inanniție\n- Diabet zaharat\n- Sarcină\n\nVALORI:\n- Cetonemie normală: 1 mg/dL\n- În diabet: până la 70 mg/dL → acidoză",
+        "mnemonic": "Cetogeneză: Ficat produce, NU utilizează; Creier folosește în foame"
+      },
+      {
+        "front": "Care sunt etapele biosintezei acizilor grași?",
+        "back": "BIOSINTEZA AG = Acetil-CoA → Acid palmitic (C16)\nLoc: CITOSOL (ficat principal)\n\nETAPE:\n\n1. TRANSFERUL Acetil-CoA din mitocondrie:\n- Acetil-CoA + Oxalacetat → Citrat (în mito)\n- Citrat → Citosol → Acetil-CoA + Oxalacetat\n\n2. FORMAREA MALONIL-CoA:\nAcetil-CoA + CO2 + ATP → MALONIL-CoA (acetil-CoA carboxilaza)\n★ Etapa reglatoare!\n\n3. ACID GRAS SINTAZA (complex multienzimatic):\n- Acetil se leagă de Cys-SH\n- Malonil se leagă de Pant-SH (fosfopanteină)\n- Condensare (−CO2) → β-cetoacil\n- Reducere (NADPH) → β-hidroxiacil\n- Deshidratare → enoil\n- Reducere (NADPH) → acil saturat\n- Se repetă de 7 ori → Acid palmitic (C16)\n\nCONSUM: 8 Acetil-CoA + 7 ATP + 14 NADPH",
+        "mnemonic": "Sinteză AG: Citosol, Malonil-CoA=etapa cheie, NADPH=reductor"
+      },
+      {
+        "front": "Cum este reglată biosinteza acizilor grași?",
+        "back": "ACETIL-CoA CARBOXILAZA = enzima cheie\n\nACTIVATORI (+):\n- CITRAT (semnalizează energie în exces)\n- Insulină (defosforilare → formă activă)\n- Aport glucidic crescut\n\nINHIBITORI (-):\n- Palmitil-CoA (produs final = feedback negativ)\n- Glucagon, Adrenalină, Noradrenalină\n- AMPc, Protein kinaza A (fosforilare → formă inactivă)\n- Acizi grași cu lanț lung\n\nCONDIȚII METABOLICE:\n\nFAVORABILE lipogenezei:\n- Raport insulină/glucagon CRESCUT\n- Aport glucidic crescut\n- ATP în exces\n\nNEFAVORABILE:\n- Foame, inanniție\n- Diabet (insulină scăzută)\n- Stres (catecolamine crescute)\n\nNOTĂ: Malonil-CoA inhibă carnitin-acil-transferaza I → blochează β-oxidarea când lipogeneza este activă",
+        "mnemonic": "Lipogeneză: Insulină+Citrat=activează, Glucagon+AcilCoA=inhibă"
+      },
+      {
+        "front": "Care este biosinteza și catabolismul colesterolului?",
+        "back": "BIOSINTEZA COLESTEROLULUI:\nLoc: Ficat, intestin (toate țesuturile)\nPrecursor: Acetil-CoA\n\nETAPE:\n1. 2 Acetil-CoA → Acetoacetil-CoA\n2. + Acetil-CoA → HMG-CoA\n3. HMG-CoA → MEVALONAT (HMG-CoA reductaza) ★\n4. Mevalonat → Izopren activ\n5. 6 × Izopren → Scualen (C30)\n6. Scualen → Lanosterol → COLESTEROL\n\n★ ETAPA REGLATOARE:\nHMG-CoA reductaza:\n- Inhibată de: colesterol, glucagon, statine (Lovastatin)\n- Stimulată de: insulină, hormoni tiroidieni\n- Forma defosforilată = activă\n\nCATABOLISM:\n- Colesterolul NU poate fi degradat\n- Eliminare: bilă (colesterol + acizi biliari)\n- Acizi biliari primari: colic, chenodezoxicolic\n- Acizi biliari secundari: dezoxicolic, litocolic\n- Circuit enterohepatic",
+        "mnemonic": "Colesterol: HMG-CoA reductaza=cheie, Statinele=inhibitori; Eliminare=bilă"
+      },
+      {
+        "front": "Ce sunt eicosanoizii și cum se sintetizează?",
+        "back": "EICOSANOIZI = derivați C20 din acid arahidonic\n\nTIPURI:\n- Prostaglandine (PGE2, PGF2α)\n- Prostaciclina (PGI2)\n- Tromboxani (TxA2, TxB2)\n- Leucotriene (LTA4, LTB4, LTC4)\n\nBIOSINTEZĂ:\n1. Fosfolipază A2 eliberează ACID ARAHIDONIC din fosfolipide\n\n2a. CICLOOXIGENAZA (COX):\n- Acid arahidonic → PGG2 → PGH2\n- PGH2 → PG clasice, Prostaciclină, Tromboxani\n\n2b. LIPOXIGENAZA:\n- Acid arahidonic → 5-HPETE → 5-HETE → LEUCOTRIENE\n\nINHIBITORI:\n- CORTICOSTEROIZI: inhibă fosfolipaza A2\n- AINS (Aspirină): inhibă COX (ireversibil la trombocite)\n\nACȚIUNI:\n- TxA2: vasoconstricție, agregare plachetară\n- PGI2: opuse TxA2 (vasodilatație, antiagregant)\n- LTC4: șoc anafilactic, astm",
+        "mnemonic": "Eicosanoizi: Arahidonic→COX→PG/Tx/PGI, Arahidonic→Lipox→LT"
+      },
+      {
+        "front": "Care sunt lipoproteinele serice și rolul lor?",
+        "back": "LIPOPROTEINE = transportori lipide în sânge\n\nCLASIFICARE (după densitate):\n\n1. CHILOMICRONI (densitate minimă):\n- Lipide 98-99%, proteine 1-2%\n- Transport lipide EXOGENE (alimentare)\n- Sintetizați în intestin\n- Dispar după 6-7h din sânge\n- Apo: B48, A → C, E în plasmă\n\n2. VLDL (very low density):\n- Lipide 89-94% (TG 55-65%)\n- Transport TG ENDOGENE (din ficat)\n- Apo: B100, C, E\n\n3. LDL (low density):\n- Lipide 75-80% (colesterol 35-40%)\n- Transport COLESTEROL → țesuturi\n- Aterogen (\"colesterol rău\")\n- Apo: B100\n\n4. HDL (high density):\n- Lipide 50-55% (fosfolipide 20-30%)\n- Transport invers colesterol → ficat\n- Antiaterogen (\"colesterol bun\")\n- Apo: AI, AII, C, D, E",
+        "mnemonic": "Chilomicroni=exogen, VLDL=endogen TG, LDL=colesterol rău, HDL=colesterol bun"
+      },
+      {
+        "front": "Care sunt tipurile de hiperlipoproteinemii?",
+        "back": "HIPERLIPOPROTEINEMII:\n\nTIP I:\n- Deficit lipoproteinlipază\n- ↑↑Chilomicroni, ↑↑TG\n- Ser lăptos, xantoame\n- Risc ateroscleroză SCĂZUT\n\nTIP IIa:\n- Deficit receptori LDL\n- ↑↑LDL, ↑↑Colesterol\n- Xantoame tendinoase\n- Risc ateroscleroză CRESCUT\n\nTIP IIb:\n- + ↑TG, ↑VLDL\n\nTIP III:\n- Deficit Apo-E\n- ↑Colesterol, ↑↑VLDL\n- Risc crescut AVC, IMA\n\nTIP IV:\n- Dezechilibru flux VLDL\n- ↑↑VLDL, ↑↑TG\n- Colesterol normal/ușor↑\n\nTIP V:\n- ↑↑TG (chilomicroni + VLDL)\n- Post mese bogate lipide/glucide\n\nVALORI NORMALE:\n- Colesterol total: <200 mg/dL\n- TG: <150 mg/dL\n- LDL: <100 mg/dL\n- HDL: >40 mg/dL",
+        "mnemonic": "Tip I=Chilo, II=LDL, III=apoE, IV=VLDL, V=mixt"
+      },
+      {
+        "front": "Care este structura enzimelor și tipurile de cofactori?",
+        "back": "STRUCTURA ENZIMELOR:\n\n1. ENZIME PROTEICE PURE:\n- Hidrolaze: ribonuclează, chimotripsină, lizozim\n- Structură doar proteică\n\n2. ENZIME HETEROPROTEICE:\n- APOENZIMA (proteină) + COFACTOR\n\nCOFACTORI:\n\na) COENZIME:\n- Legare slabă (legături H, ionice, hidrofobe)\n- NAD+, NADP+, FAD, FMN, CoA\n- Derivă din vitamine B\n\nb) GRUPĂRI PROSTETICE:\n- Legare covalentă (puternică)\n- Ex: hemul în citocromii\n\nc) IONI METALICI (metaloenzime):\n- Zn2+ (carboanhidrază)\n- Fe2+/Fe3+ (citocromii)\n- Cu2+ (citocrom oxidaza)\n- Mg2+ (kinaze)\n- Mn2+ (arginază)\n\nFUNCȚII IONI METALICI:\n- Stabilizare structură\n- Legare substrat\n- Participare la cataliză",
+        "mnemonic": "Enzime: Pure=hidrolaze, Hetero=Apo+Cofactor; Coenzime=slabe, Prostetice=covalente"
+      },
+      {
+        "front": "Ce sunt izoenzimele și care sunt exemple clinice importante?",
+        "back": "IZOENZIME = forme moleculare multiple ale aceleiași enzime\n- Catalizează aceeași reacție\n- Viteze diferite, proprietăți diferite\n- Distribuție tisulară specifică\n\nLDH (Lactat dehidrogenaza):\n- 2 lanțuri de bază: H (heart) și M (muscle)\n- 5 izoenzime:\n  • LDH1 (H4) - inimă\n  • LDH2 (H3M)\n  • LDH3 (H2M2)\n  • LDH4 (HM3)\n  • LDH5 (M4) - ficat, mușchi\n\nCK (Creatinfosfokinaza):\n- Lanțuri: M (muscle), B (brain)\n- 3 izoenzime:\n  • CK-MM - mușchi scheletici\n  • CK-MB - MIOCARD (specific IMA)\n  • CK-BB - creier\n\nUTILIZARE CLINICĂ:\n- IMA: ↑LDH1, LDH2, CK-MB, GOT\n- Afecțiuni hepatice: ↑LDH5, GPT, γ-GT\n- Raport GOT/GPT <1,3 = afectare hepatică",
+        "mnemonic": "LDH: H=inimă, M=mușchi; CK-MB=IMA specific"
+      },
+      {
+        "front": "Ce reprezintă ecuația Michaelis-Menten și constanta Km?",
+        "back": "ECUAȚIA MICHAELIS-MENTEN:\n\nVo = Vmax × [S] / (Km + [S])\n\nCOMPLEXUL ENZIMĂ-SUBSTRAT:\nE + S ↔ ES → E + P\n  K1  K2    K3\n\nKm = (K2 + K3) / K1\n\nSEMNIFICAȚIA Km:\n- Constanta de disociere a complexului ES\n- Măsură a AFINITĂȚII enzimei pentru substrat\n- Km MIC = afinitate MARE\n- Km MARE = afinitate MICĂ\n- Numeric: Km = [S] la care V = Vmax/2\n\nPREMIZE:\n1. [S] >> [E]\n2. Stare staționară: formare ES = disociere ES\n3. Condiții inițiale (acumulare produs neglijabilă)\n\nCazuri particulare:\n- [S] foarte mic: V ≈ k × [S] (cinetică de ordin I)\n- [S] >> Km: V ≈ Vmax (cinetică de ordin zero)",
+        "mnemonic": "Km = [S] când V = Vmax/2; Km mic = afinitate mare"
+      },
+      {
+        "front": "Care sunt tipurile de inhibiție enzimatică?",
+        "back": "INHIBIȚIE REVERSIBILĂ:\n\n1. COMPETITIVĂ:\n- I concurează cu S pentru situsul ACTIV\n- Structură similară substratului\n- Km aparent CREȘTE\n- Vmax NESCHIMBAT\n- Depășită prin ↑[S]\n\n2. NECOMPETITIVĂ:\n- I se leagă DOAR de complexul ES\n- Situs ALOSTERIC (diferit de cel activ)\n- Km NESCHIMBAT\n- Vmax SCADE\n\n3. NONCOMPETITIVĂ (mixtă):\n- I se leagă la E liberă ȘI ES\n- Situs alosteric\n- Atât Km cât și Vmax se modifică\n\nINHIBIȚIE IREVERSIBILĂ:\n- Blochează permanent situsul activ\n- Legătură covalentă sau foarte puternică\n- Exemplu: AINS (aspirina) pe COX\n\nTIPURI INHIBITORI IREVERSIBILI:\n- Analogi de substrat cu grupări reactive\n- Produși de reacție similari substratului\n- Analogi ai stării de tranziție",
+        "mnemonic": "Competitivă: ↑Km, Vmax=; Necompetitivă: Km=, ↓Vmax; Non: ambele modificate"
+      },
+      {
+        "front": "Care sunt valorile normale ale lipidelor plasmatice?",
+        "back": "LIPIDE PLASMATICE (mg/dL):\n\nLIPIDE TOTALE: 550-750\n\nTRIGLICERIDE:\n- Normal: <150\n- Limită: 150-199\n- Crescut: 200-499\n- Foarte crescut: ≥500\n\nCOLESTEROL TOTAL:\n- Optim: <200\n- Limită: 200-239\n- Crescut: ≥240\n- Alertă: >300\n\nLDL-COLESTEROL:\n- Optim: <100\n- Aproape optim: 100-129\n- Limită: 130-159\n- Crescut: 160-189\n- Foarte crescut: ≥190\n\nHDL-COLESTEROL:\n- Scăzut (risc): <40 (bărbați), <50 (femei)\n- Optim: ≥60\n\nRAPORT:\n- Colesterol total/HDL <5\n- LDL/HDL <3\n\nFOSFOLIPIDE TOTALE: 180-260\nACIZI GRAȘI LIBERI: 12-16",
+        "mnemonic": "Col<200, TG<150, LDL<100, HDL>60 = optim"
+      },
+      {
+        "front": "Care sunt enzimele marker pentru diagnostic în afecțiuni cardiace și hepatice?",
+        "back": "INFARCT MIOCARDIC:\n\n1. CK-MB (Creatinkinaza MB):\n- Cel mai specific pentru miocard\n- Crește la 4-6h, peak 12-24h\n- Revine la normal în 48-72h\n\n2. Troponine (T și I):\n- Cele mai specifice și sensibile\n- Cresc la 3-6h, rămân crescute 7-14 zile\n\n3. LDH1 și LDH2:\n- LDH1 > LDH2 (\"flipped pattern\")\n- Crește la 12-24h, peak 48-72h\n\n4. GOT (ASAT):\n- Crește la 6h, peak 36h\n- Nespecific (și în ficat, mușchi)\n\nAFECȚIUNI HEPATICE:\n\n1. GPT (ALAT):\n- CEL MAI SPECIFIC pentru ficat\n- Citoliza hepatică\n\n2. GOT (ASAT):\n- Și în inimă și mușchi\n\n3. Raport GOT/GPT:\n- <1,3 = afectare hepatică\n- >2 = hepatită alcoolică, ciroză\n\n4. γ-GT (Gamma-glutamil-transferaza):\n- Colestază, alcoolism\n\n5. Fosfataza alcalină (FAL):\n- Colestază, afecțiuni osoase",
+        "mnemonic": "IMA: CK-MB (specific), Troponine (sensibile); Ficat: GPT (specific), GOT/GPT<1,3"
+      },
+      {
+        "front": "Care sunt proprietățile și rolurile acizilor grași?",
+        "back": "ACIZI GRAȘI = componenți ai lipidelor saponifiabile\n\nCARACTERISTICI:\n- Monocarboxilici, alifatici\n- Nr par de atomi de C (4-26)\n- Catena saturată sau nesaturată\n- Izomerie cis (forme naturale) și trans\n\nTIPURI:\n\nSATURATI:\n- Palmitic (C16) - cel mai răspândit\n- Stearic (C18)\n- Lignoceric (C24)\n\nNESATURATI:\n- Palmitoleic (C16:1)\n- Oleic (C18:1) - cel mai frecvent\n- Linoleic (C18:2) - ESENȚIAL (ω-6)\n- Linolenic (C18:3) - ESENȚIAL (ω-3)\n- Arahidonic (C20:4) - precursor eicosanoizi\n\nACIZI GRAȘI ESENȚIALI:\n- Linoleic și Linolenic\n- Nu pot fi sintetizați de organism\n- Necesari pentru prostaglandine, membrane\n\nPROPRIETĂȚI:\n- Solubilitate în apă scade cu lungimea catenei\n- Formează săruri/săpunuri (tensioactive)\n- Peroxidare (rânce zire)",
+        "mnemonic": "Esențiali: Linoleic+Linolenic; Palmitic=C16 saturat, Oleic=C18:1 nesaturat"
+      },
+      {
+        "front": "Care sunt rolurile și structura colesterolului?",
+        "back": "COLESTEROL = sterol (alcool steroidic)\n\nSTRUCTURĂ:\n- Nucleu steranic (3 ciclohexan + 1 ciclopentan)\n- 27 atomi de carbon\n- Grupare -OH (hidrofilă)\n- Restul moleculei hidrofob\n\nDISTRIBUȚIE:\n1. Creier - cel mai bogat țesut\n2. Ficat\n3. Lipoproteine plasmatice\n4. Gonade, suprarenale\n5. Membrane celulare\n\nROLURI:\n1. Component structural al membranelor:\n- Reglează fluiditatea\n- Liber sau esterificat\n\n2. Precursor hormoni steroidici:\n- Glucocorticoizi (cortizol)\n- Mineralocorticoizi (aldosteron)\n- Androgeni (testosteron)\n- Estrogeni (estradiol)\n- Gestageni (progesteron)\n\n3. Precursor acizi biliari:\n- Acid colic, chenodezoxicolic\n\n4. Precursor vitamina D3:\n- 7-dehidrocolesterol → Calciferol\n\nVALOARI NORMALE: <200 mg/dL",
+        "mnemonic": "Colesterol: Membrane, Hormoni, Acizi biliari, Vitamina D (MHAV)"
+      },
+      {
+        "front": "Care sunt proprietățile și funcțiile gliceridelor?",
+        "back": "GLICERIDE (Acilgliceroli) = esteri ai glicerolului cu acizi grași\n\nTIPURI:\n- Monogliceride (1-acilglicerol)\n- Digliceride (1,2-diacilglicerol)\n- TRIGLICERIDE (1,2,3-triacilglicerol) - cele mai importante\n\nPROPRIETĂȚI FIZICE:\n- AG saturați cu lanț lung → solide (grăsimi)\n- AG nesaturați/lanț scurt → lichide (uleiuri)\n- Hidroliza: lipaze\n- Hidrogenare → crește punctul de topire\n- Peroxidare (rânce zire) - degradare oxidativă\n\nFUNCȚII TRIGLICERIDE:\n1. REZERVĂ ENERGETICĂ principală:\n- 40% din necesarul energetic\n- 9 kcal/g (vs 4 kcal/g glucide)\n- Depozitate în țesutul adipos\n\n2. IZOLATOR TERMIC\n\n3. PROTECȚIE MECANICĂ (organe)\n\n4. Transport în lipoproteine:\n- Chilomicroni (TG exogene)\n- VLDL (TG endogene)\n\nLOCALIZARE:\n- Țesut adipos (depozit)\n- Lipoproteine plasmatice\n- Lapte",
+        "mnemonic": "TG=3 AG+Glicerol; 9kcal/g; Transport: Chilo=exogen, VLDL=endogen"
+      },
+      {
+        "front": "Care sunt fosfolipidele și rolul lor?",
+        "back": "FOSFOLIPIDE = lipide structurale amfipatice\n\nTIPURI PRINCIPALE:\n\n1. GLICEROFOSFOLIPIDE:\n- Glicerol + 2 AG + Fosfat + grupare polară\n\na) Fosfatidilcoline (LECITINE):\n- Cele mai abundente în membrane\n- Componente surfactant pulmonar\n\nb) Fosfatidiletanolamine (CEFALINE):\n- Membrane celulare\n- Coagulare (factor plachetar)\n\nc) Fosfatidilserine:\n- Semnal apoptoză (pe fața externă)\n\nd) Fosfatidilinozitoli:\n- Semnalizare celulară (IP3, DAG)\n\n2. SFINGOLIPIDE:\n- Sfingazină în loc de glicerol\n- Abundente în țesutul nervos\n\na) Sfingomieline:\n- Teaca de mielină\n\nb) Glicosfingolipide:\n- Cerebrozide, gangliozide\n\nFUNCȚII:\n1. Structură membrane celulare (bistrat lipidic)\n2. Semnalizare celulară\n3. Surfactant pulmonar\n4. Emulgator (digestia lipidelor)\n5. Transport lipide în lipoproteine",
+        "mnemonic": "Fosfolipide: Lecitine=membrane+surfactant, Sfingomielină=nervi"
+      },
+      {
+        "front": "Care sunt valorile normale ale creatinei și creatininei?",
+        "back": "CREATINA:\n- Formă: liberă sau creatin-fosfat (compus macroergic)\n- Localizare: mușchi, creier\n- Creatin-fosfat = rezervă rapidă de energie în mușchi\n\nVALORI CREATINĂ PLASMATICĂ:\n- 0,5-1,5 mg/dL\n\nCREATININA:\n- Forma anhidră a creatinei\n- Produs de degradare al creatinei\n- Eliminată renal (neresorbită)\n\nVALORI CREATININĂ:\n- Plasmatică: 0,6-1,2 mg/dL\n- Urinară: 1,0-1,8 g/24h\n- Valori critice: >10 mg/dL (la nedializați)\n\nFACTORI CARE INFLUENȚEAZĂ:\n- Masa musculară (principalul)\n- Funcția renală\n- Dietă (minim)\n\nSEMNIFICATIE CLINICĂ:\n- Clearance creatinină = RFG\n- ↑Creatinină = insuficiență renală\n- Raport uree/creatinină:\n  • >20 = prerenal\n  • 10-20 = renal\n  • <10 = postrenal sau malnutriție",
+        "mnemonic": "Creatinină: 0,6-1,2 mg/dL; Produs degradare mușchi; Marker funcție renală"
+      }
+    ]
+  }
+]

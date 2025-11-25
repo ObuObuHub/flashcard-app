@@ -1,0 +1,599 @@
+15. Lipidele
+
+
+= constituenti ai organismelor vii, plante sau animale, greu solubile in apa, dar solubile in solventi nepolari (eter, benzen, cloroform). Aceasta proprietate se datoreaza unei intinse regiuni hidrocarbonate, hidrofobe.
+= rol:
+	•	reprezinta principala forma de depozitare si transport a rezervelor energetice.
+	•	au rol de izolatori termici, electrici si mecanici.
+	•	reprezinta parte structurala a membranei celulare si intercelulare.
+	•	sunt vitamine si hormoni.
+	•	au rol in procesele de comunicare si cunoastere intercelulara.
+= pot fi:
+- saponifiabile = acizi grasi legati esteric, amidic, care prin hidroliza se descompun; de exemplu: gliceride, fosfogliceride, sfingolipide, ceruri.
+- nesaponifiabile = hidrocarburi superioare si derivati oxigenati ai acestora care nu sunt scindate hidrolitic; de exemplu: terpene, carotenoizi, steroizi.
+
+
+Acizii grasi
+
+	•	reprezinta componenti ai lipidelor saponifiabile.
+	•	cei mai raspanditi sunt acizii monocarboxilici, alifatici cu catena normala  saturata sau nesaturata, cu numar pereche de atomi de C (4-26).
+	•	pot fi:
+	•	saturati (palmitic C16, stearic C18, lignoceric C24)
+	•	nesaturati:
+	•	au una sau mai multe grupari etilenice.
+	•	palmitic, oleic, linoleic, linolenic, arahidonic.
+	•	au izomerie cis si trans (formele naturale sunt cis).
+	•	acizii grasi sunt putin solubili in H2O, solubilitatea scazand cu lungimea catenei.
+	•	proprietati chimice:
+	•	reactii la gruparea carboxil:
+	•	formeaza saruri si sapunuri cu proprietati tensioactive;
+	•	formeaza esteri (gliceride, fosfogliceride);
+	•	formeaza amide.
+	•	reactii la nivelul legaturilor duble:
+	•	aditioneaza H2, halogeni;
+	•	sufera procese de peroxidare.
+
+
+Acilglicerolii (gliceridele sau grasimile neutre)
+
+- sunt lipidele cele mai raspandite in natura.	
+- reprezinta componentele principale ale grasimilor de rezerva din tesuturi si lapte.
+- in proportie mai mica se gasesc in lipoproteinele plasmatice.
+- sunt esteri ai glicerolului cu acizi grasi.
+
+	O
+	║	CH2-OCO-R1
+CH2-C-O-R	│
+│		CH-OCO-R2
+CH-OH	1-acilglicerol	│	1,2-diacilglicerol (diglicerid)
+│	(monoglicerid)	CH2OH
+CH2-OH
+
+
+CH2-OCO-R1
+│
+CH-OCO-R2	1,2,3-triacilglicerol (triglicerid)
+│
+CH2-OCO-R3
+
+	•	gliceridele care au in compozitie acizi grasi (AG) saturati cu catena mica si acizi grasi nesaturati sunt lichide.
+	•	cele cu continut mare de AG superiori sunt solide (devin lichide prin incalzire).
+	•	hidroliza se face cu ajutorul lipazelor.
+	•	pot aditiona H2 astfel incat punctul lor de topire creste.
+	•	prin expunere la lumina, aer si in prezenta unor factori ce genereaza radicali liberi se autooxideaza (peroxidare sau rancezire), reactie care se propaga in lant.
+	•	organismul este protejat de peroxidare prin diverse mecanisme dar si prin captatori de radicali liberi.
+
+
+Fosfogliceridele (glicerofosfolipidele, fosfatidele)
+
+	•	sunt lipide structurale.
+	•	in asociatie cu proteinele si alte lipide alcatuiesc membrana tuturor celulelor vegetale si animale.
+	•	din ele fac parte: fosfatidilcolinele (lecitine), fosfatidiletanolaminele (cefalinele), fosfatidilserinele (serin-cefaline), fosfatidilinozitolii, plasmalogenele, fosfatglicerolii.
+
+
+Sfingolipidele
+
+	•	sunt lipide de structura, absente in grasimile de depozit. Sunt raspandite in tesutul nervos.
+	•	exista 2 categorii:
+	•	sfingomielinele
+	•	glicosfingomielinele.
+
+
+Cerurile
+
+	•	sunt esteri ai acizilor grasi cu alcooli alifatici sau ciclici;
+	•	de exemplu: ceara de albine, lanolina (grasimea de pe lana de oaie).
+
+
+
+Lipidele nesaponifiabile
+
+	Au proprietatile lipidelor dar nu se pot scinda prin hidroliza.
+	•	terpenele = uleiuri eterice care dau mirosul fructelor si florilor; de exemplu: geraniolul, farnesolul, scualenul, intermediari in sinteza colesterolului, vitaminei K si E, ubichinona, dolicolul.
+	•	carotenoizi = au o coloratie rosie-portocalie; carotenoizii α, β, γ sunt raspanditi in morcovi si tomate.
+	•	steroizii = au comun ca structura steranul (3 nuclee ciclohexanice si un nucleu ciclopentanic condensate).
+ = principalele grupe de steroizi sunt: hormonii estrogeni, androgeni, gestageni, corticosuprarenali, acizii biliari si sterolii, substantele active cardiotonice din digitala (digitoxigenina, strofantidina, ouabagenina) au de asemenea structura steroidica.
+= sterolii sunt alcooli steroidici prezenti la toate organismele vii; cel mai important este colesterolul, inrudit cu el este 7-dehidrocolesterolul (provitamina D3).
+= acizii biliari sunt componenti ai bilei, se gasesc sub forma de saruri biliare; se formeaza din colesterol; cel mai important este acidul colic.
+
+
+
+Metabolismul acizilor grasi
+
+
+	•	trigliceridele sunt molecule energogene care prin degradare, sinteza, depozitare, transport sunt subordonate acestei functii.
+	•	trigliceridele acopera 40% din nevoile energetice din organism.
+	•	acizii grasi reprezinta 90% din structura unui triglicerid, iar prin degradarea sa acizii grasi vor elibera energie.
+	•	fosfatidele, sfingolipidele, colesterolul, pe langa rolurile structurale specifice, indeplinesc si rol in vehicularea trigliceridelor endogene si exogene.
+
+
+
+Degradarea oxidativa a acizilor grasi
+
+	•	acizii grasi rezultati prin hidroliza trigliceridelor endogene sau exogene elibereaza energia chimica inmagazinata in catenele hidrocarbonate prin arderea completa pana la CO2 si H2O.
+	•	acizii grasi sunt sursa importanta pentru multe tesuturi: miocard, muschi scheletici.
+	•	creierul nu utilizeaza direct acizii grasi; in diabet creierul utilizeaza ca sursa de energie corpii cetonici care provin din acizi grasi.
+	•	eritrocitele de asemenea nu pot folosi acizi grasi pentru ca nu au mitocondrii si lant respirator.
+	•	oxidarea completa a unui acid gras se desfasoara la nivel mitocondrial in trei etape:
+
+	•	β-oxidarea (specifica catabolismului acizilor grasi)
+	•	ciclul acizilor tricarboxilici
+	•	lantul respirator
+
+* 2), 3) = cai comune pentru toti compusii energogeni
+
+
+	•	β-oxidarea = procesul prin care acidul gras sufera un atac oxidativ la atomul din pozitia β, urmat apoi de desprinderea unui fragment de acetil-CoA (2 atomi de C).
+= procesul se repeta pana se formeaza n/2 molecule de acetil-CoA (n = numarul atomilor de C din acidul gras).
+= in aceasta etapa sunt utilizati atomi de H2 si transferati pe coenzima.
+	•	ciclul acizilor tricarboxilici = consta in degradarea oxidativa a resturilor acetil cu formarea de CO2 si coenzime reduse.
+	•	lantul respirator = oxidarea coenzimelor reduse.
+
+
+ β-oxidarea 
+
+	•	Activarea acizilor grasi:
+Acizii grasi indiferent de natura procesului metabolic participa sub forma de esteri ai coenzimei A, procesul fiind numit activarea acizilor grasi. Are loc in citosol sub actiunea unei kinaze:
+R-COOH + CoASH + ATP → R-Co~ScoA + PPi + AMP
+	•	Transferul acizilor grasi in mitocondrie
+Pentru ca procesul se desfasoara in mitocondrie, iar activarea acizilor grasi in citosol, este nevoie de transfer al derivatilor acil-CoA.
+Acest lucru se face cu ajutorul unei navete (localizate pe fata externa si interna a membranei mitocondriale la care participa si carnitina) formata din carnitina si 2 acil-transferaze + o proteina transportoare (translocaza).
+Carnitil-acil-transferaza I + translocaza + carnitil-acil-transferaza II
+	•	β-oxidarea acil-CoA
+	•	Dupa transportul in interiorul mitocondriei, acil-CoA este supusa unui proces de oxidare care consta in 4 reactii.
+	•	2 dehidrogenari
+	•	o hidratare intre cele 2 dehidrogenari
+*In urma acestor reactii Cβ este transformat in >C=O.
+	•	scindarea legaturii Cα-Cβ de catre CoASH (tioliza)  care duce la formarea acetil-CoA cu 2 atomi de C in minus.
+	•	de exemplu: Acidul palmitic, cel mai raspandit acid gras din organism are 16 atomi de C, va suferi n/2-1 procese de β-oxidare (16/2-1=7 procese de β-oxidare); se vor forma 8 grupari acetil-CoA.
+	•	gruparile acetil-CoA vor intra in circuitul ciclului Krebs rezultand coenzimele FADH2 si NADH.
+	•	coenzimele rezultate din β-oxidare si ciclul Krebs vor fi oxidate in lantul respirator si vor forma molecule ATP.
+	•	in urma arderii unei molecule de palmitil-CoA se formeaza 131 molecule ATP, doua legaturi macroergice sunt cheltuite la activarea acidului gras, beneficiul net fiind in final de 129 molecule ATP.
+	•	randamentul de conservare a energiei libere in ATP este ridicat ~ 40%.
+
+Β-oxidarea acizilor nesaturati
+
+	Procesul se desfasoara normal pana in vecinatatea legaturii sau legaturilor duble originale. Pentru a depasi unele obstacole pe care le implica configuratiile cis ale legaturilor duble vor fi necesare reactii auxiliare catalizate enzimatic de catre enzimele auxiliare care determina izomerizare cis-trans si migrarea dublei legaturi.
+
+
+Oxidarea acizilor grasi in peroxizomi
+
+
+× acizii grasi cu o catena lunga pot fi oxidati la acetil-CoA in peroxizomi.
+× aceste oxidari determina formarea H2O2, reactia fiind catalizata de oxidaze.
+× H2O2 rezultata este descompusa sub actiunea catalazei la H2O + O2.
+× acetil-CoA difuzeaza prin peroxizomi in mitocondrie rezultand CO2 + H2O cu sinteza de ATP sau este convertita in corpi cetonici.
+× β-oxidarea peroxizomala difera de cea mitocondriala.
+× in peroxizomi reactia este catalizata de o oxidaza si nu de o dehidrogenaza.
+× numarul peroxizomilor si continutul lor in enzimele β-oxidarii creste semnificativ datorita unor factori nutritionali (ingestie de lipide, diabet, inanitie), hormonali, medicamentosi (agenti hipolipemianti, aspirina).
+× aceasta dovedeste ca peroxizomii sunt implicati in metabolismul lipidic.
+
+
+Cetogeneza
+
+	•	reprezinta calea alternativa de utilizare energogena a acizilor grasi, a acetil-CoA rezultata prin β-oxidare, cu formarea corpilor cetonici.
+	•	sub denumirea de corpi cetonici intelegem:
+	•	acidul acetoacetic
+CH3-C-CH2-COOH
+	║
+	O
+
+	•	acidul β-hidroxibutiric (izomerul D)
+CH3-CH-CH2-COOH
+	│
+	OH
+	•	acidul acetoacetic prin hidrogenare da acidul β-hidoxibutiric.
+	•	sinteza acetoacetatului are loc in mitocondriile hepatice din acetil-CoA rezultata prin β-oxidarea acizilor grasi.
+	•	condensarea a 2 molecule de acetil-CoA sub actiunea tiolazei (CoASH)
+	•	condensarea acetoacetil-CoA cu o noua molecula de acetil-CoA sub actiunea sintazei (HMG-CoA = hidroxi-metil-glutaril-CoA).
+	•	sub actiunea unei liaze HMG-CoA liaza are loc reactia inversa ce da nastere acetoacetatului si acetil-CoA.
+	•	acetoacetatul trece in sange apoi este ars de diverse tesuturi la CO2.
+	•	mai intai este activat la acetoacetil-CoA prin schimb cu succinil-CoA (intermediar al ciclului Krebs).
+	•	acetoacetil-CoA este scindat in acetil-CoA sub actiunea tiolazei.
+	•	acetoacetil-CoA intra apoi in ciclul Krebs si lantul respirator.
+	•	ficatul nu poate metaboliza acidul acetoacetic pentru ca nu poseda echipamentul enzimatic necesar activarii acestuia.
+	•	acetoacetatul este sursa de energie pentru miocard, muschi scheletici, rinichi, creier, diafragm.
+	•	prin cetogeneza creierul poate utiliza rezervele lipidice din organism.
+	•	Cetonemia = 1mg/dl.
+	•	cetogeneza este amplificata cand scade disponibilitatea de glucoza: foame, diabet, sarcina.
+	•	malonil-CoA inhiba transportul acil in mitocondrie, deci blocheaza β-oxidarea.
+	•	in cetogeneza concentratia de malonil-CoA este scazuta si este favorizata β-oxidarea acil-CoA la acetil-CoA.
+	•	al doilea punct de control este situat la rascrucea care dirijeaza acetil-CoA spre sinteza de acetoacetat sau spre oxidare in ciclul Krebs.
+	•	oxaloacetatul (rezultat din glucoza) va stabili balanta dintre cetogeneza si ardere mitocondriala.
+	•	in absenta glucozei, oxalacetatul este scazut si este activata cetogeneza.
+	•	in diabet cetonemia poate ajunge la 70mg/dl, corpii cetonici consuma rezerva alcalina a organismului generand acidoza.
+	•	corpii cetonici sunt eliminati prin urina sub forma de saruri producand cetonurie si poliurie (fiind substante osmotic active).
+
+
+Biosinteza acizilor grasi
+
+	•	Sinteza acizilor grasi si incorporarea lor in trigiceride constituie mecanismul principal de stocare a excesului de glucide alimentare.
+	•	Capacitatea organismului de a depozita glucide sub forma de glicogen este limitata.
+	•	Surplusul de glucide este convertit in acizi grasi si apoi in trigliceride care sunt depozitate in tesutul adipos.
+	•	Atomii de carbon utilizati pentru sinteza acizilor grasi provin din acetil-CoA care rezulta in urma glicolizei la piruvat a glucozei, urmata de decarboxilarea oxidativa a acestuia din urma.
+	•	Acizii grasi au un numar par de atomi de carbon, acestia rezultand prin legarea cap-coada a unitatilor C2 furnizate de acetil-CoA.
+	•	Biosinteza cuprinde mai multe procese:
+	•	sinteza „de novo“ a acidului palmitic
+	•	elongarea acidului palmitic sau a unor acizi grasi endogeni sau exogeni
+	•	introducerea de legaturi duble in acizii grasi endogeni sau exogeni.
+
+Biosinteza acidului palmitic
+
+» din acidul palmitic prin elongare sau introducerea de legaturi duble se pot forma acid stearic, palmitoleic, oleic, lignoceric, etc.
+» sinteza se face sub actiunea unei proteine multienzimatice: acid gras sintaza.
+» majoritatea tesuturilor poseda acest echipament enzimatic, insa ficatul detine rolul principal in sinteza „de novo“ a acidului palmitic.
+» procesul este endergonic (necesita ATP) si intens reductiv (necesita NADPH).
+
+a) Transferul acetil-CoA din mitocondrie in citosol
+- sinteza acizilor grasi are loc in citosol.
+- NADPH si ATP necesar sintezei este furnizat tot de glucoza.
+- acetil-CoA se formeaza in matrixul mitocondriei
+- trecerea acetil-CoA prin membrana mitocondriala nu se poate realiza pentru ca membrana este nepenetrabila pentru acetil-CoA. Astfel:
+	•	in mitocondrie acetil-CoA se condenseaza cu oxalacetatul → citrat (sub actiunea citrat sintazei).
+	•	citratul este translocat si apoi scindat in acetil-CoA si oxalacetat (citrat liaza).
+acetil-CoA + oxalacetat 			citrat
+			citrat sintaza
+
+
+citrat			 oxalacetat + acetil-CoA
+		   citrat liaza
+
+
+	        oxalacetat	            malat
+			malat dehidrogenaza
+
+				oxidare
+malat	                          oxalacetat
+
+              decarboxilare		piruvat (trece in mitocondrie unde se      transforma in oxalacetat)
+
+
+	•	aceasta ultima cale de utilizare a malatului, furnizeaza NADPH necesar sinteza de acizi grasi.
+	•	transferul acetil-CoA in citosol pentru sinteza acizilor grasi depinde de oxalacetat, citrat, ATP; acestea au valori crescute in aport glucidic mare, cand ciclul Krebs este saturat.
+
+
+b) Sinteza malonil-CoA
+» desi acetil-CoA furnizeaza atomii de carbon din acidul palmitic, procesul de biosinteza necesita obligatoriu CO2, rezultand malonil-CoA.
+	 acetil-CoA carboxilaza
+  CH3-C~ScoA + CO2 + ATP	            HOOC-CH2-C-ScoA + ADP + Pi
+	 ║	       carboxiligaza	      ║
+	 O	      O
+    acetil-CoA	    malonil-CoA
+
+» aceasta este etapa cheie, reglatoare a biosintezei acidului palmitic.
+» factorii reglatori ai acetil-CoA carboxilazei sunt:
+	•	acumularea de citrat = acest metabolit semnalizeaza gradul de saturare cu substrat al ciclului acizilor tricarboxilici si indirect incarcarea energetica celulara.
+	•	palmitil-CoA = semnalizeaza excesul de acizi grasi
+	•	starea hormonala 
+= efect pozitiv - insulina
+= efect negativ – glucagonul, adrenalina, noradrenalina, AMPc, 
+	         activitatea protein-kinazei A
+* perioadele alimentare cu multe glucide caracterizate prin raport ridicat insulina/glucagon sunt favorabile conversiei glucozei in acizi grasi.
+iv. cantitatea de enzime din ficat – in perioada de alimentatie glucidica crescuta, cantitatea de enzime este ridicata.
+
+
+Acid gras sintaza
+
+= este o proteina uriasa, formata din doua lanturi polipeptidice identice.
+	•	restul acetil din acetil-CoA este transferat gruparii Cys-SH catalizata prin transacilaza.
+	•	restul malonil din malonil-CoA este transferat gruparii tiolice a fosfopanteteinei, catalizata de transacilaza.
+	•	urmeaza un proces de decarboxilare si rezulta un β-cetoacil cu 4 atomi de C
+	•	urmeaza reducerea derivatului β-cetoacil si rezulta un β-hidroxiacil.
+	•	dehidrogenarea si formarea unei duble legaturi + H2O; rezulta un derivat tiolesteric al acidului α,β-nesaturat.
+	•	hidrogenarea NADPH-dependenta rezultand un acid gras saturat, ca derivat tiolesteric; rezulta acidul butiric cu 4 atomi de C.
+	•	acizii grasi cu 4-14 atomi de C nu sunt eliberati de pe acid gras sintaza, numai acidul palmitic este detasat hidrolitic. Gruparile acil de acizi grasi intermediari (C4-C14) sunt transferati de pe gruparea tiolica a panteteinei la gruparea Cys-SH vecina. Gruparea panteteinei este incarcata cu o noua grupare malonil si sunt reluate reactiile.
+	•	ultima reactie este eliberarea acidului palmitic prin hidroliza.
+Cys-S-CO-CH3
+Pant-S-CO-CH2-COOH
+	  ↓-CO2
+Cys-SH
+Pant-S-CO-CH2-CO-CH3
+	  ↓NADPH+H+
+Cys-SH
+Pant-S-CO-CH2-CH-CH3
+	 -H2O	    │
+	           OH	
+
+Cys-SH
+Pant-S-CO-CH=CH-CH3
+	 ↓ NADPH+H+
+Cys-SH
+Pant-S-CO-CH2-CH2-CH3
+	+ COOH-CH2-C-ScoA (malonil)
+	║
+		O
+	                Etc.
+
+Elongarea acizilor grasi
+
+	•	sinteza „de novo“ prin acid gras sintaza duce la formarea acidului palmitic.
+	•	acizii grasi superiori sunt obtinuti prin elongarea acidului palmitic sau a acizilor grasi exogeni.
+	•	la mamifere elongarea are loc in reticolul endoplasmatic sub actiunea unui sistem multienzimatic care ataseaza la acidul preexistent unitati C2 furnizate de malonil-CoA (acidul palmitic→acid stearic).
+
+CH3-(CH2)14-CO~SCoA + HOOC-CH2-CO~S-CoA
+palmitil-CoA	                       malonil-CoA
+
+			-CoASH
+			-CO2
+
+CH3-(CH2)14-CO-CH2-CO~SCoA
+		       ↓NADPH+H+
+CH3-(CH2)14-CH-CH2-CO~SCoA
+	│
+	OH
+		       ↓ -H2O
+CH3-(CH2)14-CH=CH-CO~SCoA
+		       ↓ NADPH+H+
+CH3-(CH2)14-CH2-CH2-CO~SCoA
+stearil-CoA
+
+
+
+Biosinteza acizilor grasi nesaturati
+
+
+	•	sinteza este limitata la acizii grasi monoetilenici (palmitoleic, oleic) nu si a acizilor grasi polietilenici.
+	•	acidul linoleic indispensabil pentru sinteza lecitinelor, esteri de colesterol, prostaglandine, poate fi obtinut numai pe cale exogena, fiind un acid gras nutritiv „esential“.
+	•	acizii monoetilenici se obtin din acizii grasi saturati corespunzatori.
+	•	se consuma O2 si NADH si participa 2 enzime: acil-CoA desaturaza si o flavoproteina, citocrom b5 reductaza.
+	•	acidul oleic nu poate fi transformat in acid linoleic si acid linolenic.
+
+
+
+
+Eicosanoizii (prostaglandine, tromboxani, leucotriene)
+
+	•	sunt substante de natura lipidica, derivate din acizi grasi nesaturati, cu un spectru larg de efecte biologice, hormoni paracrini.
+	•	prostaglandinele sunt implicate in urmatoarele procese fiziopatologice: vasomotricitate, inflamatie, tromboza, secretie gastrica, reproducere, functie renala, transmisie nervoasa.
+	•	grupul eicosanoizilor (C20) cuprinde:
+	•	prostaglandinele „primare“ sau „clasice“ (PG): PGE2, PGF2α.
+	•	endoperoxizii prostaglandinici (PGG2, PGH2).
+	•	prostaciclina (PC) = PGI.
+	•	tromboxanii (TX) = cuprind un heterociclu pironic cu O2; TXA2 este foarte instabil, trece repede in TXB2.
+	•	leucotrienele (LT) = acizi grasi C20 cu 3 duble legaturi conjugate (LTA, LTB, LTC, LTD, LTE).
+	•	prostaglandinele sunt derivati ai unui acid gras C20, acidul prostanoic.
+
+Biosinteza
+
+× se realizeaza la nivelul tuturor tesuturilor.
+× nu sunt depozitati in celule, dupa sinteza actioneaza imediat.
+× sinteza PG este declansata de multi stimuli: umorali, electrici, mecanici.
+
+1) prima etapa consta in modificarea starii fosfolipidelor membranare si/sau activarea fosfolipazei A2 care ataca hidrolitic legatura esterica din pozitia 2 a glicerofosfolipidelor → eliberarea unui acid gras de regula acidul arahidonic.
+2) etapa a II a – acidul arahidonic urmeaza 2 cai, fie sub actiunea ciclooxigenazei sau cea a lipoxigenazei.
+
+Ciclooxigenaza (prostaglandin sintaza) 
+= hemoproteina cu dubla actiune:
+	•	dioxigenazica (incorporeaza O2 in substrat).
+	•	peroxidazica (descompune peroxidul).
+Sub actiunea peroxidazei rezulta endoperoxizi ciclici ca PGG2 (cu actiune vasoactiva puternica), PGH2, compusi labili din care rezulta PG clasice (mediata de prostaglandin sintaza), TX (TX-sintaza), PC (PC-sintaza).
+→TX-sintaza este mai abundenta in creier, inima, leucocite, plachete, splina, fibroblastii din pulmon.
+→PC-sintaza se gaseste in endoteliul vascular si inima.
+→PG-sintaza (clasica) abunda in pulmon, creier, stomac, muschi.
+
+Lipooxigenaza 
+Actioneaza prin introducerea unei grupari peroxi in acidul arahidonic. Rezulta 5-hidroperoxi-eicosatetrenoat (5 HPETE) compus instabil ce trece rapid in 5-HETE → LT (cea mai activa LTA4 → LTB4)
+						        ↓
+						     LTC4
+
+× cascada de sinteza a eicosanoizilor este intrerupta la diverse niveluri prin actiunea unor inhibitori naturali endogeni sau medicamentosi:
+
+	•	corticosteroizii inhiba fosfolipaza A2 si eliberarea substratului.
+	•	AINS inhiba ciclooxigenaza prin acilarea ireversibila a proteinei. Plachetele sunt mai sensibile la aspirina pentru ca nu au capacitatea de a reinnoi moleculele modificate din enzima si aceasta ramane inactiva pe toata durata existentei plachetelor. Celulele endoteliului vascular au capacitatea de reinnoire treptata a moleculelor inactivate.
+
+
+Catabolismul
+
+Viata biologica este foarte scurta:
+	•	PG primare (E2, F2α) sunt eliminate prin pulmon.
+	•	TXA2 activ devine inactiv fiind transformat in TXB2.
+	•	PC este metabolizata la 6-ceto PGF1.
+
+
+Actiunile biologice ale eicosanoizilor
+
+	•	PG - sunt mesageri chimici, hormoni paracrini.
+	•	digestiv: > PGF2α – contracta musculatura longitudinala si circulara.
+     > PGE2 – relaxeaza musculatura neteda circulara
+	    - inhiba secretia de suc gastric
+	    - inhiba absorbtia intestinala.
+	    - este agent antiulcerogen.
+         - pulmon: > PGF2α – actiune contractila la nivelul traheei, bronhiilor.
+      > PGE2 – actiune bronhodilatatoare.
+	•	renal – regleaza fluxul sanguin, excretia de Na+, homeostazia H2O.
+	•	nervos > PGE2 – tranchilizant, anticonvulsivant prin scaderea GMPc.
+      > PGF2α – efect contrar prin cresterea GMPc.
+	•	reproducator: 
+	•	♂ - influenteaza spermatogeneza, fertilitatea.
+	•	♀ - ciclul ovarian, contractilitatea miometrului.
+	•	PGF2α – efect contractil, este utila in declansarea travaliului sau avortului terapeutic.
+
+	•	TxA2 si prostaciclina
+TxA2 » are actiune contractila la nivelul musculaturii netede a vaselor periferice, arterelor coronare,
+     » creste tensiunea arteriala,
+     » stimuleaza agregarea plachetara si formarea trombusului.
+Prostaciclina are efecte contrare.
+
+	•	Leucotrienele
+	•	actioneaza ca agenti chemotactici si chemochinetici determinand acumularea de neutrofile in focarul inflamator.
+	•	pe pulmon are actiune contractila asupra musculaturii netede din parenchim si bronhii determinand astmul bronsic.
+	•	LTC4 este raspunzatoare de producerea socului anafilactic.
+
+
+Colesterolul
+
+1. liber sau acil-colesterolul intra in structura membranelor celulare.
+- creierul este cel mai bogat in colesterol
+- ficatul este al II lea tesut in ceea ce priveste cantitatea de colesterol
+- lipoproteinele plasmatice
+- gonadele
+2. intra in sinteza horminilor steroidici, corticosuprarenalieni, sexuali.
+3. precursor al acizilor biliari.
+4. necesar sintezei calciferolului (vitamina D3).
+
+Biosinteza
+
+= toate tesuturile au echipament enzimatic necesar sintezei, insa ficatul si intestinul detin primele locuri in ceea ce priveste sinteza.
+= acetil-CoA otinuta din glu → glicoliza → piruvat + decarboxilare oxidativa genereaza acizi grasi (prin β-oxidare) si aminoacizi (prin transaminare si degradarea catenei ternare).
+= colesterolul este un compus poliizoprenic rezultat prin condensarea a 6 unitati de izopren activ.
+	•	formarea HMG-CoA din acetil-CoA.
+	•	transformarea HMG-CoA in mevalonat in prezenta HMG-CoA reductazei.
+- etapa reglatorie a procesului de colesterolgeneza prin activitatea enzimei HMG-CoA reductazei.
+- colesterolul este represor al enzimei, dar determina si degradarea ei.
+- fosforilarea si defosforilarea ei influenteaza activitatea enzimei.
+- forma defosforilata are activitate catalitica accentuata.
+- insulina promoveaza forma defosforilata, stimuland sinteza colesterolului.
+- hormonii tiroidieni au actiune colesterolgenetica.
+- glucagonul si glucocorticoizii au actiune negativa asupra HMG-CoA reductazei.
+* Datorita asocierii bolilor cardiovasculare cu hipercolesterolemia, au fost identificati compusi care inhiba sinteza colesterolului prin inhibarea HMG-CoA reductazei = Lovastatin
+- mevalonatul sufera 3 procese de fosforilare, apoi o decarboxilare rezultand izoprenul activ.
+3) prin condensare cap-coada a 2 unitati de izopren rezulta un compus cu 10 atomi de carbon, acesta se va condensa apoi cu o molecula de izopren activ → un derivat cu 15 atomi de carbon. Doua molecule C15 prin condensare cap-coada formeaza o hidrocarbura C30- scualen.
+4) scualenul este transformat intr-un steroid, lanosterolul.
+5) lanosterolul se transforma in colesterol prin pierderea a 3 grupari CH3, o hidrogenare a unei duble legaturi si migrarea alteia.
+
+Catabolismul colesterolului
+
+= nucleul steranic al colesterolului, ca si alti steroizi, nu poate fi degradat in organism si este eliminat ca atare, calea principala de eliminare fiind bila, care contine colesterol, acizi biliari ( cataboliti ai colesterolului).
+= o alta modalitate de eliminare este prin descuamarea pielii si a epiteliului intestinal.
+= acizii biliari - cataboliti ai colesterolului cu rol esential in digestia si absorbtia lipidelor.
+= colesterolul este hidrofob.
+= el este mentinut in solutie prin combinare cu substante amfipatice, lecitine si saruri biliare.
+= pentru a fi mentinut in bila necesita sa se afle un raport bine determinat intre fosfolipide, colesterol, saruri biliare.
+= modificarea unuia dintre componentii raportului duce la scoaterea colesterolului din solutie.
+= colesterolul biliar din alimente si cel din epiteliul intestinal descuamat este reabsorbit cu alte lipide, restul fiind eliminat prin fecale sub forma de coprostanol si coprostanona.
+= transformarea colesterolului in acizi biliari este calea cea mai importanta de catabolism a colesterolului. 
+
+
+	Acizii biliari 
+	•	sunt secretati in hepatocite si urmeaza calea canaliculelor biliare ajungand prin vezica biliara in duoden.
+	•	sunt secretati ca acizi biliari primari (acidul colic si acidul chenodezoxicolic).
+	•	sunt conjugati in ficat cu glicerol sau taurina.
+	•	in bila se afla sub forma de saruri biliare.
+	•	dupa ce participa la digestia si absorbtia lipidelor, sub actiunea florei bacteriene se transforma in acizi biliari secundari: acidul dezoxicolic si acidul litocolic (sau chenodezoxicolic).
+	•	in ileonul distal acizii grasi sunt resorbiti si prin sistemul port ajung din nou in ficat.
+	•	la nivelul ficatului acizii biliari sunt conjugati impreuna cu acizii grasi primari si elimnati prin bila = circuitul enterohepatic al acizilor biliari.
+	•	o mica parte din acizii biliari, la fiecare tura a circuitului enterohepatic scapa reabsorbtiei si este eliminata prin fecale = cale de eliminare a colesterolului (~0,5g/zi).
+
+ 
+Lipoproteinele serice
+
+
+	•	trigliceridele reprezinta principala modalitate de depozit a rezervelor energetice ale organismului.
+	•	rezulta din excesul glucidelor ingerate si a grasimilor consumate.
+	•	transportul lor prin organism se realizeaza cu ajutorul lipoproteinelor.
+
+Rolul lipoproteinelor
+1. transportul trigliceridelor
+2. transportul colesterolului exogen, endogen de la ficat la tesuturile extrahepatice
+3. vehicul pentru vitaminele liposolubile
+4. reglarea proceselor metabolice
+5. pastrarea compozitiei lipidice a membranelor.
+	Lipoproteinele au o componenta proteica (apolipoproteina A, B, C) care ofera si situsuri pentru recunoasterea unor receptori de pe suprafata celulelor, sau care functioneaza ca activatori sau inhibitori ai enzimelor ce participa la metabolismul lor.
+	Lipoproteinele au o structura comuna, lipidele nepolare, trigliceridele si esterii colesterolului, formeaza un miez hidrofob imbracat intr-un strat de componenti polari, apolipoproteine, fosfolipide, colesterol. Ele cuprind si cantitati mici de glucide (sub forma de glicoproteine). Toate aceste componente sunt leagate intre ele prin legaturi necovalente.
+
+Analiza lipidelor plasmatice
+
+1) dozarea lipidelor ca specii moleculare:
+- lipide totale = 550-750 mg/dl
+- trigliceride = 30-140 mg/dl
+- colesterol total = 120-260 mg/dl
+- fosfolipide totale = 180-260 mg/dl
+- acizi grasi liberi = 12-16 mg/dl.
+2) separarea lipoproteinelor ca entitati morfofunctionale prin:
+a. ultracentrifugare = are la baza diferenta de densitate ca urmare a diferentelor date de compozitia proteica/lipidica. Prin aceasta metoda s-au obtinut 4 fractiuni majore:
+- chilomicroni
+- LP cu densitate foarte mica (VLDL)
+- LP cu densitate mica (LDL)
+- LP cu densitate mare (HDL)
+b. electroforeza = in functie de compozitia proteica superficiala, lipoproteinele poarta sarcini electrice si se pot separa prin ELFO. Se obtin astfel 4 fractiuni:
+- chilomicronii care nu migreaza
+- pre-β-lipoproteine corespunde VLDL
+- β-lipoproteinele corespunde LDL
+- α-lipoproteinele corespunde HDL.
+Chilomicronii (apo-B48,, apo-A → apo-C, apo-E in plasma)
+
+
+- au continut mare e lipide 98-99%, proteine 1-2%.
+- au dimensiuni mari, densitate mica, dau serului aspect latescent (tinut la rece serul formeaza un strat superficial cremos).
+- se formeaza la nivelul mucoasei intestinale unde incorporeaza lipidele alimentare.
+- dispar dupa 6-7 ore din sange → clarificarea serului.
+- sunt prezenti dupa ingerarea unei cantitati crescute de grasimi din alimente.
+
+	Catabolismul chilomicronilor
+
+	•	Trigliceridele sunt hidrolizate sub actiunea lipoproteinlipazei. Tesuturile cu cea mai mare cantitate de lipoproteinlipaza sunt: muschii scheletici, miocard, glanda mamara, pulmon, tesut adipos.
+	•	Dupa ce hidroliza trigliceridelor avanseaza, compusii superficiali devin supranumerari. Colesterolul liber, fosfolipidele apo-C sunt transferate HDL. Astfel chilomicronii devin „resturi chilomicronice“, care vor fi captate de ficat, unde compusii sunt hidrolizati si utilizati corespunzator. Astfel ajunge colesterolul exogen si cel intestinal la nivelul ficatului. Colesterolul eliberat din „resturile chilomicronice“ inhiba HMG-CoA reductaza scazand sinteza colesterolului.
+
+Boli
+
+	•	Deficit de lipoproteinlipaza, apo-B → hiperlipoproteinemie tip I (creste concentratia chilomicronilor, a trigliceridelor si determina depunerea de trigliceride in tesuturi = xantoame).
+	•	Anomalia sintezei de apo-B48 = nu pot fi transportate lipidele exogene, nu se pot forma chilomicronii → steatoree, carenta de vitamine liposolubile, scaderea lipidelor totale, scaderea trigliceridelor, scaderea colesterolului.
+
+VLDL (apo-B100 → apo-C, apo-E in plasma)
+
+
+- sunt sintetizate in ficat din lipide 89-94%, cu precadere trigliceride 55-65%, fosfolipide, esteri de colesterol si colesterol liber.
+- asigura transportul trigliceridelor sintetizate in ficat la tesuturile extrahepatice.
+- apar dupa ingestie crescuta de glucide, excesul de glucoza fiind transformat de ficat in trigliceride.
+- VLDL-ul creste in foame prelungita, inanitie, diabet, pentru ca are loc o sinteza crescuta de trigliceride din acizi grasi liberi circulanti.
+- cresc sinteza de trigliceride hepatice, urmata de perturbarea cailor de sinteza (prin deficit de proteine si fosfolipide si incetinirea ritmului de sinteza a VLDL) si export a VLDL ducand la acumularea de grasimi in ficat.
+- VLDL, pentru ca are apo-CII, activeaza lipoproteinlipaza, incepe hidroliza trigliceridelor si imbogatirea cu colesterol furnizat de HDL. Apo-CII trece la HDL odata cu pierderea trigliceridelor, insa apo-B este pastrata. Imbogatirea cu colesterol furnizat de HDL se face sub actiunea apo-D, componenta a HDL, care activeaza acil-colesterol transferaza. LCAT (lecitin-colesterol acil transferaza) este activata de apo-CI , componenta a VLDL.
+
+
+
+LDL (apo-B100 este majoritara)
+
+- au un continut lipidic de 75-80%, predominant colesterol liber 35-40%, esterificat, fosfolipide si numai 8-12% trigliceride.
+- rolul este de transport al colesterolului spre tesuturi.
+- se formeaza in plasma din VLDL, dupa indepartarea trigliceridelor si imbogatirea cu colesterol.
+- cresterea LDL-colesterolului si apo-.B100 sunt factori predictivi pentru ateroscleroza.
+
+HDL (apo-AI si apo- AII si cantitati mai mici de apo-C, D, E; nu contin apo-B)
+
+- este sintetizat in ficat ca particule nascande
+- prin schimburi in celalalte lipoproteine si celule, ele devin HDL-mature.
+- contine 50-55% lipide, in principal fosfolipide 20-30%, apoi colesterol, trigliceride 3-6%.
+- compozitia lor este simpla, colesterolul esterificat migreaza in interiorul particulei alcatuind miezul hidrofob, locurile ramase libere din stratul superficial vor fi ocupate de colesterolul preluat din tesuturi si lipoproteine plasmatice.
+- reprezinta 30% din colesterolul plasmatic.
+- la final HDL-colesterolul va fi metabolizat in ficat.
+- asigura transportul colesterolului din tesuturile extrahepatice spre ficat.
+- cresterea HDL si a apo-A sunt considerati ca factori protectori pentru ateroscleroza.
+
+Hiperliporpoteinemiile
+
+Constau in crestera LDL, HDL sau aparitia si persistenta in ser a chilomicronilor si/sau a VLDL care sunt practic absente in serul recoltat dupa o noapte de post. Pot fi:
+	•	primare = ereditare, familiale. Sunt datorate alterarii genelor care controleaza transportul si utilizarea lipoproteinelor.
+	•	secundare  unor maladii.
+
+Hiperlipemia I
+- apare hiperchilomicronemie si hipertrigliceridemie exogena majora.
+- chilomicronii sunt in cantitate foarte mare.
+- serul este laptos si la temperatura scazuta formeaza un strat gros de trigliceride la suprafata.
+- cauza este deficitul de lipoproteinlipaza.
+- apar hepatosplenomegalie, xantoame cutanate, dureri abdominale.
+- incidenta aterosclerozei este scazuta.
+
+Hiperlipemia II
+- se datoreaza deficientei calitative si cantitative a receptorilor membranari pentru LDL → creste LDL si colesterolul (vehiculat de LDL).
+- IIa = creste LDL, colesterolul. Apare xantomatoza.
+- IIb = se adauga cresterea trigliceridelor si a VLDL.
+
+
+Hiperlipemia III
+- se datoreaza deficitului de apo-E → creste colesterolul
+→ cresc moderat trigliceridele
+→ creste foarte mult VLDL.
+- apar leziuni ateromatoase si creste riscul de AVC si infarct miocardic.
+
+
+Hiperlipemia IV
+- se datoreaza dezechilibrului intre fluxul plasmatic de VLDL care transporta trigliceridele sintetizate endogen care are drept consecinta scaderea capacitatii plasmatice de epurare a VLDL → cresc VLDL si trigliceridele 
+- colesterolul este normal sau moderat crescut.
+
+
+Hiperlipemia V
+- cresc trigliceridele pe seama chilomicronilor si a VLDL.
+- lipemia creste dupa mese bogate in lipide si/sau glucide.
+
+
+

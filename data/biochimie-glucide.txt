@@ -1,0 +1,317 @@
+14. Glucidele: glicoliza, gluconeogeneza, ciclul acizilor tricarboxilici
+
+
+Glucoza este necesara:
+	•	pentozelor pentru sinteza nucleotidelor si acizilor nucleici
+	•	acizilor uronici pentru sinteza proteoglicanilor si detoxifiere
+	•	glicerol, acetil-CoA in neolipogeneza
+	•	NADPH in biosinteze reductive
+	•	AA neesentiali si derivati ai AA (purine, pirimidine, porfirine)
+Glucoza pentru a deveni sursa de energie parcurge procesul de:
+	•	glicoliza = degradarea incompleta la piruvat sau lactat,
+	•	ciclul Krebs = degradarea completa la CO2.
+Prin glicoliza se obtine elementul de constructie al acizilor grasi (acetil-CoA) si glicerol. Oricare ar fi calea pe care o urmeaza glucoza, ea necesita fosforilarea, conditia necesara ramanerii ei in celula.
+     
+       CHO	CHO
+       │	│		
+  H-C-OH	H-C-OH	
+       │	 │
+OH-C-H	Mg2+	OH-C-H
+       │	+ ATP 	 │	+ ADP
+   H-C-OH	hexokinaze	H-C-OH	
+       │	   │
+   H-C-OH	H-C-OH
+       │	   │
+       CH2OH					 CH2OPO3H2	
+
+
+In ficat hexokinaza care realizeaza fosforilarea se numeste si glucokinaza care transforma glucoza in glucozo-6-fosfat. Conversia este oprita temporar odata cu acumularea glucozo-6-fosfatului in celula.
+Prezenta glucokinazei in ficat asigura acesteia un rol deosebit de important in reglarea glicemiei si captarea glucozei. Glucokinaza este stimulata de fructozo-1-fosfat si inhibata de fructozo-6-fosfat.
+
+Glicoliza
+
+	•	functia majora a glucozei este de a furniza energie metabolica.
+	•	degradarea poate fi:
+	•	partiala pana la piruvat = calea Embden-Meyerhof-Parnas
+	•	totala pana la CO2 = calea ciclului Krebs.
+	•	cand cantitatea de glucoza este crescuta ea va fi transformata in lipide de rezerva (trigliceride), forma ideala de depozitare.
+	•	glicoliza furnizeaza glicerolul – utilizat in sinteza trigliceridelor si acetil-CoA – componenta a acizilor grasi.
+	•	ficatul utilizeaza glicerolul si pentru sinteza fosfolipidelor, iar acetil-CoA si pentru sinteza colesterolului.
+	•	acestia sunt exportati tesuturilor sub forma de lipoproteine.
+
+			Mn+2  Mg+2
+1) Conversia glucozo 6-fosfat  				fructozo 6-fosfat
+		  glucozo 6-fosfat izomeraza
+	
+
+2) Fosforilarea fructozo 6-fosfat 			        fructozo 1,6-bifosfat (reactie ireversibila)                       fosfofructokinaza
+
+Fosfofructokinaza = enzima alosterica cu o activitate controlata de numerosi factori metabolici pozitivi sau negativi:
+	•	pozitiv de: AMP, ADP, fructozo-1,6-bifosfat (este produsul actiunii sale = stimulare prin produs final), fructozo-2,6-bifosfat.
+	•	negativ de ATP (concentratii mari de ATP inhiba enzima 6-fosfofructo-1-kinaza care este inhibata de asemenea de fosfoenolpiruvat, 1,3-bifosfatglicerat, citrat). Acumularea de citrat in citosol reprezinta semnalul celular al satisfacerii nevoilor energetice.
+	•	Scindarea fructozo-1,6-bifosfatului in 2 trioze.
+	•	gliceraldehid-3-fosfat
+	•	dihidroxiaceton-fosfat
+Enzima este o aldoza = fructozo-1,6-bifosfatliaza.
+Intre acesti esteri fosforici se stabileste un echilibru, conversia gliceradehid-3-fosfat ↔ dihidroxiaceton-fosfat fiind catalizata de triozofosfat izomeraza.
+	•	Oxidarea fosforilata a gliceraldehid-3-fosfatului la 1,3-bifosfoglicerat.
+
+			  NAD+
+ Gliceraldehid-3-fosfat		   1,3 bifosfoglicerat
+		      Gliceraldehid-3-fosfat dehidrogenaza
+
+	•	reactia este reversibila, necesita NAD+ ca transportor de electroni, compus macroergic care poate fi folosit ca sursa de energie pentru sinteza ATP, rezultand astfel 4-6 moli de ATP.
+	•	reactia de fosforilare prin consum de fosfor organic genereaza o legatura inalt energetica - 1,3-bifosfogliceratul.
+
+	1,3-bifosfoglicerat mutaza	    2,3-bifosfoglicerat fosfataza
+1,3-bifosfoglicerat                2,3-bifosfoglicerat	       3-fosfoglicerat
+
+	
+	3 fosfoglicerat kinaza
+
+			fosfoglicerat mutaza
+5) Transformarea 3-fosfoglicerat				2 fosfoglicerat
+					Mg+2
+				endoza
+6) Transformarea 2 fosfoglicerat 				fosfoenolpiruvat
+				Mg+2
+			     piruvat kinaza
+7) Transformarea fosfoenolpiruvat				piruvat + 2ATP
+
+	Piruvatkinaza - se prezinta sub forma a doua enzime L (ficat) si M (muschi).
+                - ea este inhibata de ATP, alanina, acizi grasi, acetil-CoA si activata de fructozo-1,6-bifosfat.
+		     - cantitatea de piruvatkinaza creste cu ingestia de carbohidrati si nivele crescute de insulina.
+             - este:
+	•	activata prin defosforilare de fosfataza (insulina)
+	•	inactivata prin fosforilare de o proteinkinaza AMP dependenta (glucagon, catecolamine).
+
+Metabolizarea piruvatului:
+
+	•	In aerobioza
+ piruvat → acetil-CoA (care este substrat pentru ciclul Krebs)
+
+* deoarece ciclul Krebs duce la oxidarea acetil-CoA si regenerarea oxalacetatului, acesta poate activa o noua molecula de acetil-CoA pe care o introduce in ciclu
+* prin oxidarea acetil-CoA se formeaza 2 molecule de Co2 si 4 echivalenti reducatori care vor fi oxidati in lantul respirator
+* aceasta permite ciclului Krebs sa se desfasoare in aerobioza
+* se asigura astfel oxidarea totala a glucozei
+* NADH rezultat in glicoliza este reoxidat in lantul respirator
+* in ficat acetil-CoA serveste sintezei de lipide.
+
+	•	In anaerobioza
+	•	relativa in: muschi, ficat, rinichi.
+	•	permanenta in tesuturi ce nu dispun de echilibrul enzimatic necesar metabolizarii aerobe a piruvatului: retina, tesuturi embrionare sau neoplazice, hematii, fibre musculare albe.
+× reducerea are loc sub actiunea LDH si pe seama NAD+.
+
+Piruvat + NADH + H+			lactat + NAD+
+			   LDH
+× lactatul este trimis pe cale sanguina ficatului, miocardului si rinichiului unde se reoxideaza la piruvat, care este folosit ca substrat pentru gluconeogeneza.
+× functionarea glicolizei este limitata de acumularea acidului lactic perceputa de fructofosfo-1-kinaza (FF-1-K) care isi deprima activitatea la PH < 7.
+× piruvatul mai poate fi convertit in alanina sub actiunea alanin-amino-transferazei; astfel este legat metabolismul glucidic de cel al aminoacizilor.
+
+
+Gluconeogeneza
+
+= sinteza de „novo“ a glucozei din compusi neglucidici: piruvat, aminoacizi, glicerol si lactat.
+= situatia poate aparea in inanitie, regim alimentar, efort prelungit.
+= ea incepe in momentul epuizarii rezervelor de glicogen hepatic.
+= procesul este solicitat in perioadele interprandiale ce depasesc 7-8 ore sau chiar in conditiile unui aport normal de glucoza cand exista necesitatea reutilizarii lactatului format in muschi, eritrocit sau a glicerolului rezultat din degradarea trigliceridelor din tesutul adipos.
+= se desfasoara cu precadere in ficat 80%, cortex renal 20%.
+= materia prima pentru gluconeogeneza este reprezentata de: aminoacizi glucoformatori, lactat si glicerol.
+= procesul central al gluconeogenezei este reprezentat de conversia piruvat → glucoza si consta in parcurgerea in sens invers a procesului de glicoliza.
+= exista 3 reactii unidirectionale proprii gluconeogenezei, reactiile catalizate in glicoliza de:
+	•	piruvat-kinaza
+	•	6 fosfofructo-1-kinaza
+	•	Hexokinaza sau glucokinaza
+1) Prima etapa in gluconeogeneza este
+ piruvat          fosfoenolpiruvat 
+	•	procesul invers este
+ fosfoenolpiruvat                   piruvat.
+                            piruvatkinaza
+	•	carboxilarea piruvatului la oxalacetat (OAA) care are loc in mitocondrie.
+
+CH3-C-COOH + CO2 + ATP + H2O → HOOC-CH2-C-COOH + ADP + Pi
+	║	║
+	O	O
+
+	•	conversia OAA in fosfoenolpiruvat care are loc in mitocondrie si citosol.
+
+HOOC-CH2-C-COOH + GTP ↔ HOOC-C~PO3H2 + GDP + CO2
+	║	║
+	O	CH2
+
+	OAA - nu poate traversa membrana mitocondriei, astfel este transformat in malat si aspartat, apoi in citosol malat → OAA.
+	•	aceasta reprezinta o modalitate de export a NADH fara de care gluconeogeneza nu ar fi posibila.
+				OAA ↔ malat + aspartat
+	•	GTP este furnizorul de fosfat specific reactiei.
+= pentru desfasurarea gluconeogenezei este necesar sa existe 2 conditii:
+	•	cantitate mare de piruvat
+	•	raportul ATP/ADP sa fie crescut ceea ce favorizeaza formarea fosfoenolpiruvatului.
+2)Urmatoarele reactii sunt parcurse de enzime bidirectionale:
+
+			     NADH+H+
+fosfoenolpiruvat↔2fosfoglicerat↔3fosfoglicerat↔1,3 bifosfoglicerat 	
+				NAD+
+↔gliceraldehid-3-fosfat↔fructozo1,6bifosfat
+
+	•	Transformarea fructozo-1,6-bifosfat in fructozo-6-fosfat, nu este o reactie reversibila simpla catalizata de 6-fosfofructokinaza-1.
+
+		       fructozo-1,6-bifosfataza
+fructozo-1,6-bifosfat + H2O		fructozo-6-fosfat + Pi
+
+
+			hexozoizomeraza
+fructozo-6-fosfat 				glucozo-6-fosfat
+
+				  glucozo-6-fosfataza
+glucozo-6-fosfat 				glucoza
+
+
+glucozo-1-fosfat	 			glicogen
+
+	Orientarea glucozo-6-fosfatului spre formarea glucozei sau transformarea in glucozo-1-fosfat este dictata de raportul intre concentratia de glicogen hepatic si glucoza sanguina.
+	Procesul de gluconeogeneza este unul reductiv si mare consumator de energie.
+
+Gluconeogeneza din aminoacizi
+
+Cu exceptia leucinei si lisinei, toti aminoacizii sunt glucoformatori prin transformarea lor in substrate ale ciclului Krebs care sunt convertite la oxalacetat si apoi in piruvat.
+											  ciclul Krebs
+glutamat, glutamina, histidina, arginina, prolina →α-cetoglutarat 	
+           oxalacetat
+
+aspartat 	oxalacetat
+             transaminare
+
+metionina, izoleucina → propionil-CoA → succinil-CoA → oxalacetat
+tirozina, fenilalanina → fumarat → oxalacetat
+
+	Toti aminoacizii sunt potentiali glucoformatori, insa serina, alanina, glicina sunt cei care formeaza cantitatile cele mai mari de glucoza „in vivo“.
+		transaminare	
+serina, alanina, glicina			piruvat → oxalacetat
+
+Cel mai important aminoacid glucoformator este alanina. Ea provine din muschi prin catabolismul proteic si prin sinteza din piruvat. Alanina ajunsa la ficat se transamineaza in α-cetoglutarat si apoi in piruvat si glutamat.
+Acest transport al piruvatului din muschi spre ficat pentru intratrea in gluconeogeneza este o strategie de economisire a ATP muscular pentru contractie si permite si transportul NH3 sub forma de glutamat, NH3 ce va intra in procesul de ureogeneza.
+
+
+Gluconeogeneza din lactat
+
+	•	in hepatocit lactatul este convertit la piruvat.
+	•	lactatul provine din muschi prin anaerobioza sau eritrocit.
+
+muschi	     sange	  ficat
+
+glicogen	  glicogen
+	↓	↓
+glucozo-6-fosfat ←glu 	      glucoza←glu	   glucozo-6-fosfat
+	↓	↓
+piruvat	  piruvat
+	↓	 ↓
+lactat	   lactat	  lactat
+
+
+
+
+Gluconeogeneza din lipide (glicerol = 10% din gluconeogeneza)
+
+	•	acizii grasi cu numar par de atomi de C sunt degradati prin oxidare la aceti-CoA (acetil-CoA nu este glucogena).
+	•	lipidele participa la gluconeogeneza prin componenta glicerol, care furnizeaza 10% din capacitatea de gluconeogeneza a ficatului.
+	•	gluconeogeneza din aminoacizi este strans legata de sinteza ureei.
+
+
+
+Reglarea gluconeogenezei
+	•	reglare nonhormonala prin:
+	•	concentratia substratului: nivelul de piruvat, lactat, alanina.
+	•	reglare alosterica prin acetil-CoA.
+	•	reglare hormonala prin:
+	•	hormoni stimulatori: glucagon, epinefrina, glucocorticoizi.
+	•	hormoni supresori: insulina.
+
+
+
+Ciclul acizilor tricarboxilici
+
+
+Reprezinta succesiunea de reactii prin parcurgerea careia acetil-coA este oxidata la CO2. Se vor genera 12 moli de ATP / un mol de acetil-CoA.
+
+1) condensarea acetil-CoA cu oxalacetatul → citrat (citrat sintaza). 
+Citrat sintaza este inhibata de ATP, NADH, citrat, acizi grasi cu lant lung, ca si de succinil~CoA, intermediar al ciclului Krebs.
+
+                 H-CH2-CO-SCoA (acetil-CoA)		      H2C-COOH
+				│
+                    +		              →   	    OH-C-COOH (citrat)
+				│
+            HOOC-C-CH2-COOH (oxalacetat)		   H2C-COOH
+	             ║
+	             O
+
+× in ficat si tesuturile care fac neolipogeneza, formarea citratului reprezinta raspantia metabolica in care se hotaraste continuarea ciclului Krebs sau biosinteza acizilor grasi care are loc in citosol.
+× intrucat acetil-CoA formata in mitocondrie din piruvat nu poate traversa membrana mitocondriala, strategia adoptata de celula consta in exportul sau sub forma de citrat.
+× iesirea citratului din mitosol, in vederea angajarii in neolipogeneza, are loc exclusiv in conditiile in care ciclul Krebs este blocat prin cantitati mari de ATP si NADH, rezultate din metabolizarea glucozei. 
+
+	2) citrat → izocitrat
+
+	3) izocitrat → α-cetoglutarat (oxidare + decarboxilare)
+
+	HO-C-COOH                HOOC-C=O
+│                                          │
+.CH2-COOH →                   CH2   (oxidare si decarboxilare)
+│                                          │
+CH2-COOH                          CH2-COOH
+
+	4) α-cetoglutarat → succinat (decarboxilare oxidativa)
+
+	CH2-COOH
+	│                      (succinat)
+	CH2-COOH
+
+	5) succinat → fumarat (oxidare)
+
+	CH-COOH
+	║                      (fumarat)
+	CH-COOH
+
+	6) fumarat + H2O → L-malat
+
+	COOH
+	│
+	CH2-OH       (L-malat)
+	│                      
+	CH2-COOH
+
+	7) L-malat → oxalacetat (oxidare)
+	O
+	║
+	C-COOH
+	│                      (oxalacetat)
+	CH2-COOH
+
+
+
+× derularea ciclului Krebs duce deci la oxidarea acetil-CoA si regenerarea oxalacetatului.
+× prin oxidarea acetil-CoA se formeaza 2 molecule de CO2 si 4 perechi de echivalenti reducatori (3 NADH+ 3H+ + FADH2) ce vor fi oxidati in lantul respirator.
+× necesitatea reoxidarii permanente a acestora permite ciclului Krebs sa se desfasoare numai in anaerobioza (spre deosebire de glicoliza).
+
+
+		Reactia globala a ciclului Krebs:
+
+CH3CO~SCoA + 3NAD+ + FAD + GDP + 2H2O + Pi → 2CO2 + 3NADH + FADH2 + GTP + 2H++ CoASH
+
+
+	Ciclul Krebs reprezinta calea finala de degradare a glucidelor, lipidelor si proteinelor:
+
+	•	Acizii grasi → acetil-CoA → ciclul Krebs.
+	•	Aminoacizii glucoformatori → compusi intermediari ai ciclului Krebs (utilizarea scheletului atomilor de C).
+	•	Aminoacizi cetoformatori → acetil-CoA.
+	•	Piruvat → acetil-CoA (prin decarboxilare oxidativa in matrixul mitocondrial).
+
+Dintr-o molecula de glucoza se obtin 4 moli de ATP prin transformarea ei in lactat. Castigul net este insa de 2 moli. Daca degradarea porneste de la glicogen, castigul net este de 3 moli ATP.
+
+
+
+
+
+
+
+
+
+

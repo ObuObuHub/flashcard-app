@@ -1,0 +1,171 @@
+16. Enzimele
+
+
+
+
+Structura enzimelor
+
+
+
+- marea lor majoritate au o structura proteica sau heteroproteica.
+- exceptiile descoperite in ultimii 10 ani sunt enzimele cu structura de acizi ribonucleici, ribonucleaza P (complex acid ribonucleic + proteina, activitatea sa enzimatica datorandu-se acidului si nu proteinei).
+- pe scara evolutiva acizii nucleici au precedat proteinele si alaturi de alte functii ei au indeplinit functia de enzime; cand s-au sintetizat proteinele, acizii nucleici le-au atasat pe acestea dobandind stabilitate si unele activitati crescute. Treptat insa, proteinele au preluat functia catalitica, ARN-ul fiind abandonat. Astfel enzimele cu structura ARN sau complexele ARN-proteine sunt considerate „fosile biochimice“.
+- structura proteica si heteroproteica a enzimelor prezinta urmatoarele avantaje:
+
+	•	resturile de aminoacizi din proteine dispun de o mare varietate de grupari functionale care participa si la legarea substratului.
+
+	•	fiind proteine globulare, au si o structura secundara, tertiara si uneori cuaternara. Structura secundara si tertiara asigura posibilitati multiple de constituire a centrelor active, unde se desfasoara reactiile. 10-20% din enzime au si structura cuaternara, ele putand fi reglate prin diferiti compusi din mediu ce produc modificari mici ale structurii cuaternare. Asemenea reglaje apar si la enzime ce nu poseda structuri cuaternare.
+
+
+Enzimele cu structura proteica
+
+
+- sunt putine ~ 6 clase mari.
+- hidrolazele sunt enzime pure: ribonucleaza, chimotripsina, lizozimul.
+- lizozimul = enzima aflata in lacrimi si mucus nazal.
+= scindeaza hidrolitic compusi heterozidici din structura peretilor multor celule bacteriene.
+- hidrolazele sunt proteine pure.
+- heterozidele sunt alcatuite din resturi de  acid-N-acetilmuramic (NAM) sau resturi N-acetilglucozamina (NAG), hidroliza determinand moarte bacteriana.
+
+
+Enzimele cu structura heteroproteica
+
+
+- au o componenta proteica (apoenzima) si o componenta neproteica (cofactor).
+- cofactorii sunt molecule organice, stabilitatea lor la actiunea temperaturii este mai mare ca a apoenzimelor.
+- unele enzime au mai multi cofactori, dar de regula numai unul.
+- termenul de  cofactor se va utiliza pentru totalitatea compusilor neproteici.
+- termenul de coenzima = compus neproteic care se leaga prin legaturi slabe de apoenzime (legaturi de H, ionice, hidrofobe).
+- termenul de grupare prostetica se va utiliza pentru cofactorii de natura organica care se leaga de proteina prin legaturi puternice (covalente).
+- un anumit cofactor se poate asocia cu apoenzime diferite.
+- numarul cofactorilor este mic in comparatie cu numarul enzimelor heteroproteice. De ex.: NAD+, NADP+, FAD, FMN.
+- specificitatea heteroenzimelor este data de cofactorii organici.
+- transformarea chimica propriu-zisa este data de coenzima.
+
+
+	Cofactorii multor enzime sunt „ioni metalici“ (metaloenzime):
+- legaturile dintre componenta proteica si ionii metalici sunt electrostatice.
+- stabilitatea complexelor este data de numarul si intensitatea interactiunii.
+- liganzii pentru ionii metalici sunt protonii sau atomii de N cu electroni neparticipanti.
+- disocierea ionului metalic de apoenzima determina diminuarea sau pierderea completa a activitatii enzimei.
+- ionii metalici indeplinesc urmatoarele functii:
+	•	stabilizeaza structura enzimatica
+	•	participa la legarea substratului
+	•	induc modificari ale conformatiei enzimei
+	•	participa la cataliza.
+- unele enzime necesita prezenta in mediu a anumitor ioni care sa le faciliteze reactia: × Cl- pentru amilaza salivara
+× Ca2+ pentru lipaze.
+- enzimele „omoloage“ catalizeaza aceeasi reactie in tesuturi diferite, celule diferite sau compartimente celulare diferite.
+- la unele metaloenzime diferenta intre enzimele omoloage poate fi la nivelul apoenzimei si/sau ionilor metalici, exemplu: superoxid-dismutaza extrasa din mitocondrie contine Mg2+, iar cea extrasa din citosol contine Cu2+, Zn2+.
+
+Complexe multienzimatice
+
+	Sunt enzime fixate prin legaturi slabe intr-o ordine corespunzatoare intrarii lor in actiune. Ele sunt fixate pe o proteina centrala care si ea la randul ei poate fi chiar o enzima.
+	Aceste complexe multienzimatice au un brat care asigura legarea substratului la enzime. Acesta duce de fiecare data S (substratul) la E (enzima) corespunzatoare, rezultand un nou substrat pentru enzima urmatoare, iar rolul sau este de a potrivi substratul cu mare exactitate in centrul activ, astfel asigurand o viteza mare de reactie.
+Exemplu de complexe multienzimatice: acid-gras sintetaza si piruvat dehidrogenaza.
+Izoenzimele
+
+	•	o parte din enzimele cu structura cuaternara se prezinta sub mai multe forme moleculare, acestea se numesc izoenzime.
+	•	formele moleculare apar in functie de raportul in care sunt asociate lanturile polipeptidice de baza.
+	•	izoenzimele catalizeaza aceeasi reactie, dar cu viteze diferite in functie de structura lanturilor (raportul dintre ele).
+	•	Ex.:
+- LDH are 2 lanturi de baza H = heart si M = muscle
+- LDH are astfel 5 izoenzime:
+	•	H4 = LDH1
+	•	H3M = LDH2
+	•	H2M2 = LDH3
+	•	HM3 = LDH4
+	•	M4 = LDH5
+- CK (creatinfosfokinaza) are 3 izoenzime; Lanturile de baza sunt M = muschi, B = brain. M2; MB; B2 = si ele pot fi separate ELFO
+
+	•	proprietatile fizico-chimice ale izoenzimelor sunt apropiate, diferente apar cand unul din lanturile de baza difera de celalalt prin aminoacidul dicarboxilic suplimentar sau aminoacidul diaminic suplimentar.
+	•	ex.: LDH a putut fi separat ELFO, in functie de sarcina electrica pe care o poseda fiecare enzima.
+	•	M4; M3H sunt mai frecvente in muschi.
+	•	H4; H3M sunt mai frecvente in inima.
+	•	reactia catalizata este:
+
+acid piruvic → acid lactic (anaerobioza)
+
+	•	glicoliza in conditii de anaerobioza este prezenta in muschi, glicoliza in tesut cu catabolism aerob este prezenta in inima.
+
+
+Cinetica enzimatica
+
+	Studiaza viteza reactiilor catalizate de enzime in functie de variatia concentratiei de enzima sau substrat si influenta factorilor fizico-chimici (temperatura, PH, inhibitori).
+	Conceptia unanim acceptata este aceea ca pentru formarea produsului final de reactie exista o stare intermediara in care se formeaza un comlex enzima-substrat: E + S ↔ E-S → E + P
+	Viteza de reactie reprezinta cantitatea de substrat transformata in produs de reactie (exprimat in miligrame) intr-o unitate de timp (secunde).
+	
+Influenta PH-ului si a temperaturii:
+	•	temperatura la care se desfasoara reactiile enzimatice este in mod curent 37°C.
+	•	pentru fiecare enzima se poate stabili in vitro coeficientul termic al reactiei, care reprezinta cresterea vitezei de reactie pentru o crestere cu 10°C a temperaturii. Valoarea lui este 1 si 2. Relatia este valabila numai pana la o anumita temperatura, numita optima, la care viteza de reactie este maxima. Dupa aceasta temperatura, viteza scade brusc datorita denaturarii apoenzimei (se rup legaturile de H) cand este afectat „centrul activ“ al enzimei.
+	•	temperatura optima a enzimei din corpul uman este de 40-50°C. Exista enzime in alte sisteme vii care au temperatura optima de 50-60°C, sau chiar 80-100°C (enzimele microorganismelor ce traiesc in ape termale).
+	•	pH-ul este un alt factor care influenteaza viteza de reactie.
+	•	de obicei PH-ul optim este acela la care enzima isi desfasoara activitatea in mediul sau. Majoritatea tesuturilor din organism au pH = 7.
+	•	modificarea pH-ului determina modificari ale statusului ionizat al substratului sau al situsului de legare pentru enzima de la nivelul sunstratului.
+	•	pH-uri mai mici sau mai mari fata de cel optim pot determina diminuarea vitezei in mod specific fiecarei enzime; ex. : inactivarea la nivelul stomacului pH = 1-2 a amilazei salivare (pH = 6,6-6,8).
+Influenta concentratiei enzimei
+- in vivo concentratiile substratului sunt net superioare concentratiilor enzimei. Exista situatii cand aceasta regula nu se respecta [E] > [S].
+- in vitro aceasta situatie se poate usor face.
+- daca se mentine constanta [S] atunci viteza de reactie depinde de [E] si este crescuta daca [E] este crescuta.
+- linearitatea vitezei de reactie se explica prin formarea complexului ES, care depinde numai de [E]. Complexul se va transforma integral in produs de reactie.
+- la o concentratie [E] = 0, viteza de reactie este 0, reactia nu se poate desfasura deloc in absenta enzimei.
+		Vo = k [E]  (k = constanta caracteristica fiecarui sistem ES)
+		Vo = [P] / t
+- viteza de reactie poate fi estimata si ca raportul intre produsul de reactie (P) si timpul de desfasurare a reactiei (t).
+- concentratia enzimei ~ cu cantitatea produsului format (aplicatii in laboratorul de analize).
+
+Influenta concentratiei substratului (Ecuatia Michaelis-Menten)
+- concentratia majoritatii enzimelor celulare este constanta in timp, iar concentratia substratului variaza in functie de starea metabolica a tesutului si in functie de diversi factori.
+- reprezentarea grafica ne arata o hiperbola. Viteza este crescuta, creste la [S] mici, apoi cresterea este tot mai lenta pana la un punct, cand oricat de mult ar creste [S], viteza ramane constanta. Valoarea constanta este valoarea vmax.
+		     K1
+		E +S ↔ ES → E + P
+ 		K2	K3
+K1 = constanta pentru formarea complexului ES.
+K2 = constanta de disociere a ES in E si S.
+K3 = constanta de disociere a ES in E si P.
+
+- relatia dintre [S] si viteza de reactie este redata de ecuatia Michaelis-Menten:		Vo = Vmax *[S] / (Km + [S])
+*Km = constanta reala de disociere care da masura afinitatii unei enzime pentru substratul sau. Cu cat Km este mai mica, afinitatea enzimei pentru substrat si formarea complexului ES este mai mare.
+- viteza de formare a ES trebuie sa fie egala cu suma vitezelor de transformare in E + P si de refacere a lui E +S.
+K1*[E]* [S] =  (K2 + K3)* [ES]
+(K1 + K3)/K1 = [E] [S]/ [ES]
+	(K2 + K3)/K1 = Km → Km = [S] *[E]/ [ES]
+	Vo = Vmax*[S] / ( Km + [S] )
+- ecuatia Michaelis-Menten se bazeaza pe 3 premize:
+	I.   [S] este mult mai mare ca [E] astfel incat atunci cand toata enzima este incorporata in complexul ES, mai exista S in exces.
+	II.   Rata de formare a complexului ES = cu rata de disociere ES.
+	III. Este luata in considerare doar conditia initiala, in acest fel acumularea de produs este foarte mica, iar formarea ES din E si P este neglijabila.
+- exceptii:
+	a) cand [S] este foarte mica, valoarea sa in ecuatie poate fi neglijata, viteza de reactie ~ [S].
+	b) cand [S] este foarte mare comparativ cu Km, valoarea Km poate fi neglijata, adica viteza de reactie atinge valoarea maxima.
+
+Inhibitia enzimatica reversibila
+a) competitiva = inhibitorii (I) intra in competitie directa cu substratul pentru legare la situsul activ al enzimei (situs catalitic)
+Ki = constanta de inhibitie, este constanta de disociere pentru complexul E-I
+b) necompetitiva = inhibitorul se leaga numai de complexul ES, la nivelul situsului alosteric al enzimei (diferit de cel catalitic).
+Ki = este definita drept constanta de disociere pentru complexul ES-inhibitor.
+c) noncompetitiva = inhibitorul se leaga atat la enzima libera cat si de complexul ES la nivelul situsului alosteric.
+
+Inhibitia enzimatica ireversibila
+Duce la inactivarea enzimei.
+Inhibitorii pot fi reprezentati de:
+	•	omologi ai substratului original, care poseda o grupare chimica foarte reactiva, ce reactioneaza cu un rest de aminoacid constitutiv al situsului activ al enzimei determinand blocare.
+	•	produsi de reactie cu structura similara substratului original, care se combina cu situsul activ al enzimei blocandu-l.
+	•	substante cu structura asemanatoare etapelor de tranzitie al substratului original, care se leaga de situsul activ al enzimei (nu prin legaturi covalente ca mai sus) pe care il blocheaza.
+
+Infarct miocardic: GOT, CK.
+Afectiuni hepatice: GPT, glutamatdehidrogenaza, γ-GT.
+Dezavantaje:
+	•	LDH, GOT se gasesc in inima, ficat si muschi. Dar raportul GOT/GPT <1,3 indica afectare hepatica.
+	•	CK se gaseste in inima si muschi.
+Separarea prin ELFO a izoenzimelor sau utilizand Ac specifici:
+	•	LDH1, LDH2 = specifice IMA
+	•	LDH5 = specific afectiunilor hepatice
+	•	CK-MB = specific IMA.
+Sorbitoldehidrogenaza (SDH) si ornitin-carbamil-transferaza (OCT) = ficat (sunt foarte specifice, dar nu se utilizeaza in practica de laborator datorita dificultatilor tehnice).
+Fosfataza acida = prostata.
+
+
+
+
+

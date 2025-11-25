@@ -1,0 +1,2337 @@
+1. PRODUCTIA SI DISTRUCTIA DE ERITROCITE 
+ (diagnostic de laborator)
+
+PRODUCTIA DE ERITROCITE
+
+Eritropoeza = procesul de proliferare si diferentiere a precursorilor eritrocitari si trecerea in circulatie a eritrocitelor apte pentru functia de transport a O2.
+ = este reglata de interventia unor mecanisme care implica factori de creştere ce influenteaza diferenţierea progenitorilor eritroizi
+ = menţine constant numarul de eritrocite circulante prin ajustarea ratei de producţie a eritrocitelor.
+	•	sangele = format din elemente celulare suspendate in plasma
+	•	masa eritrocitara = 99%
+	•	masa leucotrombocitara = 1%
+	•	eritron = totalitatea masei eritrociatare, de la celula stem pluripotenta pana la eritrocitul imbatranit si eliminarea lui din circulatie:
+	•	elemente imature (fixe) care formeaza eritropoeza
+	•	eritrocite circulante si eritrocitele din sinusurile sanguine, care au rol de transport al O2 = viata eritrocitului
+	•	retragerea din circulatie a eritrocitelor = hemoliza si recuperarea materialelor din care sunt alcatuite.
+	•	Celula stem pluripotenta (1-5% din MO) sub comanda eritrokinelor se poate transforma in orice celula precursor al liniilor celulare din seria eritrocitara, granulocitara, fibroblastica – fibrocit.
+
+Factori ce influenteaza eritropoeza
+
+	•	Scaderea P02 in tesuturi (rinichi) este principalul factor de stimulare a sintezei si eliberări de eritropoetina, mecanism ce explica poliglobulia de altitudine.
+Eritropoetina  – se gaseste in plasma si se elimina prin urina
+- sintetizata 90% la nivelul rinichiului sub forma de proeritropoetina
+- rol:
+	•	stimuleaza proliferarea CFUE (eritroid colony forming unit),
+	•	stimuleaza diferentierea precursorilor eritrocitari,
+	•	scurteaza timpul de maturare si de tranzit medular al precursorilor eritocitari,
+	•	stimuleaza diabaza,
+	•	creste masa de eritrocite circulante.
+
+CELULA STEM		  PROERITROBLAST		 ERITROBLAST BAZOFIL
+MULTIPOTENTA
+								ERITROBLAST POLICROMATOFIL
+
+									ERITROBLAST OXIFIL
+
+									RETICULOCIT	ERITROCIT
+
+2. Factori nutriţionali: carentele alimentare in proteine se pot asocia si cu carenţe vitaminice in special cele legate de acid folic si vitamina B12; o carenţa crescută de vitamina B12 apare in parazitoze (Diphylobotrium latum - mare consumator de vit B12).
+Functii medulare
+a)Multiplicarea si maturarea precursorilor eritroizi
+- maturarea nucleului se desfasoara simultan cu cea a citoplasmei (citoplasma tanara cu nucleu tanar; citoplasma matura cu nucleu avand functionalitate redusa sau inexistenta); mereu exista un  sincronism de maturare nucleocitoplasmatica, asincronismul aparand in stari patologice si poate aparea si in anemii grave.
+b)Expulzia nucleului
+= fenomenul prin care eritroblastul oxifil se elibereaza de nucleu prin miscari ample, cu deformari petaloide ale conturului celular si expulzarea nucleului prin una din excrescente; macrofagele fagociteaza nucleii liberi.
+c)Diabaza
+= trecerea reticulocitelor prin miscari active din maduva in sange, unde dupa 1-2 zile se transforma in eritrocit matur.
+	Procesul de maturare presupune:
+	•	reducerea dimensiunilor nucleului si a celulei
+	•	cresterea cantitatii de cromatina nucleara condensata
+	•	cresterea raportului dintre volumul citoplasmatic si volumul nucleului
+	•	cresterea cantitatii de hemoglobina (Hb) – cu un aspect roz si scaderea ARN ribozomal – colorat albastru, rezultand aspectul policromatofil al celulei.
+
+Proeritroblastul
+	•	celula tanara, cap de serie, se aseamana cu mieloblastul
+	•	este o celula mare 18-25 μm
+	•	are contur rotund, bine delimitat, uneori cu o bucla citoplasmatica
+	•	nucleul este rotund, voluminos 8/10, cu pozitie excentrica
+	•	cromatina este violet-purpurie, bazi- si oxicromatina dispuse in retea fin impletita, cu aspect „perlat”
+	•	are 1-2 nucleoli, putin conturati
+	•	citoplasma este ingusta, intens bazofila la periferie, cu halou in jurul nucleului
+	•	comparativ mieloblastul are nucleolii mai evidentisi mai numerosi; structura nucleara dantelata, fina; citoplasma mai abundenta, mai putin albastra cu halou mai discret.
+Normoblastul bazofil
+	•	are 12-18 μm in MO, iar pe frotiul din MO se pot observa prelungiri citoplasmatice ce unesc doi eritroblasti de aceeasi varsta
+	•	raportul nucleocitoplasmatic: 3/4
+	•	nucleul este lipsit de nucleoli, cu o cromatina mai condensata, violet-negricioasa
+	•	citoplasma intens bazofila (este cea mai albastra celula de pe frotiu).
+Normoblastul policromatofil
+	•	are 10-12 μm, forma ramane rotunda
+	•	raportul nucleocitoplasmatic: 1/2
+	•	nucleul excentric are cromatina mai condensata, in „spite de roata”
+	•	citoplasma este bazofila la periferie.
+Normoblastul oxifil
+	•	are 8-10 μm, rotunda sau usor ovoidala
+	•	are aspectul unui eritrocit cu nucleu prezent
+	•	raportul nucleocitoplasmatic: 1/4
+In cazuri patologice nucleul poate avea forme bizare (cocarda, trefla), aspect intalnit in bolile Biermer.
+
+Diagnostic de laborator, coloratii speciale:
+	•	sideroblastii medulari
+× sunt eritroblasti medulari de diferite varste care contin granule de Fe neheminic, siderozomi, granule care se pun in evidenta cu ajutorul coloratiei PERLS (albastru de Berlin) si se gasesc in cantitate normala sau crescuta in eritroblasti si macrofage
+
+× siderocitele = eritrocite cu granule de Fe nelegat de hemoglobina
+× sideroblastii au granule de Fe sub forma de granule fine de culoare verde inchis (1-4 granule).
+	•	reticulocitele  = 0,5-2% din numarul eritrocitelor in sangele periferic
+      = eritrocite imature care circula 1-3 zile
+      = se numesc „reticulocite” din cauza retelei reticulofilamentare care se observa in interiorul lor in coloratia supravitala  albastru briliant de cresyl.
+      = in anemiile hemolitice si cele hiposideremice, reticulocitele stagneaza mai putin in MO si persista mai mult in sangele periferic
+      = o anemie instalata brusc determina o descarcare masiva de reticulocite din maduva
+      = cresterea numarului de reticulocite semnifica o hiperactivitate medulara eficienta si are loc in:
+	•	Anemii hemolitice cu maduva hiperplazica
+	•	Hemoragii
+	•	Tratamentul eficace din anemiile carentiale (feripriva, megaloblastica–dupa tratament cu B12, cand criza reticulocitara este spectaculoasa:0,1-2%	     20-30%) 
+
+-frotiu de sange periferic si de MO colorat MGG:
+	•	reticulocitele apar ca celule rotunde, policromatofile, cu diametrul mai mare decat al ertrocitelor mature
+	•	elemental major al eritropoezei normoblastice este prezenta unei cantitati moderate de cromatina nucleara condensata in eritroblastii policromatofili.
+ Un procent redus de eritroblasti 1-2% parcurg anormal etapele de proliferare si maturare si ei vor fi recunoscuţi si fagocitati de macrofagele medulare. Aceasta pierdere potentiala de eritrocite ca urmare a distructiei eritrocitare intramedulare = eritropoeza ineficienta. Aceasta devine importanta in transformarea megaloblastica a MO, ca urmare se formeaza un pigment biliar timpuriu care poate fi identificat in stercobilinogenul fecal.
+-frotiu colorat cu albastru briliant crezyl :
+	•	numar crescut de reticulocite (celule rotunde discret policromatofile de
+aspect bleu-cenusiu cu diametru mai mare decât hematiile adulte; in interior prezintă precipitate bazofile cu aspect granular sau filamentar formate din ARN-ribosomal)
+-frotiu din MO col MGG : hiperplazie eritroida.
+
+
+DISTRUCTIA DE ERITROCITE
+
+	•	in fiecare secunda sunt indepartate din circulaţie ~2,5 mil. de eritrocite.
+	•	 eritrocitele supravieţuiesc in circulaţie ~120 zile, dupa care se transforma in sferocite, apoi sunt indepartate din circulaţie de către sistemul monocito-macrofagic din ficat, splina si MO (in zone de staza sau circulatie incetinita – sinusurile hepatice, splenice, medulare, unde macrofagele se gasesc in numar mare).
+	•	in mod normal rolul splinei in eliminarea eritrocitelor imbatranite sau deteriorate este secundar, ficatul fiind cel cu rol principal.
+	•	eritrocitele imbatranite sau deteriorate: cu defecte intracelulare nucleare (corpii Howell-Jolly), cu Hb denaturata intraeritrocitar (corpii Heinz), granulatii de Fe, cu defecte de forma sau celule imbracate cu IgG1, IgG3, C3b sunt recunoscute de către macrofage prin intermediul Ac membranei sau ai complementului si vor fi fagocitate de către acestea.
+	•	precursorii hemului sunt eliminaţi ca atare, iar Hb e descompusa sub acţiunea hemoxigenazei microzomale in:
+→Fe - trasportat prin intermediul transferinei către eritroblastii medulari unde va fi refolosit
+→lanţurile de globina vor fi hidrolizate la AA reutilizati in sinteza proteica in organism 
+→protoporfirina – care este trasformata in bilirubina :
+*este transportata spre ficat, unde este conjugata cu glucuronid si excretata prin bila in intestine
+*in intestine bilirubina este convertita la stercobilinogen excretat in materiile fecale, acolo unde reacţii oxidative conduc la formarea de stercobilina. Acesti compuşi sunt in parte reabsorbiti, dar o cantitate mica ajunge sa fie excretata prin urina - urobilinogen (Ubg)
+*20% din Ubg se reabsoarbe portal - ficat – bila; o mica parte din Ubg reabsorbit portal scapa reeliminarii hepatice si ajunge in sange – urina; dupa saturarea circuitului hepato-entero-hepatic, cresc BD, Ubg fecal si Ubg urinar.
+ - o fracţiune a protoporfirinei este convertita la CO, excretat la nivelul plamanilor (productia de CO endogen se coreleaza direct cu distructia de eritrocite).
+
+
+---END OF FILE---
+
+
+
+2.METABOLISMUL FIERULUI
+(date normale, fiziopatologie, metode de explorare in laboratorul clinic)
+
+
+Date normale si fiziopatologice
+
+- continutul in Fe al organismului uman: = 50-55 mg/kgc la barbat 								        	  = 35-40 mg/kgc la femeie
+- cantitatea totala a Fe in organism = 4-5 g
+- Fe nu exista liber in organism, ci este componentul unor substante care asigura transportul 02 si procesele oxidative; dintre acestea Hb conţine cea mai mare cantitate si este prima substanta care scade cand cantitatea de Fe din organism devine deficitara
+- in organism Fe este utilizat pentru sinteza Hb; eritropoeza normala necesita 20-25 mg Fe /zi.
+Compartimentarea Fe in organism
+Fe se afla in organism in 4 compartimente: 
+	•	Hb
+	•	comp de transport
+	•	comp de depozit
+	•	Fe tisular
+	•	compartimentul utilizării Fe in MO, unde participa la formarea Hb         (67% = 2g)
+	•	compartimentul Fe circulant = Fe este transportat de transferina                 ~ 3% din Fe = O.1g
+	•	compartimentul depozitelor de Fe, sub forma de feritina sau hemosiderina ~ 27% = 1g
+	•	mioglobina  mai conţine o parte din Fe 4%
+	•	in organism Fe se gaseste sub 2 forme organice:	
+
+
+
+A. compusi in care Fe este legat de un nucleu porfirinic = hem, care la randul lui se ataseaza de o proteina specifica = Fe heminic (Hb, mioglobina, enzimele cu Fe)
+B. compusi in care Fe este legat de o proteina (gruparea hem lipseste) = Fe neheminic (feritina, hemosiderina, trasferina).
+- deci compuşi heminici sunt implicaţi in procesele oxidative si respiratorii, iar cei neheminiei asigura transportul si depozitarea Fe.
+
+
+
+Aportul exogen de Fe
+- organismul conserva eficient Fe, astfel incat aproape toata cantitatea de Fe necesara producţiei de eritrocite este asigurata prin refolosirea Fe extras din eritrocitele degenerate; doar 5% din Fe = 1g este absorbit din tractul gastro-intestinal, compensând astfel pierderile prin urina, fecale, sudoare, descuamarea pielii si ciclul menstrual la femei.
+Absorbtia Fe
+- are loc in porţiunea proximala a intestinului subtire; fiziologic se absoarbe 1g/24h, compensand asfel pierderile tot de 1 g/24h;
+- absorbtia poate fi crescuta de: vitamina C, zaharuri, fructoza, sorbitol, cisteina, piruvat, succinat, alcool etilic, Ca, aminoacizi, deficienta de Fe, situatii cu necesar sporit; copii, sarcina, sangerari, hemoliza.
+- absorbtia scade:
+× administrarea de antacide, substante care formeaza cu Fe complexe insolubile (fitati, fosfati, oxalati, citrati, acid acetic)
+× excesul de Fe (gastroferina poate lega Fe in exces si previne o rata crescuta a absorbtiei Fe)
+× situatii cu utilizare scazuta a Fe (inflamatii si infectii)
+× gastrectomie, aclorhidrie, anomalii ale mucoasei intestinale (sucul gastric impiedica precipitarea Fe in Fe(OH)2 insolubil).
+- un factor reglator important este nivelul rezervelor din organism, asfel cand rezerva de Fe este mare celulele mucoasei intestinului subtire actioneaza in 2 direcţii:
+	•	scad absorbtia Fe prin menţinerea unei concentratii mari de Fe in citoplasma celulelor, care actioneaza ca o bariera
+	•	cresc excreţia de Fe prin regenerare continua a mucoasei cu indepartatrea enterocitelor o data cu depozitele de Fe
+- atunci cand rezervele de Fe ale organismului sunt reduse, concentratia scazuta a Fe in citoplasma enterocitelor permite Fe sa treaca din lumenul intestinului subtire spre plasma.
+- mecanismul de absorbtie:
+	•	Fe intraluminal este preluat sub forma de ioni ferosi Fe2+ printr-un proces de endocitoza consumator de energie;
+	•	transferul Fe2+ la lamina propria, polul vascular, unde este preluat de transferina, care cu ajutorul ceruloplasminei legate de cupru il transforma in ion feric (Fe3+) si este transportat in MO
+
+
+	•	Fe neabsorbit in intestinul subtire este captat de apoferitina si transformat in feritina, care se elimina in lumenul intestinal odata cu descuamarea celulelor.
+- s-au elaborat 2 mecanisme asupra absorbtiei Fe:
+	•	teoria blocului mucoasei (GRANICK) atribuie rol esenţial in reglarea absorbtiei Fe apoferitinei din celula intestinala, cand aceasta nu este saturata absorbtia Fe creste si invers
+	•	teoria Fe mesager (CROSBY) arata ca in cursul regenerarii mucoasei intestinale este incorporata si o cantitate de Fe exogen care de fapt ar reflecta situatia depozitelor de Fe din organism: daca depozitele sunt mari absorbtia inceteaza, daca depozitele sunt mici captarea se face rapid.
+	•	teorii noi atribuie un rol esential transferinei speciale a celulelor intestinale – saturarea transferinei celulare impiedica continuarea absorbtiei; daca totusi este absorbit in exces, Fe este captat de apoferitina si fixat in asa fel incatva fi eliminat prin descuamare; apoferitina si transferina celulelor intestinale sunt esentiale in reglarea absorbtiei Fe in conditii fiziologice
+- in cazul ingestiei accidentale la copii sau a aportului excesiv aceste mecanisme sunt depasite si Fe trece in cantitate mare in sange.
+- feritina se gaseste in mod normal in citoplasma la nivelul corpilor F.
+- transferina speciala a celulelor intestinale are rol important in absorbtia Fe; saturarea trasferinei speciale impiedica absorbtia Fe si invers.
+- daca totuşi se absoarbe el este captat si fixat de apoferitina si eliminat odata cu descuamarea celulelor intestinale; acest mecanism poate fi depasit de aport crescut de fier sau accelerat prin ingestia crescuta de fier la copii.
+-alţi factori ce influenţează absorbtia Fe:
+	•	starea depozitelor de fier
+	•	rata eritropoezei
+	•	hipoxia
+	•	gradul de anemie
+Ciclul Fe
+	•	fierul absorbit este fixat de transferina care il trasporta la MO unde este utilizat pentru sinteza celor 8g de Hb/24h care necesita 30g Fe. Dupa 120 de zile eritrocitele sunt captate de macrofage care elibereaza Fe din Hb si il depun sub forma de feritina sau hemosiderina, dar cea mai mare parte este redat trasferinei care il trasporata din nou la MO pentru sinteza Hb.
+
+
+
+	•	trasportul Fe: trasferina sau siderofilina este proteina (β1-globulina) sintetizata in ficat, macrofage, tesut limfoid, glande salivare, ovare, testicule, ce fixeaza Fe in sânge si are durata de viata de 10 zile si concentratia plasmatica de 250 mg/dl 
+	•	in mod normal transferina fixeaza lOO μg/dl (30%) Fe circulant = sideremie  (concentratia Fe circulant)
+	•	CTLF = capacitatea totala de legare a Fe = 300 μg/dl (100%)
+	•	diferenta de 70% reprezintă capacitatea latenta (CL) de fixare a Fe = 200μg/dl
+- Fe seric ~ creste si in anemii hemolitice si hemocromatoza
+  ~ scade: > in anemii feriprive,
+      > in caz de eritropoeza regenerativa,
+      > dupa hemoragii acute
+	•	in faza de regenerare dupa administrarea de vitamina B12 in anemia Biermer
+      > in inflamaţii acute si cronice
+- CTLF creste in anemia feripriva si sarcina
+Caile metabolice
+	•	metabolismul Fe este foarte eficient, asfel incat foarte putin se pierde si in consecinţa necesarul exogen este mic
+	•	macrofagele din ficat, splina, MO, preiau eritrocitele care ajung la capatul celor 120 zile ale ciclului lor de viata, Hb este scindata in componentele sale, iar Fe este stocat sub forma de feritina si hemosiderina
+	•	precursorii eritroizi din MO se aglomereaza in jurul macrofagelor si preiau feritina de la macrofage; primul preluat este Fe cel mai recent stocat
+	•	macrofagele din MO si splina indeparteaza excesul de feritina si hemosiderina din celulele seriei roşii
+	•	trasferina mediaza trasportul Fe la precursorii eritroizi si de asemenea trsporta Fe in vederea stocării in ficat si alte celule mezenchimale.
+Ferokinetica
+	•	miscarea Fe in spatiile sale fiziologice poate fi estimata cu ajutorul trasorilor radioactivi (Fe 59)
+	•	se foloseste in practică pentru:
+	•	determinarea clearence-ului de Fe
+	•	determinarea turnoverului Fe plasmatic si eritrocitar
+	•	procentul de incorporare a Fe in eritrocite
+	•	timpul de tranzit medular
+
+
+	•	are importanta practica si in determinarea tipului de anemii:
+	•	in anemia aplastica = turnoverul Fe plasmatic este normal sau uşor redus, iar turnoverul eritrocitelor si indicele de utilizare a Fe sunt mult reduse; Fe este dirijat la ficat si retinut acolo
+	•	in anemiile hemolitice eritropoeza este accentuata, turnoverul Fe plasmatic si eritrocitar este mult crescut, utilizarea este normala, iar Fe se acumuleaza in locul de distrugere a eritrocitelor (splina, ficat)
+	•	in anemiile cu eritropoeza ineficieta (anemii sideroblastice, anemii megaloblastice) turnoverul Fe plasmatic este crescut, in schimb cel eritrocitar este scazut, iar indicele de utilizare a Fe este mult scăzut.
+Metode de explorare in laboratorul clinic
+	•	determinarea Fe seric (sideremia):
+- dozarea sideremiei are mare importanta in hematologie, deoarece sideremia începe sa scada cand rezervele sunt epuizate (anemii feriprive)
+- exista situatii cand sideremia scade si rezervele sunt crescute (anemiile din stările febrile, infectii cronice sau neoplasme); astfel pe langa determinarea sideremiei o importanta deosebita o are cercetarea rezervelor de fier prin aprecierea hemosideremiei din frotiul medular si sangvin (siderocite, sideroblasti, reticulocite) - coloratii cu albastru de Prussia = Perls pentru determinarea depozitelor de fier, cu rol in diagnosticul anemiei feriprive si sideroblastice si clasificarea sindroamelor mielodisplazice
+					- coloratii cu albastru-briliant crezyl pentru reticulocite
+2. siderofilina = trasferina
+- este partial saturata cu Fe: 30-35%.
+- diferenţa pana la 100% reprezinta capacitatea latenta (CL) de saturare a Fe:
+Fe seric + CL = CT
+CS (coeficientul de saturatie) = Fe seric /capacitatea totala de legare a Fe
+CS = Fe seric/CTLF  (0.2 - 0.65)
+- varitii ale trasferinei in diverse afecţiuni:
+*TR crescuta = anemia feripriva, dar sideremia scăzută rezulta un CS mic=0.1 *TR scazuta in: = infectii cronice – Fe si TR scazute, CS = normal
+= hemocromatoze – Fe = crescut, TR = scazuta, CS = mare(0.8-1)
+= anemii hemolitice,
+= anemia Biermer
+
+
+
+
+3. proba hipersideremiei provocate
+= se administreaza oral o cantitate de fier bivalent si se apreciaza absorbtia acestuia prin dozarea lui in ser
+= normal Fe seric creste pana la 250-300 μg/dl intre 2-4 ore de la administrare si scade progresiv pentru a reveni la normal in 6-8 ore
+= Fe seric: - creste mult in anemia feripriva
+	•	 are o usoara creştere in anemii hipocrome datorita absorbtiei sacazute a Fe
+	•	 nu creste in infectii sau neoplasme, unde Fe trece rapid in tesuturi, ceea ce nu permite creşterea lui in ser.
+4. capacitatea de legare a Fe (CL)
+CT = CL + Fe seric
+%CS = Fe / CT x 100
+CL barbati = 200-300 μg/dl			CL femei = 150-250 μg/dl	
+CT barbati = 300-400 μg/dl			CT femei = 250-350 μg/dl	
+CT creste in: productie crescuta de transferina, eliberare crescuta de feritina
+CT scade in: productie scazuta de transferina, eliberare scazuta de feritina
+	•	Scaderea CTLF, dar cresterea saturatiei Fe apare cand Fe se deplaseaza in sistemul reticuloendotelial, in boli infectioase, neoplazice cand nivelul transferinei este scazut (scade sinteza hepatica de transferina in hepatita acuta, cronica activa, ciroza, hemocromatoza)
+	•	Fe plasmatic este crescut in: 
+	•	Distrugere de hematii
+	•	Scaderea utilizarii Fe
+	•	Creste eliberarea Fe din depozite
+	•	Alterarea procesului de depunere
+	•	Cresterea vitezei de absorbtie
+	•	Fe plasmatic este scazut in: 
+	•	Scade cantitatea de Fe din organism
+	•	Lipseste Fe din alimentatie
+	•	Scade absorbtia Fe
+	•	Pierderi mari si cerinte crescute.
+
+
+
+---END OF FILE---
+
+
+3. HEMOLIZA EXTRAVASCULARA SI INTRAVASCULARA
+(Diagnostic de laborator)
+
+
+	•	hemoliza = procesul de indepartare a eritrocitelor din circulatie
+	•	fiziologic eritrocitele sunt indepartate dupa 120 de zile, cand se gasesc la sfarsitul existentei lor, dobandind atribute fizice si imunologice defavorabile: devin mai rigide si exprima Ag de senescenta
+	•	Ag de senescenta impreuna cu Ac din clasa IgG formeaza complexe care vor determina aderarea lor la receptorii de pe macrofagele din splina
+	•	eritrocitul va fi fagocitat de macrofage
+	•	hemoliza extravasculara = celulele sistemului monocito-macrofagic din ficat, splina, MO indeparteaza eritrocitele din circulatie prin fagocitoza
+	•	hemoliza intravasculara = 5-10% din eritrocite sunt lizate in circulatia generala si hemoglobina este deversata in plasma, apoi prelucrata de ficat si rinichi
+	•	hemoliza fiziologica = indeparteaza eritrocitele care au atins limita de existenta (120 zile)
+	•	hemoliza patologica = actioneaza fara discernamant asupra tuturor eritrocitelor, determinand distrugerea prematura a unei cantitati mai mari decat in mod normal (scaderea duratei de viata a eritrocitelor este criteriul major care defineste hemoliza patologica)
+	•	anemia hemolitica = apare ca o hemoliza necompensata cand MO isi pierde capacitatea de a acoperi pierderile.
+
+Hemoliza extravasculara
+= consta in fagocitarea eritrocitelor de catre macrofage
+-procesul începe cu alterarea membranei eritrocitare, urmata de precipitarea intracelulara a Hb si trecerea agregatelor de Hb in citolplasma macrofagului
+-Hb este descompusa sub acţiunea hemoxigenazei in 
+	•	globina => AA
+	•	HEM => Fe este trasportat prin intermediul transferinei la MO 
+
+
+-catabolizarea eritrocitelor este un proces prin care sunt recuperate pentru noi sinteze, aminoacizii si Fe
+-inelul protoporfirinic este descompus pana la CO si BI (bilirubina indirecta) in citoplasma macrofagelor => transportat la ficat, unde este conjugat cu acid glucuronic => BD (bilirubina directa), care este eliminata prin bila in intestine => transformare in Ubg (urobilinogen),
+-Ubg se transforma in urobilina (elimmare urinara) si stercobilnogenul in stercobilina => materii fecale
+-20% din Ubg se reabsoarbe portal => ficat => bila
+-o mica parte din Ubg reabsorbit portal scapa reeliminarii hepatice si ajunge in sange si de aici in urina.
+Diagnostic de laborator al hemolizei extravasculare
+1.teste biochimice care evidenţiaza hipercatabolismul protoporfirinei (hiperdistructia eritrocitelor):
+× BI crescuta mult
+× Ubg urinar mult crescut
+ 2.semnale morfologice ale hiperproductiei compensatorii de eritrocite:
+~ reticulocitoza sanguina
+~ hiperplazie eritroida in MO
+- valorile BI si Ubg urinar nu se coreleaza perfect cu intensitatea hemolizei, datorita capacitatii mari a ficatului de prelucrare a bilirubinei si intensitatii cu care se descarca Ubg-ul
+- ficatul normal poate excreta in 24h toata bilirubina rezultata din metabolizarea a 12,5g de Hb
+- mult mai importante sunt determinarile reticulocitelor si frotiul din MO:
+	•	daca MO este normala gradul de hiperplazie eritroida de la nivelul sau este paralel cu intensitatea hemolizei
+	•	raportul G/E (granulo-eritroblastic) este micşorat, adesea inversat (normal = 3:1; 4:1)
+	•	eritroblastii sunt de dimensiuni mari (macronormoblasti); nu trebuie confundati cu megaloblastii, care apar in anemiile hemolitice cronice secundare deficitului de acid folic.
+
+
+Hemoliza intravasculara
+= este procesul in care eritrocitele sunt lizate in circulaţie, cu eliberarea in plasma a Hb, care disociaza imediat in dimeri alfa sau beta;
+- dimerii sunt eliminati rapid din circulaţie prin mecanisme:
+	•	dependente de proteina transportoare => transportati la ficat si metabolizati
+	•	independent de proteina transportoare => dimerii strabat filtrul glomerular si vor fi preluati de cel epiteliale ale tubilor proximali => degradati; Fe ramane aici depozitat ca hemosiderina
+1.mecanismul independent de proteina transportoare:
+- celulele epiteliale cu hemosiderina se descuameaza si ajung in urina unde pot fi decelate prin reactia Perls a sedimentului urinar (arata hemosiderinuria)
+- hiperbilirubinemia si hiperurobilinogenuria sunt markeri ai ambelor tipuri de hemoliza
+- hemosiderinuria este marker al hemolizei intravasculare.
+2.mecanismul dependent de proteina transportoare:
+- plasma are 3 proteine care fixeaza dimerii de Hb:
+
+a) haptoglobina = alfa-2 globulina ce leaga specific globina
+  - complexele haptoglobina-globina sunt rapid captate de sistemul monocito-macrofagic (10 minute)
+  - concentratia haptoglobinei scade pana la consum total cand exista Hb plasmatica
+  - dupa consumarea completa a haptoglobinei raman dimeri liberi in plasma, care se va colora in roz
+
+b) hemopexina = beta-globulina ce leaga specific hemul pe care il transporta la ficat => BI din HEM
+
+Hb			methem + globina + Fe
+
+					captat de hemopexina
+
+
+c) serumalbumina - preia excesul de hem dupa saturarea hemopexinei; formeaza complexe methem-albumina, de culoare bruna, prezente in plasma, care persista pana la sinteza unor noi molecule de hemopexina in ficat, deoarece albumina nu poate transfera methemii prin membrana hepatocitelor
+    - apare doar in hemolize foarte severe
+*dupa un puseu de hemoliza intravasculara:
+	•	Hemoglobina poate fi decelata in plasma si urina cateva ore
+	•	Haptoglobina scade cateva zile
+	•	Hemosiderina se poate determina in urina mai multe saptamani
+*hemosiderinuria - apare cand sunt depasite toate cele 3 mecanisme de preluare a Hb plasmatice  si se evidenţiaza prin coloraţia Perls, a sedimentului urinar (celule epiteliale descuamate din tubii renali, cu depozite de hemosiderina)
+  - este indicatorul cel mai important in hemolizele intravasculare
+*hemoglobinuria > se produce cand a fost depăşită capacitatea de reabsorbtie tubulara a Hb => hemoglobinurie
+  > urina => coloratie rubinie
+  > este semnul de hemoliza intravasculara intensa.
+*markeri ai hemolizei:
+	•	hiperbilirubinemie
+	•	urobilinogen crescut
+	•	reticulocitoza
+	•	hiperplazie eritroida
+*pierderea progresiva a Fe prin urina o perioada indelungata determina aparitia unei anemii microcitare hipocrome.
+
+
+---END OF FILE---
+
+
+
+ 4. ANOMALIILE MORFOLOGICE ALE GLOBULUI ROSU:
+(descriere, semnificaţie, metode de evidentiere)
+
+
+Morfologia normala
+
+- morfologia eritroctara este studiata pe frotiul de sange periferic colorat prin metoda MGG
+- eritrocitul × este un disc biconcav cu marginile rotunjite
+		  × este o adaptare perfecta la functia respiratorie pentru difuziunea gazelor
+		  × are astfel suprafata cea mai mare la volumul cel mai redus
+		  × forma sa = rezultatul cooperarii unor forte extrinseci si intrinseci 
+-pe frotiul in strat subtire, necolorat, eritrocitele apar roz-palide, culoare data de Hb
+- pe frotiul colorat MGG apar mai intens colorate la periferie si mai palide spre interior
+- deplasarea lor vasculara estesub forma de fisic.
+
+Constante normale
+
+1.numarul eritrocitelor: 5,4 milioane ± 800.000 la barbat
+				 4,8 milioane ± 600.000 la femeie
+2.hematocritul: 45% ± 5% la barbat
+		        42% ± 4% la femeie
+3.hemoglobina: 12-17g/dl la barbat
+		       12-16g/dl la femeie
+	•	Determinarea hemoglobinei si hematocritului sunt cele mai importantein depistarea anemiilor si poliglobuliilor
+4.volumul eritrocitar mediu: VEM = 85-95μm3
+5.hemoglobina eritrocitara medie: HEM = 30μg
+6.concentratia medie de hemoglobina eritrocitara medie: CHEM = 34%
+- unii indici eritrocitari de determina prin metode automate
+- se pot evalua următorii parametrii:
+ Marimea
+*normal: -diametrul = 7,5 μm
+      -VEM = 80-100fl
+*microcite: - diametrul < 6 μm si VEM < 80fl
+ - exista o microcitoza fiziologica pana la 20% din totalul eritrocitelor la individul sănătos
+ - apar cu o zona clara la mijloc, ca urmare a incarcarii scazute cu Hb
+ - patologic: - in anemii hipocrome, talasemii homozigote si unele anemii hemolitice
+*macrocite: × diametrul > 9 μm si VEM > 100fl 
+  × fiziologic pana la 20% din totalul eritrocitelor
+  × modificarile sunt proportionale, pe frotiu apar intens colorate, cu disparitia zonei clare din contur
+  × este fiziologica la nou-nascut in primele 2 saptamani
+  × patologic in toate stările cu reticulocitoza, anemii hemolitice, aplastice, toxice, hemocromatoza, insuficienta hepatica, nefropatii cronice, neoplasme gastrice, pancreatice, dupa tratamente citostatice, antivirale, iradiere
+*megalocite ~ diametru > 12-15 μm si VEM > 120-140fl
+  ~ intotdeauna patologice
+  ~ sunt colorate intens, omogen
+  ~ in anemii prin deficit de factor de maturatie
+  ~ greu de diferentiat de macrocite in fazele incipiente ale anemiei Biermer
+*schizocite = fragmente de eritrocite de 2-4 μm, cu forma variata
+		 = fragmente de eritrocite patologice (poikilocite, megalocite, in tinta)
+		 = pot fi consecinta fagocitarii partiale a eritrocitelor
+		 = intalnite in: hemolize traumatice, anemia feripriva, anemia megaloblastica, chimioterapie
+* anizocitoza = eritrocite cu diametre diferite pe frotiu
+* anizocromie = eritrocite normale si hipocrome (incarcare slaba cu Hb) pe frotiu.
+
+Culoarea
+-normal exista o zona centrala mai palida, cuprinzând 1/3 din diametru
+-eritrocite hipocrome - zona palida centrala > 1/3 din diametrul celulei
+-eritrocite hipercrome – sferocite (zona palida centrala este absenta)
+-este influentata de:
+	•	 persistenta unor organite citoplasmatice (ribozomi), care le dau o tenta albastruie
+	•	incarcarea cu Hb
+	•	cresterea in volum sau a grosimii acestuia (apare falsa impresie a supraincaracarii cu Hb)
+-policromatofile = eritrocite care nu au expuzat nucleul (MGG: roz-albastrui, roz-cenusiu, roz-violet)
+			= 1-2% sunt normale
+			= prezenta in numar crescut: in anemia hemolitica, tulburari de diabaza
+-hipocrome = eritrocite palide si mici (microcitoza)
+		 = anemia hipocroma feripriva 
+-anulocite - cand zona clara din centrul eritrocitlui este extinsa pana aproape de periferie si este foarte pronuntata se numesc anulocite (asemanator unui inel)
+		- apar in: neoplasme, anemia feripriva, leucemii acute.
+
+Forma
+* normal = disc biconcav, pe frotiu apare rotund, contur regulat cu o zona centrala palida (egala cu 1/3 din diametru)
+* stomatocit = prezinta o fanta centrala palida
+ - apare in conditii de pH scăzut sau albumine serice crescute
+ - patologic: stomatocitoza ereditara, alcolism, ciroza, boli hepatice obstructive
+* echinocit = contur crenelat cu spiculi scurţi, regulaţi si uniformi (10-30)
+ - apare in conditii de pH crescut, albumine serice scăzute
+ - patologic: uremie, deficit de piruvatkinaza
+* acantocit = contur neregulat cu spiculi de lungimi variate, neuniformi, mai putini (2-10), asemanatoare frunzelor de acant
+ - patologic: abetalipoproteinemie (retina pigmentata atipic, steatoree, ataxie), alcoolism, ciroza, sindrom hemolitic, uremie, postsplenectomie, malnutritie severa, cancere extinse, anemii hemolitice, anemia hemolitica angiopata, purpura trombotica trombocitopenica
+* sferocit - microcit cu diametrul < 6μm cu VEM = normal, cu absenta zonei palide centrale
+        - patologic: sferocitoza ereditara, anemii hemolitice imune, hipo- si a-fosfatemie
+* eliptocit = ovalocit, disc biconcav, oval
+- normal cu diferente intre 1-2 μm in diametru
+- patologic -pana la 10%: stare talasemica, deficit de fier, folati
+-pana la 50%: diseritropoeze
+-pana la 90% eliptocitoza ereditara, talasemii, mielofibroza
+* codocite = eritrocit in „semn de tras la tinta”, „saiba”
+- patologic: boli hepatice obstructive, deficit de fier, talasemie, postsplenectomie
+* poikilocit = eritrocit in forma de lacrima, racheta de tenis, para, picatura, clopot, virgula, picatura, corn
+		  = apar prin intinderea frotiului ca urmare a fragilitatii lor
+  = patologie: mielofibromatoza, anemii mieloftizice, anemii hemolitice grave, neoplasme, uremie, leucemie acuta, talasemii
+*drepanocit = eritrocit in forma de secera sau luna noua
+  - patologic: drepanocitoza, alte hemoglobinopatii rare
+*schizocit = eritrocit rupt fragmentat
+- patologic: anemia hemolitica angiopatica (CID, PTT, vasculite, GN), proteze valvulare, arsuri severe, hemoglobinuria de mars
+
+Incluzii eritrocitare
+Corpusculii Howell-Jolly = granule rotunde, dense, albastu-inchis sau violet unice sau in numar redus (2-3)
+	= este cromatina nucleara condensata ramasa in eritrocit dupa diviziune
+= patologic: caracteristice anemiilor megaloblastice, diseritropoeze, anemii hemolitice, postsplenectomie (absenta lor postsplenectomie sugereaza existenta unor spline accesorii), atrofie, aplazie splenica, talasemie, leucemii.
+Granulaţii bazofile = granule mici albastre, albastre-violet dispuse pe toata suprafaţa eritrocitului
+	  -sunt reprezentate de agregate ribozomale, mitocondrii, fier neheminic
+	  -contin ribonucleoproteine
+	  -patologic: intoxicatia cu Pb, alte metale grele, anemii severe si talasemii.
+Inele Cabot = formatiuni filiforme, ce apar ca o linie cu circuit inchis, in forma de 8, semiluna sau racheta de culoare rosie-purpurie
+- resturi ale fusului de diviziune
+ -patologic: intoxicatii cu Pb, diseritropoeze grave, regenerări intense
+Corpii Heinz = agregate de Hb denaturate oxidativ, ce apar ca particule unice sau in numar mic, de dimensiuni mari pe marginea interna a eritrocitului
+  -sunt vizibili cu coloraţii supravitale: albastru brilliant crezyl, albastru de Nil si violet de metil
+  -patologic: talasemii, hemoglobinopatii cu Hb instabila, defecte de glucozo-6-fosfodehidrogenaza, siclemie, postsplenectomie (pot fi indepartati de catre splina).
+
+Dispoziţie
+
+- normal – eritrocite sunt situate unul langa altul, regulat dispuse sub forma unor fisicuri, lungi sau scurte
+- patologic: prezenta de aglutinine la rece in plasma
+- modificările de dispunere se datoreaza cel mai frecvent defectelor de intindere a frotiurilor.
+
+
+---END OF FILE---
+
+
+
+5.HEM0STAZA SI FIBRINOLIZA: 
+      (mecanisme, reglare, explorare in laboratorul clinic)
+
+
+Hemostaza = mecanism de aparare a organismului care apare in urma lezării unui vas de sânge, asigurand oprirea hemoragiei si repararea leziunii endoteliale
+	- sistemul hemostatic cuprinde proteine plasmatice, trombocite si celule endoteliale, care initiaza reactii complexe ce duc la formarea unei retele tridimensionale de polimeri de fibrina
+	- la realizarea hemostazei contribuie 2 sisteme enzimatice cu actiune antagonista, aflate in echilibru:
+	•	sistemul coagulant
+	•	sistemul fibrinolitic
+Sistemul coagulant
+ - asigurat de interventia a 3 mecanisme: vascular, plachetar si plasmatic
+- decurge in 2 faze: primara si secundara
+- hemostaza primara este sinonoma cu etapa vasculo-plachetara si consta in aparitia imediata a trombului plachetar cu efect protectiv imediat; survine in decurs de secunde de la momentul agresiunii si stopeaza pierderea de sange din vasele mici (capilare, arteriole, venule)
+- hemostaza secundara sau definitiva, care prin intermediul coagularii consolideaza trombul friabil pana la vindecarea leziunii, prevenind recurenta sangerarii in zilele consecutive lezarii vasculare.
+- sangerarile prin tulburaile hemostazei primare au tabloul clinic dominat de leziuni cutaneo-mucoase (purpura, petesii, echimoze etc.), iar cauza cea mai frecventa este afectarea cantitativa si calitativa a trombocitelor, mai rar cea vasculara.
+- in cazul afectarii hemostazei secundare, tabloul clinic cuprinde hemoragii profunde (hematoame, sufuziuni, hemartroze) prin deficite ale cascadei coagularii.
+
+ 
+Deosebirile dintre hemostaza primara si secundara
+
+Hemostaza primara
+defect vascular, trombocitar
+Hemostaza secundara
+defect al proteinelor plasmatice
+debutul sangerarii dupa traumatism
+imediat
+intarziat: ore, zile
+sediul sangerarii
+superficial: piele, mucoase
+tract respirator, digestiv, urinar
+profund: muschi, articulatii, retroperineu
+semne fizice
+purpura, petesii, echimoze
+hematoame, hemartroze
+raspuns la terapie
+imediat: masuri locale eficiente
+necesita terapie sistemica sustinuta
+
+Hemostaza primara
+Mecanismul vascular
+	•	realizeaza vasoconstrictie reflexa a vasului sangvin afectat cu oprirea provizorie a sangerarii, controlata de sistemul nervos simpatic si amine vasoactive.
+	•	participa 2 componente:
+	•	endoteliul vascular
+	•	structurile subendoteliale
+-arteriole si venulele produc vasoconstrictia fibrelor musculare netede din peretele vascular cu diminuarea calibrului vasului; reducerea calibrului vascular:
+	•	faciliteaza contactul trombocitelor cu structurile subendoteliale
+	•	permite acumularea factorilor de coagulare activati la locul injuriei vasculare
+	•	reduce rata de inactivare hepatica a acestora
+- capilarele nu conţin fibre musculare parietale, limiteaza hemoragia prin aderenta la celulele endoteliale si prin contractia straturilor subendoteliale miofibrilare
+- peretele vascular participa la hemostaza prin eliberare de:
+	•	tromboplastina tisulara ce activeaza calea extrinseca a coagularii
+	•	ADP care mediaza agregarea plachetara
+	•	bradikinina
+
+- celulele endoteliale sintetizeaza:
+	•	factorul von Willebrand
+	•	activatori ai plasminogenului
+	•	prostaciclina
+	•	trombomoduluina
+
+Mecanismul plachetar
+-realizeaza formarea trombusului plachetar
+-plachetele sunt factorul celular al hemostazei.
+Trombocitul
+- are normal aspectul unui disc cu diametrul de 3-4μm, volum mediu de 8μm, iar numarul normal de elemente care asigura o hemostaza normala este de: 150.000-400.000/μl.
+- principalele componente structurale ale trombocitului sunt:
+	•	membrana celulara
+	•	sistemul microtubular
+	•	sistemul tubular dens
+	•	granule variate
+	•	sistem canalicular deschis de comunicare cu mediul exterior.
+1) Membrana celulara
+× contine numeroase glicoproteine ce functioneaza ca receptori de suprafata:
+> glicoproteina Ib (GP Ib) se leaga de factorul von Willebrand (vWF) si mediaza aderarea la structurile subendoteliale ale vasului lezat;
+> glicoproteina IIb (GP IIb-IIIa) leaga fibrinognul si mediaza interactiunea trombocit-trombocit.
+> factorul Va membranar leaga factorul Xa
+> receptorii trombinici si ADP-azici prezinta importanta pentru stimularea de catre ADP si asigura legatura cu calea acidului arahidonic (AA) cu eliberarea de tromboxan A2 (TXA2) care stimuleaza ulterior agregarea plachetara.
+
+
+
+2) Microtubulii si microfilamentele
+- microtubulii sunt compusi din tubulina, participa la formarea citoscheletului in asociere cu microfilamentele ce contin actina si contribuie la formarea pseudopodelor plachetare.
+3) Sistemul tubular dens 
+- leaga selectiv cationii divalenti si serveste ca rezervor plachetar de calciu.
+- reprezinta si sediul ciclooxigenazei trombocitare şi sintezei prostaglandinelor
+4) Granulele
+- depozitează diverse substanţe ce se secretă în timpul agregării plachetare
+	•	granulele electron - dense conţin concentraţii mari de ADP, calciu, serotonină ce potenţează agregarea
+	•	alfa granulele depozitează proteine secretate de trombocitele stimulate, inclusiv factor 4 plachetar, beta tromboglobulina, factorul de creştere derivat din trombocite (PDGF=plateled derived growth factor), fibrinogen, factor V, factor von Willebrand şi glicoproteine cu rol în adeziune: trombospondina şi fibronectina.
+5)Canaliculii 
+	•	formează o reţea de invaginaţii cu aspect pseudovacuolar ce cresc suprafaţa internă a trombocitului. Conţinutul granulelor este expulzat prin intermediul acestui sistem.
+Funcţiile trombocitelor în hemostaza primară:
+ 1)Adeziunea plachetara
+-in conditii normale plachetele nu adera de endoteliul vascular deoarece acesta produce prostaglandina I2, un puternic inhibitor al plachetelor
+- aderarea plachetelor la endoteliu este condiţionata de lezarea vasului
+- aderarea trombocitului la fibrele din subendoteliul vascular se face prin intermediul unui receptor specific pentru colagen reprezentat de GP Ia şi IIa, reprezentând prima intervenţie a celulei în procesul coagulării.
+- interacţiunea trombocit - perete este stabilizată de factorul von Willebrand ce realizează legătura între un receptor plachetar situat pe GP Ib şi fibrele de colagen subendotelial.
+- in urma eliberării conţinutului granulelor se modifică suprafaţa plachetei, astfel încât fibrinogenul să se poată ataşa la un complex format din GP IIb şi IIIa membranare.
+2)Agregarea plachetara
+- este stimulata de aderarea plachetelor la straturile subendoteliale ale vasului sangvin lezat
+- este reglată prin:
+	•	modificarea nivelului nucleotidelor ciclice,
+	•	influxului de Ca2+,
+	•	hidrolizei fosfolipidelor membranare
+	•	fosforilării proteinelor intracelulare.
+	•	legarea epinefrinei, colagenului sau trombinei de receptorii de suprafaţă activează fosfolipaza A şi C care catalizează eliberarea acidului arahidonic din fosfatidilinozitol şi fosfatidilcolină. O parte din acidul arahidonic este convertită în tromboxan A2 (TXA2) care activează la rândul sau fosfolipaza C. Formarea TXA2 este catalizată de enzima ciclooxigenază.
+	•	din precursorii endoperoxidici se sintetizează şi prostaciclina (PGI2) ce inhibă fosfolipaza C prin creşterea AMPc intracelular
+- generarea TXA2 în trombocit şi postaciclinei în celulele endoteliale are loc astfel:
+
+ENDOPEROXIZI (PGG2, PGH2)
+
+				    ACIDUL ARAHIDONIC
+
+	tromboxansintetaza			prostaciclinsintetaza
+
+				         ciclooxigenaza
+
+				TX A2			PG I2
+
+
+
+
+
+TX B2	6KETO-PGFiaifa
+(trombocit)	(celule endoteliale)
+
+
+	•	procesul de agregare este iniţial reversibil, dar pe măsură ce au loc modificări structurale şi funcţionale ale trombocitelor, procesul devine ireversibil.
+	•	o mică parte din trombocitele agregate rămân nedistruse şi au rol în orientarea filamentelor de fibrină pentru care reprezintă puncte de ancorare, determinând retracţia cheagului.
+Hemostaza secundara
+Mecanismul plasmatic
+- mecanismul plachetar, asigura substratul la nivelul caruia factorii coagulării se activeaza si initiaza cascada coagularii care duce in final la formarea cheagului de fibrina
+- realizeaza hemostaza permanenta prin formarea gelului de fibrina insolubil
+-factorii coagularii sunt glicoproteine, in general enzime de tip serin-proteaza prezente iniţial sub forma inactiva (zimogeni); ei participa la coagulare doar sub forma activata. In urma activării, aceştia sunt transformaţi prin proteoliză limitată  în cursul procesului de coagulare.
+-factorii coagularii sunt sintetizati la nivelul ficatului cu excepţia factorului von Willebrand (sintetizat de celulele endoteliale)
+- la sinteza lor participa si megacariocitele (fibrinogen, factorul V, factorul XIII) si macrofagele (factorul V, VII, IX, X)
+- activarea factorului II, VII, IX depinde de vitamina K, in absenta careia factorii sunt sintetizati, dar inactivi
+- factorii plasmatici ai coagularii, transformaţi in forma active sunt: unii complet consumati (I, V, VIII), alţii parţial consumati (III, XI, XII), iar alţii nu se vor consuma si vor fi gasiti in ser (VII, IX, X) 
+- ei pot fi grupaţi în 3 tipuri:
+	•	factori ai fazei de contact (XI, XII);
+	•	factori dependenţi de vitamina K (II, VII, IX, X);
+	•	factori trombinosensibili (I, V, VIII, XIII).
+Factor
+Denumire
+Cale
+T 1/2 (ore)
+I
+Fibrinogen
+C
+90-120
+II*
+Protrombina
+C
+48-120
+III
+Factor tisular
+I
+
+V
+Proaccelerina
+C
+12-24
+VII*
+Proconvertina
+E
+2-6
+VIII
+Factorul antihemofilic A
+I
+10-12
+IX*
+Factor Christmas
+I
+18-20
+X*
+Factor Stuart-Prower
+I, E, C
+24-60
+XI
+Plasma tromboplastin-antecedent
+I
+45-80
+XII
+Factor Hageman
+I
+40-70
+XIII
+Factor stabilizator al fibrinei
+I
+72-200
+KMM
+Factor Fitzgerald
+I
+150
+PRECALICREINA
+Factor Fletcher
+I
+48-52
+
+C = calea comună, I = calea intrinsecă, E = calea extrinsecă, * = factori dependenţi de vitamina K, KMM = kininogen cu masă moleculară mare.
+Procesul de coagulare poate fi subimpărţit teoretic în 3 faze:
+	•	generarea protrombinazei (Xa, V, Ca2+, fosfolipide) pe cale intrinsecă
+	•	generarea protrombinazei pe cale extrinsecă
+	•	transformarea fibrinogenului în fibrină.
+Succesiunea reacţiilor de coagulare:
+
+Calea intrinseca							                    Calea extrinseca	
+		  KMM								         VII
+	    XII	      XIIa
+		  Kalicreina
+			XI	        XIa
+
+			IX		     IXa + VIII			Factor tisular
+				  Ca2+
+						      Ca2+		Ca2+
+						      FL
+					       X			Xa + V
+
+								 Ca2+
+								  +
+								 FL
+					Protrombina			   Trombina
+								
+								   Fibrinogen		  Fibrina
+
+				XIII			XIIIa				
+									Ca2+		Cheag
+											insolubil
+											de fibrina
+
+- mecanismul coagularii se desfasoara pe 2 cai: extrinseca si intrinseca, iar secvenţa finala este comuna
+- calea extrinseca difera de calea intrinseca in functie de originea factorului de start.
+
+	•	Faza de contact (calea intrinsecă de iniţiere a coagulării) 
+
+× începe în urma activării F XII după contactul cu structurile subendoteliale la nivelul leziunii vasculare (calea sanguina).
+× F XII, KMM şi prekalicreina formează un complex ce se ataşează pe fibrele de colagen; după legarea de KMM, F XII e lent convertit într-o protează activă (XIIa) ce converteşte apoi prekalicreina în kalicreină şi F XI în F XIa.
+× kalicreina accelerează transformarea F XII în F XIIa în timp ce F XIa participă în reacţiile de coagulare.
+× cantităţi mici de kalicreină formează din molecula kininogenului, bradikinina care activează la rândul său F XII.
+× pacienţii cu deficit de F XII, KMM şi prekalicreină au hemostaza aparent normală şi nu au sângerări clinice.
+
+× urmatoarea reacţie este activarea F IX în prezenţa F XIa şi Ca2+. Factorul IXa formează cu fosfolipidele (FL) acide de origine plachetară şi F VIII un complex capabil să transforme F X în F Xa.
+× in lipsa factorului VIII, factorul IXa poate activa F X foarte lent şi în proporţie foarte redusă, acţionând doar în calitate de cofactor.
+
+× complexul F IXa, F VIII, Ca2+ şi FL activează factorul X cu apariţia a două forme biologic active de factor X: F Xa alfa şi F Xa beta cu activitate enzimatică identică.
+× a fost descrisă şi o activare "aparent directă" a F X independentă de prezenţa factorilor VIII şi XI sau a activatorilor din calea extrinsecă.
+× factorul Xa, componentul principal al complexului protrombinazic catalizează transformarea protrombinei în trombină; acest complex include: F Xa, F V/Va, Ca2+ şi FL din membrana trombocitelor normale stimulate, ceea ce determină localizarea reacţiei de generare a trombinei strict la nivelul leziunii vasculare.
+× factorul V şi Va (produs prin proteoliza F V în prezenţa unor cantităţi mici de trombină) se leagă pe suprafaţa trombocitelor activate. In afara acestuia în granulele alfa există importante cantităţi de F V care este secretat în plasmă în timpul reacţiei de eliberare plachetară.
+× factorul Va modifică după legare conformaţia membranei cu expunerea unor situsuri de legare ce au afinitate mare pentru Xa; această legare se face prin intermediul ionilor Ca2+ şi are ca rol protejarea F Xa de acţiunea inhibitorilor specifici şi a proteinei C activate (o protează vitamino-K dependentă).
+× in cadrul complexului F Xa - F Va - Ca2+- FL, factorul Xa are funcţie enzimatică, factorul V fiind un cofactor ce măreşte viteza de reacţie.
+× proteoliza limitată a F V sub acţiunea unei cantităţi reduse de trombină duce la obţinerea unui complex protrombinazic mult mai activ decât în lipsa acestei modificări.
+
+	•	Calea extrinsecă de generare a protrombinazei
+
+» din punct de vedere teoretic se admite existenţa acestei căi alternative deşi practic s-a observat că deficienţa unui factor de coagulare implicat numai în una din căile de generare a protrombinazei se traduce prin sindroame hemoragice.
+» prin urmare, in vivo este obligatorie funcţionarea normală a ambelor căi.
+» unul din punctele de interferenţă ar putea fi activarea F IX sub influenţa complexului factor III - factor VII format pe calea extrinsecă.
+» factorul declansator este sucul celular pus in libertate de celulele tesutului lezat (tromboplastina – factor proteic, cefalina – factor fosfolipidic)
+» factorul tisular (III) se află inclus în membrana celulelor endoteliale şi fibroblaştilor fiind eliberat în urma lezării vasculare; factorul tisular leagă prin componentele lipidice atât F VII cât şi F X care este activat.
+» factorul VII are activitate proteazică slabă spontan, dar prin interacţiunea cu F III îşi măreşte activitatea de 45 de ori.
+» sub acţiunea trombinei, kalicreinei, F Xla şi plasminei, F VII se poate activa în prezenţa fosfolipidelor şi calciului.
+» aceasta trombina este redusa cantitativ, iar actiunea ei nu este de transformare a fibrinogenului in fibrina
+» intervine in ultima faza a mecanismului vasculo-plachetar, cand este transformat trombusul lax (agregare reversibila) in trombus ferm (agregare ireversibila) cu declansarea fenomenului de release secundar cu eliberarea factorilor plachetari cu rol in calea intrinseca.
+» trombina extrinseca este similara celei intrinseci, singura deosebire este ca au functii biologice diferite
+» conversia protrombinei in trombina se mai poate realiza si de catre tripsina si stafilocoagulaza
+» prezenta F XIII are rolul de colonizare a fibrinei cu fibroblasti; acestia prolifereaza intens si determina vindecarea plagii.
+» transformarea protrombinei în trombină se realizează sub acţiunea complexului protrombinazic sau a unor cantităţi minime de trombină formată în primele momente ale reacţiei.
+» transformarea fibrinogenului în fibrină are loc sub acţiunea trombinei, enzimă cu mare specificitate de substrat, acţionând la nivelul legăturii Arg-Gly. Este o serin-protează cu 2 lanţuri peptidice (A şi B) asemănătoare tripsinei.
+» formarea fibrinei are loc în 3 etape:
+	•	Iniţial trombina eliberează din fiecare lanţ alfa al fibrinogenului câte o polipeptidă A de la capătul amino-terminal. Aceasta schimbă structura conformaţională a fibrinogenului şi duce la polimerizarea longitudinală a moleculelor. Apoi se elimină fibrinopeptida B din lanţul beta facilitând polimerizarea transversală. Molecula astfel modificată de fibrinogen este monomerul de fibrină.
+	•	Etapa de polimerizare. In urma eliberării fibrinopeptidelor A şi B se formează o reţea tridimensională de fibrină care este instabilă deoarece monomerii sunt legaţi prin legături slabe de hidrogen.
+	•	Etapa de stabilizare are loc sub acţiunea F XIIIa care transformă fibrină solubilă în fibrină insolubilă.
+Sinereza = este proprietatea unui gel de a-şi reasambla constituienţii în structuri cu grad mai mare de reticulare în scopul creşterii stabilităţii. Ca efect al sinerezei, lichidul de imbibiţie este expulzat din ochiurile reţelei de fibrină, cheagul hemostatic reducându-şi volumul la 1/5 din cel iniţial.
+Retracţia cheagului presupune reducerea lungimii filamentelor de fibrină prin participarea trombosteninei din trombocitele intacte, cu functionalitate normala. Trombocitele din reţea prezintă pseudopode pe a căror membrană se ataşează fibrinogenul. Prin contracţia trombosteninei se produce scurtarea filamentelor de fibrină şi expulzarea elementelor sangvine nefixate. In urma retracţiei se obţine cheagul ferm.
+Controlul coagulării
+
+	•	necesitatea autocontrolului reacţiilor de coagulare este dictată de faptul că formarea cheagului este un proces limitat în spaţiu şi timp în condiţiile în care factorii de coagulare sunt ubicuitar prezenţi în organism.
+	•	dupa iniţierea coagularii, se activeaza mecanisme reglatorii, in lipsa carara se produce tromboza generalizata.
+
+Acceleratori fiziologici ai coagulării
+
+	•	formarea trombinei accelerează agregarea trombocitelor, activează factorii V şi VIII şi autocatalizează transformarea protrombinei în trombină.
+	•	eliberarea de fosfolipide trombocitare creşte concentraţia locală a reactanţilor din sistem;
+	•	inhibitorii heparinei şi antiplasminelor aflaţi în trombocit.
+
+Inhibitori fiziologici ai coagulării
+
+In plasma exista o cantitate de factori de coagulare, care, in conditiile unei activari necontrolate, ar putea duce la un exces de activitate trombinica si la un risc major trombogen. Pentru prevenirea unor asemenea accidente exista un intreg sistem reglator complex de inhibitori. Principalele cai de anihilare ale unui exces de factori activati sunt:
+	•	legarea lor de catre inhibitori
+	•	diluarea de catre torentul circulator
+	•	clearence-ul de catre sistemul reticulo-endotelial al complexelor formate dintre factorul activat si inhibitorul acestuia
+Cei mai importanti inhibitori sunt:
+	•	antitrombina III (AT III)
+	•	heparin-cofactor II (HC II)
+	•	trombomodulina
+	•	proteina C si S.
+
+	•	Antitrombina III (cofactorul heparinic I):
+	•	este cel mai puternic inhibitor si formează complexe cu toate serin-proteazele factorilor coagularii cu excepţia F VII.
+	•	rata formării complexelor e accelerată de heparină şi de molecule heparin-like pe suprafaţa celulelor endoteliale.
+	•	această proprietate a heparinei de a accelera activitatea antitrombinei stă la baza acţiunii anticoagulante a heparinei.
+	•	deficitul ei poate fi congenital sau dobandit: postterapeutic (heparina, asparaginaza) sau prin boala (insuficienta hepatica, sindrom nefrotic, CID, tromboza venoasa, septicemie)
+
+	•	Cofactorul II al heparinei e o proteină plasmatică ce inhibă numai trombina în prezenţa heparinei, iar deficitul (boli hepatice, diabet zaharat, septicemie, CID) predispunela un risc trombogen crescut.
+
+	•	Proteinele C şi S
+Proteina C: - este vitamino K-dependentă, este o proenzima care se activează sub acţiunea trombinei ce o transformă în serin-protează.
+	•	activarea proteinei C este accelerată prin legarea de o proteină prezentă pe celulele endoteliale: trombomodulina.
+	•	funcţia inhibitorie a proteinei C necesită prezenţa proteinei S, fosfolipidelor trombocitare şi calciului.
+	•	proteina C activată are acţiune proteolitică selectivă asupra F Va şi F VIIIa.
+	•	este inactivata de heparina
+
+Proteina S: – circula 60% legata de proteina C, iar 40% sub forma libera
+		 - accelereaza si intareste actiunea proteinei C
+
+Scăderea nivelului de antitrombină sau proteină C şi S (sau existenţa unor forme moleculare disfuncţionale) este responsabilă de aşa-numitele stări pretrombotice sau de hipercoagulare, iar excesul duce la un sindrom hemoragic.
+
+Sistemul fibrinolitic
+= actioneaza asupra depozitelor de fibrina de pe vasele sangvine, protejând organismul impotriva trombozelor
+	•	sistemul fibrinolitic cuprinde în primul rând enzima cu acţiune proteolitică asupra fibrinei insolubile: plasmina care se formează prin modificarea structurală a unei proenzime inactive - plasminogenul.
+	•	alţi constituienţi ai sistemului fibrinolitic sunt:
+	•	activatorii fiziologici ai plasminogenului care iniţiază fibrinoliza prin transformarea plasminogenului în plasmină şi
+	•	inhibitorii naturali ai fibrinolizei cu rol de autocontrol al acestui proces.
+	•	plasminogenul (P) este o glicoproteină cu structură monocatenară, cu concentraţie serică în jur de 10-12 mg%.
+	•	plasmina este o endopeptidază cu acţiune hidrolitică la nivelul legăturii peptidice arginină-lizină. In condiţii normale degradează numai fibrină. Prin pierderea patologică a specificităţii de acţiune poate degrada şi alte proteine plasmatice (F V, F VIII, fibrinogen).
+- fibrinoliza = consta in desfacerea enzimatica a fibrinei in fragmente care nu mai sunt capabile sa formeze o reţea eficienta
+- succesiunea reacţiilor de fibrinoliză cuprinde cele 3 etape consecutive:  activarea plasminogenului; degradarea fibrinei; inactivarea plasminei.
+I. Activarea plasminogenului.
+Activatori tisulari
+> in numeroase ţesuturi există o proteină ce poate induce transformarea plasminogenului în plasmină, denumită activator tisular al plasminogenului (t-PA).
+> plămânul, uterul şi prostata au conţinut crescut de t-PA, explicând hemoragiile masive după intervenţiile pe aceste organe ca urmare a declanşării fibrinolizei.
+> t-PA este prezent în cantitate mare şi la nivelul celulelor endoteliale de unde este eliberat.
+Activatori plasmatici
+» factorul XIIa activează F XI şi prekalicreina cu formarea F XIa şi kalicreinei care au capacitatea de a activa direct plasminogenul, putând fi consideraţi activatori intrinseci.
+» urokinaza activează numai plasminogenul liber circulant, nu şi pe cel legat de reţeaua de fibrină.
+» streptokinaza e o proteină izolată din culturi de streptococi beta hemolitici.
+Obişnuit acest proces are loc aproape exclusiv sub acţiunea activatorului tisular (t-PA) eliberat în condiţii de stază venoasă din endoteliul vascular. t-PA se fixează pe cheagul de fibrină în paralel cu fixarea plasminogenului, ambele suferind modificări ce duc la formarea plasminei active. După degradarea fibrinei, plasmina se desprinde de pe fragmentele proteice rezultate din proteoliză şi este inactivată de inhibitorii plasmatici.
+II. Degradarea fibrinei
+Sub acţiunea proteolitică a plasminei asupra fibrinei sau fibrinogenului, se scindează iniţial unele polipeptide din lanţurile alfa şi beta rezultând fragmentul X. Acesta este degradat în fragmentul Y şi în continuare în produşi finali D şi E cu masă moleculară mică.
+III. Inactivarea plasminei
+Inhibitorii plasminei
+~ prezenţi în sânge şi urină, sunt proteine ce scad activitatea sistemului fibrinolitic in vivo.
+~ mai importante sunt:
+	•	alfa-2-antiplasmina cu acţiune rapidă şi
+	•	alfa-2-macroglobulina - care acţionează lent după ce întreaga cantitate de alfa-2-antiplasmină este cuplată cu plasmina.
+Alfa-2-antiplasmina (alfa 2-PI) inhibă rapid plasmina, intervine în formarea fibrinei stabile şi în procesul de absorbţie a plasminogenului pe reţeaua de fibrină.
+Alfa-2-macroglobulina (alfa 2 M) are acţiune nespecifică inhibând în afara plasminei şi trombina sau kalicreina.
+Limitarea procesului de fibrinoliză este realizată prin intervenţia alfa-2-antiplasminei şi alfa-2- macroglobulinei. Antiplasmina inactivează aproape instantaneu plasmina desprinsă de pe fibrină (circulantă), intervine în cuplarea plasminogen-fibrină şi în reacţia de transformare a fibrinei solubile în fibrină insolubilă. Cuplarea plasminei cu antiplasmina este inhibată de acidul aminocaproic şi acidul tranexamic.
+După ce toată antiplasmina circulantă se cuplează cu plasmina intervine alfa-2-macroglobulina care inhibă lent enzima.
+
+Explorarea fibrinolizei:
+Metode directe:
+-timpul de liza a cheagului euglobinic
+-metoda plăcilor de fibrina
+-determinarea plasminogenului
+Metode indirecte:
+	•	decelarea  produsilor de degradare a fibrinei (FDP)
+	•	determinarea fibrinogenului
+	•	determinarea nivelului F VIII si F V
+Explorarea hemostazei:
+1. teste de coagulabilitate globala:
+	•	timpul de coagulare (6-10 min)
+	•	timpul Howell (60-120 sec)–exploreaza coagulabilitatea globala intrinseca
+	•	toleranta la heparina "in vitro".
+2. testele hemostazei vasculare:
+Metode directe:
+– timpul de sangerare (2-4 min prin metoda Duke)
+- rezistenta capilara (compresiune cu garoul).
+Metode indirecte:
+-explorarea trombocitului:
+*functii dinamice:
+-retractia cheagului
+-teste de agregare trombocitara (ADP, epinefrina, collagen, ristocetina)
+-teste de adezivitate plachetara (la sticla rehidrofugata).
+*functii tromboplastice
+-determinarea factorului 4 plachetar
+- determinarea fact 3 plachetar
+-testul de generare a tromboplastinei.
+-morfologie trombocitara: pe frotiu de sange periferic.
+3. explorarea fazei I a coagulării:
+	•	timpul de cefalina (PTT)
+	•	timpul de cefalina activata (PTTK)
+	•	timpul de protrombina serica - investigheaza factorul 3 plachetar, factorii V, VIII, IX, X, XI, XII
+	•	dozarea factorilor antihemofilici (VII si IX)
+	•	determinarea factorilor XI, XII
+	•	testul de generare a tromboplastinei
+4. explorarea fazei a 2-a a coagularii:
+	•	se determina activitatea complexului protrombinic format din factorii: II, V, VII, X dupa schema coagularii extrinseci
+	•	determinarea timpului de protrombina (Quick)
+	•	determinarea factorului II (protrombina)
+	•	determinarea factorului V (proaccelerina)
+	•	determinarea factorului VII (proconvertina)
+	•	determinarea factorului X (Stuart-Prower)
+	•	trombotestul lui Owen (masoara simultan factorii II, VII, IX, X, care scad in tratamentele cu vitamina K)
+5. explorarea fazei a 3-a a coagularii (fibrinoformarea sub influenta trombinei):
+	•	determinarea fibrinogenului
+	•	timpul de trombina
+	•	determinarea factorului XIII (stabilizator al fibrinei)
+6. evidentierea Ac antiplachetari:
+-testul de inhibiţie a retractiei cheagului
+-testul Karpatkin
+7. determinarea anticoagulantilor circulanţi:
+	•	timpul de tromboplastina partial activata (PTFK)
+	•	determinarea nivelului seric de anti-F VIII
+	•	determinarea nivelului anti-F IX
+8. determinarea inhibitiei fiziologice:
+	•	determinarea nivelului de AT III
+	•	determinarea proteinei C
+	•	determinarea prot S
+	•	determinarea anticoagulantului lupic
+9. teste pentru determinarea stării de hipercoagulabilitate:
+-testul monomerilor de fibrina
+-testul activarii reziduale a serului (TARS).
+
+
+---END OF FILE---
+
+
+6. Definitia,  clasificarea patogenica si metodologia de identificare  a urmatoarelor tipuri de anemii: hipocrome, hemolitice, megaloblastice.
+
+Anemii hipocrome
+
+Definitie: anemiile hipocrome sunt caracterizate prin deficitul cantitativ al sintezei de Hb, ceea ce duce la scaderea CHEM (<30 g/dl) => hipocroma; de asemenea, eritrocitele au si un VEM scazut (<90 fl) => microcitoza.
+Patogenie: tulburarea sintezei Hb poate fi determinata de afectarea celor 3 componente:
+blocaj in 	  anomalii in	       tulburari in sinteza
+sinteza	metabolismul	      globinei
+		     Fe2+
+
+Protoporfirina + Fe2+ = Hem + Globina => Hemoglobina
+
+a. sideroblastica     a. feripriva	       boli talasemice
+	•	cronica simpla     hemoglobinopatii
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+				anemii hipocrome
+
+	•	Blocaje in sinteza protoporfirinei: 
+	•	Anemii sideroblastice
+	•	Anomalii in sinteza Fe2+:
+	•	Anemia cronica simpla 
+	•	Anemia feripriva
+	•	Tulburari in sinteza globinei: 
+	•	Hemoglobinopatii
+	•	Boli talasemice
+Clasificare: tulburari in sinteza hemului:
+	•	Afectarea metabolismului Fe2+ :
+	•	scaderea cantitatii totale de Fe2+ in organism (carenta) = anemie feripriva;
+	•	repartitia anormala a Fe2+ in organism:
+I.compartimentul Fe circulant:
+	•	anomalii in transportul Fe2+: atransferinemia (congenitala si dobandita) – aportul Fe la eritroblasti este mult redus, hemosiderina = in exces in macrofagele din ficat si absente la cele din maduva; CTLF  , Fe
+	•	deficitul de Cu: Cu este transportat de α2-globulina (ceruloplasmina), care mentine Fe in stare trivalenta legat de transferina; apare la copiii malnutriti si adultii hraniti artificial; raspunde bine la tratamentul cu Cu.
+II.compartimentul utilizarii Fe in MO: blocarea receptorilor pentru transferina ai eritroblastilor: anemia Sahidi-Diamond (congenitala sau prin mecanism imun – cu Ac de tip IgG; cu depozite de Fe in macrofagele din MO si splina).
+III.compartimentul depozitelor de Fe: blocarea Fe2+ in macrofagele din ficat, splina, MO in anemiile din bolile cronice (boli de colagen), anemiile din boli cronice infectioase, neoplazii, hemosideroza pulmonara; anemia este hipocroma sau partial hipocroma, cu un volum eritrocitar moderat redus sau normal, Fe  , dar niciodata sub 16% ca in anemia feripriva.
+
+	•	Tulburari in sinteza protoporfirinei:
+× este determinata prin blocarea unor enzime la diferite niveluri
+× sideroblastii = inelari (normal = granule de Fe in citoplasma)
+× anemia este sideroblastica, hipocroma, microcitara, Fe  , CTLF  , Fe este in cantitate mare in macrofagele din ficat, splina, MO.
+	•	anemii sideroblastice ereditare;
+	•	anemii sideroblastice dobandite;
+	•	anemii sideroblastice secundare.
+
+	•	Tulburari in sinteza globinei:
+~ apare un defect in sinteza lanturilor α sau β din structura globinei
+~ excesul de lant α in β-talasemie determina precipitarea intracelulara si formarea corpilor Heinz, care sunt epurati de splina, deficit si mai mare de Hb eritrocitara.
+	•	talasemia si bolile talasemice;
+	•	hemoglobinopatii (HbC, HbE, etc.)
+
+Identificarea anemiilor hipocrome:
+	•	frotiu de sange periferic:
+- se vor observa eritrocite hipocrome, microcitare
+- se determina indicii eritrocitari: VEM, CHEM, Hb
+- talasemie: > volum eritrocitar mai mic in raport cu hipocromia
+		  > eritrocitele au punctatii bazofile
+  > anizocitoza, schizocitoza, celule in semn de tras la tinta, corpi Heinz, policromatofilie.
+- hemoglobinopatii: eritrocite normocitare, hipocrome, cu celule in semn de tras la tinta
+- anemia sideroblastica: dismorfism eritrocitar, cu multe punctatii bazofile.
+2. investigarea metabolismului Fe:
+a) dozarea sideremiei: normal = 70μg/100ml la femeie
+					    = 100μg/100ml la barbat
+b) coeficientul de saturare cu Fe al transferinei:
+	•	normal = 30%
+	•	anemie feripriva <16%
+	•	boli cronice <20%
+	•	anemii sideroblastice >30%
+	•	talasemie = 90-100%.
+c) aprecierea depozitelor de fier :
+	•	determinarea hemosiderinei medulare: frotiuri colorate cu albastru de Prusia (granule albastre de hemosiderina); cu o evaluare de la 0 la 6+ (normal 1+ si 3+)
+	•	in anemia feripriva: hemosiderina medulara = absenta
+	•	in anemiile din bolile cronice: rezerve de fier 4+-5+ (++++ - +++++):
+	•	in talasemia minora si in hemaglobinopatii: rezerve de fier 2+ - 4+ (++ - ++++);
+	•	in talasemia majora si in anemiile sideroblastice: rezerve de fier 5+-6+ (+++++ - ++++++);
+d) dozarea feritinei circulante:
+	•	normal: 70 µg/l la barbati si 35 µg/l la femei;
+	•	deficit de fier <10 µg/l,
+	•	hemocromatoza >1000 µg/l
+e) testul de absorbtie intestinala a Fe prin administrare de Fe marcat radioactiv (absorbtie crescuta in caz de rezerve scazute).
+f) testul de eliminare urinara a Fe prin administrare de agenti chelanti (desferoxamina):
+	•	in deficitul de Fe: eliminarea este scazuta,
+	•	in anemiile sideroblastice: eliminarea este mult crescuta
+	•	examinarea sideroblastilor medulari si a siderocitelor:
+	•	un sideroblast normal contine granule de feritina, care provin din Fe ramas nefolosit in urma sintezei hem-ului
+	•	prezenta > 5 granule de feritina in citoplasma unui sideroblast este patogena
+	•	dispunerea miceliilor feruginoase sau Fe perinuclear sunt considerate patologice.
+	•	normal 30 – 50% din eritroblastii maduvei ososase
+	•	anemia feripriva: <10%
+	•	anemiile din bolile cronice: 12–15%, hemosiderina in macrofage intens crescuta;
+	•	talasemii: >50%;
+	•	anemiile sideroblastice idiopatice: >50%, din care >15% sideroblasti inelari (micelii feruginoase in mitocondrii si granule de Fe perinucleare).
+3. determinarea protoporfirinei libere eritrocitare:
+	•	Valori crescute: anemiile feriprive, din bolile cronice, intoxicatii cu plumb;
+	•	Valori normale: talasemie;
+	•	Valori scazute: anemia sideroblastica ereditara.
+4. investigarea sintezei Hb: 
+	•	electroforeza Hb;
+	•	denaturarea la cald (Hb instabila);
+	•	genetica moleculara.
+
+Anemii hemolitice
+
+Definitie: hemoliza = procesul de indepartare a eritrocitelor din circulaţie.
+Clasificare: poate fi:
+- extravasculara - splina este cel mai important organ in selectarea si eliminarea celulelor imbatranite (mecanismul prin care sunt eliminate 90% din eritrocite este necunoscut).
+- intravasculara - proces prin care 5-10% din eritrocite sunt lizate in mod normal in circulatia generala; Hb este deversata in plasma si apoi prelucrata in ficat si rinichi.
+- hemoliza fiziologica a eritrocitelor imbatranite; durata de viata normala a eritrocitelor = 120 zile
+- hemoliza patologica - se adreseaza tuturor eritrocitelor din circulatie, producand distrugerea prematura a unei cantitati mai mari de eritrocite / unitatea de timp, durata de viata a eritrocitelor fiind scurtata
+- daca distrugerea prin hemoliza a eritrocitelor este compensata integral vorbim de hemoliza compensata
+- anemia hemolitica (AH) este o anemie necompensata, iar capacitatea maduvei de a acoperi pierderile prin hemoliza este depasita, durata de viata a eritrocitelor este mult scuratat <17 zile.
+- clasificarea AH:
+a)intracorpusculare - sunt implicate eritrocite cu defecte structurale, care le fac inapte sa supravietuiasca indelungat in mediu normal
+1.defecte de membrane:
+-sferocitoza ereditara
+-eliptocitoza ereditara
+-stomatocitoza ereditara
+-acantocitoza ereditara
+-deficienta de LCAT (lecitin-colesterol-acil-transferaza)
+-HPN – hemoglobinuria paroxistica nocturna (nu este ereditara).
+2.enzimopatii eritrocitare care vizeaza:
+	•	enzime ale glicolizei anaerobe (piruvat-kinaza, hexokinaza, GP-izomeraza, fosfo-fructo-kinaza, aldolaza)
+	•	enzime ale suntului pentozelor (glucozo-6-fosfo-dehidrogenaza)
+	•	enzime ale metabolismului glutationului (reductaza, peroxidaza, sintetaza)
+	•	altele: adenilat-kinaza, adenozintrifosfataza.
+3.defecte ale globinei:
+	•	anomalii structurale (Hb S,C,D,D..M)
+	•	talasemii
+	•	stări dublu heterozigote
+b)extracorpusculare: alterari ale mediului de viata (plasma, vase) care agreseaza si elimina eritrocitele normale:
+1.AH prin anticorpi:
+-alloanticorpi: reactii postransfuzionale, boala hemolitica a nou-nascutului
+-autoanticorpi:  *AH autoimune cu Ac la cald
+		*AH cu Ac la rece, pot fi idiopatice sau secundare
+2.AH prin agenţi infectiosi: malarie, toxoplasmoza, leishmanioza
+3.AH prin medicamente:
+	•	prin intermediul complexelor imune (fenacetina, tiazide, sulfonamide, izoniazida)
+	•	mecanism haptenic (penicilinaza, cefalosporine)
+4.AH prin agenţi chimici (Pb, Cu, Zn, As, H2O)
+5.AH prin agenţi fizici (arsuri, radiaţii)
+6.AH prin factori traumatici (proteze valvulare, CID, sindrom hemolitic-uremic, PTT)
+7.hipersplemim
+Investigarea AH:
+*frotiu de sange periferic:
+- AH sunt: × normocrome in majoritatea cazurilor
+        × hipocromia se asociaza in 2 situatii:
+	•	hemoglobinopatie (talasemie, HbE)
+	•	carenţa de Fe asociata
+- prezenta de eritrocite in „semn de tras la ţinta”
+- sferocitoza si microsferocitoza (microsferocitoza erediatara, AH imune, hipersplenism)
+- schizocite >1% (AH angiopatica: CID, proteze valvulare, PTT, SHU = sindrom hemolitic uremic, HTA maligna, LED, SIDA, hemangioame gigante)
+-hiperreticulocitoza
+*MO: hiperplazie eritroida corelat cu intenitatea hemolizei
+* markeri ai hemolizei:
+	•	hiperbilirubinemia indirecta
+	•	descarcari crescute de UBG urinar
+	•	hiperreticulocitoza
+	•	hiperplazia eritroida a MO
+*cresterea LDH (eliberat din eritrocitele distruse).
+	•	Hiperbilirubinemia indirecta izolata = hemoragie in seroase sau tesuturi (hematoame profunde) sau ictere familiale (Gilbert, Crieggler-Najjar)
+	•	Anemie cu reticulocitoza, fara hiperbilirubinemie = hemoragie interna; asociat cu hiperplachetoza este hemoragie, nu hemoliza; asociat cu tablou leucoeritroblastic arata invazia MO cu celule neoplazice, mielofibroza, infectie severa.
+	•	Anemie cu hiperbilirubinemie si reticulocitopenie arata o eritropoeza ineficienta.
+*inspectia plasmei:
+	•	hemoliza: plasma si urina = galben inchis
+	•	hemoliza intravasculara: plasma = roz, iar urina = rosie - rubinie datorita hemoglobinuriei (uneori urina = rosietica si in cazul unor porfirinurii, mioglobinurii, administrarea de medicamente, dar plasma = normala).
+*determinarea hemosiderinuriei:
+	•	este indicator pentru hemoliza intravasculara cronica (apare cand este depăşită capacitatea celulelor epiteliale ale tubilor renali de a prelua Hb in exces);
+	•	se utilizeaza ferocianura de K (reactia Perls) sau cu sulfura de NH4  si o picatura de sediment urinar (se formeaza granule de sulfura ferica ce se observa in interiorul cilindrilor, celulelor epiteliale sau raspandite in campul microscopic).
+*haptoglobina libera plasmatica scazuta (preia Hb din plasma).
+*teste primare de sustinere a diagnosticului:
+	•	electroforeza Hb: identifica tipuri patologice de Hb
+	•	testul Coombs direct si indirect (prezenta Ac, autoAc)
+	•	testul de aglutinare la rece
+	•	testul de autohemoliza
+	•	investigarea rezistentei osmotice a eritrocitelor
+*teste specifice:
+	•	determinarea enzimelor eritrocitare
+	•	determinarea structurii lanţurilor de globina
+	•	testul Ham.
+
+Anemii megaloblastice
+
+Definiţie: stare patologica datorata unei tulburări ale diviziunii celulare prin sinteza scazuta de acizi nucleici, caracterizata hematologic prin transformarea megaloblastica si hematopoeza ineficienta din cauza deficitului de vitamina B12 sau acid folic.
+Fiziopatologie:
+-factori etiopatogenici diversi: deficit de vitamina B12, acid folic => sinteza deficitara de ADN => megaloblastoza, hematopoeza ineficienta => anemie => creste secreţia de eritropoetina => hiperplazie eritroblastica, uneori cu eritropoeza extramedulara => consum crescut de vitamina B12 si acid folic, care produce deficit si mai mare de vitamina B12 si acid folic, cu reluarea ciclului vicios.
+Deficitul de ADN determina alungirea intervalului intermitotic si asincronism nucleo-citoplasmatic (nucleu tanar, citoplasma matura)
+	•	mitoze atipice
+	•	inmugurirea nucleului			in seria granulocitara si megacariocitara
+	•	hipersegmenatarea nucleului
+	•	poliploidia
+	•	cariorexis			in seria eritrocitara
+	•	resturi nucleare
+Clasificare:
+I. Anemii megaloblastice prin deficit de vitamina B12
+1.Deficit cantitativ absolut de vitamina B12:
+	•	aport insuficient: malnutritie severa, regimuri vegetariene absolute
+	•	consum in intestin:
+	•	prin proliferare bacteriana: diverticuli, anastomoze
+	•	prin paraziti intestinali: botriocefal
+	•	absorbtie insuficienta in intestin prin:
+	•	lipsa factorului intrinsec (FI):
+	•	defect genetic
+	•	mecanism autoimun:
+> boala Addison-Biermer (anemia pernicioasa)
+> anemia pernicioasa juvenila
+	•	eliminarea substratului secretor: afectiuni gastrice.
+	•	deficitului de fixare a complexului FI-B12 pe receptorii ileali:
+	•	prin defect genetic:sindromul Immerslund
+	•	prin pH scazut:insuficienta pancreatica, sindrom Zollinger-Ellison
+	•	afectarea transportului celular prin:
+	•	leziuni intracelulare (alcoolism, iradiere)
+	•	leziuni histologice (enteroclita, boala Crohn, TBC)
+	•	ablatie intestinala (rezectie de ileon)
+2.Deficit cantitativ relativ:
+	•	consum crescut: sarcina, hipertiroidie, mielom, boli proliferative
+	•	eliminari crescute: leziuni hepatocelulare
+3.Deficit de utilizare:
+	•	absenta transcobalaminei II in ser
+	•	prezenta transcobalaminei II anormala
+	•	deficit enzimatic congenital de metil-malonil-CoA-mutaza.
+II.Anemii megaloblastice prin deficit de acid folic
+	•	Deficit de acid folic:
+	•	cantitativ absolut: malnutritie, maldigestie, rezectie de jejun proximal, consum de alcool, anticonvulsivante, boli inflamatorii intestinale.
+	•	cantitativ relativ: sarcina, alcoolism, hepatite, lactatie prelungita, eritropoeza hiperactiva (anemii hemolitice, hemoragii, boli mieloproliferative).
+	•	Deficit de utilizare (lipsa de folat activ):
+	•	deficite enzimatice congenitale
+	•	alcool, ciroza hepatica
+	•	medicamente antifolice: methotrexat, antimalarice, tuberculostatice, anticonvulsivante.
+Investigarea anemiilor megaloblastice:
+	•	frotiu de sange periferic:
+	•	anemia este de grad variabil
+	•	macrocitoza, diametrul eritrocitelor > 12mμ, usor ovale, bine incarcate cu hemoglobina (zona centrala palida absenta), dar exista si eritrocite mici cu forme neregulate: anizocitaza si poichilocitoza
+	•	rari megaloblasti si reticulocite in numar scăzut
+	•	leucopenie: 3.000-5.000/mm3, granulocite mari cu tendinta la hipersegmentare a nucleilor, uneori prezente meta si mielocite
+	•	trombocite scazute moderat, cu anizocitoza trombocitara, uneori cu trombocite gigante.
+	•	tabloul medular:
+-maduva hiperplazica cu creşterea raportului G/E
+-transformare megaloblastica, celule cu talie mare, scaderea raportului nucleocitoplasmatic si asincronism de maturatie
+-mitoze in numar crescut si atipice
+-modificările pot fi extreme => ”maduva albastra" datorita predominantei megaloblastilor cu citoplasma bazofila
+-seria granulocitara: metamielocite gigante, nesegmentate de talie mare, citoplasma bazofila, cu tendinta de segmentare a nucleului (6-8 sau mai mulţi lobi)
+-seria megacariocitara: elemente mari si granulare deficitara, hipersegmentarea nucleului (megacariocite explodate)
+-limfocite si granulocite in numar crescut.
+	•	biochimie:
+-bilirubina crescută, LDH crescut
+-haptoglobina scazuta (datorita hemolizei)
+-sideremie crescută cu capacitae de legare a FE (CTLF) scăzută
+	-indici eritrocitari: ~ VSH crescut
+				    ~ VEM >110μ, HEM >35 pg
+    ~ Hb si Ht scăzute mai puţin dacat numarul total al eritrocitelor.
+- determinarea nivelului seric de vitamina B12 (<100-150 pg/ml) si acid folic (scazut <3ng/ml).
+	•	teste metabolice:
+-eliminarea urinara de acid metil-malonic – foarte crescut in anemia Biermer
+-eliminarea urinara de acid forminino-glutamic dupa incarcare cu histidina (crescut in deficitul de acid folic)
+-dozare serica a homocisteinei = foarte crescut in deficitul de vit B12
+-dozare serica a acidului metilmalonic (crescut in deficitul de vitamina B12)
+-testul Schilling pentru cercetarea absorbţiei intestinale a vitaminei B12.
+
+
+---END OF FILE---
+
+
+7. DEFINIŢIE, CLASIFICAREA SI CRITERIILE DE DIAGNOSTIC ALE BOLILOR MIELOOPROLEFERATIVE CRONICE
+(leucemia granulocitara cronica-LMC, mielofibroza cu metaplazie mieloida–MMM, policitemia vera-PV, trombocitemia hemoragica-TE)
+
+I. Leucemia granulocitara cronica
+
+Definitie = LMC = LGC = leucemia mieloida cronica este o boala a sângelui incadrata in grupul bolilor mieloproliferative cronice alaturi de policitemia vera, trombocitemia esenţiala si mielofibroza
+LMC = afectiune clonala care rezulta din transformarea neoplazica, a unei stem pluripotente capabila de diferenţiere către toate liniile hematopoetice
+- caracteristica principala a boli consta in creşterea necontrolata a granulocitelor neutrofile	care duce la creşterea masei granulocitatre totale si a celei circulante
+-prezenta in sangele periferic in numar mare a leucocitelor formate din segmentatele neutrofile si precursorii acestora in toate stadiile de diferenţiere este esenţiala pentru definirea bolii si stabilirea diagnosticului
+-mai pot aparea cresterea granulocitelor bazofile, scaderea FAL, creşterea nivelului seric de vitamina B12 si transcobalaminele I si III
+-cromozomul Ph (Philadelphia) - o anomalie citogenetica apare in 95-100% (95% din cazurile tipice de LMC, 100% in celulele de diviziune din MO) din cazuri prin evidentierea genei de fuziune BCR /ABL si a proteinei himerice p210 definesc LMC la nivel molecular.
+-anomalia cromozomului Ph prin fuziunea genei BCR/ABL este dobandita, nu apare la rudele de gradul intai, inclusiv gemenii identici; in faza cronica a bolii prezenta comozomului Ph este pusa in evidenta si la nivelul eritrocitelor, granulocitelor, megacariocitelor; aceasta clona reprezinta un marker valoros al bolii, insa persista si dupa tratament specific, poate disparea temporar; vindecarea prin disparitia clonei apare doar dupa transplantul MO; incidenta este mult crescuta la barbati si apare mai ales intre 25-50 ani.
+-dupa o medie de 3,5 ani LMC trece din faza cronica in faza blastica, acuta, care poate fi mieloida sau limfoida
+-simptome iniţiale: astenia si splenomegalia progresiva
+-tablou clinic: -astenie, transpiratii, anorexie, scadere in greutate, mai rar dispnee, paloare si prurit (datorita splenomegaliei)
+		       -hipermetabolismul rezultat prin expansiunea masei granulocitare determina: transpiratii nocturne, tremuraturi, intoleranta la caldura, scadere in greutate, tahicardie
+		       -distrugerea granulocitelor determina cresterea acidului uric, a histaminei; uneori bolnavii se pot prezenta cu semne ale hiperuricemiei, colica renala, artrita gutoasa
+		       -uneori pot aparea infarctizari ale splinei, cu durere in umarul stang
+		       -splenomegalia este semnul caracteristic, este neteda si nedureroasa la palpare, insa prezenta complicatiilor vasculare: tromboze sau hemoragii determina aspectul neregulat si dureros
+		       -hepatomegalia = frecventa, adenopatia = mai rar intalnita
+Dg de laborator:
+	•	 sangele periferic:
+*leucocitele - sunt crescute in toate cazurile, ele cresc concomitent cu creşterea splinei
+       - ele pot ajunge la valori de 50.000-500.000/mm3, media fiind de lOO.00O/mm3
+*trombocitele: - depasesc 400.000/mm3, rar 1.000.000/mm3,
+- este rara trombocitopenia la pacientii netratati
+*Hb si Ht = uşor scăzute, Hb poate scadea sub 1Og, anemia fiind normocroma normocitara
+*FAL: - determinata prin examen citochimic pe frotiurile de sange, este scăzută in granulocitele neutrofile segmentate sau nesegmentate
+- rar cand se asociaza cu o infectie sau sarcina poate fi normala sau crescută
+- de asemenea se poate normaliza in remisiune
+*pot fi crescute acidul uric in ser si uraţii in urina
+*creşterea LDH si histaminei demonstrează o faza evolutiva a bolii
+*cresc transcobalamina I si II - produse de neutrofile, ca urmare creste concentratia de vitamina B12.
+
+B. formula leucocitara:
+-este modificata caracteristic si este esenţiala pentru diagnostic
+-indierent de numarul leucocitelor este crescut numarul de segmente neutrofile; precursorii granulocitari de gasesc in toate stadiile de maturatie cu 2 varfuri de crestere: unul pentru metamielocite si mielocite si altul pentru nesegmentate si segmentate.
+-bazofilele cresc odata cu creşterea numarului leucocitelor si sunt crescute procentual 5-10%, iar eozinofilia este moderata
+-morfologia eritrocitelor, granulocitelor, trombocitelor este normala; testele de hemostaza pot demonstra anomalii functionale trombocitare, fara risc de hemoragii spontane
+-uneori eritroblastii sunt in numar redus <5% datorita restrangerii eritropoezei
+C. MO: = hipercelulara, se aspira cu uşurinţa
+   -majoritatea celulelor sunt granulocitare, raportul G/E = 10-15/1
+  - uneori se pot gasi macrofage cu incluzii cristaline similare cu cel Gaucher
+  -examenul citogenetic care se face pe celulele medulare pune in evidenta cromozomul Ph in 95% din cazuri
+D.biopsia de MO: nu este o indicatie de rutina, dar pe langa datele de citologie furnizate ea arata ca celule adipoase sunt reduse sau absente, iar trabeculele osoase prezinta zone de densificare si rarefiere.
+
+Clasificare histologica:
+	•	cu proliferare uniliniara granulocitara - 45% din cazuri, in care megacariocitele variaza ca numar, au dimensiuni mici, iar fibrele de reticulina sunt uşor crescute
+	•	cu proliferare biliniara granulocito-megacariocitara - 55%, in care megacariocitele sunt numeroase, polimorfe, dispuse in ciorchine sau plaje.
+
+LMC: in faza cronica
+         in faza accelerata
+
+
+Clasificare FAB:
+M0 = leucemie cu minima diferentiere
+M1 = leucemie mieloblastica fara maturatie
+M2 = leucemie mieloblastica cu maturare
+M3 = leucemie promielocitara hipergranulara
+M4 = leucemie mielomonocitara
+M4-Eo = leucemie mielomonocitara cu cresterea anormala a numarului de Eo
+M5 = leucemie monocitara
+M6 = eritroleucemia (boala di Guglielmo)
+M7 = leucemie megacarioblastica.
+
+Diagnostic:
+Criteriile de diagnostic ale LMC in faza cronica:
+	•	leucocitoza cu formula leucocitara caracteristica, cu 2 varfuri:
+	•	unul mare pentru nesegmentate si segmentate
+	•	unul mai mic pentru metamielocite si mielocite
+	•	bazofilie absoluta: crestere procentuala (5-10%) si in valoare absoluta
+	•	monocite scazute <3%
+	•	trombocite ≥ 400.000/mm3
+	•	modificari displazice minime/absente (morfologia eritrocitara, granulocitara si trombocitara este in general normala)
+Criterii de diagnostic ale LMC in faza accelerata
+	•	blasti >5% si <20% in sange sau MO
+	•	bazofilie >10%
+	•	anemie si/sau trombocitopenie
+	•	trombocitoza neinfluentata de tratament
+	•	timp de dublare al leucocitelor <5 zile
+	•	displazia uneia sau mai multor serii celulare
+	•	fibroza MO
+	•	anomalii ale cariotipului asociate cromozomului Ph
+	•	splenomegalie progresiva, neinfluentata de tratament
+	•	febra neinfectioasa.
+Criterii de diagnostic ale asocierii mielofibrozei la faza accelerata a LMC:
+	•	modificari histologice caracteristice pentru mielofibroza sau osteomieloscleroza
+	•	modificari ale frotiului de sange periferic sugerand hematopoeza extramedulara, eritrocite in picatura, eritroblasti imaturi, fragmente de megacariocite
+	•	anemie cu/fara leucopenie cu/fara trombocitopenie
+	•	cresterea FAL
+	•	splenomegalie tumorala cu/fara hepatomegalie
+	•	raspuns slab la tratament.
+Criteii de diagnostic ale fazelor blastice mieloide si limfoide:
+CRITERII MAJORE:
+MO: ≥ 30% mieloblasti si promielocite = faza blastica mieloida
+       ≥ 20% limfoblasti = faza blastica limfoida
+CRITERII MINORE:
+MO:  1. fibroza reticulinica patata/difuza (absenta in faza cronica)
+	2. displazia uneia/mai multor linii celulare (megaloblastoza, displazii megacariocitare)
+	3. bazofilie si eozinofilie >20%
+	4. noi anomalii citogenetice (Ph dublu, etc.).
+Sange periferic:
+5. 20-30% mieloblasti si promielocite (in faza blastica mieloida)
+    10-20% limfoblasti (in faza blastica limfoida)
+6. trombocite <100.000/mm3 
+7. Hb <10g/dl
+8. leucocite >50.000/mm3 (rezistente la terapia conventionala).
+Clinic:
+9.tumori blastice extramedulare
+	10. febra >38ºC timp de 7 zile, de etiologie neprecizata
+11. scadere in greutate >10%
+12. marirea splinei cu 25%
+Faza blastica = 1 criteriu major sau 3 criterii minore.
+
+II. Metaplazia mieloida cu mielofibroza
+
+Definitie: MMM = boala neoplazica a tesutului sanguin incadrata in grupul bolilor mieloproliferative cronice
+- coexista 3 tulburari citologice fundamentale:
+	•	proliferare clonala a celulelor stem hematopoetice din maduva
+	•	reactivarea celulelor stromale medulare (fibroblasti, osteoblasti) care duce la mielofibroza (mf) si osteomioscleroza (oms)
+	•	hematopoeza extramedulara (metaplazie mieloida) in splina ficat si alte organe
+-mielofibroza si osteomioscleroza determina in timp insuficienta medulara progresiva si pancitopenie
+-tabloul clinic este dominat de splenomegalia masiva
+-frotiul de sange periferic arata poichilocitaza cu frecvente eritrocite in picatura, rare granulocite imature si fragmente de megacariocite.
+Diagnostic de laborator:
+ 1.Frotiu de sange periferic:
+Seria eritrocitara:
+-anemie la 2/3 din pacienti prin eritropoeza ineficienta datorata sechestrării splenice a eritrocitelor si prin episoade hemolitice majore
+-la cei cu hemoliza cronica poate apare o deviere megaloblastica prin deficit de folati
+-anemie feripriva secundara sangerarilor cronice sau hemolizei intravasculare
+-eritrocite: poichilocitoza cu frecvente dacriocite, cativa eritroblasti.
+Seria granulocitara:
+	•	leucocite: crescute 10.000-50.000/mm3,
+	•	posibil granulocite imature,
+	•	eozinofile si bazofile crescute.
+Seria trombocitara:
+	•	trombocitoza moderata iniţial, apoi trombocitopenie pana la forme severe,
+	•	forme bizare, gigante pana la fragmente de megacariocite
+2. examenul MO:
+-in fazele avansate = punctie alba, prin aspiraţie nu se pot obţine grunji medulari
+-pe frotiul medular: hipocelularitate, se observa agregate trombocitare si aglomerari de trombocite.
+3. biopsia MO:
+-prin biopsie medulara se pun in evidenta mai multe stadii de mielofibroza (MF) cu insule de celule hematopoetice in care predomica megacariocitele.
+-MF se clasifica histologic in 3 grade:
+	•	cresterea difuza a fibrelor de reticulina
+	•	fibroza fina si grosolana in jurul insulelor de megacariocite si de-a lungul vaselor
+	•	fibroza grosolana intinsa.
+-OMS se clasifica histologic in 3 grade
+	•	mici focare de os primitiv
+	•	os trabecular si os in reţea in proporţii relativ egale
+	•	înlocuirea aproape completa a trabeculelor print-o reţea de os primitiv.
+4.alte teste de laborator:
+	•	FAL variabila
+	•	Acid uric crescut in ser si prezenta de uraţi
+-modificări radiologice ale oaselor:osteoscleroza, osteoporoza si rarefiere focala
+-studii de ferokinetica pot stabili gradul sau eficienta eritropoezei in cazul splenectomiei
+-examenul citologic al splinei: metaplazie mieloida, dar nu este indicat
+-examenul citogenetic arata prezenta de anomalii cromozomiale.
+Diagnostic pozitiv:
+	•	splenomegalie tumorala
+	•	anemie cu poichilocitaza, cu frecvente eritrocite in picătură
+	•	tablou sanguin leucoblastic: rare granulocite imature si eritroblasti
+	•	mielofibroza
+Diagnostic diferenţial:
+	•	LMC: spenomegalie cu leucocitoza insemnata, FAL scăzută, cromozomul Ph
+	•	sindromul mielodisplazic: prezenta de sideroblasti inelari
+	•	leucemia cu celule paroase (hairy cell): cel mononucleare hairy, fara tablou leucoeritroblastic, fara pochilocitoza cu dacriocite
+	•	mielofibroza secundara din infecţii, TBC, LA, mielom multiplu, alte neoplazii (boala Hodgkin)
+	•	mielofibroza acuta: - febra, pancitopenie,
+     - celule blastice 15-35% cu fenotip megacariocitar,
+- fibroza medulara extinsa,
+- evolutie rapida cu supravietuire scurta,
+- important pentru tratamentul din mielofibroza acuta - se indica o terapie agresiva, in timp ce in metaplazia mieloida acuta se indica o terapie substitutiva
+	•	metaplazie mieloida postpolicitemica = pote fi diferentiata de metaplazia mieloida acuta numai daca se descoperă un istoric de PV, cu evolutie rapida in 20% din cazuri spre LA terminala.
+
+III. Policitemia Vera
+
+Definitie: policitemia vera (PV) = afectiune neoplazica a tesutului sanguin alaturi de celelalte 3 boli mieloproliferative cronice, rezultata din transformarea neoplazica a unei celule stem pluripotente care duce la o clona de celula stem anormala cu cresterea numarului de eritrocite, granulocite, trombocite (pancitoza)
+-caracteristica este creşterea numarului de eritrocite si a masei eritrocitare cu saturatia in 02 normala
+-eritrocitoza este asociata cu scaderea producţiei de eritropoetina
+-clinic: × prezenta pruritului,
+× coloraţia roşie-violacee a tegumentelor si mucoaselor (90%)
+× splenomegalie (90%)
+× complicaţii trombotice hemoragice.
+Diagnostic de laborator:
+1.Sange periferic:
+-serie eritroida:  » Hb = 18-24g/dl, Ht = 60-92%,
+» eritrocite = 7-12mil/mm3, reticulocite > 1,5%
+»uşoara anizocitoza, poichilocitoza, policromatofilie, eritroblasti la 10% din cazuri.
+
+-seria granulocitara: *leucocite = 12.000-25.000/mm3
+*posibil metamielocite, mielocite, promielocite,
+*bazofile crescute (2/3 din cazuri)
+*granulocitele normale morfologic,
+*FAL mult crescută in 70% din cazuri, dar pote fi si normala
+-seria trombocitara:
+	•	trombocite >400.000/mm3 => 1.000.000/mm3
+	•	scaderea agregarii la ADP, epinefrina, colagen
+	•	de obicei TS normal
+-VSH = 1-2mm/h,  scazut din cauza Ht crescut
+-masa eritrocitara mult crescuta >32ml/kgc la femei si >36ml/kgc la barbati
+-volum sanguin total crescut (hipervolemie cu eritrocitoza absoluta) = 8-9l
+-vascozitatea sangelui mult crescuta de 5-8 ori
+-saturatia arteriala 02 = normala >92%
+-vitamina B12 si capacitatea totala de legare a vitaminei B12 mult crescută
+-acid uric sanguin mult crescut
+-histamina din sange si urina este crescută in 60% din cazuri
+2.MO: -hipercelulara  cu panmieloza
+-hiperplazie megacariocitara, cu megacariocite crescute ca numar, dimensiune si numar de lobi nucleari (ploidie)
+-hemosiderina medulara scăzută sau absenta
+-prezenta de anomalii cromozomiale, cele mai grave sunt trisomia 8 si 9 si deletia braţului lung al cromozomului 20
+Diagnosticul pozitiv se pune pe minim 4 criterii prezente din 7:
+	•	cresterea masei eritrocitare = 32ml/kgc la femei si 36ml/kg la barbati
+	•	saturatia arteriala 02 normala 92%
+	•	splenomegalie
+	•	trombocitoza >400.000/mm3
+	•	leucocitoza >12.000/mm3
+	•	hipercelularitate medulara, hiperplazie megacariocitara,
+	•	rezerve medulare de fier scăzute sau absente
+	•	eritropoetina serica scazuta
+	•	formare de colonii eritroide in absenta eriteopoitinei
+	•	vitamina B12 serica mult crescuta >900pg/ml si capacitatea totala de legare a vitaminei B12 mult crescuta >2.200pg/ml
+	•	FAL crescuta >100
+Diagnosticul PV se bazeaza pe 3 criterii:
+Clinic: - prurit, tromboze si/sau hemoragii, splenomegalia.
+Sanguin: - eritrocitoza, Ht crescut
+  -leucocitoza >12.000 cu neutrofilie >8.000 in absenta febrei si infectiilor
+  -trombocitoza >400.000 in absenta unui deficit de fier, inflamatii si neoplazii.
+Medular: - celularitate crescută
+- hiperplazie megacariocitara
+- lipsa rezervelor de fier medular.
+Diagnostic diferential:
+	•	eritrocitoze secundare (cardiace, pulmonare renale, endocrine, hepatice)
+	•	eritrocitoza falsa: sindrom Gaisbok (Ht = 53-56%, masa eritrocitara normala, HTA, hipercolesterolemie, hiperlipidemie, leucocite si trombocite normale), fumat
+	•	eritrocitoza pura – izolata, fara leucocitoza, trombocitoza sau splenomegalie
+	•	policitemii primare ereditare - se asociaza cu eritropoetina normala sau scăzută
+IV. Trombocitemia esentiala
+
+Definitie: TE = boala neoplazica a tesutului sanguin alaturi de celelalte boli mieloproliferative cronice
+	•	este o boala clonala cu originea intr-o celula stem pluripotenta din MO
+	•	tulburarea principala este hiperplazia megacariocitara din MO care are ca urmare creşterea trombocitelor in sange cel puţin de la 600.000/mm3 pana la 1.000.000/mmc.
+
+
+Diagnostic de laborator:
+Sange periferic:
+	•	trombocite mult crescute 600.000-1.000.000/mm3, numar de 10-15 ori crescut fata de normal cu durata de viata aprope normala
+	•	grupuri mari, plaje intinse de trombocite
+	•	anizocitoza trombocitara marcata (micro-, macro-, megalotrombocite)
+	•	fragmente citoplasmatice de megacariocite
+	•	leucocite moderat crescute 1O.OOO/mm3
+	•	neutrofilie uşoara, bazofilie, eozinofilie, rare granulocite imature, eritroblasti
+	•	FAL in limite normale
+	•	valori eritrocitare scăzute posthemoragic
+	•	agregare trombocitara scăzuta la ADP si epinefrina.
+MO:  🗷 creşterea celularitatii medulare
+🗷 hiperplazie megacariocitara cu megacariocite grupate cu masa crescută, volum nuclear mare, numar de lobi crescut
+🗷 uşoara deviere megaloblastica a eritropoezei
+🗷 rezerve medulare de fier prezente, sideroblasti inelari absenti
+🗷 feritina serica normala
+🗷 uşoara fibroza reticulara
+🗷 anomalii cromozomiale absente.
+Diadgnostic pozitiv si diferential:
+-este un diagnostic de excludere care vizează 3 tipuri de afecţiuni:
+1.asocieri cu trombocitoza ereditara
+2.boli mieloproliferative cronice
+3.SMD
+- criterii de deagnostic ale TE:
+	•	trombocite >600.000/mm3 la 2 examene separate la interval de 1 luna
+	•	cauze de trombocitoza secundara in absenta infectiilor, inflamatilor, bolilor maligne
+	•	masa eritrocitara normala <32ml/kgc la femei si <36ml/kgc la barbati, diagnostic diferential cu PV in care masa eritrocitara este crescută; in unele cazuri eritrocitoza poate fi mascata de deficit de fier secundar unei hemoragii
+	•	fibroza medulara semnificativa, diagnostic diferential cu MMM (prezinta in plus splenomegalie tumorala, eritrocite in picatura, tablou leucoeritroblastic, hematopoeza extramedulara)
+	•	cromozomul Ph abssent si gena de fuziune BCR/ABL absenta, diagnostic diferential cu LMC 
+	•	splenomegalie moderata diagnostic diferential cu MMM sau LMC unde exista o splina tumorala
+	•	hipercelularitate medulara, hiperplazie megacariocitara, comun pentru PV si TE
+	•	Fe medular si/sau feritina serica normale (prezenta Fe medular=>TE si absent in PV)
+	•	hematopoeza clonala demonstrata la femei prin analiza cromozomilor X
+	•	formarea in culturi de colonii endogene eritroide si/sau megacariocitare
+	•	agregare trombocitara deficitara la epinefrina siADP
+- diagnostic diferential se mai face cu: anemia sideroblastica idiopatica dobandita care se poate asocia cu trombocitoza moderata sau marcata; prezenta sideroblastilor inelari sau a anomaliei cromozomiale 5q exclude diagnosticul de TE.
+
+
+---END OF FILE---
+
+
+8. Leucemia limfatica cronica si leucemia cu celule paroase
+(definitie, clasificare si criteriile de diagnostic)
+
+
+Leucemia limfatica cronica
+
+Definitie: LLC = afectiune neoplazica a tesutului limfatic, caracterizata prin proliferarea si acumularea unei clone maligne de limfocite, blocate in maturatie si incompetente imunologic; LLC cu celule B = 95 – 98% cazuri.
+Diagnostic de laborator:
+Sangele periferic: ⬥ leucocitoza (20.000–200.000/mm3) cu limfocitoza marcata,
+ ⬥ limfocite B – mici, citoplasma foarte putina, rare limfocite mai mari cu nucleoli vizibili;
+ ⬥prezente numeroase umbre nucleare Gumprecht,
+ ⬥anemie progresiva normocroma si normocitara,
+ ⬥trombocitopenie progresiva
+MO: – hipercelulara prin infiltratie cu limfocite
+	•	limfocitele reprezinta minim 30% din celulele nucleate
+	•	4 tipuri lezionale: *interstitial (limfocite infiltrate printre celule normale)
+ *nodular (prezenta in tesutul medular normal a unor noduli formati din limfocite mature, care sunt mai mari decat foliculii limfoizi fiziologici) 
+ *mixt (combinatia leziunilor interstitiale si medulare) 
+ *difuz (limfocitele formeaza o panza densa care inlocuieste aproape complet tesutul hematopoetic)
+-ultimele doua tipuri lezionale au pronostic nefavorabil.
+Ganglionii limfatici: stergerea structurii ganglionare
+Studiul fenotipului celulei: determina celula limfatica ce prolifereaza B sau T
+ELFO: ≈ 50% dintre pacienti au hipogamaglobulinemie
+ ≈ dozarea imunoglobulinelor: scaderea IgM
+ ≈ imunoelectroforeza evidentiaza o componenta monoclonala serica
+Diagnostic pozitiv:
+① numar absolut de limfocite ≥10.000/mm3, care  persista 4 saptamani
+② infiltratie medulara ≥30% limfocite, care trebuie sa fie mici si aparent mature; cand exista si celule prolimfocitare 10-15% (LLC prolimfaocitara)
+Diagnostic diferential:
+	•	Leucemia cu celule limfosarcomatoase
+	•	Limfom limfocitar bine diferentiat
+	•	LLC cu component monoclonal IgM
+	•	Leucemia cu celule paroase – in cazurile in care aceasta prezinta leucocitoza.
+
+Leucemia cu celule paroase
+
+Definitie: HCL = forma rara de limfoproliferare cronica a adultului, caracterizata prin splenomegalie, pancitopenie frecventa si prezenta de celule mononucleare anormale avand numeroase prelungiri citoplasmatice fine pe suprafata lor, in sange, MO, splina; este o neoplazie a limfocitelor B.
+Laborator:
+Sange periferic:   ⮲ pancitopenie moderat/severa;
+⮲ anemie moderata, normocroma, normocitara;
+⮲ trombocitopenie usoara/moderata <100.000/mm3;
+⮲ de obicei leucopenie cu neutropenie <1.000/μl, monocitopenie, limfocitoza cu anomalii ale LB si LT
+⮲ prezente celule „hairy” pe frotiu: mononucleare mai mari decat limfocitele, cu forma rotunda, ovalara sau poligonala, cu margini dantelate, nucleu mare rotund, ovalar sau reniform, excentric, uneori polilobat, cromatina fina cu aspect spongios, nucleoli de obicei absenti, citoplasma variabila, palida, bazofila, fara granulatii;
+⮲ util examenul in contrast de faza pe preparat proaspat.
+Diagnostic pozitiv:
+MO: - aspirat din MO: hipocelulara, frecvente limfocite, plasmocite, mastocite, granulocite rare/absente.
+- prezinta infiltratie medulara difuza cu mononucleare, mielofibroza:
+🖉infiltratia: -are aspect monoton de „fagure de miere”, rarefiat, care se observa si la obiectivul mic al microscopului, aspect ce contrasteaza cu cel din LLC
+-este hipercelulara, cu vacuole de grasime reduse sau absente.
+🖉mielofibroza: densificare marcata a fibrelor de reticulina stromala.
+- biopsie: densitate celulara mare prin infiltrare cu celule „hairy” (zone de mielopoieza normala, insule de eritrablasti, +/- MGC), mielofibroza asociata.
+Splina: = variabil marita
+ = cu aspect histologic de infiltratie difuza, masiva
+ = cu infiltratia pulpei rosii, dar si a celei albe
+ = cu stergerea completa a structurii normale a splinei, celulele hairy formeaza o retea densa in care sunt retinute celule sanguine
+ = apare fenomenul de hipersplenism.
+Ficatul: infiltratia apare difuz si nodular, cu crestere in greutate, insa arhitectura ficatului este pastrata mult timp intacta.
+Citochimie: 🖎 reactie pozitiva pentru izoenzima 5 a FAC (fosfatazei acide) rezistenta la denaturarea cu acid tartric;
+🖎 lizozim absent la celulele hairy (astfel se diferentiaza de monocitele normale sau leucemice)
+Imunofenotipare: configuratia antigenica cea mai caracteristica a celulelor hairy cuprinde antigene de suprafata CD11c, CD22, CD25, CD103, HLA-DR.
+Diagnosticul pozitiv cuprinde:
+	•	stare febrila prelungita si splenomegalie;
+	•	pancitopenie cu neutropenie imporatanta;
+	•	aspectul caracteristic al cel „hairy” pe frotiul de sange;
+	•	certitudine prin PBO.
+
+
+---END OF FILE---
+
+
+9.LEUCEMIILE ACUTE:
+(clasificarea - criteriile FAB, metode de diagnostic - examenul morfologic citochimia optica si ultrastructurala, imunofenotiparea, examenul citogenetic, genetica moleculara)
+
+
+LA = boli neoplazice de celule stem nediferentiate sau partial diferentiate caracterizate prin oprirea diferentierii si maturatiei acestor celule, asociate sau nu cu trecerera acestor celule in sangele periferic.
+= in absenta diferenţierii acumularea acestor celule duce la ocuparea MO si invadarea altor organe vitale: ficat, splina, ganglioni, SNC, organe reproducatoare
+
+Leucemia acuta mieloidada (nonlimfoida)
+
+= boala clonala a celulelor stem hematopoetice cu orientare mieloida caracterizata prin proliferarea lor aberanta, cu oprirea diferenţierii si a maturatiei
+- in leucemia mieloida acuta este implicata mai ales seria granulomonocitara, dar in mare masura si seriile eritrocitara si megacariocitara
+-clasificarea LAM se face dupa 4 criterii majore: morfologic, citochimic, imunologic, citogenetic
+1.Morfologic (franco-americano-britanica):
+- se examineaza cel puţin 500 de celule din MO pe frotiu de buna calitate, mieloblastii (citoplasma mai bogata cu diferite zone de afinitate tinctoriala +/- prezenta de granulaţii azurofile) trebuie sa fie >30%
+-se calculeaza numarul de blasti pe frotiurile cercetatate, daca sunt sub 50% estimarea lor se face la intreaga populatie medulara si numai daca numarul lor depaseste 30% se certifica diagnosticul
+-blaştii sunt de 3 tipuri:
+  I. talie variabila citoplasma bazofila fara granulaţii, nucleu cu cromatina fina, 1-2 nucleoli,
+ II. apar cateva granulaţii azurofile si corpi Auer
+III.pana la 20 granulaţii azurofile de talie mare, aparat Golgi
+
+
+				% eritoblasti
+	
+		  <50%				>50%
+
+>30%blasti	    <30%blasti	se vor calcula celulele blastice din populatia neeritoida
+tip I, II, III
+
+LAM			SMD		     <30%	       >30%		eritroleucemia
+											acuta M6
+
+Leucemia acuta mieloblastica - M1
+	•	cu blasti × de tip I si II din totalul celulelor neeritroide
+ × >3% sunt mieloperoxidazo pozitive, la care se adauga corpi Auer
+	•	promielocite <10% si monocite <10%
+Leucemia acuta mieloblastica cu maturatie - M2 
+	•	celule blastice tip I si II, >30% din totalul celulelor neeritroide
+	•	promielocite <20% si monocite <20%
+Leucemia acuta promielocitara – M3
+	•	promielocite atipice >30% din cel neeritroide, cu nucleu mare ovalar nucleolat adesea reniform sau uşor lobulat cu citoplasma abundenta cu granulaţii mari azurofile si mănunchiuri de corpi Auer
+	•	varianta hipogranulara in care nucleii sunt bilobaţi, iar granulatiile foarte fine
+Leucemia acuta mielomonocitara - M4
+	•	blastii >30% din celulele neeritroide, din care 20% monoblasti şi promonocite
+	•	in sangele periferic celule monocitare >5.000/mm3
+	•	20% din celulele blastice din maduva trebuie sa aiba reacţia pentru esteraza pozitiva
+	•	lizozim seric mult crescut de 3 ori
+	•	varianta M4 cu eozmofile 5-30% din celulele neeritroide formate din mielocite eozinofile PAS pozitive
+	•	varianta M4 cu bazofile in care granulele se identifica cu toluidina sau fenotipare
+Leucemia acuta monoblastica – M5
+	•	cel blastice >30% din celulele neeritroide din care 80% sunt compuse din monoblasti
+	•	exista 2 subtipuri:
+	•	M5a care 80% sunt monoblasti.
+	•	M5b in care sub <80% sunt monoblasti si peste >20% sunt promonocite
+Eritroleucemia acuta - M6
+	•	eritroblasti >50% din celulele medulare
+	•	blasti >30% din populaţia neeritroida tip I si II
+Leucemia acuta megacarioblastica – M7
+	•	promegacarioblasti >30% din celulele neeritroide, cu diametrul de 25μm, cu nucleu cu cromatina densa, nucleolat uneori dublu, cu citoplasma densa cu prelungiri citoplasmatice si cu trombocite aderente pe marginea citoplasmei
+Leucemia acuta minim diferenţiata M0
+	•	blasti agranulari nucleolati >30% din celulele neeritroide
+	•	diagnosticul acestui tip de leucemie se poate defini cu ajutorul unor teste imunologice deoarece seamana cu limfoblastii
+2.Citochimic:
+Se utilizeaza reactivi cu sensibilitate pentru o anumita linie celulara:
+	•	reactia pentru mieloperoxidaxa:
+- este esenţiala pentru diferentierea LAM de alte LA
+- este suficient ca minin 3% din blasti sa fie MPOX pozitive pentru ca leucemia acuta sa fie LAM
+b) reacţia pentru esteraze:
+- celulele granulocitare si monocitare au molecule de esteraze ce se evidentiaza pe substraturi diferite ANAE (alfa naftif acetat), clor-E (cloracetat)
+ANAE este „+” pentru LAM 4 si 5
+clor-E este „+” LAM 1, 2 ,3 si „-” pentru LAM 4 si 5
+Cu cele 3 reacţii se pot alcatui urmatoarele modele frecvente:
+LA cu celule MPOX „+”:
+	•	CLOR-E + si ANAE - =LAM 1
+	•	CLOR-E + si ANAE - =LAM 2 sau 3
+	•	CLOR-E – si ANAE + =LAM 4
+	•	CLOR-E + si ANAE + posibil LAM 4
+LA cu MPOX „-”:
+	•	CLOR-E + si ANAE - = LAM secundara cu deficit de MPOX
+	•	CLOR-E + si ANAE + = M5 cu celule blastice intens ANAE++
+	•	CLOR-E – si ANAE - = posibil LAL M0, M7
+Citochimia ultrastructurala:
+Investigatia electronoptica consta in evidentierea de granule si organite celulare neidentificate la examenul cu microscopul optic:
+	•	mieloblastii MPOX negativi la citochimia primara pot fi identificaţi prin prezenta unor granule mici peroxidazo-pozitive
+	•	monoblastii sunt identificaţi prin prezenta de FAC
+	•	cel blastice bazofile sunt identificate prin fixarea in mediu Graham-Karnofski care pune in evidenta granulele bazofile nedecelate la examenul optic
+	•	precursorii eritroizi se intalnesc in LA - M6, iar cei imaturi se confunda cu limfoblastii sau celule nediferentiate
+	•	megacarioblastii leucemici au fost identificaţi prin prezenta peroxidazei plachetare perinucleare
+3.Imunologic:
+= determinarea anticorpilor monoclonali specifici unei linii celulare:
+	•	linia mieloida: anti MPOX, CD13, CD33, CD11b/CD11c, CD15
+	•	linia limfoida B: CD22, CD19, CD10
+	•	linia limfoida T: CD3, CD5 si CD 7
+Diagnosticul de laborator:
+1.recunoasterea unei LA dupa examenul MO si sangelui periferic cu estimarea procentului de celule blastice si daca este necesar al celulelor eritroide
+2.diferentierea LAM de LAL prin reactii citochimice
+3.in cazurile MPOX negative se face imunofenotipare intracitoplasmatica combinata cu cea a antigenelor de suprafata prin imunofluorescenta sau flow-citometrie.
+Sange periferic:
+-leucocite in numar crescut 50.000-100.000/mm3
+-celule blastice 15-90%
+-prezenta corpilor Auer = incluzii azurofile eliptice de 1,5 μm si 0,5 latime
+-prezenta corpiilor Phi - aspect fuziform sunt lizozomi alterati se evidentiaza la coloratia cu peroxidaza
+-granulocite cu anomalii nucleare hiper- sau hiposegmentarea, anomalie Pelger, absenta peroxidazei
+-anemie normocroma, normocitara (megalocite in LAM 6)
+-trombocitopenie, uneori displazie trombocitara in LAM 7
+MO: normo- sau hipercelulara
+-procent foarte crescut de blasti (LAM se diferentiaza de SMD prin procentul diferit de eritroblasti: >50%)
+Citochimie:
+	•	diferentiarea LAM de LAL impune utilizarea citochimiei cu cele 3 reacţii
+	•	in cazurile MPOX negative se impune imunofenotiparea intracitoplasmatica cu cea a Ag de suprafaţa
+	•	diferentierea LAM de SMD este obligatorie in cazul in care exista un numar crescut de eritroblasti in MO.
+Alte teste:
+-nivelul de Ig crescut la 40% din bolanavi (imunitate umorala)
+-imunitatea celulara deprimata, celule NK diminuate
+-hiperuricemie datorita turnoverului crescut al celulelor leucemice
+-hiperkaliemie (prin liza celulara rapida) sau hipokaliemie
+-hipo/hipercalcemie.
+Sindromul de liza tumorala se caracterizeaza prin hiperuricemie, hiperkaliemie, hiperfosfatemie cu consecinte pe functia renala si cardiaca.
+
+Leucemia acuta promielocitara
+
+LAP = o entitate particulara de LAM, caracterizata prin prezenta celulelor blastice de tip promielocitar - M3 in sângele periferic si MO ce depasesc 50% din totalul elementelor.
+- 70-90% din cazurile de LAP au prezentat anomalia t (15:17) (q22; q12-21), care nu este intalnita in cazul altor leucemii acute sau mielodisplazii.
+-clinic: afecteaza pacienti peste 31 ani
+	•	sindrom hemoragic: gingivoragii, epistaxis, petesii, echimoze
+	•	manifestari trombotice: tromboflebite superficiale, profunde
+	•	hemoragii cerebrale si gastrointestinale fatale.
+
+-hematologic:
+	•	Hb <8g/dl in funcţie de intensitatea tabloului hemoragic
+	•	L = 5.000-15.000/mm3, rar peste cu excepţia formei hipogranulare
+	•	in 30% din cazuri exista pancitopenie severa cu trombocite <50.000/mm3
+	•	marea majoritate a celulelor sunt promielocite atipice, cu nuclei mari rotunzi, adesea bilobaţi sau reniformi ce se pot confunda cu nucleul de monocit, nucleul prezinta nucleoli mari, citoplasma este abundenta plina de granule azurofile si sau corpi Auer, adesea granulele sunt dispuse caracteristic „in grămezi de lemne"
+	•	in varianta hipogranulara numarul de L >100.000, celulele blastice au nucleu oval sau reniform, in citoplasma exista fine granule azurofile uneori nevizibile decelate numai prin reactia MPOX sau ME
+	•	MO este intens hipercelulara cu prezenta de celule blastice promielocitare in procent de 80-90%
+	•	imunofenotipul promielocitelor atipice este CD33, CD13, MY8, CD15, CD110, HLA-DR
+	•	sindromul hemoragic este provocat de CID indusa de eliberarea de material tromboplastinic din tranulele de promielocite distruse:
+ trombocitopenie cu scurtarea duratei de viata a trombocitelor
+ cresterea timpului de protrombina
+ cresterea timpului partial de tromboplastina
+ fibrinogenul scade foarte mult si reflecta severitatea CID
+ produsii de degradare ai fibrinei sunt crescuti, ca urmare a fibrinolizei secundare si sunt un marker pentru CID
+ crestera monomerilor de fibrina
+ timpul de liza al cheagului euglobinic scade, ca urmare a fibrinolizei  secundare
+ antitrombina III scade
+ cresc complexele trombina-antitrombina si D-dimerii.
+
+
+
+
+Leucemia acuta limfoblastica 
+
+= afecţiune neoplazica a tesutuiui sanguin de natura clonala, caracterizata prin afectarea celulelor stem limfoide, care proliferează si se opresc in diferenţiere si maturatie, clona maligna invadeaza treptat MO, ganglionii, SNC.
+Clasificarea morfologica
+ *tipul L1: blasti mici,
+ raportul nucleocitoolasmatic crescut,
+ nucleol mai puţin vizibil,
+ citoplasma redusa cu bazofilie variabila
+*tipul L2: ⯍blasti mai mari
+⯍nucleu neregulat, cu indentatii
+⯍nucleoli vizibili, intotdeauna prezenti
+⯍citoplasma abundenta cu bazofilie variabila
+*tipul L3(Burkitt): 🡂celule mari 15-25 μm,
+🡂nucleu rotund sau oval cu mai mulţi nucleoli vizibili,
+🡂citoplasma abundenta, intens bazofila cu numeroase vacuole
+🡂celulele au pe suprafata lor numeroase imunoglobuline
+Criterii citochimice:
+= mai putin aplicate decat in LAM deoarece nu exista teste specifice LAL
+	•	reactia PAS: 🗶 granulele PAS pozitive au aspect de blocuri grosolane in citoplasma bazofila
+🗶 este pozitiva daca >5% din celule sunt PAS pozitive
+🗶 este pozitiva si la bazofile si megacarioblasti maligni
+	•	fosfataza acida este marker valoros pentru LAL – T
+	•	MPOX, ANAE, CLOR-E sunt negative.
+Markeri biochimici:
+	•	deoxinucleotidil-transferaza terminala (Tdt) = markerul  biochimic cel mai important pe linie limfoida; se exprima in LAL–T si LAL comuna (preB) si deloc in LAL-B
+	•	hexozaminidaza (HA) este caracteristica LAL comuna
+	•	adenozindeaminaza (ADA)este caracteristica LAL-T
+	•	purin-nucleosid-fosforilaza (PNF) creste in LAL comuna scade in LAL-T si este absenta in LAL-B
+Imunologic:
+- clasificarea imunologica se bazeaza pe decelarea:
+	•	unor markeri de membrana cum sunt rozetele E, EAC si Ig de suprafata, receptorii pentru complement, receptorii Fc si determinarea unor Ig citoplasmatice
+	•	antigenelor de diferentiere cu ajutorul Ac monoclonali:
+⮲liniaT: CD3 intracitoplasmatic, CD5, CD7
+⮲linia B: CD22 intracitoplasmatic, CD19, CD10
+- clasificarea imunologica cuprinde 2 mari grupe:
+ 1. LAL – nonT: ⬥preB-timpurie
+⬥pre-preB
+⬥preB
+2.LAL-T: a) preT ce include protimocite imature si reprezinta 80% din cazurile de LAL-T
+b) T-intermediar, comun ce are Ag timocitelor CD4, CD8
+c) HTLV-I este tipul LAL-T de origine virala.
+LAL neincluse in clasificarea morfologica si imunologica:
+①Leucemia cu celule in oglinda cu mâner:
+	•	celulele au dimensiuni de 8/18 μm, cu nucleu ovoid, 2-3 nucleoli, citoplasma hilain albastru deschis
+	•	reactiile citochimice uzuale sunt negative, imunofenotiparea arata markeri pe linie T in 70% din cazuri
+	•	examinarile citogenetice au depistat hiperploidie, trisomia 10 si rar cromozomul Ph
+	•	este rezistenta la terapia uzuala, dar are supravieţuire îndelungata.
+②Leucemia cu granule in citoplasma:
+	•	rare granule au aspect azurofil, MPOX negative
+	•	apar la copii si necesita diagnostic diferential cu LAM
+③LAL bifenotipice:
+- fac parte din grupul leucemiilor hibride care pot fi:
+	•	intraliniale (cand celulele exprima concomitent celulele a 2 linii diferite)
+	•	biliniale (cand exista 2 populaţii de celule, fiecare cu Ag diferite si provin din 2 celule stem separate)
+④Leucemiile mixte.
+Anomalii citogenetice:
+	•	modificări ale numarului de cromozomi - apar de obicei in LAL la copii
+	•	translocatii 	caracteristice in LAL-B
+	•	deletii	cromozomiale.
+Diaagnostic de laborator:
+- frotiude sange periferic:
+	•	anemie normocroma, normocitara si trombocitopenia, aspecte comune ambelor tipuri de LAL, LAM
+	•	reticulopenie
+	•	leucocite de obicei crescute uneori >100.000/mm3, celulele leucemice sunt prezente in sangele periferic
+-MO: - hipercelulara cu celule blastice >50%
+- in unele cazuri poate prezenta infiltratare blastica, iar in alte cazuri poate prezenta mielofibroza
+- alte modificari de laborator:
+	•	acid uric crescut
+	•	hipercalcemia in formele HTLV-I
+	•	fibrinogen <100mg/100ml
+	•	LDH crescută
+	•	hexozaminidaza crescută in formele pre-B
+	•	crescterea potasiului si fosforului
+	•	Ig scazute.
+Diagnostic diferential se face cu: RAA, neuroblastomul, mononucleoza infectioasa (serologie specifica si celule caracteristice)
+Fome clinice particulare:
+1)Limfomul Burkitt este forma cu celule L3:
+-imunofenotiparea arata prezenta de Ag pe linie B: CD19, CD10, HLA-DR, IgS -anomalii cromozomiale de tip translocatii si deletii
+2)LAL-T: 
+*maduva infiltrata cu celule riederifoeme, iar FAC este prezenta in aceste celule
+*imunofenotiparea arata 2 tipuri de proliferare:
+> unul cu celule progenitoare stem ale liniei T, care au Ag CD7si
+> altul cu celule T comune, care au CD7+ plus CD3
+3)LAL cu celule stem imature-T = leucocite >1OO.OOO, LDH crescut
+4)forma cu celule comune - frecventa la adolescenţi, cu prevalenta la barbati
+5)LAL cu rearanjamente 11q23 frecventa la copii, fenotipul este cu celule pre-B
+6)LAL indusa de HTLV-I sau leucemia cu celule-T a adultului
+	•	are drept tinta limfocitul T activat
+	•	debut numai la adulti,
+	•	evoluţie lenta sau acuta
+	•	adenosplenomegalie, absenta tumorii mediastinale, rezistenta la terapia uzuala
+	•	apare in zone endemice
+	•	transmiterea se face pe verticala de la mama la fat, chiar si prin laptele matern persoanele infectate au Ac anti-celule NK si PMN
+	•	persoanele infectate au o disfunctionalitate evidenta
+	•	o forma clinica speciala a HTLV-1 (10%) este = parapareza cronica tropicala cu ataxie, atrofie multisistemica,  polimiozita.
+
+
+
+---END OF FILE---
+
+
+1O. SINDROAME MIELODISPLAZICE (SMD)
+(definitie, clasificare - criteriile FAB, diagnosticul diferential intre SMD si LA)
+
+
+Definitie: SMD = grup heterogen de afecţiuni hematologice caracterizat prin citopenii periferice, pancitopenie si o MO normala sau hiperplazica cu anomalii morfologice pe una sau toate seriile celulare medulare.
+	•	dupa o latenta de luni sau chiar ani, aceste sindroame se transforma in leucemii acute, de obicei mieloide, mai rar limfoide (= stare preleucemica).
+
+Criteri de diagnostic morfologic – FAB:
+①Diseritropoeza
+= anemie macrocitara, dismorfism eritrocitar (eritrocite de volum normal hipocrome alaturi de macrocite), ca in anemia idiopatica sideroblastica cronica, rar ovalocite
+- eritrocite cu punctaţii bazofile mai ales in anemia sideblastica idiopatica cronica
+- posibil poichilocite, acantocite
+-eritroblasti in sangele periferic, semnalaţi mai ales in AREB (anemia refractara cu exces de blasti) si LMMC (leucemia mielomonocitara cronica)
+MO: - seria eritroida este hiperplaziata, uneori poate fi normala sau subnormala
+- eritromegaloblasti cu forme bizare nucleare cu citoplasma bazofila, corpi Jolly, pot fi intalniti si eritroblasti binucleati
+- cromatina nucleara = dispusa in gramezi sau cu aspect lax
+- in sindroamele mielodisplazice exista 2 anomalii ale sideroblastilor medulari:
+	•	una cantitativa care consta in numarul de granule de Fe, ce depăşeşte cifra de normala de 4, iar procentul sideroblastilor in maduva >50%,
+	•	anomalia calitativa care consta in dispunerea granulelor de feritina in jurul nucleului eritroblastilor = sideroblasti inelari, patologici
+- in anemia refractara simpla sideroblastii au de obicei peste >5 granule in citolplasma, iar numarul lor in maduva trece de 50%
+-sideroblastii inelari se intalnesc in anemia idiopatica sideroblastica cronica >15% 
+
+②Disgranulopoeza
+= hipogranularea granulocitelor (reactia pentru peroxidaze = negativa), dar si a mielocitelor care se pot confunda cu monocitele
+= anomalie Pelger-Huet (hiposegmentarea nucleului insotita de condensarea cromatinei sale
+= uneori s-au observat nuclei sub forma de bastonase
+MO: - alte anomalii citoplasmatice cum ar fi prezenta de granule azurofile in stadiul de mielocit si metamielocit
+- precursori hipo si agranulari
+-functiile neutrofilelor ca adezivitataea, fagocitoza si capacitatea microbicida pot fi profund alterate.
+③Dismonocitopoeza
+-numarulr absuolut crescut >1.000/mm3,
+-lizozim seric crescut
+-MO: > numar de monocite si precursori monocitari crescut
+> anomalii ale citoplasmei cum ar fi hipogranularea cu reacţia pentru esteraze slab pozitiva sau negativa
+> prezenta in MO de monocite imature; monocitele sunt recunoscute prin Ac monoclonali pentru CD13, CD14.
+④Dismegacariopoeza
+-caracterizata prin prezenta de megacariocite de talie mica (micromegacariocite) specific bolilor mieloproliferative cronice; aceste micromegalocite sunt diploide, fata de cele normale care sunt hiperploide
+-prezenta de nuclei hipolobulati, dar sunt prezenti si nuclei fragmentati, cu punţi subţiri intre fragmente
+-citoplasma este hipogranulara
+-MO: se examineaza cel puţin 100 megacariocite.
+Diagnosticul citoimunologic:
+= pentru depistarea tipului de celule care au morfologie confuza
+- precursorii eritroizi din stadiile timpurii se pot confunda cu alte celule imature ale diferitelor serii
+	•	Ac antiglicoforina A diferentiaza precursorii eritroizi
+	•	Ac monoclonali anti CD13, CD14, CD33 sunt depistări de precursorii mieloizi
+	•	Ac anti CD34 are importanta deosebita deoarece prezenta acestui Ag (CD34) pe precursorii mieloizi se asociaza cu o rata crescută de transformare leucemica si supravietuire scurta in AREB sau rata scazuta a remisiunii complete in LAM
+	•	Ac anti CD41 si antifactor VIII caracteristic pentru megacariocite in displazia megacariocitara - megacarioblastii pitici se pot confunda cu limfoblastii L2
+	•	Ac anti CD24, CD19, CD 10 identifica celulele blastice limfoide.
+Criterii de diagnostic morfologic in mielodisplazii:
+
+Sange periferic
+Maduva osoasa
+celule blastice
+<1%    >5%
+<5% blasti tipI (fara granulatii azurofile)
+5-20% blasti tip II (rare granulatii)
+20-30% blasti tip III (>20 granulatii)
+seria eritroida
+macrocitoza
+dismorfism eritrocitar
+punctatii bazofile
+megaloblastoza, eritroblasti cu multi nuclei, sideroblasti inelari
+eritroblasti >60% sau <5%
+seria granulocitara
+granulocite hipogranulare
+cromatina condensata in bloc, citoplasma bazofila
+hipogranulatie sau agranularitate
+granule azurofile mari
+citoplasma bazofila
+monocite
+numar crescut >1.000/mm3
+lizozim seric crescut
+% crescut de monocite si precursori monocitari
+megacariocite
+trombocite gigante
+micromegacariocite
+megacariocite mononucleate
+megacariocite cu nuclei multiplii izolati
+
+-pentru precizarea numarului de granulaţii azurofile este necesara sa se fac distinctia clara intre mieloblasti si promielocite.
+Studiul histologic al MO:
+	•	Tipul sideroblastic: caracteristic anemiilor sideroblastice cronice idiopatice dobandite, cu aspect caracteristic de sideroblasti inelari in numar mare
+	•	Tipul megaloblastoid: caracterizat prin hiperplazie eritromegaloblastica
+	•	Tipul proliferativ: displazia tuturor seriilor medulare, cu displazie triliniara si pancitopenie in sangele periferic
+	•	Tipul blastic: prezenta de celule blastice 5-30% caracterstic AREB
+	•	Tipul fibrotic: cuprinde zonele in care exista zone de transformare grasa alaturi de zone de hiperplazie medulara cu precursori displazici; tipul fibrotic are reteaua de reticulina groasa ca in mielofibroze, cu tesut hematopoetic pastrat si pancitopenie periferica
+	•	Tipul inflamator: dispoeza liniilor hematopoetice cu reactie inflamatorie de tip plasmocitar, limfoid sau monocitar sau granuloame inflamatorii nespecifice.
+Clasificare: SMD primare si secundare:
+ SMD primare:
+	•	Anemia cronica refractara simpla =AR
+	•	sange periferic: - blaşti <1% sau absenti,
+	•	anemie macrocitara
+	•	MO:  -blasti <5%,
+-hiperplazie eritroida,
+-hemosiderina medulara crescuta,
+-sideroblasti >50%,
+-disgranulopoeza.
+	•	anemia refractara sideroblastica idiopatica = ARSI
+	•	sange periferic: -blasti <1%,
+-dismorfism eritrocitar,
+-punctatii bazofile
+	•	MO:  -blasti <5%,
+-diseritropoeza,
+-sideroblasti inelari >15%,
+-numar total de eritroblasti <30%
+	•	diagnostic diferential cu eritroleucemi (FAL absenta sau subnormala)
+	•	anemie refractara cu exces de blasti=AREB 
+	•	anemia este macrocitara, cifra de reticulocite subnormal, granulocitele sunt hipogranulare, iar trombocitele in numar redus, au talie mare cu granulaţii puţine
+	•	sange periferic: blasti <5%
+	•	MO:  -diseritropoeza, disgranulopoeza, dismegacariopoeza,
+-posibil si sideroblasti inelari
+-procentul de celule blastice 5-20% de tip I si II
+	•	evoluţia spre LA 40%
+	•	anemie refractara cu exces de blasti in transformare AREBt
+	•	sange periferic: blasti >5%
+	•	MO:  -blasti 20-30%, tip I, II, III
+-rata de transformare in LA - 50%
+	•	leucemie mielomonocitara cronica LMMC
+	•	sange periferic: -blasti <5%,
+-monocite >1.000/mm3
+	•	MO:  -blasti 5-20% + monocite imature 5%
+-blasti 5% + monocite imature 20% = displazie triliniara
+	•	exista forma leucemica a acestui tip de mielodisplazie caracterizat prin monocitoza absoluta splenomegalie importanta, lizozim seric crescut.
+	•	alte subtipuri de boli mielodisplazice primare:
+	•	anomalia 5q- : anemie macrocitara, hiperplachetoza in sange si cifra de trombocite normala, tendinta la eritroblastopenie, hipolobulare megacariocitara
+	•	sindropmul 5q-
+SMD secundare:
+🗶 reprezinta complicaţii induse de terapia citostatica a unor boli maligne sau imunosupresia in unele boli renale
+🗶 caracterizate prin anemie, leucopenie, trombocitopenie in 23% din cazuri
+🗶 maduva normo sau hipercelulara cu fibroza in 15% din cazuri
+① sindroame mielodisplazice secundare tratamentului:
+	•	unor boli primare maligne cum ar fi: boala Hodgkin, limfoamele nonHodgkin, mielomul multiplu, policitemia vera, cancerul de ovar, cancerul de san, cancerul pulmonar, cancerul testicular,
+	•	unele boli nemaligne: tratamentul cu imunosupresoare (artrita reumatoida, lupus, boli de colagen); riscul de SMD si LA in cazul tratamentului cu citostatice este legat de utilizarea agentilor alchilanti, a unui numar mai mare de agenti, a dozei si a schemei de administrare.
+② mielodisplazii secundare induse de factori ocupationali, de mediu - substante chimice: benzenul.
+③ mielodisplazii in SIDA cu eritropoeza megaloblastica cu devierea la stanga a granulopoezei, creşterea marcata a megacariocitelor mici sau cu hiposegmentarea nucleului.
+Alte teste:
+	•	FAL leucocitara scăzută sau absenta
+	•	mieloperoxidaze scăzute
+	•	lizozim seric crescut.
+Diagnosticul diferential al SMD cu LA:
+	•	eritroblasti ≥50% cu ≥30% blasti din populaţia neeritroida => eritroleucemie acuta M6
+	•	eritroblasti >50% cu <30% blasti din populaţia neeritroida => SMD
+	•	eritroblasti <50% cu <30% blasti => SMD
+	•	eritroblasti <50% cu >30% blasti tip I, II, III => LAM.
+
+
+---END OF FILE---
+
+
+11. SINDROAME HEMORAGICE
+(clasificare, metodologia diagnosticului: sidromul	hemoragic de cauza trombocitara, hemofiliile, boala von Willebrand, sindromul	CID, fibrinoliza primara)
+
+
+SH de cauza trombocitara:
+-se impart in 2 grupe:  - afectiuni ereditare
+- afecţiuni castigate: –cantitative -trombocitopenii
+-trombocitozele
+-trombocitemiile
+-calitative -trombocotopatii,
+-trombastenii
+-au la baza 2 afecţiuni de cauza plachetara:
+	•	boli funcţionale plachetare – trombocitopatii
+	•	scaderea numarului de trombocite - trobocitopenii
+A)Trombocitopatii ereditare:
+-anomalii ale membranei plachetare:
+	•	trombastenia Glanzmann – boala hemoragica ereditara prin defect genetic al receptorului glicoproteina GP IIb-IIIa, transmis autozomal recesiv, se caracterizeaza prin scaderea marcata a funcţiei de agregare placheatra si formarea unui dop hemostatic ineficient
+	•	retractia cheagului este nula
+	•	absenta adezivitatii si disparitia proprietatii de agregare a trombocitelor dupa adaugarea de ADP
+	•	timpul de sangerare = prelungit, pe frotiu trombocitele sunt izolate
+	•	antibioticul ristocetina produce agregarea trombocitelor din trombastenie si nu produce agregarea lor in boala Willebrand, ceea ce permite diferentierea celor 2 afecţiuni.
+	•	sindromul Bernard-Saulier:
+- prezenta de trombocite morfologic anormale de dimensiuni gigante, numar scazut <20.000/mm3,
+-timpul de sangerare prelungit, retractia cheagului normala, agregabilitate si adezivitate normala
+-timpul consumului de protrombina deficitar,
+-testul de generarea a tromboplastinei deficitar,
+-testul la ristocetina scăzut
+	•	deficit de GP Ia-IIa = receptor specific pentru colagenul tip IV si I (colagenul este o proteina ce intra in structura peretelui vascular ce contribuie la interacţiunea lui cu plachetele)
+	•	anomalia GP IV
+	•	anomalia GP VI
+	•	tipul plachetar de boala von Willebrand (pseudo-Willebrand):
+	•	implica o anomalie a GP-Ib din membrana plachetelor ce duce la fixarea anormala a multimerilor cu greutate moleculara mare ai fact vW => turnover crescut al trombocitelor, cu trombocite de dimensiuni mari
+	•	se produce o agregare crescută cu concentratii mici de ristocetina si factor vW scăzut
+-anomalii ale granulelor plachetare:
+	•	deficit al granulelor dense = deficit pool-stocaj-delta; este implicat defectul de agregare datorat deficitului de granule delta, lipsa de secreţie de ADP duce la scaderea mecanismului de amplificare si propagare a raspunsului plachetar indus de agentul agregant primar => in vitro absenta agregarii plachetare si in vivo la formarea unui dop plachetar ineficient exprimat prin timp de sangerare prelungit
+- pentru determinarea deficitului de granule dense se calculeaza raportul ATP/ADP care este >3 (normal <2,5) datorita scăderii marcate a ADP 
+-un alt rezultat caracteristic pentru deficitul pool-stocaj-delta este creşterea radioactivitatii specifice pentru ATP si ADP in plachete dupa marcarea lor cu C14
+-continutul in serotonina dupa marcarea plachetelor cu C14 si dupa stimularea cu trombina este scăzut
+-calciul si pirofosfatul sunt scăzute
+	•	asocierea deficitului granulelor dense cu alte anomalii congenitale:
+-cuprinde urmatoarele variante:
+	•	sindromul Hermanscky-Pudlak
+	•	sindromul Chediak-Higashi
+	•	sindromul Wriskott-Aldrich
+	•	trombocitopenia cu absenta radiusului
+	•	deficit al granulelor alfa = sindromul plachetelor cenuşii
+-trombocitopenie variabila,
+-timp de sangerare prelungit
+-caracteristic plachetele sunt mari de culoare cenuşie pe frotiu MGG
+	•	deficit al granulelor alfa si delta (defect de receptor pentru TxA2)
+-boala rara cu sindrom hemoragic sever
+-anomalii de secreţie plachetara:
+>au comun: -numar si morfologie plachetara normala
+-TS prelungit
+-agregare primara normala
+-absenta agregarii secundare indusa de ADP si adrenaliana
+-abs agegarii indusa cu concentratii mici de colagen
+	•	anomalii ale acidului arahidonic 🗶 deficit de ciclooxigenaza
+🗶 deficit de tromboxansintetaza
+🗶 deficit de fosfolipaza A2
+🗶 defect de răspuns la TxA2
+	•	defecte ale transductiei semnalului
+2.1 defecte in mobilizarea calciului
+2.2 defecte de răspuns la agonisti slabi (sindrom Ward) - descris la bolnavii a căror plachete raspundeau prin agregare anormal deficitara la concentratii mici de colagen si la agonisti cu putere slaba (ADP, adrenalina TxA2)
+	•	deficit primar al activitatii procoagulante -F3P (sindrom Scott)
+-aciditatea F3P redusa la testul cu caolin
+-timp de protrombina serica scăzut
+	•	asociatii cu alte boli ereditare.
+B)Trombocitopatii dobandite:
+=boli care asociaza boli ale funcţiei plachetare:
+* uremia - prezenta de anomalii plachetare
+- este afectata hemostaza primara cu TS disproporţionat de lung fata de numarul de trombocite
+- adeziunnea plachetara scăzută si numar scăzut de eritrocite duce la diminuarea distributiei plachetelor spre peretele vascular.
+*boli mieloproliferative: TE, PV, LGC, MMM
+-tendinta la sangerare, complicatii tromboembolice
+-trombocite crescute pana la 1.000.000/mm3
+-trombocite mici sau mari cu forme anormale si scaderea granulelor de stocaj
+-defecte plachetare calitative.
+*SMD si LA  – trombocitemie cu tombocite anormale, de dimensiuni mari, bizare
+- uneori afectarea este neuniforma, ca urmare a afectarii diferite pe linie celulara in SMD
+*disproteinemii –cauze de sindrom hemoragic, sunt legate de defecte calitative ale plachetelor, trombocitopenie, defecte ale factorilor de coagulare, viscozitatea sangelui
+- defectele funcţionale plachetare se exprima prin TS prelungit, adezivitate si agregarea plachetara redusa si disponibilitate de F3P (procoagulanta) redusa
+*boala von Willebrand dobandita - mecanismul de apariţie a bolii consta in producerea unui inhibitor al factorului vW => scaderea factorului vW
+*deficit pool-stocaj dobândit
+*Ac antiplachetari – se produce accelerarea distructiei trombocitare sau alterarea funcţiei plachetare
+*by-pass cardiopulmonar
+- alterarile plachetare sunt principala anomalie care se produce la bolnavi in cursul operatiei pe cord sau by-pass cardiopulmonar
+-anomaliile calitative ale plachetelor produc un răspuns diminuat al plachetelor la ADP, colagen, ristocetina si adrenalina si depletia conţinutului granulelor alfa si delta
+-are loc trombocitopenie cu hipofunctia plachetelor golite de substante intraplachetare
+
+*boli hepatice cronice
+- deficit al factorilor de coagulare si ai inhibitorilor coagularii intravasculare, nivel scazut de inhibitori fibrinolitici, fibrinoliza crescută, trobocitopenie si defecte calitative plachetare
+-TS prelungit, durata de viata scurta, adezivitate si agregare scazuta si F3P scăzut
+*alte boli: - disfunctia plachetelor a mai fost descrisa si in mononucleoza infectioasa, anemia megaloblastica, eozinofilie, la pacientii cu astm si febra de fan, in cardiopatii congenitale si hipotiroidism
+- aspirina corecteaza defectul plachetar prin actiunea inhibitorie asupra formarii prostaglandinelor cu proprietati inhibitorii asupra plachetelor => creste TS fara sa afecteze adeziunea, dar afecteaza agregarea plachetara
+* medicamente si alti agenţi care inhiba sinteza sau actioneaza asupra prostaglandinelor
+= inhibitori ai ciclooxigenazei - aspirina, medicamente antiinflamatorii nesteroidiene,
+= inhibitori ai tromboxansintetazei (aspirina produce creştere a TS fara sa afecteze adeziunea plachetara ci numai agregarea plachetara)
+= medicamente care actioneaza prin creşterea AMPc - PG E1, D2
+= altele: dipiridamol, antibiotice: penicilia G, antiaritmice - chinidina, blocante ale canalului de calciu: verapamil, diltiazemul
+= heparina – inhibitor al coagularii si creste permebilitatea capilara, interactioneaza cu plachetele, inhiba agregarea plachetara si prin aceasta creste riscul hemoragiei mai ales in asociere cu aspirina sau alti agenţi trombolitici
+= in terapia trombolitica (streptokinaza, urokinaza, activator al plasminogenului tisular combinat) functia plachetara poate fi afectata prin produsii de degradare ai fibrinogenului
+= dextranul - se adsoarbe pe suprafata plachetelor si inhiba agregarea
+= ticlopidina - medicament antiplachetar, interfera legarea fibrinogenului de receptorul sau GP IIb - GP IIa pe care il blocheaza si produc o trombastenie Glanzman-like.
+
+Trombocitopenii - clasificare etiologica:
+⮲atingere medulara prin factori exogeni:
+	•	factori fizici: iradieri cu raze X, radioizotopi
+	•	factori chimici
+	•	factori medicamentosi: cloramfenicol, citostatice, sedative, antimalarice
+⮲hipersplenism - apare in hipertensiunea portala, ciroza hepatica, malarie, sifilis, sarcoidoza, tuberculoza, colagenoze
+⮲metaplazii, leucoze, metastaze medulare
+⮲obliterare medulara - MMM
+⮲distrugere exagerata - trombocitopatii imunologice,
+- factori infectiosi: microbieni, virali
+⮲CID
+⮲deficienta in factori de crestere - vitamina B12, acid folic
+
+Trombocitoza = crestere temporara a numarului de trombocite secundar unei cauze precise: splenectomie, hemoragie, traumatisme, cancere viscerale, sarcoidoza, atrofie splenica
+
+Trombocitemiile = crestere marcata si permanenta de trombocite
+- poliglobulia essentiala, LMC, splenomegalie
+- pot fi secundare unui sindrom proliferativ sau primare (cu hepatosplenomegalie, trombocite = 500.000/mm3, trombocitele sunt aglutinate in grămezi, cu anizocitoza).
+
+Teste de laborator ce prezintă modificări in trombocitopatii si trobocitopenii:
+	•	numarul trombocitelor – scăzut = de obicei <50.000/mm3
+	•	frotiu de sange periferic - morfologia trombocitelor
+	•	testul de fragilitate capilara – crescut
+	•	timpul de sangerare – prelungit
+	•	timpul de protrombina serica – scurtat
+	•	timpul Howell – prelungit
+	•	timpul F3 plachetar alungit (trobastenia Glanzman, sindrom Bernard-Saulier, sindrom Hermaschi-Pudlak, aspirina)
+	•	retractia cheagului – deficitara
+	•	testul Biggs-Douglas trombocitar alungit in trombopatiile constituţionale sau dobândite
+	•	adezivitatea plachetara scăzută in trombastenii, sindrom Bernard-Saulier, aspirina, boala von Willebrand
+	•	agregarea plachetara la ADP, ristocetina, colagen, epinefrina
+- scăzută la toate 4 in trobastenia Glanzman
+-scăzută doar la colagen in: PTI, LES, PV, tratamentul cu aspirina
+-scăzută doar la ADP: sindrom Hermanscki-Pudlak
+-scăzută doar la ristocetina: sindrom Bernard-Saulier, boala von Willebrand
+	•	ac antiplachetari prezenti in trombopenii imune
+	•	dozarea malonil aldehidei - scăzută in trombopatii
+	•	studiul megacariocitelor pe frotiu de MO: -prezente micromegacariocite datorita turnoverului crescut prin consum mare de trombocite in PTI si PTT.
+
+Hemofilii
+Hemofilia A si hemofilia B sunt boli hemoragice constituţionale, care au la baza defecte de coagulare plasmatica (deficienta severa sau functionarea defectuoasa a fractiunii coagulante a unei globuline antihemofilice) si transmitere recesiva legata de sex.
+-hemofilia A se datoreaza deficitului de factor VIII-C (fracţiunea coagulanta a factorului VIII plasmatic), lipsa sau scaderea sa >80% provoaca manifestari hemoragice
+-hemofilia B se datoreaza deficitului de factor IX (factor Christmas)
+F VIII:  F VIII-C = fractiunea coagulanta activa in coagulare
+F VIII-Ag = fractiunea antigenica inactiva in coagulare, dar care stimuleaza FVIII-C
+F VIII von Willebrand = fractiunea foarte activa in hemostaza
+= rol in adezivitatea plachetara la subendoteliu
+= mediaza agregarea plachetelor prin ristocetina
+F IX – are structura mai simpla decat F VIII, sintetizat de ficat dependent de vitamina K
+   F IX-C = responsabil de activitatea coagulanta
+   F IX-C Ag = fractiunea inactiva de suport proteic al celei active
+- este o β2-globulina.
+Examene de laborator:
+	•	teste cu rezultate normale:
+	•	numarul de trombocite – diagnostic diferential cu trombocitopenii
+	•	timpul de sangerare - diagnostic diferential cu boala von Willebrand
+	•	timpul de trombina
+	•	rezistenta capilara
+	•	retractia cheagului
+	•	timpul de protrombina (TQ) - diagnostic diferential cu parahemofilii
+	•	factorul VIII-Ag si factorul VIII-vW => diagnostic diferential cu boala von Willebrand
+	•	teste cu rezulate anormale: TH, PTT, PTTK - mult alungite
+	•	testul de generare a tromboplastinei (TGT) - confirma diagnosticul
+TGT plasmatic alungit + TGT seric normal => hemofilia A
+TGT plasmatic normal + TGT seric alungit => hemofilia B
+TGT global alungit in ambele tipuri de hemofilii
+	•	determinarea nivelului F VIII-C si F IX - scăzute in funcţie de gradul de severitate a hemofiliei
+	•	timpul de protrombina serica (consumul de protrombina) foarte scăzut
+	•	fibrinogen plasmatic normal sau uşor crescut
+	•	TLCE (timpul de liza al cheagului euglobinic) normal sau scazut
+	•	TPS scurtat.
+
+Boala von Willebrand
+-afecţiune hemoragica ereditara, transmisa autosomal dominant in 80% din cazuri, mai rar recesiv care are la baza o deficienta sau o anomalie a complexului F VIII (F VIII-C, F VIII-Ag, FVIII-vW)
+-apare cu frecventa egala atat la barbati cat si la femei
+- caracterizata prin hemoragii de tip capilar, asociate cu manifestari moderate de tip hemofilioid
+- boala vW = deficienta totala de f VIII, hemofilia A = afectarea F VIII-C
+- transfuzia de plasma normala corecteaza hemofilia A si boala vW
+- transfuzia de plasma de la pacient cu hemofilie A la cel cu boala vW corecteaza boala vW (s-a transfuzat F VIII-Ag si F VIII-vW stimulant pentru F VIII-C pe care il va sintetiza pentru ca in boala vW ii lipseste factorul stimulant, dar nu si capacitatea de sinteza).
+- transfuzia de plasma de la pacient cu boala vW la cel cu hemofilie A nu are nici un efect (boala vW nu poate sa transmita mesajul genetic de sinteza a F VIII-C pe care acesta din urma nu il are).
+Examene de laborator:
+	•	Teste cu rezultate normale:
+*numarul de trombocite si morfologia lor
+*retractia cheagului
+*timpul factorului 3 plachetar
+*timp Howell
+*timp de protrombina (TQ)
+*testul de agregare plachetara la ADP si la adrenalina
+	•	Teste cu rezultate difazice:
+	•	PTT si PTTK - 50% din cazuri alungit, in rest normal
+	•	timpul de protrombina serica scurtat in 50% din cazuri
+	•	rezistenta capilara - test pozitiv in 80% din cazuri
+	•	Teste cu rezultate anormale:
+	•	adezivitatea plachetara in vivo si vitro – deficitara, aproape nula
+	•	agregabilitatea plachetara la ristocetina - mult diminuata (crescuta in pseudo vW)
+	•	timpul de generare a tromboplastinei (TGT) global si plasmatic alungite
+	•	determinarea F VIII-Ag si F VIII-vW - mult diminuat, F VIII-C subnormal
+	•	timpul de sangerare întotdeauna alungit - 15 minute; administrarea de aspirina dubleaza sau tripleazaTS (diagnostic diferential cu hemofilii).
+
+Fibrinoliza primara
+= este un sindrom hemoragic provocat de o activitate fibrinolitica excesiva sau de liza acţivitatii fibrinolitice
+- fibrinoliza este rezultatul unui echilibru intre activatori si inhibitori
+-scaderea inhibitorilor apare in afectiuni hepatice grave, deficit de α2-antiplasmina, CID
+-poate fi primara sau secundara
+-fibrinoliza primara -spontana cauzata de creşterea activatorilor plasminogenului, indusa de hipoxie, soc termic, electrosoc, electrocutare, scaderea brusca a tensiunii arteriale, efort fizic excesiv, hemangioame, veninuri, operatii de prostata, plaman, uter
+-terapeutica prin introducerea in circulatie de activatori ai plasminogenului (streptokinaza, urokinaza).
+Examene de laborator:
+	•	teste uşor alungite:TH, PTT, PTTK, TQ
+	•	fibrinogen scăzut
+	•	TLCE mult scurtat, proporţional cu gravitatea sindromului, chegurile sunt mai mici, friabile
+	•	testul Astrup (placi de fibrina) precizeaza agentul cauzal al fibrinolizei (activator sau plasmina)
+	•	trombelastograma - traseu caracteristic in „racheta de tenis”
+	•	testul pentru PDF pozitiv
+
+Coagularea intravasculara diseminata (CID)
+=sindromul de defibrinare sau coagulopatia de consum caracterizat printr-o intricare de manifestari trombotice si hemoragice si generarea intravasculara extinsa ale celor 2 cai ale coagularii:
+	•	extrinseca produsa prin eliberarae de material coagulant
+	•	intrinseca prin lezarea difuza a endoteliului vasculat sau agregare generalizata a trombocitelor
+-in cursul CID se succed 2 mecanisme:
+	•	coagulare intravasculara si
+	•	fibrinoliza secundara reactionala
+-este caracterizata de apariţia simultana de microtrombi in circulatie concomitent cu hemoragii difuze, datorate consumului plachetelor si ai principalilor factori plasmatici ai coagularii.
+Examene de laborator:
+	•	faza care precede apariţia CID:
+	•	anemie microangiopatica cu reticulocitoza datorata hemoragiilor si hemolizei (Hb crescuta, haptoglobina scazuta, LDH crescut)
+	•	frotiu periferic: prezenta de schizocite
+	•	instalarea stării de hipercoagulabilitate:
+	•	numar de trombocite normal sau uşor crescut
+	•	TS normal
+	•	PTTK si TQ = normale
+	•	fibrinogen normal sau crescut
+	•	TARS si TGT scurtate prin activarea factorilor VIII, IX, X
+	•	TMF negativ sau slab pozitiv
+	•	AT III – normala
+	•	TLCE normal
+	•	FDP, plasminogen – normale
+	•	agregare plachetara - crescută 
+	•	faza I a CID:
+	•	numarul de trombocite scade prin consum
+	•	timp de sangerare normal sau uşor alungit
+	•	PTTK, TQ - alungite prin consum de factori II, V, VIII
+	•	fibrinogen de obicei scăzut prin consum
+	•	TMF intens pozitiv
+	•	AT III mult scăzută prin consum ca si pr C si S
+	•	TLCE - normal sau uşor scurtat
+	•	TARS, TGT scurtate sau revenite la normal
+	•	FDP incepe sa se pozitiveze
+	•	plasminogen normal sau uşor scăzut
+	•	agregarea plachetara uşor crescută sau normala
+	•	faza II a CID = hiperfibrinoliza secundara compensatorie:
+	•	numar de trombocite uşor scăzut sau revin la normal
+	•	timp de sangerare mult alungit
+	•	PTTK, TQ mult alungite
+	•	fibrinogen mult scăzut
+	•	TARS, TGT - mult alungite
+	•	TMF - moderat pozitiv ++
+	•	AT III, proteina S si C – scazute
+	•	FDP - intens pozitiv
+	•	plasminogen mult scazut
+	•	agregarea plachetara revine la normal.
+
+
+---END OF FILE---
+
+
+12. Sistemele ABO şi compatibilitatea Rh
+(antigeni si anticorpi regulari; regulile transfuzionale de compatibilitate ABO si identitate si compatibilitate Rh; regulile imunologice ale transfuziei; accidentele imunologice ale transfuziei)
+
+Sistemul AB0
+Grupele sanguine sunt caracterizate prin prezenta unor substante antigenice specifice de grupa denumite izoaglutinogene şi anticorpi specifici denumiţi aglutinine
+-aglutinogenele se afla pe eritrocite, iar aglutininele se afla in plasma
+grupa sanguina
+aglutinogene
+aglutinine
+A
+A
+anti-B
+B
+B
+anti-A
+0
+-
+anti-A, anti-B
+AB
+AB
+-
+
+-prezenta celor 4 grupe arata o distributie inegala in rândul populaţiei:
+A = 41%
+B = 16%
+0 = 36%
+AB = 7%
+Antigenele sistemului ABO
+- sunt de 2 feluri:
+	•	Ag fixate pe eritrocite, leucocite, trombocite si celulele tesuturilor in afara de celula nervoasa, tesutul conjunctiv, hepatocit si celulele Malpighi; aceste Ag = aglutinogene pentru ca produc aglutinarea suportului corpuscular eritrocitar in cazul in care sunt puse in contact cu Ac omologi
+	•	Ag libere in saliva, lacrimi, urina, sucul gastric; ele se numesc substante de grup specifice.
+-subgrupele antigenelor A si B:
+	•	se diferentiaza in: Ag A puternic denumit A1 si Ag A slab denumit A2
+	•	in cadrul grupei A sau AB au fost identificate Ag A mai slabe denumite A3, Aint, Am, Ax, Aend, Ael, Afin.
+	•	in cadrul grupei B au fost denumite: B3, Bx, Bm, Bel
+	•	aceste subgrupe sunt determinate genetic transmise de la o generatie, la alta
+	•	au importanta teoretica si practica deoarece un Ag A sau B slab poate sa nu fie recunoscut de serurile test anti-A sau anti-B si astfel pot aparea accidente posttransfuzionale
+	•	ex. donatori de subgrup A2 sau A3 poate fi identificat ca 0 sau un altul A2B sau A3B drept grup B; astfel sunt necesare executarea concomitenta si a unei metode serice, metoda Simonin.
+-Ag H este comun si se gaseste in procent de 99,9% din cazuri si reprezinta substanta precursoare pentru Ag A sau B.
+Anticorpii sistemului AB0
+-Ac anti-A si anti-B dupa modul lor de apariţie sunt de 2 feluri: de tip natural  si de tip imun
+Ac de tip natural  -au o molecula mare de tip imun ig M sau ig A care provoaca aglutinarea imediata a eritrocitelor ce conţin Ag omoloage A sau B
+-ei se mai numesc si Ac de tip regular deoarece apar fie in timpul vieţii intrauterine, fie dupa naştere la toate persoanele carora le lipseste Ag omolog
+Ac de tip imun -cu molecula mica de IgG, provoaca aglutinarea eritrocitelor intr-un mediu macromelecular ca urmare a tratamentului eritrocitelor cu enzime - papaina
+-ei apar in urma unor procese de aloimuinizare (sarcini sau transfuzii incompatibile) sau heteroimunizare (diverse preparate farmaceutice de origine animala ce conţin substante de tip Ag A sau B)
+-titrul Ac anti-A si anti-B variaza dupa varsta, grup sanguin si stare fiziologica -titruri mari se pot intalni la persoane adulte de varsta tanara si cu gr 0.
+-titrul anti-A de la pers de gr O este mai mare decât titrul anti-B si mai mare decât titrul anti-A de la pers de gr B
+	
+		Grup 0		anti A > anti B
+		Grup B			  > anti A
+
+
+-cand titrul anti-A si anti-B la pers de gr O este mare aceştia devin donatori periculoşi pentru bolnavii cu grup A, B sau AB; acest fel de sânge poate fi transferat numai la bolnavii de gr 0 sub forma de masa eritrocitara sau eritrocite spalate si la bolnavii de gr A sau B
+-incompatibilitatea materno-fetala mama 0/fat A => boala hemolitica a nou-nascutului
+-titruri mici sau chiar absenta acestora se semnaleaza la copiii <1 an batrani, LLC, boala Hodgkin
+-exista 4 reguli generale dupa care, cunoscând fenotipul mamei si al tatalui, se poate deduce fenotipul posibil al copilului
+① aglutinogenele A si B nu pot fi prezente in sângele unui copil daca ele nu se găsesc in sângele unuia sau a ambilor părinţi
+② un părinte de grup AB trebuie sa transmita copilului fie aglutinigenul A fie aglutinogenul B, el nu poate fi parintele unui copil de gr 0
+③ o persoana de grup 0 nu poate fi părintele unui copil de grup AB
+④ Ag A1 şi A2 pot sa apara la un copil numai daca ele sunt prezente cel puţin la unul din părinţi
+Relaţii intre grupul sanguin ABO si anumite boli
+	•	diverse boli duc la alterarea Ag sau chiar apariţia unui alt Ag denumit pseudoantigene (de ex. in unele leucemii, dar ele devin normale in perioadele de remisiune)
+	•	scădere a Ag HAB s-a semnalat si in boala Hodgkin
+	•	nou-nascutul de grup A sau B cu Ag moştenit de subgrup A1 poate fi A2, iar cel cu A2 poare sa apara ca A3
+	•	la subiecţii cu leziuni intestinale (carcinoame) sau alte tulburări ce fac permeabil peretele intestina! are loc o pătrundere a germenilor in circulatie; de ex. E coli 086 care determina o transformare a glucidului specific grupului A in glucidul specific grupului B; asfel unele persoane de grup A devin pentru o perioada AB, fenomenul fiind reversibil (eritrocitele lor au un Ag B castigat care reactioneaza cu serul anti-B)
+	•	foarte rar Ag A dobândit a fost găsit la bolnavii cu stari septice, in infecţii cu Proteus vulagaris sau mirabilis
+	•	o slăbire a Ag H, A, B a fost observata la bolanavii cu carcinom de stomac sau pancreas
+	•	boala hemolitica a nou-nascutului apare la un nou-nascut de grup A sau B a cărui mama poseda Ac anti-A sau anti-B de tip Ig G
+	•	o rol deosebit de important este intre sistemul ABO si transfuzia de sange si priveşte compatibilitatea ce trebuire sa existe intre donatorul si primitorul de sange
+	•	o incompatibilitate de Ag duce la reacţii hemolitice dintre cele mai diverse
+	•	s-a constatat ca persoanele de grup 0 fac mai frecvent ulcer gastro-duodenal cu 20% mai mult dacat celelalte persoane
+	•	anemia feripriva si anemia megaloblastica de tip Biermer se intalnesc mai frecvent la persoanele de grup A.
+
+Sistemul Rh
+-reprezinta un sistem de grup sanguin caracterizat de aloanticorpi, fata de sistemul ABO
+-prezinta peste 40 de Ag si 2 nomenclaturi diferite
+
+	•	sistemul Fisher > presupune ca Ag Rh sunt determinări de 3 perechi diferite de gene denumite Cc, Dd, Ee; prezenta sau absenta Ag D determina un individ sa fie Rh + sau Rh-
+> Ag D este puternic imunogen, chiar o cantitate mica de sange Rh+ va induce producerea de Ac anti-D la 10-15% din indivizii Rh- ce primesc sânge Rh+; Ag C si E sunt mai puţin imunogene si de aceea in practica se determina numai Ag D
+> Ac din sistemul Rh fata de Ag respectiv, din clasa IgG nu fixeaza complementul si nu produc hemoliza intravasculara; modelul de reacţie posttransfuzionala este hemoliza extravasculara imediata sau tardiva
+> Ac din sistemul Rh sunt de tip imun si numai in cazuri rare pot apare si Ac de tip natural; frecventa cea mai mare o au Ac de specificitate anti-D, ei apar in urma unor sarcini sau transfuzii incompatibile; ac Rh odata aparuti persista toata viata si pot sa scada cantitativ daca nu intervin alti stimuli antigenici.
+
+
+- semnificaţia clinica a sistemului Rh:
+	•	incompatibilitatea de sarcina apare prin intermediul fact d/D apoi C/c si e/E => boala hemolitica a nou-nascutului
+	•	ac anti-D pot fi utilizaţi sub forma de gamaglobuline injectabile ceea ce a redus numarul cazurilor de alloimunizari 
+	•	transfuzie executata incorect din punct de vedere al factorului D determina aparitia Ac anti-D, iar la o noua transfuzie se produce un accident posttransfuzional.
+- reguli de transfuzie:
+	•	in practica cunoaşterea grupelor eritrocitare are 3 obiective principale:
+	•	evitarea unor accidente transfuzionale determinate de incompatibilitatea ce ar putea aparea intre Ac primitorului si eritrocitele donatorului
+	•	studiul bolii hemolitice a nou-nascutului determinata de incopatibilitatea Ag intre eritrocitele mamei si fătului
+	•	administrarea unui sange care sa nu conţină Ag in plus fata de sangele primitorului pentru evitatrea pericolului reacţiilor posttransfuzionale la administrarea ulterioara de sange
+	•	pentru evitarea oricărui accident se face determinarea grupelor de sange si Rh la donator si primitor si a probelor de compatibilitate la bonavi fara antecedente posttransfuzionale
+	•	probele de compatibilitate se fac la temperatura de 37°C in mediu salin folosind enzime proteolitice cum ar fi papaina cisteinata
+	•	la asa-numitii primitori periclitati se fac teste de compatibilitate mai complexe:
+	•	la 18-22°C in mediu salin
+	•	la 37°C in mediu albuminos,
+	•	la 37°C cu eritrocite tratate cu papaina cisteinata
+	•	testul Coombs indirect fata de seruri antiglobulinice specifice
+	•	cele mai imunogene Ag sunt A si B din sistemul ABO si D din sistemul Rh
+	•	in serul unui bolanav neimunizat pot aparea in sange aloanticorpi fata de Ag absent de pe eritrocitele sale, dar prezent pe eritrocitele donatorului, dupa o transfuzie de sange; la o noua transfuzie pot apare accidente posttransfuzionale, de aceea testele de compatibilitate trebuie efectuate cu Ag proaspat inaintea fiecărei transfuzii
+	•	au importanta in medicina legala, asfel un Ag eritrocitar va aparea pe eritrocitele copilului numai daca este prezent pe eritrocitele unuia dintre părinţi.
+	•	preparatele de sange care pot fi administrate sunt:
+	•	sange integral
+	•	masa eritrocitara
+	•	masa trombocitara
+	•	concentrat leucocitar
+	•	componente plasmatice:
+	•	plasma proaspata crioprecipitat
+	•	concentrat de factor VIII
+	•	concentrat de complex protrombinic
+	•	concentrat de fibrinogen
+	•	preparate de Ig.
+-indicaţii: *hemoragiile consecutiv traumatismelor, intervenţiilor chirurgicale, hemoragie digestiva superioara.
+*masa eritrocitara se recomanda pacientilor cu anemie cronica severa la pacienti care au volum plasmatic crescut deoarece administrarea de sange integral la aceşti pacienţi determina incaracare volemica cu precipitarea insuficientei cardiace
+*pricipalele tipuri de anemii cu indicatie de transfuzie sunt: anemia aplastica, anemia congenitala dobandita, anemiile hemolitice congenitale, anemii severe prin deficienta de folati , B12 sau fier.
+- complicaţiile transfuziei:
+	•	imunologice = reactii imunologice impotriva eritrocitelor (hemoliza intra si extravasculara), trombocitelor, leucocitelor sau a altor Ag plasmatice.
+	•	nonimunologice - supraincarcare volemica
+	•	contaminare 🡂bacteriana: sifilis, toxoplasmoza, bruceloza
+🡂virala: HBV, HCV, citomegalovirus, HIV
+🡂parazitara: malaria
+	•	hemocromatoza secundara
+	•	toxicitatea citratului.
+Complicaţii imunologice (incompatibilitatii de grup sanguin):
+	•	distrugerea brutala intravasculara a hematiilor transfuzate => hemoglobinemie => hemoglobinurie datorata de obicei unei incompatibilitati ABO cu participarea C3: febra, frison, dureri lombare, toracice, eritem facial si febra; daca reactia este severa duce la colaps vascular si CID; mai poate aparea oligurie cu anurie dupa un mecanism insuficient cunoscut de aceea trebuie administrat pacientului medicamente pentru stimularea diurezei
+	•	hemolizei extravasculara: simptomatologia este mai atenuata prin apariţia febrei, frisonului aparute dupa mai multe ore; cauza cea mai frecventa de hemoliza extravasc este prezenta Ac anti-D
+	•	reactia hemolitica posttransfuzionala tardiva
+	•	apare dupa 7 zile la pacienţii imunizaţi in antecedente prin transfuzie sau sarcina
+	•	initial pacienţii prezinta un titru scăzut de Ac, nedepistabili in ser, iar la o noua transfuzie titrul Ac antieritrocitari creste rapid => hemoliza => anemie, febra, icter, hemoglobinurie
+	•	in absenta distructiei eritrocitelor reacţiile febrile posttransfuzionale se mai pot datora prezentei Ac antileucocitari, antitrombocitari
+	•	reacţie imunologica care apare prin mecanismul de HS de tip I datorat unor Ac anti-IgA aflaţi in plasma pacienţilor transfuzati care nu au acest tip de Ig, dar care au fost sensibilizaţi in prealabil prezinta urmatoarele simptome: urticarie, edem, eritem, hipotensiune arteriala, bronhospasm si edem glotic; tratamentul consta in antihistaminice, adrenalina si hidrocortizon.
+Contaminarea bacteriana:
+-se poate face cu stafilococul aureus de pe tegumentele donatorului, dar conservarea sangelui la 4°C impiedica dezvoltarea acestuia.
+-rar se poate produce contaminarea si cu germeni Gram- care se dezvolta lent la 4°C => reactii letale la pacienţii transfuzati cu producerea socului endotoxic
+Supraincarcarea volemica:
+-apare la persoanele in varsta cu anemie severa => in final edem pulmonar acut -profilactic se administreaza numai masa eritrocitara
+Citotoxicitatea citratului:
+-sangele recoltat de la donatori se amesteca cu citrat pentru a se obţine o conservare adecvata
+-in concentratii mari citratul fixeaza Ca2+ ionic din plasma => spasme musculare de aceea, la cantitati mai mari de 2l de sange se administreaza 1g calciu gluconic pentru fiecare 1l de sange transfuzat.
+Hemocromatoza:
+- cresterea depozitelor de fier din organism poate aparea in 2 situatii - la pacienţii:
+	•	care absorb o cantitate mare de fier o perioada indelungata de timp 
+	•	care primesc regulat transfuzii de sange o perioada mai mare de timp.
+- cand depozitele cresc vor fi afectate: inima, ficatul si organele endocrine
+- apar manifestări clinice ca: pigmentatrea tegumentului, disfunctie cardiaca, ciroza, diabet, atrofie musculara
+- diagnosticul se pune pe baza nivelului crescut al feritinei (>10.000 μg/l) si prin biopsie hepatica
+- in hemocromatoza secundara la politransfuzati se indica un chelator de fier desferoxamina, in injectii intramusculare profunde
+-se mai poate administra acid ascorbic, care creste excreţia urinara de fier, dar are efect toxic pe miocard.
+
+
+---END OF FILE---
+
+
