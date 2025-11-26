@@ -1,28 +1,16 @@
-import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Brain, Tags } from 'lucide-react'
-import Link from 'next/link'
+import { Tags } from 'lucide-react'
 import { getTags } from '@/lib/actions/topics'
 import { TopicDialog } from '@/components/topic-dialog'
 import { DeleteTopicButton } from '@/components/delete-topic-button'
+import { Navbar } from '@/components/navbar'
 
 export default async function TopicsPage() {
   const tags = await getTags()
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Header */}
-      <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Brain className="w-8 h-8 text-blue-600" />
-            <h1 className="text-2xl font-bold">Flashcard</h1>
-          </div>
-          <Link href="/decks">
-            <Button variant="ghost">Înapoi la seturi</Button>
-          </Link>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">

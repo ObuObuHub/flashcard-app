@@ -1,12 +1,13 @@
 import { notFound } from 'next/navigation'
 import { Button } from '@/components/ui/button'
-import { Brain, ArrowLeft, Play, Tags } from 'lucide-react'
+import { Play, Tags } from 'lucide-react'
 import Link from 'next/link'
 import { getDeck } from '@/lib/actions/decks'
 import { getFlashcards } from '@/lib/actions/flashcards'
 import { getTags } from '@/lib/actions/topics'
 import { FlashcardForm } from '@/components/flashcard-form'
 import { FlashcardFilterView } from '@/components/flashcard-filter-view'
+import { Navbar } from '@/components/navbar'
 
 interface DeckDetailPageProps {
   params: Promise<{ deckId: string }>
@@ -33,28 +34,10 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Header */}
-      <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Brain className="w-8 h-8 text-blue-600" />
-            <h1 className="text-2xl font-bold">Flashcard</h1>
-          </div>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
-        {/* Breadcrumb */}
-        <div className="mb-6">
-          <Link
-            href="/decks"
-            className="text-blue-600 hover:text-blue-700 flex items-center gap-1 text-sm"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Înapoi la seturi
-          </Link>
-        </div>
 
         {/* Deck Header */}
         <div className="mb-8">

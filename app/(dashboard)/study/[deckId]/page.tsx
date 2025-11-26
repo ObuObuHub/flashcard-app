@@ -10,6 +10,7 @@ import { getDueFlashcards } from '@/lib/actions/flashcards'
 import { getDeck } from '@/lib/actions/decks'
 import { recordReview } from '@/lib/actions/reviews'
 import { getPreviewIntervals } from '@/lib/srs'
+import { Navbar } from '@/components/navbar'
 import type { FlashcardWithStats, Deck, SRSRating } from '@/types'
 import { translations } from '@/types'
 
@@ -107,14 +108,7 @@ export default function StudyPage({ params }: StudyPageProps) {
   if (flashcards.length === 0) {
     return (
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-        <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center gap-2">
-              <Brain className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold">Flashcard</h1>
-            </div>
-          </div>
-        </header>
+        <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Card className="max-w-2xl mx-auto text-center">
             <CardHeader>

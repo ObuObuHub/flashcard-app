@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { getDecks } from '@/lib/actions/decks'
 import { CreateDeckDialog } from '@/components/create-deck-dialog'
 import { DeckCard } from '@/components/deck-card'
+import { Navbar } from '@/components/navbar'
 
 export default async function DecksPage() {
   // Auth disabled for development
@@ -11,15 +12,7 @@ export default async function DecksPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* Header */}
-      <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Brain className="w-8 h-8 text-blue-600" />
-            <h1 className="text-2xl font-bold">Flashcard</h1>
-          </div>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
