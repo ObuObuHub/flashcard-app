@@ -19,16 +19,18 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
 
   // If RPC exists and succeeds, use it (much faster!)
   if (!rpcError && rpcData) {
-    return rpcData.map((deck: Record<string, unknown>) => ({
-      id: deck.id,
-      user_id: deck.user_id,
-      name: deck.name,
-      description: deck.description,
-      created_at: deck.created_at,
+    const decks = rpcData.map((deck: Record<string, unknown>) => ({
+      id: deck.id as string,
+      user_id: deck.user_id as string,
+      name: deck.name as string,
+      description: deck.description as string | null,
+      created_at: deck.created_at as string,
       total_cards: Number(deck.total_cards),
       cards_due: Number(deck.cards_due),
       mastered_cards: Number(deck.mastered_cards),
     }))
+    // Sort alphabetically by name
+    return decks.sort((a: DeckWithProgress, b: DeckWithProgress) => a.name.localeCompare(b.name, 'ro'))
   }
 
   // Fallback to old N+1 approach if RPC doesn't exist
@@ -86,7 +88,8 @@ export async function getDecks(): Promise<DeckWithProgress[]> {
     }
   })
 
-  return decksWithProgress
+  // Sort alphabetically by name
+  return decksWithProgress.sort((a, b) => a.name.localeCompare(b.name, 'ro'))
 }
 
 export async function getDeck(deckId: string): Promise<Deck | null> {

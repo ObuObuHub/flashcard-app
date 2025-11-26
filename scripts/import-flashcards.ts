@@ -46,7 +46,23 @@ interface DeckData {
   flashcards: FlashcardData[]
 }
 
-async function createDeck(name: string, description: string): Promise<string> {
+async function getOrCreateDeck(name: string, description: string): Promise<string> {
+  // Check if deck with same name already exists
+  const { data: existing } = await supabase
+    .from('decks')
+    .select('id')
+    .eq('user_id', DEV_USER_ID)
+    .eq('name', name)
+    .maybeSingle()
+
+  if (existing) {
+    // Update description and return existing deck
+    await supabase.from('decks').update({ description }).eq('id', existing.id)
+    console.log(`  (updating existing deck)`)
+    return existing.id
+  }
+
+  // Create new deck
   const { data, error } = await supabase
     .from('decks')
     .insert({ user_id: DEV_USER_ID, name, description })
@@ -83,7 +99,7 @@ async function main() {
   let totalCards = 0
 
   for (const deckData of decks) {
-    const deckId = await createDeck(deckData.name, deckData.description)
+    const deckId = await getOrCreateDeck(deckData.name, deckData.description)
     await createFlashcards(deckId, deckData.flashcards)
     console.log(`+ ${deckData.name} (${deckData.flashcards.length} cards)`)
     totalDecks++
