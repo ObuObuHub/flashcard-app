@@ -9,6 +9,7 @@ import Link from 'next/link'
 import { getDueFlashcards } from '@/lib/actions/flashcards'
 import { getDeck } from '@/lib/actions/decks'
 import { recordReview } from '@/lib/actions/reviews'
+import { getPreviewIntervals } from '@/lib/srs'
 import type { FlashcardWithStats, Deck, SRSRating } from '@/types'
 import { translations } from '@/types'
 
@@ -228,56 +229,59 @@ export default function StudyPage({ params }: StudyPageProps) {
               <p className="text-center text-sm text-gray-600 dark:text-gray-400">
                 Cât de bine ai știut răspunsul?
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                <Button
-                  variant="outline"
-                  className="h-auto py-4 flex flex-col gap-2 border-red-200 hover:bg-red-50 dark:border-red-800 dark:hover:bg-red-900/20"
-                  onClick={() => handleRating(1)}
-                  disabled={submitting}
-                >
-                  <span className="text-lg font-semibold">{t.again}</span>
-                  <span className="text-xs text-gray-500">{'<1 zi'}</span>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="h-auto py-4 flex flex-col gap-2 border-yellow-200 hover:bg-yellow-50 dark:border-yellow-800 dark:hover:bg-yellow-900/20"
-                  onClick={() => handleRating(2)}
-                  disabled={submitting}
-                >
-                  <span className="text-lg font-semibold">{t.hard}</span>
-                  <span className="text-xs text-gray-500">
-                    {currentCard.stats && currentCard.stats.interval > 0
-                      ? `${Math.round(currentCard.stats.interval * 1.2)} zile`
-                      : '1 zi'}
-                  </span>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="h-auto py-4 flex flex-col gap-2 border-green-200 hover:bg-green-50 dark:border-green-800 dark:hover:bg-green-900/20"
-                  onClick={() => handleRating(3)}
-                  disabled={submitting}
-                >
-                  <span className="text-lg font-semibold">{t.good}</span>
-                  <span className="text-xs text-gray-500">
-                    {currentCard.stats && currentCard.stats.interval > 0
-                      ? `${Math.round(currentCard.stats.interval * 2.5)} zile`
-                      : '6 zile'}
-                  </span>
-                </Button>
-                <Button
-                  variant="outline"
-                  className="h-auto py-4 flex flex-col gap-2 border-blue-200 hover:bg-blue-50 dark:border-blue-800 dark:hover:bg-blue-900/20"
-                  onClick={() => handleRating(4)}
-                  disabled={submitting}
-                >
-                  <span className="text-lg font-semibold">{t.easy}</span>
-                  <span className="text-xs text-gray-500">
-                    {currentCard.stats && currentCard.stats.interval > 0
-                      ? `${Math.round(currentCard.stats.interval * 3)} zile`
-                      : '7+ zile'}
-                  </span>
-                </Button>
-              </div>
+              {(() => {
+                const previews = getPreviewIntervals(currentCard.stats)
+                const formatInterval = (days: number) =>
+                  days === 1 ? '1 zi' : `${days} zile`
+                return (
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <Button
+                      variant="outline"
+                      className="h-auto py-4 flex flex-col gap-2 border-red-200 hover:bg-red-50 dark:border-red-800 dark:hover:bg-red-900/20"
+                      onClick={() => handleRating(1)}
+                      disabled={submitting}
+                    >
+                      <span className="text-lg font-semibold">{t.again}</span>
+                      <span className="text-xs text-gray-500">
+                        {formatInterval(previews.again)}
+                      </span>
+                    </Button>
+                    <Button
+                      variant="outline"
+                      className="h-auto py-4 flex flex-col gap-2 border-yellow-200 hover:bg-yellow-50 dark:border-yellow-800 dark:hover:bg-yellow-900/20"
+                      onClick={() => handleRating(2)}
+                      disabled={submitting}
+                    >
+                      <span className="text-lg font-semibold">{t.hard}</span>
+                      <span className="text-xs text-gray-500">
+                        {formatInterval(previews.hard)}
+                      </span>
+                    </Button>
+                    <Button
+                      variant="outline"
+                      className="h-auto py-4 flex flex-col gap-2 border-green-200 hover:bg-green-50 dark:border-green-800 dark:hover:bg-green-900/20"
+                      onClick={() => handleRating(3)}
+                      disabled={submitting}
+                    >
+                      <span className="text-lg font-semibold">{t.good}</span>
+                      <span className="text-xs text-gray-500">
+                        {formatInterval(previews.good)}
+                      </span>
+                    </Button>
+                    <Button
+                      variant="outline"
+                      className="h-auto py-4 flex flex-col gap-2 border-blue-200 hover:bg-blue-50 dark:border-blue-800 dark:hover:bg-blue-900/20"
+                      onClick={() => handleRating(4)}
+                      disabled={submitting}
+                    >
+                      <span className="text-lg font-semibold">{t.easy}</span>
+                      <span className="text-xs text-gray-500">
+                        {formatInterval(previews.easy)}
+                      </span>
+                    </Button>
+                  </div>
+                )
+              })()}
             </div>
           )}
         </div>

@@ -86,3 +86,23 @@ export function isDue(nextReview: string | Date): boolean {
   return now >= reviewDate
 }
 
+/**
+ * Get preview intervals for all rating options
+ * Used to show users what interval each choice will give
+ * @param currentStats - Current card statistics (optional for new cards)
+ * @returns Object with interval in days for each rating
+ */
+export function getPreviewIntervals(currentStats?: CardStats): {
+  again: number
+  hard: number
+  good: number
+  easy: number
+} {
+  return {
+    again: calculateNextReview(1, currentStats).interval,
+    hard: calculateNextReview(2, currentStats).interval,
+    good: calculateNextReview(3, currentStats).interval,
+    easy: calculateNextReview(4, currentStats).interval,
+  }
+}
+
