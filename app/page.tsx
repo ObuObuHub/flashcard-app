@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ThemeToggle } from '@/components/theme-toggle'
 import {
   Brain,
   TrendingUp,
@@ -19,6 +20,10 @@ import {
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
+      {/* Theme Toggle */}
+      <div className="fixed top-4 right-4 z-50">
+        <ThemeToggle />
+      </div>
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 text-center">
         <div className="flex justify-center mb-6">
