@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Navbar } from '@/components/navbar'
-import { Brain, TrendingUp, Clock } from 'lucide-react'
+import { Brain, Clock } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -85,32 +84,17 @@ export default function Home() {
             </p>
           </div>
 
-          {/* SM-2 Info Cards */}
-          <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-2">
-                  <TrendingUp className="w-6 h-6 text-green-600 dark:text-green-400" />
-                </div>
-                <CardTitle>90% vs 20%</CardTitle>
-                <CardDescription>
-                  Repetitia spatiata duce la o retentie de ~90%, comparativ cu doar ~20% prin
-                  invatare intensiva.
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-2">
-                  <Clock className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                </div>
-                <CardTitle>Algoritmul SM-2</CardTitle>
-                <CardDescription>
-                  Algoritmi precum SM-2 modelează matematic această dinamică și estimează pentru fiecare item momente aproximativ optime de reamintire, reducând semnificativ efortul necesar pentru consolidarea în memoria de lungă durată.
-                </CardDescription>
-              </CardHeader>
-            </Card>
+          {/* SM-2 Info */}
+          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg">
+            <h3 className="font-semibold text-lg mb-4 text-gray-900 dark:text-white flex items-center gap-3">
+              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
+                <Clock className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+              </div>
+              Algoritmul SM-2
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Algoritmi precum SM-2 modelează matematic această dinamică și estimează pentru fiecare item momente aproximativ optime de reamintire, reducând semnificativ efortul necesar pentru consolidarea în memoria de lungă durată.
+            </p>
           </div>
         </div>
       </section>
