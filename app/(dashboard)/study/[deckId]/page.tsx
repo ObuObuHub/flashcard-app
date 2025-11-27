@@ -104,32 +104,59 @@ export default function StudyPage({ params }: StudyPageProps) {
     }
   }, [currentCard, currentIndex, flashcards.length, addToast])
 
-  // Keyboard shortcuts (Space, 1-4, Arrow keys)
+  // Navigate to previous/next card
+  const goToPrevCard = useCallback(() => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1)
+      setShowAnswer(false)
+    }
+  }, [currentIndex])
+
+  const goToNextCard = useCallback(() => {
+    if (currentIndex < flashcards.length - 1) {
+      setCurrentIndex(currentIndex + 1)
+      setShowAnswer(false)
+    }
+  }, [currentIndex, flashcards.length])
+
+  // Keyboard shortcuts (Space for reveal, 1-4 for rating, arrows for navigation)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       // Ignore if typing in an input
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
 
+      // Arrow keys for card navigation (always available)
+      if (e.code === 'ArrowLeft') {
+        e.preventDefault()
+        goToPrevCard()
+        return
+      }
+      if (e.code === 'ArrowRight') {
+        e.preventDefault()
+        goToNextCard()
+        return
+      }
+
       if (!showAnswer) {
-        // Space or Up arrow to reveal answer
-        if (e.code === 'Space' || e.code === 'ArrowUp') {
+        // Space to reveal answer
+        if (e.code === 'Space') {
           e.preventDefault()
           setShowAnswer(true)
         }
       } else {
-        // 1-4 or Arrow keys to rate
-        if (e.key === '1' || e.code === 'ArrowLeft') handleRating(1)
-        else if (e.key === '2' || e.code === 'ArrowDown') handleRating(2)
-        else if (e.key === '3' || e.code === 'ArrowUp') handleRating(3)
-        else if (e.key === '4' || e.code === 'ArrowRight') handleRating(4)
+        // 1-4 to rate
+        if (e.key === '1') handleRating(1)
+        else if (e.key === '2') handleRating(2)
+        else if (e.key === '3') handleRating(3)
+        else if (e.key === '4') handleRating(4)
       }
     }
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [showAnswer, handleRating])
+  }, [showAnswer, handleRating, goToPrevCard, goToNextCard])
 
-  // Swipe gestures for mobile
+  // Swipe gestures for mobile (horizontal only for card navigation)
   useEffect(() => {
     const card = cardRef.current
     if (!card) return
@@ -148,31 +175,23 @@ export default function StudyPage({ params }: StudyPageProps) {
       const deltaY = e.changedTouches[0].clientY - touchStartRef.current.y
       const minSwipeDistance = 50
 
-      // Determine swipe direction
       const absX = Math.abs(deltaX)
       const absY = Math.abs(deltaY)
 
-      if (absX < minSwipeDistance && absY < minSwipeDistance) {
-        // Not a swipe, just a tap
+      // Check if it's a tap (not a swipe)
+      if (absX < 20 && absY < 20) {
+        // Tap on card reveals answer
+        if (!showAnswer) {
+          setShowAnswer(true)
+        }
         touchStartRef.current = null
         return
       }
 
-      if (!showAnswer) {
-        // Swipe up to reveal answer
-        if (absY > absX && deltaY < -minSwipeDistance) {
-          setShowAnswer(true)
-        }
-      } else {
-        // Horizontal swipes for rating
-        if (absX > absY) {
-          if (deltaX < -minSwipeDistance) handleRating(1) // Swipe left = Again
-          else if (deltaX > minSwipeDistance) handleRating(4) // Swipe right = Easy
-        } else {
-          // Vertical swipes
-          if (deltaY < -minSwipeDistance) handleRating(3) // Swipe up = Good
-          else if (deltaY > minSwipeDistance) handleRating(2) // Swipe down = Hard
-        }
+      // Only handle horizontal swipes for card navigation
+      if (absX > minSwipeDistance && absX > absY) {
+        if (deltaX < 0) goToNextCard() // Swipe left = next card
+        else goToPrevCard() // Swipe right = previous card
       }
 
       touchStartRef.current = null
@@ -185,7 +204,7 @@ export default function StudyPage({ params }: StudyPageProps) {
       card.removeEventListener('touchstart', handleTouchStart)
       card.removeEventListener('touchend', handleTouchEnd)
     }
-  }, [showAnswer, handleRating])
+  }, [showAnswer, goToPrevCard, goToNextCard])
 
   // Format session duration
   const getSessionDuration = () => {
@@ -419,9 +438,8 @@ export default function StudyPage({ params }: StudyPageProps) {
                 </Button>
               </div>
               <p className="text-center text-xs text-gray-400">
-                <span className="hidden sm:inline">Space sau sageata sus</span>
-                <span className="sm:hidden">Swipe sus pe card</span>
-                {' '}pentru a vedea raspunsul
+                <span className="hidden sm:inline">Space pentru raspuns, sageti stanga/dreapta pentru navigare</span>
+                <span className="sm:hidden">Atinge cardul pentru raspuns, swipe stanga/dreapta pentru navigare</span>
               </p>
             </div>
           ) : (
@@ -487,8 +505,7 @@ export default function StudyPage({ params }: StudyPageProps) {
                 )
               })()}
               <p className="text-center text-xs text-gray-400">
-                <span className="hidden sm:inline">Tastele 1-4 sau sageti (stanga/jos/sus/dreapta)</span>
-                <span className="sm:hidden">Swipe: stanga=Din nou, dreapta=Usor, sus=Bine, jos=Greu</span>
+                Tastele 1-4 pentru a evalua, sageti stanga/dreapta pentru navigare
               </p>
             </div>
           )}
