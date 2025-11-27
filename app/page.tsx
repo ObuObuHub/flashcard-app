@@ -40,12 +40,6 @@ export default function Home() {
             <div className="relative h-48 mb-4">
               {/* Y-axis */}
               <div className="absolute left-0 top-0 bottom-8 w-px bg-gray-300 dark:bg-gray-600" />
-              <div className="absolute left-0 top-0 text-xs text-gray-500 -translate-x-full pr-2">
-                100%
-              </div>
-              <div className="absolute left-0 bottom-8 text-xs text-gray-500 -translate-x-full pr-2">
-                0%
-              </div>
               {/* X-axis */}
               <div className="absolute left-0 right-0 bottom-8 h-px bg-gray-300 dark:bg-gray-600" />
               <div className="absolute left-0 bottom-0 text-xs text-gray-500">Zi 1</div>
@@ -87,8 +81,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Fara revizuire, uitam ~70% din informatii in 24 de ore. Repetitia spatiata previne
-              acest lucru.
+              Curba uitării descrisă de Ebbinghaus arată că, în absența reluării, proporția de informație reținută scade rapid în primele ore și zile după învățare. Repetiția spațiată contracarează acest fenomen prin revizuiri planificate la intervale de timp progresiv mai mari.
             </p>
           </div>
 
@@ -114,8 +107,7 @@ export default function Home() {
                 </div>
                 <CardTitle>Algoritmul SM-2</CardTitle>
                 <CardDescription>
-                  Algoritmul calculeaza intervalul optim de revizuire. Cartile dificile apar mai
-                  des, cele usor de retinut mai rar.
+                  Algoritmi precum SM-2 modelează matematic această dinamică și estimează pentru fiecare item momente aproximativ optime de reamintire, reducând semnificativ efortul necesar pentru consolidarea în memoria de lungă durată.
                 </CardDescription>
               </CardHeader>
             </Card>
