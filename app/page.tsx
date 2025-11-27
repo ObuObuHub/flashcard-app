@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <Link href="/decks">
           <Button size="lg" className="text-lg px-8">
-            Incepe acum
+            Start
           </Button>
         </Link>
       </section>
