@@ -30,7 +30,7 @@ export default function Home() {
           Cum functioneaza
         </h2>
 
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-stretch">
           {/* Forgetting Curve Visualization */}
           <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg">
             <h3 className="font-semibold text-lg mb-4 text-gray-900 dark:text-white">
@@ -85,38 +85,20 @@ export default function Home() {
           </div>
 
           {/* SM-2 Info */}
-          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg flex flex-col">
             <h3 className="font-semibold text-lg mb-4 text-gray-900 dark:text-white flex items-center gap-3">
               <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
                 <Clock className="w-5 h-5 text-blue-600 dark:text-blue-400" />
               </div>
               Algoritmul SM-2
             </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600 dark:text-gray-400 flex-1 flex items-center">
               Algoritmi precum SM-2 modelează matematic această dinamică și estimează pentru fiecare item momente aproximativ optime de reamintire, reducând semnificativ efortul necesar pentru consolidarea în memoria de lungă durată.
             </p>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-          Gata sa incepi?
-        </h2>
-        <Link href="/decks">
-          <Button size="lg" className="text-lg px-8">
-            Incepe sa inveti
-          </Button>
-        </Link>
-      </section>
-
-      {/* Footer */}
-      <footer className="border-t border-gray-200 dark:border-gray-800 py-8">
-        <div className="container mx-auto px-4 text-center text-gray-600 dark:text-gray-400">
-          <p>2025 Flashcard</p>
-        </div>
-      </footer>
     </div>
   )
 }
