@@ -6,7 +6,7 @@
       {
         "front": "Care sunt componentele protoplastului bacterian?",
         "back": "PROTOPLASTUL = corpul bacterian fără perete\n\na) Citoplasma: 80% apă, ribozomi (70S), incluziuni\nb) Nucleoplasma (nucleoidul): ADN circular dublu catenar\nc) Ribozomi: 30S + 50S = 70S (eucariote: 80S)\nd) Incluziuni: rezerve de nutrienți\ne) Membrana citoplasmatică: fără steroli, cu mezosomi",
-        "mnemonic": "Protoplastul = Corp fără perete, conține CNRIM: Citoplasmă (80% apă), Nucleoplasma (ADN), Ribozomi (70S), Incluziuni, Membrană (fără steroli)"
+        "mnemonic": "Protoplastul = bacterie DEZBRACATĂ: Citoplasmă (apă 80%), Nucleoid (ADN inelar), Ribozomi (70S mici), Incluziuni, Membrană (fără steroli - procariote!)"
       },
       {
         "front": "Ce sunt plasmidele bacteriene și ce rol au?",
@@ -36,7 +36,7 @@
       {
         "front": "Care sunt tipurile de flageli și distribuția lor?",
         "back": "FLAGELI = organite de locomoție (6-20μm), din flagelină\n\nDISTRIBUȚIE (caracter taxonomic):\n- MONOTRICHE: 1 flagel la un capăt\n- LOFOTRICHE: mai mulți la un capăt\n- AMFITRICHE: 1 la fiecare capăt\n- PERITRICHE: pe toată suprafața\n- ATRICHE: fără flageli\n\nSTRUCTURĂ:\n- Filament helicoidal\n- Croșet (articulație)\n- Corpuscul bazal (motor)",
-        "mnemonic": "Flageli ca Păr: Mono (1 smoc), Lofo (ciuf la un capăt), Amfi (2 cozi), Peri (păros tot), Atrich (chel)"
+        "mnemonic": "Flageli ca COAFURI: Mono=moț unic, Lofo=ciuf la un capăt, Amfi=două cozi opuse, Peri=păros peste tot, Atrich=CHEL complet"
       },
       {
         "front": "Ce sunt endosporii bacterieni și care este structura lor?",
@@ -46,7 +46,7 @@
       {
         "front": "Ce este glicocalixul bacterian și care sunt funcțiile sale?",
         "back": "GLICOCALIX = înveliș polizaharidic distal peretelui\n\n2 TIPURI:\n1. Dens (capsula): nu se separă prin centrifugare\n2. Lax (substanță capsulară): se separă\n\nFUNCȚII:\n- Protecție față de fagocite, complement, lizozim\n- Factor de virulență (pneumococ, B. anthracis)\n- Antigen pentru serotipare\n- Aderență la suprafețe\n- Utilizat în vaccinuri (antipneumococic)",
-        "mnemonic": "Capsulă = Protecție + Virulență + Antigen pentru vaccin"
+        "mnemonic": "CAPSULA = armura bacteriei: Protejează de macrofage (ca un scut), dă Virulență, e ANTIGEN (pentru vaccin pneumococic)"
       },
       {
         "front": "Care sunt tipurile de relații simbiotice microorganism-gazdă?",
@@ -376,7 +376,7 @@
       {
         "front": "Care sunt caracteristicile celor 5 clase de imunoglobuline?",
         "back": "IgG (75%):\n- Principalul Ac seric, 4 subclase\n- Trece placenta, opsonizare, activează C\n\nIgM (10%):\n- Pentamer, primul Ac în răspuns primar\n- Cel mai eficient la activarea C\n- NU trece placenta\n\nIgA (15%):\n- Dimer în secreții (IgA secretor)\n- Protecție mucoase\n\nIgD (<1%):\n- Receptor pe limfocite B naive\n- Rol în activare\n\nIgE (0,002%):\n- Legare mastocite/bazofile\n- Reacții alergice, parazitoze",
-        "mnemonic": "G=General (placentă), M=Mare (primul), A=Anticorp secretor, D=pe B, E=alErgii"
+        "mnemonic": "5 Ig ca o familie: G=tatăl (placentă), M=bunicul mare (primul răspuns), A=mama secretoasă (mucoase), D=copilul (pe limfocite B), E=alergicul (mastocite)"
       },
       {
         "front": "Care sunt diferențele dintre răspunsul imun primar și secundar?",

@@ -56,12 +56,12 @@
       {
         "front": "Care sunt factorii de coagulare vitamino-K dependenți?",
         "back": "FACTORII DEPENDENȚI DE VITAMINA K:\n- II (Protrombina)\n- VII (Proconvertina)\n- IX (Christmas - antihemofilic B)\n- X (Stuart-Prower)\n\nSINTEZĂ: Ficat\nROL VITAMINA K: γ-carboxilare (activare)\n\nT1/2:\n- VII: 2-6 ore (cel mai scurt!)\n- IX: 18-20 ore\n- X: 24-60 ore\n- II: 48-120 ore\n\nINHIBIȚIE:\n- Anticoagulante orale (warfarină)\n- Afecțiuni hepatice\n- Malabsorbție\n\nMONITORIZARE: Timp de protrombină (Quick), INR",
-        "mnemonic": "Vitamina K: 2-7-9-10 (Protrombina, Convertina, Christmas, Stuart)"
+        "mnemonic": "Vitamina K pentru 2-7-9-10: ca un COD SECRET pentru coagulare, Warfarina le blochează, măsori cu INR"
       },
       {
         "front": "Care sunt căile de activare a coagulării?",
         "back": "CALEA INTRINSECĂ (contact):\n- Start: XII activat de contact cu colagen\n- XII → XI → IX → X\n- Necesită: KMM, prekalicreină, VIII, Ca2+\n- Test: APTT (timpul de tromboplastină parțial activat)\n\nCALEA EXTRINSECĂ (tisulară):\n- Start: Factor tisular (III) eliberat din țesuturi\n- III + VII → X\n- Test: TP (timpul de protrombină/Quick)\n\nCALEA COMUNĂ:\n- X activat + V + Ca2+ + fosfolipide = Protrombinază\n- Protrombină → Trombină\n- Fibrinogen → Fibrină (stabilizată de XIII)",
-        "mnemonic": "Cascada: INTRINSECĂ(contact)=12-11-9-8→X, testează cu APTT; EXTRINSECĂ(țesut)=7→X, testează cu TP; COMUNĂ: X face Trombină face Fibrină"
+        "mnemonic": "Coagulare ca un RÂUL: Intrinsecă (contact)=izvorul (12→11→9→X), Extrinsecă (rană)=afluent rapid (7→X), Comuna=cascada finală (X→Trombină→Fibrină)"
       },
       {
         "front": "Care sunt inhibitorii fiziologici ai coagulării?",
@@ -136,7 +136,7 @@
       {
         "front": "Care este clasificarea FAB a leucemiilor acute mieloide?",
         "back": "CLASIFICAREA FAB (Franco-Americano-Britanică):\n\nM0: Minim diferențiată (MPOX-, markeri mieloizi+)\nM1: Mieloblastică fără maturație\nM2: Mieloblastică cu maturație (t(8;21))\nM3: PROMIELOCITARĂ (t(15;17)) - CID!\nM4: Mielomonocitară\nM4Eo: Mielomonocitară cu eozinofilie\nM5: Monocitară (a=monoblastică, b=promonocitară)\nM6: Eritroleucemia (di Guglielmo)\nM7: Megacarioblastică\n\nCRITERII:\n- Blasti ≥20% din celulele nucleate MO (OMS)\n- Corpi Auer patognomonici\n\nCITOCHIMIE:\n- Mieloperoxidază (MPOX) ≥3% = LAM\n- Esteraze: ANAE (monocite), Clor-E (granulocite)",
-        "mnemonic": "FAB numere: M0=zero diferențiere, M1-2=Mieloblastic(↑maturație), M3=Promielocitar(ATRA!), M4-5=Monocitar, M6=Eritro(di Guglielmo), M7=Megacarioblastic"
+        "mnemonic": "LAM de la 0 la 7 ca o SCARĂ: M0=zero maturație, M1-2=Mieloblaști, M3=Promielocit(ATRA!), M4-5=Monocite, M6=Eritro(roșu), M7=Megacario(plachete)"
       },
       {
         "front": "Care sunt caracteristicile Leucemiei Acute Promielocitare (M3)?",
@@ -146,7 +146,7 @@
       {
         "front": "Care este clasificarea morfologică a leucemiilor acute limfoblastice?",
         "back": "CLASIFICAREA FAB:\n\nL1:\n- Blasti MICI, uniformi\n- Raport N/C crescut\n- Nucleol puțin vizibil\n- Citoplasma redusă\n- Cel mai frecvent la copii\n\nL2:\n- Blasti MARI, heterogeni\n- Nucleu neregulat\n- Nucleoli vizibili\n- Citoplasma abundentă\n- Frecvent la adulți\n\nL3 (tip BURKITT):\n- Celule mari 15-25 μm\n- Nucleoli multipli\n- Citoplasma intens bazofilă\n- VACUOLE caracteristice\n- Ig suprafață (B matur)\n- t(8;14) - MYC\n\nCITOCHIMIE:\n- PAS+ (blocuri grosolane)\n- MPOX-, ANAE-, Clor-E-",
-        "mnemonic": "LAL: L1=mic(copii), L2=mare(adult), L3=Burkitt(vacuole+t8;14)"
+        "mnemonic": "LAL: L1=celule mici ca MAZĂREA (copii), L2=celule mari VARIABILE (adulți), L3=Burkitt cu VACUOLE (ca bule de săpun)"
       },
       {
         "front": "Care sunt markerii imunologici pentru diferențierea LAL?",
@@ -176,7 +176,7 @@
       {
         "front": "Ce este sistemul Rh și importanța antigenului D?",
         "back": "SISTEMUL Rh:\n- 5 antigene principale: D, C, c, E, e\n- Ag D = cel mai imunogen\n\nRh POZITIV (D+): 85% populație\nRh NEGATIV (D-): 15% populație\n\nIMPORTANȚĂ CLINICĂ:\n\n1. TRANSFUZII:\n- Rh- primește doar Rh-\n- Rh+ poate primi Rh+ sau Rh-\n\n2. SARCINĂ (incompatibilitate Rh):\n- Mamă Rh-, tată Rh+, făt Rh+\n- Izoimunizare maternă (anti-D)\n- Boala hemolitică a nou-născutului\n\nPROFILAXIE:\n- Imunoglobulină anti-D (RhoGAM)\n- La 28 săpt și postpartum (72h)\n- După avort, amniocenteză\n\nDIAGNOSTIC: Test Coombs indirect/direct",
-        "mnemonic": "Rh: D=imunogen, D-mamă+D+făt=izoimunizare, Profilaxie RhoGAM"
+        "mnemonic": "Rh ca grupa sanguină ASCUNSĂ: D=cel mai periculos, mamă D- + făt D+ = CONFLICT (anticorpi), RhoGAM = PACE la 28 săpt și naștere"
       },
       {
         "front": "Care sunt caracteristicile Hemofiliei A și B?",

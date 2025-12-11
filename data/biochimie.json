@@ -36,12 +36,12 @@
       {
         "front": "Care sunt etapele glicolizei și enzimele cheie?",
         "back": "GLICOLIZA = Glucoză → 2 Piruvat (calea Embden-Meyerhof-Parnas)\n\nETAPE PRINCIPALE:\n\n1. Glucoză + ATP → GLUCOZO-6-P (hexokinaza/glucokinaza)\n\n2. Glucozo-6-P ↔ FRUCTOZO-6-P (izomeraza)\n\n3. Fructozo-6-P + ATP → FRUCTOZO-1,6-biP (6-fosfofructokinaza-1) ★\n\n4. Fructozo-1,6-biP → Gliceraldehid-3-P + Dihidroxiaceton-P (aldolaza)\n\n5. Gliceraldehid-3-P + NAD+ → 1,3-bifosfoglicerat (dehidrogenaza)\n\n6. → 3-fosfoglicerat → 2-fosfoglicerat → Fosfoenolpiruvat\n\n7. Fosfoenolpiruvat → PIRUVAT + ATP (piruvatkinaza) ★\n\nBILANȚ NET:\n- 2 ATP (din glucoză)\n- 3 ATP (din glicogen)\n\n★ = enzime ireversibile, reglatoare",
-        "mnemonic": "Enzime cheie: Hexokinaza-Fosfofructokinaza-Piruvatkinaza (ireversibile)"
+        "mnemonic": "3 gardieni ireversibili ai glicolizei: Hexokinaza (poarta glucozei), Fosfofructokinaza (gâtul de sticlă), Piruvatkinaza (ieșirea spre piruvat)"
       },
       {
         "front": "Cum este reglată fosfofructokinaza-1?",
         "back": "FOSFOFRUCTOKINAZA-1 = enzimă alosterică, cheie în glicoliză\n\nACTIVATORI (+):\n- AMP, ADP (energie scăzută)\n- Fructozo-1,6-bifosfat (produs final)\n- Fructozo-2,6-bifosfat (cel mai puternic)\n- Pi\n\nINHIBITORI (-):\n- ATP (concentrații mari = energie suficientă)\n- Citrat (semnalizează saturarea ciclului Krebs)\n- Fosfoenolpiruvat\n- 1,3-bifosfoglicerat\n- H+ (pH<7 - acidoza lactică)\n\nREGLARE HORMONALĂ:\n- INSULINA → stimulează glicoliza\n- GLUCAGON/Adrenalina → inhibă glicoliza\n\nNOTĂ: Acumularea citratului în citosol = semnal că nevoile energetice sunt satisfăcute",
-        "mnemonic": "FF1K: AMP/ADP=activează(energie↓), ATP/Citrat=inhibă(energie↑)"
+        "mnemonic": "PFK-1 e ca un SEMAFOR metabolic: VERDE (AMP, fructozo-2,6-biP)=energie mică, du-te!, ROȘU (ATP, citrat)=energie multă, oprește!"
       },
       {
         "front": "Care este soarta piruvatului în aerobioză și anaerobioză?",
@@ -86,7 +86,7 @@
       {
         "front": "Ce sunt eicosanoizii și cum se sintetizează?",
         "back": "EICOSANOIZI = derivați C20 din acid arahidonic\n\nTIPURI:\n- Prostaglandine (PGE2, PGF2α)\n- Prostaciclina (PGI2)\n- Tromboxani (TxA2, TxB2)\n- Leucotriene (LTA4, LTB4, LTC4)\n\nBIOSINTEZĂ:\n1. Fosfolipază A2 eliberează ACID ARAHIDONIC din fosfolipide\n\n2a. CICLOOXIGENAZA (COX):\n- Acid arahidonic → PGG2 → PGH2\n- PGH2 → PG clasice, Prostaciclină, Tromboxani\n\n2b. LIPOXIGENAZA:\n- Acid arahidonic → 5-HPETE → 5-HETE → LEUCOTRIENE\n\nINHIBITORI:\n- CORTICOSTEROIZI: inhibă fosfolipaza A2\n- AINS (Aspirină): inhibă COX (ireversibil la trombocite)\n\nACȚIUNI:\n- TxA2: vasoconstricție, agregare plachetară\n- PGI2: opuse TxA2 (vasodilatație, antiagregant)\n- LTC4: șoc anafilactic, astm",
-        "mnemonic": "Eicosanoizi: Arahidonic→COX→PG/Tx/PGI, Arahidonic→Lipox→LT"
+        "mnemonic": "Acidul arahidonic ca un BIFURC: Drum COX→Prostaglandine/Tromboxani (Aspirina blochează), Drum Lipoxigenază→Leucotriene (astm)"
       },
       {
         "front": "Care sunt lipoproteinele serice și rolul lor?",

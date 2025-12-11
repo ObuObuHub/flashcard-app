@@ -61,7 +61,7 @@
       {
         "front": "Care sunt metodele de determinare a VSH și valorile normale?",
         "back": "METODE:\n1. WESTERGREN (referință):\n   - Tub 200mm, citrat sodiu 3,8% (1:4)\n   - Citire la 1h și 2h\n\n2. WINTROBE:\n   - Tub 100mm, sânge EDTA\n   - Mai puțin sensibil\n\nVALORI NORMALE (1h):\n- Bărbați: 1-10 mm/h\n- Femei: 2-15 mm/h\n- Gravide: până la 40 mm/h\n- Vârstnici: până la 20 mm/h",
-        "mnemonic": "VSH Westergren: B=10, F=15 mm/h"
+        "mnemonic": "VSH = cât de REPEDE se așează hematiile: Bărbați MAX 10, Femei MAX 15-20; Inflamație=VSH RACING, Poliglobulie=VSH LENT"
       },
       {
         "front": "Care sunt factorii care influențează VSH?",
@@ -76,7 +76,7 @@
       {
         "front": "Care sunt testele citochimice pentru diferențierea leucemiilor acute?",
         "back": "MIELOPEROXIDAZA (MPO):\n- Pozitivă: LAM (linie mieloidă)\n- Negativă: LAL (linie limfoidă)\n\nSUDAN BLACK B:\n- Pozitiv: LAM\n- Negativ: LAL\n\nESTERAZE:\n- Nespecifice (α-naftil acetat): monocite\n- Specifice (cloracetat): granulocite\n\nPAS (Acid Periodic-Schiff):\n- Blocuri grosolane: LAL\n- Difuz fin: LAM",
-        "mnemonic": "LAM: MPO+ Sudan+ (enzime mieloide); LAL: PAS în blocuri grosolane (ca pietricele); Esteraze: monocite=nespecifice, granulocite=cloracetat"
+        "mnemonic": "Pentru leucemii: MPO (peroxidază)=enzimă MIELOIDĂ (pozitivă în LAM), PAS (zaharuri)=LIMFOBLASTIC în blocuri, Esteraze=MONOCITE"
       },
       {
         "front": "Care sunt valorile normale ale mielogramei?",
@@ -226,7 +226,7 @@
       {
         "front": "Care este formula leucocitară normală la adult?",
         "back": "FORMULA LEUCOCITARĂ (%):\n\nNeutrofile segmentate: 55-70%\n(Absolut: 2500-7000/mm³)\n\nNeutrofile nesegmentate: 0-5%\n\nEozinofile: 1-4%\n(Absolut: 100-400/mm³)\n\nBazofile: 0-1%\n(Absolut: <100/mm³)\n\nLimfocite: 20-40%\n(Absolut: 1500-4000/mm³)\n\nMonocite: 2-8%\n(Absolut: 200-800/mm³)\n\nNUMĂRARE: 100-200 leucocite pe frotiu\nZONĂ: margine subțire (evită marginile extreme)",
-        "mnemonic": "Neutro 60%, Limfo 30%, Mono 5%, Eozino 3%, Bazo 0,5%"
+        "mnemonic": "Formula leucocitară (regula 60-30-5-3-1): Neutro=soldații majoritari (60%), Limfo=memoria (30%), Mono=curățenie (5%), Eozino=alergii/paraziți (3%), Bazo=rare (1%)"
       },
       {
         "front": "Ce anomalii morfologice leucocitare putem observa pe frotiu?",

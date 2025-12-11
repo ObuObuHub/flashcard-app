@@ -11,7 +11,7 @@
       {
         "front": "Care sunt caracteristicile generale ale virusurilor?",
         "back": "1. Parazite intracelulare stricte\n2. Conțin un singur tip de acid nucleic (ADN SAU ARN)\n3. Înveliș proteic (capsidă) ± anvelopă\n4. Nu au enzime producătoare de energie\n5. Nu se divid, sunt replicate de celula gazdă",
-        "mnemonic": "PAEAN: Parazite, Acid nucleic unic, Energie 0, Anvelopă±, Nu se divid"
+        "mnemonic": "Virusul e un PIRAT: Parazit strict, Inform (1 acid nucleic), Replică-n celulă, Anvelopă±, fără Turbine (energie)"
       },
       {
         "front": "Care sunt funcțiile capsidei virale?",
@@ -51,7 +51,7 @@
       {
         "front": "Care este structura antigenică a VHB?",
         "back": "- AgHBs (suprafață/anvelopă) - marker de infecție\n- AgHBc (core/miez) - în țesut hepatic\n- AgHBe (enzimatic) - marker de replicare activă\n- AgHBx - rol în carcinogeneză\n\nGenom: 4 regiuni (S, C, P, X)",
-        "mnemonic": "SCeX: Surface, Core, enzimatic(e), X-carcinogen"
+        "mnemonic": "HBV e ca o CEAPĂ: S=coajă (suprafață), C=miez (core), e=enzimă activă, X=cancer ascuns"
       },
       {
         "front": "Care este evoluția markerilor serologici în infecția acută cu VHB?",
@@ -106,7 +106,7 @@
       {
         "front": "Cum se face diagnosticul direct în gripa?",
         "back": "Produs patologic: exsudat faringian/nazal, aspirat NF (la copii)\nRecoltat în primele 3 zile!\n\nMetode:\n1. Cultivare pe ouă embrionate sau culturi celulare\n2. IF (identifică tip A/B)\n3. ELISA directigen\n4. RT-PCR (rapid, util în epidemii)",
-        "mnemonic": "3 ZILE să recoltezi! 5 metode OCIPE: Ou embrionat, Culturi celulare, IF, PCR (rapid), ELISA"
+        "mnemonic": "Gripa: 3 Zile să recoltezi! Metode: Ou embrionat crește virusul, IF identifică, PCR rapid în epidemii"
       },
       {
         "front": "Care este tratamentul și profilaxia gripei?",

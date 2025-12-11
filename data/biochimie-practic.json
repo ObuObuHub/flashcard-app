@@ -11,7 +11,7 @@
       {
         "front": "Care sunt metodele de separare a lipoproteinelor și ce fracțiuni se obțin?",
         "back": "1. ULTRACENTRIFUGARE (după densitate):\n- Chilomicroni (densitate minimă)\n- VLDL (very low density)\n- LDL (low density)\n- HDL (high density)\n\n2. ELECTROFOREZĂ (după sarcină electrică):\n- Chilomicroni - nu migrează\n- Pre-β-lipoproteine = VLDL\n- β-lipoproteine = LDL\n- α-lipoproteine = HDL\n\nCorespondență ELFO-Ultracentrifugare:\nα = HDL, β = LDL, pre-β = VLDL",
-        "mnemonic": "ELFO: α=HDL, β=LDL, pre-β=VLDL; Chilo nu migrează"
+        "mnemonic": "ELFO lipoproteine migră invers densității: α (rapide)=HDL bun, β (lent)=LDL rău, pre-β=VLDL trigliceride, Chilo=stau pe loc (prea mari)"
       },
       {
         "front": "Care sunt valorile normale ale ureei și creatininei?",
@@ -76,7 +76,7 @@
       {
         "front": "Care sunt coenzimele derivate din vitaminele B și rolul lor?",
         "back": "1. NAD+/NADH (din Niacină - B3):\n- Reacții de oxidoreducere\n- Acceptor de H+ și electroni\n- Ex: LDH, alcool dehidrogenaza\n\n2. NADP+/NADPH (din Niacină - B3):\n- Biosinteză reductivă\n- Ex: sinteza acizilor grași\n\n3. FAD/FADH2 (din Riboflavină - B2):\n- Oxidoreduceri\n- Ex: succinat dehidrogenaza\n\n4. FMN (din Riboflavină - B2):\n- Lanțul respirator\n\n5. COENZIMA A (din Acid pantotenic - B5):\n- Transfer grupări acil\n- Ex: Acetil-CoA în ciclul Krebs\n\n6. PIRIDOXALFOSFAT (din Piridoxină - B6):\n- Transaminări, decarboxilări\n- Ex: GPT, GOT\n\n7. TIAMIN PIROFOSFAT (din Tiamină - B1):\n- Decarboxilări oxidative\n- Ex: Piruvat dehidrogenaza",
-        "mnemonic": "Coenzime din vitamine B: B1=TPP (tiamină), B2=FAD/FMN (riboflavină), B3=NAD/NADP (niacină), B5=CoA (pantotenic), B6=PLP (piridoxal)"
+        "mnemonic": "Vitaminele B = CHEILE enzimelor: B1=TPP (decarboxilări), B2=FAD/FMN (oxidări), B3=NAD/NADP (redox), B5=CoA (transport acil), B6=PLP (transaminări)"
       },
       {
         "front": "Care sunt tipurile de inhibiție enzimatică și caracteristicile lor?",
