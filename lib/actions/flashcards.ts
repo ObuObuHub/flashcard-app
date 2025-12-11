@@ -197,6 +197,16 @@ export async function deleteFlashcard(cardId: string) {
   return { success: true }
 }
 
+// Fisher-Yates shuffle algorithm
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
+
 export async function getDueFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
 
@@ -214,21 +224,27 @@ export async function getDueFlashcards(deckId: string): Promise<FlashcardWithSta
 
   const now = new Date()
 
-  // Filter and sort due cards in JavaScript
-  const dueCards = (flashcards || [])
-    .map((card) => ({
-      ...card,
-      stats: card.card_stats?.[0] || undefined,
-    }))
-    .filter((card) => {
-      if (!card.stats) return true // New cards are due
-      return new Date(card.stats.next_review) <= now
-    })
+  // Map cards with their stats
+  const allCards = (flashcards || []).map((card) => ({
+    ...card,
+    stats: card.card_stats?.[0] || undefined,
+  }))
+
+  // Separate into unrated (new) and rated cards
+  const unratedCards = allCards.filter((card) => !card.stats || card.stats.repetitions === 0)
+  const ratedCards = allCards.filter((card) => card.stats && card.stats.repetitions > 0)
+
+  // Filter rated cards to only include due ones, sorted by next_review
+  const dueRatedCards = ratedCards
+    .filter((card) => new Date(card.stats!.next_review) <= now)
     .sort((a, b) => {
-      const aTime = a.stats?.next_review ? new Date(a.stats.next_review).getTime() : 0
-      const bTime = b.stats?.next_review ? new Date(b.stats.next_review).getTime() : 0
+      const aTime = new Date(a.stats!.next_review).getTime()
+      const bTime = new Date(b.stats!.next_review).getTime()
       return aTime - bTime
     })
 
-  return dueCards
+  // Shuffle unrated cards and combine with due rated cards
+  const shuffledUnrated = shuffleArray(unratedCards)
+
+  return [...shuffledUnrated, ...dueRatedCards]
 }

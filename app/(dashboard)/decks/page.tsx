@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import Link from 'next/link'
 import { getDecks } from '@/lib/actions/decks'
 import { CreateDeckDialog } from '@/components/create-deck-dialog'
+import { ResetProgressDialog } from '@/components/reset-progress-dialog'
 import { DeckCard } from '@/components/deck-card'
 import { Navbar } from '@/components/navbar'
 import { Logo } from '@/components/logo'
@@ -23,7 +24,10 @@ export default async function DecksPage() {
               Organizează-ți cunoștințele în seturi de flashcard-uri
             </p>
           </div>
-          <CreateDeckDialog />
+          <div className="flex items-center gap-2">
+            <ResetProgressDialog />
+            <CreateDeckDialog />
+          </div>
         </div>
 
         {decks.length === 0 ? (

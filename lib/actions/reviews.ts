@@ -101,3 +101,38 @@ export async function recordReview(cardId: string, rating: SRSRating) {
 
   return srsResult
 }
+
+export async function resetAllLearningHistory() {
+  const supabase = await createClient()
+
+  // Mock user for development (auth disabled)
+  const userId = '00000000-0000-0000-0000-000000000001'
+
+  // Delete all reviews for this user
+  const { error: reviewsError } = await supabase
+    .from('reviews')
+    .delete()
+    .eq('user_id', userId)
+
+  if (reviewsError) {
+    console.error('Failed to delete reviews:', reviewsError)
+    throw new Error('Eroare la ștergerea istoricului de revizuiri')
+  }
+
+  // Delete all card stats for this user
+  const { error: statsError } = await supabase
+    .from('card_stats')
+    .delete()
+    .eq('user_id', userId)
+
+  if (statsError) {
+    console.error('Failed to delete card stats:', statsError)
+    throw new Error('Eroare la ștergerea statisticilor')
+  }
+
+  // Revalidate all relevant paths
+  revalidatePath('/decks')
+  revalidatePath('/study')
+
+  return { success: true }
+}
