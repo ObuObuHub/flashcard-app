@@ -32,7 +32,7 @@ export default async function DecksPage() {
             <CardHeader className="text-center pb-4">
               <div className="flex justify-center mb-4">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-indigo-500/10 blur-2xl rounded-full" />
+                  <div className="absolute inset-0 bg-indigo-400/10 blur-2xl rounded-full" />
                   <Logo size="lg" className="relative opacity-50" />
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default async function DecksPage() {
               <CreateDeckDialog />
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
                 Sau{' '}
-                <Link href="/" className="text-indigo-600 dark:text-indigo-400 hover:underline">
+                <Link href="/" className="text-indigo-500 dark:text-indigo-300 hover:underline">
                   înapoi la pagina principală
                 </Link>
               </p>

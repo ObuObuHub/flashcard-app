@@ -20,13 +20,13 @@ export function Navbar() {
           <nav className="hidden sm:flex items-center gap-6">
             <Link
               href="/decks"
-              className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
+              className="px-3 py-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-95 font-medium transition-all"
             >
               Seturi
             </Link>
             <Link
               href="/topics"
-              className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
+              className="px-3 py-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-95 font-medium transition-all"
             >
               Subiecte
             </Link>
@@ -48,14 +48,14 @@ export function Navbar() {
         <nav className="sm:hidden border-t border-gray-200/50 dark:border-indigo-500/10 px-4 py-3 space-y-2 bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl">
           <Link
             href="/decks"
-            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
+            className="block px-3 py-3 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-[0.98] font-medium transition-all"
             onClick={() => setMobileMenuOpen(false)}
           >
             Seturi
           </Link>
           <Link
             href="/topics"
-            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
+            className="block px-3 py-3 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-[0.98] font-medium transition-all"
             onClick={() => setMobileMenuOpen(false)}
           >
             Subiecte
