@@ -16,17 +16,17 @@
       {
         "front": "Care sunt funcțiile capsidei virale?",
         "back": "1. Protejează genomul de factorii de mediu\n2. Conferă forma caracteristică virionului\n3. Fixează virionul pe receptori celulari\n4. Conține determinanți antigenici (imunogeni)\n5. Permite identificarea virusului prin reacții Ag-Ac",
-        "mnemonic": "PFFCI: Protecție, Formă, Fixare, Conținut antigenic, Identificare"
+        "mnemonic": "Capsida = CASĂ: Protejează (acoperiș), dă Formă (arhitectură), se Fixează pe receptor (ușă), poartă Antigeni (adresă unică)"
       },
       {
         "front": "Ce tipuri de simetrie ale nucleocapsidei există?",
         "back": "1. Simetrie icosaedrică (Picornaviridae) - nude sau cu anvelopă\n2. Simetrie helicală (Orthomyxo, Rhabdo, Paramyxo) - au anvelopă\n3. Simetrie binară (bacteriofagi)\n4. Organizare complexă (Poxvirus)",
-        "mnemonic": "IHBC: Icosaedru, Helix, Binar, Complex"
+        "mnemonic": "4 forme vizuale: Icosaedru (minge cu fețe), Helix (arc/spirală), Binar (bacteriofag = T cu picioare), Complex (Pox = cărămidă mare)"
       },
       {
         "front": "Care sunt etapele replicării virale?",
         "back": "1. Adsorbția/Ataşarea (receptor-specifică)\n2. Penetrarea în celulă\n3. Decapsidarea\n4. Biosinteza proteinelor precoce\n5. Replicarea genomului viral\n6. Biosinteza proteinelor tardive\n7. Morfogeneza\n8. Eliberarea din celulă",
-        "mnemonic": "APDBRBME: Ataşare, Penetrare, Decapsidare, Biosinteză precoce, Replicare, Biosinteză tardivă, Morfogeneză, Eliberare"
+        "mnemonic": "APD-BRB-ME în 3 acte: Act 1 (APD) = intră (Atașare-Penetrare-Decapsidare), Act 2 (BRB) = produce (Bio-Replica-Bio), Act 3 (ME) = iese (Morfogeneză-Eliberare)"
       },
       {
         "front": "Câte clase conține clasificarea Baltimore și care este principiul?",
@@ -56,7 +56,7 @@
       {
         "front": "Care este evoluția markerilor serologici în infecția acută cu VHB?",
         "back": "Ordine apariție:\n1. AgHBs + AgHBe (primii)\n2. Ac anti-HBc IgM (infecție acută)\n3. Seroconversie: AgHBe → Ac anti-HBe\n4. Anti-HBc IgG (înlocuiesc IgM)\n5. Ac anti-HBs (ultimii, SINGURII PROTECTORI)",
-        "mnemonic": "Se E Core Gs: Surface, e, Core, apoi anti-s la final"
+        "mnemonic": "Cronologic: S+E (suprafață și enzimă apar primele) → Core IgM (răspuns acut) → anti-E (seroconversie) → Core IgG → anti-S ULTIMUL = PROTECTOR"
       },
       {
         "front": "Ce indică prezența AgHBs în ser?",
@@ -106,7 +106,7 @@
       {
         "front": "Cum se face diagnosticul direct în gripa?",
         "back": "Produs patologic: exsudat faringian/nazal, aspirat NF (la copii)\nRecoltat în primele 3 zile!\n\nMetode:\n1. Cultivare pe ouă embrionate sau culturi celulare\n2. IF (identifică tip A/B)\n3. ELISA directigen\n4. RT-PCR (rapid, util în epidemii)",
-        "mnemonic": "Gripă = 3 zile recoltare, OE/CC/IF/ELISA/PCR"
+        "mnemonic": "3 ZILE să recoltezi! 5 metode OCIPE: Ou embrionat, Culturi celulare, IF, PCR (rapid), ELISA"
       },
       {
         "front": "Care este tratamentul și profilaxia gripei?",

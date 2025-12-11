@@ -76,12 +76,12 @@
       {
         "front": "Care sunt coenzimele derivate din vitaminele B și rolul lor?",
         "back": "1. NAD+/NADH (din Niacină - B3):\n- Reacții de oxidoreducere\n- Acceptor de H+ și electroni\n- Ex: LDH, alcool dehidrogenaza\n\n2. NADP+/NADPH (din Niacină - B3):\n- Biosinteză reductivă\n- Ex: sinteza acizilor grași\n\n3. FAD/FADH2 (din Riboflavină - B2):\n- Oxidoreduceri\n- Ex: succinat dehidrogenaza\n\n4. FMN (din Riboflavină - B2):\n- Lanțul respirator\n\n5. COENZIMA A (din Acid pantotenic - B5):\n- Transfer grupări acil\n- Ex: Acetil-CoA în ciclul Krebs\n\n6. PIRIDOXALFOSFAT (din Piridoxină - B6):\n- Transaminări, decarboxilări\n- Ex: GPT, GOT\n\n7. TIAMIN PIROFOSFAT (din Tiamină - B1):\n- Decarboxilări oxidative\n- Ex: Piruvat dehidrogenaza",
-        "mnemonic": "NAD/NADP=B3, FAD/FMN=B2, CoA=B5, PLP=B6, TPP=B1"
+        "mnemonic": "Coenzime din vitamine B: B1=TPP (tiamină), B2=FAD/FMN (riboflavină), B3=NAD/NADP (niacină), B5=CoA (pantotenic), B6=PLP (piridoxal)"
       },
       {
         "front": "Care sunt tipurile de inhibiție enzimatică și caracteristicile lor?",
         "back": "INHIBIȚIE REVERSIBILĂ:\n\n1. COMPETITIVĂ:\n- Inhibitor similar cu substratul\n- Se leagă de situsul ACTIV\n- Km aparent CREȘTE\n- Vmax NESCHIMBAT\n- Depășită prin ↑[S]\n- Ex: Malonat vs Succinat (succinat DH)\n\n2. NECOMPETITIVĂ:\n- Se leagă DOAR de ES\n- Situs ALOSTERIC\n- Km NESCHIMBAT\n- Vmax SCADE\n\n3. NONCOMPETITIVĂ (mixtă):\n- Se leagă de E și ES\n- Situs alosteric\n- Km și Vmax se modifică\n\nINHIBIȚIE IREVERSIBILĂ:\n- Legătură covalentă permanentă\n- Ex: Aspirina pe COX (ireversibil la trombocite)\n- Ex: Organofosforice pe acetilcolinesterază",
-        "mnemonic": "Competitivă: ↑Km, Vmax=; Necompetitivă: Km=, ↓Vmax; Ireversibilă=covalentă"
+        "mnemonic": "Inhibiție: Competitivă=rivalitate pe situs activ (↑Km, Vmax=), Necompetitivă=se leagă de ES (Km=, ↓Vmax), Ireversibilă=legătură permanentă (Aspirină pe COX)"
       },
       {
         "front": "Care este semnificația clinică a enzimelor serice și tipurile de hiperenzimemii?",

@@ -6,7 +6,7 @@
       {
         "front": "Care sunt componentele protoplastului bacterian?",
         "back": "PROTOPLASTUL = corpul bacterian fără perete\n\na) Citoplasma: 80% apă, ribozomi (70S), incluziuni\nb) Nucleoplasma (nucleoidul): ADN circular dublu catenar\nc) Ribozomi: 30S + 50S = 70S (eucariote: 80S)\nd) Incluziuni: rezerve de nutrienți\ne) Membrana citoplasmatică: fără steroli, cu mezosomi",
-        "mnemonic": "CNRIM: Citoplasmă-Nucleoplasmă-Ribozomi-Incluziuni-Membrană"
+        "mnemonic": "Protoplastul = Corp fără perete, conține CNRIM: Citoplasmă (80% apă), Nucleoplasma (ADN), Ribozomi (70S), Incluziuni, Membrană (fără steroli)"
       },
       {
         "front": "Ce sunt plasmidele bacteriene și ce rol au?",
@@ -36,7 +36,7 @@
       {
         "front": "Care sunt tipurile de flageli și distribuția lor?",
         "back": "FLAGELI = organite de locomoție (6-20μm), din flagelină\n\nDISTRIBUȚIE (caracter taxonomic):\n- MONOTRICHE: 1 flagel la un capăt\n- LOFOTRICHE: mai mulți la un capăt\n- AMFITRICHE: 1 la fiecare capăt\n- PERITRICHE: pe toată suprafața\n- ATRICHE: fără flageli\n\nSTRUCTURĂ:\n- Filament helicoidal\n- Croșet (articulație)\n- Corpuscul bazal (motor)",
-        "mnemonic": "MLAPA: Mono-Lofo-Amfi-Peri-Atrich (1-mulți un capăt-2 capete-tot-0)"
+        "mnemonic": "Flageli ca Păr: Mono (1 smoc), Lofo (ciuf la un capăt), Amfi (2 cozi), Peri (păros tot), Atrich (chel)"
       },
       {
         "front": "Ce sunt endosporii bacterieni și care este structura lor?",
@@ -51,7 +51,7 @@
       {
         "front": "Care sunt tipurile de relații simbiotice microorganism-gazdă?",
         "back": "SIMBIOZA = asociere între specii diferite\n\n1. FOREZIE: transport întâmplător\n2. COMENSALISM: adăpost + hrană, gazdă indiferentă\n3. MUTUALISM: beneficiu reciproc\n4. PARAZITISM: beneficiu unilateral în detrimentul gazdei\n5. OPORTUNISM: comensal/saprofit devine parazit în anumite condiții",
-        "mnemonic": "FCMPO: Forezie-Comensalism-Mutualism-Parazitism-Oportunism"
+        "mnemonic": "Relații ca în viață: Forezie (autostop), Comensalism (chiriaș), Mutualism (căsnicie), Parazitism (hoț), Oportunism (prieten fals)"
       },
       {
         "front": "Care sunt zonele corpului uman în funcție de colonizarea bacteriană?",
@@ -71,12 +71,12 @@
       {
         "front": "Care sunt mecanismele de acțiune ale antibioticelor?",
         "back": "1. INHIBĂ SINTEZA PERETELUI:\n- β-lactamine (penicilina, cefalosporine)\n- Glicopeptide (vancomicina)\n\n2. ALTEREAZĂ MEMBRANA:\n- Polimixine, daptomicină\n\n3. INHIBĂ SINTEZA PROTEICĂ:\n- 30S: aminoglicozide, tetracicline\n- 50S: macrolide, cloramfenicol, lincosamide\n\n4. INHIBĂ SINTEZA ADN/ARN:\n- Chinolone (ADN girază)\n- Rifampicină (ARN polimerază)\n\n5. ANTIMETABOLIȚI:\n- Sulfamide, trimetoprim",
-        "mnemonic": "PMPAD: Perete-Membrană-Proteine-Acizi nucleici-antimetaboliți (Dihidrofolat)"
+        "mnemonic": "AB atacă 5 ținte: 1-Perete (β-lactam), 2-Membrană (polimixine), 3-Proteine la 30S sau 50S, 4-ADN/ARN (chinolone), 5-Metabolism (sulfamide)"
       },
       {
         "front": "Care sunt mecanismele de rezistență la antibiotice?",
         "back": "1. INACTIVARE ENZIMATICĂ:\n- β-lactamaze (penicilinaze)\n- Acetiltransferaze (aminoglicozide)\n\n2. MODIFICAREA ȚINTEI:\n- Alterarea PLP (MRSA)\n- Modificarea ribozomilor\n\n3. IMPERMEABILITATE:\n- Scăderea permeabilității membranei\n- Pierderea porinelor\n\n4. EFLUX ACTIV:\n- Pompe de eflux\n\n5. BYPASS METABOLIC:\n- Căi alternative",
-        "mnemonic": "IMIEB: Inactivare-Modificare țintă-Impermeabilitate-Eflux-Bypass"
+        "mnemonic": "Bacteria se apără: Distruge AB (enzime), Schimbă ținta (nu mai leagă), Închide ușa (impermeabil), Pompează afară (eflux), Ocolește (bypass metabolic)"
       },
       {
         "front": "Care sunt caracteristicile Staphylococcus aureus?",
@@ -106,7 +106,7 @@
       {
         "front": "Care sunt caracteristicile E. coli și tipurile patogene?",
         "back": "E. COLI = cel mai comun bacil Gram negativ din flora intestinală\n\nTIPURI PATOGENE (diaree):\n- EPEC: enteropatic (copii)\n- ETEC: enterotoxigen (diaree călătorului)\n- EIEC: enteroinvaziv (dizenterie)\n- EHEC: enterohemoragic O157:H7 (SHU)\n- EAEC: enteroagregativ\n\nALTE INFECȚII:\n- ITU (cea mai frecventă cauză)\n- Meningită neonatală (K1)\n- Septicemii",
-        "mnemonic": "E. coli patogen: EPETEC = Entero-Patogen-Toxigen-Invaziv-Hemoragic"
+        "mnemonic": "5 E. coli rele (ETIHA): Enteropatic (copii), Toxigen (călător), Invaziv (dizenterie), Hemoragic O157 (SHU), Agregativ"
       },
       {
         "front": "Care sunt caracteristicile Salmonella?",
@@ -301,7 +301,7 @@
       {
         "front": "Care sunt etapele fagocitozei?",
         "back": "1. CHEMOTAXIS:\n- Atragerea fagocitelor spre focar\n- Chemokine, C5a, produse bacteriene\n\n2. ADERENȚĂ:\n- Recunoașterea microorganismului\n- Receptori pentru opsonine (FcR, CR)\n\n3. INGESTIE:\n- Formarea pseudopodelor\n- Includerea în fagozom\n\n4. UCIDERE:\n- Fuziunea cu lizozomul → fagolizozom\n- Mecanisme dependente de O2 (ROI)\n- Mecanisme independente de O2 (lizozim, defensine)\n\n5. DIGESTIE:\n- Enzime lizozomale\n- Prezentare de antigen",
-        "mnemonic": "CAIUD: Chemotaxis-Aderență-Ingestie-Ucidere-Digestie"
+        "mnemonic": "Fagocitul mănâncă: Cheamă (chemotaxis) → Apucă (aderență) → Înghite (ingestie) → Ucide (ROI) → Digeră"
       },
       {
         "front": "Care sunt cele 4 tipuri de reacții de hipersensibilitate (clasificarea Coombs și Gell)?",

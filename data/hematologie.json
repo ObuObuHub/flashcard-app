@@ -6,7 +6,7 @@
       {
         "front": "Ce este eritropoeza și cum este reglată?",
         "back": "ERITROPOEZA = procesul de proliferare și diferențiere a precursorilor eritrocitari\n\nETAPE:\nCelula stem → Proeritroblast → Eritroblast bazofil → Eritroblast policromatofil → Eritroblast oxifil → Reticulocit → Eritrocit\n\nREGLARE:\n- Eritropoetina (90% sintetizată renal)\n- Stimulată de scăderea pO2 tisulară\n- Stimulează CFU-E și diferențierea precursorilor",
-        "mnemonic": "Eritropoeza: Stem→Pro→Bazofil→Poli→Oxi→Reticulo→Eritrocit, EPO din rinichi"
+        "mnemonic": "Eritropoeza ca școala: Stem→Pro(1)→Bazofil(2)→Poli(3)→Oxi(4)→Reticulo(tânăr)→Eritrocit(adult); EPO=profesor din RINICHI"
       },
       {
         "front": "Care sunt caracteristicile reticulocitelor?",
@@ -46,7 +46,7 @@
       {
         "front": "Care sunt incluziile eritrocitare patologice?",
         "back": "CORPII HOWELL-JOLLY:\n- Granule rotunde, violet, 1-3/celulă\n- Cromatină nucleară reziduală\n- Anemii megaloblastice, postsplenectomie\n\nGRANULATII BAZOFILE:\n- Granule mici albastre pe tot eritrocitul\n- Agregate ribozomale\n- Intoxicație cu Pb, talasemii\n\nINELE CABOT:\n- Formațiuni filiforme în 8 sau semilună\n- Resturi fus diviziune\n- Diseritropoeze grave\n\nCORPII HEINZ:\n- Agregate Hb denaturată oxidativ\n- Pe marginea internă a eritrocitului\n- Colorații supravitale\n- Deficit G6PD, talasemii, postsplenectomie",
-        "mnemonic": "HJ=cromatină, Bazofil=Pb, Cabot=fus, Heinz=Hb denaturată(G6PD)"
+        "mnemonic": "Incluzii: Howell-Jolly (punct ADN)=postsplenectomie, Bazofil (granule)=Plumb, Cabot (inel 8)=diseritropoeze, Heinz (margine)=G6PD/oxidare"
       },
       {
         "front": "Care sunt componentele hemostazei primare?",
@@ -61,7 +61,7 @@
       {
         "front": "Care sunt căile de activare a coagulării?",
         "back": "CALEA INTRINSECĂ (contact):\n- Start: XII activat de contact cu colagen\n- XII → XI → IX → X\n- Necesită: KMM, prekalicreină, VIII, Ca2+\n- Test: APTT (timpul de tromboplastină parțial activat)\n\nCALEA EXTRINSECĂ (tisulară):\n- Start: Factor tisular (III) eliberat din țesuturi\n- III + VII → X\n- Test: TP (timpul de protrombină/Quick)\n\nCALEA COMUNĂ:\n- X activat + V + Ca2+ + fosfolipide = Protrombinază\n- Protrombină → Trombină\n- Fibrinogen → Fibrină (stabilizată de XIII)",
-        "mnemonic": "Intrinsecă: XII-XI-IX-X (APTT); Extrinsecă: VII-X (TP); Comună: X→Trombină→Fibrină"
+        "mnemonic": "Cascada: INTRINSECĂ(contact)=12-11-9-8→X, testează cu APTT; EXTRINSECĂ(țesut)=7→X, testează cu TP; COMUNĂ: X face Trombină face Fibrină"
       },
       {
         "front": "Care sunt inhibitorii fiziologici ai coagulării?",
@@ -136,7 +136,7 @@
       {
         "front": "Care este clasificarea FAB a leucemiilor acute mieloide?",
         "back": "CLASIFICAREA FAB (Franco-Americano-Britanică):\n\nM0: Minim diferențiată (MPOX-, markeri mieloizi+)\nM1: Mieloblastică fără maturație\nM2: Mieloblastică cu maturație (t(8;21))\nM3: PROMIELOCITARĂ (t(15;17)) - CID!\nM4: Mielomonocitară\nM4Eo: Mielomonocitară cu eozinofilie\nM5: Monocitară (a=monoblastică, b=promonocitară)\nM6: Eritroleucemia (di Guglielmo)\nM7: Megacarioblastică\n\nCRITERII:\n- Blasti ≥20% din celulele nucleate MO (OMS)\n- Corpi Auer patognomonici\n\nCITOCHIMIE:\n- Mieloperoxidază (MPOX) ≥3% = LAM\n- Esteraze: ANAE (monocite), Clor-E (granulocite)",
-        "mnemonic": "FAB M0-7: 0=minim, 1-2=mieloblastic, 3=PROMIELOCITAR(CID), 4-5=monocitar, 6=eritro, 7=megacario"
+        "mnemonic": "FAB numere: M0=zero diferențiere, M1-2=Mieloblastic(↑maturație), M3=Promielocitar(ATRA!), M4-5=Monocitar, M6=Eritro(di Guglielmo), M7=Megacarioblastic"
       },
       {
         "front": "Care sunt caracteristicile Leucemiei Acute Promielocitare (M3)?",
@@ -156,7 +156,7 @@
       {
         "front": "Care sunt sindroamele mielodisplazice (SMD)?",
         "back": "DEFINIȚIE:\n- Boli clonale celulă stem\n- Hematopoieză ineficientă\n- Citopenii + displazie\n- Risc transformare în LAM\n\nCLASIFICARE OMS:\n- AR: Anemia refractară\n- ARSA: AR cu sideroblasti inelari >15%\n- CRDM: Citopenie refractară cu displazie multiliniară\n- AREB-1: AR cu exces blasti 5-9%\n- AREB-2: AR cu exces blasti 10-19%\n- SMD cu del(5q) izolată\n\nCRITERII DISPLAZIE:\n- Eritroidă: megaloblastoză, sideroblasti inelari\n- Granulocitară: hiposegmentare (Pelger), hipogranulare\n- Megacariocitară: micromegacariocite, monolobate\n\nPROGNOSTIC: IPSS (citopenii, blasti, citogenetică)",
-        "mnemonic": "SMD: Citopenii+Displazie+Risc LAM; <5% blasti=AR, 5-9%=AREB1, 10-19%=AREB2"
+        "mnemonic": "SMD = sânge citopenic dar MO bogată în celule anormale; Blasti: 0-4%=AR, 5-9%=AREB1, 10-19%=AREB2, ≥20%=LAM (nu mai e SMD!)"
       },
       {
         "front": "Care este formula leucocitară normală?",

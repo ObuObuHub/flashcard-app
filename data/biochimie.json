@@ -26,7 +26,7 @@
       {
         "front": "Care sunt aminoacizii esențiali și cum se clasifică după degradare?",
         "back": "AA ESENȚIALI (9):\nValină, Leucină, Izoleucină, Lizină, Metionină, Treonină, Fenilalanină, Triptofan, Histidină\n+ Arginina (semiesențial - copii)\n\nCLASIFICARE DUPĂ DEGRADARE:\n\n1. GLUCOFORMATORI → Piruvat/intermediari Krebs → glucoză:\n- Ala, Gly, Ser, Cys, Thr → piruvat\n- Arg, Pro, His, Gln, Glu → α-cetoglutarat\n- Asn, Asp → oxalacetat\n- Ile, Val, Met → succinil-CoA\n\n2. CETOFORMATORI → Acetil-CoA/Acetoacetat:\n- Leu, Lys → acetoacetat\n- Trp → acetil-CoA + alanină\n- Phe, Tyr → fumarat + acetoacetat\n\nNOTĂ: Leucina și Lizina sunt DOAR cetoformatoare",
-        "mnemonic": "Esențiali: VaLI-LiMe-TrFeT-His; Leu+Lys=doar cetogeni"
+        "mnemonic": "AA esențiali (9): Valină, Leucină, Izoleucină (ramificați) + Lizină, Metionină + Treonină, Fenilalanină, Triptofan + Histidină; DOAR Leu+Lys sunt exclusiv cetoformatori"
       },
       {
         "front": "Care sunt bolile metabolice ale aminoacizilor?",
@@ -56,7 +56,7 @@
       {
         "front": "Care sunt reacțiile și bilanțul energetic al ciclului Krebs?",
         "back": "CICLUL KREBS (acizilor tricarboxilici)\nLoc: Matrixul mitocondrial\n\nREACȚII:\n1. Acetil-CoA + Oxalacetat → CITRAT (citrat sintaza)\n2. Citrat → IZOCITRAT (aconitaza)\n3. Izocitrat → α-CETOGLUTARAT + CO2 + NADH\n4. α-Cetoglutarat → SUCCINIL-CoA + CO2 + NADH\n5. Succinil-CoA → SUCCINAT + GTP\n6. Succinat → FUMARAT + FADH2\n7. Fumarat → L-MALAT\n8. L-Malat → OXALACETAT + NADH\n\nBILANȚ/ACETIL-CoA:\n- 3 NADH → 7,5 ATP\n- 1 FADH2 → 1,5 ATP\n- 1 GTP → 1 ATP\n- TOTAL: 10 ATP/acetil-CoA\n\nBILANȚ/GLUCOZĂ:\n- 2 acetil-CoA × 10 = 20 ATP\n- + glicoliză + PDH = ~30-32 ATP total",
-        "mnemonic": "Krebs: Citrat-Izocitrat-αCG-SuccinilCoA-Succinat-Fumarat-Malat-Oxalacetat"
+        "mnemonic": "Krebs (povestea CItricului): CItrat→Izocitrat→αCetoGlutarat→SuccinilCoA→Succinat→Fumarat→Malat→Oxalacetat; Bilanț: 3 NADH + 1 FADH2 + 1 GTP = 10 ATP/acetil"
       },
       {
         "front": "Care sunt etapele β-oxidării acizilor grași?",

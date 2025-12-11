@@ -76,7 +76,7 @@
       {
         "front": "Care sunt testele citochimice pentru diferențierea leucemiilor acute?",
         "back": "MIELOPEROXIDAZA (MPO):\n- Pozitivă: LAM (linie mieloidă)\n- Negativă: LAL (linie limfoidă)\n\nSUDAN BLACK B:\n- Pozitiv: LAM\n- Negativ: LAL\n\nESTERAZE:\n- Nespecifice (α-naftil acetat): monocite\n- Specifice (cloracetat): granulocite\n\nPAS (Acid Periodic-Schiff):\n- Blocuri grosolane: LAL\n- Difuz fin: LAM",
-        "mnemonic": "MPO/Sudan = Mieloid, PAS blocuri = Limfoid"
+        "mnemonic": "LAM: MPO+ Sudan+ (enzime mieloide); LAL: PAS în blocuri grosolane (ca pietricele); Esteraze: monocite=nespecifice, granulocite=cloracetat"
       },
       {
         "front": "Care sunt valorile normale ale mielogramei?",

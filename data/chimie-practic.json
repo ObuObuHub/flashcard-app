@@ -11,7 +11,7 @@
       {
         "front": "Care sunt tipurile de cilindri urinari și semnificația lor?",
         "back": "CILINDRI ACELULARI:\n- Hialini: albuminurii\n- Granuloși: GNA, PNA\n- Grăsoși: sindrom nefrotic\n- Pigmentari: Hb (acc. transfuzionale), mioglobină, bilirubină\n\nCILINDRI CELULARI:\n- Hematici: afecțiune glomerulară\n- Leucocitari: inflamații parenchim renal\n- Epiteliali: afecțiune tubulară toxică/infecțioasă",
-        "mnemonic": "Acelulari: HGGP (Hialin-Granulos-Gras-Pigmentar), Celulari: HLE (Hematic-Leucocitar-Epitelial)"
+        "mnemonic": "Cilindri: Acelulari (fără celule)=Hialin (albumină), Granulos (necroză), Gras (nefrotic), Pigmentar (Hb/bilirubină); Celulari=Hematic (glomerul), Leucocitar (pielonefrită), Epitelial (toxic)"
       },
       {
         "front": "Care sunt valorile normale ale fierului seric și cauzele variațiilor?",

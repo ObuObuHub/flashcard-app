@@ -6,7 +6,7 @@
       {
         "front": "Care este structura adultului de Echinococcus granulosus?",
         "back": "Adult mic (3-6mm) format din:\n- Scolex: 4 ventuze + coroană de cârlige (fixare)\n- Col: subțire, rol germinativ\n- Strobilă: proglote (tânără, matură, bătrână)\n\nOul: 30-40 μm, embrion hexacant",
-        "mnemonic": "Echin-SCOS: Scolex-Col-Strobilă (3-6mm mic, în câine)"
+        "mnemonic": "Echinococcus = tenie MICĂ (3-6mm) în câine: Scolex (cap cu ventuze+cârlige), Col (gât subțire), Strobilă (lanț de proglote)"
       },
       {
         "front": "Care este ciclul biologic al Echinococcus granulosus?",
@@ -16,7 +16,7 @@
       {
         "front": "Care este structura chistului hidatic?",
         "back": "3 membrane:\n1. ADVENTICEA (externă) - fibroasă, de la gazdă, poate calcifica\n2. CUTICULA - elastică, 1-2mm, multilamelară\n3. MB. PROLIGERĂ (internă) - germinativă, 25μm\n\nConținut: vezicule hidatice cu protoscolecși\nNisip hidatic = vezicule rupte + protoscolecși (element de diagnostic)",
-        "mnemonic": "ACP: Adventice-Cuticulă-Proligeră (de la exterior spre interior)"
+        "mnemonic": "Chist hidatic = 3 straturi ca o nucă: Adventice (coajă fibroasă), Cuticulă (albuș elastic), Proligeră (miez germinativ cu nisip hidatic)"
       },
       {
         "front": "Care este diagnosticul și tratamentul în hidatidoză?",
@@ -41,7 +41,7 @@
       {
         "front": "Care sunt cele 3 forme ale Toxoplasma gondii?",
         "back": "1. ENDOZOIT (tahizoit, trofozoit):\n   - Formă vegetativă, banană\n   - Metabolism activ, faza acută\n\n2. CHIST TISULAR:\n   - Conține bradizoiți (metabolism lent)\n   - Faza cronică, în SNC/mușchi\n\n3. OOCHIST:\n   - Din ciclul sexuat (în pisică)\n   - Element infecțios din mediu",
-        "mnemonic": "ETB: Endozoit-Tahizoit (activ), Bradizoit-chist (lent), Oochist (pisică)"
+        "mnemonic": "Toxoplasma 3 forme: Tahizoit (rapid=faza acută), Bradizoit (lent=chist cronic), Oochist (din pisică=infecțios în mediu)"
       },
       {
         "front": "Care este ciclul biologic al Toxoplasma gondii?",
@@ -81,7 +81,7 @@
       {
         "front": "Care sunt principalii paraziți oportuniști în imunodeficiență?",
         "back": "1. Entamoeba histolytica - dizenterie, abcese hepatice\n2. Giardia lamblia - diaree grasă, malabsorbție\n3. Toxoplasma gondii - encefalită\n4. Pneumocystis jirovecii - pneumonie interstițială\n5. Cryptosporidium parvum - diaree cronică\n6. Isospora belli - diaree, malabsorbție\n7. Microsporidii\n8. Strongyloides stercoralis",
-        "mnemonic": "EGTPCIS: Entamoeba, Giardia, Toxoplasma, Pneumocystis, Crypto, Isospora, Strongyloides"
+        "mnemonic": "Paraziți oportuniști când CD4 scade: Intestin (Giardia, Crypto, Isospora), Creier (Toxoplasma), Plămân (Pneumocystis), Diseminat (Strongyloides, Entamoeba)"
       },
       {
         "front": "Care sunt manifestările Entamoeba histolytica la imunocompromiși?",
