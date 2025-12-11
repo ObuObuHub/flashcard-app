@@ -80,7 +80,7 @@
       },
       {
         "front": "Care sunt principalii paraziți oportuniști în imunodeficiență?",
-        "back": "1. Entamoeba histolytica - dizenterie, abcese hepatice\n2. Giardia lamblia - diaree grasă, malabsorbție\n3. Toxoplasma gondii - encefalită\n4. Pneumocystis carinii - pneumonie interstițială\n5. Cryptosporidium parvum - diaree cronică\n6. Isospora belli - diaree, malabsorbție\n7. Microsporidii\n8. Strongyloides stercoralis",
+        "back": "1. Entamoeba histolytica - dizenterie, abcese hepatice\n2. Giardia lamblia - diaree grasă, malabsorbție\n3. Toxoplasma gondii - encefalită\n4. Pneumocystis jirovecii - pneumonie interstițială\n5. Cryptosporidium parvum - diaree cronică\n6. Isospora belli - diaree, malabsorbție\n7. Microsporidii\n8. Strongyloides stercoralis",
         "mnemonic": "EGTPCIS: Entamoeba, Giardia, Toxoplasma, Pneumocystis, Crypto, Isospora, Strongyloides"
       },
       {
@@ -89,7 +89,7 @@
         "mnemonic": "Entamoeba: Intestin=Disenterie, Extra=Abcese (ficat)"
       },
       {
-        "front": "Care sunt manifestările Pneumocystis carinii la SIDA?",
+        "front": "Care sunt manifestările Pneumocystis jirovecii la SIDA?",
         "back": "Reactivare infecție latentă când CD4 scad!\n\nPNEUMONIE INTERSTIȚIALĂ:\n- Tahipnee (125 r/min)\n- Dispnee, cianoză, tiraj\n- Tuse uscată\n- Febră moderată\n- Alveolită + infiltrat inflamator\n\nLOCALIZĂRI EXTRAPULMONARE:\n- Căi aeriene superioare, ochi, tiroidă, splină\n\nDiagnostic: evidențiere directă sau serologie",
         "mnemonic": "PCP = Pneumonie la SIDA când CD4 scade, Tuse uscată + Dispnee"
       },

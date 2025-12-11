@@ -165,8 +165,8 @@
       },
       {
         "front": "Cum se face diagnosticul și profilaxia tusei convulsive?",
-        "back": "DIAGNOSTIC:\n- Prelevat: tampon nasofaringian (pernasal)\n- IF directă (rapid, sensibilitate 50%)\n- Cultură pe mediu cu cărbune și cefalexină\n- Incubare până la 7-12 zile\n\nTRATAMENT:\n- Eritromicina (de elecție)\n- Cotrimoxazol (alternativ)\n- Amoxicilina și cefalosporine = EȘEC!\n\nPROFILAXIE:\n- Trivaccin DTP (3-9 luni + rapeluri)\n- Vaccin acelular (evită encefalita postvaccinală)",
-        "mnemonic": "Eritromicină pentru Pertussis, Vaccin DTP"
+        "back": "DIAGNOSTIC:\n- Prelevat: tampon nasofaringian (pernasal)\n- IF directă (rapid, sensibilitate 50%)\n- Cultură pe mediu cu cărbune și cefalexină\n- Incubare până la 7-12 zile\n\nTRATAMENT:\n- Azitromicină (preferată - curs scurt 5 zile)\n- Eritromicină (alternativ - 14 zile)\n- Cotrimoxazol (alternativ)\n- Amoxicilina și cefalosporine = EȘEC!\n\nPROFILAXIE:\n- Trivaccin DTP (3-9 luni + rapeluri)\n- Vaccin acelular (evită encefalita postvaccinală)",
+        "mnemonic": "Azitromicină/Eritromicină pentru Pertussis, Vaccin DTP"
       },
       {
         "front": "Care sunt caracteristicile genului Brucella?",

@@ -70,8 +70,8 @@
       },
       {
         "front": "Care sunt caracteristicile VHC?",
-        "back": "- Familia Flaviviridae, gen Hepacivirus\n- ARN mc+ învelit\n- 6 genotipuri antigenice\n- Transmitere parenterală\n- 50% cronicizare!\n- 20% → ciroză → CHP după 20-30 ani\n- NU EXISTĂ VACCIN",
-        "mnemonic": "C = Cronică (50%), Ciroză, Cancer, fără Curativ vaccin"
+        "back": "- Familia Flaviviridae, gen Hepacivirus\n- ARN mc+ învelit\n- 6 genotipuri antigenice\n- Transmitere parenterală\n- 55-85% cronicizare!\n- 20% → ciroză → CHP după 20-30 ani\n- NU EXISTĂ VACCIN",
+        "mnemonic": "C = Cronică (55-85%), Ciroză, Cancer, fără Curativ vaccin"
       },
       {
         "front": "Cum se face diagnosticul VHC?",
@@ -100,7 +100,7 @@
       },
       {
         "front": "Care sunt subtipurile de virus gripal A care au circulat la om?",
-        "back": "H1N1, H2N2, H3N2\n\nExistă: 15 tipuri H și 9 tipuri N\n\nVirusul gripal A infectează: om, mamifere, păsări\nVirusul gripal B și C: DOAR omul",
+        "back": "H1N1, H2N2, H3N2\n\nExistă: 18 tipuri H și 11 tipuri N\n\nVirusul gripal A infectează: om, mamifere, păsări\nVirusul gripal B și C: DOAR omul",
         "mnemonic": "A = Animals + om, BC = doar om (Being human, C-uman)"
       },
       {
@@ -110,7 +110,7 @@
       },
       {
         "front": "Care este tratamentul și profilaxia gripei?",
-        "back": "TRATAMENT:\n- Simptomatic: analgezice, antitusive, antipiretice\n- La copii: Acetaminofen (NU salicilați - risc sindrom Reye!)\n- Antiviral: Amantadină, Rimantadină\n\nPROFILAXIE:\n- Vaccin în perioada preepidemic\n- Grupe risc: >65 ani, gravide, copii, boli cronice",
+        "back": "TRATAMENT:\n- Simptomatic: analgezice, antitusive, antipiretice\n- La copii: Acetaminofen (NU salicilați - risc sindrom Reye!)\n- Antiviral: Oseltamivir, Zanamivir (inhibitori neuraminidază)\n\nPROFILAXIE:\n- Vaccin în perioada preepidemic\n- Grupe risc: >65 ani, gravide, copii, boli cronice",
         "mnemonic": "Gripă: Nu Aspirină la copii! (Reye), Vaccin pentru Vârstnici"
       }
     ]
