@@ -1,104 +1,180 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Navbar } from '@/components/navbar'
-import { Brain, Clock } from 'lucide-react'
+import { Logo } from '@/components/logo'
+import { Clock, Sparkles, Target, TrendingUp } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a]">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16 text-center">
-        <div className="flex justify-center mb-6">
-          <Brain className="w-20 h-20 text-blue-600" />
+      <section className="container mx-auto px-4 py-20 text-center">
+        <div className="flex justify-center mb-8">
+          <div className="relative">
+            <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
+            <Logo size="xl" className="relative" />
+          </div>
         </div>
-        <h1 className="text-5xl font-bold mb-4 text-gray-900 dark:text-white">Flashcard</h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-          Invata eficient cu repetitie spatiata si tehnici mnemonice
+        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <span className="bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 bg-clip-text text-transparent">
+            EbbiMed
+          </span>
+        </h1>
+        <p className="text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+          Memorează eficient cunoștințele medicale cu repetiție spațiată și tehnici mnemonice bazate pe curba uitării Ebbinghaus
         </p>
         <Link href="/decks">
-          <Button size="lg" className="text-lg px-8">
-            Start
+          <Button size="lg" className="text-lg px-10 py-6 bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 shadow-lg shadow-indigo-500/25 transition-all hover:shadow-xl hover:shadow-indigo-500/30">
+            <Sparkles className="w-5 h-5 mr-2" />
+            Începe acum
           </Button>
         </Link>
       </section>
 
-      {/* Spaced Repetition Section */}
+      {/* Features Grid */}
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
-          Cum functioneaza
-        </h2>
-
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-stretch">
-          {/* Forgetting Curve Visualization */}
-          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg">
-            <h3 className="font-semibold text-lg mb-4 text-gray-900 dark:text-white">
-              Curba Uitarii (Ebbinghaus)
-            </h3>
-            <div className="relative h-48 mb-4">
-              {/* Y-axis */}
-              <div className="absolute left-0 top-0 bottom-8 w-px bg-gray-300 dark:bg-gray-600" />
-              {/* X-axis */}
-              <div className="absolute left-0 right-0 bottom-8 h-px bg-gray-300 dark:bg-gray-600" />
-              <div className="absolute left-0 bottom-0 text-xs text-gray-500">Zi 1</div>
-              <div className="absolute right-0 bottom-0 text-xs text-gray-500">Zi 30</div>
-
-              {/* Forgetting curve (without review) */}
-              <svg className="absolute inset-0 w-full h-40" preserveAspectRatio="none">
-                <path
-                  d="M 0,0 Q 50,120 100,140 T 200,155 T 300,160"
-                  fill="none"
-                  stroke="#ef4444"
-                  strokeWidth="3"
-                  className="opacity-60"
-                  vectorEffect="non-scaling-stroke"
-                />
-              </svg>
-
-              {/* With spaced repetition */}
-              <svg className="absolute inset-0 w-full h-40" preserveAspectRatio="none">
-                <path
-                  d="M 0,0 L 30,40 L 30,10 L 80,50 L 80,15 L 150,55 L 150,20 L 250,60 L 250,25 L 300,40"
-                  fill="none"
-                  stroke="#22c55e"
-                  strokeWidth="3"
-                  vectorEffect="non-scaling-stroke"
-                />
-              </svg>
-
-              {/* Legend */}
-              <div className="absolute bottom-12 right-2 text-xs space-y-1">
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-0.5 bg-red-500 opacity-60" />
-                  <span className="text-gray-600 dark:text-gray-400">Fara revizuire</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-0.5 bg-green-500" />
-                  <span className="text-gray-600 dark:text-gray-400">Cu repetitie spatiata</span>
-                </div>
-              </div>
+        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="group p-6 rounded-2xl bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border border-gray-200/50 dark:border-indigo-500/10 hover:border-indigo-500/30 transition-all hover:shadow-lg hover:shadow-indigo-500/5">
+            <div className="w-12 h-12 rounded-xl bg-indigo-100 dark:bg-indigo-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <Target className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
             </div>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Curba uitării descrisă de Ebbinghaus arată că, în absența reluării, proporția de informație reținută scade rapid în primele ore și zile după învățare. Repetiția spațiată contracarează acest fenomen prin revizuiri planificate la intervale de timp progresiv mai mari.
+            <h3 className="font-semibold text-lg mb-2 text-gray-900 dark:text-white">Algoritm SM-2</h3>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              Același algoritm folosit de Anki pentru calcularea intervalelor optime de revizuire
             </p>
           </div>
 
-          {/* SM-2 Info */}
-          <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg flex flex-col">
-            <h3 className="font-semibold text-lg mb-4 text-gray-900 dark:text-white flex items-center gap-3">
-              <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
-                <Clock className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-              </div>
-              Algoritmul SM-2
-            </h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 flex-1 flex items-center">
-              Algoritmi precum SM-2 modelează matematic această dinamică și estimează pentru fiecare item momente aproximativ optime de reamintire, reducând semnificativ efortul necesar pentru consolidarea în memoria de lungă durată.
+          <div className="group p-6 rounded-2xl bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border border-gray-200/50 dark:border-indigo-500/10 hover:border-indigo-500/30 transition-all hover:shadow-lg hover:shadow-indigo-500/5">
+            <div className="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <TrendingUp className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+            </div>
+            <h3 className="font-semibold text-lg mb-2 text-gray-900 dark:text-white">Retenție pe termen lung</h3>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              Revizuirile programate combatează curba uitării și consolidează memoria
+            </p>
+          </div>
+
+          <div className="group p-6 rounded-2xl bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border border-gray-200/50 dark:border-indigo-500/10 hover:border-indigo-500/30 transition-all hover:shadow-lg hover:shadow-indigo-500/5">
+            <div className="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <Clock className="w-6 h-6 text-amber-600 dark:text-amber-400" />
+            </div>
+            <h3 className="font-semibold text-lg mb-2 text-gray-900 dark:text-white">Economisești timp</h3>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              Revizuiești doar când este necesar, nu pierzi timp repetând ce știi deja
             </p>
           </div>
         </div>
       </section>
 
+      {/* Spaced Repetition Section */}
+      <section className="container mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+          Cum funcționează
+        </h2>
+        <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
+          Curba uitării descoperită de Ebbinghaus arată că informația se pierde rapid fără revizuire
+        </p>
+
+        <div className="max-w-4xl mx-auto">
+          {/* Forgetting Curve Visualization */}
+          <div className="rounded-2xl p-8 bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border border-gray-200/50 dark:border-indigo-500/10">
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              {/* Chart */}
+              <div className="flex-1 w-full">
+                <div className="relative h-64">
+                  {/* Grid lines */}
+                  <div className="absolute inset-0 flex flex-col justify-between">
+                    {[100, 75, 50, 25, 0].map((val) => (
+                      <div key={val} className="flex items-center gap-2">
+                        <span className="text-xs text-gray-400 w-8">{val}%</span>
+                        <div className="flex-1 border-t border-gray-200 dark:border-gray-800" />
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* SVG Curves */}
+                  <svg className="absolute left-10 top-0 right-0 h-full" viewBox="0 0 300 200" preserveAspectRatio="none">
+                    {/* Forgetting curve (without review) */}
+                    <path
+                      d="M 0,10 Q 50,100 100,140 T 200,170 T 300,180"
+                      fill="none"
+                      stroke="#f43f5e"
+                      strokeWidth="3"
+                      className="opacity-70"
+                    />
+
+                    {/* With spaced repetition */}
+                    <path
+                      d="M 0,10 L 40,60 L 40,20 L 100,70 L 100,25 L 180,75 L 180,30 L 280,60"
+                      fill="none"
+                      stroke="#10b981"
+                      strokeWidth="3"
+                    />
+
+                    {/* Review points */}
+                    <circle cx="40" cy="20" r="5" fill="#10b981" />
+                    <circle cx="100" cy="25" r="5" fill="#10b981" />
+                    <circle cx="180" cy="30" r="5" fill="#10b981" />
+                  </svg>
+
+                  {/* X-axis labels */}
+                  <div className="absolute bottom-0 left-10 right-0 flex justify-between text-xs text-gray-400 pt-2">
+                    <span>Zi 1</span>
+                    <span>Zi 7</span>
+                    <span>Zi 30</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Legend */}
+              <div className="md:w-48 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-4 h-1 bg-rose-500 rounded opacity-70" />
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Fără revizuire</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-4 h-1 bg-emerald-500 rounded" />
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Cu repetiție spațiată</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-3 h-3 bg-emerald-500 rounded-full" />
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Momente de revizuire</span>
+                </div>
+              </div>
+            </div>
+
+            <p className="mt-6 text-sm text-gray-600 dark:text-gray-400 text-center">
+              Repetiția spațiată contracarează uitarea prin revizuiri planificate la intervale progresiv mai mari, consolidând memoria pe termen lung.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto text-center rounded-2xl p-10 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-indigo-500/20">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
+            Pregătit să memorezi mai eficient?
+          </h2>
+          <p className="text-gray-600 dark:text-gray-400 mb-6">
+            Creează-ți primul set de flashcard-uri și începe să înveți cu repetiție spațiată
+          </p>
+          <Link href="/decks">
+            <Button size="lg" className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 shadow-lg shadow-indigo-500/25">
+              Explorează seturile
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-200/50 dark:border-indigo-500/10 py-8">
+        <div className="container mx-auto px-4 text-center text-sm text-gray-500 dark:text-gray-500">
+          <p>EbbiMed - Învățare medicală cu repetiție spațiată</p>
+        </div>
+      </footer>
     </div>
   )
 }

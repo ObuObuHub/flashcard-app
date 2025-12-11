@@ -2,31 +2,31 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Brain, Menu, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from '@/components/theme-toggle'
+import { LogoWithText } from '@/components/logo'
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+    <header className="sticky top-0 z-50 bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl border-b border-gray-200/50 dark:border-indigo-500/10">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-6">
-          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Brain className="w-8 h-8 text-blue-600" />
-            <span className="text-2xl font-bold">Flashcard</span>
+        <div className="flex items-center gap-8">
+          <Link href="/" className="hover:opacity-90 transition-opacity">
+            <LogoWithText size="sm" />
           </Link>
-          <nav className="hidden sm:flex items-center gap-4">
+          <nav className="hidden sm:flex items-center gap-6">
             <Link
               href="/decks"
-              className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+              className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
             >
               Seturi
             </Link>
             <Link
               href="/topics"
-              className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+              className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
             >
               Subiecte
             </Link>
@@ -45,17 +45,17 @@ export function Navbar() {
         </div>
       </div>
       {mobileMenuOpen && (
-        <nav className="sm:hidden border-t border-gray-200 dark:border-gray-700 px-4 py-3 space-y-2">
+        <nav className="sm:hidden border-t border-gray-200/50 dark:border-indigo-500/10 px-4 py-3 space-y-2 bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl">
           <Link
             href="/decks"
-            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
             onClick={() => setMobileMenuOpen(false)}
           >
             Seturi
           </Link>
           <Link
             href="/topics"
-            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium"
+            className="block py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
             onClick={() => setMobileMenuOpen(false)}
           >
             Subiecte

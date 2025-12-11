@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Flashcard - Învățare Mnemonică',
-  description: 'Aplicație de învățare cu flashcard-uri și repetare spațială',
+  title: 'EbbiMed - Învățare Medicală cu Repetiție Spațiată',
+  description: 'Memorează eficient cunoștințele medicale folosind algoritmul SM-2 și curba uitării Ebbinghaus',
 }
 
 export default function RootLayout({

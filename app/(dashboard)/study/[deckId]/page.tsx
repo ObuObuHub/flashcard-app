@@ -3,8 +3,9 @@
 import { useEffect, useState, useRef, useCallback } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Brain, ArrowLeft, RotateCw, Trophy, Clock, Target } from 'lucide-react'
+import { ArrowLeft, RotateCw, Trophy, Clock, Target, Sparkles } from 'lucide-react'
 import Link from 'next/link'
+import { Logo } from '@/components/logo'
 import { getDueFlashcards } from '@/lib/actions/flashcards'
 import { getDeck } from '@/lib/actions/decks'
 import { recordReview } from '@/lib/actions/reviews'
@@ -216,9 +217,12 @@ export default function StudyPage({ params }: StudyPageProps) {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a] flex items-center justify-center">
         <div className="text-center">
-          <Brain className="w-12 h-12 text-blue-600 animate-pulse mx-auto mb-4" />
+          <div className="relative mx-auto mb-4 w-fit">
+            <div className="absolute inset-0 bg-indigo-500/20 blur-2xl rounded-full animate-pulse" />
+            <Logo size="lg" className="relative animate-pulse" />
+          </div>
           <p className="text-gray-600 dark:text-gray-400">{translations.common.loading}</p>
         </div>
       </div>
@@ -227,7 +231,7 @@ export default function StudyPage({ params }: StudyPageProps) {
 
   if (!deck) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a] flex items-center justify-center">
         <div className="text-center">
           <p className="text-gray-600 dark:text-gray-400">Setul nu a fost gasit</p>
         </div>
@@ -237,16 +241,16 @@ export default function StudyPage({ params }: StudyPageProps) {
 
   if (flashcards.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a]">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
-          <Card className="max-w-2xl mx-auto text-center">
+          <Card className="max-w-2xl mx-auto text-center bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border-gray-200/50 dark:border-indigo-500/10">
             <CardHeader>
-              <CardTitle>{t.completed}</CardTitle>
+              <CardTitle className="text-gray-900 dark:text-white">{t.completed}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 dark:text-gray-400 mb-6">{t.noCards}</p>
-              <Button asChild>
+              <Button asChild className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700">
                 <Link href={`/decks/${deckId}`}>
                   <ArrowLeft className="w-4 h-4 mr-2" />
                   Inapoi la set
@@ -265,77 +269,80 @@ export default function StudyPage({ params }: StudyPageProps) {
     const successRate = Math.round(((sessionStats.ratings.good + sessionStats.ratings.easy) / totalCards) * 100)
 
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a]">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
-          <Card className="max-w-2xl mx-auto">
+          <Card className="max-w-2xl mx-auto bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border-gray-200/50 dark:border-indigo-500/10">
             <CardHeader className="text-center">
-              <Trophy className="w-16 h-16 text-yellow-500 mx-auto mb-4" />
-              <CardTitle className="text-2xl">Sesiune completa!</CardTitle>
+              <div className="relative mx-auto mb-4 w-fit">
+                <div className="absolute inset-0 bg-amber-500/20 blur-2xl rounded-full" />
+                <Trophy className="w-16 h-16 text-amber-500 relative" />
+              </div>
+              <CardTitle className="text-2xl text-gray-900 dark:text-white">Sesiune completă!</CardTitle>
               <p className="text-gray-600 dark:text-gray-400">
                 {successRate >= 80
-                  ? 'Excelent! Continua tot asa!'
+                  ? 'Excelent! Continuă tot așa!'
                   : successRate >= 60
-                    ? 'Bine lucrat! Mai exerseaza.'
-                    : 'Continua sa inveti, progresezi!'}
+                    ? 'Bine lucrat! Mai exersează.'
+                    : 'Continuă să înveți, progresezi!'}
               </p>
             </CardHeader>
             <CardContent className="space-y-6">
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 text-center">
-                  <Target className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-blue-600">{totalCards}</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">Carti revizuite</div>
+                <div className="bg-indigo-50 dark:bg-indigo-500/10 rounded-xl p-4 text-center border border-indigo-100 dark:border-indigo-500/20">
+                  <Target className="w-8 h-8 text-indigo-600 dark:text-indigo-400 mx-auto mb-2" />
+                  <div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">{totalCards}</div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">Cărți revizuite</div>
                 </div>
-                <div className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4 text-center">
-                  <Clock className="w-8 h-8 text-green-600 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-green-600">{getSessionDuration()}</div>
+                <div className="bg-emerald-50 dark:bg-emerald-500/10 rounded-xl p-4 text-center border border-emerald-100 dark:border-emerald-500/20">
+                  <Clock className="w-8 h-8 text-emerald-600 dark:text-emerald-400 mx-auto mb-2" />
+                  <div className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">{getSessionDuration()}</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Timp studiu</div>
                 </div>
               </div>
 
               {/* Rating Breakdown */}
               <div className="space-y-2">
-                <h3 className="font-semibold text-gray-700 dark:text-gray-300">Detalii raspunsuri</h3>
+                <h3 className="font-semibold text-gray-700 dark:text-gray-300">Detalii răspunsuri</h3>
                 <div className="grid grid-cols-4 gap-2 text-center text-sm">
-                  <div className="bg-red-50 dark:bg-red-900/20 rounded p-2">
-                    <div className="font-bold text-red-600">{sessionStats.ratings.again}</div>
-                    <div className="text-gray-500">Din nou</div>
+                  <div className="bg-rose-50 dark:bg-rose-500/10 rounded-lg p-2 border border-rose-100 dark:border-rose-500/20">
+                    <div className="font-bold text-rose-600 dark:text-rose-400">{sessionStats.ratings.again}</div>
+                    <div className="text-gray-500 dark:text-gray-400 text-xs">Din nou</div>
                   </div>
-                  <div className="bg-yellow-50 dark:bg-yellow-900/20 rounded p-2">
-                    <div className="font-bold text-yellow-600">{sessionStats.ratings.hard}</div>
-                    <div className="text-gray-500">Greu</div>
+                  <div className="bg-amber-50 dark:bg-amber-500/10 rounded-lg p-2 border border-amber-100 dark:border-amber-500/20">
+                    <div className="font-bold text-amber-600 dark:text-amber-400">{sessionStats.ratings.hard}</div>
+                    <div className="text-gray-500 dark:text-gray-400 text-xs">Greu</div>
                   </div>
-                  <div className="bg-green-50 dark:bg-green-900/20 rounded p-2">
-                    <div className="font-bold text-green-600">{sessionStats.ratings.good}</div>
-                    <div className="text-gray-500">Bine</div>
+                  <div className="bg-emerald-50 dark:bg-emerald-500/10 rounded-lg p-2 border border-emerald-100 dark:border-emerald-500/20">
+                    <div className="font-bold text-emerald-600 dark:text-emerald-400">{sessionStats.ratings.good}</div>
+                    <div className="text-gray-500 dark:text-gray-400 text-xs">Bine</div>
                   </div>
-                  <div className="bg-blue-50 dark:bg-blue-900/20 rounded p-2">
-                    <div className="font-bold text-blue-600">{sessionStats.ratings.easy}</div>
-                    <div className="text-gray-500">Usor</div>
+                  <div className="bg-indigo-50 dark:bg-indigo-500/10 rounded-lg p-2 border border-indigo-100 dark:border-indigo-500/20">
+                    <div className="font-bold text-indigo-600 dark:text-indigo-400">{sessionStats.ratings.easy}</div>
+                    <div className="text-gray-500 dark:text-gray-400 text-xs">Ușor</div>
                   </div>
                 </div>
               </div>
 
               {/* Success Rate */}
-              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+              <div className="bg-gray-50 dark:bg-[#0a0a12] rounded-xl p-4 border border-gray-100 dark:border-indigo-500/10">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-sm text-gray-600 dark:text-gray-400">Rata de succes</span>
-                  <span className="font-bold text-lg">{successRate}%</span>
+                  <span className="font-bold text-lg text-gray-900 dark:text-white">{successRate}%</span>
                 </div>
-                <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full">
+                <div className="h-2 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-green-500 rounded-full transition-all"
+                    className="h-full bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-full transition-all"
                     style={{ width: `${successRate}%` }}
                   />
                 </div>
               </div>
 
-              <Button asChild className="w-full" size="lg">
+              <Button asChild className="w-full bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 shadow-lg shadow-indigo-500/20" size="lg">
                 <Link href={`/decks/${deckId}`}>
                   <ArrowLeft className="w-4 h-4 mr-2" />
-                  Inapoi la set
+                  Înapoi la set
                 </Link>
               </Button>
             </CardContent>
@@ -346,26 +353,26 @@ export default function StudyPage({ params }: StudyPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a]">
       <ToastContainer toasts={toasts} onClose={removeToast} />
 
       {/* Header */}
-      <header className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+      <header className="sticky top-0 z-50 bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl border-b border-gray-200/50 dark:border-indigo-500/10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Brain className="w-8 h-8 text-blue-600" />
+            <div className="flex items-center gap-3">
+              <Logo size="sm" />
               <div>
-                <h1 className="text-xl font-bold">{deck.name}</h1>
+                <h1 className="text-xl font-bold text-gray-900 dark:text-white">{deck.name}</h1>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   Cartea {currentIndex + 1} din {flashcards.length}
                 </p>
               </div>
             </div>
             <Link href={`/decks/${deckId}`}>
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" className="border-gray-200 dark:border-indigo-500/20 hover:bg-indigo-50 dark:hover:bg-indigo-500/10">
                 <ArrowLeft className="w-4 h-4 mr-2" />
-                Inapoi
+                Înapoi
               </Button>
             </Link>
           </div>
@@ -373,11 +380,11 @@ export default function StudyPage({ params }: StudyPageProps) {
       </header>
 
       {/* Progress Bar */}
-      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+      <div className="bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl border-b border-gray-200/50 dark:border-indigo-500/10">
         <div className="container mx-auto px-4">
-          <div className="h-2 bg-gray-200 dark:bg-gray-700">
+          <div className="h-1.5 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
             <div
-              className="h-full bg-blue-600 transition-all duration-300"
+              className="h-full bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full transition-all duration-300"
               style={{ width: `${((currentIndex + 1) / flashcards.length) * 100}%` }}
             />
           </div>
@@ -388,15 +395,15 @@ export default function StudyPage({ params }: StudyPageProps) {
       <main className="container mx-auto px-4 py-8">
         <div className="max-w-3xl mx-auto">
           {/* Flashcard */}
-          <Card ref={cardRef} className="mb-8 min-h-96 touch-pan-x touch-pan-y">
+          <Card ref={cardRef} className="mb-8 min-h-96 touch-pan-x touch-pan-y bg-white/50 dark:bg-[#12121f]/50 backdrop-blur-sm border-gray-200/50 dark:border-indigo-500/10 shadow-xl shadow-indigo-500/5">
             <CardContent className="p-8">
               <div className="space-y-6">
                 {/* Question */}
                 <div>
-                  <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">
-                    Intrebare
+                  <div className="text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-3 uppercase tracking-wide">
+                    Întrebare
                   </div>
-                  <div className="text-xl font-medium whitespace-pre-wrap">
+                  <div className="text-xl font-medium whitespace-pre-wrap text-gray-900 dark:text-white">
                     {currentCard.front}
                   </div>
                 </div>
@@ -404,20 +411,21 @@ export default function StudyPage({ params }: StudyPageProps) {
                 {/* Answer (shown when revealed) */}
                 {showAnswer && (
                   <>
-                    <div className="border-t pt-6">
-                      <div className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">
-                        Raspuns
+                    <div className="border-t border-gray-200 dark:border-indigo-500/10 pt-6">
+                      <div className="text-sm font-semibold text-emerald-600 dark:text-emerald-400 mb-3 uppercase tracking-wide">
+                        Răspuns
                       </div>
-                      <div className="text-lg whitespace-pre-wrap">{currentCard.back}</div>
+                      <div className="text-lg whitespace-pre-wrap text-gray-800 dark:text-gray-200">{currentCard.back}</div>
                     </div>
 
                     {/* Mnemonic (if exists) */}
                     {currentCard.mnemonic && (
-                      <div className="p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded border border-yellow-200 dark:border-yellow-800">
-                        <div className="text-sm font-semibold text-yellow-800 dark:text-yellow-400 mb-2">
+                      <div className="p-4 bg-amber-50 dark:bg-amber-500/10 rounded-xl border border-amber-200 dark:border-amber-500/20">
+                        <div className="text-sm font-semibold text-amber-700 dark:text-amber-400 mb-2 flex items-center gap-2">
+                          <Sparkles className="w-4 h-4" />
                           Mnemonic
                         </div>
-                        <div className="text-yellow-900 dark:text-yellow-300">
+                        <div className="text-amber-900 dark:text-amber-300">
                           {currentCard.mnemonic}
                         </div>
                       </div>
@@ -432,20 +440,20 @@ export default function StudyPage({ params }: StudyPageProps) {
           {!showAnswer ? (
             <div className="space-y-3">
               <div className="flex justify-center">
-                <Button size="lg" onClick={() => setShowAnswer(true)}>
+                <Button size="lg" onClick={() => setShowAnswer(true)} className="bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 shadow-lg shadow-indigo-500/25">
                   <RotateCw className="w-5 h-5 mr-2" />
                   {t.showAnswer}
                 </Button>
               </div>
-              <p className="text-center text-xs text-gray-400">
-                <span className="hidden sm:inline">Space pentru raspuns, sageti stanga/dreapta pentru navigare</span>
-                <span className="sm:hidden">Atinge cardul pentru raspuns, swipe stanga/dreapta pentru navigare</span>
+              <p className="text-center text-xs text-gray-400 dark:text-gray-500">
+                <span className="hidden sm:inline">Space pentru răspuns, săgeți stânga/dreapta pentru navigare</span>
+                <span className="sm:hidden">Atinge cardul pentru răspuns, swipe stânga/dreapta pentru navigare</span>
               </p>
             </div>
           ) : (
             <div className="space-y-4">
               <p className="text-center text-sm text-gray-600 dark:text-gray-400">
-                Cat de bine ai stiut raspunsul?
+                Cât de bine ai știut răspunsul?
               </p>
               {(() => {
                 const previews = getPreviewIntervals(currentCard.stats)
@@ -455,57 +463,57 @@ export default function StudyPage({ params }: StudyPageProps) {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     <Button
                       variant="outline"
-                      className="h-auto py-4 flex flex-col gap-2 border-red-200 hover:bg-red-50 dark:border-red-800 dark:hover:bg-red-900/20"
+                      className="h-auto py-4 flex flex-col gap-2 border-rose-200 hover:bg-rose-50 dark:border-rose-500/30 dark:hover:bg-rose-500/10 transition-all"
                       onClick={() => handleRating(1)}
                       disabled={submitting}
                     >
-                      <span className="text-lg font-semibold">{t.again}</span>
-                      <span className="text-xs text-gray-500">
+                      <span className="text-lg font-semibold text-rose-600 dark:text-rose-400">{t.again}</span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
                         {formatInterval(previews.again)}
                       </span>
-                      <span className="text-xs text-gray-400 hidden sm:block">1</span>
+                      <span className="text-xs text-gray-400 dark:text-gray-500 hidden sm:block">1</span>
                     </Button>
                     <Button
                       variant="outline"
-                      className="h-auto py-4 flex flex-col gap-2 border-yellow-200 hover:bg-yellow-50 dark:border-yellow-800 dark:hover:bg-yellow-900/20"
+                      className="h-auto py-4 flex flex-col gap-2 border-amber-200 hover:bg-amber-50 dark:border-amber-500/30 dark:hover:bg-amber-500/10 transition-all"
                       onClick={() => handleRating(2)}
                       disabled={submitting}
                     >
-                      <span className="text-lg font-semibold">{t.hard}</span>
-                      <span className="text-xs text-gray-500">
+                      <span className="text-lg font-semibold text-amber-600 dark:text-amber-400">{t.hard}</span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
                         {formatInterval(previews.hard)}
                       </span>
-                      <span className="text-xs text-gray-400 hidden sm:block">2</span>
+                      <span className="text-xs text-gray-400 dark:text-gray-500 hidden sm:block">2</span>
                     </Button>
                     <Button
                       variant="outline"
-                      className="h-auto py-4 flex flex-col gap-2 border-green-200 hover:bg-green-50 dark:border-green-800 dark:hover:bg-green-900/20"
+                      className="h-auto py-4 flex flex-col gap-2 border-emerald-200 hover:bg-emerald-50 dark:border-emerald-500/30 dark:hover:bg-emerald-500/10 transition-all"
                       onClick={() => handleRating(3)}
                       disabled={submitting}
                     >
-                      <span className="text-lg font-semibold">{t.good}</span>
-                      <span className="text-xs text-gray-500">
+                      <span className="text-lg font-semibold text-emerald-600 dark:text-emerald-400">{t.good}</span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
                         {formatInterval(previews.good)}
                       </span>
-                      <span className="text-xs text-gray-400 hidden sm:block">3</span>
+                      <span className="text-xs text-gray-400 dark:text-gray-500 hidden sm:block">3</span>
                     </Button>
                     <Button
                       variant="outline"
-                      className="h-auto py-4 flex flex-col gap-2 border-blue-200 hover:bg-blue-50 dark:border-blue-800 dark:hover:bg-blue-900/20"
+                      className="h-auto py-4 flex flex-col gap-2 border-indigo-200 hover:bg-indigo-50 dark:border-indigo-500/30 dark:hover:bg-indigo-500/10 transition-all"
                       onClick={() => handleRating(4)}
                       disabled={submitting}
                     >
-                      <span className="text-lg font-semibold">{t.easy}</span>
-                      <span className="text-xs text-gray-500">
+                      <span className="text-lg font-semibold text-indigo-600 dark:text-indigo-400">{t.easy}</span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
                         {formatInterval(previews.easy)}
                       </span>
-                      <span className="text-xs text-gray-400 hidden sm:block">4</span>
+                      <span className="text-xs text-gray-400 dark:text-gray-500 hidden sm:block">4</span>
                     </Button>
                   </div>
                 )
               })()}
-              <p className="text-center text-xs text-gray-400">
-                Tastele 1-4 pentru a evalua, sageti stanga/dreapta pentru navigare
+              <p className="text-center text-xs text-gray-400 dark:text-gray-500">
+                Tastele 1-4 pentru a evalua, săgeți stânga/dreapta pentru navigare
               </p>
             </div>
           )}
