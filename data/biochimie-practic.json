@@ -91,7 +91,7 @@
       {
         "front": "Care sunt parametrii echilibrului acido-bazic și valorile normale?",
         "back": "PARAMETRI GAZOMETRICI:\n\n1. pH sanguin:\n- Normal: 7,35-7,45\n- Acidoză: <7,35\n- Alcaloză: >7,45\n\n2. pCO2:\n- Normal: 35-45 mmHg\n- Componentă respiratorie\n- ↑pCO2 = acidoză respiratorie\n- ↓pCO2 = alcaloză respiratorie\n\n3. HCO3- (Bicarbonat):\n- Normal: 22-26 mEq/L\n- Componentă metabolică\n- ↓HCO3- = acidoză metabolică\n- ↑HCO3- = alcaloză metabolică\n\n4. BE (Base Excess):\n- Normal: -2 la +2 mEq/L\n- Deficitul/excesul de baze\n\nECUAȚIA HENDERSON-HASSELBALCH:\npH = 6,1 + log([HCO3-]/0,03×pCO2)\n\nRAPORT HCO3-/H2CO3 = 20:1 (normal)",
-        "mnemonic": "pH 7,35-7,45; pCO2 35-45; HCO3 22-26; Raport 20:1"
+        "mnemonic": "Echilibru acido-bazic - regula 7-4-2: pH=7,4±0,05; pCO2=40±5 (respirator); HCO3=24±2 (metabolic); Acidoză=scade, Alcaloză=crește"
       },
       {
         "front": "Care sunt electrolitii serici și valorile lor normale?",

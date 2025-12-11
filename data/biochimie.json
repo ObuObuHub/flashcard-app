@@ -11,7 +11,7 @@
       {
         "front": "Care sunt etapele biosintezei proteice?",
         "back": "5 ETAPE:\n\n1. ACTIVAREA AA:\n- AA + ATP → aminoacil-AMP\n- Aminoacil-AMP + ARNt → aminoacil-ARNt\n- Consum: 2 legături macroergice/AA\n- Enzime: aminoacil-ARNt sintetaze\n\n2. INIȚIEREA:\n- 30S + ARNm (cu FI3)\n- + N-formil-metionil-ARNt + GTP (FI1, FI2)\n- + 50S → complex de inițiere\n\n3. ELONGAREA:\n- Adăugare succesivă AA\n- Situsul A și P\n- Peptidil-transferaza\n- Translocare (GTP)\n\n4. TERMINAREA:\n- Codon nonsens (stop)\n- Factori de eliberare\n- Disocierea ribozomului\n\n5. PRELUCRĂRI POST-TRADUCERE",
-        "mnemonic": "AIET: Activare-Inițiere-Elongare-Terminare; 4 ATP/legătură peptidică (2 ATP + 2 GTP)"
+        "mnemonic": "Sinteza proteică ca o fabrică: 1.Activezi angajații (AA+ARNt), 2.Inițiezi linia de producție (30S+50S), 3.Elonghi produsul (A→P→E), 4.Termini și eliberezi; Cost: 4 ATP/aminoacid"
       },
       {
         "front": "Ce este dezaminarea oxidativă și cum se realizează?",
@@ -21,7 +21,7 @@
       {
         "front": "Care sunt etapele ciclului ureei?",
         "back": "LOCALIZARE: Ficat (mitocondrie + citosol)\n\nETAPE:\n\n1. CO2 + NH3 + 2ATP → CARBAMILFOSFAT + 2ADP + Pi\n   (carbamilfosfat sintetaza mitocondrială)\n\n2. Carbamilfosfat + ORNITINĂ → CITRULINĂ + Pi\n   (ornitin-carbamil-transferaza = OCT)\n\n3. Citrulină + Ac. aspartic + ATP → Ac. ARGININSUCCINIC + AMP + Pi\n   (argininsuccinat sintetaza)\n\n4. Ac. argininsuccinic → ARGININĂ + Ac. fumaric\n   (argininsuccinat liaza)\n\n5. Arginină → UREE + ORNITINĂ\n   (arginaza, Mn2+, Co2+)\n\nVALORI:\n- Uree plasmatică: 20-40 mg/dL\n- Uree urinară: 15-30 g/24h",
-        "mnemonic": "CICLU: Ornitină→Citrulină→Argininsuccinat→Arginină→Uree; 3 ATP/moleculă uree"
+        "mnemonic": "Ciclul ureei - OCAA: Ornitină primește CO2+NH3→Citrulină+Aspartat→Argininsuccinat→Arginină (arginaza taie ureea și regenerează Ornitina); 3 ATP/uree, în FICAT"
       },
       {
         "front": "Care sunt aminoacizii esențiali și cum se clasifică după degradare?",
@@ -61,7 +61,7 @@
       {
         "front": "Care sunt etapele β-oxidării acizilor grași?",
         "back": "β-OXIDAREA = oxidarea AG la acetil-CoA\nLoc: Matrixul mitocondrial\n\nETAPE PRELIMINARE:\n1. ACTIVAREA: AG + CoA + ATP → Acil-CoA + AMP + PPi (citosol)\n2. TRANSPORTUL: Carnitină + 2 acil-transferaze + translocază\n\nCICLUL β-OXIDĂRII:\n1. DEHIDROGENARE: Acil-CoA → Enoil-CoA (FADH2)\n2. HIDRATARE: Enoil-CoA → β-Hidroxiacil-CoA\n3. DEHIDROGENARE: β-Hidroxiacil-CoA → β-Cetoacil-CoA (NADH)\n4. TIOLIZĂ: β-Cetoacil-CoA → Acil-CoA(-2C) + Acetil-CoA\n\nBILANȚ PALMITAT (C16):\n- 7 cicluri β-oxidare\n- 8 acetil-CoA × 10 ATP = 80 ATP\n- 7 FADH2 × 1,5 = 10,5 ATP\n- 7 NADH × 2,5 = 17,5 ATP\n- -2 ATP (activare)\n- TOTAL: 106 ATP net",
-        "mnemonic": "β-oxidare: Dehidrogenare-Hidratare-Dehidrogenare-Tioliză (DHDT)"
+        "mnemonic": "β-oxidare în 4 pași ciclici: Oxidare (FADH2)→Adaugă apă→Oxidare (NADH)→Taie 2C (acetil-CoA); Palmitat C16 = 7 cicluri = 8 acetil = 106 ATP net!"
       },
       {
         "front": "Ce sunt corpii cetonici și când se formează?",
@@ -96,7 +96,7 @@
       {
         "front": "Care sunt tipurile de hiperlipoproteinemii?",
         "back": "HIPERLIPOPROTEINEMII:\n\nTIP I:\n- Deficit lipoproteinlipază\n- ↑↑Chilomicroni, ↑↑TG\n- Ser lăptos, xantoame\n- Risc ateroscleroză SCĂZUT\n\nTIP IIa:\n- Deficit receptori LDL\n- ↑↑LDL, ↑↑Colesterol\n- Xantoame tendinoase\n- Risc ateroscleroză CRESCUT\n\nTIP IIb:\n- + ↑TG, ↑VLDL\n\nTIP III:\n- Deficit Apo-E\n- ↑Colesterol, ↑↑VLDL\n- Risc crescut AVC, IMA\n\nTIP IV:\n- Dezechilibru flux VLDL\n- ↑↑VLDL, ↑↑TG\n- Colesterol normal/ușor↑\n\nTIP V:\n- ↑↑TG (chilomicroni + VLDL)\n- Post mese bogate lipide/glucide\n\nVALORI NORMALE:\n- Colesterol total: <200 mg/dL\n- TG: <150 mg/dL\n- LDL: <100 mg/dL\n- HDL: >40 mg/dL",
-        "mnemonic": "Tip I=Chilo, II=LDL, III=apoE, IV=VLDL, V=mixt"
+        "mnemonic": "Hiperlipoproteinemii: I=Chilo în exces (TG alimentare), IIa=LDL crescut (colesterol rău, aterogen!), III=defect apoE, IV=VLDL crescut (TG endogene), V=TG mixte"
       },
       {
         "front": "Care este structura enzimelor și tipurile de cofactori?",

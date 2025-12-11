@@ -31,7 +31,7 @@
       {
         "front": "Câte clase conține clasificarea Baltimore și care este principiul?",
         "back": "7 clase, bazate pe tipul de genom și calea de sinteză a ARNm:\n- Clasa I: ADN dc (adeno, herpes, pox)\n- Clasa II: ADN mc+ (parvo)\n- Clasa III: ARN dc (reo)\n- Clasa IV: ARN mc+ (picorna, flavi)\n- Clasa V: ARN mc- (ortho, para, rhabdo)\n- Clasa VI: ARN mc+ cu RT (retro)\n- Clasa VII: ADN parțial dc cu RT (hepadna)",
-        "mnemonic": "Baltimore = 7 căi spre ARNm"
+        "mnemonic": "Baltimore 7 clase: 1-2=ADN (dc/mc), 3-5=ARN (dc/mc+/mc-), 6-7=cu RT (retro/hepadna); Regula: toți fac ARNm să traducă proteine"
       },
       {
         "front": "Care sunt cei 5 virusuri hepatitice principale?",

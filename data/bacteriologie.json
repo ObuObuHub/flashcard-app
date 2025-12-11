@@ -26,7 +26,7 @@
       {
         "front": "Care este structura lipopolizaharidului (LPS) la bacteriile Gram negative?",
         "back": "LPS (endotoxină) - 3 părți:\n\n1. LIPIDUL A (proximal):\n- Activitate toxică termostabilă\n- Responsabil de efectele endotoxinei\n\n2. MIEZUL (core):\n- Comun tuturor BGN\n- Conține KDO\n- Activator complement cale alternativă\n\n3. ANTIGENUL O (distal):\n- Unități zaharidice repetitive\n- Specificitate de specie/tip\n- Permite serotiparea",
-        "mnemonic": "LPS: Lipid A (toxic) - Miez (comun) - O (specific)"
+        "mnemonic": "LPS ca o bombă: Lipid A=detonator (toxic), Miez=coajă comună (KDO), Antigen O=semne distinctive (serotipare)"
       },
       {
         "front": "Ce este colorația Gram și cum funcționează?",
@@ -41,7 +41,7 @@
       {
         "front": "Ce sunt endosporii bacterieni și care este structura lor?",
         "back": "ENDOSPORI = forme de rezistență la Bacillus și Clostridium\n\nSTRUCTURĂ:\n- Protoplast deshidratat cu dipicolinat de calciu (termorezistență)\n- Perete sporal (peptidoglican)\n- Cortex gros (peptidoglican sensibil la autolizine)\n- 2 tunici proteice (cisteină, legături -S-S-)\n\nCARACTERISTICI:\n- Poziție: centrală, subterminală, terminală\n- Formă: sferică sau ovală\n- Rezistență extremă la căldură, uscăciune, radiații",
-        "mnemonic": "Spori: Bacillus+Clostridium, Dipicolinat Ca = termorezistență"
+        "mnemonic": "Sporii BC (Bacillus, Clostridium) = buncar antiatomic: Dipicolinat de Ca = termorezistență, pot supraviețui autoclavării!"
       },
       {
         "front": "Ce este glicocalixul bacterian și care sunt funcțiile sale?",
@@ -66,7 +66,7 @@
       {
         "front": "Ce sunt toxinele bacteriene și cum se clasifică?",
         "back": "EXOTOXINE:\n- Secretate de bacterie\n- Proteine termolabile\n- Foarte toxice (doze mici)\n- Antigenice (produc antitoxine)\n- Pot fi transformate în anatoxine (vaccinuri)\n\nENDOTOXINE:\n- Eliberate la liza bacteriei\n- LPS (lipopolizaharid)\n- Termostabile\n- Toxicitate moderată\n- Slab antigenice",
-        "mnemonic": "EXO = Secretate, Proteine, Antigenice; ENDO = Liză, LPS, Termostabile"
+        "mnemonic": "Toxine: EXO=toxina care IESE viu din bacterie (proteină, vaccinabilă), ENDO=toxina din MOARTE (LPS, eliberat la liză, greu de neutralizat)"
       },
       {
         "front": "Care sunt mecanismele de acțiune ale antibioticelor?",
@@ -121,7 +121,7 @@
       {
         "front": "Care sunt caracteristicile Mycobacterium tuberculosis?",
         "back": "MORFOLOGIE: bacil acid-alcool rezistent (BAAR)\n\nCARACTERISTICI:\n- Creștere foarte lentă (2-6 săpt)\n- Perete bogat în acizi micolici\n- Aerob strict\n- Colorație Ziehl-Neelsen (roșu)\n\nTRANSMITERE: aerogenă (picături Flügge)\n\nPATOGENIE:\n- Parazit intracelular facultativ (macrofage)\n- Granuloame cu necroză cazeoasă\n\nDIAGNOSTIC: frotiu BAAR, cultură, PCR, IDR tuberculină\nTRATAMENT: HRZE (Izoniazidă, Rifampicină, Pirazinamidă, Etambutol)",
-        "mnemonic": "TB: BAAR, Ziehl-Neelsen, Aerogen, Granulom cazeoz, HRZE"
+        "mnemonic": "TB povestea: BAAR roșu pe Ziehl (perete cerat cu acizi micolici), intră prin AER, face Granulom ca brânza (cazeoz), tratament RIPE (Rifampicină-Izoniazidă-Pirazinamidă-Etambutol)"
       },
       {
         "front": "Care sunt caracteristicile Clostridium?",
@@ -196,7 +196,7 @@
       {
         "front": "Care sunt caracteristicile și clasificarea Shigella?",
         "back": "MORFOLOGIE: bacili Gram negativi imobili\n\nCARACTERISTICI:\n- Lactoză negativă (excepție S. sonnei = tardiv +)\n- H2S negativă\n- Urează negativă\n- Nu utilizează citratul\n\n4 SPECII (subgrupe):\n1. S. dysenteriae (13 serotipuri) - cel mai grav, toxina Shiga\n2. S. flexneri (6 serotipuri) - frecvent în zona temperată\n3. S. boydii (18 serotipuri)\n4. S. sonnei (1 serotip) - frecvent în zona noastră\n\nBOALĂ: Dizenteria bacilară",
-        "mnemonic": "Shigella DFBS: Dysenteriae-Flexneri-Boydii-Sonnei (Imobilă, Lactoză-)"
+        "mnemonic": "Shigella = 4 prietene RELE care nu mișcă (imobile): Dysenteriae (cea mai rea, toxina Shiga), Flexneri (flexibilă=frecventă), Boydii (rară), Sonnei (sunt multe la noi)"
       },
       {
         "front": "Care este patogenia și diagnosticul dizenteriei bacilare?",
@@ -331,7 +331,7 @@
       {
         "front": "Care sunt etapele efectuării unui frotiu bacteriologic?",
         "back": "1. ETALAREA:\n- Pe lamă curată, degresată\n- Suspensii: direct, mișcări circulare\n- Colonii: în picătură de apă distilată\n- Strat subțire, uniform\n\n2. USCAREA:\n- La aer sau pe platină încălzitoare (70°C)\n- Evită distorsiuni celulare\n\n3. FIXAREA:\n- Trecere prin flacară (2-3x, 5-10 sec)\n- Dosul mâinii suportă atingerea\n- Previne spălarea bacteriilor\n- Permeabilizează peretele pentru colorant",
-        "mnemonic": "Frotiu: EUF = Etalare-Uscare-Fixare (la flacără)"
+        "mnemonic": "Frotiu în 3 pași ca prăjitul: Întinzi (etalare), Lași să se usuce, Treci prin flacără (fixare) - dacă mâna suportă căldura, e bine!"
       },
       {
         "front": "Care sunt etapele și principiul colorației Gram?",

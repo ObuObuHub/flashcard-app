@@ -16,7 +16,7 @@
       {
         "front": "Care sunt compartimentele fierului în organism?",
         "back": "FIERUL TOTAL: 4-5g (50-55 mg/kg la bărbat, 35-40 mg/kg la femeie)\n\n4 COMPARTIMENTE:\n1. HEMOGLOBINA: 67% (2g) - utilizare\n2. DEPOZITE: 27% (1g) - feritină și hemosiderină\n3. TRANSPORT: 3% (0,1g) - transferină\n4. MIOGLOBINA: 4%\n\nFORME:\n- Fe HEMINIC: Hb, mioglobină, enzime\n- Fe NEHEMINIC: feritină, hemosiderină, transferină",
-        "mnemonic": "Fe: 67% Hb, 27% Depozit, 3% Transport, 4% Mioglobină"
+        "mnemonic": "Fierul în corp (total 4-5g): 2/3 lucrează în Hb, 1/4 doarme în depozit (feritină), restul transport (transferină) și mioglobină"
       },
       {
         "front": "Cum se face absorbția fierului?",
@@ -41,7 +41,7 @@
       {
         "front": "Care sunt anomaliile de formă ale eritrocitelor (poikilocite)?",
         "back": "SFEROCIT: sferă, fără zonă clară\n- Sferocitoză ereditară, anemii hemolitice imune\n\nELIPTOCIT/OVALOCIT: disc oval\n- Eliptocitoză ereditară, talasemii\n\nCODOCIT (celula în țintă):\n- Talasemie, boli hepatice, postsplenectomie\n\nDREPANOCIT (seceră/semilună):\n- Drepanocitoza (siclemie)\n\nDACRIOCIT (lacrimă/picătură):\n- Mielofibroză, anemii mieloftizice\n\nECHINOCIT: spiculi scurți, regulați\n- Uremie, deficit piruvat-kinază\n\nACANTOCIT: spiculi neregulați\n- Abetalipoproteinemie, ciroză",
-        "mnemonic": "Sferocit=sferă, Codocit=țintă, Drepanocit=seceră, Dacriocit=lacrimă"
+        "mnemonic": "Poikilocite - forme memorabile: Sferă (sferocitoză), Țintă (talasemie, ficat), Seceră (siclemie HbS), Lacrimă/picătură (mielofibroză - măduva plânge), Echino=arici (uremie)"
       },
       {
         "front": "Care sunt incluziile eritrocitare patologice?",
@@ -106,7 +106,7 @@
       {
         "front": "Care sunt bolile mieloproliferative cronice?",
         "back": "4 BOLI MIELOPROLIFERATIVE CRONICE:\n\n1. LEUCEMIA MIELOIDĂ CRONICĂ (LMC):\n- Cromozomul Philadelphia (BCR-ABL)\n- Leucocitoză marcată, FAL scăzută\n- Splenomegalie\n\n2. POLICITEMIA VERA (PV):\n- Masă eritrocitară↑↑, Ht↑↑\n- Pancitoza, splenomegalie\n- EPO scăzută, prurit\n\n3. TROMBOCITEMIA ESENȚIALĂ (TE):\n- Trombocite >600.000/mm³\n- Tromboze și/sau hemoragii\n\n4. MIELOFIBROZA PRIMARĂ (MMM):\n- Fibroză medulară\n- Hematopoieză extramedulară\n- Splenomegalie tumorală\n- Dacriocite (eritrocite în picătură)",
-        "mnemonic": "MPNC: LMC(Ph+), PV(Eritro↑), TE(Trombo↑), MMM(Fibroză+Dacriocite)"
+        "mnemonic": "4 boli mieloproliferative - fiecare crește altceva: LMC=Leucocite+cromozom Philadelphia, PV=eritrocite (policitemie VERA=roșie), TE=Trombocite, MMM=fibroză (măduvă înlocuită, dacriocite=lacrimi)"
       },
       {
         "front": "Care sunt criteriile de diagnostic pentru LMC?",
@@ -161,7 +161,7 @@
       {
         "front": "Care este formula leucocitară normală?",
         "back": "LEUCOCITE TOTALE: 4.000-10.000/mm³\n\nFORMULA:\n- Neutrofile segmentate: 50-70% (2.500-7.500)\n- Neutrofile nesegmentate: 0-5% (0-500)\n- Limfocite: 20-40% (1.500-4.000)\n- Monocite: 2-8% (200-800)\n- Eozinofile: 1-4% (50-400)\n- Bazofile: 0-1% (0-100)\n\nDEVIERE LA STÂNGA:\n- Creștere forme imature (nesegmentate, mielocite)\n- Infecții bacteriene acute\n\nLIMFOCITOZĂ:\n- Infecții virale\n- LLC, LAL\n\nEOZINOFILIE:\n- Alergii, parazitoze\n- Boli mieloproliferative",
-        "mnemonic": "Neutrofile 60%, Limfocite 30%, Monocite 5%, Eozinofile 3%, Bazofile 1%"
+        "mnemonic": "Formula leucocitară (regula 60-30-5-3-1): Neutro=soldații majoritari (60%), Limfo=memoria (30%), Mono=curățenie (5%), Eozino=alergii/paraziți (3%), Bazo=rare (1%)"
       },
       {
         "front": "Ce este testul Coombs și când se folosește?",
