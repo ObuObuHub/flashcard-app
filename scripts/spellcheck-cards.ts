@@ -94,20 +94,6 @@ const medicalDiacritics: [string, string][] = [
   ['terapeutica', 'terapeutică'],
 ]
 
-// Common typos in Romanian
-const commonTypos: [RegExp, string][] = [
-  [/\bii\b/gi, 'îi'],
-  [/\baceasi\b/gi, 'aceeași'],
-  [/\bcateva\b/gi, 'câteva'],
-  [/\bimpreuna\b/gi, 'împreună'],
-  [/\bsingura\b/gi, 'singură'],
-  [/\bexista\b/gi, 'există'],
-  [/\bpoate\b/gi, 'poate'], // OK
-  [/\btrei\b/gi, 'trei'], // OK
-  [/\bdoi\b/gi, 'doi'], // OK
-  [/\bcinci\b/gi, 'cinci'], // OK
-]
-
 // Medical terms that are allowed (don't flag these)
 const allowedMedicalTerms = new Set([
   'virion', 'virusuri', 'virusologie', 'capsidă', 'nucleocapsidă',

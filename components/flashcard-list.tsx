@@ -6,16 +6,17 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { ChevronDown, ChevronUp, Pencil, Trash2, Tags } from 'lucide-react'
-import type { FlashcardWithStats } from '@/types'
+import type { FlashcardWithStats, Tag } from '@/types'
 import { deleteFlashcard } from '@/lib/actions/flashcards'
 import { FlashcardForm } from './flashcard-form'
 
 interface FlashcardListProps {
   flashcards: FlashcardWithStats[]
   deckId: string
+  availableTags?: Tag[]
 }
 
-function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; deckId: string }) {
+function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: FlashcardWithStats; deckId: string; availableTags?: Tag[] }) {
   const [expanded, setExpanded] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const router = useRouter()
@@ -146,6 +147,7 @@ function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; d
               <FlashcardForm
                 deckId={deckId}
                 flashcard={flashcard}
+                availableTags={availableTags}
                 trigger={
                   <Button variant="ghost" size="sm" disabled={deleting}>
                     <Pencil className="w-4 h-4" />
@@ -169,7 +171,7 @@ function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; d
   )
 }
 
-export function FlashcardList({ flashcards, deckId }: FlashcardListProps) {
+export function FlashcardList({ flashcards, deckId, availableTags }: FlashcardListProps) {
   if (flashcards.length === 0) {
     return (
       <div className="text-center py-12 text-gray-500">
@@ -181,7 +183,7 @@ export function FlashcardList({ flashcards, deckId }: FlashcardListProps) {
   return (
     <div className="space-y-3">
       {flashcards.map((flashcard) => (
-        <FlashcardItem key={flashcard.id} flashcard={flashcard} deckId={deckId} />
+        <FlashcardItem key={flashcard.id} flashcard={flashcard} deckId={deckId} availableTags={availableTags} />
       ))}
     </div>
   )

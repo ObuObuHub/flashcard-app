@@ -1,6 +1,6 @@
-import { type NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 
-export async function middleware(_request: NextRequest) {
+export function middleware() {
   // Auth disabled for now - focus on flashcards
   return NextResponse.next()
 }

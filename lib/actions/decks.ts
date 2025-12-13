@@ -157,18 +157,7 @@ export async function updateDeck(deckId: string, formData: FormData) {
   const validatedName = validateDeckName(name)
   const validatedDescription = validateDeckDescription(description)
 
-  // Verify ownership before update
-  const { data: existingDeck } = await supabase
-    .from('decks')
-    .select('id')
-    .eq('id', deckId)
-    .eq('user_id', user.id)
-    .single()
-
-  if (!existingDeck) {
-    throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l modifica')
-  }
-
+  // Update deck - user_id constraint ensures ownership
   const { data: deck, error } = await supabase
     .from('decks')
     .update({
@@ -180,7 +169,13 @@ export async function updateDeck(deckId: string, formData: FormData) {
     .select()
     .single()
 
-  if (error) throw error
+  if (error) {
+    if (error.code === 'PGRST116') {
+      // No rows returned - deck not found or not owned
+      throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l modifica')
+    }
+    throw error
+  }
 
   revalidatePath('/decks')
   revalidatePath(`/decks/${deckId}`)
@@ -194,25 +189,20 @@ export async function deleteDeck(deckId: string) {
   const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
-  // Verify ownership before delete
-  const { data: existingDeck } = await supabase
-    .from('decks')
-    .select('id')
-    .eq('id', deckId)
-    .eq('user_id', user.id)
-    .single()
-
-  if (!existingDeck) {
-    throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l șterge')
-  }
-
-  const { error } = await supabase
+  // Delete deck - user_id constraint ensures ownership
+  const { data, error } = await supabase
     .from('decks')
     .delete()
     .eq('id', deckId)
     .eq('user_id', user.id)
+    .select('id')
 
   if (error) throw error
+
+  // Check if any row was deleted
+  if (!data || data.length === 0) {
+    throw new Error('Setul nu a fost găsit sau nu ai permisiunea de a-l șterge')
+  }
 
   revalidatePath('/decks')
   return { success: true }

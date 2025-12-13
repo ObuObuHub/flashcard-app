@@ -1,0 +1,533 @@
+[
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": -1,
+    "field": "description",
+    "word": "Structura",
+    "suggestion": "structură",
+    "context": "Structura bacteriană, relații gazdă-microorganism...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 0,
+    "field": "back",
+    "word": "Membrana",
+    "suggestion": "membrană",
+    "context": "...\nd) Incluziuni: rezerve de nutrienți\ne) Membrana citoplasmatică: fără steroli, cu mezoso...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 2,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura și compoziția peptidoglicanului?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 2,
+    "field": "back",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "PEPTIDOGLICAN = structura de bază a peretelui bacterian\n\nCOMPOZIȚ...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 3,
+    "field": "back",
+    "word": "Puțin",
+    "suggestion": "în",
+    "context": "...Perete subțire (8-12nm), neomogen, 2D\n- Puțin peptidoglican\n- Membrană externă cu LPS...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 4,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura lipopolizaharidului (LPS) la bacteriile...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 5,
+    "field": "back",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "...RAȚIA GRAM diferențiază bacteriile după structura peretelui:\n\n1. Colorare cu cristal viol...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 7,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "...sunt endosporii bacterieni și care este structura lor?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 8,
+    "field": "back",
+    "word": "capsula",
+    "suggestion": "capsulă",
+    "context": "...ic distal peretelui\n\n2 TIPURI:\n1. Dens (capsula): nu se separă prin centrifugare\n2. Lax...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 13,
+    "field": "back",
+    "word": "SINTEZA",
+    "suggestion": "sinteză",
+    "context": "1. INHIBĂ SINTEZA PERETELUI:\n- β-lactamine (penicilina, c...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 13,
+    "field": "back",
+    "word": "MEMBRANA",
+    "suggestion": "membrană",
+    "context": "...licopeptide (vancomicina)\n\n2. ALTEREAZĂ MEMBRANA:\n- Polimixine, daptomicină\n\n3. INHIBĂ S...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 15,
+    "field": "back",
+    "word": "Proteina",
+    "suggestion": "proteină",
+    "context": "... (carotenoizi)\n\nFACTORI DE VIRULENȚĂ:\n- Proteina A (legare Fc IgG)\n- Coagulaza, hemolizi...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 17,
+    "field": "back",
+    "word": "Proteina",
+    "suggestion": "proteină",
+    "context": "...R test pozitiv\n\nFACTORI DE VIRULENȚĂ:\n- Proteina M (antifagocitară)\n- Streptolizine O și...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 17,
+    "field": "mnemonic",
+    "word": "Proteina",
+    "suggestion": "proteină",
+    "context": "S. pyogenes = β-hemolitic, Proteina M, RAA+GNA posibile",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 18,
+    "field": "back",
+    "word": "Capsula",
+    "suggestion": "capsulă",
+    "context": "...hină\n- Solubil în bilă\n- >90 serotipuri capsulare\n\nFACTORI DE VIRULENȚĂ:\n- Capsula poli...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 35,
+    "field": "back",
+    "word": "sinteza",
+    "suggestion": "sinteză",
+    "context": "...e fagul β (conversie lizogenă)\n- Inhibă sinteza proteică (blochează EF-2)\n\nBOALĂ: Difte...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 54,
+    "field": "back",
+    "word": "Străin",
+    "suggestion": "în",
+    "context": "...ORI care influențează imunogenitatea:\n- Străin de organism (non-self)\n- Greutate molec...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 54,
+    "field": "mnemonic",
+    "word": "Străin",
+    "suggestion": "în",
+    "context": "Antigen = Induce + Reacționează, Străin + Mare + Complex",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 62,
+    "field": "back",
+    "word": "proteina",
+    "suggestion": "proteină",
+    "context": "...nensis\n\nALTE TESTE:\n- Aglutinare latex (proteina A + clumping factor)\n- Testul DNazei",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 66,
+    "field": "back",
+    "word": "rețin",
+    "suggestion": "în",
+    "context": "...alcoolul deshidratează, închide porii → rețin colorantul = VIOLET\n- G-: perete subțir...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "bacteriologie.json",
+    "cardIndex": 73,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura imunoglobulinelor (anticorpilor)?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 1,
+    "field": "front",
+    "word": "obțin",
+    "suggestion": "în",
+    "context": "...re a lipoproteinelor și ce fracțiuni se obțin?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 5,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...dominant hepatică\n\n2. GOT (ASAT):\n- Mai puțin specific (și inimă, mușchi)\n- Raport GO...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 8,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...re: Inimă, Ficat, Mușchi, Rinichi\n- Mai puțin specific\n\nINTERPRETARE RAPORT GOT/GPT:\n...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 14,
+    "field": "back",
+    "word": "sinteza",
+    "suggestion": "sinteză",
+    "context": "...ină - B3):\n- Biosinteză reductivă\n- Ex: sinteza acizilor grași\n\n3. FAD/FADH2 (din Ribof...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 16,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...AT:\n- GPT (cel mai specific)\n- GOT (mai puțin specific)\n- γ-GT (alcoolism, colestază)...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 20,
+    "field": "back",
+    "word": "Proteina",
+    "suggestion": "proteină",
+    "context": "...Ordonate conform secvenței reacțiilor\n- Proteina centrală poate fi și enzimă\n- Braț mobi...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 26,
+    "field": "back",
+    "word": "PROTEINA",
+    "suggestion": "proteină",
+    "context": "MARKERI DE INFLAMAȚIE:\n\n1. PROTEINA C REACTIVĂ (PCR/CRP):\n- Normal: <5 mg/L...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie-practic.json",
+    "cardIndex": 31,
+    "field": "back",
+    "word": "Temperatura",
+    "suggestion": "temperatură",
+    "context": "...:\n- 2-8°C pentru majoritatea probelor\n- Temperatura camerei: gazometrie (15 min)",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 0,
+    "field": "back",
+    "word": "STRUCTURA",
+    "suggestion": "structură",
+    "context": "4 NIVELE:\n\n1. STRUCTURA PRIMARĂ:\n- Secvența aminoacizilor\n- Cod...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 2,
+    "field": "back",
+    "word": "Enzima",
+    "suggestion": "enzimă",
+    "context": "...-cetoacid ↔ nou cetoacid + glutamat\n- Coenzima: piridoxalfosfat (B6)\n- GPT (ALAT): ala...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 8,
+    "field": "back",
+    "word": "Enzima",
+    "suggestion": "enzimă",
+    "context": "...idativă)\n- Loc: matrixul mitocondrial\n- Enzima: piruvat dehidrogenaza\n- Acetil-CoA → C...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 12,
+    "field": "back",
+    "word": "enzima",
+    "suggestion": "enzimă",
+    "context": "...oame)\n- Ficatul NU poate utiliza (lipsă enzima de activare)\n\nCONDIȚII FAVORIZANTE:\n- F...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 14,
+    "field": "back",
+    "word": "enzima",
+    "suggestion": "enzimă",
+    "context": "ACETIL-CoA CARBOXILAZA = enzima cheie\n\nACTIVATORI (+):\n- CITRAT (semnal...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 19,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura enzimelor și tipurile de cofactori?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 19,
+    "field": "back",
+    "word": "STRUCTURA",
+    "suggestion": "structură",
+    "context": "STRUCTURA ENZIMELOR:\n\n1. ENZIME PROTEICE PURE:\n- ...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "biochimie.json",
+    "cardIndex": 26,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care sunt rolurile și structura colesterolului?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 11,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...BE:\n   - Tub 100mm, sânge EDTA\n   - Mai puțin sensibil\n\nVALORI NORMALE (1h):\n- Bărbaț...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 12,
+    "field": "back",
+    "word": "temperatura",
+    "suggestion": "temperatură",
+    "context": "...nemie\n- Crioglobuline\n\nFACTORI TEHNICI: temperatura, înclinare tub, timp",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 16,
+    "field": "back",
+    "word": "temperatura",
+    "suggestion": "temperatură",
+    "context": "...uții NaCl 0,1-0,9%\n- Incubare 30 min la temperatura camerei\n- Citire supernantant (Hb elibe...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 25,
+    "field": "back",
+    "word": "Temperatura",
+    "suggestion": "temperatură",
+    "context": "... Ac donator vs Ag primitor\n\nTEHNICI:\n1. Temperatura camerei (IgM)\n2. 37°C + albumină (IgG)\n...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 28,
+    "field": "back",
+    "word": "Celula",
+    "suggestion": "celulă",
+    "context": "...PECT:\n- Corp LE: masă omogenă, violet\n- Celula LE: neutrofil cu corp LE fagocitat\n- Ro...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 33,
+    "field": "back",
+    "word": "Ca²⁺",
+    "suggestion": "că",
+    "context": "... a plasmei cu tromboplastină tisulară + Ca²⁺\nEVALUEAZĂ: calea extrinsecă (II, V, VII...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 34,
+    "field": "back",
+    "word": "Ca²⁺",
+    "suggestion": "că",
+    "context": "...ei cu fosfolipide + activator contact + Ca²⁺\nEVALUEAZĂ: calea intrinsecă (VIII, IX, ...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie-practic.json",
+    "cardIndex": 35,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...at:\n   - Calculat din curba TQ\n   - Mai puțin precis\n\n3. GRAVIMETRIC (von Clauss modi...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 0,
+    "field": "back",
+    "word": "Celula",
+    "suggestion": "celulă",
+    "context": "...re a precursorilor eritrocitari\n\nETAPE:\nCelula stem → Proeritroblast → Eritroblast baz...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 1,
+    "field": "back",
+    "word": "Conțin",
+    "suggestion": "în",
+    "context": "...ritrocite\n- Circulă 1-3 zile în sânge\n- Conțin rețea reticulofilamentară (ARN ribozoma...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 7,
+    "field": "back",
+    "word": "celula",
+    "suggestion": "celulă",
+    "context": "...tocitoză ereditară, talasemii\n\nCODOCIT (celula în țintă):\n- Talasemie, boli hepatice, ...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 12,
+    "field": "back",
+    "word": "PROTEINA",
+    "suggestion": "proteină",
+    "context": "...de heparină\n- Deficit → risc trombotic\n\nPROTEINA C și S:\n- Vitamino-K dependente\n- C act...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 12,
+    "field": "back",
+    "word": "proteina",
+    "suggestion": "proteină",
+    "context": "...de heparină\n- Deficit → risc trombotic\n\nPROTEINA C și S:\n- Vitamino-K dependente\n- C act...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 12,
+    "field": "mnemonic",
+    "word": "Proteina",
+    "suggestion": "proteină",
+    "context": "AT III = cel mai puternic + heparină; Proteina C+S = inactivează V și VIII",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 13,
+    "field": "back",
+    "word": "enzima",
+    "suggestion": "enzimă",
+    "context": "COMPONENTE:\n1. PLASMINOGEN → PLASMINĂ (enzima activă)\n2. ACTIVATORI\n3. INHIBITORI\n\nAC...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 28,
+    "field": "back",
+    "word": "puțin",
+    "suggestion": "în",
+    "context": "...uniformi\n- Raport N/C crescut\n- Nucleol puțin vizibil\n- Citoplasma redusă\n- Cel mai f...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "hematologie.json",
+    "cardIndex": 42,
+    "field": "mnemonic",
+    "word": "Ca↓",
+    "suggestion": "că",
+    "context": "...unologice: Volum↑+Infecții+Fier↑+Citrat(Ca↓)+Hipotermie+K↑",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "parazitologie.json",
+    "cardIndex": 0,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura adultului de Echinococcus granulosus?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "parazitologie.json",
+    "cardIndex": 2,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura chistului hidatic?",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "virusologie.json",
+    "cardIndex": 1,
+    "field": "back",
+    "word": "Conțin",
+    "suggestion": "în",
+    "context": "1. Parazite intracelulare stricte\n2. Conțin un singur tip de acid nucleic (ADN SAU ...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "virusologie.json",
+    "cardIndex": 1,
+    "field": "back",
+    "word": "celula",
+    "suggestion": "celulă",
+    "context": "1. Parazite intracelulare stricte\n2. Conțin un singur tip de ac...",
+    "type": "missing_diacritic"
+  },
+  {
+    "file": "virusologie.json",
+    "cardIndex": 9,
+    "field": "front",
+    "word": "structura",
+    "suggestion": "structură",
+    "context": "Care este structura antigenică a VHB?",
+    "type": "missing_diacritic"
+  }
+]

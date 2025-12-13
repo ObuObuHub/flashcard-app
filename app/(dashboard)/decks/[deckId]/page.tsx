@@ -22,8 +22,11 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
     notFound()
   }
 
-  const flashcards = await getFlashcards(deckId)
-  const availableTags = await getTags()
+  // Fetch flashcards and tags in parallel for better performance
+  const [flashcards, availableTags] = await Promise.all([
+    getFlashcards(deckId),
+    getTags(),
+  ])
 
   // Count cards due for review
   const now = new Date()
@@ -53,7 +56,7 @@ export default async function DeckDetailPage({ params }: DeckDetailPageProps) {
 
         {/* Actions */}
         <div className="flex gap-3 mb-6">
-          <FlashcardForm deckId={deckId} />
+          <FlashcardForm deckId={deckId} availableTags={availableTags} />
           {cardsDue > 0 && (
             <Button asChild>
               <Link href={`/study/${deckId}`}>

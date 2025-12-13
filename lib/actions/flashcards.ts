@@ -87,11 +87,24 @@ export async function createFlashcard(deckId: string, formData: FormData) {
 
   // Add tags if provided
   if (tagIds && flashcard) {
-    const tagIdArray = JSON.parse(tagIds) as string[]
+    let tagIdArray: string[] = []
+    try {
+      const parsed = JSON.parse(tagIds)
+      if (Array.isArray(parsed)) {
+        tagIdArray = parsed.filter((id): id is string => typeof id === 'string')
+      }
+    } catch {
+      // Invalid JSON, skip tags
+    }
+
     if (tagIdArray.length > 0) {
-      await supabase
+      const { error: tagError } = await supabase
         .from('card_tags')
         .insert(tagIdArray.map((tagId) => ({ card_id: flashcard.id, tag_id: tagId })))
+
+      if (tagError) {
+        console.error('Failed to add tags to flashcard:', tagError)
+      }
     }
   }
 
@@ -146,14 +159,31 @@ export async function updateFlashcard(cardId: string, formData: FormData) {
 
   // Update tags if provided
   if (tagIds) {
-    const tagIdArray = JSON.parse(tagIds) as string[]
+    let tagIdArray: string[] = []
+    try {
+      const parsed = JSON.parse(tagIds)
+      if (Array.isArray(parsed)) {
+        tagIdArray = parsed.filter((id): id is string => typeof id === 'string')
+      }
+    } catch {
+      // Invalid JSON, skip tag update
+    }
+
     // Remove all existing tags
-    await supabase.from('card_tags').delete().eq('card_id', cardId)
+    const { error: deleteError } = await supabase.from('card_tags').delete().eq('card_id', cardId)
+    if (deleteError) {
+      console.error('Failed to remove existing tags:', deleteError)
+    }
+
     // Add new tags
     if (tagIdArray.length > 0) {
-      await supabase
+      const { error: insertError } = await supabase
         .from('card_tags')
         .insert(tagIdArray.map((tagId) => ({ card_id: cardId, tag_id: tagId })))
+
+      if (insertError) {
+        console.error('Failed to add tags to flashcard:', insertError)
+      }
     }
   }
 
@@ -210,7 +240,54 @@ function shuffleArray<T>(array: T[]): T[] {
 export async function getDueFlashcards(deckId: string): Promise<FlashcardWithStats[]> {
   const supabase = await createClient()
 
-  // Get all cards with their stats
+  // Mock user for development (auth disabled)
+  const userId = '00000000-0000-0000-0000-000000000001'
+
+  // Try optimized RPC function first
+  const { data: rpcData, error: rpcError } = await supabase.rpc('get_due_flashcards', {
+    p_deck_id: deckId,
+    p_user_id: userId,
+  })
+
+  // If RPC exists and succeeds, use it (much faster!)
+  if (!rpcError && rpcData) {
+    const cards = rpcData.map((row: Record<string, unknown>) => ({
+      id: row.id as string,
+      deck_id: row.deck_id as string,
+      front: row.front as string,
+      back: row.back as string,
+      mnemonic: row.mnemonic as string | null,
+      image_url: row.image_url as string | null,
+      created_at: row.created_at as string,
+      stats: row.stats_id
+        ? {
+            id: row.stats_id as string,
+            card_id: row.id as string,
+            user_id: userId,
+            easiness_factor: Number(row.easiness_factor),
+            interval: Number(row.interval),
+            repetitions: Number(row.repetitions),
+            next_review: row.next_review as string,
+            last_reviewed: row.last_reviewed as string | null,
+          }
+        : undefined,
+    })) as FlashcardWithStats[]
+
+    // Shuffle unrated cards for variety
+    const unratedCards = cards.filter((card) => !card.stats || card.stats.repetitions === 0)
+    const ratedCards = cards.filter((card) => card.stats && card.stats.repetitions > 0)
+    return [...shuffleArray(unratedCards), ...ratedCards]
+  }
+
+  // Fallback to old approach if RPC doesn't exist
+  if (rpcError && rpcError.code !== '42883' && rpcError.code !== 'PGRST202') {
+    // Real error, not just missing function
+    throw rpcError
+  }
+
+  console.warn('Optimized RPC not found, using fallback query. Consider running migration 006.')
+
+  // Get all cards with their stats (N+1 approach - slower)
   const { data: flashcards, error } = await supabase
     .from('flashcards')
     .select(`

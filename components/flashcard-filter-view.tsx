@@ -57,7 +57,7 @@ export function FlashcardFilterView({
 
   // If no tags exist, just show the list
   if (availableTags.length === 0) {
-    return <FlashcardList flashcards={flashcards} deckId={deckId} />
+    return <FlashcardList flashcards={flashcards} deckId={deckId} availableTags={availableTags} />
   }
 
   return (
@@ -151,7 +151,7 @@ export function FlashcardFilterView({
           </div>
         )}
 
-        <FlashcardList flashcards={filteredFlashcards} deckId={deckId} />
+        <FlashcardList flashcards={filteredFlashcards} deckId={deckId} availableTags={availableTags} />
       </div>
     </div>
   )

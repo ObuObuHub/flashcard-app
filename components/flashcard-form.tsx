@@ -15,7 +15,6 @@ import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Plus, Tags as TagsIcon } from 'lucide-react'
 import { createFlashcard, updateFlashcard } from '@/lib/actions/flashcards'
-import { getTags } from '@/lib/actions/topics'
 import { translations } from '@/types'
 import type { FlashcardWithStats, Tag } from '@/types'
 
@@ -23,25 +22,20 @@ interface FlashcardFormProps {
   deckId: string
   flashcard?: FlashcardWithStats
   trigger?: React.ReactNode
+  availableTags?: Tag[]
 }
 
-export function FlashcardForm({ deckId, flashcard, trigger }: FlashcardFormProps) {
+export function FlashcardForm({ deckId, flashcard, trigger, availableTags = [] }: FlashcardFormProps) {
   const [open, setOpen] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [frontLength, setFrontLength] = useState(flashcard?.front.length || 0)
   const [backLength, setBackLength] = useState(flashcard?.back.length || 0)
-  const [availableTags, setAvailableTags] = useState<Tag[]>([])
   const [selectedTags, setSelectedTags] = useState<string[]>(
     flashcard?.tags?.map((t) => t.id) || []
   )
   const router = useRouter()
   const t = translations.cards
-
-  // Load available tags
-  useEffect(() => {
-    getTags().then(setAvailableTags).catch(console.error)
-  }, [])
 
   // Update selected tags when flashcard changes
   useEffect(() => {

@@ -74,18 +74,6 @@ export async function updateTag(tagId: string, formData: FormData) {
   // Validate input
   const validatedName = validateTagName(name)
 
-  // Verify ownership before update
-  const { data: existingTag } = await supabase
-    .from('tags')
-    .select('id')
-    .eq('id', tagId)
-    .eq('user_id', user.id)
-    .single()
-
-  if (!existingTag) {
-    throw new Error('Subiectul nu a fost găsit sau nu ai permisiunea de a-l modifica')
-  }
-
   // Check for duplicate name (excluding current tag)
   const { data: duplicate } = await supabase
     .from('tags')
@@ -99,6 +87,7 @@ export async function updateTag(tagId: string, formData: FormData) {
     throw new Error('Un alt subiect cu acest nume există deja')
   }
 
+  // Update tag - user_id constraint ensures ownership
   const { data: tag, error } = await supabase
     .from('tags')
     .update({ name: validatedName })
@@ -107,7 +96,13 @@ export async function updateTag(tagId: string, formData: FormData) {
     .select()
     .single()
 
-  if (error) throw error
+  if (error) {
+    if (error.code === 'PGRST116') {
+      // No rows returned - tag not found or not owned
+      throw new Error('Subiectul nu a fost găsit sau nu ai permisiunea de a-l modifica')
+    }
+    throw error
+  }
 
   revalidatePath('/topics')
   return tag
@@ -120,24 +115,23 @@ export async function deleteTag(tagId: string) {
   const userId = '00000000-0000-0000-0000-000000000001'
   const user = { id: userId }
 
-  // Verify ownership before delete
-  const { data: existingTag } = await supabase
-    .from('tags')
-    .select('id')
-    .eq('id', tagId)
-    .eq('user_id', user.id)
-    .single()
-
-  if (!existingTag) {
-    throw new Error('Subiectul nu a fost găsit sau nu ai permisiunea de a-l șterge')
-  }
-
   // Delete associated card_tags first (cascade should handle this, but being explicit)
   await supabase.from('card_tags').delete().eq('tag_id', tagId)
 
-  const { error } = await supabase.from('tags').delete().eq('id', tagId).eq('user_id', user.id)
+  // Delete tag - user_id constraint ensures ownership
+  const { data, error } = await supabase
+    .from('tags')
+    .delete()
+    .eq('id', tagId)
+    .eq('user_id', user.id)
+    .select('id')
 
   if (error) throw error
+
+  // Check if any row was deleted
+  if (!data || data.length === 0) {
+    throw new Error('Subiectul nu a fost găsit sau nu ai permisiunea de a-l șterge')
+  }
 
   revalidatePath('/topics')
   return { success: true }
