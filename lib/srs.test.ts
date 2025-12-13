@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { calculateNextReview, isDue } from './srs'
+import { calculateNextReview } from './srs'
 import type { CardStats } from '@/types'
 
 describe('SM-2 Algorithm - calculateNextReview', () => {
@@ -145,29 +145,5 @@ describe('SM-2 Algorithm - calculateNextReview', () => {
 
       expect(result.next_review.getDate()).toBe(expectedDate.getDate())
     })
-  })
-})
-
-describe('isDue', () => {
-  it('should return true for past dates', () => {
-    const pastDate = new Date()
-    pastDate.setDate(pastDate.getDate() - 1)
-    expect(isDue(pastDate)).toBe(true)
-  })
-
-  it('should return true for current date', () => {
-    expect(isDue(new Date())).toBe(true)
-  })
-
-  it('should return false for future dates', () => {
-    const futureDate = new Date()
-    futureDate.setDate(futureDate.getDate() + 1)
-    expect(isDue(futureDate)).toBe(false)
-  })
-
-  it('should handle string dates', () => {
-    const pastDate = new Date()
-    pastDate.setDate(pastDate.getDate() - 1)
-    expect(isDue(pastDate.toISOString())).toBe(true)
   })
 })

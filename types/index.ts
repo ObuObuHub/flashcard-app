@@ -1,40 +1,3 @@
-export interface Database {
-  public: {
-    Tables: {
-      decks: {
-        Row: Deck
-        Insert: Omit<Deck, 'id' | 'created_at'>
-        Update: Partial<Omit<Deck, 'id' | 'created_at'>>
-      }
-      flashcards: {
-        Row: Flashcard
-        Insert: Omit<Flashcard, 'id' | 'created_at'>
-        Update: Partial<Omit<Flashcard, 'id' | 'created_at'>>
-      }
-      card_stats: {
-        Row: CardStats
-        Insert: Omit<CardStats, 'id'>
-        Update: Partial<Omit<CardStats, 'id'>>
-      }
-      reviews: {
-        Row: Review
-        Insert: Omit<Review, 'id'>
-        Update: Partial<Omit<Review, 'id'>>
-      }
-      tags: {
-        Row: Tag
-        Insert: Omit<Tag, 'id'>
-        Update: Partial<Omit<Tag, 'id'>>
-      }
-      card_tags: {
-        Row: CardTag
-        Insert: CardTag
-        Update: Partial<CardTag>
-      }
-    }
-  }
-}
-
 export interface Deck {
   id: string
   user_id: string
@@ -78,11 +41,6 @@ export interface Tag {
   user_id: string
 }
 
-export interface CardTag {
-  card_id: string
-  tag_id: string
-}
-
 // View types with joined data
 export interface FlashcardWithStats extends Flashcard {
   stats?: CardStats
@@ -100,24 +58,6 @@ export type SRSRating = 1 | 2 | 3 | 4
 
 // Romanian UI translations
 export const translations = {
-  // Navigation
-  nav: {
-    decks: 'Seturi',
-    study: 'Studiază',
-    stats: 'Statistici',
-    logout: 'Deconectare',
-  },
-  // Auth
-  auth: {
-    login: 'Autentificare',
-    signup: 'Înregistrare',
-    email: 'Email',
-    password: 'Parolă',
-    loginButton: 'Intră în cont',
-    signupButton: 'Creează cont',
-    noAccount: 'Nu ai cont?',
-    hasAccount: 'Ai deja cont?',
-  },
   // Decks
   decks: {
     title: 'Seturile mele',
@@ -155,16 +95,6 @@ export const translations = {
     completed: 'Felicitări! Ai terminat toate cărțile pentru azi!',
     noCards: 'Nu ai cărți de revizuit azi.',
     cardsLeft: 'cărți rămase',
-  },
-  // Stats
-  stats: {
-    title: 'Statistici',
-    cardsReviewed: 'Cărți revizuite',
-    accuracy: 'Acuratețe',
-    streak: 'Zile consecutive',
-    totalDecks: 'Total seturi',
-    totalCards: 'Total cărți',
-    masteredCards: 'Cărți stăpânite',
   },
   // Common
   common: {

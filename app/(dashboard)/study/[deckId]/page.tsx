@@ -11,8 +11,6 @@ import { getDeck } from '@/lib/actions/decks'
 import { recordReview } from '@/lib/actions/reviews'
 import { getPreviewIntervals } from '@/lib/srs'
 import { Navbar } from '@/components/navbar'
-import { ToastContainer } from '@/components/ui/toast'
-import { useToast } from '@/components/ui/use-toast'
 import type { FlashcardWithStats, Deck, SRSRating } from '@/types'
 import { translations } from '@/types'
 
@@ -41,7 +39,6 @@ export default function StudyPage({ params }: StudyPageProps) {
   const isSubmittingRef = useRef(false)
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
   const cardRef = useRef<HTMLDivElement>(null)
-  const { toasts, addToast, removeToast } = useToast()
   const t = translations.study
 
   useEffect(() => {
@@ -97,13 +94,11 @@ export default function StudyPage({ params }: StudyPageProps) {
       }
     } catch (error) {
       console.error('Error recording review:', error)
-      const errorMessage = error instanceof Error ? error.message : 'Eroare la salvarea revizuirii'
-      addToast(errorMessage + ' - Incearca din nou.', 'error')
     } finally {
       isSubmittingRef.current = false
       setSubmitting(false)
     }
-  }, [currentCard, currentIndex, flashcards.length, addToast])
+  }, [currentCard, currentIndex, flashcards.length])
 
   // Navigate to previous/next card
   const goToPrevCard = useCallback(() => {
@@ -354,8 +349,6 @@ export default function StudyPage({ params }: StudyPageProps) {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-[#0a0a12] dark:to-[#0f0f1a]">
-      <ToastContainer toasts={toasts} onClose={removeToast} />
-
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 dark:bg-[#0a0a12]/80 backdrop-blur-xl border-b border-gray-200/50 dark:border-indigo-500/10">
         <div className="container mx-auto px-4 py-4">

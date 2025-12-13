@@ -76,17 +76,6 @@ export function calculateNextReview(
 }
 
 /**
- * Check if a card is due for review
- * @param nextReview - Next scheduled review date
- * @returns true if card is due
- */
-export function isDue(nextReview: string | Date): boolean {
-  const now = new Date()
-  const reviewDate = new Date(nextReview)
-  return now >= reviewDate
-}
-
-/**
  * Get preview intervals for all rating options
  * Used to show users what interval each choice will give
  * @param currentStats - Current card statistics (optional for new cards)
