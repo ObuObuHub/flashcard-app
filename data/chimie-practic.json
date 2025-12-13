@@ -6,72 +6,72 @@
       {
         "front": "Care sunt valorile normale ale sedimentului urinar pe un câmp microscopic?",
         "back": "Pe un câmp microscopic:\n- Hematii: 0-1\n- Leucocite: 3-5\n- Cilindri: 0-1\n- Cristale: rare\n- Celule epiteliale: rare (din căi urinare inferioare)",
-        "mnemonic": "H1-L5-C1 = Hematii 1, Leucocite 5, Cilindru 1"
+        "mnemonic": "SEDIMENT URINAR - regulă 1-5-1 ca un SEMAFOR: 🔴 Hematii 0-1 (STOP dacă sunt mai multe!), 🟡 Leucocite 3-5 (ATENȚIE la creșteri), 🟢 Cilindri 0-1 (OK rar); Cristale și Celule epiteliale = ca MUSAFIRII nepoftiți: rare = normal, multe = problemă"
       },
       {
         "front": "Care sunt tipurile de cilindri urinari și semnificația lor?",
         "back": "CILINDRI ACELULARI:\n- Hialini: albuminurii\n- Granuloși: GNA, PNA\n- Grăsoși: sindrom nefrotic\n- Pigmentari: Hb (acc. transfuzionale), mioglobină, bilirubină\n\nCILINDRI CELULARI:\n- Hematici: afecțiune glomerulară\n- Leucocitari: inflamații parenchim renal\n- Epiteliali: afecțiune tubulară toxică/infecțioasă",
-        "mnemonic": "Cilindri: Acelulari (fără celule)=Hialin (albumină), Granulos (necroză), Gras (nefrotic), Pigmentar (Hb/bilirubină); Celulari=Hematic (glomerul), Leucocitar (pielonefrită), Epitelial (toxic)"
+        "mnemonic": "CILINDRII URINARI = MULAJE ale tubilor renali (ca turnate în forme): ACELULARI (goale): Hialini=sticlă TRANSPARENTĂ (proteine), Granuloși=NISIP în tub (necroză celulară), Grăsoși=UNT (nefrotic pierde grăsimi), Pigmentari=VOPSEA colorată (Hb roșu, bilirubină galben); CELULARI (cu celule prinse): Hematici=tub cu SÂNGE (glomerul), Leucocitari=tub cu PUR (pielonefrită), Epiteliali=tub DESCUAMAT (toxic)"
       },
       {
         "front": "Care sunt valorile normale ale fierului seric și cauzele variațiilor?",
         "back": "VN: Femei 90-100 μg/dL, Bărbați 130-140 μg/dL\n\nCRESCUT în:\n- Anemii hemolitice, talasemie\n- Hemocromatoză, anemie aplastică\n- Hepatite acute, intoxicații cu Fe\n\nSCĂZUT în:\n- Hemoragii, anemii feriprive\n- Infecții, tumori maligne\n- Sindrom nefrotic (pierdere transferină)",
-        "mnemonic": "Fe crescut = Hemoliză/Hemocromatoză, Fe scăzut = Hemoragie/Infecție"
+        "mnemonic": "FIERUL SERIC - ca BANII într-un cont: VN: F=90-100 (Femeile mai puțin), B=130-140 (Bărbații mai mult); CRESCUT=CONT SUPRAÎNCĂRCAT: Hemoliză (se sparg hematii=eliberează Fe), Hemocromatoză (se absoarbe prea mult), Hepatită (depozitul hepatic se varsă); SCĂZUT=CONT GOL: Hemoragii (pierzi Fe), Infecții (bacteriile fură Fe!), Nefrotic (pierzi transferina=portofelu Fe)"
       },
       {
         "front": "Care sunt valorile normale ale proteinelor totale și fracțiunile electroforetice?",
         "back": "PROTEINE TOTALE: 6,5-8,5 g/dL\n- Albumina: 4-5 g/dL (50-70%)\n- Raport A/G: 1,5-2,5\n\nELECTROFOREZĂ (5 fracțiuni):\n- Albumine: 37-45 g/L\n- α1 globuline: 1-3 g/L\n- α2 globuline: 4-10 g/L\n- β globuline: 5-10 g/L\n- γ globuline: 5-15 g/L",
-        "mnemonic": "A-α1-α2-β-γ = 5 fracțiuni, Albumina cea mai mare (50%+)"
+        "mnemonic": "ELECTROFOREZA PROTEINELOR - ca o CURSĂ de alergare: ALBUMINA = CAMPIONUL (cea mai rapidă, cea mai multă ~50%, migrează prima spre +); apoi în ordine: α1 (mica), α2 (medie), β (lentă), γ (cea mai lentă, anticorpii greoii); Proteine totale 6,5-8,5 g/dL (ține minte: aproape 7-8 ca pH-ul neutru!); Raport A/G=1,5-2,5 (albumina DUBLU față de globuline)"
       },
       {
         "front": "Care sunt valorile normale ale ureei și cauzele uremiei?",
         "back": "VN: 10-40 mg/dL ser (sau 2,5-7,5 mmol/L)\nValori critice: >100 mg/dL\n\nUREMIE (hiperazotemie):\n\nPRERENALĂ: scădere perfuzie renală, dietă hiperproteică, catabolism crescut\n\nRENALĂ: nefropatii acute/cronice, scăderea filtrării glomerulare\n\nPOSTRENALĂ: obstrucție (calculi, hipertrofie prostată, cancer)",
-        "mnemonic": "Uremie: PRE (perfuzie), RENALĂ (filtrate), POST (obstrucție)"
+        "mnemonic": "UREEA - ca o FABRICĂ de reciclare proteine: VN=10-40 mg/dL (ține minte: ca vârsta matură 10-40 ani!); Critic >100 (triplu!); UREMIE ca o conductă de apă: PRE-RENALĂ=problema e ÎNAINTE de rinichi (nu vine suficient sânge=pompa slabă, sau prea multe proteine de procesat); RENALĂ=problema e ÎN rinichi (filtrul e stricat); POST-RENALĂ=problema e DUPĂ rinichi (țeava blocată: calcul, prostată, cancer)"
       },
       {
         "front": "Care sunt valorile normale ale creatininei și cauzele variațiilor?",
         "back": "VN: 0,6-1,2 mg/dL (55-120 μmol/L)\nValori critice: >10 mg/dL la nedializați\n\nCRESCUTĂ în:\n- Afecțiuni renale acute/cronice\n- Insuficiență cardiacă, șoc, deshidratare\n- Afecțiuni musculare (rabdomioliză)\n- Hipertiroidism, acromegalie\n\nSCĂZUTĂ în:\n- Sarcină (fiziologic)\n- Scăderea masei musculare\n- Afecțiuni hepatice severe",
-        "mnemonic": "Creatinina = din Mușchi, crescută în afecțiuni Renale și Musculare"
+        "mnemonic": "CREATININA = GUNOIUL mușchilor: VN 0,6-1,2 (ca nota 6-12 la școală=mediu); Critic >10 (de 10x normal!); Vine din CREATINFOSFAT muscular (rezerva de energie); CRESCUTĂ: Rinichi bolnav (nu elimină gunoiul), Mușchi distrus (rabdomioliză=gunoi mult), Metabolism turbo (hipertiroidism); SCĂZUTĂ: Sarcină (volum mare=diluat), Mușchi puțini (vârstnici), Ficat bolnav (nu face creatină)"
       },
       {
         "front": "Care sunt valorile normale ale bilirubinei și tipurile de hiperbilirubinemii?",
         "back": "VN: BT <1 mg/dL, BD <0,3 mg/dL, BI <1 mg/dL\n\nHIPERBILIRUBINEMII:\n\nPREHEPATICE (↑BI): anemii hemolitice, eritropoieză defectivă\n\nHEPATOCELULARE (↑BD + ↑BI): hepatite, ciroze, deficite de conjugare\n\nCOLESTATICE (↑BD): colestaze intra/extrahepatice, calculi, cancer pancreas",
-        "mnemonic": "Pre=Indirectă (hemoliză), Hepato=Ambele, Colestază=Directă"
+        "mnemonic": "BILIRUBINA = VOPSEAUA galbenă din hematii: VN: BT<1, BD<0,3, BI<1 (toate sub 1!); Indirectă=NECONJUGATĂ (încă nu a trecut prin ficat); Directă=CONJUGATĂ (procesată de ficat); PREHEPATIC (↑BI): multe hematii sparte=MULTĂ VOPSEA neprocesată; HEPATIC (↑ambele): ficatul BOLNAV nu procesează bine=se adună ambele; POSTHEPATIC/Colestază (↑BD): ficatul procesează DAR canalul e BLOCAT=se întoarce vopseaua gata procesată"
       },
       {
         "front": "Care sunt valorile normale ale glicemiei și criteriile de diagnostic pentru DZ?",
         "back": "VN: 60-110 mg/dL\n\nGlicemie bazală modificată: 110-125 mg/dL\nDIABET ZAHARAT: ≥126 mg/dL\n\nValori critice:\n- <40 mg/dL (copii, femei) = hipoglicemie severă\n- <50 mg/dL (bărbați)\n- >400 mg/dL = hiperglicemie severă",
-        "mnemonic": "DZ ≥126, Normal <110, între 110-125 = bazală modificată"
+        "mnemonic": "GLICEMIA - TERMOMETRUL zahărului: Normal 60-110 (ține minte: ora 6-11 dimineața=normal); PREDIABET 110-125 (zona galbenă de avertizare); DIABET ≥126 (126=1 an + 26 litere alfabet=diagnosticat!); PERICOL jos: <40-50 (ca temperatura corporală scăzută=rău!); PERICOL sus: >400 (de 4x normal=criză hiperglicemică)"
       },
       {
         "front": "Care sunt cauzele hiperglicemiei și hipoglicemiei?",
         "back": "HIPERGLICEMIE:\n- DZ, boala Cushing, acromegalie\n- Feocromocitom, pancreatită\n- Stres (IMA, AVC)\n- Medicamente: cafeină, diuretice, estrogeni\n\nHIPOGLICEMIE:\n- Insulinom, tumori extrapancreatice\n- Boala Addison, hipopituitarism\n- Supradozaj insulină\n- Malabsorbție, necroză hepatică",
-        "mnemonic": "Hiper = Cushing/DZ/Stres, Hipo = Insulinom/Addison/Insulină prea multă"
+        "mnemonic": "GLICEMIA - ca BANII în cont: HIPERGLICEMIE (prea mulți bani): DZ (nu poți cheltui glucoza), Cushing/Stres (hormonii de stres=economisire forțată), Feocromocitom (adrenalină=panică=scoți rezervele), Acromegalie (GH crește tot); HIPOGLICEMIE (cont gol): Insulinom (cheltuiești prea mult), Addison (lipsă cortizol=nu economisești), Supradoză insulină (cheltuială forțată), Ficat mort (nu mai ai rezerve de glicogen)"
       },
       {
         "front": "Care sunt valorile normale ale trigliceridelor și colesterolului?",
         "back": "TRIGLICERIDE:\n- VN: <200 mg/dL\n- La limită: 200-400 mg/dL\n- Patologic: >1000 mg/dL\n\nCOLESTEROL TOTAL:\n- VN: <200 mg/dL\n- La limită: 200-240 mg/dL\n- Crescut: >240 mg/dL\n- Alertă: >300 mg/dL",
-        "mnemonic": "TG și Col: <200 = Normal, 200-240 = Border, >240 = Crescut"
+        "mnemonic": "LIPIDE SERICE - regula DOI SUTE (200): TG și COL ambele trebuie <200 (număr magic!); TG: 200-400=borderline, >1000=PERICOL pancreatită!; COL: 200-240=borderline, >240=crescut, >300=ALERTĂ; Imaginează-ți 200 ca un ZID: sub zid=sigur, pe zid=atenție, peste zid=pericol; TG sunt mai periculoase (pot ajunge la 1000!)"
       },
       {
         "front": "Care sunt valorile normale ale transaminazelor (TGP/TGO) și semnificația lor?",
         "back": "TGP (ALAT): VN 5-55 UI/L\n- Specifică pentru FICAT\n- Crescută în: hepatite, ciroză, steatoză\n\nTGO (ASAT): VN 5-40 UI/L\n- În ficat și MIOCARD\n- Crescută în: IMA (6h, max 36h), hepatite, distrofii musculare\n\nÎn ciroză: TGO > TGP (inversie raport)\nÎn hepatită: TGP > TGO",
-        "mnemonic": "ALT = Altceva decât inima (ficat), AST = și inimĂ (miocard)"
+        "mnemonic": "TRANSAMINAZE - ALT vs AST: ALT (TGP)=LEVER (ficat în engleză) = DOAR FICAT, VN 5-55; AST (TGO)=AȘA ȘI inima! = ficat + MIOCARD, VN 5-40; În HEPATITĂ acută: ALT > AST (ficatul țipă tare!); În CIROZĂ: AST > AST (ficatul cicatrizat=inversare, ratio DeRitis >1); AST crește în IMA la 6h, max 36h (inima plânge prin AST!)"
       },
       {
         "front": "Care sunt valorile normale și semnificația analizelor LCR?",
         "back": "PROTEINE: 10-30 mg/dL\n- Crescute în inflamații SNC\n- Acute: ↑albumine, Cronice: ↑globuline\n\nGLUCOZĂ: 55-70 mg/dL\n- Scăzută în meningite acute (meningococ, TBC)\n- Crescută în tumori, encefalite\n\nCLORURI: 7,2-7,5 g/L\n- Scăzute în meningită TBC (<5 g/L) și non-TBC (6,5 g/L)",
-        "mnemonic": "LCR: Glucoză și Cloruri SCAD în meningită (TBC cel mai mult)"
+        "mnemonic": "LCR - lichidul SPECIAL al creierului: PROTEINE 10-30 mg/dL (dacă cresc=INFLAMAȚIE: acute↑albumine, cronice↑globuline); GLUCOZĂ 55-70 mg/dL (BACTERIILE MĂNÂNCĂ glucoza! în meningită bacteriană SCADE dramatic); CLORURI 7,2-7,5 g/L (SCAD în meningită, TBC le scade cel mai mult <5!); Regulă: în MENINGITĂ totul SCADE (glucoză, cloruri) pentru că bacteriile consumă și inflamația blochează"
       },
       {
         "front": "Care sunt valorile normale ale proteinuriei și clasificarea?",
         "back": "VN: <150 mg/24h (considerate absente)\n\nCLASIFICARE după cantitate:\n- Ușoare: <1 g/24h (efort, febră)\n- Medii: 1-3 g/24h (PNA, GNC)\n- Severe: >3,5 g/24h (sd nefrotic, GNA)\n\nDupă selectivitate:\n- Selectivă: doar albumine\n- Neselectivă: toate proteinele",
-        "mnemonic": "Proteinurie: <1=Ușoară, 1-3=Medie, >3,5=Severă (Nefrotic)"
+        "mnemonic": "PROTEINURIA - când rinichiul PIERDE proteine: Normal <150 mg/24h (practic 0); Ca GĂURI în filtru: MICI <1g (doar efort/febră=găuri temporare), MEDII 1-3g (pielonefrită/GNC=găuri moderate), MARI >3,5g (sd NEFROTIC=gaură imensă!); SELECTIVĂ=filtru cu ochiuri mici (doar albumina mică trece), NESELECTIVĂ=filtru rupt (trec toate proteinele); 3,5g e pragul NEFROTIC (memorează: 3 virgulă 5 = NEFROTIC)"
       },
       {
         "front": "Care sunt semnificațiile patologice ale electroforezei proteinelor?",
         "back": "ALBUMINA scade în: malnutriție, sd nefrotic, neoplazii\n\nα1 (antitripsină): crește în inflamații, scade în emfizem\n\nα2 (macroglobulină): crește în inf, RAA, sd nefrotic\n\nβ (transferină, C3, C4): crește în anemie feriprivă, scade în boli autoimune\n\nγ: crește în ciroză, hepatită; scade în sd nefrotic, limfoproliferări",
-        "mnemonic": "Inflamație = α cresc, Ciroză = γ cresc, Nefrotic = Albumină scade"
+        "mnemonic": "ELECTROFOREZA PATOLOGICĂ - fiecare fracțiune are POVESTEA ei: ALBUMINA=HRANA corpului (scade când nu mănânci/pierzi/consumi: malnutriție, nefrotic, cancer); α1=ANTITRIPSINA protectoare (crește în inflamație/luptă, scade în EMFIZEM=plămân neprotejat!); α2=MACROGLOBULINA mare (crește în inflamație, RAA, nefrotic); β=conține TRANSFERINA (fierul) și COMPLEMENTUL (C3,C4) - crește în anemie feriprivă (caută Fe), scade în autoimune (se consumă); γ=ANTICORPII (cresc în infecții cronice/ciroză=punte β-γ, scad în nefrotic/imunodeficiențe)"
       }
     ]
   }

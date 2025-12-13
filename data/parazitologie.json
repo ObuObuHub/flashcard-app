@@ -6,102 +6,102 @@
       {
         "front": "Care este structura adultului de Echinococcus granulosus?",
         "back": "Adult mic (3-6mm) format din:\n- Scolex: 4 ventuze + coroană de cârlige (fixare)\n- Col: subțire, rol germinativ\n- Strobilă: proglote (tânără, matură, bătrână)\n\nOul: 30-40 μm, embrion hexacant",
-        "mnemonic": "Echinococcus = tenie MICĂ (3-6mm) în câine: Scolex (cap cu ventuze+cârlige), Col (gât subțire), Strobilă (lanț de proglote)"
+        "mnemonic": "Echinococcus granulosus = TENIA PITICĂ a câinelui (doar 3-6mm!): STRUCTURA ca o floare: SCOLEX=capul cu 4 VENTUZE+coroană de CÂRLIGE (se prinde de intestin ca un trandafir cu spini); COL=gâtul subțire, zona GERMINATIVĂ (cresc proglote noi); STROBILĂ=lanțul de PROGLOTE (tânără→matură→bătrână/gravidă cu ouă); OUL: 30-40μm cu EMBRION HEXACANT (6 cârlige); De reținut: Adult mic în câine, CHIST URIAȘ în om!"
       },
       {
         "front": "Care este ciclul biologic al Echinococcus granulosus?",
         "back": "Gazda definitivă: CÂINE (intestin subțire)\nGazda intermediară: OM\n\nTransmitere: ingestia oului embrionat\n- Ou pe sol → legume/mângâiere câine\n- Embrion hexacant → sânge → ficat/plămân\n- Se formează CHISTUL HIDATIC",
-        "mnemonic": "Câinele e ȘEFUL (gazdă definitivă) - are viermele adult; Omul e VICTIMA (intermediar) - face chistul hidatic"
+        "mnemonic": "CICLUL Echinococcus - CÂINE vs OM: GAZDA DEFINITIVĂ=CÂINELE (are viermele adult în intestin, elimină ouă în fecale); GAZDA INTERMEDIARĂ=OMUL (accident epidemiologic!); TRANSMITERE: Ingerăm OUL embrionat (mângâiere câine→mână la gură, legume contaminate cu fecale canine); TRASEUL în om: Ou→embrion hexacant traversează peretele intestinal→vena portă→FICAT (70%) sau PLĂMÂN (25%)→formează CHISTUL HIDATIC (ani de zile!); De reținut: Câine=Definitiv=Adult, Om=Intermediar=Chist"
       },
       {
         "front": "Care este structura chistului hidatic?",
         "back": "3 membrane:\n1. ADVENTICEA (externă) - fibroasă, de la gazdă, poate calcifica\n2. CUTICULA - elastică, 1-2mm, multilamelară\n3. MB. PROLIGERĂ (internă) - germinativă, 25μm\n\nConținut: vezicule hidatice cu protoscolecși\nNisip hidatic = vezicule rupte + protoscolecși (element de diagnostic)",
-        "mnemonic": "Chist hidatic = 3 straturi ca o nucă: Adventice (coajă fibroasă), Cuticulă (albuș elastic), Proligeră (miez germinativ cu nisip hidatic)"
+        "mnemonic": "CHISTUL HIDATIC = ou într-un ou cu 3 membrane (ACP): A=ADVENTICEA (externă)=fibroasă, făcută de GAZDĂ ca reacție de apărare, poate CALCIFICA; C=CUTICULA (mijlocie)=elastică, 1-2mm, multilamelară (ca foile de ceapă), face forma rotundă; P=PROLIGERĂ (internă)=germinativă, doar 25μm, produce VEZICULE HIDATICE cu PROTOSCOLECȘI (viitori adulți); NISIP HIDATIC=vezicule rupte+protoscolecși=ELEMENT DE DIAGNOSTIC (ce găsești în vomica hidatică); Dacă se rupe chistul→șoc ANAFILACTIC!"
       },
       {
         "front": "Care este diagnosticul și tratamentul în hidatidoză?",
         "back": "DIAGNOSTIC:\n- Radiologic: formațiune chistică\n- Serologic: ELISA (uzual)\n- Parazitologic: vomica hidatică cu protoscolecși\n\nTRATAMENT:\n- Medicamentos: Albendazol 40mg/zi, 28 zile, pauză 1 lună, x3\n- Chirurgical: extirpare chist\n- PAIR: puncție, aspirație, etanol 95% + NaCl 20%",
-        "mnemonic": "ELISA pentru diagnostic, ALBendazol pentru tratament, PAIR pentru inoperabil"
+        "mnemonic": "HIDATIDOZA - Diagnostic și Tratament (EAP): DIAGNOSTIC: Radiologic=formațiune CHISTICĂ (eco/CT: chist cu vezicule fiice), Serologic=ELISA (uzual, titruri scad după tratament), Parazitologic=vomica hidatică cu PROTOSCOLECȘI (diagnostic de certitudine); TRATAMENT: ALBendazol (40mg/kg/zi, 28 zile, pauză 1 lună, repetă x3 cicluri)=pentru chisturi mici/multiple/preoperator; CHIRURGICAL=extirpare chist (atenție la rupere!); PAIR=Puncție, Aspirație, Injectare alcool 95%+NaCl 20%, Reaspiră (pentru chisturi inoperabile); Regulă: NICIODATĂ nu spargi chistul→diseminare!"
       },
       {
         "front": "Care sunt caracteristicile Trichinella spiralis?",
         "back": "Nematod mic (1,5-3mm)\nLarve: circulante (100μm) și închistate în mușchi (500-1000μm)\n\nHabitat: intestin subțire\nTransmitere: carne trichinată (porc, vânat)\nGazde: om, porc, cal, câine, pisică, rozătoare\n\nBoala: TRICHINELOZĂ (boala capetelor umflate)",
-        "mnemonic": "TRICHINOZĂ = TRichinella + CARne (porc, vânat) = Capete umflate"
+        "mnemonic": "TRICHINELLA spiralis = VIERMELE DIN CARNE: Nematod MIC (adulți 1.5-3mm), Larve circulante (100μm) și ÎNCHISTATE în MUȘCHI (500-1000μm spiralizate); TRANSMITERE: Carne TRICHINATĂ insuficient preparată (PORC, mistreț, urs, cal); CICLUL: Mănânci carne cu larve→adulți în intestin→femelele nasc larve vii→circulă în sânge→se închisteză în MUȘCHI striați; BOALA=TRICHINELOZA (boala CAPETELOR UMFLATE din cauza edemului facial); Gazde: om, porc, cal, câine, pisică, rozătoare (carnivori/omnivori)"
       },
       {
         "front": "Care sunt fazele clinice ale trichinelozei?",
         "back": "3 FAZE:\n1. INTESTINALĂ (48h): diaree, vărsături\n2. SANGVINĂ: toxine → edeme faciale/palpebrale, febră 40°C platou, hipereozinofilie 85-95%, mialgii\n3. MUSCULARĂ: mialgii puternice, larve închistate\n\nComplicații: toxină cardiotoxică, tromboză ventriculară",
-        "mnemonic": "Trichineloza în 3 acte: Act 1=Intestin (diaree 48h), Act 2=Sânge (edem facial \"cap umflat\", febră 40°C), Act 3=Mușchi (dureri, larve se închisteză)"
+        "mnemonic": "TRICHINELOZA în 3 FAZE (ISM): FAZA I-INTESTINALĂ (48h de la consum): Diaree, vărsături, greață (adulții în intestin); FAZA II-SANGVINĂ (săpt 1-4): Larvele circulă și eliberează TOXINE→EDEM FACIAL/PALPEBRAL (capul umflat!), Febră 40°C în PLATOU, HIPEREOZINOFILIE extremă 85-95%!, Mialgii precoce; FAZA III-MUSCULARĂ (de la săpt 4): Larvele se închisteză în mușchi striați→MIALGII PUTERNICE, slăbiciune; COMPLICAȚII: Toxina este CARDIOTOXICĂ→miocardită, tromboză ventriculară; Memorează: 48h diaree, apoi cap umflat+febră+eozinofilie=TRICHINELOZA!"
       },
       {
         "front": "Cum se face diagnosticul trichinelozei?",
         "back": "CLINIC: consum carne + diaree + edeme + febră + cazuri în familie\n\nLABORATOR:\n- Leucogramă: eozinofilie >500/μL (săpt 2-4)\n- Serologie: ELISA, RIF, RFC (pozitive după 2-3 săpt)\n- IDR: pozitivă din săpt 2\n\nCERTITUDINE: biopsie mușchi deltoid (larve spiralizate închistate)",
-        "mnemonic": "EOZINOFILIE + ELISA + EPIDEMIOLOGIE (familie) + Biopsie DELTOID"
+        "mnemonic": "DIAGNOSTICUL TRICHINELOZEI (4E+D): EPIDEMIOLOGIE=consum carne+diaree+edeme+febră+CAZURI ÎN FAMILIE (mâncau toți din același porc!); EOZINOFILIE extremă >500/μL (săpt 2-4), poate ajunge la 85-95%!; ENZIME musculare crescute (CPK, LDH); ELISA/RIF/RFC pozitive după 2-3 săptămâni; IDR (intradermoreacție) pozitivă din săpt 2; DIAGNOSTIC DE CERTITUDINE=Biopsie mușchi DELTOID→larve spiralizate închistate în fibre musculare; De reținut: Când vezi edem facial+eozinofilie+context epidemiologic=GÂNDEȘTE TRICHINELOZA!"
       },
       {
         "front": "Care sunt cele 3 forme ale Toxoplasma gondii?",
         "back": "1. ENDOZOIT (tahizoit, trofozoit):\n   - Formă vegetativă, banană\n   - Metabolism activ, faza acută\n\n2. CHIST TISULAR:\n   - Conține bradizoiți (metabolism lent)\n   - Faza cronică, în SNC/mușchi\n\n3. OOCHIST:\n   - Din ciclul sexuat (în pisică)\n   - Element infecțios din mediu",
-        "mnemonic": "Toxoplasma 3 forme: Tahizoit (rapid=faza acută), Bradizoit (lent=chist cronic), Oochist (din pisică=infecțios în mediu)"
+        "mnemonic": "TOXOPLASMA gondii - 3 FORME (TBO): T=TAHIZOIT (endo/trofozoit)=forma RAPIDĂ vegetativă, în formă de BANANĂ, metabolism activ, FAZA ACUTĂ (se multiplică rapid, provoacă simptome); B=BRADIZOIT=forma LENTĂ în CHISTURI TISULARE (SNC, mușchi, ochi), FAZA CRONICĂ latentă (zeci de ani), se poate reactiva la imunosupresie; O=OOCHIST=forma din PISICĂ (ciclul sexuat intestinal), eliminat în fecale, foarte REZISTENT în mediu (luni), elementul INFECȚIOS pentru om; Memorează: Tahi=Rapid, Bradi=Lent, O=Out (iese din pisică)"
       },
       {
         "front": "Care este ciclul biologic al Toxoplasma gondii?",
         "back": "Gazda DEFINITIVĂ: PISICA\nGazda intermediară: om, rozătoare, vită, porc\n\nCĂI DE TRANSMITERE:\n1. Trofozoit: transplacentar (infecție acută mamă)\n2. Chist: carne insuficient preparată\n3. Oochist: legume/fructe nespălate (de la pisică)",
-        "mnemonic": "PISICA = Gazda definitivă, 3 căi: Placentă-Carne-Legume"
+        "mnemonic": "CICLUL TOXOPLASMA (PCL): GAZDA DEFINITIVĂ=PISICA (ciclu sexuat în intestin→elimină OOCHISTURI în fecale); GAZDA INTERMEDIARĂ=om, rozătoare, vită, porc, oaie; 3 CĂI DE TRANSMITERE: P=PLACENTAR (trofozoiți de la mamă cu infecție ACUTĂ→infecție congenitală, cea mai gravă!); C=CARNE insuficient preparată (chisturi cu bradizoiți din mușchi vită/porc/oaie); L=LEGUME/fructe nespălate (oochisturi din sol contaminat cu fecale de pisică); Regula: Gravidele să evite litiera pisicii și carnea crudă!"
       },
       {
         "front": "Care sunt formele clinice ale toxoplasmozei?",
         "back": "ADULT IMUNOCOMPETENT:\n- Asimptomatic sau ușor\n- Formă ganglionară: adenopatie, febră, astenie\n- Formă pseudogripală\n\nIMUNODEFICIENT:\n- Encefalită necrozantă (gravă!)\n- Colită/esofagită hemoragică\n\nCONGENITAL:\n- Trim I: avort, malformații grave (hidro/microcefalie)\n- Trim III: forme mai ușoare, corioretinită tardivă",
-        "mnemonic": "Toxo: Gang la Adult, Encefalită la SIDA, Gravide = Gravitate mare în T1"
+        "mnemonic": "TOXOPLASMOZA - 3 CONTEXTE (AGC): A=ADULT imunocompetent: Asimptomatică (90%!) sau forma GANGLIONARĂ (adenopatie cervicală, febră, astenie=mononucleoză-like); G=GRAVI la imunodeficienți/SIDA: ENCEFALITĂ necrozantă (leziuni în inel pe CT!), colită/esofagită hemoragică; C=CONGENITAL (transmisă de la mamă cu primoinfecție): Trim I=CATASTROFĂ (avort, hidro/microcefalie, calcificări cerebrale); Trim III=forme mai ușoare, CORIORETINITĂ tardivă (se manifestă în copilărie); De reținut: Cu cât mai devreme în sarcină, cu atât mai GRAV!"
       },
       {
         "front": "Care sunt stadiile infecției cu Toxoplasma gondii?",
         "back": "STADIUL I (acut):\n- Parazitemie, multiplicare\n- Apar Ac neutralizanți\n\nSTADIUL II (subacut):\n- Ac în titru ridicat\n- Dispar trofozoiții din sânge\n- Se formează chisturi (SNC, mușchi, ochi)\n\nSTADIUL III (cronic):\n- Chisturi tisulare persistente\n- Imunitate de lungă durată\n- Ac în titru mic",
-        "mnemonic": "3 stadii: Acut-Ac cresc, Subacut-chiSturi, Cronic-Chisturi stabile"
+        "mnemonic": "STADIILE infecției cu Toxoplasma (ASC): STADIUL I-ACUT: Parazitemie (tahizoiți circulă și se multiplică), apar anticorpi neutralizanți (IgM apoi IgG), simptome prezente; STADIUL II-SUBACUT: Ac în titru RIDICAT (maxim), tahizoiții dispar din sânge, se formează CHISTURI tisulare (SNC, mușchi, retină); STADIUL III-CRONIC: Chisturi STABILE și persistente toată viața, imunitate durabilă, Ac în titru MIC; Reactivare posibilă la IMUNOSUPRESIE (SIDA, transplant)→bradizoiții devin tahizoiți→encefalită"
       },
       {
         "front": "Cum se face diagnosticul toxoplasmozei?",
         "back": "DIRECT:\n- Tahizoiți în sânge/LCR (faza acută)\n- Chisturi prin biopsie (faza cronică)\n- PCR pentru ADN parazitar\n\nSEROLOGIC (uzual):\n- IgM: infecție acută (apar la 2 săpt, max la 4 săpt)\n- IgG: infecție trecută (persistă indefinit)\n- RIF, ELISA, IDR cu toxoplasmină",
-        "mnemonic": "IgM = Moment acut, IgG = Garantat pe viață"
+        "mnemonic": "DIAGNOSTICUL TOXOPLASMOZEI (MG): DIRECT (rar): Tahizoiți în sânge/LCR (doar faza acută), Chisturi prin biopsie (faza cronică), PCR pentru ADN (sensibil și specific); SEROLOGIC (uzual): IgM=MOMENT acut (apar la 2 săpt, MAXIM la 4 săpt, dispar în luni); IgG=GARANTAT pe viață (apar după IgM, persistă INDEFINIT, indică contact trecut); INTERPRETARE: IgM+/IgG-=infecție foarte recentă; IgM+/IgG+=infecție recentă sau în curs; IgM-/IgG+=infecție veche/imunitate; Metode: RIF, ELISA, IDR cu toxoplasmină"
       },
       {
         "front": "Care este diagnosticul toxoplasmozei la gravide și nou-născuți?",
         "back": "GRAVIDE:\n- Ideal: testare la începutul sarcinii\n- Seronegative: urmărire până la termen\n- IgG+ → verificare IgM (indică infecție acută)\n- Infecție activă → căutare Ag în lichidul amniotic, PCR\n\nNOU-NĂSCUT:\n- IgM și IgA = dovada infecției congenitale (nu trec placenta)\n- IgG pot fi materne (trec placenta)\n- PCR în sânge și LCR",
-        "mnemonic": "Gravide: IgM=Mamă acută. Nou-născut: IgM/IgA = Infecție proprie (nu de la mamă)"
+        "mnemonic": "TOXOPLASMOZA la GRAVIDE și NOU-NĂSCUȚI: GRAVIDE: Screening IDEAL la începutul sarcinii: Seronegative=urmărire lunară până la termen (risc primoinfecție!); IgG+ singure=imune, protejate; IgG+ cu IgM+=ALERTĂ! infecție activă→amniocenteză pentru PCR în lichidul amniotic; NOU-NĂSCUT: IgG pot fi MATERNE (trec placenta, nu confirmă infecția copilului); IgM și IgA=PROPRII copilului (NU trec placenta!)=DOVADA infecției CONGENITALE; PCR în sânge și LCR pentru confirmare; De reținut: La copil IgM/IgA+=infectat sigur!"
       },
       {
         "front": "Care sunt caracteristicile Trichomonas vaginalis?",
         "back": "GENUL Trichomonas: flagelat cu 3 flageli anteriori + membrană ondulantă + axistil\n\nPatogenie:\n- Parazit genito-urinar (ambele sexe)\n- Transmitere VENERIC\n- Aderență prin adezine\n- Activitate proteolitică (proteinaze)\n\nFactori favorizanți vaginită: sarcină, menstruație, pH vaginal crescut, germeni anaerobi",
-        "mnemonic": "Tricho-VAGINAL: Veneric, 3 flageli + membrană ondulantă"
+        "mnemonic": "TRICHOMONAS vaginalis = FLAGELATUL VENERIC: Protozoar cu 3 flageli anteriori + MEMBRANĂ ONDULANTĂ + AXOSTIL (spiculă de susținere); Transmitere STRICT VENERIC (BTS); Parazitează tractul GENITO-URINAR la ambele sexe; PATOGENIE: Aderență prin ADEZINE la epiteliu vaginal/uretral, Activitate PROTEOLITICĂ (distruge mucoasa); FACTORI FAVORIZANȚI vaginită: Sarcină, Menstruație, pH vaginal CRESCUT (normal acid=protector), Germeni anaerobi asociați; La bărbați: Adesea ASIMPTOMATICI (purtători)=sursă de infecție"
       },
       {
         "front": "Cum se face diagnosticul tricomoniazei?",
         "back": "RECOLTARE:\n- Femei: secreție vaginală din fund de sac (zilele 4-5 postmenstrual)\n- Bărbați: secreție uretrală/urină (dimineața, înainte de urinat)\n\nMETODE:\n1. Preparat nativ: mobilitate flageli (contrast de fază)\n2. Colorație vitală: safranină/brilliant cresyl blue\n3. Frotiu Giemsa\n4. Cultivare pe medii selective (cea mai sensibilă)\n5. ELISA, RIF, IDR (imunodiagnostic)",
-        "mnemonic": "Tricho: Nativ viu + Cultură sensibilă, la femei 98% cu ambele"
+        "mnemonic": "DIAGNOSTICUL TRICOMONIAZEI: RECOLTARE optimă: Femei=secreție din FUND de sac vaginal (zilele 4-5 postmenstrual); Bărbați=secreție uretrală/primă urină (DIMINEAȚA, înainte de urinat); METODE: 1.Preparat NATIV (proaspăt!)=vezi mobilitatea flagelilor (contrast de fază); 2.Colorație VITALĂ (safranină, brilliant cresyl blue); 3.Frotiu GIEMSA (fixat); 4.CULTURĂ pe medii selective=cea mai SENSIBILĂ (Diamond, TYM); 5.Imunodiagnostic: ELISA, RIF, IDR; Regula: Nativ+Cultură=98% sensibilitate la femei; TRATEAZĂ și partenerul!"
       },
       {
         "front": "Care sunt principalii paraziți oportuniști în imunodeficiență?",
         "back": "1. Entamoeba histolytica - dizenterie, abcese hepatice\n2. Giardia lamblia - diaree grasă, malabsorbție\n3. Toxoplasma gondii - encefalită\n4. Pneumocystis jirovecii - pneumonie interstițială\n5. Cryptosporidium parvum - diaree cronică\n6. Isospora belli - diaree, malabsorbție\n7. Microsporidii\n8. Strongyloides stercoralis",
-        "mnemonic": "Paraziți oportuniști când CD4 scade: Intestin (Giardia, Crypto, Isospora), Creier (Toxoplasma), Plămân (Pneumocystis), Diseminat (Strongyloides, Entamoeba)"
+        "mnemonic": "PARAZIȚI OPORTUNIȘTI la IMUNODEFICIENȚI (SIDA) - ICPD: INTESTIN: Giardia lamblia (diaree grasă, malabsorbție), Cryptosporidium parvum (diaree cronică severă 50% mortalitate!), Isospora belli (diaree, malabsorbție), Entamoeba histolytica (dizenterie, abcese hepatice); CREIER: Toxoplasma gondii (encefalită necrozantă, leziuni în inel pe CT); PLĂMÂN: Pneumocystis jirovecii (pneumonie interstițială, PCP=marker de SIDA); DISEMINAT: Strongyloides stercoralis (hiperinfecție), Microsporidii; Când CD4<200=risc maxim pentru oportuniști!"
       },
       {
         "front": "Care sunt manifestările Entamoeba histolytica la imunocompromiși?",
         "back": "FORMA INTESTINALĂ:\n- Normal: purtători asimptomatici\n- Imunodeficienți: 15-20 scaune/zi mucosangvinolente\n- Complicații: hemoragii, perforații, peritonită\n\nFORMA EXTRAINTESTINALĂ:\n- Abcese: ficat, plămâni, creier\n- Hepatită amoebiană difuză (recăderi)\n- Evoluție mai lungă și severă",
-        "mnemonic": "Entamoeba: Intestin=Disenterie, Extra=Abcese (ficat)"
+        "mnemonic": "ENTAMOEBA histolytica la IMUNOCOMPROMIȘI: FORMA INTESTINALĂ: Normal=purtători ASIMPTOMATICI; Imunodeficienți=DIZENTERIE SEVERĂ (15-20 scaune/zi MUCOSANGVINOLENTE, ulcere în buton de cămașă); Complicații: Hemoragii masive, Perforații intestinale, Peritonită; FORMA EXTRAINTESTINALĂ: ABCES HEPATIC (cel mai frecvent!), Abcese pulmonare/cerebrale; Abcesul hepatic=masă neomogenă pe CT, conținut ca pasta de anchois; La imunodeficienți: Evoluție mai LUNGĂ, SEVERĂ, recăderi frecvente; Tratament: Metronidazol"
       },
       {
         "front": "Care sunt manifestările Pneumocystis jirovecii la SIDA?",
         "back": "Reactivare infecție latentă când CD4 scad!\n\nPNEUMONIE INTERSTIȚIALĂ:\n- Tahipnee (125 r/min)\n- Dispnee, cianoză, tiraj\n- Tuse uscată\n- Febră moderată\n- Alveolită + infiltrat inflamator\n\nLOCALIZĂRI EXTRAPULMONARE:\n- Căi aeriene superioare, ochi, tiroidă, splină\n\nDiagnostic: evidențiere directă sau serologie",
-        "mnemonic": "PCP = Pneumonie la SIDA când CD4 scade, Tuse uscată + Dispnee"
+        "mnemonic": "PNEUMOCYSTIS jirovecii (PCP) = PNEUMONIA SIDEI: REACTIVARE infecție LATENTĂ când CD4<200/μL; PNEUMONIE INTERSTIȚIALĂ: Tahipnee extremă (>125 resp/min!), Dispnee progresivă, CIANOZĂ, Tiraj intercostal, TUSE USCATĂ neproductivă, Febră moderată; Rx torace: Infiltrat interstițial bilateral difuz în fluture; LDH crescut!; LOCALIZĂRI EXTRAPULMONARE: ochi, tiroidă, splină, căi aeriene superioare; DIAGNOSTIC: Evidențierea directă (spută indusă, BAL), Colorație Gomori-Grocott (argintică) sau Giemsa, PCR; TRATAMENT: Cotrimoxazol doze mari; PROFILAXIE: Cotrimoxazol când CD4<200"
       },
       {
         "front": "Care sunt manifestările Cryptosporidium parvum la imunocompromiși?",
         "back": "Agent al diareei călătorului\nLocalizare: mucoasă intestinală, zonă rectocolică\n\nLA IMUNOCOMPROMIȘI:\n- Diaree 10-20 scaune/zi (luni-ani!)\n- Lichid apos, abundent\n- Malabsorbție, scădere ponderală\n- Deshidratare masivă (>3L/zi)\n- Mortalitate 50%\n\nDiagnostic: colorație Ziehl-Neelsen modificată (paraziți roșii pe fond verzui)",
-        "mnemonic": "Crypto = Cronică + Călător, ZIEHL pt diagnostic"
+        "mnemonic": "CRYPTOSPORIDIUM parvum = DIAREE DEVASTATOARE: Agent al diareei CĂLĂTORULUI (la imunocompetenți=autolimitată); Localizare: Mucoasă intestinală (colon); LA IMUNOCOMPROMIȘI/SIDA: Diaree CRONICĂ MASIVĂ (10-20 scaune/zi, LUNI-ANI!), Lichid APOS abundent, Malabsorbție severă, Scădere ponderală dramatică, Deshidratare masivă (>3L/zi pierderi!), MORTALITATE 50%!; DIAGNOSTIC: Colorație ZIEHL-NEELSEN MODIFICATĂ (paraziți ROȘII pe fond verzui, pentru că sunt acid-alcool rezistenți), ELISA pentru Ag în scaun; Nu există tratament curativ eficient la imunocompromiși!"
       },
       {
         "front": "Care sunt manifestările Isospora belli?",
         "back": "Boala: ISOSPOROZĂ (coccidioză intestinală)\nLocalizare: jejun și ileon\n\nLA NORMALI:\n- Diaree scurtă, febră, astenie\n- Vindecare spontană\n\nLA IMUNODEFICIENȚI:\n- Diaree trenantă\n- Malabsorbție secundară\n- Secreție cronică de oochisturi\n\nDiagnostic: coproparazitologic, colorație Ziehl-Neelsen, biopsie intestinală\n\nNotă: debut frecvent în SIDA",
-        "mnemonic": "ISOSPORA = Intestin subțire, Trenantă la SIDA, Ziehl-Neelsen diagnostic"
+        "mnemonic": "ISOSPORA belli = COCCIDIOZA INTESTINALĂ: Localizare: JEJUN și ILEON (intestin subțire); LA IMUNOCOMPETENȚI: Diaree scurtă, febră, astenie→VINDECARE spontană; LA IMUNODEFICIENȚI/SIDA: Diaree TRENANTĂ (săptămâni-luni), Malabsorbție secundară, Secreție CRONICĂ de oochisturi; DEBUT frecvent în SIDA (marker de imunodeficiență); DIAGNOSTIC: Coproparazitologic (oochisturi elipsoidale mari), Colorație ZIEHL-NEELSEN modificată (roșii pe fond verzui), Biopsie intestinală; TRATAMENT: Cotrimoxazol (eficient spre deosebire de Crypto!); Memorează: Isospora răspunde la tratament, Crypto nu!"
       }
     ]
   }

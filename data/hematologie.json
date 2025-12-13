@@ -6,247 +6,247 @@
       {
         "front": "Ce este eritropoeza și cum este reglată?",
         "back": "ERITROPOEZA = procesul de proliferare și diferențiere a precursorilor eritrocitari\n\nETAPE:\nCelula stem → Proeritroblast → Eritroblast bazofil → Eritroblast policromatofil → Eritroblast oxifil → Reticulocit → Eritrocit\n\nREGLARE:\n- Eritropoetina (90% sintetizată renal)\n- Stimulată de scăderea pO2 tisulară\n- Stimulează CFU-E și diferențierea precursorilor",
-        "mnemonic": "Eritropoeza ca școala: Stem→Pro(1)→Bazofil(2)→Poli(3)→Oxi(4)→Reticulo(tânăr)→Eritrocit(adult); EPO=profesor din RINICHI"
+        "mnemonic": "Eritropoeza ca METAMORFOZA unui fluture ROȘU: Stem=ou, Pro=larvă, Bazofil=omidă ALBASTRĂ (bazofilă!), Poli=omidă MULTICOLORĂ (policromatofilă), Oxi=crisalidă ROZ, Reticulocit=fluture tânăr cu PLASĂ la aripă (rețea ARN), Eritrocit=fluture adult ROȘU perfect; EPO=hormonul care STRIGĂ din RINICHI: 'Mai faceți fluturi!'"
       },
       {
         "front": "Care sunt caracteristicile reticulocitelor?",
         "back": "RETICULOCITE = eritrocite imature\n- VN: 0,5-2% din eritrocite\n- Circulă 1-3 zile în sânge\n- Conțin rețea reticulofilamentară (ARN ribozomal)\n- Colorație: albastru briliant crezyl\n\nSEMNIFICATIE:\n- Reticulocitoza = hiperactivitate medulară eficientă\n\nCRESCUTE în:\n- Anemii hemolitice\n- Hemoragii\n- Tratament eficace în anemii carențiale (criză reticulocitară)",
-        "mnemonic": "Reticulocite = Eritrocite tinere cu ARN, 0,5-2%, CRESC în regenerare"
+        "mnemonic": "RETICULOCITE = ADOLESCENȚII cu PLASĂ de PESCUIT în buzunar (rețea ARN, vizibilă cu albastru briliant crezyl): Stau 1-3 zile în sânge până se maturizează și ARUNCĂ plasa; Normal 0,5-2% (puțini tineri între adulți); CRIZA RETICULOCITARĂ = când fabrica (măduva) lucrează OVERTIME și trimite mulți adolescenți neexperimentați (hemoliză, hemoragie, tratament eficace); RETICULOCITOZĂ = semn că fabrica FUNCȚIONEAZĂ (măduva răspunde)"
       },
       {
         "front": "Care sunt compartimentele fierului în organism?",
         "back": "FIERUL TOTAL: 4-5g (50-55 mg/kg la bărbat, 35-40 mg/kg la femeie)\n\n4 COMPARTIMENTE:\n1. HEMOGLOBINA: 67% (2g) - utilizare\n2. DEPOZITE: 27% (1g) - feritină și hemosiderină\n3. TRANSPORT: 3% (0,1g) - transferină\n4. MIOGLOBINA: 4%\n\nFORME:\n- Fe HEMINIC: Hb, mioglobină, enzime\n- Fe NEHEMINIC: feritină, hemosiderină, transferină",
-        "mnemonic": "Fierul în corp (total 4-5g): 2/3 lucrează în Hb, 1/4 doarme în depozit (feritină), restul transport (transferină) și mioglobină"
+        "mnemonic": "Fierul=AURUL ROȘU al corpului (4-5g total): 67% MUNCEȘTE în Hb (mina de oxigen), 27% DOARME în seif (feritină=lingouri, hemosiderină=monede), 3% CĂLĂTOREȘTE în taxi (transferina), 4% la SALĂ (mioglobină musculară); Dacă pierzi aurul→anemic, dacă acumulezi prea mult→hemocromatoză=rugină în organe"
       },
       {
         "front": "Cum se face absorbția fierului?",
         "back": "LOC: Porțiunea proximală a intestinului subțire\nCANTITATE: 1g/24h (compensează pierderile)\n\nMECANISM:\n- Fe2+ (feros) absorbit prin endocitoză\n- Transferina transportă Fe3+ (feric) la MO\n- Apoferitina captează excesul\n\nFACTORI FAVORIZANȚI:\n- Vitamina C, zaharuri, cisteină\n- Deficit de Fe, sarcină, copii\n\nFACTORI INHIBITORI:\n- Antacide, fitați, fosfați\n- Inflamații, infecții\n- Gastrectomie, aclorhidrie",
-        "mnemonic": "Absorbție Fe: Duoden, Fe2+→Transferină→Fe3+, Vit C crește, Infecții scad"
+        "mnemonic": "Fierul ca un PACHET POȘTAL: Se absoarbe în DUODEN (oficiul poștal), Transferina = CURIER care livrează la măduvă; Vitamina C = prieten care deschide ușa, Infecțiile = hoți care blochează livrarea"
       },
       {
         "front": "Ce este sideremia și CTLF?",
         "back": "SIDEREMIA = concentrația Fe circulant\n- VN: 70-100 μg/dL\n- Transportat de transferină (saturație 30%)\n\nCTLF = Capacitatea Totală de Legare a Fe\n- VN: 300-400 μg/dL\n- CL (capacitate latentă) = CTLF - Fe seric\n\nCS (coeficient saturație) = Fe/CTLF × 100\n- VN: 20-65%\n\nMODIFICĂRI:\n- Anemia feriprivă: Fe↓, CTLF↑, CS<16%\n- Hemocromatoză: Fe↑, CTLF↓, CS>80%\n- Infecții cronice: Fe↓, CTLF↓, CS normal",
-        "mnemonic": "Fe seric 100, CTLF 300, CS=30%; Feriprivă=CS<16%, Hemocromatoză=CS>80%"
+        "mnemonic": "Transferina ca AUTOBUZ: Are 300 locuri (CTLF), normal 100 ocupate (Fe seric), 30% plin (CS); FERIPRIVĂ = autobuz gol (<16% pasageri, dar adaugă scaune CTLF↑ disperat); HEMOCROMATOZĂ = autobuz supraaglomerat (>80%, scade scaunele)"
       },
       {
         "front": "Care sunt diferențele dintre hemoliza extravasculară și intravasculară?",
         "back": "HEMOLIZA EXTRAVASCULARĂ:\n- Fagocitarea eritrocitelor de macrofage (ficat, splină, MO)\n- Hb → Globină (AA) + Hem → Fe + Bilirubină\n- Markeri: BI↑, Ubg urinar↑, reticulocitoză\n\nHEMOLIZA INTRAVASCULARĂ:\n- Eritrocitele lizate în circulație\n- Hb liberă în plasmă → dimeri\n- Captată de: haptoglobină, hemopexină, albumină\n\nMarkeri specifici INTRAVASCULARĂ:\n- Hemoglobinurie (urină rubinie)\n- Hemosiderinurie (col. Perls)\n- Haptoglobină scăzută\n- Metemalbumină (hemolize severe)",
-        "mnemonic": "Extra=Macrofage+BI, Intra=Hb plasmă+Hemoglobinurie+Hemosiderinurie"
+        "mnemonic": "EXTRA-vasculară = Mâncată în RESTAURANT (splină/ficat) de ospătari (macrofage) → resturi = bilirubină; INTRA-vasculară = Explozie pe STRADĂ (în vas) → Hb curge liber → urina ROȘIE (hemoglobinurie) + haptoglobina consumată încercând să cureță"
       },
       {
         "front": "Care sunt anomaliile de mărime ale eritrocitelor?",
         "back": "NORMAL: diametru 7,5 μm, VEM 80-100 fL\n\nMICROCITE: <6 μm, VEM <80 fL\n- Anemii hipocrome, talasemii\n- Zona clară centrală mărită\n\nMACROCITE: >9 μm, VEM >100 fL\n- Reticulocitoză, anemii hemolitice\n- Insuficiență hepatică, citostatice\n- Colorate intens, omogen\n\nMEGALOCITE: >12-15 μm, VEM >120-140 fL\n- ÎNTOTDEAUNA patologice\n- Deficit B12/folat (anemie Biermer)\n\nSCHIZOCITE: fragmente 2-4 μm\n- Hemolize traumatice, anemie feriprivă\n\nANIZOCITOZĂ = eritrocite cu diametre diferite",
-        "mnemonic": "Normal 7,5μm; Micro<6 (feriprivă); Macro>9 (reticulocitoză); Megalo>12 (B12)"
+        "mnemonic": "Eritrocitele ca PIZZA: Normal=7,5cm (medie), MICRO<6 (pizza mică pt dieta de Fe), MACRO>9 (pizza mare când cresc tinerii=reticulo), MEGALO>12 (pizza GIGANT defect în bucătărie=B12); Schizocite=pizza tăiată prost (fragmentată)"
       },
       {
         "front": "Care sunt anomaliile de formă ale eritrocitelor (poikilocite)?",
         "back": "SFEROCIT: sferă, fără zonă clară\n- Sferocitoză ereditară, anemii hemolitice imune\n\nELIPTOCIT/OVALOCIT: disc oval\n- Eliptocitoză ereditară, talasemii\n\nCODOCIT (celula în țintă):\n- Talasemie, boli hepatice, postsplenectomie\n\nDREPANOCIT (seceră/semilună):\n- Drepanocitoza (siclemie)\n\nDACRIOCIT (lacrimă/picătură):\n- Mielofibroză, anemii mieloftizice\n\nECHINOCIT: spiculi scurți, regulați\n- Uremie, deficit piruvat-kinază\n\nACANTOCIT: spiculi neregulați\n- Abetalipoproteinemie, ciroză",
-        "mnemonic": "Poikilocite - forme memorabile: Sferă (sferocitoză), Țintă (talasemie, ficat), Seceră (siclemie HbS), Lacrimă/picătură (mielofibroză - măduva plânge), Echino=arici (uremie)"
+        "mnemonic": "Poikilocite = eritrocite COSTUMATE la bal: SFEROCIT=minge de fotbal (ereditară/imună); CODOCIT=țintă de tras cu arcul (talasemie, ficat=arcașul bolnav); DREPANOCIT=seceră/semilună (HbS=Sickling); DACRIOCIT=lacrimă (mielofibroza=măduva plânge că e fibrozată); ECHINOCIT=arici cu țepi (uremie=toxine); ACANTOCIT=arici nebun cu țepi neregulați (ciroză)"
       },
       {
         "front": "Care sunt incluziile eritrocitare patologice?",
         "back": "CORPII HOWELL-JOLLY:\n- Granule rotunde, violet, 1-3/celulă\n- Cromatină nucleară reziduală\n- Anemii megaloblastice, postsplenectomie\n\nGRANULATII BAZOFILE:\n- Granule mici albastre pe tot eritrocitul\n- Agregate ribozomale\n- Intoxicație cu Pb, talasemii\n\nINELE CABOT:\n- Formațiuni filiforme în 8 sau semilună\n- Resturi fus diviziune\n- Diseritropoeze grave\n\nCORPII HEINZ:\n- Agregate Hb denaturată oxidativ\n- Pe marginea internă a eritrocitului\n- Colorații supravitale\n- Deficit G6PD, talasemii, postsplenectomie",
-        "mnemonic": "Incluzii: Howell-Jolly (punct ADN)=postsplenectomie, Bazofil (granule)=Plumb, Cabot (inel 8)=diseritropoeze, Heinz (margine)=G6PD/oxidare"
+        "mnemonic": "Incluzii eritrocitare ca RESTURI în casă după petrecere: HOWELL-JOLLY=punct de ADN uitat (splina nu mai curăță=postsplenectomie); GRANULAȚII BAZOFILE=boabe de orez albastru (Pb=Plumbul otrăvește); INELE CABOT=inel în formă de 8/infinit (celula a încercat să se dividă, n-a reușit=diseritropoeze); HEINZ=margăritare lipite pe perete (Hb oxidată=G6PD absent)"
       },
       {
         "front": "Care sunt componentele hemostazei primare?",
         "back": "HEMOSTAZA PRIMARĂ = vasculo-plachetară\n- Efect: tromb plachetar (în secunde)\n- Oprește sângerarea din vase mici\n\nMECANISMUL VASCULAR:\n- Vasoconstricție reflexă\n- Endoteliu: vWF, t-PA, prostaciclină\n- Subendoteliu: colagen\n\nMECANISMUL PLACHETAR:\n1. ADEZIUNEA: GPIb + vWF + colagen\n2. AGREGAREA: GPIIb-IIIa + fibrinogen\n3. SECREȚIA: ADP, TXA2, Ca2+\n\nDEFECTE → sângerări superficiale:\n- Purpură, petesii, echimoze\n- Sângerări mucoase",
-        "mnemonic": "Primară: Vase+Plachete=Tromb rapid; GPIb=Adeziune, GPIIb-IIIa=Agregare"
+        "mnemonic": "Hemostaza primară ca un ACCIDENT RUTIER: Vasul=strada se strâmtează (vasoconstricție), Plachetele=mașinile care se OPRESC; GPIb=FRÂNA (se lipește de perete), GPIIb-IIIa=CÂRLIGELE între mașini (agregare cu fibrinogen)"
       },
       {
         "front": "Care sunt factorii de coagulare vitamino-K dependenți?",
         "back": "FACTORII DEPENDENȚI DE VITAMINA K:\n- II (Protrombina)\n- VII (Proconvertina)\n- IX (Christmas - antihemofilic B)\n- X (Stuart-Prower)\n\nSINTEZĂ: Ficat\nROL VITAMINA K: γ-carboxilare (activare)\n\nT1/2:\n- VII: 2-6 ore (cel mai scurt!)\n- IX: 18-20 ore\n- X: 24-60 ore\n- II: 48-120 ore\n\nINHIBIȚIE:\n- Anticoagulante orale (warfarină)\n- Afecțiuni hepatice\n- Malabsorbție\n\nMONITORIZARE: Timp de protrombină (Quick), INR",
-        "mnemonic": "Vitamina K pentru 2-7-9-10: ca un COD SECRET pentru coagulare, Warfarina le blochează, măsori cu INR"
+        "mnemonic": "Factorii 2-7-9-10 sunt MAȘINI care au nevoie de CHEIA K (vitamina K) să pornească: '1972' (anul lui Nixon)=trucul de memorare; Factor 7=FERRARI (T1/2=6h, pleacă primul, primul afectat de warfarină!); Factor 2=TANC LENT (T1/2=5 zile); WARFARINA=hoț de chei→INR CREȘTE (mașinile nu mai frânează)"
       },
       {
         "front": "Care sunt căile de activare a coagulării?",
         "back": "CALEA INTRINSECĂ (contact):\n- Start: XII activat de contact cu colagen\n- XII → XI → IX → X\n- Necesită: KMM, prekalicreină, VIII, Ca2+\n- Test: APTT (timpul de tromboplastină parțial activat)\n\nCALEA EXTRINSECĂ (tisulară):\n- Start: Factor tisular (III) eliberat din țesuturi\n- III + VII → X\n- Test: TP (timpul de protrombină/Quick)\n\nCALEA COMUNĂ:\n- X activat + V + Ca2+ + fosfolipide = Protrombinază\n- Protrombină → Trombină\n- Fibrinogen → Fibrină (stabilizată de XIII)",
-        "mnemonic": "Coagulare ca un RÂUL: Intrinsecă (contact)=izvorul (12→11→9→X), Extrinsecă (rană)=afluent rapid (7→X), Comuna=cascada finală (X→Trombină→Fibrină)"
+        "mnemonic": "Coagularea ca DOUĂ DRUMURI spre CASCADĂ: INTRINSECĂ=drum de munte LUNG (contact cu piatra 12→11→9→X), testat cu APTT; EXTRINSECĂ=AUTOSTRADĂ rapidă (rană eliberează 7→direct la X), testat cu TP/Quick; Ambele ajung la CASCADA FINALĂ: X deschide poarta→Trombina URLĂ→Fibrinogenul se solidifică în PLASĂ de fibrină→XIII o SUDEAZĂ"
       },
       {
         "front": "Care sunt inhibitorii fiziologici ai coagulării?",
         "back": "ANTITROMBINA III (AT III):\n- Cel mai puternic inhibitor\n- Inhibă toate serin-proteazele (exc. VII)\n- Activitatea accelerată de heparină\n- Deficit → risc trombotic\n\nPROTEINA C și S:\n- Vitamino-K dependente\n- C activată de trombină + trombomodulină\n- Inactivează Va și VIIIa\n- S = cofactor pentru C\n- Deficit → trombofilii\n\nCOFACTORUL II AL HEPARINEI:\n- Inhibă doar trombina\n\nTROMBOMODULINA:\n- Pe endoteliu\n- Activează proteina C",
-        "mnemonic": "AT III = cel mai puternic + heparină; Proteina C+S = inactivează V și VIII"
+        "mnemonic": "Inhibitorii coagulării ca POLIȚIE: AT III = ȘEFUL (cel mai puternic), heparina îi dă MEGAFON (accelerează); Proteina C+S = echipa SWAT care elimină suspecții V și VIII; Deficit = hoții (trombii) iau puterea"
       },
       {
         "front": "Care sunt componentele sistemului fibrinolitic?",
         "back": "COMPONENTE:\n1. PLASMINOGEN → PLASMINĂ (enzima activă)\n2. ACTIVATORI\n3. INHIBITORI\n\nACTIVATORI:\n- t-PA (tisular) - din endoteliu\n- Urokinaza\n- Streptokinaza (streptococi)\n- XII a, kalicreina\n\nINHIBITORI:\n- α2-antiplasmina (rapid)\n- α2-macroglobulina (lent)\n- PAI-1 (inhibitor t-PA)\n\nPRODUȘI DE DEGRADARE:\n- Fragment X → Y → D și E\n- D-DIMERI = marker pentru tromboză/CID\n\nEXPLORARE:\n- Timp liză cheag euglobinic\n- Fibrinogen, FDP, D-dimeri",
-        "mnemonic": "Fibrinoliză: Plasminogen→Plasmină (t-PA), D-dimeri=marker, α2-antiplasmina inhibă"
+        "mnemonic": "Fibrinoliza ca ECHIPA DE CURĂȚENIE: Plasminogenul doarme până vine t-PA (alarma) → se trezește PLASMINA cu foarfeca → taie fibrina în bucăți → D-DIMERI = gunoi rămas (dovada că s-a curățat); α2-antiplasmina = șeful care oprește curățenia când e gata"
       },
       {
         "front": "Ce teste explorează hemostaza primară?",
         "back": "TESTE VASCULARE:\n- Timpul de sângerare (Duke): VN 2-4 min\n- Rezistența capilară (proba garoului)\n\nTESTE PLACHETARE:\n- Număr trombocite: VN 150.000-400.000/μL\n- Timp de sângerare\n- Agregare plachetară (ADP, colagen, epinefrină, ristocetină)\n- Adezivitate plachetară\n- Retracția cheagului\n\nTESTE SPECIALE:\n- Factor 3 și 4 plachetar\n- Factor von Willebrand\n\nSÂNGERĂRI TIPICE pentru defecte primare:\n- Petesii, echimoze\n- Sângerări mucoase (epistaxis, gingivoragii)\n- Sângerare imediată după traumatism",
-        "mnemonic": "TS Duke 2-4min, Trombocite 150-400k, Agregare cu ADP/colagen/ristocetină"
+        "mnemonic": "Teste hemostază primară ca REVIZIE AUTO: Duke=cât curge uleiul (2-4 min), Trombocite=câte roți ai (150-400k), Agregare=cum se lipesc roțile (ADP/colagen=normal, ristocetină=special pt vW); Petesii+epistaxis = semne că mașina pierde ulei pe suprafață"
       },
       {
         "front": "Ce teste explorează hemostaza secundară (coagularea)?",
         "back": "CALEA INTRINSECĂ:\n- APTT (timpul de tromboplastină parțial activat)\n- VN: 25-35 sec\n- Explorează: XII, XI, IX, VIII\n- Prelungit în: hemofilie A/B, deficit XII/XI\n\nCALEA EXTRINSECĂ:\n- TP (timpul de protrombină/Quick)\n- VN: 11-13 sec (INR 0,8-1,2)\n- Explorează: VII, X, V, II, fibrinogen\n- Monitorizare anticoagulante orale\n\nCALEA COMUNĂ:\n- Timpul de trombină (TT)\n- VN: 14-16 sec\n- Fibrinogen, dozare directă\n- Factor XIII\n\nSÂNGERĂRI TIPICE:\n- Hematoame profunde, hemartroze\n- Sângerare întârziată (ore-zile)",
-        "mnemonic": "APTT=Intrinsecă (VIII,IX), TP=Extrinsecă (VII), TT=Trombină→Fibrină"
+        "mnemonic": "Coagularea ca DOI FRAȚI: APTT = Fratele INTROVERTIT care stă în CASĂ mult (25-35 sec), are prietenii VIII+IX (lipsă=hemofilie); TP = Fratele EXTROVERTIT care iese RAPID (11 sec), prieten cu VII (Ferrari!); INTRINSECĂ=drum LUNG prin casă (12→11→9→X); EXTRINSECĂ=sare pe FEREASTRĂ (VII→X direct); INR = cât de BEȚIV e fratele extrovertit pe warfarină (crește=mai încet)"
       },
       {
         "front": "Care este clasificarea patogenică a anemiilor hipocrome?",
         "back": "ANEMII HIPOCROME: CHEM <30 g/dL, VEM <80 fL\n\nDefect în Hb = Hem (Protoporfirina + Fe) + Globină\n\n1. TULBURĂRI ABSORBȚIE/PIERDERI Fe:\n- Anemia FERIPRIVĂ: Fe↓, CTLF↑, CS<16%\n- Depozite absente\n\n2. BLOCAJ UTILIZARE Fe:\n- Anemii boli CRONICE (infecții, cancer)\n- Fe↓, CTLF↓, CS normal, depozite prezente\n\n3. TULBURĂRI SINTEZĂ PROTOPORFIRINA:\n- Anemii SIDEROBLASTICE\n- Fe↑, sideroblasti inelari în MO\n\n4. TULBURĂRI SINTEZĂ GLOBINĂ:\n- TALASEMII (defect lanț α sau β)\n- HEMOGLOBINOPATII (HbC, HbE)\n- Fe↑, CS 90-100%",
-        "mnemonic": "Hipocromă: Feriprivă(Fe↓), Cronică(depozite+), Sideroblastică(Fe↑+inelari), Talasemie(globină)"
+        "mnemonic": "Anemii hipocrome ca un RESTAURANT cu problema la BUCĂTĂRIE (Hb): 1.FERIPRIVĂ=nu au ingrediente (Fe↓, caută disperat CTLF↑); 2.CRONICĂ=ingrediente blocate în depozit (infecția=paznicul); 3.SIDEROBLASTICĂ=ingrediente stricate (Fe în inele, nu în Hb); 4.TALASEMIE=rețeta greșită (globină defectă)"
       },
       {
         "front": "Care sunt caracteristicile anemiei feriprive?",
         "back": "CAUZE:\n- Pierderi cronice (menstruație, digestiv)\n- Absorbție redusă\n- Necesar crescut (sarcină, copii)\n\nLABORATOR:\n- Hb↓, VEM↓, CHEM↓\n- Fe seric↓ (<50 μg/dL)\n- CTLF↑ (>400 μg/dL)\n- CS <16%\n- Feritină <10 μg/L\n- Hemosiderină medulară ABSENTĂ\n- Sideroblați <10%\n\nFROTIU:\n- Microcite, hipocrome\n- Anulocite\n- Anizocitoza, poikilocitoza\n\nPROTOPORFIRINA LIBERĂ: CRESCUTĂ",
-        "mnemonic": "Feriprivă: Fe↓, CTLF↑, CS<16%, Feritină<10, Depozite=0"
+        "mnemonic": "Feriprivă ca un SĂRAC FLĂMÂND: Fe↓=gol buzunarul, CTLF↑=mâini întinse cerșind, CS<16%=aproape nimic de mâncare, Feritină<10=cămara goală, Depozite=0=nici un ban ascuns; Eritrocitele=palide și mici de foame (microcite hipocrome)"
       },
       {
         "front": "Care sunt tipurile de anemii hemolitice și cum se clasifică?",
         "back": "CLASIFICARE DUPĂ MECANISM:\n\nA. CORPUSCULARE (intriseci):\n1. Membranare: sferocitoză, eliptocitoză\n2. Enzimatice: deficit G6PD, piruvat-kinază\n3. Hemoglobine: talasemii, drepanocitoza\n\nB. EXTRACORPUSCULARE (extrinseci):\n1. Imune: autoanticorpi (AHAI), izoanticorpi\n2. Mecanice: valve, microangiopatii (SHU, PTT)\n3. Infecțioase: malarie, Clostridium\n4. Toxice: Pb, venin\n\nLABORATOR COMUN:\n- BI↑, LDH↑, haptoglobină↓\n- Reticulocitoză\n- Hiperplazie eritroidă MO\n- Test Coombs (pentru forme imune)",
-        "mnemonic": "Corpusculară=defect eritrocit, Extracorpusculară=cauză externă; BI↑+Reticulo↑+Hapto↓"
+        "mnemonic": "Hemoliză ca DETECTIV la SCENA CRIMEI: CORPUSCULARĂ=SINUCIDERE (defect intern): sferocitoză=membrană strânsă, G6PD=enzimă lipsă, talasemie=Hb greșită; EXTRACORPUSCULARĂ=OMOR (atacat din afară): Ac=gloanțe (imună), valve=tocător (mecanică), malarie=vampir (infecție); DOVEZI la AUTOPSIE: BI↑=vânătăi galbene (bilirubină), LDH↑=sânge la locul crimei (enzime), Hapto↓=detectorul consumat (haptoglobina curăță Hb), Reticulo↑=polițiștii de urgență (măduva trimite întăriri)"
       },
       {
         "front": "Care sunt caracteristicile anemiei megaloblastice (Biermer)?",
         "back": "CAUZE:\n- Deficit B12 (anemie Biermer - Ac anti-FI)\n- Deficit acid folic\n- Tulburări sinteză ADN\n\nPATOGENIE:\n- Asincronism de maturare nucleu-citoplasmă\n- Eritropoieză ineficientă\n\nLABORATOR:\n- VEM >100-140 fL (macrocite, megalocite)\n- Pancitopenie posibilă\n- BI↑ (eritropoieză ineficientă)\n- LDH↑↑\n- B12 <200 pg/mL sau Folat <3 ng/mL\n\nFROTIU:\n- Ovalomacrocite\n- Neutrofile hipersegmentate (>5 lobi)\n- Corpi Howell-Jolly\n\nMO: Megaloblasti, raport G/E inversat\n\nTRATAMENT: B12 parenteral (Biermer), Folat oral",
-        "mnemonic": "Megaloblastică: VEM>100, B12/Folat↓, Neutrofile hipersegmentate, LDH↑↑"
+        "mnemonic": "Megaloblastică = GIGANȚII NEÎNDEMÂNATICI: Celulele MARI (VEM>100) dar PROASTE (ADN defect din lipsa B12/Folat); Neutrofilele=cap mare cu mulți lobi (>5), LDH↑↑=mor în fabrică înainte să iasă; BIERMER=stomacul atacă factorul intrinsec (Ac anti-FI) → B12 flămând"
       },
       {
         "front": "Care sunt bolile mieloproliferative cronice?",
         "back": "4 BOLI MIELOPROLIFERATIVE CRONICE:\n\n1. LEUCEMIA MIELOIDĂ CRONICĂ (LMC):\n- Cromozomul Philadelphia (BCR-ABL)\n- Leucocitoză marcată, FAL scăzută\n- Splenomegalie\n\n2. POLICITEMIA VERA (PV):\n- Masă eritrocitară↑↑, Ht↑↑\n- Pancitoza, splenomegalie\n- EPO scăzută, prurit\n\n3. TROMBOCITEMIA ESENȚIALĂ (TE):\n- Trombocite >600.000/mm³\n- Tromboze și/sau hemoragii\n\n4. MIELOFIBROZA PRIMARĂ (MMM):\n- Fibroză medulară\n- Hematopoieză extramedulară\n- Splenomegalie tumorală\n- Dacriocite (eritrocite în picătură)",
-        "mnemonic": "4 boli mieloproliferative - fiecare crește altceva: LMC=Leucocite+cromozom Philadelphia, PV=eritrocite (policitemie VERA=roșie), TE=Trombocite, MMM=fibroză (măduvă înlocuită, dacriocite=lacrimi)"
+        "mnemonic": "4 PRIETENI care exagerează fiecare cu altceva: LMC=tipul care vorbește prea mult (Leucocite↑↑, Philadelphia=telefon mobil BCR-ABL); PV=tipul ROȘU la față (eritrocite↑, JAK2=jachetă roșie, prurit=mâncărime după baie); TE=tipul care adună totul (Trombocite>600k, tromboze); MMM=tipul trist (fibroză, dacriocite=lacrimi, splenomegalie=burtă umflată)"
       },
       {
         "front": "Care sunt criteriile de diagnostic pentru LMC?",
         "back": "LMC FAZĂ CRONICĂ:\n- Leucocitoză (50.000-200.000/mm³)\n- Formula: 2 vârfuri (nesegm+segm și mielocite)\n- Bazofilie absolută (5-10%)\n- Monocite <3%\n- Trombocite ≥400.000\n- FAL SCĂZUTĂ\n- Cromozomul Philadelphia (95%)\n\nFAZĂ ACCELERATĂ:\n- Blasti 5-20%\n- Bazofilie >10%\n- Anomalii citogenetice noi\n\nFAZĂ BLASTICĂ (criză):\n- Blasti ≥20% în sânge sau MO\n- Mieloidă sau limfoidă\n\nTRATAMENT: Inhibitori tirozin-kinază (Imatinib)",
-        "mnemonic": "LMC: Leucocitoză+Bazofilie+FAL↓+Ph(+), Criză blastică≥20% blasti"
+        "mnemonic": "LMC ca o FABRICĂ NEBUNĂ din Philadelphia: Leucocite 50-200k (supraproducție!), Bazofilie=muncitorii rari ies la suprafață, FAL↓=stampila falsă (diferență de reactie normală), Ph+=marca fabricii (BCR-ABL); FAZELE: Cronică=fabrică merge încet, Accelerată=5-20% blasti=haos, Blastică≥20%=explozie (criză); IMATINIB=închide fabrica"
       },
       {
         "front": "Care sunt criteriile de diagnostic pentru Policitemia Vera?",
         "back": "CRITERII MAJORE:\n- Hb >18,5 g/dL (B), >16,5 g/dL (F)\n- Masă eritrocitară↑: >36 mL/kg (B), >32 mL/kg (F)\n- Mutația JAK2 V617F (95%)\n\nCRITERII MINORE:\n- Splenomegalie\n- EPO serică scăzută\n- Colonii eritroide endogene\n- Trombocite >400.000\n- Leucocite >12.000\n- FAL crescută\n- B12 și capacitate legare B12↑\n\nCLINIC:\n- Prurit (după baie caldă)\n- Facies pletorica\n- Tromboze și hemoragii\n- Saturația O2 >92% (diferențiere de eritrocitoze secundare)",
-        "mnemonic": "PV: Hb↑↑+Masă eritrocitară↑+JAK2+, EPO↓, Prurit, Tromboze"
+        "mnemonic": "Policitemia Vera = VAMPIR SUPRASATURAT: Sânge GROS (Hb>18.5, Ht↑), JAK2+=mutația vampirului (95%), EPO↓=nu mai cere sânge că are prea mult; Față ROȘIE (pletoră), MÂNCĂRIME după baie (histamină din mastocite), TROMBOZE (sângele prea gros se blochează); Splina=depozit umflat; Diferență de eritrocitoze secundare: EPO↓ și O2>92%"
       },
       {
         "front": "Care sunt caracteristicile Mielofibrozei Primare?",
         "back": "PATOGENIE:\n- Proliferare clonală celulă stem\n- Reactivare stromală → fibroză\n- Hematopoieză extramedulară\n\nSÂNGE PERIFERIC:\n- Tablou LEUCOERITROBLASTIC\n- DACRIOCITE (eritrocite în picătură)\n- Eritroblași, granulocite imature\n- Fragmente megacariocite\n- Anemie, trombocitopenie tardivă\n\nMO:\n- Puncție ALBĂ (aspirat dificil)\n- Biopsie: fibroză reticulinică/colagenă\n- Megacariocite displazice\n\nCLINIC:\n- Splenomegalie TUMORALĂ\n- Hepatomegalie\n- Simptome constituționale",
-        "mnemonic": "MMF: Puncție albă+Dacriocite+Tablou leucoeritroblastic+Splenomegalie tumorală"
+        "mnemonic": "Mielofibroza = MĂDUVA se CIMENTEAZĂ: Puncție ALBĂ (seacă=nu iese nimic, măduva e betoane), Dacriocite=LACRIMI (eritrocitele plâng că sunt strânse), Tablou LEUCOeritroBLASTIC=toate stadiile apar în sânge (fugiți din fabrica distrusă!), Splina TUMORALĂ=refugiul unde se mută producția (hematopoieză extramedulară)"
       },
       {
         "front": "Care sunt caracteristicile Leucemiei Limfatice Cronice (LLC)?",
         "back": "DEFINIȚIE:\n- Proliferare clonală limfocite B mature\n- Blocate în maturație, incompetente imunologic\n\nSÂNGE PERIFERIC:\n- Leucocitoză (20.000-200.000/mm³)\n- Limfocitoză >5.000/mm³ persistentă\n- Limfocite mici, mature\n- UMBRE NUCLEARE GUMPRECHT\n- Anemie, trombocitopenie (tardiv)\n\nMO:\n- Infiltrație >30% limfocite\n- 4 tipuri: interstițial, nodular, mixt, difuz\n\nIMUNOFENOTIP:\n- CD5+, CD19+, CD23+\n- Ig de suprafață slabe\n\nCOMPLICATII:\n- Hipogamaglobulinemie (infecții)\n- AHAI (Coombs+)\n- Transformare Richter (DLBCL)",
-        "mnemonic": "LLC: Limfocitoză B+CD5+Gumprecht+Hipogamaglobulinemie"
+        "mnemonic": "LLC = ARMATA de limfocite B INCOMPETENTE: Multe (>5000) dar PROASTE (nu fac Ig→hipogamaglobulinemie→infecții); CD5+=insigna ciudată (normal doar pe T); GUMPRECHT=UMBRE (celulele fragile se sparg pe lamă ca fantomele); Transformare RICHTER=revoltă (devine limfom agresiv); Tratament tardiv, boală a bătrânilor"
       },
       {
         "front": "Care sunt caracteristicile Leucemiei cu Celule Păroase (HCL)?",
         "back": "DEFINIȚIE:\n- Proliferare cronică limfocite B\n- Celule cu prelungiri citoplasmatice (hairy)\n\nSÂNGE PERIFERIC:\n- PANCITOPENIE\n- Neutropenie, monocitopenie\n- Celule hairy: margini dantelate, nucleu excentric\n\nMO:\n- Infiltrație difuză aspect \"fagure de miere\"\n- Mielofibroză\n- Aspirat dificil\n\nCITOCHIMIE:\n- Fosfataza acidă TARTRAT-REZISTENTĂ (TRAP+)\n\nIMUNOFENOTIP:\n- CD11c+, CD25+, CD103+, CD22+\n\nCLINIC:\n- Splenomegalie\n- Infecții\n- Febră prelungită",
-        "mnemonic": "HCL: Celule păroase+Pancitopenie+TRAP++Splenomegalie"
+        "mnemonic": "HCL = CELULELE HIPIOATE (Hairy=Păroase): Imaginează-le cu PERUCĂ DREADLOCKS (marginile dantelate=păr zbârlit), nucleu excentric=cap înclinat; Vs LLC: aici e PANCITOPENIE (hipioații sunt singuratici, nu fac mulțimi), Monocite↓↓ (nu le plac curățătorii); MO=FAGURE de MIERE (infiltrație difuză, aspirat dificil=miere lipicioasă); TRAP+=fosfataza REZISTENTĂ (hipioții rezistă sistemului!); Splina mare=casa lor; CD103, CD25, CD11c=tatuajele hipioților"
       },
       {
         "front": "Care este clasificarea FAB a leucemiilor acute mieloide?",
         "back": "CLASIFICAREA FAB (Franco-Americano-Britanică):\n\nM0: Minim diferențiată (MPOX-, markeri mieloizi+)\nM1: Mieloblastică fără maturație\nM2: Mieloblastică cu maturație (t(8;21))\nM3: PROMIELOCITARĂ (t(15;17)) - CID!\nM4: Mielomonocitară\nM4Eo: Mielomonocitară cu eozinofilie\nM5: Monocitară (a=monoblastică, b=promonocitară)\nM6: Eritroleucemia (di Guglielmo)\nM7: Megacarioblastică\n\nCRITERII:\n- Blasti ≥20% din celulele nucleate MO (OMS)\n- Corpi Auer patognomonici\n\nCITOCHIMIE:\n- Mieloperoxidază (MPOX) ≥3% = LAM\n- Esteraze: ANAE (monocite), Clor-E (granulocite)",
-        "mnemonic": "LAM de la 0 la 7 ca o SCARĂ: M0=zero maturație, M1-2=Mieloblaști, M3=Promielocit(ATRA!), M4-5=Monocite, M6=Eritro(roșu), M7=Megacario(plachete)"
+        "mnemonic": "LAM ca o CASĂ cu 8 etaje (M0-M7): PARTER M0=beciuri goale (minim diferențiată); ETAJ 1-2=Mieloblaștii TINERI muncesc (M1 fără, M2 cu maturație t(8;21)); ETAJ 3=CAMERA ROȘIE PERICULOASĂ M3 (promielocit, t(15;17), CID! dă-i ATRA); ETAJ 4-5=Monocitele fac CURĂȚENIE (M4=mixt, M5=doar monocite); MANSARDĂ M6=cameră ROȘU-SÂNGE (eritroleucemie di Guglielmo); ACOPERIȘ M7=PLĂCILE de megacarioblaste; Corpi Auer=BASTOANE de lemn în celule"
       },
       {
         "front": "Care sunt caracteristicile Leucemiei Acute Promielocitare (M3)?",
         "back": "PARTICULARITĂȚI:\n- t(15;17) - fuziune PML-RARα\n- Cel mai bun prognostic cu tratament\n- URGENȚĂ HEMATOLOGICĂ!\n\nMORFOLOGIE:\n- Promielocite atipice >30%\n- Nucleu reniform/bilobat\n- Granulații azurofile abundente\n- Corpi Auer \"în grămezi de lemne\"\n- Varianta hipogranulară: granule fine\n\nCOMPLICATIA MAJORĂ: CID\n- Sindrom hemoragic sever\n- Fibrinogen↓↓, PDF↑\n- TP↑, APTT↑\n- Hemoragii cerebrale fatale\n\nTRATAMENT:\n- ATRA (acid all-trans retinoic)\n- Arsenic trioxide\n- NU chimioterapie inițial (risc CID)",
-        "mnemonic": "M3: t(15;17)+Corpi Auer grămezi+CID+ATRA tratament"
+        "mnemonic": "LAM M3 = URGENȚA HEMATOLOGICĂ: t(15;17)=fuziune PML-RARα (promielocite nebune); Corpi Auer în GRĂMEZI DE LEMNE (patognomonic!); CID=sângerează FATAL (fibrinogen↓↓, consumă coagulare); ATRA=vitamina A miraculoasă (acid retinoic ALL-TRANS) - NU chimio inițial! Cel mai BUN prognostic DACĂ supraviețuiești CID"
       },
       {
         "front": "Care este clasificarea morfologică a leucemiilor acute limfoblastice?",
         "back": "CLASIFICAREA FAB:\n\nL1:\n- Blasti MICI, uniformi\n- Raport N/C crescut\n- Nucleol puțin vizibil\n- Citoplasma redusă\n- Cel mai frecvent la copii\n\nL2:\n- Blasti MARI, heterogeni\n- Nucleu neregulat\n- Nucleoli vizibili\n- Citoplasma abundentă\n- Frecvent la adulți\n\nL3 (tip BURKITT):\n- Celule mari 15-25 μm\n- Nucleoli multipli\n- Citoplasma intens bazofilă\n- VACUOLE caracteristice\n- Ig suprafață (B matur)\n- t(8;14) - MYC\n\nCITOCHIMIE:\n- PAS+ (blocuri grosolane)\n- MPOX-, ANAE-, Clor-E-",
-        "mnemonic": "LAL: L1=celule mici ca MAZĂREA (copii), L2=celule mari VARIABILE (adulți), L3=Burkitt cu VACUOLE (ca bule de săpun)"
+        "mnemonic": "LAL ca TREI BALOANE la petrecere: L1=baloane MICI și UNIFORME (copiii le adoră=frecvent la copii), nucleu mare, citoplasmă mică; L2=baloane MARI și CIUDATE, forme neregulate (adulții=mai complicați); L3=BALONUL BURKITT plin de BULE (vacuole ca bila de săpun), intens albastru (bazofil), cu MYC t(8;14)=EXPLOZIE; PAS+=zahăr în blocuri (toate LAL); MPOX-=nu sunt mieloide"
       },
       {
         "front": "Care sunt markerii imunologici pentru diferențierea LAL?",
         "back": "CLASIFICAREA IMUNOLOGICĂ LAL:\n\nLAL-B (85%):\n- pre-B timpurie: CD19+, CD22+, TdT+\n- pre-B (comună): CD10+ (CALLA)\n- pre-B: Ig citoplasmatice\n- B matură: Ig suprafață (L3)\n\nLAL-T (15%):\n- CD3+ (citoplasmatic), CD7+\n- CD5+, CD2+\n- TdT+\n\nMARKERI BIOCHIMICI:\n- TdT (deoxinucleotidil-transferaza terminală):\n  - Pozitivă în LAL-T și pre-B\n  - Negativă în LAL-B matură\n- Hexozaminidaza: LAL comună\n- ADA crescută: LAL-T\n\nPROGNOSTIC:\n- Favorabil: LAL comună (CD10+), hiperploidie\n- Nefavorabil: t(9;22) Ph+, t(4;11)",
-        "mnemonic": "LAL-B: CD19+CD10+(comună); LAL-T: CD3+CD7+; TdT+=imatur"
+        "mnemonic": "LAL = limfoblast IMATUR (TdT+): LAL-B (85%)=școala B: CD19=legitimația școlii, CD10(CALLA)=cel mai bun elev (prognostic favorabil); LAL-T (15%)=școala T: CD3=inima (citoplasmatic), CD7=primul apărut; TdT=creioanele (terminal transferaza)=dovada că încă învață (imatur); L3=absolvent (Ig suprafață, TdT-)"
       },
       {
         "front": "Care sunt sindroamele mielodisplazice (SMD)?",
         "back": "DEFINIȚIE:\n- Boli clonale celulă stem\n- Hematopoieză ineficientă\n- Citopenii + displazie\n- Risc transformare în LAM\n\nCLASIFICARE OMS:\n- AR: Anemia refractară\n- ARSA: AR cu sideroblasti inelari >15%\n- CRDM: Citopenie refractară cu displazie multiliniară\n- AREB-1: AR cu exces blasti 5-9%\n- AREB-2: AR cu exces blasti 10-19%\n- SMD cu del(5q) izolată\n\nCRITERII DISPLAZIE:\n- Eritroidă: megaloblastoză, sideroblasti inelari\n- Granulocitară: hiposegmentare (Pelger), hipogranulare\n- Megacariocitară: micromegacariocite, monolobate\n\nPROGNOSTIC: IPSS (citopenii, blasti, citogenetică)",
-        "mnemonic": "SMD = sânge citopenic dar MO bogată în celule anormale; Blasti: 0-4%=AR, 5-9%=AREB1, 10-19%=AREB2, ≥20%=LAM (nu mai e SMD!)"
+        "mnemonic": "SMD = FABRICA produce REBUTURI: Citopeniile=puține ieșiri bune, MO bogată=mult personal dar prost; Displazie=produse defecte (megaloblastoză, Pelger, micromegacariocite); SCARA spre LAM: AR=0-4% blaști (rebut minor), AREB-1=5-9% (haos), AREB-2=10-19% (criză), ≥20%=LAM (fabrica a explodat, nu mai e SMD!)"
       },
       {
         "front": "Care este formula leucocitară normală?",
         "back": "LEUCOCITE TOTALE: 4.000-10.000/mm³\n\nFORMULA:\n- Neutrofile segmentate: 50-70% (2.500-7.500)\n- Neutrofile nesegmentate: 0-5% (0-500)\n- Limfocite: 20-40% (1.500-4.000)\n- Monocite: 2-8% (200-800)\n- Eozinofile: 1-4% (50-400)\n- Bazofile: 0-1% (0-100)\n\nDEVIERE LA STÂNGA:\n- Creștere forme imature (nesegmentate, mielocite)\n- Infecții bacteriene acute\n\nLIMFOCITOZĂ:\n- Infecții virale\n- LLC, LAL\n\nEOZINOFILIE:\n- Alergii, parazitoze\n- Boli mieloproliferative",
-        "mnemonic": "Formula leucocitară (regula 60-30-5-3-1): Neutro=soldații majoritari (60%), Limfo=memoria (30%), Mono=curățenie (5%), Eozino=alergii/paraziți (3%), Bazo=rare (1%)"
+        "mnemonic": "Formula leucocitară ca o ARMATĂ de 10.000: NEUTROFILELE=6000 SOLDAȚI prima linie (60%), segmentate=veterani, nesegmentate=recruți (deviere stânga=chemați recruții la infecție!); LIMFOCITELE=3000 SPIONI (30%), memorează inamicii; MONOCITELE=500 CURĂȚĂTORI (5%), mănâncă resturile; EOZINOFILELE=300 SPECIALIȘTI în paraziți/alergii (3%); BAZOFILELE=100 RARI misterioși (1%, histamină); Normal total=4-10k, <4k=armată slabă, >10k=armată mobilizată"
       },
       {
         "front": "Ce este testul Coombs și când se folosește?",
         "back": "TESTUL COOMBS = detectare anticorpi anti-eritrocitari\n\nCOOMBS DIRECT (DAT):\n- Detectează Ac/complement pe eritrocite in vivo\n- Ser anti-Ig uman + eritrocite pacient\n- Aglutinare = POZITIV\n\nINDICATII:\n- AHAI (anemie hemolitică autoimună)\n- Boala hemolitică a nou-născutului\n- Reacții transfuzionale\n- Anemie hemolitică medicamentoasă\n\nCOOMBS INDIRECT (IAT):\n- Detectează Ac liberi în serul pacientului\n- Ser pacient + eritrocite test + ser anti-Ig\n\nINDICATII:\n- Screening anticorpi înainte de transfuzie\n- Tipare anticorpi\n- Teste compatibilitate",
-        "mnemonic": "Coombs Direct=Ac PE eritrocite(AHAI), Indirect=Ac ÎN ser(compatibilitate)"
+        "mnemonic": "Coombs ca DETECTOR DE CRIME: DIRECT=găsește arma pe victimă (Ac PE eritrocit) → AHAI, boala nou-născutului; INDIRECT=găsește arma în casa suspectului (Ac ÎN ser) → compatibilitate transfuzie; Aglutinare=dovada crimei"
       },
       {
         "front": "Care sunt grupele sanguine ABO și importanța lor?",
         "back": "SISTEMUL ABO:\n\nGRUPA A: Ag A pe eritrocite, Ac anti-B în plasmă\nGRUPA B: Ag B pe eritrocite, Ac anti-A în plasmă\nGRUPA AB: Ag A+B, fără Ac naturali (primitor universal)\nGRUPA O: fără Ag, Ac anti-A + anti-B (donator universal)\n\nMOȘTENIRE:\n- Gene codominante (A, B) și recesivă (O)\n- Genotipuri: AA/AO, BB/BO, AB, OO\n\nIMPORTANȚĂ CLINICĂ:\n- Transfuzii: compatibilitate obligatorie\n- Transplant: compatibilitate necesară\n- Boala hemolitică nou-născut\n- Medicină legală\n\nCOMPATIBILITATE:\n- Eritrocite: grupă identică sau O\n- Plasmă: grupă identică sau AB",
-        "mnemonic": "ABO: A=anti-B, B=anti-A, O=toate Ac(donator), AB=fără Ac(primitor)"
+        "mnemonic": "ABO ca ECHIPE RIVALE: Fiecare are ARME (anticorpi) împotriva celorlalți; A=ura pe B, B=ura pe A, O=ura pe toți (dar donează la toți că e GOLUȚ), AB=prieten cu toți (primește de la toți că n-are arme); Eritrocite O=donator universal, Plasmă AB=donator universal"
       },
       {
         "front": "Ce este sistemul Rh și importanța antigenului D?",
         "back": "SISTEMUL Rh:\n- 5 antigene principale: D, C, c, E, e\n- Ag D = cel mai imunogen\n\nRh POZITIV (D+): 85% populație\nRh NEGATIV (D-): 15% populație\n\nIMPORTANȚĂ CLINICĂ:\n\n1. TRANSFUZII:\n- Rh- primește doar Rh-\n- Rh+ poate primi Rh+ sau Rh-\n\n2. SARCINĂ (incompatibilitate Rh):\n- Mamă Rh-, tată Rh+, făt Rh+\n- Izoimunizare maternă (anti-D)\n- Boala hemolitică a nou-născutului\n\nPROFILAXIE:\n- Imunoglobulină anti-D (RhoGAM)\n- La 28 săpt și postpartum (72h)\n- După avort, amniocenteză\n\nDIAGNOSTIC: Test Coombs indirect/direct",
-        "mnemonic": "Rh ca grupa sanguină ASCUNSĂ: D=cel mai periculos, mamă D- + făt D+ = CONFLICT (anticorpi), RhoGAM = PACE la 28 săpt și naștere"
+        "mnemonic": "Sistemul Rh ca un RĂZBOI FAMILIAL: D=cel mai PROVOCATOR (imunogen); 85% au D+ (majoritate), 15% sunt D- (minoritate); TRAGEDIA: Mama D- + Tata D+ = Făt D+ → mama ATACĂ bebelușul cu anticorpi anti-D → Boala HEMOLITICĂ a nou-născutului; SOLUȚIA: RhoGAM (Ig anti-D) = PACE între mamă și făt la 28 săpt + 72h postpartum; Se dă și după avort, amniocenteză (orice contact mamă-făt); Coombs indirect=detectează Ac în ser mamă"
       },
       {
         "front": "Care sunt caracteristicile Hemofiliei A și B?",
         "back": "HEMOFILIA A:\n- Deficit factor VIII-C (fracțiunea coagulantă)\n- Transmitere recesivă X-linkată\n- 80-85% din hemofilii\n\nHEMOFILIA B (Christmas):\n- Deficit factor IX\n- 15-20% din hemofilii\n\nCLINIC:\n- Hematoame, hemartroze\n- Sângerări musculare profunde\n- Sângerare întârziată post-traumatism\n\nLABORATOR:\n- APTT prelungit (calea intrinsecă)\n- TP, TT, TS NORMALE\n- Număr trombocite normal\n- Factor VIII-C sau IX scăzut\n\nSEVERITATE:\n- Severă: <1% factor\n- Moderată: 1-5%\n- Ușoară: 5-25%",
-        "mnemonic": "Hemofilia A=VIII, B=IX; APTT↑, TP normal; Hemartroze+Hematoame"
+        "mnemonic": "Hemofilia = boala REGILOR (X-linkată, băieții suferă): A=lipsește factorul 8 (opt=infinit=cel mai comun 85%); B=Christmas (factor 9, descoperit de Christmas); APTT↑ (intrinsecă afectată), TP normal; Sângerează ADÂNC (hemartroze=genunchi, hematoame profunde) NU superficial"
       },
       {
         "front": "Care sunt caracteristicile Bolii von Willebrand?",
         "back": "DEFINIȚIE:\n- Cea mai frecventă tulburare ereditară a hemostazei\n- Transmitere autosomal dominantă (80%)\n- Deficit/anomalie factor von Willebrand\n\nFUNCȚII vWF:\n- Mediază adeziunea plachetară la colagen\n- Transportor și stabilizator pentru VIII-C\n\nCLINIC:\n- Sângerări mucocutanate (epistaxis, gingivoragii)\n- Menoragii\n- Sângerări post-chirurgical\n\nLABORATOR:\n- TS PRELUNGIT (≠hemofilie!)\n- APTT prelungit (50% cazuri)\n- Agregare la RISTOCETINĂ scăzută\n- vWF scăzut, VIII-C subnormal\n- TP, retracție cheag normale\n\nTIPURI: 1 (cantitativ), 2 (calitativ), 3 (sever)",
-        "mnemonic": "vW: TS↑+Ristocetină↓; Hemofilie: TS normal; Ambele APTT↑"
+        "mnemonic": "von Willebrand = LIPICIUL plachetar: vWF=bandă adezivă dublă (lipește plachetele de perete + stabilizează VIII); Lipici lipsă→TS PRELUNGIT (plachete nu se lipesc)+Ristocetina↓ (testul cu lipici); VIII instabil→APTT↑; vs HEMOFILIE: TS normal (au lipici), doar APTT↑ (lipsește VIII dar nu lipiciul); vW=cea mai frecventă, autosomal dominant"
       },
       {
         "front": "Ce este Coagularea Intravasculară Diseminată (CID)?",
         "back": "DEFINIȚIE:\n- Activare sistemică excesivă a coagulării\n- Consum factori + trombocite\n- Fibrinoliză secundară\n- Tromboze + hemoragii simultane\n\nCAUZE:\n- Sepsis (Gram-), șoc\n- Obstetricale (abruptio, embolie LA)\n- LAM M3 (promielocitară)\n- Traumatisme severe, arsuri\n- Neoplazii\n\nLABORATOR:\n- Trombocitopenie\n- TP↑, APTT↑, TT↑\n- Fibrinogen↓↓\n- D-DIMERI↑↑ (marker!)\n- PDF↑ (produși degradare fibrină)\n- SCHIZOCITE pe frotiu\n- AT III scăzută\n\nTRATAMENT:\n- Tratarea cauzei!\n- PPC, crioprecipitat, trombocite\n- Heparină (controversat)",
-        "mnemonic": "CID: Totul PRELUNGIT+Fibrinogen↓+D-dimeri↑+Schizocite; Cauză: Sepsis/M3/Obstetric"
+        "mnemonic": "CID = FURTUNA PERFECTĂ (coagulare+sângerare simultan): Trigger (Sepsis/M3/Obstetric) → coagulare masivă → CONSUM tot (trombocite↓, fibrinogen↓↓) → microtrombi peste tot → SCHIZOCITE (eritrocite tăiate de trombi) → fibrinoliză secundară → D-DIMERI↑↑ (resturile); Toate timpurile↑ (TP, APTT, TT)=nu mai are cu ce coagula; Tratament=tratează cauza!"
       },
       {
         "front": "Care sunt caracteristicile Fibrinolizei Primare?",
         "back": "DEFINIȚIE:\n- Activitate fibrinolitică excesivă\n- Fără activare prealabilă a coagulării (≠CID)\n\nCAUZE:\n- Chirurgie prostată, plămân, uter (organe bogate în t-PA)\n- Ciroză hepatică (↓inhibitori)\n- Terapie trombolitică\n- Neoplazii\n- Șoc, electrocutare\n\nLABORATOR:\n- TLCE mult scurtat (timp liză cheag euglobinic)\n- Fibrinogen↓\n- PDF↑\n- APTT, TP ușor prelungite\n- Trombocite NORMALE (≠CID!)\n- D-dimeri normali sau ușor↑\n\nDIFERENȚĂ CID:\n- CID: trombocite↓, D-dimeri↑↑, schizocite\n- Fibrinoliză primară: trombocite N, TLCE↓↓\n\nTRATAMENT: Antifibrinolitice (acid tranexamic, aminocaproic)",
-        "mnemonic": "Fibrinoliză primară: TLCE↓↓+Trombocite N (≠CID unde Trombo↓)"
+        "mnemonic": "Fibrinoliză primară vs CID = TOPITORUL vs FURTUNA: Primară=doar topește fibrina (TLCE↓↓), trombocite NORMALE (nu consumă coagularea); CID=consumă tot (trombocite↓, D-dimeri↑↑); Cauze: chirurgie prostată/plămân/uter (organe bogate în t-PA=activator); Tratament=antifibrinolitice (tranexamic=închide topitorul)"
       },
       {
         "front": "Care sunt trombocitopatiile ereditare principale?",
         "back": "1. TROMBASTENIA GLANZMANN:\n- Deficit GP IIb-IIIa (receptor fibrinogen)\n- Agregare ABSENTĂ la ADP, colagen, epinefrină\n- Agregare PREZENTĂ la ristocetină\n- Retracție cheag nulă\n- TS prelungit\n\n2. SINDROM BERNARD-SOULIER:\n- Deficit GP Ib (receptor vWF)\n- Trombocite GIGANTE, număr scăzut\n- Agregare la ristocetină ABSENTĂ\n- Agregare la ADP, colagen NORMALĂ\n- Retracție cheag normală\n\n3. DEFICIT GRANULE DENSE (δ):\n- Deficit ADP, ATP, serotonină\n- Agregare secundară absentă\n- Raport ATP/ADP >3\n\n4. SINDROM PLACHETE CENUȘII:\n- Deficit granule α\n- Plachete cenușii pe frotiu",
-        "mnemonic": "Glanzmann=IIb-IIIa(agregare0), Bernard-Soulier=Ib(plachete gigante+ristocetină0)"
+        "mnemonic": "Trombocitopatii ereditare ca MAȘINI DEFECTE: GLANZMANN=fără CÂRLIGE între mașini (GPIIb-IIIa=receptor fibrinogen), nu se pot AGREGA între ele, dar se lipesc de perete (ristocetina OK); BERNARD-SOULIER=fără FRÂNE (GPIb=receptor vWF), mașini GIGANTE dar nu se opresc la perete (ristocetina 0), agregare OK între ele; Granule DENSE lipsă=fără benzină (ADP↓)"
       },
       {
         "front": "Care este clasificarea etiologică a trombocitopeniilor?",
         "back": "1. PRODUCȚIE SCĂZUTĂ (centrale):\n- Aplazia medulară\n- Leucemii, metastaze medulare\n- Deficit B12/folat (megaloblastică)\n- Medicamente: citostatice, cloramfenicol\n- Radiații\n\n2. DISTRUCȚIE CRESCUTĂ (periferice):\na) IMUNE:\n- PTI (purpură trombocitopenică imună)\n- Medicamentoasă (heparină, chinidină)\n- Aloimună (neonatală, posttransfuzională)\n\nb) NON-IMUNE:\n- CID\n- PTT (purpură trombotică trombocitopenică)\n- SHU (sindrom hemolitic-uremic)\n- Valve protetice\n\n3. SECHESTRARE:\n- Hipersplenism\n\n4. DILUȚIONALE:\n- Transfuzii masive",
-        "mnemonic": "Trombocitopenii: Centrale(producție↓) vs Periferice(distrucție↑/imună/non-imună)"
+        "mnemonic": "Trombocitopenii ca LIPSA DE BANI: CENTRALE (fabrica nu produce)=aplazie, leucemii, citostatice→MO săracă; PERIFERICE (banii se pierd)=IMUNE (PTI=banca atacă propriii bani, HIT=heparina fură), NON-IMUNE (CID/PTT=banii se consumă, valve=se rup); SECHESTRARE (splina=seif mare)=hipersplenism; DILUȚIONALE=prea multă apă în pahar (transfuzii masive)"
       },
       {
         "front": "Care sunt complicațiile imunologice ale transfuziei?",
         "back": "1. REACȚIE HEMOLITICĂ ACUTĂ:\n- Incompatibilitate ABO\n- Hemoliză intravasculară\n- Febră, frison, dureri lombare\n- Hemoglobinurie, IRA\n- Poate fi FATALĂ!\n\n2. REACȚIE HEMOLITICĂ TARDIVĂ:\n- După 7-14 zile\n- Pacient anterior sensibilizat\n- Hemoliză extravasculară\n- Anemie, icter, febră\n\n3. REACȚIE FEBRILĂ NON-HEMOLITICĂ:\n- Ac anti-leucocitari/trombocitari\n- Febră, frison\n- Frecventă, benignă\n\n4. REACȚIE ALERGICĂ/ANAFILACTICĂ:\n- Urticarie, bronhospasm\n- Deficit IgA + Ac anti-IgA\n\n5. TRALI (Transfusion-Related Acute Lung Injury):\n- Edem pulmonar non-cardiogen\n- Ac anti-HLA în plasma donatorului",
-        "mnemonic": "Transfuzie: Acută=ABO+IRA, Tardivă=7zile+anamneză, TRALI=pulmonar"
+        "mnemonic": "Complicații IMUNE transfuzie ca RĂZBOIUL: ACUTĂ (ABO incompatibil)=bombă nucleară (hemoliză masivă, IRA, FATAL în minute); TARDIVĂ (7-14 zile)=ambuscadă (memorie imună, hemoliză ușoară); FEBRILĂ (Ac anti-leucocite)=zgomot de fundal (benignă); ALERGICĂ (anti-IgA)=alergie la praf; TRALI=gazele otrăvitoare (edem pulmonar din Ac anti-HLA)"
       },
       {
         "front": "Care sunt complicațiile non-imunologice ale transfuziei?",
         "back": "1. SUPRAÎNCĂRCARE VOLEMICĂ:\n- EPA la vârstnici, anemie cronică\n- Prevenție: masă eritrocitară, ritm lent\n\n2. INFECȚII TRANSMISIBILE:\n- Virale: HBV, HCV, HIV, CMV\n- Bacteriene: sifilis, sepsis\n- Parazitare: malarie, toxoplasmoză\n\n3. HEMOCROMATOZĂ SECUNDARĂ:\n- Politransfuzați cronici\n- Depozite Fe: cord, ficat, endocrin\n- Feritină >1000 μg/L\n- Tratament: desferoxamină\n\n4. TOXICITATE CITRAT:\n- Transfuzii masive\n- Chelează Ca2+ → spasme musculare\n- Tratament: Ca gluconic\n\n5. HIPOTERMIE:\n- Transfuzii masive rapide\n\n6. HIPERKALIEMIE:\n- Sânge vechi, K+ eliberat din eritrocite",
-        "mnemonic": "Non-imunologice: Volum↑+Infecții+Fier↑+Citrat(Ca↓)+Hipotermie+K↑"
+        "mnemonic": "Complicații NON-IMUNE transfuzie (VICTIM): Volum↑=inundație (EPA la vârstnici), Infecții (HBV/HCV/HIV=viruși ascunși), Citrat chelează Ca (spasme=crampe musculare la transfuzii rapide), TEmperatură↓ (hipotermie=sânge rece), Intoxicație cu Fier (hemocromatoză la politransfuzați, feritină>1000=supradoză), Metabolic K↑ (sânge vechi=potasiu scurs)"
       },
       {
         "front": "Care sunt regulile transfuzionale pentru sistemul ABO?",
         "back": "REGULA DE BAZĂ:\n- Ac primitor NU trebuie să reacționeze cu Ag donator\n\nERITROCITE (compatibilitate Ag):\n- Ideal: IZOGRUP\n- Urgență: O (donator universal eritrocite)\n\nO → poate dona la A, B, AB, O\nA → poate dona la A, AB\nB → poate dona la B, AB\nAB → poate dona doar la AB\n\nPLASMĂ/PPC (compatibilitate Ac):\n- AB = donator universal (fără Ac)\n- O = primește doar plasmă O\n\nATENȚIE:\n- Donator O \"periculos\": titru înalt anti-A/B\n- Se dă doar masă eritrocitară/eritrocite spălate\n- Incompatibilitate → hemoliză acută!\n\nPROBE OBLIGATORII:\n- Determinare grup + Rh\n- Probe compatibilitate la 37°C",
-        "mnemonic": "Eritrocite: O=donator universal; Plasmă: AB=donator universal"
+        "mnemonic": "Regula de AUR transfuzională (INVERSATĂ): ERITROCITE=dă ce n-ai (O=gol, poate dona la toți că n-are antigene), AB=primitor universal (acceptă totul); PLASMĂ=dă ce ai (AB=plin, poate dona la toți că n-are anticorpi), O=primește doar O (are anticorpi contra tuturor); URGENȚĂ: O negativ pentru eritrocite, AB pentru plasmă; Donator O 'periculos'=titru înalt anti-A/B→spală eritrocitele!"
       },
       {
         "front": "Ce este Purpura Trombotică Trombocitopenică (PTT)?",
         "back": "DEFINIȚIE:\n- Microangiopatie trombotică\n- Deficit ADAMTS13 (proteaza vWF)\n- Multimeri vWF ultralargi → microtrombi\n\nPENTADA CLASICĂ:\n1. Trombocitopenie\n2. Anemie hemolitică microangiopatică\n3. Semne neurologice (fluctuante)\n4. Febră\n5. Afectare renală\n\nLABORATOR:\n- Trombocite↓↓\n- Hb↓, reticulocite↑\n- SCHIZOCITE pe frotiu (fragmentare)\n- LDH↑↑, BI↑\n- Coombs NEGATIV\n- TP, APTT NORMALE (≠CID)\n- ADAMTS13 <10%\n\nTRATAMENT:\n- URGENȚĂ! Mortalitate 90% netratată\n- Plasmafereză (elimină multimeri, adaugă ADAMTS13)\n- NU transfuzie trombocite!",
-        "mnemonic": "PTT: ADAMTS13↓+Pentadă+Schizocite+Coombs(-)+TP/APTT N; Tratament=Plasmafereză"
+        "mnemonic": "PTT = MAȘINA DE TOCAT din vase (microangiopatie): ADAMTS13 (foarfeca) lipsește → vWF ultra-lung netăiat → microtrombi → eritrocite TĂIATE (schizocite); PENTADA (FRANT): Febră, Rinichi↓, Anemie hemolitică, Neuro (fluctuant), Trombocite↓; Coombs(-)=nu e imună; TP/APTT N=≠CID; PLASMAFEREZA=urgentă (90% mortalitate fără!), NU da trombocite (hrănești trombi)!"
       },
       {
         "front": "Care sunt diferențele dintre PTI și PTT?",
         "back": "PTI (Purpura Trombocitopenică Imună):\n- Mecanism: Ac antiplachetari (IgG)\n- Trombocitopenie IZOLATĂ\n- Frotiu: trombocite mari, fără schizocite\n- MO: megacariocite↑\n- Hemoliză ABSENTĂ\n- Tratament: corticosteroizi, Ig iv, splenectomie\n\nPTT (Purpura Trombotică Trombocitopenică):\n- Mecanism: deficit ADAMTS13\n- Trombocitopenie + HEMOLIZĂ\n- Frotiu: SCHIZOCITE\n- Anemie microangiopatică\n- Semne neurologice, renale\n- Coombs negativ\n- Tratament: PLASMAFEREZĂ (urgență!)\n\nCOMUN:\n- Trombocitopenie\n- Purpură, petesii\n- TP, APTT normale",
-        "mnemonic": "PTI=Trombocite↓izolat+Ac; PTT=Trombocite↓+Hemoliză+Schizocite+Neuro"
+        "mnemonic": "PTI vs PTT = ATACUL IZOLAT vs DEZASTRUL TOTAL: PTI=doar trombocite (Ac le atacă), restul NORMAL, MO bogată în megacariocite (încearcă să compenseze); PTT=trombocite+HEMOLIZĂ+NEURO+RINICHI+FEBRĂ (pentada); Ambele au TP/APTT normale (≠CID); PTI=corticoizi+Ig+splenectomie; PTT=PLASMAFEREZĂ urgentă!"
       },
       {
         "front": "Cum se diferențiază SMD de Leucemia Acută?",
         "back": "CRITERII DIFERENȚIERE:\n\n1. PROCENTUL BLAȘTI:\n- SMD: <20% blaști în MO (OMS)\n- LAM: ≥20% blaști în MO\n\n2. CÂND ERITROBLAȘI >50%:\n- Calcul blaști din populația NON-eritroidă\n- <30% blaști non-eritroizi = SMD\n- ≥30% blaști non-eritroizi = M6 (eritroleucemie)\n\n3. DISPLAZIA:\n- SMD: displazie ≥1 linie (10% celule)\n- LAM: poate avea sau nu displazie\n\nEVOLUȚIE SMD → LAM:\n- AR: 10-15%\n- ARSA: 5-10%\n- AREB-1: 25%\n- AREB-2: 33%\n\nFACTORI PROGNOSTICI (IPSS-R):\n- Citogenetică, % blaști, citopenii, Hb, trombocite",
-        "mnemonic": "SMD<20% blaști, LAM≥20%; AREB=risc transformare; Eritroblași>50%=calcul non-eritroid"
+        "mnemonic": "SMD vs LAM = CANCER în INCUBAȚIE vs EXPLODAT: <20% blaști=SMD (precanceros, măduva produce prost dar nu explodează); ≥20% blaști=LAM (explozie=leucemie acută!); SCARA RISCULUI: AR(10%)→ARSA(5%)→AREB-1(25%)→AREB-2(33%)→LAM; TRUCUL ERITROLEUCEMIEI: dacă eritroblați>50%, numeri blaștii din NON-eritroizi (<30%=SMD, ≥30%=M6)"
       },
       {
         "front": "Care sunt indicele eritrocitari și semnificația lor?",
         "back": "VEM (Volum Eritrocitar Mediu):\n- VN: 80-100 fL\n- <80 = MICROCITAR (feriprivă, talasemie)\n- >100 = MACROCITAR (B12, folat, hepatic)\n\nHEM (Hemoglobina Eritrocitară Medie):\n- VN: 27-33 pg\n- Cantitatea Hb/eritrocit\n\nCHEM (Concentrația Hb Eritrocitară Medie):\n- VN: 32-36 g/dL\n- <32 = HIPOCROM (feriprivă)\n- CHEM normală în talasemie!\n\nRDW (Red cell Distribution Width):\n- VN: 11,5-14,5%\n- Măsoară anizocitoza\n- ↑ în anemii mixte, feriprivă\n\nCLASIFICARE ANEMII:\n- Microcitară hipocromă: feriprivă, talasemie\n- Macrocitară: megaloblastică, hepatică\n- Normocitară normocromă: hemoragii, hemolitice",
-        "mnemonic": "VEM: <80=micro, >100=macro; CHEM: <32=hipocrom; RDW↑=anizocitoză"
+        "mnemonic": "Indicii eritrocitari ca DIMENSIUNILE MASINII: VEM=volumul (80-100 fL=normal, <80=mașină MICĂ/microcitară, >100=mașină MARE/macrocitară); CHEM=cât de COLORAT e interiorul (32-36 g/dL, <32=palid=hipocrom); HEM=cantitatea de vopsea/eritrocit; RDW=cât de VARIATE sunt mașinile (>14.5%=anizocitoză=mașini de toate mărimile); TRUCUL TALASEMIEI: VEM↓ dar CHEM normală (mașină mică dar bine vopsită)"
       },
       {
         "front": "Care sunt caracteristicile Trombocitopeniei Induse de Heparină (HIT)?",
         "back": "DEFINIȚIE:\n- Complicație gravă a tratamentului cu heparină\n- Ac anti-complex heparină-PF4\n- Paradox: trombocitopenie + TROMBOZE\n\nTIPURI:\n- HIT tip I: non-imună, benignă, precoce\n- HIT tip II: imună, severă, după 5-14 zile\n\nCRITERII (4T score):\n- Trombocitopenie (scădere >50%)\n- Timing (5-14 zile de la debut heparină)\n- Tromboze (noi)\n- Alte cauze excluse\n\nLABORATOR:\n- Trombocite↓ 50-80% față de bazal\n- Ac anti-PF4/heparină (ELISA)\n- Test funcțional (SRA)\n\nMANAGEMENT:\n- STOP HEPARINĂ imediat!\n- Anticoagulant alternativ (argatroban, fondaparinux)\n- NU transfuzie trombocite\n- NU warfarină în faza acută",
-        "mnemonic": "HIT: Heparină 5-14 zile+Trombocite↓50%+Tromboze; STOP heparină!"
+        "mnemonic": "HIT = PARADOXUL MORTAL: Dai anticoagulant (heparină) și pacientul face TROMBOZE (nu sângerări!); MECANISMUL: Heparina+PF4=complex→Ac atacă complexul→activează plachetele→TROMBI+Trombocite↓; TIMING: 5-14 zile de la debut (nu imediat); 4T score: Trombocitopenie (↓50%), Timing (5-14 zile), Tromboze (noi), oTher causes excluse; STOP HEPARINA imediat+anticoagulant alternativ (argatroban), NU warfarină acută, NU trombocite!"
       }
     ]
   }
