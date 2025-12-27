@@ -6,33 +6,19 @@ export interface Deck {
   created_at: string
 }
 
+export interface FlashcardExtras {
+  keyConcepts: string[]
+  mnemonic: string
+}
+
 export interface Flashcard {
   id: string
   deck_id: string
   front: string
   back: string
-  mnemonic: string | null
-  image_url: string | null
+  tags: string[]
+  extras: FlashcardExtras | null
   created_at: string
-}
-
-export interface CardStats {
-  id: string
-  card_id: string
-  user_id: string
-  easiness_factor: number
-  interval: number
-  repetitions: number
-  next_review: string
-  last_reviewed: string | null
-}
-
-export interface Review {
-  id: string
-  card_id: string
-  user_id: string
-  rating: 1 | 2 | 3 | 4 // 1=Again, 2=Hard, 3=Good, 4=Easy
-  reviewed_at: string
 }
 
 export interface Tag {
@@ -41,10 +27,10 @@ export interface Tag {
   user_id: string
 }
 
-// View types with joined data
-export interface FlashcardWithStats extends Flashcard {
-  stats?: CardStats
-  tags?: Tag[]
+// Backwards compatibility - FlashcardWithStats is now just Flashcard
+export type FlashcardWithStats = Flashcard & {
+  stats?: unknown
+  mnemonic?: string
 }
 
 export interface DeckWithProgress extends Deck {
@@ -52,9 +38,6 @@ export interface DeckWithProgress extends Deck {
   cards_due: number
   mastered_cards: number
 }
-
-// SRS Rating type
-export type SRSRating = 1 | 2 | 3 | 4
 
 // Romanian UI translations
 export const translations = {

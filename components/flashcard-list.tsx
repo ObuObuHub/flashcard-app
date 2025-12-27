@@ -4,24 +4,22 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
-import { ChevronDown, ChevronUp, Pencil, Trash2, Tags } from 'lucide-react'
-import type { FlashcardWithStats, Tag } from '@/types'
+import { ChevronDown, ChevronUp, Pencil, Trash2, Tag } from 'lucide-react'
+import type { FlashcardWithStats } from '@/types'
 import { deleteFlashcard } from '@/lib/actions/flashcards'
 import { FlashcardForm } from './flashcard-form'
 
 interface FlashcardListProps {
   flashcards: FlashcardWithStats[]
   deckId: string
-  availableTags?: Tag[]
 }
 
-function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: FlashcardWithStats; deckId: string; availableTags?: Tag[] }) {
+function FlashcardItem({ flashcard, deckId }: { flashcard: FlashcardWithStats; deckId: string }): React.ReactElement {
   const [expanded, setExpanded] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const router = useRouter()
 
-  const handleDelete = async () => {
+  const handleDelete = async (): Promise<void> => {
     if (!confirm('Sigur vrei să ștergi această carte?')) {
       return
     }
@@ -37,23 +35,7 @@ function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: Flashc
     }
   }
 
-  const getStatusBadge = () => {
-    if (!flashcard.stats) {
-      return <Badge variant="secondary">Nou</Badge>
-    }
-
-    if (flashcard.stats.repetitions >= 5) {
-      return <Badge className="bg-green-600">Stăpânit</Badge>
-    }
-
-    if (flashcard.stats.repetitions > 0) {
-      return <Badge className="bg-yellow-600">În învățare</Badge>
-    }
-
-    return <Badge variant="secondary">Nou</Badge>
-  }
-
-  const truncate = (text: string, maxLength: number) => {
+  const truncate = (text: string, maxLength: number): string => {
     if (text.length <= maxLength) return text
     return text.substring(0, maxLength) + '...'
   }
@@ -74,20 +56,17 @@ function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: Flashc
               {/* Tags */}
               {flashcard.tags && flashcard.tags.length > 0 && (
                 <div className="flex flex-wrap gap-1.5 mt-2">
-                  {flashcard.tags.map((tag) => (
+                  {flashcard.tags.map((tag, index) => (
                     <span
-                      key={tag.id}
+                      key={index}
                       className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
                     >
-                      <Tags className="w-3 h-3" />
-                      {tag.name}
+                      <Tag className="w-3 h-3" />
+                      {tag}
                     </span>
                   ))}
                 </div>
               )}
-            </div>
-            <div className="flex gap-1 flex-shrink-0">
-              {getStatusBadge()}
             </div>
           </div>
 
@@ -99,23 +78,43 @@ function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: Flashc
               </div>
               <div className="text-base whitespace-pre-wrap">{flashcard.back}</div>
 
-              {flashcard.mnemonic && (
-                <div className="mt-3 p-3 bg-yellow-50 dark:bg-yellow-900/20 rounded border border-yellow-200 dark:border-yellow-800">
-                  <div className="font-semibold text-sm text-yellow-800 dark:text-yellow-400 mb-1">
-                    📝 Mnemonic
-                  </div>
-                  <div className="text-sm text-yellow-900 dark:text-yellow-300">
-                    {flashcard.mnemonic}
-                  </div>
+              {/* Show extras if available */}
+              {flashcard.extras && (
+                <div className="mt-3 space-y-3">
+                  {flashcard.extras.keyConcepts && flashcard.extras.keyConcepts.length > 0 && (
+                    <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded border border-blue-200 dark:border-blue-800">
+                      <div className="font-semibold text-sm text-blue-800 dark:text-blue-400 mb-1">
+                        Concepte cheie
+                      </div>
+                      <ul className="text-sm text-blue-900 dark:text-blue-300 space-y-1">
+                        {flashcard.extras.keyConcepts.map((concept, i) => (
+                          <li key={i}>• {concept}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {flashcard.extras.mnemonic && (
+                    <div className="p-3 bg-amber-50 dark:bg-amber-900/20 rounded border border-amber-200 dark:border-amber-800">
+                      <div className="font-semibold text-sm text-amber-800 dark:text-amber-400 mb-1">
+                        Mnemonic
+                      </div>
+                      <div className="text-sm text-amber-900 dark:text-amber-300">
+                        {flashcard.extras.mnemonic}
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
 
-              {flashcard.stats && (
-                <div className="mt-3 text-xs text-gray-500 space-y-1">
-                  <div>Repetări: {flashcard.stats.repetitions}</div>
-                  <div>Interval: {flashcard.stats.interval} zile</div>
-                  <div>
-                    Următoarea revizuire: {new Date(flashcard.stats.next_review).toLocaleDateString('ro-RO')}
+              {/* Fallback to old mnemonic field */}
+              {!flashcard.extras?.mnemonic && flashcard.mnemonic && (
+                <div className="mt-3 p-3 bg-amber-50 dark:bg-amber-900/20 rounded border border-amber-200 dark:border-amber-800">
+                  <div className="font-semibold text-sm text-amber-800 dark:text-amber-400 mb-1">
+                    Mnemonic
+                  </div>
+                  <div className="text-sm text-amber-900 dark:text-amber-300">
+                    {flashcard.mnemonic}
                   </div>
                 </div>
               )}
@@ -147,7 +146,6 @@ function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: Flashc
               <FlashcardForm
                 deckId={deckId}
                 flashcard={flashcard}
-                availableTags={availableTags}
                 trigger={
                   <Button variant="ghost" size="sm" disabled={deleting}>
                     <Pencil className="w-4 h-4" />
@@ -171,7 +169,7 @@ function FlashcardItem({ flashcard, deckId, availableTags }: { flashcard: Flashc
   )
 }
 
-export function FlashcardList({ flashcards, deckId, availableTags }: FlashcardListProps) {
+export function FlashcardList({ flashcards, deckId }: FlashcardListProps): React.ReactElement {
   if (flashcards.length === 0) {
     return (
       <div className="text-center py-12 text-gray-500">
@@ -183,7 +181,7 @@ export function FlashcardList({ flashcards, deckId, availableTags }: FlashcardLi
   return (
     <div className="space-y-3">
       {flashcards.map((flashcard) => (
-        <FlashcardItem key={flashcard.id} flashcard={flashcard} deckId={deckId} availableTags={availableTags} />
+        <FlashcardItem key={flashcard.id} flashcard={flashcard} deckId={deckId} />
       ))}
     </div>
   )

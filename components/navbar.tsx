@@ -24,12 +24,6 @@ export function Navbar() {
             >
               Seturi
             </Link>
-            <Link
-              href="/topics"
-              className="px-3 py-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-95 font-medium transition-all"
-            >
-              Subiecte
-            </Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">
@@ -52,13 +46,6 @@ export function Navbar() {
             onClick={() => setMobileMenuOpen(false)}
           >
             Seturi
-          </Link>
-          <Link
-            href="/topics"
-            className="block px-3 py-3 rounded-lg text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-300 hover:bg-gray-100 dark:hover:bg-white/5 active:scale-[0.98] font-medium transition-all"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Subiecte
           </Link>
         </nav>
       )}
