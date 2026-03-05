@@ -310,11 +310,16 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
         ) : (
           <div className="bg-[#0F172A] border border-gray-800/60 rounded-xl min-h-[60vh] overflow-hidden flex flex-col">
             {/* Source tag */}
-            <div className="px-5 py-2.5 flex items-center gap-2 border-b border-gray-800/30">
-              <div className={`w-1.5 h-1.5 rounded-full ${getDotColor(currentCard.speciality)}`} />
-              <span className="text-[10px] text-gray-500 truncate">
-                {currentCard.speciality} · {currentCard.subject}
-              </span>
+            <div className="px-5 py-3 flex flex-col gap-1 border-b border-gray-800/30">
+              <div className="flex items-center gap-2">
+                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${getDotColor(currentCard.speciality)}`} />
+                <span className={`text-xs font-semibold uppercase tracking-wider ${specialityColors[currentCard.speciality]?.split(' ')[0] || 'text-gray-400'}`}>
+                  {currentCard.speciality}
+                </span>
+              </div>
+              <p className="text-sm text-gray-400 leading-snug pl-4">
+                {currentCard.subject}
+              </p>
             </div>
 
             {/* Question */}
@@ -340,12 +345,10 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
                   </div>
                 </div>
               ) : (
-                <div className="flex-1 flex items-center justify-center px-5 py-8">
-                  <div className="text-center">
-                    <div className="w-8 h-8 rounded-full bg-cyan-500/10 border border-cyan-500/15 flex items-center justify-center mx-auto mb-2">
-                      <Zap className="w-3.5 h-3.5 text-cyan-500/40" />
-                    </div>
-                    <p className="text-[10px] text-gray-600">
+                <div className="flex-1 flex items-center justify-center px-5 py-6">
+                  <div className="flex items-center gap-2 text-gray-600">
+                    <Zap className="w-3.5 h-3.5 text-cyan-500/30" />
+                    <p className="text-xs">
                       <span className="hidden sm:inline">Space</span>
                       <span className="sm:hidden">Tap</span>
                     </p>
