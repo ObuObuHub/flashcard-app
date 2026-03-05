@@ -10,6 +10,7 @@ import {
   Stethoscope,
   FileText,
   Activity,
+  Shuffle,
 } from 'lucide-react'
 import subiecteData from '@/data/subiecte-primariat.json'
 
@@ -123,6 +124,22 @@ export default function SubiectePage(): React.JSX.Element {
             </div>
           </div>
         </div>
+
+        {/* Seamless Mode Button */}
+        <Link href="/subiecte/random" className="block mb-6">
+          <div className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 rounded-xl px-5 py-4 flex items-center justify-between hover:from-amber-500/15 hover:to-orange-500/15 transition-all group">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-lg bg-amber-500/15 border border-amber-500/20 flex items-center justify-center">
+                <Shuffle className="w-4 h-4 text-amber-400" />
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-gray-200">Mod Seamless</p>
+                <p className="text-[10px] text-gray-500">Întrebări random, fără oprire — doar tap-tap-tap</p>
+              </div>
+            </div>
+            <ChevronRight className="w-4 h-4 text-gray-600 group-hover:text-amber-400 transition-colors" />
+          </div>
+        </Link>
 
         {/* Stats Bar */}
         <div className="grid grid-cols-5 gap-3 mb-10">
