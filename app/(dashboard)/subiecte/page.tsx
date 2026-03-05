@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Navbar } from '@/components/navbar'
-import { Card, CardContent } from '@/components/ui/card'
 import {
   ChevronRight,
   FlaskConical,
@@ -8,8 +7,9 @@ import {
   Bug,
   Microscope,
   Worm,
-  GraduationCap,
+  Stethoscope,
   FileText,
+  Activity,
 } from 'lucide-react'
 import subiecteData from '@/data/subiecte-primariat.json'
 
@@ -26,60 +26,67 @@ interface SpecialityData {
 const specialityConfig: Record<string, {
   icon: typeof FlaskConical
   accent: string
-  accentBg: string
-  accentBorder: string
-  accentText: string
-  headerBg: string
+  accentDim: string
+  border: string
+  hoverBg: string
+  badge: string
+  indicator: string
 }> = {
   'BIOCHIMIE': {
     icon: FlaskConical,
-    accent: 'text-teal-700 dark:text-teal-400',
-    accentBg: 'bg-teal-50 dark:bg-teal-950/40',
-    accentBorder: 'border-teal-200 dark:border-teal-800/60',
-    accentText: 'text-teal-600 dark:text-teal-400',
-    headerBg: 'bg-teal-600 dark:bg-teal-700',
+    accent: 'text-cyan-400',
+    accentDim: 'text-cyan-600',
+    border: 'border-cyan-500/20',
+    hoverBg: 'hover:bg-cyan-500/5',
+    badge: 'bg-cyan-500/10 text-cyan-400 ring-cyan-500/20',
+    indicator: 'bg-cyan-500',
   },
   'HEMATOLOGIE': {
     icon: Droplets,
-    accent: 'text-rose-700 dark:text-rose-400',
-    accentBg: 'bg-rose-50 dark:bg-rose-950/40',
-    accentBorder: 'border-rose-200 dark:border-rose-800/60',
-    accentText: 'text-rose-600 dark:text-rose-400',
-    headerBg: 'bg-rose-600 dark:bg-rose-700',
+    accent: 'text-red-400',
+    accentDim: 'text-red-600',
+    border: 'border-red-500/20',
+    hoverBg: 'hover:bg-red-500/5',
+    badge: 'bg-red-500/10 text-red-400 ring-red-500/20',
+    indicator: 'bg-red-500',
   },
   'BACTERIOLOGIE': {
     icon: Bug,
-    accent: 'text-emerald-700 dark:text-emerald-400',
-    accentBg: 'bg-emerald-50 dark:bg-emerald-950/40',
-    accentBorder: 'border-emerald-200 dark:border-emerald-800/60',
-    accentText: 'text-emerald-600 dark:text-emerald-400',
-    headerBg: 'bg-emerald-600 dark:bg-emerald-700',
+    accent: 'text-emerald-400',
+    accentDim: 'text-emerald-600',
+    border: 'border-emerald-500/20',
+    hoverBg: 'hover:bg-emerald-500/5',
+    badge: 'bg-emerald-500/10 text-emerald-400 ring-emerald-500/20',
+    indicator: 'bg-emerald-500',
   },
   'VIRUSOLOGIE': {
     icon: Microscope,
-    accent: 'text-violet-700 dark:text-violet-400',
-    accentBg: 'bg-violet-50 dark:bg-violet-950/40',
-    accentBorder: 'border-violet-200 dark:border-violet-800/60',
-    accentText: 'text-violet-600 dark:text-violet-400',
-    headerBg: 'bg-violet-600 dark:bg-violet-700',
+    accent: 'text-violet-400',
+    accentDim: 'text-violet-600',
+    border: 'border-violet-500/20',
+    hoverBg: 'hover:bg-violet-500/5',
+    badge: 'bg-violet-500/10 text-violet-400 ring-violet-500/20',
+    indicator: 'bg-violet-500',
   },
   'PARAZITOLOGIE': {
     icon: Worm,
-    accent: 'text-amber-700 dark:text-amber-400',
-    accentBg: 'bg-amber-50 dark:bg-amber-950/40',
-    accentBorder: 'border-amber-200 dark:border-amber-800/60',
-    accentText: 'text-amber-600 dark:text-amber-400',
-    headerBg: 'bg-amber-600 dark:bg-amber-700',
+    accent: 'text-amber-400',
+    accentDim: 'text-amber-600',
+    border: 'border-amber-500/20',
+    hoverBg: 'hover:bg-amber-500/5',
+    badge: 'bg-amber-500/10 text-amber-400 ring-amber-500/20',
+    indicator: 'bg-amber-500',
   },
 }
 
 const defaultConfig = {
   icon: FileText,
-  accent: 'text-slate-700 dark:text-slate-400',
-  accentBg: 'bg-slate-50 dark:bg-slate-950/40',
-  accentBorder: 'border-slate-200 dark:border-slate-800/60',
-  accentText: 'text-slate-600 dark:text-slate-400',
-  headerBg: 'bg-slate-600 dark:bg-slate-700',
+  accent: 'text-slate-400',
+  accentDim: 'text-slate-600',
+  border: 'border-slate-500/20',
+  hoverBg: 'hover:bg-slate-500/5',
+  badge: 'bg-slate-500/10 text-slate-400 ring-slate-500/20',
+  indicator: 'bg-slate-500',
 }
 
 export default function SubiectePage(): React.JSX.Element {
@@ -92,29 +99,49 @@ export default function SubiectePage(): React.JSX.Element {
   const totalSubjects = data.reduce((sum, spec) => sum + spec.subjects.length, 0)
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <div className="min-h-screen bg-[#0B1120]">
       <Navbar />
 
       <main className="container mx-auto px-4 py-8 max-w-5xl">
         {/* Page Header */}
         <div className="mb-10">
-          <div className="flex items-center gap-3 mb-3">
-            <div className="w-10 h-10 rounded-lg bg-slate-800 dark:bg-slate-200 flex items-center justify-center">
-              <GraduationCap className="w-5 h-5 text-white dark:text-slate-900" />
+          <div className="flex items-center gap-4 mb-2">
+            <div className="w-11 h-11 rounded-lg bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center">
+              <Stethoscope className="w-5 h-5 text-cyan-400" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">
+              <h1 className="text-2xl font-bold text-gray-100 tracking-tight">
                 Subiecte Primariat
               </h1>
-              <p className="text-sm text-slate-500 dark:text-slate-400">
-                {data.length} specialități · {totalSubjects} subiecte · {totalCards} întrebări
-              </p>
+              <div className="flex items-center gap-3 mt-0.5">
+                <span className="text-xs text-gray-500 tabular-nums">{data.length} specialități</span>
+                <span className="text-gray-700">·</span>
+                <span className="text-xs text-gray-500 tabular-nums">{totalSubjects} subiecte</span>
+                <span className="text-gray-700">·</span>
+                <span className="text-xs text-gray-500 tabular-nums">{totalCards} întrebări</span>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* Stats Bar */}
+        <div className="grid grid-cols-5 gap-3 mb-10">
+          {data.map((speciality, specIdx) => {
+            const config = specialityConfig[speciality.name] || defaultConfig
+            const Icon = config.icon
+            const specCards = speciality.subjects.reduce((s, subj) => s + subj.flashcards.length, 0)
+            return (
+              <div key={specIdx} className="bg-[#0F172A] border border-gray-800/60 rounded-lg p-3 text-center">
+                <Icon className={`w-4 h-4 ${config.accent} mx-auto mb-1.5`} />
+                <p className="text-lg font-bold text-gray-200 tabular-nums">{specCards}</p>
+                <p className="text-[10px] text-gray-500 uppercase tracking-wider mt-0.5 truncate">{speciality.name}</p>
+              </div>
+            )
+          })}
+        </div>
+
         {/* Specialities */}
-        <div className="space-y-10">
+        <div className="space-y-8">
           {data.map((speciality, specIdx) => {
             const config = specialityConfig[speciality.name] || defaultConfig
             const Icon = config.icon
@@ -123,41 +150,50 @@ export default function SubiectePage(): React.JSX.Element {
             )
 
             return (
-              <section key={specIdx}>
+              <section key={specIdx} className="bg-[#0F172A] border border-gray-800/60 rounded-xl overflow-hidden">
                 {/* Speciality Header */}
-                <div className={`${config.headerBg} rounded-t-xl px-5 py-3 flex items-center justify-between`}>
+                <div className="px-5 py-4 border-b border-gray-800/60 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <Icon className="w-5 h-5 text-white/90" />
-                    <h2 className="text-base font-semibold text-white tracking-wide uppercase">
+                    <div className={`w-2 h-2 rounded-full ${config.indicator}`} />
+                    <Icon className={`w-4 h-4 ${config.accent}`} />
+                    <h2 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">
                       {speciality.name}
                     </h2>
                   </div>
-                  <span className="text-xs font-medium text-white/70 tabular-nums">
-                    {speciality.subjects.length} subiecte · {specTotalCards} întrebări
-                  </span>
+                  <div className="flex items-center gap-3">
+                    <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full ring-1 ${config.badge}`}>
+                      {speciality.subjects.length} subiecte
+                    </span>
+                    <span className="text-xs text-gray-500 tabular-nums">
+                      {specTotalCards} întrebări
+                    </span>
+                  </div>
                 </div>
 
                 {/* Subject List */}
-                <div className={`border border-t-0 ${config.accentBorder} rounded-b-xl overflow-hidden divide-y divide-slate-100 dark:divide-slate-800/60`}>
+                <div className="divide-y divide-gray-800/40">
                   {speciality.subjects.map((subject, subjIdx) => (
                     <Link
                       key={subjIdx}
                       href={`/subiecte/${specIdx}/${subjIdx}`}
-                      className={`flex items-center justify-between px-5 py-3.5 ${config.accentBg} hover:bg-white dark:hover:bg-slate-900/60 transition-colors group`}
+                      className={`flex items-center justify-between px-5 py-3 ${config.hoverBg} transition-colors group`}
                     >
                       <div className="flex items-center gap-3 min-w-0 flex-1">
-                        <span className={`text-xs font-mono font-semibold ${config.accentText} w-6 text-right flex-shrink-0 tabular-nums`}>
+                        <span className={`text-xs font-mono ${config.accentDim} w-5 text-right flex-shrink-0 tabular-nums`}>
                           {subjIdx + 1}
                         </span>
-                        <span className="text-sm font-medium text-slate-800 dark:text-slate-200 truncate">
+                        <span className="text-sm text-gray-300 truncate group-hover:text-gray-100 transition-colors">
                           {subject.name}
                         </span>
                       </div>
-                      <div className="flex items-center gap-2 flex-shrink-0 ml-3">
-                        <span className="text-xs text-slate-400 dark:text-slate-500 tabular-nums">
-                          {subject.flashcards.length}
-                        </span>
-                        <ChevronRight className="w-4 h-4 text-slate-300 dark:text-slate-600 group-hover:text-slate-500 dark:group-hover:text-slate-400 transition-colors" />
+                      <div className="flex items-center gap-2.5 flex-shrink-0 ml-3">
+                        <div className="flex items-center gap-1">
+                          <Activity className="w-3 h-3 text-gray-600" />
+                          <span className="text-xs text-gray-500 tabular-nums">
+                            {subject.flashcards.length}
+                          </span>
+                        </div>
+                        <ChevronRight className="w-3.5 h-3.5 text-gray-700 group-hover:text-gray-400 transition-colors" />
                       </div>
                     </Link>
                   ))}
