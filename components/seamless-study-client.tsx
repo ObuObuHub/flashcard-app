@@ -38,7 +38,6 @@ interface FlatCard {
   subject: string
 }
 
-/** Fisher-Yates shuffle */
 function shuffleArray<T>(arr: T[]): T[] {
   const shuffled = [...arr]
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -49,23 +48,16 @@ function shuffleArray<T>(arr: T[]): T[] {
 }
 
 export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.JSX.Element {
-  // Filter state: null = all, or speciality name
   const [activeFilter, setActiveFilter] = useState<string | null>(null)
   const [showFilters, setShowFilters] = useState(false)
 
-  // Build flat card list from data based on filter
   const allCards: FlatCard[] = useMemo(() => {
     const cards: FlatCard[] = []
     for (const spec of data) {
       if (activeFilter && spec.name !== activeFilter) continue
       for (const subj of spec.subjects) {
         for (const fc of subj.flashcards) {
-          cards.push({
-            front: fc.front,
-            back: fc.back,
-            speciality: spec.name,
-            subject: subj.name,
-          })
+          cards.push({ front: fc.front, back: fc.back, speciality: spec.name, subject: subj.name })
         }
       }
     }
@@ -79,23 +71,12 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
   const mainRef = useRef<HTMLDivElement>(null)
 
-  // Wrap around when we reach the end
   const currentCard = allCards[currentIndex % allCards.length]
 
-  // Reset index when filter changes
-  useEffect(() => {
-    setCurrentIndex(0)
-    setShowAnswer(false)
-    setCardsReviewed(0)
-  }, [activeFilter])
+  useEffect(() => { setCurrentIndex(0); setShowAnswer(false); setCardsReviewed(0) }, [activeFilter])
 
   const goToNext = useCallback((): void => {
-    setCurrentIndex(prev => {
-      const next = prev + 1
-      // If we've gone through all cards, reshuffle would happen via useMemo
-      // but since allCards is stable for same filter, just wrap around
-      return next >= allCards.length ? 0 : next
-    })
+    setCurrentIndex(prev => (prev + 1 >= allCards.length ? 0 : prev + 1))
     setShowAnswer(false)
     setCardsReviewed(prev => prev + 1)
   }, [allCards.length])
@@ -106,26 +87,16 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
   }, [allCards.length])
 
   const handleSmartAction = useCallback((): void => {
-    if (isPaused) return
-    if (!showAnswer) {
-      setShowAnswer(true)
-    } else {
-      goToNext()
-    }
+    if (isPaused) { setIsPaused(false); return }
+    if (!showAnswer) setShowAnswer(true)
+    else goToNext()
   }, [showAnswer, goToNext, isPaused])
 
-  const reshuffle = useCallback((): void => {
-    // Force re-render with new shuffle by changing filter back and forth
-    // Actually, just reset the index and let user continue
-    setCurrentIndex(0)
-    setShowAnswer(false)
-  }, [])
+  const reshuffle = useCallback((): void => { setCurrentIndex(0); setShowAnswer(false) }, [])
 
-  // Keyboard
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent): void => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
-
       if (e.code === 'Space') { e.preventDefault(); handleSmartAction(); return }
       if (e.code === 'ArrowRight') { e.preventDefault(); handleSmartAction(); return }
       if (e.code === 'ArrowLeft') { e.preventDefault(); goToPrev(); return }
@@ -137,109 +108,81 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [handleSmartAction, goToPrev, reshuffle])
 
-  // Touch: full page swipe + tap
   useEffect(() => {
     const el = mainRef.current
     if (!el) return
-
     const handleTouchStart = (e: TouchEvent): void => {
       touchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }
     }
-
     const handleTouchEnd = (e: TouchEvent): void => {
       if (!touchStartRef.current) return
       const target = e.target as HTMLElement
-      if (target.closest('button') || target.closest('a')) {
-        touchStartRef.current = null
-        return
-      }
-
+      if (target.closest('button') || target.closest('a')) { touchStartRef.current = null; return }
       const deltaX = e.changedTouches[0].clientX - touchStartRef.current.x
       const deltaY = e.changedTouches[0].clientY - touchStartRef.current.y
       const absX = Math.abs(deltaX)
       const absY = Math.abs(deltaY)
-
-      if (absX < 15 && absY < 15) {
-        handleSmartAction()
-        touchStartRef.current = null
-        return
-      }
-
+      if (absX < 15 && absY < 15) { handleSmartAction(); touchStartRef.current = null; return }
       if (absX > 50 && absX > absY * 1.5) {
         if (deltaX < 0) handleSmartAction()
         else goToPrev()
       }
       touchStartRef.current = null
     }
-
     el.addEventListener('touchstart', handleTouchStart, { passive: true })
     el.addEventListener('touchend', handleTouchEnd, { passive: true })
-    return () => {
-      el.removeEventListener('touchstart', handleTouchStart)
-      el.removeEventListener('touchend', handleTouchEnd)
-    }
+    return () => { el.removeEventListener('touchstart', handleTouchStart); el.removeEventListener('touchend', handleTouchEnd) }
   }, [handleSmartAction, goToPrev])
 
-  // Auto-scroll to top on card change
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }, [currentIndex])
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }, [currentIndex])
 
-  const specialityColors: Record<string, string> = {
-    'BIOCHIMIE': 'text-cyan-400 bg-cyan-500/10 border-cyan-500/20',
-    'HEMATOLOGIE': 'text-red-400 bg-red-500/10 border-red-500/20',
-    'BACTERIOLOGIE': 'text-emerald-400 bg-emerald-500/10 border-emerald-500/20',
-    'VIRUSOLOGIE': 'text-violet-400 bg-violet-500/10 border-violet-500/20',
-    'PARAZITOLOGIE': 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+  const specTextColors: Record<string, string> = {
+    'BIOCHIMIE': 'text-blue-300/60',
+    'HEMATOLOGIE': 'text-rose-300/60',
+    'BACTERIOLOGIE': 'text-green-300/60',
+    'VIRUSOLOGIE': 'text-purple-300/60',
+    'PARAZITOLOGIE': 'text-orange-300/60',
   }
 
-  const dotColors: Record<string, string> = {
-    'BIOCHIMIE': 'bg-cyan-500',
-    'HEMATOLOGIE': 'bg-red-500',
-    'BACTERIOLOGIE': 'bg-emerald-500',
-    'VIRUSOLOGIE': 'bg-violet-500',
-    'PARAZITOLOGIE': 'bg-amber-500',
+  const specDotColors: Record<string, string> = {
+    'BIOCHIMIE': 'bg-blue-400/40',
+    'HEMATOLOGIE': 'bg-rose-400/40',
+    'BACTERIOLOGIE': 'bg-green-400/40',
+    'VIRUSOLOGIE': 'bg-purple-400/40',
+    'PARAZITOLOGIE': 'bg-orange-400/40',
   }
 
-  const getSpecColor = (name: string): string => specialityColors[name] || 'text-gray-400 bg-gray-500/10 border-gray-500/20'
-  const getDotColor = (name: string): string => dotColors[name] || 'bg-gray-500'
+  const specFilterColors: Record<string, string> = {
+    'BIOCHIMIE': 'bg-blue-400/10 text-blue-300/70 border-blue-400/20',
+    'HEMATOLOGIE': 'bg-rose-400/10 text-rose-300/70 border-rose-400/20',
+    'BACTERIOLOGIE': 'bg-green-400/10 text-green-300/70 border-green-400/20',
+    'VIRUSOLOGIE': 'bg-purple-400/10 text-purple-300/70 border-purple-400/20',
+    'PARAZITOLOGIE': 'bg-orange-400/10 text-orange-300/70 border-orange-400/20',
+  }
 
   return (
-    <div ref={mainRef} className="min-h-screen bg-[#0B1120] select-none">
+    <div ref={mainRef} className="min-h-screen bg-[#0C1118] select-none">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-[#0B1120]/95 backdrop-blur-sm border-b border-gray-800/60">
+      <header className="sticky top-0 z-50 bg-[#0C1118]/95 backdrop-blur-sm border-b border-gray-800/40">
         <div className="container mx-auto px-4 py-2.5 max-w-4xl">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3 min-w-0">
-              <div className="w-7 h-7 rounded-md bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0">
-                <Shuffle className="w-3.5 h-3.5 text-amber-400" />
+              <div className="w-7 h-7 rounded-md bg-slate-800/80 border border-slate-700/40 flex items-center justify-center flex-shrink-0">
+                <Shuffle className="w-3.5 h-3.5 text-slate-400" />
               </div>
               <div>
-                <h1 className="text-xs font-semibold text-gray-300 leading-none">
-                  Mod Seamless
-                </h1>
+                <h1 className="text-xs font-semibold text-gray-300 leading-none">Mod Seamless</h1>
                 <p className="text-[10px] text-gray-600 leading-none mt-0.5">
                   {activeFilter || 'Toate specialitățile'} · {allCards.length} întrebări
                 </p>
               </div>
             </div>
-
             <div className="flex items-center gap-2 flex-shrink-0">
-              {/* Cards reviewed counter */}
-              <span className="text-[10px] font-mono text-gray-600 tabular-nums">
-                {cardsReviewed} parcurse
-              </span>
-
-              {/* Filter toggle */}
-              <button
-                type="button"
-                onClick={() => setShowFilters(f => !f)}
-                className={`w-7 h-7 rounded-md flex items-center justify-center transition-colors ${showFilters ? 'bg-cyan-500/20 text-cyan-400' : 'text-gray-600 hover:text-gray-400 hover:bg-gray-800/50'}`}
-              >
+              <span className="text-[10px] font-mono text-gray-600 tabular-nums">{cardsReviewed} parcurse</span>
+              <button type="button" onClick={() => setShowFilters(f => !f)}
+                className={`w-7 h-7 rounded-md flex items-center justify-center transition-colors ${showFilters ? 'bg-slate-700/60 text-gray-300' : 'text-gray-600 hover:text-gray-400 hover:bg-gray-800/50'}`}>
                 <Filter className="w-3.5 h-3.5" />
               </button>
-
-              {/* Back */}
               <Link href="/subiecte" className="text-gray-600 hover:text-gray-400 transition-colors">
                 <ArrowLeft className="w-4 h-4" />
               </Link>
@@ -247,32 +190,21 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           </div>
         </div>
 
-        {/* Filter bar */}
         {showFilters && (
-          <div className="border-t border-gray-800/40 px-4 py-2.5">
+          <div className="border-t border-gray-800/30 px-4 py-2.5">
             <div className="container mx-auto max-w-4xl flex flex-wrap gap-2">
-              <button
-                type="button"
-                onClick={() => setActiveFilter(null)}
+              <button type="button" onClick={() => setActiveFilter(null)}
                 className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${
-                  activeFilter === null
-                    ? 'bg-gray-200 text-gray-900 border-gray-200'
-                    : 'text-gray-400 border-gray-700 hover:border-gray-500'
-                }`}
-              >
+                  activeFilter === null ? 'bg-gray-700 text-gray-200 border-gray-600' : 'text-gray-500 border-gray-700 hover:border-gray-500'
+                }`}>
                 Toate
               </button>
               {data.map((spec) => (
-                <button
-                  key={spec.name}
-                  type="button"
+                <button key={spec.name} type="button"
                   onClick={() => setActiveFilter(spec.name === activeFilter ? null : spec.name)}
                   className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${
-                    activeFilter === spec.name
-                      ? getSpecColor(spec.name)
-                      : 'text-gray-500 border-gray-700 hover:border-gray-500'
-                  }`}
-                >
+                    activeFilter === spec.name ? (specFilterColors[spec.name] || '') : 'text-gray-500 border-gray-700 hover:border-gray-500'
+                  }`}>
                   {spec.name}
                 </button>
               ))}
@@ -280,78 +212,64 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           </div>
         )}
 
-        {/* Infinite progress indicator - subtle pulse line */}
         <div className="h-0.5 bg-gray-900 overflow-hidden">
-          <div className="h-full w-full bg-gradient-to-r from-transparent via-amber-500/40 to-transparent animate-pulse" />
+          <div className="h-full w-full bg-gradient-to-r from-transparent via-slate-500/30 to-transparent animate-pulse" />
         </div>
       </header>
 
-      {/* Main Card */}
+      {/* Main */}
       <main className="container mx-auto px-3 sm:px-4 max-w-4xl pt-3">
         {isPaused ? (
-          <div className="bg-[#0F172A] border border-gray-800/60 rounded-xl min-h-[60vh] flex items-center justify-center">
+          <div className="bg-[#111820] border border-gray-800/40 rounded-xl min-h-[60vh] flex items-center justify-center">
             <div className="text-center">
               <Pause className="w-8 h-8 text-gray-600 mx-auto mb-3" />
               <p className="text-sm text-gray-400 mb-1">Pauză</p>
               <p className="text-[10px] text-gray-600">
-                <span className="hidden sm:inline">P sau Space</span>
-                <span className="sm:hidden">Tap</span>
-                {' '}pentru a continua
+                <span className="hidden sm:inline">P sau Space</span><span className="sm:hidden">Tap</span> pentru a continua
               </p>
-              <button
-                type="button"
-                onClick={() => setIsPaused(false)}
-                className="mt-4 text-xs text-cyan-500 hover:text-cyan-400 transition-colors"
-              >
+              <button type="button" onClick={() => setIsPaused(false)}
+                className="mt-4 text-xs text-gray-400 hover:text-gray-300 transition-colors">
                 Continuă
               </button>
             </div>
           </div>
         ) : (
-          <div className="bg-[#0F172A] border border-gray-800/60 rounded-xl min-h-[60vh] overflow-hidden flex flex-col">
-            {/* Source tag */}
+          <div className="bg-[#111820] border border-gray-800/40 rounded-xl min-h-[60vh] overflow-hidden flex flex-col">
+            {/* Source */}
             <div className="px-5 py-3 flex flex-col gap-1 border-b border-gray-800/30">
               <div className="flex items-center gap-2">
-                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${getDotColor(currentCard.speciality)}`} />
-                <span className={`text-xs font-semibold uppercase tracking-wider ${specialityColors[currentCard.speciality]?.split(' ')[0] || 'text-gray-400'}`}>
+                <div className={`w-2 h-2 rounded-full flex-shrink-0 ${specDotColors[currentCard.speciality] || 'bg-gray-500/40'}`} />
+                <span className={`text-xs font-semibold uppercase tracking-wider ${specTextColors[currentCard.speciality] || 'text-gray-400/60'}`}>
                   {currentCard.speciality}
                 </span>
               </div>
-              <p className="text-sm text-gray-400 leading-snug pl-4">
-                {currentCard.subject}
-              </p>
+              <p className="text-sm text-gray-400 leading-snug pl-4">{currentCard.subject}</p>
             </div>
 
             {/* Question */}
-            <div className="px-5 py-4 border-b border-gray-800/40">
+            <div className="px-5 py-4 border-b border-gray-800/30">
               <div className="flex items-start gap-3">
-                <div className="w-1 self-stretch rounded-full bg-cyan-500/40 flex-shrink-0" />
-                <p className="text-sm font-semibold text-cyan-300 leading-relaxed">
-                  {currentCard.front}
-                </p>
+                <div className="w-1 self-stretch rounded-full bg-blue-400/20 flex-shrink-0" />
+                <p className="text-sm font-semibold text-blue-200/70 leading-relaxed">{currentCard.front}</p>
               </div>
             </div>
 
-            {/* Answer or tap zone */}
+            {/* Answer or tap */}
             <div className="flex-1 flex flex-col">
               {showAnswer ? (
-                <div className="px-5 py-4 bg-[#0D1424] flex-1">
-                  <div className="text-sm text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/60">
+                <div className="px-5 py-4 bg-[#0E141C] flex-1">
+                  <div className="text-sm text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/40">
                     {currentCard.back}
                   </div>
-
-                  <div className="mt-6 pt-4 border-t border-gray-800/30 flex items-center justify-center sm:hidden">
+                  <div className="mt-6 pt-4 border-t border-gray-800/20 flex items-center justify-center sm:hidden">
                     <span className="text-[10px] text-gray-600">Tap pentru următoarea întrebare</span>
                   </div>
                 </div>
               ) : (
                 <div className="flex-1 flex items-center justify-center px-5 py-6">
                   <div className="flex items-center gap-2 text-gray-600">
-                    <Zap className="w-3.5 h-3.5 text-cyan-500/30" />
-                    <p className="text-xs">
-                      <span className="hidden sm:inline">Space</span>
-                      <span className="sm:hidden">Tap</span>
-                    </p>
+                    <Zap className="w-3.5 h-3.5 text-slate-600" />
+                    <p className="text-xs"><span className="hidden sm:inline">Space</span><span className="sm:hidden">Tap</span></p>
                   </div>
                 </div>
               )}
@@ -359,7 +277,6 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           </div>
         )}
 
-        {/* Bottom bar — keyboard hints only */}
         <div className="hidden sm:flex items-center justify-between mt-4 mb-6 px-1">
           <div className="flex items-center gap-4">
             <span className="text-[10px] text-gray-700 font-mono">Space: reveal/next</span>
@@ -368,9 +285,7 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           </div>
           <div className="flex items-center gap-2">
             <Activity className="w-3 h-3 text-gray-700" />
-            <span className="text-[10px] font-mono text-gray-600 tabular-nums">
-              {cardsReviewed} / {allCards.length}
-            </span>
+            <span className="text-[10px] font-mono text-gray-600 tabular-nums">{cardsReviewed} / {allCards.length}</span>
           </div>
         </div>
       </main>
