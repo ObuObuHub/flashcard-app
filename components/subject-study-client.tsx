@@ -128,8 +128,8 @@ export function SubjectStudyClient({
               <Check className="w-7 h-7 text-green-400/60" />
             </div>
             <h2 className="text-xl font-bold text-gray-200 mb-2">Subiect parcurs</h2>
-            <p className="text-gray-400 text-sm mb-1">{subjectName}</p>
-            <p className="text-gray-500 text-xs mb-6">{flashcards.length} secțiuni revizuite</p>
+            <p className="text-gray-400 text-base mb-1">{subjectName}</p>
+            <p className="text-gray-500 text-sm mb-6">{flashcards.length} secțiuni revizuite</p>
             <div className="space-y-3">
               {nextSubjectUrl ? (
                 <Button asChild className="w-full bg-slate-700 hover:bg-slate-600 text-gray-200 border-0 h-11">
@@ -150,7 +150,7 @@ export function SubjectStudyClient({
                 </Button>
               </div>
             </div>
-            {nextSubjectName && <p className="text-[10px] text-gray-600 mt-4">Următor: {nextSubjectName}</p>}
+            {nextSubjectName && <p className="text-xs text-gray-600 mt-4">Următor: {nextSubjectName}</p>}
           </div>
         </div>
       </div>
@@ -167,14 +167,14 @@ export function SubjectStudyClient({
                 <BookOpen className="w-3.5 h-3.5 text-slate-400" />
               </div>
               <div className="min-w-0">
-                <p className="text-[10px] font-medium text-slate-500 uppercase tracking-wider leading-none mb-0.5">
+                <p className="text-xs font-medium text-slate-500 uppercase tracking-wider leading-none mb-0.5">
                   {specialityName}
                 </p>
-                <h1 className="text-xs font-semibold text-gray-300 truncate leading-none">{subjectName}</h1>
+                <h1 className="text-sm font-semibold text-gray-300 truncate leading-none">{subjectName}</h1>
               </div>
             </div>
             <div className="flex items-center gap-3 flex-shrink-0 ml-3">
-              <span className="text-[10px] font-mono text-gray-500 tabular-nums">{currentIndex + 1}/{flashcards.length}</span>
+              <span className="text-xs font-mono text-gray-500 tabular-nums">{currentIndex + 1}/{flashcards.length}</span>
               <Link href={backUrl} className="text-gray-600 hover:text-gray-400 transition-colors"><ArrowLeft className="w-4 h-4" /></Link>
             </div>
           </div>
@@ -189,17 +189,17 @@ export function SubjectStudyClient({
           <div className="px-5 py-4 border-b border-gray-800/30">
             <div className="flex items-start gap-3">
               <div className="w-1 self-stretch rounded-full bg-blue-400/20 flex-shrink-0" />
-              <p className="text-sm font-semibold text-blue-200/70 leading-relaxed">{currentCard.front}</p>
+              <p className="text-base font-semibold text-blue-200/70 leading-relaxed">{currentCard.front}</p>
             </div>
           </div>
           <div className="flex-1 flex flex-col">
             {showAnswer ? (
               <div className="px-5 py-4 bg-[#0E141C] flex-1">
-                <div className="text-sm text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/40">
+                <div className="text-base text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/40">
                   {currentCard.back}
                 </div>
                 <div className="mt-6 pt-4 border-t border-gray-800/20 flex items-center justify-center gap-2 sm:hidden">
-                  <span className="text-[10px] text-gray-600">Tap sau swipe ← pentru a continua</span>
+                  <span className="text-xs text-gray-600">Tap sau swipe ← pentru a continua</span>
                 </div>
               </div>
             ) : (
@@ -220,7 +220,7 @@ export function SubjectStudyClient({
           </Button>
           <div className="flex items-center gap-2">
             <Activity className="w-3 h-3 text-gray-700" />
-            <span className="text-[10px] font-mono text-gray-600 tabular-nums">{Math.round(progress)}%</span>
+            <span className="text-xs font-mono text-gray-600 tabular-nums">{Math.round(progress)}%</span>
           </div>
           <Button variant="ghost" size="sm" onClick={handleSmartAction}
             className="text-gray-500 hover:text-gray-300 hover:bg-gray-800/50">

@@ -115,11 +115,11 @@ export default function SubiectePage(): React.JSX.Element {
                 Subiecte Primariat
               </h1>
               <div className="flex items-center gap-3 mt-0.5">
-                <span className="text-xs text-gray-500 tabular-nums">{data.length} specialități</span>
+                <span className="text-sm text-gray-500 tabular-nums">{data.length} specialități</span>
                 <span className="text-gray-700">·</span>
-                <span className="text-xs text-gray-500 tabular-nums">{totalSubjects} subiecte</span>
+                <span className="text-sm text-gray-500 tabular-nums">{totalSubjects} subiecte</span>
                 <span className="text-gray-700">·</span>
-                <span className="text-xs text-gray-500 tabular-nums">{totalCards} întrebări</span>
+                <span className="text-sm text-gray-500 tabular-nums">{totalCards} întrebări</span>
               </div>
             </div>
           </div>
@@ -133,8 +133,8 @@ export default function SubiectePage(): React.JSX.Element {
                 <Shuffle className="w-4 h-4 text-slate-400" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-gray-300">Mod Seamless</p>
-                <p className="text-[10px] text-gray-500">Întrebări random, fără oprire — doar tap-tap-tap</p>
+                <p className="text-base font-semibold text-gray-300">Mod Seamless</p>
+                <p className="text-xs text-gray-500">Întrebări random, fără oprire — doar tap-tap-tap</p>
               </div>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-600 group-hover:text-gray-400 transition-colors" />
@@ -151,7 +151,7 @@ export default function SubiectePage(): React.JSX.Element {
               <div key={specIdx} className="bg-[#111820] border border-gray-800/40 rounded-lg p-3 text-center">
                 <Icon className={`w-4 h-4 ${config.accent} mx-auto mb-1.5`} />
                 <p className="text-lg font-bold text-gray-300 tabular-nums">{specCards}</p>
-                <p className="text-[10px] text-gray-500 uppercase tracking-wider mt-0.5 truncate">{speciality.name}</p>
+                <p className="text-xs text-gray-500 uppercase tracking-wider mt-0.5 truncate">{speciality.name}</p>
               </div>
             )
           })}
@@ -173,15 +173,15 @@ export default function SubiectePage(): React.JSX.Element {
                   <div className="flex items-center gap-3">
                     <div className={`w-2 h-2 rounded-full ${config.indicator}`} />
                     <Icon className={`w-4 h-4 ${config.accent}`} />
-                    <h2 className="text-sm font-semibold text-gray-300 uppercase tracking-wider">
+                    <h2 className="text-base font-semibold text-gray-300 uppercase tracking-wider">
                       {speciality.name}
                     </h2>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full ring-1 ${config.badge}`}>
+                    <span className={`text-xs font-medium px-2 py-0.5 rounded-full ring-1 ${config.badge}`}>
                       {speciality.subjects.length} subiecte
                     </span>
-                    <span className="text-xs text-gray-500 tabular-nums">
+                    <span className="text-sm text-gray-500 tabular-nums">
                       {specTotalCards} întrebări
                     </span>
                   </div>
@@ -199,14 +199,14 @@ export default function SubiectePage(): React.JSX.Element {
                         <span className={`text-xs font-mono ${config.accentDim} w-5 text-right flex-shrink-0 tabular-nums`}>
                           {subjIdx + 1}
                         </span>
-                        <span className="text-sm text-gray-400 truncate group-hover:text-gray-200 transition-colors">
+                        <span className="text-base text-gray-400 truncate group-hover:text-gray-200 transition-colors">
                           {subject.name}
                         </span>
                       </div>
                       <div className="flex items-center gap-2.5 flex-shrink-0 ml-3">
                         <div className="flex items-center gap-1">
                           <Activity className="w-3 h-3 text-gray-700" />
-                          <span className="text-xs text-gray-500 tabular-nums">
+                          <span className="text-sm text-gray-500 tabular-nums">
                             {subject.flashcards.length}
                           </span>
                         </div>

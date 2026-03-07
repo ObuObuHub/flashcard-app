@@ -171,14 +171,14 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
                 <Shuffle className="w-3.5 h-3.5 text-slate-400" />
               </div>
               <div>
-                <h1 className="text-xs font-semibold text-gray-300 leading-none">Mod Seamless</h1>
-                <p className="text-[10px] text-gray-600 leading-none mt-0.5">
+                <h1 className="text-sm font-semibold text-gray-300 leading-none">Mod Seamless</h1>
+                <p className="text-xs text-gray-600 leading-none mt-0.5">
                   {activeFilter || 'Toate specialitățile'} · {allCards.length} întrebări
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-2 flex-shrink-0">
-              <span className="text-[10px] font-mono text-gray-600 tabular-nums">{cardsReviewed} parcurse</span>
+              <span className="text-xs font-mono text-gray-600 tabular-nums">{cardsReviewed} parcurse</span>
               <button type="button" onClick={() => setShowFilters(f => !f)}
                 className={`w-7 h-7 rounded-md flex items-center justify-center transition-colors ${showFilters ? 'bg-slate-700/60 text-gray-300' : 'text-gray-600 hover:text-gray-400 hover:bg-gray-800/50'}`}>
                 <Filter className="w-3.5 h-3.5" />
@@ -194,7 +194,7 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           <div className="border-t border-gray-800/30 px-4 py-2.5">
             <div className="container mx-auto max-w-4xl flex flex-wrap gap-2">
               <button type="button" onClick={() => setActiveFilter(null)}
-                className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${
+                className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${
                   activeFilter === null ? 'bg-gray-700 text-gray-200 border-gray-600' : 'text-gray-500 border-gray-700 hover:border-gray-500'
                 }`}>
                 Toate
@@ -202,7 +202,7 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
               {data.map((spec) => (
                 <button key={spec.name} type="button"
                   onClick={() => setActiveFilter(spec.name === activeFilter ? null : spec.name)}
-                  className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${
+                  className={`text-xs px-2.5 py-1 rounded-full border transition-colors ${
                     activeFilter === spec.name ? (specFilterColors[spec.name] || '') : 'text-gray-500 border-gray-700 hover:border-gray-500'
                   }`}>
                   {spec.name}
@@ -223,8 +223,8 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
           <div className="bg-[#111820] border border-gray-800/40 rounded-xl min-h-[60vh] flex items-center justify-center">
             <div className="text-center">
               <Pause className="w-8 h-8 text-gray-600 mx-auto mb-3" />
-              <p className="text-sm text-gray-400 mb-1">Pauză</p>
-              <p className="text-[10px] text-gray-600">
+              <p className="text-base text-gray-400 mb-1">Pauză</p>
+              <p className="text-xs text-gray-600">
                 <span className="hidden sm:inline">P sau Space</span><span className="sm:hidden">Tap</span> pentru a continua
               </p>
               <button type="button" onClick={() => setIsPaused(false)}
@@ -239,18 +239,18 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
             <div className="px-5 py-3 flex flex-col gap-1 border-b border-gray-800/30">
               <div className="flex items-center gap-2">
                 <div className={`w-2 h-2 rounded-full flex-shrink-0 ${specDotColors[currentCard.speciality] || 'bg-gray-500/40'}`} />
-                <span className={`text-xs font-semibold uppercase tracking-wider ${specTextColors[currentCard.speciality] || 'text-gray-400/60'}`}>
+                <span className={`text-sm font-semibold uppercase tracking-wider ${specTextColors[currentCard.speciality] || 'text-gray-400/60'}`}>
                   {currentCard.speciality}
                 </span>
               </div>
-              <p className="text-sm text-gray-400 leading-snug pl-4">{currentCard.subject}</p>
+              <p className="text-base text-gray-400 leading-snug pl-4">{currentCard.subject}</p>
             </div>
 
             {/* Question */}
             <div className="px-5 py-4 border-b border-gray-800/30">
               <div className="flex items-start gap-3">
                 <div className="w-1 self-stretch rounded-full bg-blue-400/20 flex-shrink-0" />
-                <p className="text-sm font-semibold text-blue-200/70 leading-relaxed">{currentCard.front}</p>
+                <p className="text-base font-semibold text-blue-200/70 leading-relaxed">{currentCard.front}</p>
               </div>
             </div>
 
@@ -258,11 +258,11 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
             <div className="flex-1 flex flex-col">
               {showAnswer ? (
                 <div className="px-5 py-4 bg-[#0E141C] flex-1">
-                  <div className="text-sm text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/40">
+                  <div className="text-base text-gray-300 whitespace-pre-wrap leading-relaxed pl-4 border-l-2 border-gray-800/40">
                     {currentCard.back}
                   </div>
                   <div className="mt-6 pt-4 border-t border-gray-800/20 flex items-center justify-center sm:hidden">
-                    <span className="text-[10px] text-gray-600">Tap pentru următoarea întrebare</span>
+                    <span className="text-xs text-gray-600">Tap pentru următoarea întrebare</span>
                   </div>
                 </div>
               ) : (
@@ -279,13 +279,13 @@ export function SeamlessStudyClient({ data }: SeamlessStudyClientProps): React.J
 
         <div className="hidden sm:flex items-center justify-between mt-4 mb-6 px-1">
           <div className="flex items-center gap-4">
-            <span className="text-[10px] text-gray-700 font-mono">Space: reveal/next</span>
-            <span className="text-[10px] text-gray-700 font-mono">F: filtre</span>
-            <span className="text-[10px] text-gray-700 font-mono">P: pauză</span>
+            <span className="text-xs text-gray-700 font-mono">Space: reveal/next</span>
+            <span className="text-xs text-gray-700 font-mono">F: filtre</span>
+            <span className="text-xs text-gray-700 font-mono">P: pauză</span>
           </div>
           <div className="flex items-center gap-2">
             <Activity className="w-3 h-3 text-gray-700" />
-            <span className="text-[10px] font-mono text-gray-600 tabular-nums">{cardsReviewed} / {allCards.length}</span>
+            <span className="text-xs font-mono text-gray-600 tabular-nums">{cardsReviewed} / {allCards.length}</span>
           </div>
         </div>
       </main>
